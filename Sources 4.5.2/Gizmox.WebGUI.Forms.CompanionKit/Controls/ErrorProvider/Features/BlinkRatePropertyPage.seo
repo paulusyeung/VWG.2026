@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="100" Status="Draft" Type="Page" Height="100">
+  <Title>BlinkRate Property</Title>
+  <Properties />
+  <DisplayName>BlinkRate Property</DisplayName>
+  <Description>The examples demonstrates how to set icons blinking rate of the ErrorProvider</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="BlinkRatePropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BlinkRatePropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BlinkRatePropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BlinkRatePropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BlinkRatePropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ErrorProvider</Keyword>
+    <Keyword>BlinkRate</Keyword>
+    <Keyword>Blink Rate</Keyword>
+    <Keyword>Blink</Keyword>
+    <Keyword>Rate</Keyword>
+  </Keywords>
+  <Comment>Pending issue:
+http://support.visualwebgui.com/issue/ViewIssue.aspx?id=8862</Comment>
+  <PageType>CompanionKit.Controls.ErrorProvider.Features.BlinkRatePropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

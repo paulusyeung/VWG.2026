@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135238671315849" UpdatedBy="admin" UpdatedOn="634135239492101245">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The top <em>DataGridView </em>allows resizing columns and rows. Move mouse cursor between column or row headers and its view will be change to indicate that user can change size of column or row. Press the mouse button and move mouse up or down (left or right).<br />The bottom <em>DataGridView </em>forbid to allows resizing columns and rows. You will be unable to resize columns or rows for this <em>DataGridView</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DataGridView </em>contains <em>AllowUserToResizeColumns </em>and <em>AllowUserToResizeRows</em> properties that define whether user will be able resize columns or rows through drag and drop in Run-Time. The <em>AllowUserToResizeColumns </em>property indicates whether users can resize columns. The <em>AllowUserToResizeRows </em>property indicates whether users can resize rows.</p>]]></Paragraph>
+  </Nodes>
+</Data>

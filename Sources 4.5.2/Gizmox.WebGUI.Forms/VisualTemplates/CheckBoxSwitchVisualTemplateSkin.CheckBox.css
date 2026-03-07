@@ -1,0 +1,77 @@
+.CheckBox-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]	
+}
+
+.CheckBox-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.CheckBox-Control_Focus
+{
+    [Skin.ControlFocusedStyle];
+}
+
+.CheckBox-Label
+{
+    [Skin.Foreground];
+    [Skin.Font];
+    [Skin.LabelNormalStyle];
+}
+
+.CheckBox-Wrapper
+{
+    [Skin.CheckBoxWrapperStyle];
+    display: block;
+    overflow: hidden;
+    height:100%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    cursor: pointer;
+}
+
+.CheckBox-StateLabel
+{
+    width: 200%;
+    height: 100%;
+    [Skin.CheckBoxStateLabelStyle];
+}
+
+.CheckBox-StateLabel:before, .CheckBox-StateLabel:after
+{
+    float: left;
+    width: 50%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.CheckBox-StateLabel:before
+{
+    height:100%;
+    content: attr(data-on);
+    [Skin.CheckBoxStateLabelBeforeStyle];
+    background-size:100% 100%;
+}
+
+.CheckBox-StateLabel:after
+{
+    height:100%;
+    content: attr(data-off);
+    text-align: right;
+    [Skin.CheckBoxStateLabelAfterStyle];
+    background-size:100% 100%;
+}
+
+.CheckBox-Switch
+{
+    [Skin.CheckBoxSwitchStyle];
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0px;
+    background-size:100% 100%;
+}

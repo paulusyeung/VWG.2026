@@ -1,0 +1,42 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Gizmox.WebGUI.Forms.TreeViewCancelEventArgs
+// Assembly: Gizmox.WebGUI.Forms, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=c508b41386c60f1d
+// MVID: D9031956-0D2D-4DB7-BDA0-E996D0722B6C
+// Assembly location: C:\Program Files (x86)\Gizmox\Visual WebGUI\SDK 4.5.2\Assemblies\Gizmox.WebGUI.Forms.dll
+// XML documentation location: C:\Program Files (x86)\Gizmox\Visual WebGUI\SDK 4.5.2\Assemblies\Gizmox.WebGUI.Forms.xml
+
+using System;
+using System.ComponentModel;
+
+namespace Gizmox.WebGUI.Forms
+{
+  /// <summary>
+  /// 
+  /// </summary>
+  [Serializable]
+  public class TreeViewCancelEventArgs : CancelEventArgs
+  {
+    private TreeViewAction menmAction;
+    private TreeNode mobjTreeNode;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public TreeViewCancelEventArgs(TreeNode objTreeNode, bool blnCancel, TreeViewAction enmAction)
+      : base(blnCancel)
+    {
+      this.mobjTreeNode = objTreeNode;
+      this.menmAction = enmAction;
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public TreeViewAction Action => this.menmAction;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public TreeNode Node => this.mobjTreeNode;
+  }
+}

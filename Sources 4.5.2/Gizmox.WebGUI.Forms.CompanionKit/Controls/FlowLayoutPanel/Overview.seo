@@ -1,0 +1,37 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>FlowLayoutPanel</Keyword>
+    <Keyword>Flow</Keyword>
+    <Keyword>Layout</Keyword>
+    <Keyword>Panel</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/FlowLayoutPanel.Lobby.png'/&gt;
+&lt;div&gt;The Visual WebGui &lt;span style="color:#00ccff"&gt;FlowLayoutPanel&lt;/span&gt; control represents a panel that dynamically lays out its contents horizontally or vertically.
+
+The &lt;span style="color:#00ccff"&gt;FlowLayoutPanel&lt;/span&gt; control arranges its contents in a horizontal or vertical flow direction. Its contents can be wrapped from one row to the next, or from one column to the next. Alternatively, its contents can be clipped instead of wrapped.
+
+You can specify the flow direction by setting the value of the &lt;a style="color:#00ccff;cursor:pointer;text-decoration:underline;" href="http://companionkit.visualwebgui.com/Controls/FlowLayoutPanel/Functionality/FlowDirectionPage.wgx"&gt;FlowDirection property&lt;/a&gt;. The &lt;span style="color:#00ccff"&gt;FlowLayoutPanel&lt;/span&gt; control correctly reverses its flow direction in right-to-left (RTL) layouts. You can also specify whether the contents of the &lt;span style="color:#00ccff"&gt;FlowLayoutPanel&lt;/span&gt; control are wrapped or clipped by setting the value of the &lt;a style="color:#00ccff;cursor:pointer;text-decoration:underline;" href="http://companionkit.visualwebgui.com/Controls/FlowLayoutPanel/Functionality/WrapContentsPage.wgx"&gt;WrapContents&lt;/a&gt;.
+
+Any Visual WebGui Forms control, including other instances of &lt;span style="color:#00ccff"&gt;FlowLayoutPanel&lt;/span&gt;, can be a child of the &lt;span style="color:#00ccff"&gt;FlowLayoutPanel&lt;/span&gt; control. With this capability, you can construct sophisticated layouts that adapt to your form's dimensions at run time.
+
+&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The &lt;span style="color:#00ccff"&gt;FlowLayoutPanel&lt;/span&gt; control is one of the Out of the Box standard controls, which means it is free and available in all Visual WebGui versions.&lt;/div&gt;</PreText>
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Section="Section-01">
+      <Style linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

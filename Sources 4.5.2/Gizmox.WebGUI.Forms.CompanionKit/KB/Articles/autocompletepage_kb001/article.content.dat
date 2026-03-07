@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110912247080915" UpdatedBy="admin" UpdatedOn="634147065796370532">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>Select 'AutoCompleteMode' item&nbsp;to change&nbsp;<em>AutoCompleteMode&nbsp;</em>property value.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p><em>AutoCompleteMode</em> property gets or sets an option that controls how automatic completion works for the <em>ComboBox</em>.<br /><br />There are&nbsp;following modes:<br /><em><br />None </em>- disables the automatic completion feature for the <em>ComboBox </em>and <em>TextBox </em>controls<br /><em>Suggest </em>- displays the auxiliary drop-down list associated with the edit control. This drop-down is populated with one or more suggested completion strings<br /><em>Append </em>- appends the remainder of the most likely candidate string to the existing characters, highlighting the appended characters<br /><em>SuggestAppend </em>- applies both <em>Suggest </em>and <em>Append </em>options. <br /><br />You can select different <em>AutoComplete </em>mode in 'AutoCompleteMode' <em>ComboBox. <br /></em>When you begin to enter a value in 'AutoCompleted ComboBox' <em>ComboBox</em>, you wil see different behavior.</p><p><br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

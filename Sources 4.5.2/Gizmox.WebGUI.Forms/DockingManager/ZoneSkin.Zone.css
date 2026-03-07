@@ -1,0 +1,169 @@
+.Zone-LeftColumn
+{
+	width:[Skin.LeftColumnWidth]px;
+}
+.Zone-MiddleColumn
+{
+	width:[Skin.MiddleColumnWidth]px;	
+}
+.Zone-RightColumn
+{
+	width:[Skin.RightColumnWidth]px;		
+}
+.Zone-TopRowHeight
+{
+	height:[Skin.TopRowHeight]px;
+}
+.Zone-MiddleRowHeight
+{
+	height:[Skin.MiddleRowHeight]px;
+}
+.Zone-BottomRowHeight
+{
+	height:[Skin.BottomRowHeight]px;
+}
+
+.Zone-TopIndicator
+{
+	[Skin.TopDockIndicator];
+	width:[Skin.TopDockIndicatorWidth]px;
+	height:[Skin.TopDockIndicatorHeight]px;
+}
+.Zone-TopIndicator_Hover
+{
+	[Skin.TopDockIndicatorHover];
+	width:[Skin.TopDockIndicatorWidth]px;
+	height:[Skin.TopDockIndicatorHeight]px;
+}
+
+.Zone-RightIndicator
+{
+	[Skin.RightDockIndicator];
+	width:[Skin.RightDockIndicatorWidth]px;
+	height:[Skin.RightDockIndicatorHeight]px;
+}
+.Zone-RightIndicator_Hover
+{
+	[Skin.RightDockIndicatorHover];
+	width:[Skin.RightDockIndicatorWidth]px;
+	height:[Skin.RightDockIndicatorHeight]px;
+}
+
+.Zone-BottomIndicator
+{
+	[Skin.BottomDockIndicator];
+	width:[Skin.BottomDockIndicatorWidth]px;
+	height:[Skin.BottomDockIndicatorHeight]px;
+}
+.Zone-BottomIndicator_Hover
+{
+	[Skin.BottomDockIndicatorHover];
+	width:[Skin.BottomDockIndicatorWidth]px;
+	height:[Skin.BottomDockIndicatorHeight]px;
+}
+
+.Zone-LeftIndicator
+{
+	[Skin.LeftDockIndicator];
+	width:[Skin.LeftDockIndicatorWidth]px;
+	height:[Skin.LeftDockIndicatorHeight]px;
+}
+.Zone-LeftIndicator_Hover
+{
+	[Skin.LeftDockIndicatorHover];
+	width:[Skin.LeftDockIndicatorWidth]px;
+	height:[Skin.LeftDockIndicatorHeight]px;
+}
+
+.Zone-CenterIndicator
+{
+	[Skin.CenterDockIndicator];
+	width:[Skin.CenterDockIndicatorWidth]px;
+	height:[Skin.CenterDockIndicatorHeight]px;
+}
+.Zone-CenterIndicator_Hover
+{
+	[Skin.CenterDockIndicatorHover];
+	width:[Skin.CenterDockIndicatorWidth]px;
+	height:[Skin.CenterDockIndicatorHeight]px;
+}
+
+.Zone-ArrowsClass_top
+{
+	[Skin.ArrowScrollerTopNormalStyle]
+}
+
+.Zone-ArrowsClass_top_Enter
+{
+    [Skin.ArrowScrollerTopHoverStyle]
+}
+
+.Zone-ArrowsClass_top_Down
+{
+    [Skin.ArrowScrollerTopPressedStyle]
+}
+
+.Zone-ArrowsClass_top_Disabled
+{
+    [Skin.ArrowScrollerTopDisabledStyle]
+}
+
+.Zone-ArrowsClass_right
+{
+	[Skin.ArrowScrollerRightNormalStyle]
+}
+
+.Zone-ArrowsClass_right_Enter
+{
+    [Skin.ArrowScrollerRightHoverStyle]
+}
+
+.Zone-ArrowsClass_right_Down
+{
+    [Skin.ArrowScrollerRightPressedStyle]
+}
+
+.Zone-ArrowsClass_right_Disabled
+{
+    [Skin.ArrowScrollerRightDisabledStyle]
+}
+
+.Zone-ArrowsClass_bottom
+{
+	[Skin.ArrowScrollerBottomNormalStyle]
+}
+
+.Zone-ArrowsClass_bottom_Enter
+{
+    [Skin.ArrowScrollerBottomHoverStyle]
+}
+
+.Zone-ArrowsClass_bottom_Down
+{
+    [Skin.ArrowScrollerBottomPressedStyle]
+}
+
+.Zone-ArrowsClass_bottom_Disabled
+{
+    [Skin.ArrowScrollerBottomDisabledStyle]
+}
+
+.Zone-ArrowsClass_left
+{
+	[Skin.ArrowScrollerLeftNormalStyle]
+}
+
+.Zone-ArrowsClass_left_Enter
+{
+    [Skin.ArrowScrollerLeftHoverStyle]
+}
+
+.Zone-ArrowsClass_left_Down
+{
+    [Skin.ArrowScrollerLeftPressedStyle]
+}
+
+.Zone-ArrowsClass_left_Disabled
+{
+    [Skin.ArrowScrollerLeftDisabledStyle]
+}

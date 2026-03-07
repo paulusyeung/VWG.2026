@@ -1,0 +1,19 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Demonstration of Validation Form with using performClientEvent and eventArgs client methods</Title>
+  <Properties />
+  <DisplayName>Input data validation</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>ClientDOM</Keyword>
+    <Keyword>performClientEvent</Keyword>
+    <Keyword>eventArgs</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.ValidationForm.Overview</DefaultPage>
+</Item>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Properties>
+    <DisplayName>everyone</DisplayName>
+  </Properties>
+  <Nodes>
+   <Permission Code="articles.create" />
+  </Nodes>
+</Data>

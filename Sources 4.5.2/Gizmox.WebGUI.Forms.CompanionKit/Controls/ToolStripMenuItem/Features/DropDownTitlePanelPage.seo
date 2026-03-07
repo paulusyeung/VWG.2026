@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Demonstraion of using DropDown Title Panel</Title>
+  <Properties />
+  <DisplayName>DropDown Title Panel</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DropDownTitlePanelPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DropDownTitlePanelPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DropDownTitlePanelPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DropDownTitlePanelPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DropDownTitlePanelPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ToolStripMenuItem</Keyword>
+    <Keyword>HeaderPanel</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ToolStripMenuItem.Features.DropDownTitlePanelPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

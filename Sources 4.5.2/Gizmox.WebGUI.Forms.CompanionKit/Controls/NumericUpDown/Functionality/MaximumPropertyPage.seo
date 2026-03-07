@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="102" Status="Publish" Type="Page">
+  <Title>Maximum Property</Title>
+  <Properties />
+  <DisplayName>Maximum Property</DisplayName>
+  <Description>The example demonstrates how to limit upper bound of the Visual WebGui NumericUpDown.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MaximumPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaximumPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaximumPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaximumPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaximumPropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>NumericUpDown</Keyword>
+    <Keyword>Maximum</Keyword>
+    <Keyword>Value</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.NumericUpDown.Functionality.MaximumPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

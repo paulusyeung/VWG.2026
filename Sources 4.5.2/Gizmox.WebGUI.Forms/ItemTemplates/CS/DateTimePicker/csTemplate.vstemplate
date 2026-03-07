@@ -1,0 +1,18 @@
+﻿<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>MyDateTimePicker.cs</DefaultName>
+    <Name>Visual WebGui Skinable DateTimePicker</Name>
+    <Description>An item template for creating a Visual WebGui skinable DateTimePicker.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>DateTimePicker.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">DateTimePicker1.cs</ProjectItem>
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$Skin.cs" ReplaceParameters="true">DateTimePickerSkin1.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.DateTimePicker.css" ReplaceParameters="true">DateTimePickerSkin1.DateTimePicker.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.DateTimePicker.xslt" ReplaceParameters="true">DateTimePickerSkin1.DateTimePicker.xslt</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Skin.resx" ReplaceParameters="true">DateTimePickerSkin1.resx</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

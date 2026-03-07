@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634109902441410133" UpdatedBy="admin" UpdatedOn="634117967699532967">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement4"><![CDATA[<p>Click on the <em>Button</em> and <em>DropDown </em>menu will be opened. Clicking on each menu item and the message 'Menu Item has been clicked!' will be shown.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement5"><![CDATA[<p>The Visual WebGui <em>Button </em>contains the <em>DropDownMenu </em>property that defines shortcut on the <em>ContextMenu</em>. The assigned menu  that are opened with click on the button.</p>]]></Paragraph>
+    <Paragraph Code="ParagraphElement3" />
+    <Paragraph Code="ParagraphElement2" />
+    <Paragraph Code="ParagraphElement1" />
+  </Nodes>
+</Data>

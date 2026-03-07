@@ -1,0 +1,16 @@
+<Item SiteMap="True" Order="1" Status="Publish" Type="Article">
+  <Title>RibbonBar Object Model Overview</Title>
+  <Properties />
+  <DisplayName>Object Model Overview</DisplayName>
+  <Description>The article describes API available for RibbonBar control. The overview of object model is essential for understanding how to use the control in an application.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>API</Keyword>
+    <Keyword>Diagram</Keyword>
+    <Keyword>UML</Keyword>
+    <Keyword>Overview</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Code>rbapioverview</Code>
+</Item>

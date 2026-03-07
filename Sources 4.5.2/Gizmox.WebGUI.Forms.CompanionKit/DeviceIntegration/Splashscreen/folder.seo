@@ -1,0 +1,15 @@
+<Item SiteMap="False" Order="100" Status="Draft" Type="Folder" HasLobby="False">
+    <Title>Splashscreen</Title>
+    <Properties />
+    <DisplayName>Splashscreen</DisplayName>
+    <Description>Contains sample apps that demonstrate how to use Splashscreen</Description>
+    <Resources />
+    <Keywords>
+        <Keyword>Splashscreen</Keyword>
+    </Keywords>
+    <Comment>
+    </Comment>
+    <Sections />
+    <Body />
+    <DefaultPage>item:CompanionKit.DeviceIntegration.Splashscreen.Example</DefaultPage>
+</Item>

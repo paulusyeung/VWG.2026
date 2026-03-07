@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="104" Status="Draft" Type="Page" Height="150">
+  <Title>MessageBox Options Enumeration</Title>
+  <Properties />
+  <DisplayName>Options</DisplayName>
+  <Description>MessageBoxOptions Enumeration Allows the user to choose one of various options common in MessageBoxes</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxOptionsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxOptionsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxOptionsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxOptionsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxOptionsPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>MessageBoxOptions</Keyword>
+    <Keyword>MessageBox</Keyword>
+    <Keyword>Options</Keyword>
+  </Keywords>
+  <Comment>Draft pending issue:
+http://support.visualwebgui.com/issue/ViewIssue.aspx?id=8622</Comment>
+  <PageType>CompanionKit.Controls.MessageBoxControl.Functionality.MessageBoxOptionsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

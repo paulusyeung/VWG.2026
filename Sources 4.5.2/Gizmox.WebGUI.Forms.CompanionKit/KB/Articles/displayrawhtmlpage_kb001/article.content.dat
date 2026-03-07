@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634139427064933554" UpdatedBy="admin" UpdatedOn="634139427666191250">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains HTMLBox with defined 'Html' property value. The 'Html' property contains raw HTML content.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui HTMLBox control contains 'Html' property that defined a raw HTML content for displaying.</p>]]></Paragraph>
+  </Nodes>
+</Data>

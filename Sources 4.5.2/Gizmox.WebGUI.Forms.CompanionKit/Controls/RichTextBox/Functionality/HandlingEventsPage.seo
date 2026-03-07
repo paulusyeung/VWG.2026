@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="102" Status="Publish" Type="Page">
+  <Title>How to handle HtmlChange event</Title>
+  <Properties />
+  <DisplayName>Handling Events</DisplayName>
+  <Description>The example demonstrates how to handle HtmlChange event</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HandlingEventsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HandlingEventsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HandlingEventsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HandlingEventsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HandlingEventsPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>RichTextBox</Keyword>
+    <Keyword>HtmlChanged</Keyword>
+    <Keyword>Event</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.RichTextBox.Functionality.HandlingEventsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

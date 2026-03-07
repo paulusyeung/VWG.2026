@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634401122946639475" UpdatedBy="admin" UpdatedOn="634407306908348915">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select one of the <em>ComboBox </em>items which represent various environment folders. The selected item would represent the the root&nbsp;folder from which the browsing would start.<br />Press <strong>'Browse' </strong>button to open the dialog.<br />Selected path will be displayed under the <em>ComboBox </em>control.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <strong>FolderBrowserDialog </strong>control contains the&nbsp;<em>RootFolder </em>property which can be used for setting the root directory for dialog window.</p><p>The property type is <em>System.Environment.SpecialFolder</em>.</p>]]></Paragraph>
+  </Nodes>
+</Data>

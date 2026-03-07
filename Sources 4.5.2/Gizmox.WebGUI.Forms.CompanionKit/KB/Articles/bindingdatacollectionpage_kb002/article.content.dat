@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135244427273060" UpdatedBy="admin" UpdatedOn="634135245104621845">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The demonstrated <em>DataGridView </em>contains DataSource as List of Customer objects that contains 'ID', 'FirstName', 'LastName', 'FullName' 'FavoriteColor' and other public properties.  Relation between object property and column is set by 'DataPropertyName' property of its column. DataGridView automatically generates columns for each pubic property of binding object if its AutoGenerateColumns property is set to 'true'.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui DataGridView contains the following properties for working with data:<br /><em>DataSource </em>&ndash; defines the data source that the connector binds to;<br /><em>DataMember </em>- specifies the name of the list of data that the data-bound control binds to when the data source contains more than one distinct list of data items.<br /><em>AutoGenerateColumns </em>&ndash;indicates whether auto column generation is active when using data binding. If the property is set to true the <em>DataGridView </em>will automatically generate columns for each column of binded table column.</p>]]></Paragraph>
+  </Nodes>
+</Data>

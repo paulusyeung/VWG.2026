@@ -1,0 +1,15 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains the example that demonstrates updating status of load process.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>StatusBar</Keyword>
+    <Keyword>Features</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.StatusBar.Features.ShowPageStatusPage</DefaultPage>
+  <Body />
+</Item>

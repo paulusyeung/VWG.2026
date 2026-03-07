@@ -1,0 +1,20 @@
+.TrackBar-Control
+{
+      [Skin.VisualEffect];
+}
+
+.TrackBar-Input
+{
+    margin:0px;
+    padding:0px;
+    [Skin.Foreground];
+    [Skin.Background];
+	[Skin.Font];
+}
+
+.TrackBar-Input_Disabled
+{
+    [Skin.ControlTextForegroundDisabled];
+    [Skin.ControlTextBackgroundDisabled];
+    [Skin.ControlTextFontDisabled];
+}

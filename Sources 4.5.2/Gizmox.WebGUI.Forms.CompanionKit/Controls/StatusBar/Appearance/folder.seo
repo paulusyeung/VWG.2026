@@ -1,0 +1,16 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Appearance</Title>
+  <Properties />
+  <DisplayName>Appearance</DisplayName>
+  <Description>Contains example that demonstrates how to change appearance of a StatusBar control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>StatusBar</Keyword>
+    <Keyword>Appearance</Keyword>
+    <Keyword>Font</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.StatusBar.Appearance.DifferentAppearancePage</DefaultPage>
+  <Body />
+</Item>

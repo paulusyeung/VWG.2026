@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Example of using OfflineMode in VWG apps.</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OfflineModeForm.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OfflineModeForm.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OfflineModeForm.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OfflineModeForm.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OfflineModeForm.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OfflineModeForm.Client.js" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OfflineModeWeb.config" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Resources\Images\OfflineMode.png" Order="104" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Resources\Images\OnlineMode.png" Order="105" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>OfflineMode</Keyword>
+    <Keyword>Preload</Keyword>
+    <Keyword>OfflineConfirming</Keyword>
+    <Keyword>OfflineInitialize</Keyword>
+    <Keyword>ClientPreload</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Concepts.OfflineMode.OfflineModePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

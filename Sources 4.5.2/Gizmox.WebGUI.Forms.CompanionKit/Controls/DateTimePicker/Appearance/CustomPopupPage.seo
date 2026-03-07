@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Custom Popup</Title>
+  <Properties />
+  <DisplayName>Custom Popup</DisplayName>
+  <Description>The example demonstrates how to set up custom popup in DateTimePicker.</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomPopupPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomPopupPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomPopupPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomPopupPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomPopupPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DTPBackground.jpg" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DateTimePicker</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>Popup</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DateTimePicker.Appearance.CustomPopupPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

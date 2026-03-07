@@ -1,0 +1,14 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ComponentOne TreeView</Title>
+  <Properties />
+  <DisplayName>ComponentOne TreeView</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.AspNetWrappers.C1TreeView.C1TreeViewPage</DefaultPage>
+</Item>

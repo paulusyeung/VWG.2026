@@ -1,0 +1,20 @@
+﻿<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Battery events example</Title>
+  <Properties />
+  <DisplayName>Battery Events</DisplayName>
+  <Description>Demonstrates how to use Battery events.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ExampleBattery.cs" Order="1" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExampleBattery.Designer.cs" Order="2" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExampleBattery.resx" Order="3" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BatteryControl.cs" Order="5" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BatteryControl.Designer.cs" Order="6" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BatteryControl.resx" Order="7" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Battery events</Keyword>    
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.DeviceIntegration.DeviceEvents.Events.ExampleBattery, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

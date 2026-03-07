@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>RTF file import</Title>
+  <Properties />
+  <DisplayName>RTF file import</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="RTFImportPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="RTFImportPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="RTFImportPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="RTFImportPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="RTFImportPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Sample.rtf" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Scenario.rtf" Order="104" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="List.rtf" Order="105" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>RichTextEditor</Keyword>
+    <Keyword>RTF</Keyword>
+    <Keyword>Import</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.RichTextEditor.Functionality.RTFImportPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

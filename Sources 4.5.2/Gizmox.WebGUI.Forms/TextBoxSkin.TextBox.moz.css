@@ -1,0 +1,12 @@
+.TextBox-TableContainer
+{
+	-webkit-user-select:auto;	
+}
+
+.TextBox-Input_Disabled
+{
+    -webkit-user-select:none;
+    -moz-user-select: none;
+    [Skin.ControlTextFontDisabled];
+    [Skin.ControlTextForegroundDisabled];
+}

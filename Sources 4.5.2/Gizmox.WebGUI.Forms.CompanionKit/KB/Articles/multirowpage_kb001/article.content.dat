@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634158365599847306" UpdatedBy="admin" UpdatedOn="634274987470805360">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains TabControl with displayed tabs in one row.</p><p>Check the 'Multiline' checkbox to see how the TabControl orders the tabs in one and multiples rows.</p><p>Click on <img height="16" width="16" align="top" alt="Back scroll button" src="/KB/Articles/multirowpage_kb001/back.png" /> and <img height="16" width="16" align="top" alt="Forward scroll button" src="/KB/Articles/multirowpage_kb001/forward.png" /> buttons to scroll tab pages.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui TabControl contains the Multiline property that indicates how to order tabs - in multiple or single row.</p>]]></Paragraph>
+  </Nodes>
+</Data>

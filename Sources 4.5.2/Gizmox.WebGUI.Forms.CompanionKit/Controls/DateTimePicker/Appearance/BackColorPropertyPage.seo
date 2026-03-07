@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="165">
+  <Title>BackColor Property</Title>
+  <Properties />
+  <DisplayName>BackColor Property</DisplayName>
+  <Description>The example demonstrates how to change background color of a Visual WebGui DateTimePicker.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="BackColorPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BackColorPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BackColorPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BackColorPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BackColorPropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DateTimePicker</Keyword>
+    <Keyword>BackColor</Keyword>
+    <Keyword>Background</Keyword>
+    <Keyword>Color</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DateTimePicker.Appearance.BackColorPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

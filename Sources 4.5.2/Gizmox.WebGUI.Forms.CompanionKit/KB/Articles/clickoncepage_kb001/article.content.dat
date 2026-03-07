@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634109874334206189" UpdatedBy="admin" UpdatedOn="634117964986407967">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>Check the <em>CheckBox </em>and click two and more times on the <em>Button </em>and the message 'Button has been clicked!'&nbsp;will be &nbsp;shown only for the first click. Uncheck the <em>CheckBox </em>and click two and more times on the <em>Button </em>and the message 'Button has been clicked!'&nbsp;will be&nbsp;shown for each click.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>The Visual WebGui  Button contains ClickOnce property that indicates whether the Button can be clicked only once.</p>]]></Paragraph>
+    <Paragraph Code="ParagraphElement1" />
+  </Nodes>
+</Data>

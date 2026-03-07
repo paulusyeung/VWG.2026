@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634086865307566397" UpdatedBy="admin" UpdatedOn="634090175645410002">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check/Uncheck the 'Up-Down button' CheckBox. If the CheckBox is checked the <em>DateTimePicker </em>will use a spin button control to adjust the date/time value. Otherwise, <em>DateTimePicker </em>will use Month calendar drop-down to adjust the date/time value.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DateTimePicker </em>mouse date navigation can be done either by Month calendar drop-down or by a spin button. It can be defined with the <em>ShowUpDown </em>property. The property indicates whether a spin button control (also known as an up-down control) is used to adjust the date/time value.</p>]]></Paragraph>
+  </Nodes>
+</Data>

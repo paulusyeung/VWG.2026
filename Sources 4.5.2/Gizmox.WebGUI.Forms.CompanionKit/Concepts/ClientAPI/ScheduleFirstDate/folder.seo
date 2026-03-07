@@ -1,0 +1,18 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ScheduleBox FirstDate functionality</Title>
+  <Properties />
+  <DisplayName>ScheduleBox FirstDate</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgScheduleBox</Keyword>
+    <Keyword>firstDate</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.ScheduleFirstDate.Overview</DefaultPage>
+</Item>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634088385035221002" UpdatedBy="admin" UpdatedOn="634088386130860026">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change value in the 'Incremental' <em>NumericUpDown </em>and change value in the demonstrated <em>NumericUpDown </em>by up or down buttons. Its value will be changed according to entered value of the 'Incremental' <em>NumericUpDown</em></p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>NumericUpDown </em>contains the <em>Increment </em>property that defines increment or decrement value of the spin box (also known as an up-down control) when the up or down buttons are clicked.</p>]]></Paragraph>
+  </Nodes>
+</Data>

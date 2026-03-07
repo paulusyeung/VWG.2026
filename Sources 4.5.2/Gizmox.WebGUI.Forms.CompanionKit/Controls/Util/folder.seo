@@ -1,0 +1,20 @@
+<Item SiteMap="False" Order="100" Status="Draft" Type="Folder" HasLobby="True">
+  <Title>Util</Title>
+  <Properties />
+  <DisplayName>Util</DisplayName>
+  <Description>The folder is used for additional class</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="True" Name="CustomerData.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="Customer.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="Customer.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="CustomerData.vb" Order="100" Lang="VBNET" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Util</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>
+  </DefaultPage>
+  <Body />
+</Item>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634112687060429043" UpdatedBy="admin" UpdatedOn="634112688519657132">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click with the right button of the mouse on the <em>GroupBox </em>and <em>ContextMenu </em>will be opened.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>GroupBox </em>contains <em>ContextMenu </em>property that represents the shortcut menu associated with the control. This propety is defined for 'Group Box with context menu' <em>GroupBox</em>.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

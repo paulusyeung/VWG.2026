@@ -1,0 +1,30 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to catch form activating</Title>
+  <Properties />
+  <DisplayName>Activate handling</DisplayName>
+  <Description>The example demonstrates how to catch form activating</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ActivateHandlingPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ActivateHandlingPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ActivateHandlingPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ActivateHandlingPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ActivateHandlingPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ActivatingForm.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ActivatingForm.designer.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ActivatingForm.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ActivatingForm.designer.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ActivatingForm.resx" Order="105" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Form</Keyword>
+    <Keyword>Activated</Keyword>
+    <Keyword>Deactivate</Keyword>
+    <Keyword>Event</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Form.Programming.ActivateHandlingPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

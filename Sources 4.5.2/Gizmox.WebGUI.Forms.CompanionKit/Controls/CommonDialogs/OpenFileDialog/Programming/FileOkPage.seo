@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="104" Status="Publish" Type="Page">
+  <Title>FileOk Event</Title>
+  <Properties />
+  <DisplayName>FileOk Event</DisplayName>
+  <Description>The example demonstrates how to handle FileOk event of the OpenFileDialog dialog box.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="FileOkPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FileOkPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FileOkPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FileOkPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FileOkPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>OpenFileDialog</Keyword>
+    <Keyword>FileOk</Keyword>
+    <Keyword>Closed</Keyword>
+    <Keyword>Event</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.OpenFileDialog.Programming.FileOkPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

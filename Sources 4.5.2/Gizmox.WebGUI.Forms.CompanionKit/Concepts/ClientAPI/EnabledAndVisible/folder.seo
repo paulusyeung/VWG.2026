@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Enabled and Visible properties</Title>
+  <Properties />
+  <DisplayName>Enabled and Visible</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>enabled</Keyword>
+    <Keyword>visible</Keyword>
+    <Keyword>vwgCntrol</Keyword>
+    <Keyword>vwgCheckBox</Keyword>
+    <Keyword>checked</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.EnabledAndVisible.Overview</DefaultPage>
+</Item>

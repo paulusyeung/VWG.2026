@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="150">
+  <Title>TreeView Image List</Title>
+  <Properties />
+  <DisplayName>TreeView Image List</DisplayName>
+  <Description>The example demonstrates how to use ImageList control to set images for TreeView nodes </Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="TreeViewImageListPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TreeViewImageListPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TreeViewImageListPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TreeViewImageListPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TreeViewImageListPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ImageList</Keyword>
+    <Keyword>TreeView</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>List</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ImageListFolder.Programming.TreeViewImageListPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

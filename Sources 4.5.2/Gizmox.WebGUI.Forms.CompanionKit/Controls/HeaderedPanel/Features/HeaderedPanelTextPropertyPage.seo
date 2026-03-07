@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Draft" Type="Page">
+  <Title>Text Property</Title>
+  <Properties />
+  <DisplayName>Text Property</DisplayName>
+  <Description>The xample demonstrates how to set header text for HeaderedPanel control</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderedPanelTextPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderedPanelTextPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderedPanelTextPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderedPanelTextPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderedPanelTextPropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>HeaderedPanel</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>Header</Keyword>
+    <Keyword>HeaderText</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.HeaderedPanel.Features.HeaderedPanelTextPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

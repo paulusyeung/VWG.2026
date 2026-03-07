@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Resizing columns through Drag and Drop</Title>
+  <Properties />
+  <DisplayName>Column Resizing</DisplayName>
+  <Description>The example demonstrates how to resize columns through Drag and Drop in the Visual WebGui ListView.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ResizingPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ResizingPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ResizingPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ResizingPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ResizingPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListView</Keyword>
+    <Keyword>Resizing</Keyword>
+    <Keyword>Size</Keyword>
+    <Keyword>Column</Keyword>
+    <Keyword>Width</Keyword>
+    <Keyword>Resize</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListView.Features.ResizingPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

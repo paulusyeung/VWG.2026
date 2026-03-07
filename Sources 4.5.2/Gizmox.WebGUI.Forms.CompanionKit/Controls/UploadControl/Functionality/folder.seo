@@ -1,0 +1,14 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.UploadControl.Functionality.UploadControlPage</DefaultPage>
+</Item>

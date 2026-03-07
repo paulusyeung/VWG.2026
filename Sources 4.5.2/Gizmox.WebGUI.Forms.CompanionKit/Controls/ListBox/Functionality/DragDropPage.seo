@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Page">
+  <Title>ListBox drag and drop</Title>
+  <Properties />
+  <DisplayName>Drag and Drop</DisplayName>
+  <Description>The example demonstrates how to use drag and drop for the Visual WebGui ListBox.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="DragDropPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DragDropPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DragDropPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DragDropPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DragDropPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListBox</Keyword>
+    <Keyword>DragAndDrop</Keyword>
+    <Keyword>Drag</Keyword>
+    <Keyword>AllowDrop</Keyword>
+    <Keyword>DragTarges</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListBox.Functionality.DragDropPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

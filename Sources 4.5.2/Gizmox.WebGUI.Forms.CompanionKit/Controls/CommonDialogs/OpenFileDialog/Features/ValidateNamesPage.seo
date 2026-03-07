@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="110" Status="Draft" Type="Page">
+  <Title>ValidateNames Property</Title>
+  <Properties />
+  <DisplayName>ValidateNames</DisplayName>
+  <Description>The example demonstrates how to support validation file names in the OpenFileDialog dialog box.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ValidateNamesPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValidateNamesPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValidateNamesPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValidateNamesPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValidateNamesPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>OpenFileDialog</Keyword>
+    <Keyword>ValidateNames</Keyword>
+    <Keyword>Validation</Keyword>
+  </Keywords>
+  <Comment>This example has Draft status b/c the OpenFileDialog CheckPathExists property doesn't work correct (VWG-7028)</Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.OpenFileDialog.Features.ValidateNamesPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

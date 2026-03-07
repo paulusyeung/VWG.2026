@@ -1,0 +1,17 @@
+<Item SiteMap="False" Order="100" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>BindingNavigator</Title>
+  <Properties />
+  <DisplayName>BindingNavigator</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>BindingNavigator</Keyword>
+    <Keyword>Databinding</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.BindingNavigator.Overview</DefaultPage>
+</Item>

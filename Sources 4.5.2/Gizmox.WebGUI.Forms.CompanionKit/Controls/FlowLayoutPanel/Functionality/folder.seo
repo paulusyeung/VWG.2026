@@ -1,0 +1,21 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains sample apps that demonstrate how to change flow direction of controls and to wrap content of FlowLayoutPanel.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>FlowLayoutPanel</Keyword>
+    <Keyword>Flow</Keyword>
+    <Keyword>Layout</Keyword>
+    <Keyword>Panel</Keyword>
+    <Keyword>Wrap</Keyword>
+    <Keyword>Direction</Keyword>
+    <Keyword>FlowDirection</Keyword>
+    <Keyword>WrapContents</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.FlowLayoutPanel.Functionality.FlowDirectionPage</DefaultPage>
+  <Body />
+</Item>

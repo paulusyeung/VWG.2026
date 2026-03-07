@@ -1,0 +1,28 @@
+.MaskedTextBox-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.MaskedTextBox-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.MaskedTextBox-Control_Disabled input
+{
+    [Skin.ControlTextFontDisabled];
+    [Skin.ControlTextForegroundDisabled];
+}
+
+.MaskedTextBox-Text
+{
+	[Skin.Font];
+	[Skin.Foreground];
+}
+
+.MaskedTextBox-SingleLine
+{
+	[Skin.SingleLineInputStyle];
+}

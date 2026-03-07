@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634418663583054992" UpdatedBy="admin" UpdatedOn="634420005485659829">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>There are <strong><em>GoogleMap </em></strong>and <em>ComboBox </em>controls on the Form.<br />Use the ComboBox to select a map&nbsp;type.<br />Types include: Map, Hybrid, Satellite.</p><p>See how the map&nbsp;is changing its appearance.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p><strong>GoogleMap.MapType</strong> property sets the&nbsp;type for map.</p><p>Property Type: Gizmox.WebGUI.Forms.Google.GoogleMapType.<br />DefaultValue - <strong>Gizmox.WebGUI.Forms.Google.GoogleMapType.Map</strong></p>]]></Paragraph>
+    <Paragraph Code="ParagraphElement1" />
+  </Nodes>
+</Data>

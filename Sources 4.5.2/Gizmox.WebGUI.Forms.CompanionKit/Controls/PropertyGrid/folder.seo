@@ -1,0 +1,16 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>PropertyGrid Control</Title>
+  <Properties />
+  <DisplayName>PropertyGrid</DisplayName>
+  <Description>Contains sample apps that demonstrates how to use PropertyGrid</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>PropertyGrid</Keyword>
+    <Keyword>Property</Keyword>
+    <Keyword>Grid</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.PropertyGrid.Functionality.ObjectInspection</DefaultPage>
+  <Body />
+</Item>

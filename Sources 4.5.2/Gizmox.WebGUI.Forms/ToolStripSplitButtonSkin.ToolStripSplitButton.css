@@ -1,0 +1,81 @@
+.Button-FlatControl .Button-FontData
+{
+	[Skin.FontNormal];
+	[Skin.ForegroundNormal];
+}
+
+.Button-FlatControl_Enter .Button-FontData
+{
+	[Skin.FontHover];
+	[Skin.ForegroundHover];
+}
+
+.Button-FlatControl_Down .Button-FontData
+{
+	[Skin.FontPressed];
+	[Skin.ForegroundPressed];
+}
+
+.Button-FlatControl_Focus .Button-FontData
+{
+	[Skin.FontFocused];
+	[Skin.ForegroundFocused];
+}
+
+.Button-FlatControl_Disabled .Button-FontData
+{
+	[Skin.FontDisabled];
+	[Skin.ForegroundDisabled];
+}
+
+.Button-FlatControl 
+{
+	width:100%;
+	height:100%;
+	[Skin.FlatButtonNormalStyle];
+}
+
+.Button-FlatControl_Enter
+{
+	[Skin.FlatButtonHoverStyle];
+}
+
+.Button-FlatControl_Focus
+{
+	[Skin.FlatButtonFocusedStyle];
+}
+
+.Button-FlatControl_Down
+{
+	[Skin.FlatButtonPressedStyle];	
+}
+
+.Button-Image
+{
+    [Skin.ImageStyle];
+}
+
+.Button-Image_Disabled
+{
+    [Skin.ImageDisabledStyle];
+}
+
+.Button-FlatControl .Button-DropDownImageContainer
+{
+    [Skin.DropDownImageContainerStyle];
+}
+
+.Button-FlatControl_Enter .Button-DropDownImageContainer
+{
+    [Skin.DropDownImageContainerHoverStyle];
+}
+
+.Button-FlatControl_Focus .Button-DropDownImageContainer
+{
+    [Skin.DropDownImageContainerFocusStyle];
+}
+
+.Button-FlatControl_Down .Button-DropDownImageContainer
+{
+    [Skin.DropDownImageContainerDownStyle];
+}

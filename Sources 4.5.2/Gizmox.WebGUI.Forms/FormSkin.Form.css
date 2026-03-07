@@ -1,0 +1,477 @@
+.Form-Control
+{
+	[Skin.Foreground];
+	[Skin.Font];
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.Form-ControlDisabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.Form-WindowBody
+{
+	[Skin.WindowBackground];
+}
+
+.Form-DialogBody
+{
+	[Skin.DialogBackground];
+}
+
+.Form-PopupBody
+{
+	[Skin.PopupBackground];
+	margin: 0px;
+	overflow: hidden;	
+}
+
+.Form-Window
+{
+	position:absolute;
+}
+
+.Form-Icon
+{
+	height:16px;
+	width:16px;
+	margin:0px;
+	vertical-align:middle;
+	cursor:default;
+}
+
+.Form-Header
+{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:relative;
+}
+
+.Form-ToolHeader
+{
+	height:[Skin.TopToolWindowFrameHeight]px;
+}
+
+.Form-DialogHeader
+{
+	height:[Skin.TopDialogWindowFrameHeight]px;
+}
+
+.Form-HeaderPart
+{
+	position:absolute;
+	top:0px;
+}
+
+.Form-DialogWindow
+{
+	
+}
+
+.Form-DialogWindow .Form-HeaderCaption
+{
+	[Skin.DialogWindowCaptionStyle];
+}
+
+.Form-DialogWindow .Form-HeaderButtons
+{
+	[Skin.DialogWindowButtonsStyle];
+}
+
+
+.Form-DialogWindow .Form-TopLeft
+{
+	[Skin.LeftTopActiveDialogWindowStyle];
+}
+
+.Form-CenterNoFrame 
+{
+	[Skin.CenterActiveDialogWindowStyle];
+}
+
+.Form-DialogWindow .Form-Left
+{
+	[Skin.LeftActiveDialogWindowStyle];
+}
+
+.Form-DialogWindow .Form-BottomLeft
+{
+	[Skin.LeftBottomActiveDialogWindowStyle]; 
+}
+
+.Form-DialogWindow .Form-Center
+{
+	[Skin.CenterActiveDialogWindowStyle];
+	cursor:default;
+}
+
+.Form-DialogWindow .Form-TopRight
+{
+	[Skin.RightTopActiveDialogWindowStyle]; 
+}
+
+.Form-DialogWindow .Form-Right
+{
+	[Skin.RightActiveDialogWindowStyle]; 
+}
+
+
+.Form-DialogWindow .Form-BottomRight
+{
+	[Skin.RightBottomActiveDialogWindowStyle];  
+}
+
+.Form-DialogWindow .Form-Top
+{
+	[Skin.TopActiveDialogWindowStyle];
+}
+
+.Form-DialogWindow .Form-Bottom
+{
+	[Skin.BottomActiveDialogWindowStyle];
+}
+
+.Form-DialogWindow .Form-RightOverlay
+{
+	[Skin.RightOverlayActiveDialogWindowStyle];
+}
+
+.Form-DialogWindow .Form-LeftOverlay
+{
+	[Skin.LeftOverlayActiveDialogWindowStyle];
+}
+
+
+.Form-DialogWindow .Form-CloseButton
+{
+	[Skin.DialogWindowCloseButtonNormalStyle];
+	height:[Skin.DialogWindowCloseButtonHeight]px;
+	width:[Skin.DialogWindowCloseButtonWidth]px;
+}
+
+.Form-DialogWindow .Form-RestoreButton
+{
+	[Skin.DialogWindowRestoreButtonNormalStyle];
+	height:[Skin.DialogWindowRestoreButtonHeight]px;
+	width:[Skin.DialogWindowRestoreButtonWidth]px;
+}
+
+.Form-DialogWindow .Form-RestoreButton_Enter
+{
+	[Skin.DialogWindowRestoreButtonHoverStyle];
+}
+
+.Form-DialogWindow .Form-RestoreButton_Disabled
+{
+	[Skin.DialogWindowRestoreButtonDisabledStyle];
+}
+
+.Form-DialogWindow .Form-MinimizeButton
+{
+	[Skin.DialogWindowMinimizeButtonNormalStyle];
+	height:[Skin.DialogWindowMinimizeButtonHeight]px;
+	width:[Skin.DialogWindowMinimizeButtonWidth]px;
+}
+
+.Form-DialogWindow .Form-MaximizeButton
+{
+	[Skin.DialogWindowMaximizeButtonNormalStyle];
+	height:[Skin.DialogWindowMaximizeButtonHeight]px;
+	width:[Skin.DialogWindowMaximizeButtonWidth]px;
+}
+
+.Form-DialogWindow .Form-CloseButton_Enter
+{
+	[Skin.DialogWindowCloseButtonHoverStyle];
+}
+
+.Form-DialogWindow .Form-MinimizeButton_Enter
+{
+	[Skin.DialogWindowMinimizeButtonHoverStyle];
+}
+
+.Form-DialogWindow .Form-MaximizeButton_Enter
+{
+	[Skin.DialogWindowMaximizeButtonHoverStyle];
+}
+
+.Form-DialogWindow .Form-CloseButton_Disabled
+{
+	[Skin.DialogWindowCloseButtonDisabledStyle];
+	height:[Skin.DialogWindowCloseButtonHeight]px;
+	width:[Skin.DialogWindowCloseButtonWidth]px;
+}
+
+.Form-DialogWindow .Form-MinimizeButton_Disabled
+{
+	[Skin.DialogWindowMinimizeButtonDisabledStyle];
+}
+
+.Form-DialogWindow .Form-MaximizeButton_Disabled
+{
+	[Skin.DialogWindowMaximizeButtonDisabledStyle];
+}
+
+
+
+.Form-ToolWindow
+{
+}
+
+.Form-ToolWindow .Form-HeaderCaption
+{
+	[Skin.ToolWindowCaptionStyle];
+}
+
+.Form-ToolWindow .Form-HeaderButtons
+{
+	[Skin.ToolWindowButtonsStyle];
+}
+
+
+.Form-ToolWindow .Form-TopLeft
+{
+	[Skin.LeftTopActiveToolWindowStyle];
+}
+
+.Form-ToolWindow .Form-Left
+{
+	[Skin.LeftActiveToolWindowStyle];
+}
+
+.Form-ToolWindow .Form-BottomLeft
+{
+	[Skin.LeftBottomActiveToolWindowStyle]; 
+}
+
+.Form-ToolWindow .Form-Center
+{
+	[Skin.CenterActiveToolWindowStyle];
+	cursor:default;
+}
+
+.Form-ToolWindow .Form-TopRight
+{
+	[Skin.RightTopActiveToolWindowStyle]; 
+}
+
+.Form-ToolWindow .Form-Right
+{
+	[Skin.RightActiveToolWindowStyle]; 
+}
+
+.Form-ToolWindow .Form-BottomRight
+{
+	[Skin.RightBottomActiveToolWindowStyle];  
+}
+
+.Form-ToolWindow .Form-Top
+{
+	[Skin.TopActiveToolWindowStyle];
+}
+
+.Form-ToolWindow .Form-Bottom
+{
+	[Skin.BottomActiveToolWindowStyle];
+}
+
+.Form-ToolWindow .Form-CloseButton
+{
+	[Skin.ToolWindowCloseButtonNormalStyle];
+	height:[Skin.ToolWindowCloseButtonHeight]px;
+	width:[Skin.ToolWindowCloseButtonWidth]px;
+}
+
+.Form-ToolWindow .Form-MinimizeButton
+{
+	[Skin.ToolWindowMinimizeButtonNormalStyle];
+	height:[Skin.ToolWindowMinimizeButtonHeight]px;
+	width:[Skin.ToolWindowMinimizeButtonWidth]px;
+}
+
+.Form-ToolWindow .Form-MaximizeButton
+{
+	[Skin.ToolWindowMaximizeButtonNormalStyle];
+	height:[Skin.ToolWindowMaximizeButtonHeight]px;
+	width:[Skin.ToolWindowMaximizeButtonWidth]px;
+}
+
+.Form-ToolWindow .Form-CloseButton_Enter
+{
+	[Skin.ToolWindowCloseButtonHoverStyle];
+}
+
+.Form-ToolWindow .Form-MinimizeButton_Enter
+{
+	[Skin.ToolWindowMinimizeButtonHoverStyle];
+}
+
+.Form-ToolWindow .Form-MaximizeButton_Enter
+{
+	[Skin.ToolWindowMaximizeButtonHoverStyle];
+}
+
+.Form-ToolWindow .Form-CloseButton_Disabled
+{
+	[Skin.ToolWindowCloseButtonDisabledStyle];
+}
+
+.Form-ToolWindow .Form-MinimizeButton_Disabled
+{
+	[Skin.ToolWindowMinimizeButtonDisabledStyle];
+}
+
+.Form-ToolWindow .Form-MaximizeButton_Disabled
+{
+	[Skin.ToolWindowMaximizeButtonDisabledStyle];
+}
+
+
+.Form-PopupWindow
+{
+	position:absolute;
+}
+
+.Form-PopupWindow .Form-TopLeft
+{
+	[Skin.LeftTopPopupWindowStyle];
+}
+
+.Form-PopupWindow .Form-Left
+{
+	[Skin.LeftPopupWindowStyle];
+}
+
+.Form-PopupWindow .Form-BottomLeft
+{
+	[Skin.LeftBottomPopupWindowStyle]; 
+}
+
+.Form-PopupWindow .Form-Center
+{
+	[Skin.CenterPopupWindowStyle];
+	cursor:default;
+}
+
+.Form-PopupWindow .Form-TopRight
+{
+	[Skin.RightTopPopupWindowStyle]; 
+}
+
+.Form-PopupWindow .Form-Right
+{
+	[Skin.RightPopupWindowStyle]; 
+}
+
+.Form-PopupWindow .Form-BottomRight
+{
+	[Skin.RightBottomPopupWindowStyle];  
+}
+
+.Form-PopupWindow .Form-Top
+{
+	[Skin.TopPopupWindowStyle];
+}
+
+.Form-PopupWindow .Form-Bottom
+{
+	[Skin.BottomPopupWindowStyle];
+}
+
+.Form-BoxesBarFooter
+{
+	height:[Skin.BoxesBarFooterHeight]px;
+	[Skin.BoxesBarFooterStyle];
+}
+
+.Form-FullScreen
+{
+    top: 0px;  
+    left: 0px;  
+    height: 100%;
+    width: 100%;    
+}
+
+.Form-ArrowsClass_top
+{
+	[Skin.ArrowScrollerTopNormalStyle]
+}
+
+.Form-ArrowsClass_top_Enter
+{
+    [Skin.ArrowScrollerTopHoverStyle]
+}
+
+.Form-ArrowsClass_top_Down
+{
+    [Skin.ArrowScrollerTopPressedStyle]
+}
+
+.Form-ArrowsClass_top_Disabled
+{
+    [Skin.ArrowScrollerTopDisabledStyle]
+}
+
+.Form-ArrowsClass_right
+{
+	[Skin.ArrowScrollerRightNormalStyle]
+}
+
+.Form-ArrowsClass_right_Enter
+{
+    [Skin.ArrowScrollerRightHoverStyle]
+}
+
+.Form-ArrowsClass_right_Down
+{
+    [Skin.ArrowScrollerRightPressedStyle]
+}
+
+.Form-ArrowsClass_right_Disabled
+{
+    [Skin.ArrowScrollerRightDisabledStyle]
+}
+
+.Form-ArrowsClass_bottom
+{
+	[Skin.ArrowScrollerBottomNormalStyle]
+}
+
+.Form-ArrowsClass_bottom_Enter
+{
+    [Skin.ArrowScrollerBottomHoverStyle]
+}
+
+.Form-ArrowsClass_bottom_Down
+{
+    [Skin.ArrowScrollerBottomPressedStyle]
+}
+
+.Form-ArrowsClass_bottom_Disabled
+{
+    [Skin.ArrowScrollerBottomDisabledStyle]
+}
+
+.Form-ArrowsClass_left
+{
+	[Skin.ArrowScrollerLeftNormalStyle]
+}
+
+.Form-ArrowsClass_left_Enter
+{
+    [Skin.ArrowScrollerLeftHoverStyle]
+}
+
+.Form-ArrowsClass_left_Down
+{
+    [Skin.ArrowScrollerLeftPressedStyle]
+}
+
+.Form-ArrowsClass_left_Disabled
+{
+    [Skin.ArrowScrollerLeftDisabledStyle]
+}

@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Border Image</Title>
+  <Properties />
+  <DisplayName>Border Image</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>VisualEffects</Keyword>
+    <Keyword>BorderImage</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.VisualEffects.BorderImage.Overview</DefaultPage>
+</Item>

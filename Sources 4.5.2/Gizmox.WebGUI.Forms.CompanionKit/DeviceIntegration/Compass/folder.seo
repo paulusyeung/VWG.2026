@@ -1,0 +1,15 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+    <Title>Compass</Title>
+    <Properties />
+    <DisplayName>Compass</DisplayName>
+    <Description>Contains sample apps that demonstrate how to use Compass</Description>
+    <Resources />
+    <Keywords>
+        <Keyword>Compass</Keyword>
+    </Keywords>
+    <Comment>
+    </Comment>
+    <Sections />
+    <Body />
+    <DefaultPage>item:CompanionKit.DeviceIntegration.Compass.Example</DefaultPage>
+</Item>

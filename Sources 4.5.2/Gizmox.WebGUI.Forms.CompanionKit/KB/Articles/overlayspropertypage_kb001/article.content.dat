@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634418668566761984" UpdatedBy="admin" UpdatedOn="634422593414809900">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>All map overlays are shown in the <em>ListBox </em>inside the 'Map Overlays' section.<br />To manage overlays of the&nbsp;<strong><em>GoogleMap</em></strong> control use 'Add', 'Edit' and 'Remove' buttons.<br />To update your selection, use 'Map Location' section to navigate map&nbsp;either&nbsp;by the coordinates or by location address/name&nbsp;and display the overlays added.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>GoogleMap.Overlays</strong> property is&nbsp;to manage map overlays markers that are rendered on the map.<br />Currently the only overlay implemented is the <strong>pinpoint </strong>overlay. You can define a pinpoint overlay which will be rendered regardless of the map current address.<br />Property Type: enum Gizmox.WebGUI.Forms.Google.GoogleMapOverlayCollection.</p>]]></Paragraph>
+  </Nodes>
+</Data>

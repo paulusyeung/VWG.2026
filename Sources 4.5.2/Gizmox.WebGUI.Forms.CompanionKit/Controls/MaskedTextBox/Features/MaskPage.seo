@@ -1,0 +1,20 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Page">
+  <Title>Mask Property</Title>
+  <Properties />
+  <DisplayName>Mask Property</DisplayName>
+  <Description>The example demonstrates how to define the input mask to use at run time.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="True" Name="MaskPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="MaskPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="MaskPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="MaskPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="MaskPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>MaskedTextBox</Keyword>
+    <Keyword>Mask</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.MaskedTextBox.Features.MaskPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

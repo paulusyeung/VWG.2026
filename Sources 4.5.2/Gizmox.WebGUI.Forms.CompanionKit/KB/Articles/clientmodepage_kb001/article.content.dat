@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634112706699631305" UpdatedBy="admin" UpdatedOn="634425576809912116">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change URL choose <strong>ClientMode </strong>value&nbsp;and click on the <em>LinkLabel </em>to open in a standalone browser window.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <strong>ClientMode </strong>property&nbsp;value indicates how click event will be handled for <em>LinkButton </em>control.<br /><strong>ClientMode </strong>= 'True' means that the navigation does not include request to the server but is a standard HTML&nbsp;hyper reference. If <strong>ClientMode&nbsp;</strong>= 'false'&nbsp;then event go to the server.</p>]]></Paragraph>
+  </Nodes>
+</Data>

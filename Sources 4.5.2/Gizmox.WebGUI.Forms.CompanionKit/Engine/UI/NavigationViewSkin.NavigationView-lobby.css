@@ -1,0 +1,78 @@
+.GZNV_LobyHeader
+{
+    -moz-box-shadow: 0px 0px 30px #000 inset;
+    -o-box-shadow: 0px 0px 30px #000 inset;
+    -ms-box-shadow: 0px 0px 30px #000 inset;
+    -webkit-box-shadow: 0px 0px 30px #000 inset;
+    box-shadow: 0px 0px 30px #000 inset;
+	border: 1px solid white;
+    height: 39px;
+	font: normal bold 11pt "Century Gothic",arial,sans-serif;
+	color: white;
+	padding: 0px 0px 0px 15px;
+}
+
+/* Pre-text Title */
+.GZNV_LobyPreTitleDemo, .GZNV_LobyPreTitleFeature
+{
+	padding: 5px 0px 5px 20px;
+	color: White;
+	font: bold 16px Arial;
+}
+
+/* Pre-text Body */
+.GZNV_LobyPreBodyDemo, .GZNV_LobyPreBodyFeature
+{
+	color: White;
+	padding: 5px 0 5px 20px;
+	font: 15px/21px Arial;
+}
+
+/* TABLE element*/
+TABLE.GZNV_LobyBodyDemo
+{
+	color: White;
+	font: 10pt Arial;
+}
+TABLE.GZNV_LobyBodyFeature
+{	
+	color: White;
+	font: 10pt Arial;
+}
+
+
+/* TD element*/
+.GZNV_LobyDemo, .GZNV_LobyFeature
+{
+	background-image: none;
+}
+
+.GZNV_LobyTitleDemo
+{
+	color: white;
+	font: normal bold 14px Arial;
+	text-align: center;
+	margin: 6px 0px 6px 0px;
+}
+
+.GZNV_LobyTitleFeature
+{
+	text-align: left;
+	padding-bottom: 5px;
+	color:#00B0F0; /*light blue/green*/
+	font-size: 14px;
+}
+
+.GZNV_LobyImageDemo,.GZNV_LobyImageDemo
+{
+	margin:0px 0px 0px 0px;
+}
+
+.GZNV_LobyBodyTextDemo, .GZNV_LobyBodyTextFeature
+{
+	color:white;
+	font-size:12px;
+	padding:5px 0px 5px 0px;
+	text-align:left;
+}
+

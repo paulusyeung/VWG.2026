@@ -1,0 +1,15 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ProgressBar</Title>
+  <Properties />
+  <DisplayName>ProgressBar</DisplayName>
+  <Description>Contains the examples that demonstrate how to use the Visual WebGui ProgressBar control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ProgressBar</Keyword>
+    <Keyword>Progress</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.ProgressBar.ApplicationScenarios.ChangeValuePage</DefaultPage>
+  <Body />
+</Item>

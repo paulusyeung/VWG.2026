@@ -1,0 +1,240 @@
+.MonthCalendar-FontSigns
+{
+	font:bold 8pt webdings;
+}
+
+.MonthCalendar-Control
+{
+		
+	[Skin.Border];
+	[Skin.VisualEffect];
+	[Skin.Background];
+	[Skin.Foreground];
+
+}
+
+.MonthCalendar-Table
+{
+	table-layout:fixed;	
+	width:100%;
+	height:100%;			
+}
+
+.MonthCalendar-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.MonthCalendar-Control_Disabled .MonthCalendar-Caption
+{
+    [Skin.ControlTextForegroundDisabled];
+}
+
+.MonthCalendar-Control_Disabled .MonthCalendar-Headers TD
+{
+    [Skin.ControlTextForegroundDisabled];
+}
+
+.MonthCalendar-Control_Disabled .MonthCalendar-SelectedDay
+{
+    [Skin.ControlTextForegroundDisabled];
+}
+
+.MonthCalendar-Control_Disabled .MonthCalendar-MounthCellSelected
+{
+    [Skin.ControlTextForegroundDisabled];
+}
+
+.MonthCalendar-Control_Disabled .MonthCalendar-YearCellSelected
+{
+    [Skin.ControlTextForegroundDisabled];
+}
+
+.MonthCalendar-Control_Disabled .MonthCalendar-YearRangeSelected
+{
+    [Skin.ControlTextForegroundDisabled];
+}
+
+.MonthCalendar-Caption
+{
+	[Skin.CaptionStyle];
+	text-align:center;
+	height:[Skin.CaptionHeight]px;
+}
+
+.MonthCalendar-Headers TD
+{
+	[Skin.HeaderStyle];
+	text-align:center;
+	height:[Skin.HeaderHeight]px;
+}
+
+.MonthCalendar-NormalCell
+{
+	[Skin.NormalDayStyle];
+}
+
+.MonthCalendar-Cell 
+{
+	text-align:center;
+	vertical-align:middle;
+}
+
+.MonthCalendar-NormalCell_Enter
+{
+    [Skin.HoverDayStyle];
+}
+
+.MonthCalendar-SelectedDay
+{
+	[Skin.SelectedDayStyle];
+}
+
+.MonthCalendar-SelectedDay_Enter
+{
+	[Skin.HoverSelectedDayStyle];
+}
+
+.MonthCalendar-ExternalMonthDays 
+{
+	[Skin.ExternalDayStyle];
+}
+
+.MonthCalendar-ExternalMonthDays_Enter
+{
+	[Skin.HoverExternalDayStyle];
+}
+
+.MonthCalendar-Today 
+{
+	[Skin.TodayStyle];
+}
+
+.MonthCalendar-Today_Enter 
+{
+	[Skin.HoverTodayStyle];
+}
+
+.MonthCalendar-TodaySelected 
+{
+	[Skin.TodaySelectedStyle];
+}
+
+.MonthCalendar-TodaySelected_Enter 
+{
+	[Skin.HoverTodaySelectedStyle];
+}
+
+.MonthCalendar-BidirectionalNavigateNextStyle
+{
+	[Skin.BidirectionalNavigateNextStyle];
+}
+
+.MonthCalendar-Control_Disabled .MonthCalendar-BidirectionalNavigateNextStyle
+{
+    [Skin.BidirectionalNavigateNextDisabledStyle];
+}
+
+.MonthCalendar-BidirectionalNavigateNextPreviousContainersStyle
+{
+    height:[Skin.CaptionHeight]px;
+    line-height:[Skin.CaptionHeight]px;
+    text-align:center;
+    width:100%;
+}
+
+.MonthCalendar-BidirectionalNavigatePreviousStyle
+{
+	[Skin.BidirectionalNavigatePreviousStyle];
+}
+
+.MonthCalendar-Control_Disabled .MonthCalendar-BidirectionalNavigatePreviousStyle
+{
+    [Skin.BidirectionalNavigatePreviousDisabledStyle];
+}
+
+.MonthCalendar-BidirectionalNavigateNextPreviousContainersStyle img
+{
+    vertical-align:middle;
+}
+
+.MonthCalendar-MonthCell
+{
+	[Skin.NormalMonthCellStyle];
+	text-align:center;	
+	height:[Skin.MonthCellHeight]px;
+}
+
+.MonthCalendar-MonthCell_Enter
+{
+	[Skin.HoverMonthCellStyle];		
+	height:[Skin.MonthCellHeight]px;
+}
+
+.MonthCalendar-MounthCellSelected
+{
+	[Skin.SelectedMonthCellStyle];
+	text-align:center;	
+	height:[Skin.MonthCellHeight]px;
+}
+
+.MonthCalendar-MounthCellSelected_Enter
+{
+	[Skin.HoverSelectedMonthCellStyle];
+	text-align:center;	
+	height:[Skin.MonthCellHeight]px;
+}
+
+.MonthCalendar-YearCell
+{
+	[Skin.NormalYearCellStyle];
+	text-align:center;	
+	height:[Skin.YearCellHeight]px;
+}
+
+.MonthCalendar-YearCell_Enter
+{
+	[Skin.HoverYearCellStyle];	
+	height:[Skin.YearCellHeight]px;
+}
+
+.MonthCalendar-YearCellSelected
+{
+	[Skin.SelectedYearCellStyle];
+	text-align:center;	
+	height:[Skin.YearCellHeight]px;
+}
+
+.MonthCalendar-YearCellSelected_Enter
+{
+	[Skin.HoverSelectedYearCellStyle];
+	text-align:center;	
+	height:[Skin.YearCellHeight]px;
+}
+
+.MonthCalendar-YearRange
+{
+	[Skin.NormalYearRangeCellStyle];
+	text-align:center;		
+	height:[Skin.YearRangeCellHeight]px;
+}
+
+.MonthCalendar-YearRange_Enter
+{
+	[Skin.HoverYearRangeCellStyle];		
+	height:[Skin.YearRangeCellHeight]px;
+}
+
+.MonthCalendar-YearRangeSelected
+{
+	[Skin.SelectedYearRangeCellStyle];	
+	text-align:center;	
+	height:[Skin.YearRangeCellHeight]px;
+}
+
+.MonthCalendar-YearRangeSelected_Enter
+{
+	[Skin.HoverSelectedYearRangeCellStyle];	
+	text-align:center;	
+	height:[Skin.YearRangeCellHeight]px;
+}

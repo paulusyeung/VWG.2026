@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Display a HTML page from the project in HtmlBox control</Title>
+  <Properties />
+  <DisplayName>Internal HTML page</DisplayName>
+  <Description>The example demonstrates how to display a HTML page from the project in the Visual WebGui HtmlBox control.</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DisplayAnInternalHTMLPagePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DisplayAnInternalHTMLPagePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DisplayAnInternalHTMLPagePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DisplayAnInternalHTMLPagePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DisplayAnInternalHTMLPagePage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Resources\UserData\about.html" Order="103" Lang="All" Title="about.html" Type="Link" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Resources\Images\AboutVWGLogo.jpg" Order="104" Lang="All" Title="AboutVWGLogo.jpg" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>HtmlBox</Keyword>
+    <Keyword>HTML</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>Page</Keyword>
+    <Keyword>Internal</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.HtmlBox.Features.DisplayAnInternalHTMLPagePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

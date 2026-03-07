@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>ComponentOne TreeView Wrapper Example</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1TreeViewForm.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1TreeViewForm.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1TreeViewForm.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1TreeViewForm.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1TreeViewForm.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1TreeViewWrapper.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1TreeViewWrapper.designer.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1TreeViewWrapper.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1TreeViewWrapper.designer.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1TreeViewWeb.config" Order="105" Lang="All" Type="File" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Concepts.AspNetWrappers.C1TreeView.C1TreeViewPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

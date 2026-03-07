@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="Context.Language">
+	<head>
+		<base href="Context.RouterContext"/>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		Context.IncludedScripts		
+		<script src="Resources.Includes.js.wgx"></script>
+		<script src="[Skin.Path]Commons.Dialogs.Dialog.js.wgx"></script>
+		<script src="[Skin.Path]Common.Events.Raise.js.wgx"></script>
+		Context.IncludedStyleSheets
+		<link href="Resources.Includes.css.wgx" type="text/css" rel="stylesheet" />
+		<link href="Resources.Browser.Form.css.wgx" type="text/css" rel="stylesheet" />
+		<link href="[Skin.Path]ComboBoxPopup.css.wgx" type="text/css" rel="stylesheet"/>
+	</head>
+	<body class="Context.MultiThemeDefault Common-Strech Common-MarginTopLeftZero" 
+		onclick         = "if (Dialog_Click!=undefined) Dialog_Click(); if(mobjApp && mobjApp.Web_OnClick!=undefined) mobjApp.Web_OnClick(event,window);"  
+		onload          = "if (Dialog_InitializeDialog!=undefined) Dialog_InitializeDialog();" 
+		onunload        = "if (Dialog_UnloadDialog!=undefined) Dialog_UnloadDialog();"
+		onbeforeunload  = "if (Dialog_BeforeUnload!=undefined) Dialog_BeforeUnload();"
+		onresize        = "if (Dialog_Resize!=undefined) Dialog_Resize();"
+		onselectstart	= "if (mobjApp && mobjApp.Web_OnSelectStart!=undefined) mobjApp.Web_OnSelectStart(event,window);"
+		oncontextmenu	= "if (mobjApp && mobjApp.Web_OnRightClick!=undefined) mobjApp.Web_OnRightClick(event,window);"
+		onkeydown		= "if (mobjApp && mobjApp.Web_OnKeyDown!=undefined) mobjApp.Web_OnKeyDown(event,window);"
+		onkeyup 		= "if (mobjApp && mobjApp.Web_OnKeyUp!=undefined) mobjApp.Web_OnKeyUp(event,window);"
+		onmousedown     = "if (mobjApp && mobjApp.Web_OnMouseDown!=undefined) mobjApp.Web_OnMouseDown(event,window);"
+		onmousewheel    = "if (mobjApp && mobjApp.Web_OnMouseWheel!=undefined) mobjApp.Web_OnMouseWheel(event);"
+		onfocus         = "if (mobjApp && mobjApp.Web_SetActiveWindow!=undefined) mobjApp.Web_SetActiveWindow(window);"
+		ondblclick		= "if (mobjApp && mobjApp.Web_OnDblClick!=undefined) mobjApp.Web_OnDblClick(event,window);"
+        onmousemove     = "if (mobjApp && mobjApp.Web_OnMouseMove!=undefined) mobjApp.Web_OnMouseMove(event);"
+        onorientationchange = "if (mobjApp && mobjApp.Web_OnOrientationChange!=undefined) mobjApp.Web_OnOrientationChange(event,window);"
+        style="overflow:hidden;position:absolute;top:0px;bottom:0px;left:0px;right:0px;">
+		<div id="VWG_BodyContent" style="position: absolute; width: 100%; overflow: hidden; top: 0px; bottom: 0px;">&nbsp;</div>
+		<div id="VWG_LabelEditorContainer" style="width:100%;height:100%;overflow:hidden;position:absolute;left:0px;top:0px;visibility:hidden;z-index:100;">
+	        <div id="VWG_LabelEditor" data-vwgguid="" style="padding:0px;margin:0px;position:absolute;left:0px;top:0px;">
+                <input id="VWG_LabelEditorInput" onkeydown="mobjApp.LabelEditor_OnKeyDown(this,event,window)" onblur="mobjApp.LabelEditor_OnBlur(event,window)" class="Context.MultiThemeDefault Common-FontData" type="TEXT" style="padding:0px;margin:0px;width:100%;height:100%;top:0;left:0;position:absolute;overflow:visible;" data-vwgeditable="1" value=""  data-accessiblename="Label Editor" />
+	        </div>
+	    </div>
+        <div id="VWG_DragMarkBox" style="position: absolute; left: 0px; top: 0px;width: 0px; height: 0px; z-index: 200;"></div>
+        <div class="Context.MultiThemeDefault Common-DragLayer" style="z-index:300;">
+			<div id="VWG_DragStandardIndicatorBox" onmousemove="mobjApp.Drag_MoveDragElement(event)" onmouseup="mobjApp.Drag_HideDragElement(event)" class="Context.MultiThemeDefault Common-DragMarker" ></div>
+			<div id="VWG_DragHtmlIndicatorBox"  onmousemove="mobjApp.Drag_MoveDragElement(event)" onmouseup="mobjApp.Drag_HideDragElement(event)"  class="Context.MultiThemeDefault Common-DragContainer" ></div>
+		</div>
+		<div id="VWG_PopUpBox" tabindex="0" style="top:0px;left:0px;position:absolute;overflow:visible;z-index:400;"></div>   		
+		<div id="VWG_LoadingScreen" style="width:100%;height:100%;overflow:hidden;position:absolute;top:0px;left:0px;display:none;z-index:500;">
+		    <table style="width:100%;height:100%">
+			    <tr>[Skin.LoadingTemplate]</tr>
+		    </table>
+            <div id="VWG_LoadingAnimationBox" class="Context.MultiThemeDefault Common-LoadingAnimationBox" style="width:100%;height:100%;position:absolute;display:none;top:0px;left:0px;">
+                [Skin.LoadingAnimationHtml]
+            </div>
+	    </div>
+		<div id="VWG_TransferTargetLayer" style="position:absolute;left:0px;top:0px;overflow:hidden;width:0px;height:0px;overflow:hidden;">
+		    <input type="text"  id="VWG_TransferTarget" onkeyup="mobjApp.Web_TransferKeyUp()" style="position:absolute;left:300px;" data-accessiblename="Transfer Target" />
+		</div>
+	</body>
+</html>

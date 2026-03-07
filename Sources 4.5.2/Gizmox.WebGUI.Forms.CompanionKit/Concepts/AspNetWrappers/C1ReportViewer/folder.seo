@@ -1,0 +1,14 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ComponentOne ReportViewer</Title>
+  <Properties />
+  <DisplayName>ComponentOne ReportViewer</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.AspNetWrappers.C1ReportViewer.C1ReportViewerPage</DefaultPage>
+</Item>

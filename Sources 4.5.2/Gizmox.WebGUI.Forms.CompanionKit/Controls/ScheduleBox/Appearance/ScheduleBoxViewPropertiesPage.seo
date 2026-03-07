@@ -1,0 +1,38 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Overview of ScheduleBox view customization properties</Title>
+  <Properties />
+  <DisplayName>View properties</DisplayName>
+  <Description>The example demonstrates view mode, hours format and other appearance related properties of the Visual WebGui ScheduleBox.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ScheduleBoxViewPropertiesPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ScheduleBoxViewPropertiesPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ScheduleBoxViewPropertiesPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\ScheduleBox\Events.cs" Order="107" Lang="CSharp" Title="Events.cs" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\ScheduleBox\EventForm.Designer.cs" Order="106" Lang="CSharp" Title="EventForm.Designer.cs" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\ScheduleBox\EventForm.cs" Order="105" Lang="CSharp" Title="EventForm.cs" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\ScheduleBox\Appearence.Designer.cs" Order="104" Lang="CSharp" Title="Appearence.Designer.cs" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\ScheduleBox\Appearence.cs" Order="103" Lang="CSharp" Title="Appearence.cs" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="ScheduleBoxViewPropertiesPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\ScheduleBox\Events.vb" Order="130" Lang="VBNET" Title="Events.vb" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\ScheduleBox\EventForm.vb" Order="120" Lang="VBNET" Title="EventForm.vb" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\ScheduleBox\Appearence.vb" Order="110" Lang="VBNET" Title="Appearence.vb" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>ScheduleBox</Keyword>
+    <Keyword>HourFormat</Keyword>
+    <Keyword>View</Keyword>
+    <Keyword>FirstDayOfWeek</Keyword>
+    <Keyword>FirstDate</Keyword>
+    <Keyword>ScheduleBoxEvent</Keyword>
+    <Keyword>EventDoubleClick</Keyword>
+    <Keyword>Event</Keyword>
+    <Keyword>DoubleClick</Keyword>
+    <Keyword>Click</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ScheduleBox.Appearance.ScheduleBoxViewPropertiesPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

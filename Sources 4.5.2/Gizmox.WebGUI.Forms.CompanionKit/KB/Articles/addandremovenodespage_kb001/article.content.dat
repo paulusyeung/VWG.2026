@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128192127098977" UpdatedBy="admin" UpdatedOn="634128193409763436">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select node in the <em>TreeView</em>, enter name of added node in the 'Added node name' TextBox and click on the 'Add a new node' button and node with entered name is added as child node of the selected node. If any node isn't selected, a new node is added as parent node into the <em>TreeView</em>.</p><p>Select node in the <em>TreeView </em>and click on the 'Remove selected node'. The selected node is removed.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>TreeView </em>contains <em>Nodes </em>property of the <em>TreeNodeCollection </em>type. The property allows working with tree nodes. Each tree node contains the same property <em>Nodes </em>that contains its child tree nodes. Any changes, that you do with this collection, will be displayed in <em>TreeView</em>. The collection allows to add and remove node by add and remove methods respectively.<br />To define selected nodes <em>TreeView </em>contains <em>SelectedNode </em>property and two events <em>AfterSelect </em>and <em>BeforeSelect</em>. The <em>BeforeSelect </em>event occurs before the tree node is selected. The <em>AfterSelect </em>event occurs after the tree node is selected.</p>]]></Paragraph>
+  </Nodes>
+</Data>

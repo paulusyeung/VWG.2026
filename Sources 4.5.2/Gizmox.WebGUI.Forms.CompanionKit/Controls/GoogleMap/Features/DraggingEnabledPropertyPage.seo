@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Draft" Type="Page" Height="270">
+  <Title>DraggingEnabled  Property</Title>
+  <Properties />
+  <DisplayName>DraggingEnabled  Property</DisplayName>
+  <Description>The example demonstrates how to enable or disable map dragging</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="DraggingEnabledPropertyPage.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DraggingEnabledPropertyPage.designer.cs" Order="120" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DraggingEnabledPropertyPage.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DraggingEnabledPropertyPage.designer.vb" Order="120" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DraggingEnabledPropertyPage.resx" Order="130" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>GoogleMap</Keyword>
+    <Keyword>Dragging</Keyword>
+    <Keyword>Drag</Keyword>
+  </Keywords>
+  <Comment>Pending issue:
+http://support.visualwebgui.com/issue/ViewIssue.aspx?id=7596</Comment>
+  <PageType>CompanionKit.Controls.GoogleMap.Features.DraggingEnabledPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

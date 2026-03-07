@@ -1,0 +1,2146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Aux.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Aux.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Aux.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Aux.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Aux.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Aux.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Aux.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Aux.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Aux.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Bookmarks.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Bookmarks.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Bookmarks.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Bookmarks.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Bookmarks.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Bookmarks.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Bookmarks.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Bookmarks.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Bookmarks.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.ie.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.ie.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.ie.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Controls.ie.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.ie.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.ie.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Controls.ie.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.ie.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.ie.js:PresentationEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.ie.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Controls.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Controls.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.moz.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.moz.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.moz.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Controls.moz.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.moz.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.moz.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Controls.moz.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.moz.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.moz.js:PresentationEngine" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Controls.moz.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Data.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Data.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Debug.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Debug.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Debug.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Debug.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Debug.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Debug.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Debug.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Debug.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Debug.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.DragNDrop.ie.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.DragNDrop.ie.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.js:PresentationEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.DragNDrop.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.DragNDrop.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.DragNDrop.moz.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.DragNDrop.moz.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.js:PresentationEngine" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Events.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Events.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Events.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Events.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Events.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Events.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Events.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Events.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Events.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Events.Raise.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Events.Raise.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Events.Raise.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Events.Raise.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Events.Raise.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Events.Raise.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Events.Raise.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Events.Raise.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Focus.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Focus.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Focus.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Focus.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Focus.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Focus.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Focus.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Focus.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Focus.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.ie.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.ie.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.ie.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Forms.ie.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.ie.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.ie.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Forms.ie.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.ie.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.ie.js:PresentationEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.ie.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Forms.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Forms.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.moz.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.moz.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.moz.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Forms.moz.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.moz.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.moz.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Forms.moz.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.moz.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.moz.js:PresentationEngine" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Forms.moz.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ArrowScrollers.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ArrowScrollers.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ArrowScrollers.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.ArrowScrollers.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ArrowScrollers.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ArrowScrollers.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.ArrowScrollers.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ArrowScrollers.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ArrowScrollers.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.ie.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.ie.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.ie.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.LabelEditor.ie.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.ie.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.ie.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.LabelEditor.ie.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.ie.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.ie.js:PresentationEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.ie.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.LabelEditor.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.LabelEditor.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.moz.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.moz.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.moz.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.LabelEditor.moz.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.moz.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.moz.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.LabelEditor.moz.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.moz.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.moz.js:PresentationEngine" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.LabelEditor.moz.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Layout.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Layout.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Logon.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Logon.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Logon.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Logon.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Logon.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Logon.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Logon.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Logon.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Logon.Listener.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Logon.Listener.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Logon.Listener.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Logon.Listener.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Logon.Listener.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Logon.Listener.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Logon.Listener.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Logon.Listener.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Remoting.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Remoting.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Remoting.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Remoting.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Remoting.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Remoting.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Remoting.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Remoting.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Remoting.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Trace.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Trace.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Trace.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Trace.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Trace.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Trace.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Trace.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Trace.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Trace.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VirtualList.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VirtualList.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VirtualList.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.VirtualList.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VirtualList.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VirtualList.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.VirtualList.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VirtualList.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VirtualList.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Web.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Web.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.ie.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.ie.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.ie.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Xml.ie.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.ie.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.ie.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Xml.ie.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.ie.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.ie.js:PresentationEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.ie.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Xml.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Xml.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.moz.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.moz.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.moz.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Xml.moz.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.moz.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.moz.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Xml.moz.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.moz.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.moz.js:PresentationEngine" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.moz.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Commons.Debug.Main.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Commons.Debug.Main.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Preload.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Preload.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Preload.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Commons.Debug.Preload.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Preload.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Preload.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Commons.Debug.Preload.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Preload.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Dialog.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Dialog.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Dialog.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Commons.Dialogs.Dialog.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Dialog.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Dialog.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Commons.Dialogs.Dialog.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Dialog.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Interfaces.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Interfaces.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Interfaces.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Interfaces.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Interfaces.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Interfaces.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Interfaces.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Interfaces.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Mashup.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Mashup.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Mashup.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Mashup.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Mashup.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Mashup.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Mashup.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Mashup.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.css:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Layout.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Layout.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ArrowScrollers.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ArrowScrollers.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ArrowScrollers.css:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.ArrowScrollers.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ArrowScrollers.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ArrowScrollers.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.ArrowScrollers.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ArrowScrollers.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ArrowScrollers.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.ie.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.ie.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.ie.css:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Layout.ie.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.ie.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.ie.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Layout.ie.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.ie.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.ie.css:PresentationEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.ie.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.moz.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.moz.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.moz.css:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Layout.moz.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.moz.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.moz.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Layout.moz.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.moz.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.moz.css:PresentationEngine" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.moz.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.css:FileName" xml:space="preserve">
+    <value>CommonSkin.Commons.Debug.Main.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Commons.Debug.Main.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.xslt" xml:space="preserve">
+    <value>TemplateResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.xslt:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.xslt:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.DragNDrop.ie.xslt</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.xslt:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.xslt:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.DragNDrop.ie.xslt;Gizmox.WebGUI.Forms.Skins.Resources.TemplateContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.xslt:PresentationRole" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.xslt:PresentationEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.ie.xslt:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.xslt" xml:space="preserve">
+    <value>TemplateResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.xslt:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.xslt:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.DragNDrop.moz.xslt</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.xslt:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.xslt:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.DragNDrop.moz.xslt;Gizmox.WebGUI.Forms.Skins.Resources.TemplateContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.xslt:PresentationRole" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.xslt:PresentationEngine" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.moz.xslt:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.xslt" xml:space="preserve">
+    <value>TemplateResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.xslt:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.xslt:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.DragNDrop.xslt</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.xslt:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.xslt:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.DragNDrop.xslt;Gizmox.WebGUI.Forms.Skins.Resources.TemplateContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.xslt:PresentationRole" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.DragNDrop.xslt:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.xslt" xml:space="preserve">
+    <value>TemplateResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.xslt:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.xslt:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Layout.xslt</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.xslt:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.xslt:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Layout.xslt;Gizmox.WebGUI.Forms.Skins.Resources.TemplateContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.xslt:PresentationRole" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Layout.xslt:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.xslt" xml:space="preserve">
+    <value>TemplateResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.xslt:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.xslt:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.xslt</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.xslt:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.xslt:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.xslt;Gizmox.WebGUI.Forms.Skins.Resources.TemplateContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.xslt:PresentationRole" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.xslt:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.About.Blank.htm" xml:space="preserve">
+    <value>HtmlResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.About.Blank.htm:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.About.Blank.htm:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.About.Blank.htm</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.About.Blank.htm:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.About.Blank.htm:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.About.Blank.htm;Gizmox.WebGUI.Forms.Skins.Resources.HtmlContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Bookmarks.htm" xml:space="preserve">
+    <value>HtmlResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Bookmarks.htm:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Bookmarks.htm:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Bookmarks.htm</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Bookmarks.htm:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Bookmarks.htm:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Bookmarks.htm;Gizmox.WebGUI.Forms.Skins.Resources.HtmlContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.htm" xml:space="preserve">
+    <value>HtmlResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.htm:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.htm:FileName" xml:space="preserve">
+    <value>CommonSkin.Commons.Debug.Main.htm</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.htm:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.htm:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Commons.Debug.Main.htm;Gizmox.WebGUI.Forms.Skins.Resources.HtmlContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Preload.htm" xml:space="preserve">
+    <value>HtmlResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Preload.htm:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Preload.htm:FileName" xml:space="preserve">
+    <value>CommonSkin.Commons.Debug.Preload.htm</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Preload.htm:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Preload.htm:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Commons.Debug.Preload.htm;Gizmox.WebGUI.Forms.Skins.Resources.HtmlContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Dialog.htm" xml:space="preserve">
+    <value>HtmlResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Dialog.htm:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Dialog.htm:FileName" xml:space="preserve">
+    <value>CommonSkin.Commons.Dialogs.Dialog.htm</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Dialog.htm:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Dialog.htm:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Commons.Dialogs.Dialog.htm;Gizmox.WebGUI.Forms.Skins.Resources.HtmlContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Main.htm" xml:space="preserve">
+    <value>HtmlResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Main.htm:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Main.htm:FileName" xml:space="preserve">
+    <value>CommonSkin.Commons.Dialogs.Main.htm</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Main.htm:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Dialogs.Main.htm:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Commons.Dialogs.Main.htm;Gizmox.WebGUI.Forms.Skins.Resources.HtmlContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Timeout.htm" xml:space="preserve">
+    <value>HtmlResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Timeout.htm:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Timeout.htm:FileName" xml:space="preserve">
+    <value>CommonSkin.Commons.Messages.Timeout.htm</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Timeout.htm:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Timeout.htm:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Commons.Messages.Timeout.htm;Gizmox.WebGUI.Forms.Skins.Resources.HtmlContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Unsupported.htm" xml:space="preserve">
+    <value>HtmlResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Unsupported.htm:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Unsupported.htm:FileName" xml:space="preserve">
+    <value>CommonSkin.Commons.Messages.Unsupported.htm</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Unsupported.htm:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Unsupported.htm:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Commons.Messages.Unsupported.htm;Gizmox.WebGUI.Forms.Skins.Resources.HtmlContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ListServices.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ListServices.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ListServices.css:FileName" xml:space="preserve">
+    <value>CommonSkin.ListServices.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ListServices.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ListServices.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.ListServices.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ListServices.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ListServices.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ListServices.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ListServices.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ListServices.js:FileName" xml:space="preserve">
+    <value>CommonSkin.ListServices.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ListServices.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ListServices.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.ListServices.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ListServices.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ListServices.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:HtmlBoxFrame.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:HtmlBoxFrame.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:HtmlBoxFrame.js:FileName" xml:space="preserve">
+    <value>CommonSkin.HtmlBoxFrame.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:HtmlBoxFrame.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:HtmlBoxFrame.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.HtmlBoxFrame.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:HtmlBoxFrame.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.css:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.moz.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.moz.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.moz.css:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.moz.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.moz.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.moz.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.moz.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.moz.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.moz.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:PipeLine.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:PipeLine.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:PipeLine.js:FileName" xml:space="preserve">
+    <value>CommonSkin.PipeLine.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:PipeLine.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:PipeLine.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.PipeLine.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Popups.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Popups.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Popups.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Popups.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Popups.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Popups.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Popups.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Popups.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Popups.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.SetStyle.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.SetStyle.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.SetStyle.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Web.SetStyle.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.SetStyle.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.SetStyle.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Web.SetStyle.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.SetStyle.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Web.JQTSplit.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Web.JQTSplit.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Web.JQTSplit.moz.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Web.JQTSplit.moz.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.js:PresentationEngine" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Xml.JQTSplit.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Xml.JQTSplit.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Xml.JQTSplit.ie.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Xml.JQTSplit.ie.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.js:PresentationEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Xml.JQTSplit.moz.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Xml.JQTSplit.moz.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.js:PresentationEngine" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Data.JQTSplit.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Data.JQTSplit.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Debug.JQTSplit.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Debug.JQTSplit.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Debug.JQTSplit.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Debug.JQTSplit.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Debug.JQTSplit.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Debug.JQTSplit.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Debug.JQTSplit.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Debug.JQTSplit.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Debug.JQTSplit.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Debug.JQTSplit.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Aux.JQTSplit.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Aux.JQTSplit.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Aux.JQTSplit.js:FileName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Aux.JQTSplit.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Aux.JQTSplit.js:Content" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Aux.JQTSplit.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Aux.JQTSplit.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Aux.JQTSplit.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.JQTSplit.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.JQTSplit.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.css:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Gestures.JQTSplit.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Gestures.JQTSplit.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.css:PresentationDrawingEngine" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Preload.htm" xml:space="preserve">
+    <value>HtmlResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Preload.htm:CompilerActions" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Preload.htm:FileName" xml:space="preserve">
+    <value>CommonSkin.Preload.htm</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Preload.htm:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Preload.htm:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Preload.htm;Gizmox.WebGUI.Forms.Skins.Resources.HtmlContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VisualEffects.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VisualEffects.js:CompilerActions" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VisualEffects.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.VisualEffects.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VisualEffects.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VisualEffects.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.VisualEffects.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VisualEffects.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VisualEffects.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.MediaQueries.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.MediaQueries.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.MediaQueries.css:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.MediaQueries.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.MediaQueries.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.MediaQueries.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.MediaQueries.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.MediaQueries.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.MediaQueries.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:modernizr-custom.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:modernizr-custom.js:CompilerActions" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:modernizr-custom.js:FileName" xml:space="preserve">
+    <value>CommonSkin.modernizr-custom.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:modernizr-custom.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:modernizr-custom.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.modernizr-custom.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ModernizrHelper.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ModernizrHelper.js:CompilerActions" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ModernizrHelper.js:FileName" xml:space="preserve">
+    <value>CommonSkin.ModernizrHelper.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ModernizrHelper.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ModernizrHelper.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.ModernizrHelper.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Preload.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Preload.js:CompilerActions" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Preload.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Preload.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Preload.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Preload.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Preload.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.jqv.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.jqv.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.jqv.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Data.JQTSplit.jqv.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.jqv.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.jqv.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Data.JQTSplit.jqv.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.jqv.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.jqv.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Data.JQTSplit.jqv.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.jqv.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.jqv.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.jqv.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.JQTSplit.jqv.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.jqv.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.jqv.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.JQTSplit.jqv.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.jqv.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.jqv.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.JQTSplit.jqv.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.jqv.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.jqv.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.jqv.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Web.JQTSplit.jqv.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.jqv.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.jqv.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Web.JQTSplit.jqv.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.jqv.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.jqv.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.jqv.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.jqv.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.jqv.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.jqv.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Xml.JQTSplit.jqv.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.jqv.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.jqv.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Xml.JQTSplit.jqv.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.jqv.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.jqv.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.jqv.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.jqv.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.jqv.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.jqv.css:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Gestures.JQTSplit.jqv.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.jqv.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.jqv.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Gestures.JQTSplit.jqv.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.jqv.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.jqv.css:PresentationDrawingEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Gestures.JQTSplit.jqv.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.jqv.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.jqv.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.jqv.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Xml.JQTSplit.moz.jqv.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.jqv.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.jqv.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Xml.JQTSplit.moz.jqv.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.jqv.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.jqv.js:PresentationEngine" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.jqv.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.moz.jqv.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.jqv.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.jqv.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.jqv.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Xml.JQTSplit.ie.jqv.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.jqv.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.jqv.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Xml.JQTSplit.ie.jqv.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.jqv.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.jqv.js:PresentationEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.jqv.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Xml.JQTSplit.ie.jqv.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.jqv.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.jqv.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.jqv.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Commons.Debug.Main.jqv.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.jqv.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.jqv.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Commons.Debug.Main.jqv.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.jqv.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.jqv.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Debug.Main.jqv.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.jqv.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.jqv.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.jqv.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Web.JQTSplit.moz.jqv.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.jqv.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.jqv.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Web.JQTSplit.moz.jqv.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.jqv.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.jqv.js:PresentationEngine" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.jqv.js:PresentationDrawingEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.JQTSplit.moz.jqv.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Client.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Client.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Client.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Client.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Client.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Client.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Client.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Client.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Client.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ClientDOM.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ClientDOM.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ClientDOM.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.ClientDOM.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ClientDOM.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ClientDOM.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.ClientDOM.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ClientDOM.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ClientDOM.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ClientStorage.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ClientStorage.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ClientStorage.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.ClientStorage.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ClientStorage.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ClientStorage.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.ClientStorage.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ClientStorage.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ClientStorage.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.moz.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.moz.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.moz.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Web.moz.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.moz.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.moz.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Web.moz.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.moz.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.moz.js:PresentationEngine" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.moz.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.ie.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.ie.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.ie.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.Web.ie.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.ie.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.ie.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.Web.ie.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.ie.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.ie.js:PresentationEngine" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.Web.ie.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:DeviceIntegrator.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:DeviceIntegrator.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:DeviceIntegrator.js:FileName" xml:space="preserve">
+    <value>CommonSkin.DeviceIntegrator.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:DeviceIntegrator.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:DeviceIntegrator.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.DeviceIntegrator.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:DeviceIntegrator.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:DeviceIntegrator.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Unauthorized.html" xml:space="preserve">
+    <value>HtmlResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Unauthorized.html:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Unauthorized.html:FileName" xml:space="preserve">
+    <value>CommonSkin.Commons.Messages.Unauthorized.html</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Unauthorized.html:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Unauthorized.html:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Commons.Messages.Unauthorized.html;Gizmox.WebGUI.Forms.Skins.Resources.HtmlContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Commons.Messages.Unauthorized.html:Inheritance" xml:space="preserve">
+    <value>Inherited</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ControlEdit.Client.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ControlEdit.Client.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ControlEdit.Client.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.ControlEdit.Client.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ControlEdit.Client.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ControlEdit.Client.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.ControlEdit.Client.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ControlEdit.Client.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.ControlEdit.Client.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VisualTemplates.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VisualTemplates.js:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VisualTemplates.js:FileName" xml:space="preserve">
+    <value>CommonSkin.Common.VisualTemplates.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VisualTemplates.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VisualTemplates.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CommonSkin.Common.VisualTemplates.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VisualTemplates.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.VisualTemplates.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+</root>

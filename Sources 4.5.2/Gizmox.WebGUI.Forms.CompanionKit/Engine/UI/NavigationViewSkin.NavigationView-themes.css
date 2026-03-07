@@ -1,0 +1,80 @@
+#themebuttonouter
+{
+	position:relative;
+	float: right;
+	width: 135px;
+	margin-top: 7px;
+}
+
+#themebutton
+{
+	float: right;
+	margin: 0px;
+	background-image:url([Skin.Path]themes.button.png.wgx); 
+	background-repeat:no-repeat;
+	border-style: none;
+
+	position:absolute; 
+	right: 8px;
+	top:50%; 
+	height: 22px;
+	width: 76px;
+	margin-top:-11px;
+
+	cursor:pointer;
+}
+
+.entered
+{
+	background-image:url([Skin.Path]themes.button.hover.png.wgx)!important; /* to override ID style*/
+}
+
+
+#themecontainer
+{
+	position:absolute;
+	top: 29px;
+	right: 0px;
+	padding: 2px;
+	border: 2px solid #6593CF;/*a kind of blue*/
+	background-color: #F1F1EB;
+	overflow: auto;
+}
+
+.themeimagecontainer
+{
+	padding:0px;
+	float:left;
+	border-style: none;
+	display:table-cell;
+	cursor:pointer;
+}
+
+.themeimage
+{
+	width:259px;
+	height:192px;
+	vertical-align:middle;
+	background-image: url('[Skin.Path]themes.background.png.wgx');
+}
+
+.highlighted, .selectedtheme
+{
+	background-image: url('[Skin.Path]themes.background.hl.png.wgx');
+	background-repeat:no-repeat;
+}
+
+.selectedthemeText
+{
+	color:#bf4035;
+}
+
+.themetitle
+{
+	font-family: Arial;
+    font-size: 9pt;
+    color: black;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+}

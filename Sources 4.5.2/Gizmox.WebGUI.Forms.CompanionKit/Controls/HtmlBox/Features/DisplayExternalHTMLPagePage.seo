@@ -1,0 +1,29 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Page">
+  <Title>Display a HTML page from a web site in the HTMLBox</Title>
+  <Properties />
+  <DisplayName>External HTML page</DisplayName>
+  <Description>The example demonstrates how to display an external HTML page from a web site in the Visual WebGui HTMLBox.</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DisplayExternalHTMLPagePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DisplayExternalHTMLPagePage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DisplayExternalHTMLPagePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DisplayExternalHTMLPagePage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DisplayExternalHTMLPagePage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>HTMLBox</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>HTML</Keyword>
+    <Keyword>External</Keyword>
+    <Keyword>Page</Keyword>
+    <Keyword>Url</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.HtmlBox.Features.DisplayExternalHTMLPagePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="True" ShowAdvanced="False" Columns="250,200" Docking="Bottom">
+    <Fields>
+      <Field Column="0" Order="0" Type="TextBox" Label="Enter a URL (http:// for external pages):" TargetName="htmlBox1" PropertyName="Url" />
+    </Fields>
+  </Inspector>
+</Item>

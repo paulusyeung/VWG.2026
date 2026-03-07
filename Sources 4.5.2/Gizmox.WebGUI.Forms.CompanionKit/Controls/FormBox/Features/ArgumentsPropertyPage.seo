@@ -1,0 +1,38 @@
+<Item SiteMap="True" Order="102" Status="Publish" Type="Page" Height="290">
+  <Title>Arguments Property</Title>
+  <Properties />
+  <DisplayName>Arguments Property</DisplayName>
+  <Description>Example demonstrates how to use Arguments property to pass values 
+from ASP.NET page to Visual WebGui Form.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ArgumentsPropertyPage.cs" Order="101" Lang="CSharp" Title="Page.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ArgumentsPropertyPage.designer.cs" Order="101" Lang="CSharp" Title="Page.designer.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ArgumentsPropertyPage.vb" Order="101" Lang="VBNET" Title="Page.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ArgumentsPropertyPage.designer.vb" Order="101" Lang="VBNET" Title="Page.designer.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ArgumentsPropertyPage.resx" Order="101" Lang="All" Title="Page.resx" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="ArgumentsPropertyWebForm.aspx.designer.cs" Order="99" Lang="CSharp" Title="WebForm.aspx.designer.cs" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="ArgumentsPropertyWebForm.aspx.cs" Order="99" Lang="CSharp" Title="WebForm.aspx.cs" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="ArgumentsPropertyWebForm.aspx" Order="99" Lang="CSharp" Title="WebForm.aspx" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="ArgumentsPropertyForm.resx" Order="100" Lang="All" Title="Form.resx" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="ArgumentsPropertyForm.Designer.cs" Order="100" Lang="CSharp" Title="Form.Designer.cs" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="ArgumentsPropertyForm.cs" Order="100" Lang="CSharp" Title="Form.cs" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="ArgumentsPropertyWebFormVB.aspx.vb" Order="99" Lang="VBNET" Title="WebFormVB.aspx.vb" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="ArgumentsPropertyWebFormVB.aspx.designer.vb" Order="99" Lang="VBNET" Title="WebFormVB.aspx.designer.vb" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="ArgumentsPropertyWebFormVB.aspx" Order="99" Lang="VBNET" Title="WebFormVB.aspx" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="ArgumentsPropertyForm.vb" Order="100" Lang="VBNET" Title="Form.vb" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="ArgumentsPropertyForm.Designer.vb" Order="100" Lang="VBNET" Title="Form.Designer.vb" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>FormBox</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>ASP</Keyword>
+    <Keyword>Arguments</Keyword>
+    <Keyword>Pass</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.FormBox.Features.ArgumentsPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

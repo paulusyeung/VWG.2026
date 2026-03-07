@@ -1,0 +1,13 @@
+.ContextualToolbarContainerClass
+{
+    width:5px;
+    height:5px;
+    padding:1px 0px 1px 0px;
+    position:absolute;    
+}
+
+
+.ContextualToolbarActionClass
+{
+     background: url([Skin.ContextualToolbarIcons]) -182px -3px;  
+}

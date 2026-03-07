@@ -1,0 +1,17 @@
+﻿<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>MyToolTip.vb</DefaultName>
+    <Name>Visual WebGui Skinable ToolTip</Name>
+    <Description>An item template for creating a Visual WebGui skinable ToolTip.</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>ToolTip.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$.vb" ReplaceParameters="true">ToolTip1.vb</ProjectItem>
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$Skin.vb" ReplaceParameters="true">ToolTipSkin1.vb</ProjectItem>    
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.ToolTip.xslt" ReplaceParameters="true">ToolTipSkin1.ToolTip.xslt</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Skin.resx" ReplaceParameters="true">ToolTipSkin1.resx</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

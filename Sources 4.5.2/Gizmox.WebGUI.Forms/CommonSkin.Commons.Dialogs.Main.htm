@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="Context.Language">
+	<head>
+		<title> Context.ApplicationTitle</title>
+		<base href="Context.RouterContext"/>
+		Context.ApplicationMetaTags
+		Context.IncludedScripts
+		<script src="Resources.Includes.js.wgx"></script>
+		<script src="Resources.Browser.Form.js.wgx"></script>
+		<script>
+			var mstrPageInstance="Context.PageInstance";
+			var mstrBasePage = "Context.PageName";
+		</script>
+		<link rel="shortcut icon" href="Context.FavoriteIcon" type="image/x-icon"/>
+		Context.IncludedStyleSheets
+		<link href="Resources.Includes.css.wgx" type="text/css" rel="stylesheet"/>
+		Context.ThemedStyleSheets
+	</head>
+	<body class="Context.MultiThemeDefault Common-Strech Common-MarginTopLeftZero" style="overflow:hidden" onload= "if (typeof(Common_Initialize)!='undefined') Common_Initialize(window);">
+
+		<noscript>Context.ApplicationNonScriptContent</noscript>
+        <div id="VWG_Body" style="position:absolute;width:100%;height:100%;overflow:hidden;" onscroll="Web_OnBodyScroll(event);">
+            <div id="VWG_BodyContentContainer" style="position: absolute; width: 100%; z-index: 100; top: 0px; bottom: 0px;" onscroll="Web_OnBodyScroll(event);">
+                <div id="VWG_BodyContent" style="position: absolute; width: 100%; overflow: hidden; z-index: 110; top: 0px; bottom: 0px;" onscroll="Web_OnBodyScroll(event);">&nbsp;</div>
+                <div id="VWGE_WindowsBox" style="position: fixed; left: 0px; top: 0px; z-index: 120;height:0px;width:0px;">
+                    <div id="VWG_MaskedModalWindowBox" style="position: absolute; left: 0px; top: 0px; display: none;" class="Context.MultiThemeDefault Common-MaskedModalWindowBox" onmousedown="Web_OnModalWindowBoxMouseDown();" ></div>
+                    <div id="VWG_TransparentModalWindowBox" style="position: absolute; left: 0px; top: 0px; display: none;" class="Context.MultiThemeDefault Common-TransparentModalWindowBox" onmousedown="Web_OnModalWindowBoxMouseDown();" ></div>
+                </div>                                            
+            </div>
+			[Skin.TaskBarTemplate]
+		    <div id="VWG_PopUpBox" tabindex="0" style="top:0px;left:0px;position:absolute;overflow:visible;z-index:200;"></div>
+		    <div class="Context.MultiThemeDefault Common-DragLayer" style="z-index:300;">
+                <div id="VWG_DragIFrameCoverBox" style="position:absolute;left:0px;top:0px;width:0px;height:0px;"></div>
+                <div id="VWG_DragMarkBox" style="position:absolute;left:0px;top:0px;width:0px;height:0px;"></div>                
+                <div id="VWG_DragStandardIndicatorBox"  onmousemove="mobjApp.Drag_MoveDragElement(event)" onmouseup="mobjApp.Drag_HideDragElement(event)"  class="Context.MultiThemeDefault Common-DragMarker"  ></div>
+                <div id="VWG_DragHtmlIndicatorBox"  onmousemove="mobjApp.Drag_MoveDragElement(event)" onmouseup="mobjApp.Drag_HideDragElement(event)"  class="Context.MultiThemeDefault Common-DragContainer" ></div>
+            </div>
+            <div id="VWG_ContextualToolbar" style="display:none;position:absolute;z-index:300;"></div>
+		    <div id="VWG_LabelEditorContainer" style="width:100%;height:100%;overflow:hidden;position:absolute;left:0px;top:0px;visibility:hidden;z-index:400;">
+	            <div id="VWG_LabelEditor" data-vwgguid="" style="padding:0px;margin:0px;position:absolute;left:0px;top:0px;">
+		            <span id="VWG_LabelEditorBr" style="position:absolute;overflow:visible;visibility:hidden;" class="Context.MultiThemeDefault Common-FontData nobr"></span>
+                    <input id="VWG_LabelEditorInput" onkeyup="LabelEditor_SynchInputSize()" onkeypress="LabelEditor_SynchInputSize()" onchange="LabelEditor_SynchInputSize()" onkeydown="LabelEditor_OnKeyDown(this,event,window)" onblur="LabelEditor_OnBlur(event,window)" class="Context.MultiThemeDefault Common-FontData" type="TEXT" style="padding:0px;margin:0px;width:100%;height:100%;top:0;left:0;position:absolute;overflow:visible;" data-vwgeditable="1" value="" data-accessiblename="Label Editor" />
+	            </div>
+	        </div>
+		    <div id="VWG_LoadingScreen" style="width:100%;height:100%;position:absolute;display:none;top:0px;left:0px;z-index:500;">
+			    <table style="width:100%;height:100%">
+				    <tr>[Skin.LoadingTemplate]</tr>
+			    </table>
+                <div id="VWG_LoadingAnimationBox" class="Context.MultiThemeDefault Common-LoadingAnimationBox" style="width:100%;height:100%;position:absolute;display:none;top:0px;left:0px;">
+                    [Skin.LoadingAnimationHtml]
+                </div>
+		    </div>
+		    <div id="VWG_PreloadBox" style="position:absolute;display:none;"></div>
+		    <iframe id="VWG_BookmarksBox" src="[Skin.Path]Common.Bookmarks.htm.wgx?id=0" style="position:absolute;visibility:hidden;left:0px;top:0px;width:1px;height:1px;"></iframe>
+		    <div id="VWG_TransferTargetLayer" style="position:absolute;left:0px;top:0px;overflow:hidden;width:1px;height:1px;">
+		        <input type="text" id="VWG_TransferTarget" onkeyup="Web_TransferKeyUp()" style="position:absolute;left:300px;" data-accessiblename="Transfer Target" />
+		    </div>
+            <div style="visibility:hidden;" id="VWG_DeviceIntegration"></div>
+		</div>        
+	</body>
+</html>

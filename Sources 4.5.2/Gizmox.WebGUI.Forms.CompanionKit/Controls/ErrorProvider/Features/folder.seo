@@ -1,0 +1,29 @@
+<Item SiteMap="False" Order="101" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Error</Keyword>
+    <Keyword>Validation</Keyword>
+    <Keyword>Errors</Keyword>
+    <Keyword>Alert</Keyword>
+    <Keyword>BlinkRate</Keyword>
+    <Keyword>BlinkStyle</Keyword>
+    <Keyword>ToolTip</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>Blink</Keyword>
+    <Keyword>Rate</Keyword>
+    <Keyword>Style</Keyword>
+    <Keyword>SetIconAlignment</Keyword>
+    <Keyword>Icon</Keyword>
+    <Keyword>Alignment</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.ErrorProvider.Features.ErrorToolTipPage</DefaultPage>
+</Item>

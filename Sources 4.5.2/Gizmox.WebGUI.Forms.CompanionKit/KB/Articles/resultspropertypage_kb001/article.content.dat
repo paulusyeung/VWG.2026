@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634389285817447960" UpdatedBy="admin" UpdatedOn="634398615601046665">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>ASP.NET page contains a few server controls - two TextBoxes, a Button and a <em>FormBox </em>control.</p><p>The hosted form<i>&nbsp;</i>contains two <em>ComboBox </em>controls and a <em>Button</em>.&nbsp;</p><p>Press '<strong>Send Results</strong>'&nbsp;button to send selected values from <em>ComboBoxes </em>to the ASP.NET page.</p><p>On the ASP.NET page&nbsp;Press '<strong>Get Results</strong>' button to get values&nbsp;from the Visual WebGui&nbsp;<em>Form</em>.</p><p>The returned values will be&nbsp;set to Text property for each <em>TextBox</em> control.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>Visual WebGui&nbsp;<em>FormBox </em>contains <em>Results </em>property that can be used to return values back to the hosting ASP.NET page.</p>]]></Paragraph>
+  </Nodes>
+</Data>

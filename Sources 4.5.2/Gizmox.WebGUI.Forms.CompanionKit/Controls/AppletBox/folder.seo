@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>AppletBox</Title>
+  <Properties />
+  <DisplayName>AppletBox</DisplayName>
+  <Description>Contains the examples that demonstrate how to use the Visual WebGui AppletBox control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>AppletBox</Keyword>
+    <Keyword>Applet</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.AppletBox.Overview</DefaultPage>
+</Item>

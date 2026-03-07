@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110761267626437" UpdatedBy="admin" UpdatedOn="634110787479891378">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter item name in 'Added item text' <em>TextBox </em>and set place of added item in ListBox with 'Added item place' <em>NumericUpDown </em>and click on 'Add item' button and the item is added in <em>CheckedListBox </em>on defined position.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The example contains demonstrated <em>CheckedListBox</em>, <em>TextBox</em>, <em>NumericUpDown and Button</em></p>]]></Paragraph>
+  </Nodes>
+</Data>

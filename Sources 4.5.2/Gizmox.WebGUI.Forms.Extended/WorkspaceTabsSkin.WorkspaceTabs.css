@@ -1,0 +1,208 @@
+.WorkspaceTabs-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.WorkspaceTabs-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.WorkspaceTabs-Control_Disabled .WorkspaceTabs-PageHeaderText
+{
+    [Skin.ControlTextForegroundDisabled];
+}
+
+.WorkspaceTabs-Tab
+{
+	display:inline;	
+}
+
+.WorkspaceTabs-LeftFrame
+{
+	[Skin.LeftFrameStyle];
+}
+
+.WorkspaceTabs-CenterFrame
+{
+	[Skin.CenterFrameStyle];
+	
+}
+
+.WorkspaceTabs-RightFrame
+{
+	[Skin.RightFrameStyle];
+}
+
+.WorkspaceTabs-RightBottomFrame
+{
+	[Skin.RightBottomFrameStyle];
+	
+}
+
+.WorkspaceTabs-CenterBottomFrame
+{
+	[Skin.BottomFrameStyle];
+}
+
+.WorkspaceTabs-LeftBottomFrame
+{
+	[Skin.LeftBottomFrameStyle];
+}
+
+.WorkspaceTabs-RightTopFrame
+{
+	[Skin.RightTopFrameStyle];
+}
+
+.WorkspaceTabs-CenterTopFrame
+{
+	[Skin.TopFrameStyle];
+}
+
+.WorkspaceTabs-LeftTopFrame
+{
+	[Skin.LeftTopFrameStyle];
+}
+
+
+.WorkspaceTabs-SeperatorLeftFrame
+{
+	[Skin.LeftSeperatorFrameStyle];
+	
+}
+
+.WorkspaceTabs-SeperatorCenterFrame
+{
+	[Skin.CenterSeperatorFrameStyle];
+}
+
+.WorkspaceTabs-SeperatorRightFrame
+{
+	[Skin.RightSeperatorFrameStyle];
+}
+
+
+.WorkspaceTabs-TabsTopContainer
+{
+	[Skin.TabsTopContainerStyle];
+	overflow:hidden;
+}
+
+.WorkspaceTabs-Tab .WorkspaceTabs-TabTopRight
+{
+	[Skin.RightTopTabNormalStyle];	
+	float:left;
+}
+
+.WorkspaceTabs-Tab .WorkspaceTabs-TabTopCenter
+{
+	[Skin.CenterTopTabNormalStyle];
+	float:left;
+}
+
+.WorkspaceTabs-Tab .WorkspaceTabs-TabTopLeft
+{
+	[Skin.LeftTopTabNormalStyle];
+	float:left;
+}
+
+.WorkspaceTabs-Tab_Enter .WorkspaceTabs-TabTopRight
+{
+	[Skin.RightTopTabHoverStyle];
+}
+
+.WorkspaceTabs-Tab_Enter .WorkspaceTabs-TabTopCenter
+{
+	[Skin.CenterTopTabHoverStyle];
+}
+
+.WorkspaceTabs-Tab_Enter .WorkspaceTabs-TabTopLeft
+{
+	[Skin.LeftTopTabHoverStyle];
+}
+
+.WorkspaceTabs-Tab_Selected .WorkspaceTabs-TabTopRight
+{
+	[Skin.RightTopTabSelectedStyle];
+}
+
+.WorkspaceTabs-Tab_Selected .WorkspaceTabs-TabTopCenter
+{
+	[Skin.CenterTopTabSelectedStyle];
+}
+
+.WorkspaceTabs-Tab_Selected .WorkspaceTabs-TabTopLeft
+{
+	[Skin.LeftTopTabSelectedStyle];
+}
+
+.WorkspaceTabs-ImageSize
+{
+	width:[Skin.TabImageWidth]px;
+	height:[Skin.TabImageHeight]px;
+}
+
+
+/* Bottom Zone*/
+.WorkspaceTabs-TabsBottomContainer
+{
+	[Skin.TabsBottomContainerStyle];	
+}
+
+.WorkspaceTabs-Tab .WorkspaceTabs-TabBottomRight
+{
+	[Skin.RightBottomTabNormalStyle];	
+	float:left;
+}
+
+.WorkspaceTabs-Tab .WorkspaceTabs-TabBottomCenter
+{
+	[Skin.CenterBottomTabNormalStyle];
+	float:left;
+}
+
+.WorkspaceTabs-Tab .WorkspaceTabs-TabBottomLeft
+{
+	[Skin.LeftBottomTabNormalStyle];
+	float:left;
+}
+
+.WorkspaceTabs-Tab_Enter .WorkspaceTabs-TabBottomRight
+{
+	[Skin.RightBottomTabHoverStyle];
+	
+}
+
+.WorkspaceTabs-Tab_Enter .WorkspaceTabs-TabBottomCenter
+{
+	[Skin.CenterBottomTabHoverStyle];
+}
+
+.WorkspaceTabs-Tab_Enter .WorkspaceTabs-TabBottomLeft
+{
+	[Skin.LeftBottomTabHoverStyle];
+}
+
+.WorkspaceTabs-Tab_Selected .WorkspaceTabs-TabBottomRight
+{
+	[Skin.RightBottomTabSelectedStyle];
+}
+
+.WorkspaceTabs-Tab_Selected .WorkspaceTabs-TabBottomCenter
+{
+	[Skin.CenterBottomTabSelectedStyle];
+}
+
+.WorkspaceTabs-Tab_Selected .WorkspaceTabs-TabBottomLeft
+{
+	[Skin.LeftBottomTabSelectedStyle];
+}
+/* End Bottom Zone*/
+
+.WorkspaceTabs-ContextualTabGroup
+{
+    [Skin.ContextualTabGroupNormalStyle];
+}

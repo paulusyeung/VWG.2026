@@ -1,0 +1,21 @@
+﻿<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>MyButton.cs</DefaultName>
+    <Name>Visual WebGui Skinable Button</Name>
+    <Description>An item template for creating a Visual WebGui skinable Button.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>Button.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">Button1.cs</ProjectItem>
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$Skin.cs" ReplaceParameters="true">ButtonSkin1.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.Button.css" ReplaceParameters="true">ButtonSkin1.Button.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.Button.xslt" ReplaceParameters="true">ButtonSkin1.Button.xslt</ProjectItem>  
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.Button.NBI.xslt" ReplaceParameters="true">ButtonSkin1.Button.NBI.xslt</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.Button.NBI.css" ReplaceParameters="true">ButtonSkin1.Button.NBI.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.Button.BI.xslt" ReplaceParameters="true">ButtonSkin1.Button.BI.xslt</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.resx" ReplaceParameters="true">ButtonSkin1.resx</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135242871638104" UpdatedBy="admin" UpdatedOn="634135243682424543">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change value in 'ItemsPerPage' NumericUpDown to update the number of items per page and TotalPages counter for the left DataGridView.</p><p>If the 'UseInternalPaging' CheckBox is checked, the DataGridView will perform the internal paging.<br />If the 'UseInternalPaging' CheckBox is unchecked, the DataGridView doesn't perform internal paging.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DataGridView </em>contains the following properties for working with pages:<br /><em>UseInternalPaging </em>- indicates whether DataGridView should use pages;<br /><em>ItemsPerPage </em>- defines a number of items per page;<br /><em>CurrentPage </em>- an index of current page;<br /><em>TotalPages </em>- a number of internal pages.</p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains example that demonstrate how to:
+support decimal places in the Visual WebGui NumericUpDown control;
+define increment steps in the Visual WebGui NumericUpDown;
+limit upper bound of the Visual WebGui NumericUpDown;
+limit lower bound of the Visual WebGui NumericUpDown.
+</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>NumericUpDown</Keyword>
+    <Keyword>DecimalPlaces</Keyword>
+    <Keyword>Decimal</Keyword>
+    <Keyword>Places</Keyword>
+    <Keyword>Increment</Keyword>
+    <Keyword>Maximum</Keyword>
+    <Keyword>Mjnimum</Keyword>
+    <Keyword>Value</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.NumericUpDown.Functionality.DecimalPlacesPropertyPage</DefaultPage>
+  <Body />
+</Item>

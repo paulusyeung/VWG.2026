@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>NumericUpDown</Title>
+  <Properties />
+  <DisplayName>NumericUpDown</DisplayName>
+  <Description>Contains the examples that demonstrates how to use the Visual WebGui NumericUpDown.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>NumericUpDown</Keyword>
+    <Keyword>Numeric</Keyword>
+    <Keyword>UpDown</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.NumericUpDown.Functionality.DecimalPlacesPropertyPage</DefaultPage>
+  <Body />
+</Item>

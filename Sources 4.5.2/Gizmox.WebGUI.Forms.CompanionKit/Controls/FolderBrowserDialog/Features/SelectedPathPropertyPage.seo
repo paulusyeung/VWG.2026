@@ -1,0 +1,20 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>SelectedPath Property</Title>
+  <Properties />
+  <DisplayName>Selected Path Property</DisplayName>
+  <Description>The example demonstrates how to use SelectedPath property of the FolderBrowserDialog to set the path selected by the user</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="SelectedPathPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectedPathPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectedPathPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectedPathPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectedPathPropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>SelectedPath</Keyword>
+    <Keyword>Path</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.FolderBrowserDialog.Features.SelectedPathPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

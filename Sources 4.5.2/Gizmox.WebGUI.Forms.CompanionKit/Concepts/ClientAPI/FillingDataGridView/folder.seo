@@ -1,0 +1,18 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Filling DataGridView</Title>
+  <Properties />
+  <DisplayName>Filling DataGridView</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>dataSource</Keyword>
+    <Keyword>value</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.FillingDataGridView.Overview</DefaultPage>
+</Item>

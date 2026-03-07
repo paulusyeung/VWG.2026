@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>XamlBox</Title>
+  <Properties />
+  <DisplayName>XamlBox</DisplayName>
+  <Description>Contains the example that demonstrates how to use Xamlbox control</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>XamlBox</Keyword>
+    <Keyword>Xaml</Keyword>
+    <Keyword>Box</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.XamlBox.Programming.ProvideParametersPage</DefaultPage>
+  <Body />
+</Item>

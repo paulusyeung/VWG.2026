@@ -1,0 +1,41 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Page" Height="290">
+  <Title>Form property</Title>
+  <Properties />
+  <DisplayName>Form property</DisplayName>
+  <Description>The example demonstrates how to use the FormBox Form property.
+This property used to reference hosted Visual WebGui form by name.
+</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyPage.cs" Order="102" Lang="CSharp" Title="Page.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyPage.designer.cs" Order="102" Lang="CSharp" Title="Page.designer.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyPage.vb" Order="102" Lang="VBNET" Title="Page.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyPage.designer.vb" Order="102" Lang="VBNET" Title="Page.designer.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyPage.resx" Order="102" Lang="All" Title="Page.resx" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyWebForm.aspx.designer.cs" Order="99" Lang="CSharp" Title="WebForm.aspx.designer.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyWebForm.aspx.cs" Order="99" Lang="CSharp" Title="WebForm.aspx.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyWebForm.aspx" Order="99" Lang="CSharp" Title="WebForm.aspx" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyForm2.resx" Order="101" Lang="All" Title="Form2.resx" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyForm2.Designer.cs" Order="101" Lang="CSharp" Title="Form2.Designer.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyForm2.cs" Order="101" Lang="CSharp" Title="Form2.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyForm1.resx" Order="100" Lang="All" Title="Form1.resx" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyForm1.Designer.cs" Order="100" Lang="CSharp" Title="Form1.Designer.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyForm1.cs" Order="100" Lang="CSharp" Title="Form1.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyWebFormVB.aspx.vb" Order="99" Lang="VBNET" Title="WebFormVB.aspx.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyWebFormVB.aspx.designer.vb" Order="99" Lang="VBNET" Title="WebFormVB.aspx.designer.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyWebFormVB.aspx" Order="99" Lang="VBNET" Title="WebFormVB.aspx" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyForm2.vb" Order="101" Lang="VBNET" Title="Form2.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyForm2.Designer.vb" Order="101" Lang="VBNET" Title="Form2.Designer.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyForm1.vb" Order="100" Lang="VBNET" Title="Form1.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormPropertyForm1.Designer.vb" Order="100" Lang="VBNET" Title="Form1.Designer.vb" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>FormBox</Keyword>
+    <Keyword>Form</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.FormBox.Features.FormPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

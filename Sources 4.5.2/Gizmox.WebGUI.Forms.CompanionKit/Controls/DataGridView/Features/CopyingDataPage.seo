@@ -1,0 +1,32 @@
+<Item SiteMap="True" Order="103" Status="Draft" Type="Page">
+  <Title>How to copy data to clipboard</Title>
+  <Properties />
+  <DisplayName>Copying Data</DisplayName>
+  <Description>The example demonstrates how to use different data copping mode in the DataGridView.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CopyingDataPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CopyingDataPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CopyingDataPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CopyingDataPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CopyingDataPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.xsd" Order="103" Lang="All" Type="Link" Title="UserDS.xsd" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.designer.cs" Order="104" Lang="CSharp" Type="Link" Title="UserDS.designer.cs" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.designer.vb" Order="104" Lang="VBNET" Type="Link" Title="UserDS.designer.vb" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.xsc" Order="105" Lang="All" Type="Link" Title="UserDS.xsc" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.xss" Order="106" Lang="All" Type="Link" Title="UserDS.xss" />
+  </Resources>
+  <Keywords>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>Copy</Keyword>
+    <Keyword>Clipboard</Keyword>
+    <Keyword>Copying</Keyword>
+  </Keywords>
+  <Comment>This example has Draft status b/c the DataGridView ClipboardCopyMode property doesn't work correct. (VWG-6888)</Comment>
+  <PageType>CompanionKit.Controls.DataGridView.Features.CopyingDataPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="True" ShowAdvanced="False" Columns="120,200" Docking="Bottom">
+    <Fields>
+      <Field Column="0" Order="0" Type="ComboBox" Label="ClipboardCopyMode" TargetName="dataGridView1" PropertyName="ClipboardCopyMode" />
+    </Fields>
+  </Inspector>
+</Item>

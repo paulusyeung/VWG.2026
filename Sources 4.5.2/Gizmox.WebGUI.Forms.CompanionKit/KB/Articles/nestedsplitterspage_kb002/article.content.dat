@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634136101179965838" UpdatedBy="admin" UpdatedOn="634136103542793460">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Pass the mouse pointer over the splitter, the cursor changes to indicate that the controls inside the <em>SplitContainer</em> control can be resized. Press on mouse button and move splitter. </p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>SplitContainer </em>consists of the first panel, splitter and the second panel. The <em>SplitContainers</em>' panels are container that can contain the <em>SplitContainer</em>, too. The orientation of the <em>SplitContainer </em>control can be manipulated with the <em>Orientation </em>property. The orientation can be Horizontal and Vertical.</p>]]></Paragraph>
+  </Nodes>
+</Data>

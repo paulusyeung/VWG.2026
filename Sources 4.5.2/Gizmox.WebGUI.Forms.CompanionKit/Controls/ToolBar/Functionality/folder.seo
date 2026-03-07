@@ -1,0 +1,20 @@
+<Item SiteMap="False" Order="110" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains sample app that demonstrates how to register client custom action for ToolBar Button.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ToolBar</Keyword>
+    <Keyword>Button</Keyword>
+    <Keyword>Action</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>Register</Keyword>
+    <Keyword>Client</Keyword>
+    <Keyword>RegisterClientAction</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.ToolBar.Functionality.RegisterClientActionPage</DefaultPage>
+  <Body />
+</Item>

@@ -1,0 +1,79 @@
+﻿.GroupBox-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+.GroupBox-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.GroupBox-Control_Disabled .GroupBox-Label
+{
+    [Skin.ControlTextForegroundDisabled];
+    [Skin.ControlTextFontDisabled];
+}
+
+.GroupBox-Label
+{
+	[Skin.Foreground];
+	[Skin.Font];
+}
+
+.GroupBox-LabelLeft
+{
+	[Skin.HeaderLeftNormalStyle];
+	width:[Skin.HeaderLeftWidth]px;
+}
+
+.GroupBox-LabelRight
+{
+	[Skin.HeaderRightNormalStyle];
+	width:[Skin.HeaderRightWidth]px;
+}
+
+.GroupBox-Center
+{
+	[Skin.CenterNormalStyle];
+}
+
+.GroupBox-Bottom
+{
+	[Skin.BottomNormalStyle];
+}
+
+.GroupBox-Top
+{
+	[Skin.TopNormalStyle];
+}
+
+.GroupBox-Left
+{
+	[Skin.LeftNormalStyle];
+}
+
+.GroupBox-Right
+{
+	[Skin.RightNormalStyle];
+}
+
+.GroupBox-LeftBottom
+{
+	[Skin.LeftBottomNormalStyle];
+}
+
+.GroupBox-RightBottom
+{
+	[Skin.RightBottomNormalStyle];
+}
+
+.GroupBox-RightTop
+{
+	[Skin.RightTopNormalStyle];
+}
+
+.GroupBox-LeftTop
+{
+	[Skin.LeftTopNormalStyle];
+}

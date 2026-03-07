@@ -1,0 +1,18 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>WorkspaceTabs</Title>
+  <Properties />
+  <DisplayName>WorkspaceTabs</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use WorkspaceTabs control</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>WorkspaceTabs</Keyword>
+    <Keyword>TabPages</Keyword>
+    <Keyword>Multiline</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>
+  </DefaultPage>
+</Item>

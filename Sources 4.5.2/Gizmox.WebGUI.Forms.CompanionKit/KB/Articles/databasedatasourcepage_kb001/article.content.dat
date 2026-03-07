@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110813853066612" UpdatedBy="admin" UpdatedOn="634141942629640410">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The demonstrated CheckedListBox has <em>DataSource</em> property set to 'Customer' table from the database.<br />The table defines 'CustomerID', 'ContactName' and other columns.<br />The <em>ValueMember </em>set to&nbsp;'CustomerID'&nbsp;and <em>DisplayMember</em>&nbsp;property set to 'ContactName'.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

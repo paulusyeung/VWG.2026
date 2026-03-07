@@ -1,0 +1,17 @@
+.TabControl-TabDivContainer
+{
+	display:-moz-inline-box;/* Firefox 2 and under*/
+	display:inline-block;/* The rest*/
+	vertical-align:top;
+}
+
+.TabControl-Container
+{
+    [Skin.Foreground];
+}
+
+.TabControl-Container div
+{
+	display:-moz-inline-box;/* Firefox 2 and under*/
+	display:inline-block;/* the rest*/
+}

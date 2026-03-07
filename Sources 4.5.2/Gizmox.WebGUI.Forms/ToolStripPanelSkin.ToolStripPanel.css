@@ -1,0 +1,91 @@
+.ToolStripPanel-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.ToolStripPanel-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.ToolStripPanel-ArrowsClass_top
+{
+	[Skin.ArrowScrollerTopNormalStyle]
+}
+
+.ToolStripPanel-ArrowsClass_top_Enter
+{
+    [Skin.ArrowScrollerTopHoverStyle]
+}
+
+.ToolStripPanel-ArrowsClass_top_Down
+{
+    [Skin.ArrowScrollerTopPressedStyle]
+}
+
+.ToolStripPanel-ArrowsClass_top_Disabled
+{
+    [Skin.ArrowScrollerTopDisabledStyle]
+}
+
+.ToolStripPanel-ArrowsClass_right
+{
+	[Skin.ArrowScrollerRightNormalStyle]
+}
+
+.ToolStripPanel-ArrowsClass_right_Enter
+{
+    [Skin.ArrowScrollerRightHoverStyle]
+}
+
+.ToolStripPanel-ArrowsClass_right_Down
+{
+    [Skin.ArrowScrollerRightPressedStyle]
+}
+
+.ToolStripPanel-ArrowsClass_right_Disabled
+{
+    [Skin.ArrowScrollerRightDisabledStyle]
+}
+
+.ToolStripPanel-ArrowsClass_bottom
+{
+	[Skin.ArrowScrollerBottomNormalStyle]
+}
+
+.ToolStripPanel-ArrowsClass_bottom_Enter
+{
+    [Skin.ArrowScrollerBottomHoverStyle]
+}
+
+.ToolStripPanel-ArrowsClass_bottom_Down
+{
+    [Skin.ArrowScrollerBottomPressedStyle]
+}
+
+.ToolStripPanel-ArrowsClass_bottom_Disabled
+{
+    [Skin.ArrowScrollerBottomDisabledStyle]
+}
+
+.ToolStripPanel-ArrowsClass_left
+{
+	[Skin.ArrowScrollerLeftNormalStyle]
+}
+
+.ToolStripPanel-ArrowsClass_left_Enter
+{
+    [Skin.ArrowScrollerLeftHoverStyle]
+}
+
+.ToolStripPanel-ArrowsClass_left_Down
+{
+    [Skin.ArrowScrollerLeftPressedStyle]
+}
+
+.ToolStripPanel-ArrowsClass_left_Disabled
+{
+    [Skin.ArrowScrollerLeftDisabledStyle]
+}

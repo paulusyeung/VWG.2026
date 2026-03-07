@@ -1,0 +1,79 @@
+.Common-ArrowsClass_top
+{
+	[Skin.ArrowScrollerTopNormalStyle]
+}
+
+.Common-ArrowsClass_top_Enter
+{
+    [Skin.ArrowScrollerTopHoverStyle]
+}
+
+.Common-ArrowsClass_top_Down
+{
+    [Skin.ArrowScrollerTopPressedStyle]
+}
+
+.Common-ArrowsClass_top_Disabled
+{
+    [Skin.ArrowScrollerTopDisabledStyle]
+}
+
+.Common-ArrowsClass_right
+{
+	[Skin.ArrowScrollerRightNormalStyle]
+}
+
+.Common-ArrowsClass_right_Enter
+{
+    [Skin.ArrowScrollerRightHoverStyle]
+}
+
+.Common-ArrowsClass_right_Down
+{
+    [Skin.ArrowScrollerRightPressedStyle]
+}
+
+.Common-ArrowsClass_right_Disabled
+{
+    [Skin.ArrowScrollerRightDisabledStyle]
+}
+
+.Common-ArrowsClass_bottom
+{
+	[Skin.ArrowScrollerBottomNormalStyle]
+}
+
+.Common-ArrowsClass_bottom_Enter
+{
+    [Skin.ArrowScrollerBottomHoverStyle]
+}
+
+.Common-ArrowsClass_bottom_Down
+{
+    [Skin.ArrowScrollerBottomPressedStyle]
+}
+
+.Common-ArrowsClass_bottom_Disabled
+{
+    [Skin.ArrowScrollerBottomDisabledStyle]
+}
+
+.Common-ArrowsClass_left
+{
+	[Skin.ArrowScrollerLeftNormalStyle]
+}
+
+.Common-ArrowsClass_left_Enter
+{
+    [Skin.ArrowScrollerLeftHoverStyle]
+}
+
+.Common-ArrowsClass_left_Down
+{
+    [Skin.ArrowScrollerLeftPressedStyle]
+}
+
+.Common-ArrowsClass_left_Disabled
+{
+    [Skin.ArrowScrollerLeftDisabledStyle]
+}

@@ -1,0 +1,61 @@
+<Item SiteMap="True" Order="0" Status="Draft" Type="Lobby">
+  <Title>The best way to explore Visual WebGui</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="False" SiteMap="False" Name="gmail.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="facebook.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="themelogo.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="default.png" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo">
+      <PreText>Live display of controls,concepts and &lt;span style='color:red;font-weight:bold;' onclick="$(this).fadeOut(200);"&gt;Click me!&lt;/span&gt;
+&lt;I&gt;Hands-on demonstration for developers&lt;/I&gt;
+Live display of &lt;b&gt;the code&lt;/B&gt; behind controls</PreText>
+      <Title>&lt;I&gt;Hands-on demonstration for developers &lt;span style='color:green;font-weight:bold;' onclick="$(this).fadeOut(200);"&gt;Click me!&lt;/span&gt;&lt;/I&gt;</Title>
+      <Style />
+    </Section>
+    <Section ID="Section-02" style="Feature">
+      <Title>Visual WebGui Benefits</Title>
+      <Style concss="background-image:none;" />
+    </Section>
+    <Section ID="Section-03" style="Demo">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Title="VWG Catalog" Section="Section-01" Body="Control Wrapper Wizard allows to incorporate available/3rd party ASP.NET controls into VWG while visual designers &amp; jQuery integration provide customization freedom." Image="default.png">
+      <Style hassep="true" bodycss="width:241px;&#xD;&#xA;text-align:justify;" titlecss="width:241px;" linktype="NoLink" innew="True" />
+    </Element>
+    <Element Title="Featured Control" Section="Section-01" Link="item:CompanionKit.Designer.FormDesigner" Body="VWG allows desktop-like responsiveness regardless of the data intensiveness, due to its optimized pipeline.&#xD;&#xA;&lt;span style='color:red;font-weight:bold;' onclick=&quot;$(this).fadeOut(200);GZNVStop(event);&quot;&gt;Click me!&lt;/span&gt;&#xD;&#xA;" Image="facebook.png">
+      <Style bodycss="width:241px;&#xD;&#xA;text-align:justify;&#xD;&#xA;margin-left:5px;" titlecss="width:241px;" imgcss="margin-left:5px;" linktype="InnerItem" innew="True" />
+    </Element>
+    <Element Title="VWG Webmail Demo" Section="Section-01" Body="A wide range of out-of-the-box visual and non-visual User Interface (UI) server based controls." Image="gmail.png">
+      <Style bodycss="width:241px;" titlecss="width:241px;" linktype="NoLink" />
+    </Element>
+    <Element Body="Control Wrapper Wizard allows to incorporate available/3rd party ASP.NET controls into VWG while visual designers &amp; jQuery integration provide customization freedom.&#xD;&#xA;" Title="Simple Extension &amp; Customization" Section="Section-02">
+      <Style linktype="NoLink" />
+    </Element>
+    <Element Body="The innovative server-side architecture rewards with user interface (UI) richness and interactivity only known on desktops until now.&#xD;&#xA;" Title="Desktop-equi valent Richness" Section="Section-02" Link="item:CompanionKit.Controls.ListView.Features.CheckBoxPage">
+      <Style linktype="InnerItem" />
+    </Element>
+    <Element Body="VWG allows desktop-like responsiveness regardless of the data intensiveness, due to its optimized pipeline.&#xD;&#xA;" Title="Performance" Section="Section-02">
+      <Style bodycss="width:241px;" imgcss="margin-left:5px;" linktype="NoLink" />
+    </Element>
+    <Element Body="VWG’s Empty Client paradigm (no logic is transferred to the client) makes VWG client practically unhackable.&#xD;&#xA;" Title="Unhackable Security" Section="Section-02">
+      <Style bodycss="padding-left:5px;" imgcss="margin-left:5px;" titlecss="padding-left:5px;" linktype="NoLink" />
+    </Element>
+    <Element Body="A wide range of out-of-the-box visual and non-visual User Interface (UI) server based controls.&#xD;&#xA;" Title="Complete Control Suite" Section="Section-02" Link="http://newsru.co.il">
+      <Style linktype="HyperLink" innew="True" />
+    </Element>
+    <Element Body="VWG enables standard, multi-browsers and mobile devices accessibility with no client installation or specific browser &lt;b&gt;adjustment&lt;/b&gt;.&#xD;&#xA;" Title="Cross-browser Compatibility" Section="Section-02">
+      <Style linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

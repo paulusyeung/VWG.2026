@@ -1,0 +1,22 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains the examples that demonstrate how to support nesting of the SplitContainer controls and to manipulate with min/max size of the SplitContainer panels.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>SplitContainer</Keyword>
+    <Keyword>Split</Keyword>
+    <Keyword>Size</Keyword>
+    <Keyword>Maximum</Keyword>
+    <Keyword>Minimum</Keyword>
+    <Keyword>Max</Keyword>
+    <Keyword>Min</Keyword>
+    <Keyword>Limit</Keyword>
+    <Keyword>Nested</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.SplitContainer.Features.MinMaxPanelSizePage</DefaultPage>
+  <Body />
+</Item>

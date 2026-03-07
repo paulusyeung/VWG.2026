@@ -1,0 +1,18 @@
+﻿<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Local Storage Example</Title>
+  <Properties />
+  <DisplayName>Local Storage Example</DisplayName>
+  <Description>Demonstrates how to use Local Storage.</Description>
+    <Resources>
+        <Resource Visible="True" PageScript="False" SiteMap="False" Name="LocalStorageExample.cs" Order="1" Lang="CSharp" Type="File" />
+        <Resource Visible="True" PageScript="False" SiteMap="False" Name="LocalStorageExample.designer.cs" Order="2" Lang="CSharp" Type="File" />
+        <Resource Visible="True" PageScript="False" SiteMap="False" Name="LocalStorageExample.resx" Order="3" Lang="All" Type="File" />
+        <Resource Visible="True" PageScript="True" SiteMap="False" Name="LocalStorageExample.Client.js" Order="4" Lang="All" Type="File" />
+    </Resources>
+  <Keywords>
+    <Keyword>Local Storage</Keyword> 
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.DeviceIntegration.Storage.Functionality.LocalStorageExample, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

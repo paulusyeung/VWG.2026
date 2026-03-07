@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WGLablesOk" xml:space="preserve">
+    <value>אישור</value>
+    <comment>Label</comment>
+  </data>
+  <data name="WGLablesCancel" xml:space="preserve">
+    <value>ביטול</value>
+    <comment>Label</comment>
+  </data>
+  <data name="WGLablesShow" xml:space="preserve">
+    <value>הצג</value>
+    <comment>Label</comment>
+  </data>
+  <data name="WGLablesHide" xml:space="preserve">
+    <value>החבא</value>
+    <comment>Label</comment>
+  </data>
+  <data name="WGLablesMoveUp" xml:space="preserve">
+    <value>העלה</value>
+    <comment>Label</comment>
+  </data>
+  <data name="WGLablesMoveDown" xml:space="preserve">
+    <value>הורד</value>
+    <comment>Label</comment>
+  </data>
+  <data name="WGLablesSortingOptions" xml:space="preserve">
+    <value>אפשרויות מיון</value>
+  </data>
+  <data name="WGLablesColumnOptions" xml:space="preserve">
+    <value>אפשרויות עמודות</value>
+  </data>
+  <data name="WGLablesGroupingOptions" xml:space="preserve">
+    <value>אפשרויות קיבוץ</value>
+  </data>
+  <data name="WGLablesColumnsInstructions" xml:space="preserve">
+    <value>בחר את העמודות שברצונך להציג. השתמש בכפתורי העלה והורד לצורך שינוי סדר העמודות.</value>
+  </data>
+  <data name="WGLablesColumnsStringA" xml:space="preserve">
+    <value>רוחב העמודה שנבחרה יהיה</value>
+  </data>
+  <data name="WGLablesColumnsStringB" xml:space="preserve">
+    <value>פקסלים.</value>
+  </data>
+  <data name="WGLablesGroupingInstructions" xml:space="preserve">
+    <value>בחר את העמודות שברצונך לקבץ. השתמש בכפתורי העלה והורד לצורך שינוי סדר הקיבוץ.</value>
+  </data>
+  <data name="WGLablesSortingInstructions" xml:space="preserve">
+    <value>בחר את העמודות שברצונך למיין. השתמש בכפתורי העלה והורד לצורך שינוי סדר המיון.</value>
+  </data>
+  <data name="WGLabelsOk" xml:space="preserve">
+    <value>אישור</value>
+  </data>
+  <data name="WGLabelsCancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="WGLabelsShow" xml:space="preserve">
+    <value>הצג</value>
+  </data>
+  <data name="WGLabelsHide" xml:space="preserve">
+    <value>החבא</value>
+  </data>
+  <data name="WGLabelsMoveUp" xml:space="preserve">
+    <value>העלה</value>
+  </data>
+  <data name="WGLabelsMoveDown" xml:space="preserve">
+    <value>הורד</value>
+  </data>
+  <data name="WGLabelsSunday" xml:space="preserve">
+    <value>ראשון</value>
+  </data>
+  <data name="WGLabelsSundayShort" xml:space="preserve">
+    <value>א</value>
+  </data>
+  <data name="WGLabelsMonday" xml:space="preserve">
+    <value>שני</value>
+  </data>
+  <data name="WGLabelsMondayShort" xml:space="preserve">
+    <value>ב</value>
+  </data>
+  <data name="WGLabelsTuesday" xml:space="preserve">
+    <value>שלישי</value>
+  </data>
+  <data name="WGLabelsTuesdayShort" xml:space="preserve">
+    <value>ג</value>
+  </data>
+  <data name="WGLabelsWednesday" xml:space="preserve">
+    <value>רביעי</value>
+  </data>
+  <data name="WGLabelsWednesdayShort" xml:space="preserve">
+    <value>ד</value>
+  </data>
+  <data name="WGLabelsThursday" xml:space="preserve">
+    <value>חמישי</value>
+  </data>
+  <data name="WGLabelsThursdayShort" xml:space="preserve">
+    <value>ה</value>
+  </data>
+  <data name="WGLabelsFriday" xml:space="preserve">
+    <value>שישי</value>
+  </data>
+  <data name="WGLabelsFridayShort" xml:space="preserve">
+    <value>ו</value>
+  </data>
+  <data name="WGLabelsSaturday" xml:space="preserve">
+    <value>שבת</value>
+  </data>
+  <data name="WGLabelsSaturdayShort" xml:space="preserve">
+    <value>ש</value>
+  </data>
+  <data name="WGLabelsApply" xml:space="preserve">
+    <value>החל</value>
+  </data>
+  <data name="WGLabelsIgnore" xml:space="preserve">
+    <value>התעלם</value>
+  </data>
+  <data name="WGLabelsRetry" xml:space="preserve">
+    <value>נסה שנית</value>
+  </data>
+  <data name="WGLabelsYes" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="WGLabelsNo" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="WGLabelsSearch" xml:space="preserve">
+    <value>חפש</value>
+  </data>
+  <data name="WGLabelsClear" xml:space="preserve">
+    <value>נקה</value>
+  </data>
+  <data name="WGLabelsAbort" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="WGLabelsNext" xml:space="preserve">
+    <value>הבא</value>
+  </data>
+  <data name="WGLabelsPrevious" xml:space="preserve">
+    <value>הקודם</value>
+  </data>
+  <data name="WGLabelsClose" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="WGLabelsFinish" xml:space="preserve">
+    <value>סיים</value>
+  </data>
+  <data name="WGLabelsHelp" xml:space="preserve">
+    <value>עזרה</value>
+  </data>
+  <data name="WGLabelsToday" xml:space="preserve">
+    <value>היום</value>
+  </data>
+  <data name="WGLabelsRemove" xml:space="preserve">
+    <value>הסר</value>
+  </data>
+  <data name="WGLabelsAdd" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="WGLabelsView" xml:space="preserve">
+    <value>הצג</value>
+  </data>
+  <data name="WGLabelsAscending" xml:space="preserve">
+    <value>סדר עולה</value>
+  </data>
+  <data name="WGLabelsDecsending" xml:space="preserve">
+    <value>סדר יורד</value>
+  </data>
+  <data name="WGLabelsColumns" xml:space="preserve">
+    <value>עמודות</value>
+  </data>
+  <data name="WGLabelsSorting" xml:space="preserve">
+    <value>מיון</value>
+  </data>
+  <data name="WGLabelsGrouping" xml:space="preserve">
+    <value>קיבוץ</value>
+  </data>
+  <data name="WGLabelsOpen" xml:space="preserve">
+    <value>פתח</value>
+  </data>
+  <data name="WGLabelsBack" xml:space="preserve">
+    <value>הקודם</value>
+  </data>
+  <data name="WGLabelsLeft" xml:space="preserve">
+    <value>right</value>
+  </data>
+  <data name="WGLabelsRight" xml:space="preserve">
+    <value>left</value>
+  </data>
+  <data name="WGLabelsSelectFilesToUpload" xml:space="preserve">
+    <value>בחר קבצים להעלאה</value>
+  </data>
+  <data name="WGLabelsLoading" xml:space="preserve">
+    <value>טוען</value>
+  </data>
+  <data name="WGLabelsJanuary" xml:space="preserve">
+    <value>ינואר</value>
+  </data>
+  <data name="WGLabelsJanuaryShort" xml:space="preserve">
+    <value>ינו</value>
+  </data>
+  <data name="WGLabelsFebruary" xml:space="preserve">
+    <value>פבואר</value>
+  </data>
+  <data name="WGLabelsFebruaryShort" xml:space="preserve">
+    <value>פבו</value>
+  </data>
+  <data name="WGLabelsMarch" xml:space="preserve">
+    <value>מרץ</value>
+  </data>
+  <data name="WGLabelsMarchShort" xml:space="preserve">
+    <value>מרץ</value>
+  </data>
+  <data name="WGLabelsApril" xml:space="preserve">
+    <value>אפריל</value>
+  </data>
+  <data name="WGLabelsAprilShort" xml:space="preserve">
+    <value>אפר</value>
+  </data>
+  <data name="WGLabelsMay" xml:space="preserve">
+    <value>מאי</value>
+  </data>
+  <data name="WGLabelsMayShort" xml:space="preserve">
+    <value>מאי</value>
+  </data>
+  <data name="WGLabelsJune" xml:space="preserve">
+    <value>יוני</value>
+  </data>
+  <data name="WGLabelsJuneShort" xml:space="preserve">
+    <value>יונ</value>
+  </data>
+  <data name="WGLabelsJuly" xml:space="preserve">
+    <value>יולי</value>
+  </data>
+  <data name="WGLabelsJulyShort" xml:space="preserve">
+    <value>יול</value>
+  </data>
+  <data name="WGLabelsAugust" xml:space="preserve">
+    <value>אוגוסט</value>
+  </data>
+  <data name="WGLabelsAugustShort" xml:space="preserve">
+    <value>אוג</value>
+  </data>
+  <data name="WGLabelsSeptember" xml:space="preserve">
+    <value>ספטמבר</value>
+  </data>
+  <data name="WGLabelsSeptemberShort" xml:space="preserve">
+    <value>ספט</value>
+  </data>
+  <data name="WGLabelsOctober" xml:space="preserve">
+    <value>אוקטובר</value>
+  </data>
+  <data name="WGLabelsOctoberShort" xml:space="preserve">
+    <value>אוק</value>
+  </data>
+  <data name="WGLabelsNovember" xml:space="preserve">
+    <value>נובמבר</value>
+  </data>
+  <data name="WGLabelsNovemberShort" xml:space="preserve">
+    <value>נוב</value>
+  </data>
+  <data name="WGLabelsDecember" xml:space="preserve">
+    <value>דצמבר</value>
+  </data>
+  <data name="WGLabelsDecemberShort" xml:space="preserve">
+    <value>דצמ</value>
+  </data>
+  <data name="WGLabelsDatePicker" xml:space="preserve">
+    <value>תאריכון</value>
+  </data>
+  <data name="WGLabelsWendsday" xml:space="preserve">
+    <value>רביעי</value>
+  </data>
+  <data name="WGLabelsDefineCustomColors" xml:space="preserve">
+    <value>הגדר צבעים מותאמים &gt;&gt;</value>
+  </data>
+  <data name="WGLabelsAddToCustomColors" xml:space="preserve">
+    <value>הוסף לצבעים מותאמים</value>
+  </data>
+  <data name="WGLabelsBasicColors" xml:space="preserve">
+    <value>צבעים בסיסים:</value>
+  </data>
+  <data name="WGLabelsCustomColors" xml:space="preserve">
+    <value>צבעים מותאמים:</value>
+  </data>
+  <data name="WGLabelsRed" xml:space="preserve">
+    <value>אדום:</value>
+  </data>
+  <data name="WGLabelsGreen" xml:space="preserve">
+    <value>ירוק:</value>
+  </data>
+  <data name="WGLabelsBlue" xml:space="preserve">
+    <value>כחול:</value>
+  </data>
+  <data name="WGLabelsHTMLCode" xml:space="preserve">
+    <value>קוד HTML:</value>
+  </data>
+  <data name="WGLabelsColorSolid" xml:space="preserve">
+    <value>Color|Solid</value>
+  </data>
+  <data name="WGLabelsHue" xml:space="preserve">
+    <value>Hue:</value>
+  </data>
+  <data name="WGLabelsSat" xml:space="preserve">
+    <value>Sat:</value>
+  </data>
+  <data name="WGLabelsLum" xml:space="preserve">
+    <value>Lum:</value>
+  </data>
+  <data name="WGLabelsWindowMinimize" xml:space="preserve">
+    <value>מזער</value>
+  </data>
+  <data name="WGLabelsWindowMaximize" xml:space="preserve">
+    <value>הגדל</value>
+  </data>
+  <data name="WGLabelsWindowClose" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="WGLabelsWindowRestoreDown" xml:space="preserve">
+    <value>שחזר כלפי מטה</value>
+  </data>
+  <data name="WGLabelsWindowRestoreUp" xml:space="preserve">
+    <value>שחזר כלפי מעלה</value>
+  </data>
+  <data name="WGLabelsMakeNewFolder" xml:space="preserve">
+    <value>צור תיקייה חדשה</value>
+  </data>
+  <data name="WGLabelsEffects" xml:space="preserve">
+    <value>אפקטים</value>
+  </data>
+  <data name="WGLabelsStrikeout" xml:space="preserve">
+    <value>קו חוצה</value>
+  </data>
+  <data name="WGLabelsUnderline" xml:space="preserve">
+    <value>קו תחתי</value>
+  </data>
+  <data name="WGLabelsColor" xml:space="preserve">
+    <value>צבע:</value>
+  </data>
+  <data name="WGLabelsSample" xml:space="preserve">
+    <value>תצוגה מקדימה</value>
+  </data>
+  <data name="WGLabelsScript" xml:space="preserve">
+    <value>סקריפט:</value>
+  </data>
+  <data name="WGLabelsFontColon" xml:space="preserve">
+    <value>גופן:</value>
+  </data>
+  <data name="WGLabelsFont" xml:space="preserve">
+    <value>גופן</value>
+  </data>
+  <data name="WGLabelsFontStyle" xml:space="preserve">
+    <value>סגנון גופן:</value>
+  </data>
+  <data name="WGLabelsSize" xml:space="preserve">
+    <value>גודל:</value>
+  </data>
+  <data name="WGLabelsRegular" xml:space="preserve">
+    <value>רגיל</value>
+  </data>
+  <data name="WGLabelsItalic" xml:space="preserve">
+    <value>נטוי</value>
+  </data>
+  <data name="WGLabelsBold" xml:space="preserve">
+    <value>מודגש</value>
+  </data>
+  <data name="WGLabelsBoldItalic" xml:space="preserve">
+    <value>מודגש נטוי</value>
+  </data>
+  <data name="WGLablesEmailRequiered" xml:space="preserve">
+    <value>חובה להזין כתובת אי-מייל.</value>
+  </data>
+  <data name="WGLablesFloatRequiered" xml:space="preserve">
+    <value>חובה להזין ערך מספרי.</value>
+  </data>
+  <data name="WGLablesIntegerRequiered" xml:space="preserve">
+    <value>חובה להזין ערך מספרי שלם.</value>
+  </data>
+  <data name="WGLablesFloatRangeRequiered" xml:space="preserve">
+    <value>חובה להזין ערך מספרי בין {0} ל {1}.</value>
+  </data>
+  <data name="WGLablesIntegerRangeRequiered" xml:space="preserve">
+    <value>חובה להזין ערך מספרי שלם בין {0} ל {1}.</value>
+  </data>
+  <data name="RibbonBarShowAboveTheRibbon" xml:space="preserve">
+    <value>הצג מעל רצועת הכלים</value>
+  </data>
+  <data name="RibbonBarShowBelowTheRibbon" xml:space="preserve">
+    <value>הצג מתחת לרצועת הכלים</value>
+  </data>
+  <data name="RibbonBarMinimizeTheRibbon" xml:space="preserve">
+    <value>צמצם את רצועת הכלים</value>
+  </data>
+  <data name="RibbonBarMaximizeTheRibbon" xml:space="preserve">
+    <value>הרחב את רצועת הכלים</value>
+  </data>
+  <data name="DataGridViewGroupingTreeViewDragColumnHeaderHere" xml:space="preserve">
+    <value>גרור כותרת עמודה על מנת לקבץ לפי אותה עמודה.</value>
+  </data>
+  <data name="WGAutoHide" xml:space="preserve">
+    <value>הסתר</value>
+  </data>
+  <data name="WGDockable" xml:space="preserve">
+    <value>עגון</value>
+  </data>
+  <data name="WGFloating" xml:space="preserve">
+    <value>הוצא לחלון</value>
+  </data>
+  <data name="WGHide" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="WGTabbedDocument" xml:space="preserve">
+    <value>הכנס ללשונית</value>
+  </data>
+  <data name="DataGridView_ChooseShowHideColumns" xml:space="preserve">
+    <value>בחר עמודות להצגה/הסתרה</value>
+  </data>
+  <data name="WGLabelsGridColumnChooser" xml:space="preserve">
+    <value>בחר עמודות להצגה/הסתרה</value>
+  </data>
+  <data name="WGBottom" xml:space="preserve">
+    <value>מטה</value>
+  </data>
+  <data name="WGGloballyDockAllWindow" xml:space="preserve">
+    <value>עגון את כל החלונות</value>
+  </data>
+  <data name="WGGloballyDockCurrentWindow" xml:space="preserve">
+    <value>עגון את החלון הנוכחי</value>
+  </data>
+  <data name="WGLeft" xml:space="preserve">
+    <value>שמאל</value>
+  </data>
+  <data name="WGRight" xml:space="preserve">
+    <value>ימין</value>
+  </data>
+  <data name="WGTop" xml:space="preserve">
+    <value>מעלה</value>
+  </data>
+  <data name="WGLabelsMore" xml:space="preserve">
+    <value>עוד</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>וגם</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>או</value>
+  </data>
+  <data name="CustomFilter" xml:space="preserve">
+    <value>סינון מותאם</value>
+  </data>
+  <data name="CustomFilterColon" xml:space="preserve">
+    <value>סינון מותאם:</value>
+  </data>
+  <data name="FilterMessage" xml:space="preserve">
+    <value>הצג שורות אשר '{0}' :</value>
+  </data>
+  <data name="InvalidFilterMessage" xml:space="preserve">
+    <value>ערכי מסנן לא תקינים</value>
+  </data>
+  <data name="DataGridViewFilterComboBoxOption_All" xml:space="preserve">
+    <value>(הכל)</value>
+  </data>
+  <data name="DataGridViewFilterComboBoxOption_Blanks" xml:space="preserve">
+    <value>(ריקים)</value>
+  </data>
+  <data name="DataGridViewFilterComboBoxOption_NonBlanks" xml:space="preserve">
+    <value>(מלאים)</value>
+  </data>
+  <data name="DataGridViewFilterComboBoxOption_Custom" xml:space="preserve">
+    <value>(מתאם)</value>
+  </data>
+</root>

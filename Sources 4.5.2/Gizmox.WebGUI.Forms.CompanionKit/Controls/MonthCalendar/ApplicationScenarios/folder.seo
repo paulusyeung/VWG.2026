@@ -1,0 +1,16 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Application Scenarios</Title>
+  <Properties />
+  <DisplayName>Application Scenarios</DisplayName>
+  <Description>Contains example that demonstrate how to open a date Wiki page in HTMLBox for the selected date in the Visual WebGui MonthCalendar.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>MonthCalendar</Keyword>
+    <Keyword>Calendar</Keyword>
+    <Keyword>Sample</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.MonthCalendar.ApplicationScenarios.OpenDatePageWikipediaPage</DefaultPage>
+  <Body />
+</Item>

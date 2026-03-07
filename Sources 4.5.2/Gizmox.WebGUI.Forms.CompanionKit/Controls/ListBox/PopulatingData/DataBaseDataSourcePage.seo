@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Page">
+  <Title>How to populate a ListBox  from a DataBase</Title>
+  <Properties />
+  <DisplayName>DataBase DataSource</DisplayName>
+  <Description>The example demonstrates how to populate a Visual WebGui ListBox from a collection.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="DataBaseDataSourcePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DataBaseDataSourcePage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DataBaseDataSourcePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DataBaseDataSourcePage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DataBaseDataSourcePage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListBox</Keyword>
+    <Keyword>DataBase</Keyword>
+    <Keyword>DataSource</Keyword>
+    <Keyword>ValueMember</Keyword>
+    <Keyword>DisplayMember</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListBox.PopulatingData.DataBaseDataSourcePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

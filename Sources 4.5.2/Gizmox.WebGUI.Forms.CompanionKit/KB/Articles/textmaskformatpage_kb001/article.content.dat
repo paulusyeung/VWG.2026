@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634172232035736013" UpdatedBy="admin" UpdatedOn="634256861626469995">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select mask in the &ldquo;Select mask&rdquo; ComboBox. <br />Fill up partially the&nbsp;MaskedTextBox.<br />Change the mask to see how mask format changes the resulting text.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>MaskedTextBox </em>control contains <em>TextMaskFormat </em>property that determines whether literals and prompt characters are included in the formatted string.<br /><br />The property can contain the following value: <br /><strong>ExcludePromptAndLiterals </strong>&ndash; defines that the literal and prompt character are excluded from value of the Text property<br /><strong>IncludeLiterals </strong>&ndash; defines that value of the Text property includes only literals but the prompt characters are excluded from value of the Text property.<br /><strong>IncludePrompt </strong>&ndash; defines that value of the Text property includes only prompt characters but the literals are excluded from value of the Text property.<br /><strong>IncludeLiterals </strong>&ndash; defines that value of the Text property includes only literals but the prompt characters are excluded from value of the Text property.<br /><strong>IncludePromptAndLiterals </strong>&ndash; defines that value of the Text property includes prompt characters and literals<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

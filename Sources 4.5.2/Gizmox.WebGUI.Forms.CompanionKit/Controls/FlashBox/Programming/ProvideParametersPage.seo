@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="405">
+  <Title>How to set parameters for a Flash animation.</Title>
+  <Properties />
+  <DisplayName>Provide parameters</DisplayName>
+  <Description>The example demonstrates how to set parameters for a Flash animation.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ProvideParametersPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ProvideParametersPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ProvideParametersPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ProvideParametersPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ProvideParametersPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Flash\FC_2_3_Column3D.swf" Order="104" Lang="All" Title="FC_2_3_Column3D.swf" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Flash\FC_2_3_DATA.xml" Order="105" Lang="All" Title="FC_2_3_DATA.xml" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>FlashBox</Keyword>
+    <Keyword>Flash</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>Parameters</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.FlashBox.Programming.ProvideParametersPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

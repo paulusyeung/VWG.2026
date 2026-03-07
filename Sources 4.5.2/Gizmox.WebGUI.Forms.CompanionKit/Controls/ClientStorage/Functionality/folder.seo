@@ -1,0 +1,18 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientStorage</Keyword>
+    <Keyword>SQL</Keyword>
+    <Keyword>query</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.ClientStorage.Functionality.ExecutingQueriesPage</DefaultPage>
+</Item>

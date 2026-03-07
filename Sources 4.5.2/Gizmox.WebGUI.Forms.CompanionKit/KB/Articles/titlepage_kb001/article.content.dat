@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634080641714906453" UpdatedBy="admin" UpdatedOn="634080642583315514">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter custom title for the <em>OpenFileDialog </em>in the 'Title of the open file dialog' TextBox and click on the 'Open file dialog with custom title' button and upload file dialog will be opened with the entered custom title.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>OpenFileDialog </em>dialog box contains <em>Title </em>property that represents the file dialog box title. The default value is an empty string (&quot;&quot;).</p>]]></Paragraph>
+  </Nodes>
+</Data>

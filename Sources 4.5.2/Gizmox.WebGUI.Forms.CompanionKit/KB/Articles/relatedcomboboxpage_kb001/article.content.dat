@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110985888128934" UpdatedBy="admin" UpdatedOn="634141962455636634">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change selected value in 'Customers' <em>ComboBox </em>and&nbsp;'Customer order IDs' <em>ComboBox </em>will&nbsp;contain order ids for selected customer. Change selected value in 'Customer order IDs' <em>ComboBox </em>and 'Customer order prices' <em>ComboBox </em>will be updated and will&nbsp;contain price for selected order.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The example contains&nbsp;two&nbsp;<em>ComboBoxes</em>.&nbsp;For both&nbsp;of&nbsp;them <em>DataSource </em>property set to a table in the database<em>.&nbsp;</em>The tables are related to each other.</p>]]></Paragraph>
+  </Nodes>
+</Data>

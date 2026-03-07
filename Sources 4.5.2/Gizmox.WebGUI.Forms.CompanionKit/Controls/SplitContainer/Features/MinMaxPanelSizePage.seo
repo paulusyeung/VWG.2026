@@ -1,0 +1,35 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Support min and max pane size</Title>
+  <Properties />
+  <DisplayName>Min/Max pane size</DisplayName>
+  <Description>The example demonstrates how to manipulate with min/max size of the Visual WebGui SplitContainer panels.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MinMaxPanelSizePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinMaxPanelSizePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinMaxPanelSizePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinMaxPanelSizePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinMaxPanelSizePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>SplitContainer</Keyword>
+    <Keyword>Minimum</Keyword>
+    <Keyword>Maximum</Keyword>
+    <Keyword>Panel</Keyword>
+    <Keyword>MinSize</Keyword>
+    <Keyword>MaxSize</Keyword>
+    <Keyword>Size</Keyword>
+    <Keyword>Splitter</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.SplitContainer.Features.MinMaxPanelSizePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="250,200" Docking="Bottom">
+    <Fields>
+      <Field Column="0" Order="0" Type="NumericUpDown" Label="Panel Left's MinSize of Vertical SplitContainer" TargetName="splitContainer1" PropertyName="Panel1MinSize" />
+      <Field Column="0" Order="0" Type="NumericUpDown" Label="Panel Right's MinSize of Vertical SplitContainer" TargetName="splitContainer1" PropertyName="Panel2MinSize" />
+      <Field Column="0" Order="0" Type="NumericUpDown" Label="Panel Top's MinSize of Horizontal SplitContainer" TargetName="splitContainer2" PropertyName="Panel1MinSize" />
+      <Field Column="0" Order="0" Type="NumericUpDown" Label="Panel Bottom's MinSize of Horizontal SplitContainer" TargetName="splitContainer2" PropertyName="Panel2MinSize" />
+    </Fields>
+  </Inspector>
+</Item>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110894878988577" UpdatedBy="admin" UpdatedOn="634118659090228729">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains three <em>ComboBox </em>with different styles drop down <em>Simple</em>, <em>DropDown </em>and <em>DropDownList</em> respectivel. See how the <em>DropDownStyle </em>property affects appearance and functionality of ComboBox.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ComboBox </em>contains <em>DropDownStyle </em>property that defines the drop down style. The <em>DropDown</em> menu of the <em>ComboBox </em>can be the following styles:<br /><strong>Simple </strong>- specifies that the list is always visible and that the text portion is editable<br /><strong>DropDown </strong>- specifies that the list is displayed by clicking the down arrow and that the text portion is editable<br /><strong>DropDownList </strong>- specifies that the list is displayed by clicking the down arrow and that the text portion is not editable</p>]]></Paragraph>
+  </Nodes>
+</Data>

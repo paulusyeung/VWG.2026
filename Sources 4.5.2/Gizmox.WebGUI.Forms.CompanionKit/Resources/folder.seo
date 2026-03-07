@@ -1,0 +1,15 @@
+<Item SiteMap="False" Order="200" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>Resources</Title>
+  <Properties/>
+  <DisplayName>Resources</DisplayName>
+  <Description>The folder is a container of resources of different types for further usage as linked resource. 
+  Should be always in Status equal to Draft.
+  Please review the DOC-7096 for detailed description.
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage/>
+  <Body/>
+</Item>

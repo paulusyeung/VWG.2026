@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634136098229321954" UpdatedBy="admin" UpdatedOn="634136099860738645" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to manipulate with min/max size of the Visual WebGui SplitContainer panels.</Description>
+  </Properties>
+  <Nodes />
+</Data>

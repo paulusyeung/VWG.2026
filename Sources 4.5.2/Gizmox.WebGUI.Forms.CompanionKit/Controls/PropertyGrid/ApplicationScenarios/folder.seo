@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Application Scenarios</Title>
+  <Properties />
+  <DisplayName>Application Scenarios</DisplayName>
+  <Description>Contains example that demonstrates where to use the Visual WebGui PropertyGrid control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>PropertyGrid</Keyword>
+    <Keyword>Attribute</Keyword>
+    <Keyword>Sample</Keyword>
+    <Keyword>Example</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.PropertyGrid.ApplicationScenarios.ExampleApplicationPage</DefaultPage>
+  <Body />
+</Item>

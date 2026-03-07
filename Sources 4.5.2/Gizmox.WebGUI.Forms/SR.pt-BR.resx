@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccDGCollapse" xml:space="preserve">
+    <value>Retrair</value>
+  </data>
+  <data name="AccDGEdit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="AccDGExpand" xml:space="preserve">
+    <value>Expandir</value>
+  </data>
+  <data name="AccDGNavigate" xml:space="preserve">
+    <value>Mover</value>
+  </data>
+  <data name="AccDGNavigateBack" xml:space="preserve">
+    <value>Mover para o Anterior</value>
+  </data>
+  <data name="AccDGNewRow" xml:space="preserve">
+    <value>(Criar Novo)</value>
+  </data>
+  <data name="AccDGParentRow" xml:space="preserve">
+    <value>Linha Principal</value>
+  </data>
+  <data name="AccDGParentRows" xml:space="preserve">
+    <value>Linhas Principais</value>
+  </data>
+  <data name="AccessibleActionCheck" xml:space="preserve">
+    <value>Checar</value>
+  </data>
+  <data name="AccessibleActionClick" xml:space="preserve">
+    <value>Clicar</value>
+  </data>
+  <data name="AccessibleActionCollapse" xml:space="preserve">
+    <value>Retrair</value>
+  </data>
+  <data name="AccessibleActionExpand" xml:space="preserve">
+    <value>Expandir</value>
+  </data>
+  <data name="AccessibleActionPress" xml:space="preserve">
+    <value>Pressionar</value>
+  </data>
+  <data name="AccessibleActionUncheck" xml:space="preserve">
+    <value>Desmarcar</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="ApplyCaption" xml:space="preserve">
+    <value>&amp;Aplicar</value>
+  </data>
+  <data name="AXNoLicenseToUse" xml:space="preserve">
+    <value>É necessário licença para usar este controle ActiveX.</value>
+  </data>
+  <data name="AXNotImplemented" xml:space="preserve">
+    <value>Opção em Implementação.</value>
+  </data>
+  <data name="AXUnknownError" xml:space="preserve">
+    <value>Erro Desconhecido.</value>
+  </data>
+  <data name="BindingNavigatorAddNewItemText" xml:space="preserve">
+    <value>Adicionar Novo</value>
+  </data>
+  <data name="BindingNavigatorCountItemFormat" xml:space="preserve">
+    <value>{0} de {1}</value>
+  </data>
+  <data name="BindingNavigatorDeleteItemText" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="BindingNavigatorMoveFirstItemText" xml:space="preserve">
+    <value>Mover para o primeiro registro</value>
+  </data>
+  <data name="BindingNavigatorMoveLastItemText" xml:space="preserve">
+    <value>Mover para o último registro</value>
+  </data>
+  <data name="BindingNavigatorMoveNextItemText" xml:space="preserve">
+    <value>Mover para o próximo</value>
+  </data>
+  <data name="BindingNavigatorMovePreviousItemText" xml:space="preserve">
+    <value>Mover para o anterior</value>
+  </data>
+  <data name="BindingNavigatorPositionAccessibleName" xml:space="preserve">
+    <value>Posição</value>
+  </data>
+  <data name="BindingNavigatorPositionItemTip" xml:space="preserve">
+    <value>Posição Atual</value>
+  </data>
+  <data name="CancelCaption" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="CatAccessibility" xml:space="preserve">
+    <value>Accessibilidade</value>
+  </data>
+  <data name="CatAction" xml:space="preserve">
+    <value>Ação</value>
+  </data>
+  <data name="CatAppearance" xml:space="preserve">
+    <value>Aspecto</value>
+  </data>
+  <data name="CatAsynchronous" xml:space="preserve">
+    <value>Assíncrono</value>
+  </data>
+  <data name="CatBehavior" xml:space="preserve">
+    <value>Comportamento</value>
+  </data>
+  <data name="CatColors" xml:space="preserve">
+    <value>Cores</value>
+  </data>
+  <data name="CatData" xml:space="preserve">
+    <value>Dados</value>
+  </data>
+  <data name="CatDisplay" xml:space="preserve">
+    <value>Exibição</value>
+  </data>
+  <data name="CatDragDrop" xml:space="preserve">
+    <value>Arraste e Solte</value>
+  </data>
+  <data name="CatFocus" xml:space="preserve">
+    <value>Foco</value>
+  </data>
+  <data name="CatFolderBrowsing" xml:space="preserve">
+    <value>Navegação na Pasta</value>
+  </data>
+  <data name="CatItems" xml:space="preserve">
+    <value>Itens</value>
+  </data>
+  <data name="CatKey" xml:space="preserve">
+    <value>Chave</value>
+  </data>
+  <data name="CatLayout" xml:space="preserve">
+    <value>Leiaute</value>
+  </data>
+  <data name="CatMouse" xml:space="preserve">
+    <value>Mouse</value>
+  </data>
+  <data name="CatPrivate" xml:space="preserve">
+    <value>Privativo</value>
+  </data>
+  <data name="CatPropertyChanged" xml:space="preserve">
+    <value>Propriedade Alterada</value>
+  </data>
+  <data name="CatWindowStyle" xml:space="preserve">
+    <value>Estilo da Janela</value>
+  </data>
+  <data name="ClearAllFilters" xml:space="preserve">
+    <value>Clique aqui para limpar todos os critérios de filtros.</value>
+  </data>
+  <data name="ClearFilterExpression" xml:space="preserve">
+    <value>Clique aqui para limpar o critério de filtro selecionado para esta coluna.</value>
+  </data>
+  <data name="ClipboardOperationFailed" xml:space="preserve">
+    <value>Operação Solicitada não foi bem sucedida.</value>
+  </data>
+  <data name="ClipboardSecurityException" xml:space="preserve">
+    <value>Devido a restrições de Segurança na área de transferência, o formato de transferência especificado não pode ser definido.</value>
+  </data>
+  <data name="CloseCaption" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="CustomFilter" xml:space="preserve">
+    <value>Personalizar Filtro</value>
+  </data>
+  <data name="CustomFilterColon" xml:space="preserve">
+    <value>Personalizar Filtro:</value>
+  </data>
+  <data name="DataGridViewCheckBoxCell_ClipboardChecked" xml:space="preserve">
+    <value>Selecionado</value>
+  </data>
+  <data name="DataGridViewCheckBoxCell_ClipboardFalse" xml:space="preserve">
+    <value>Falso</value>
+  </data>
+  <data name="DataGridViewCheckBoxCell_ClipboardIndeterminate" xml:space="preserve">
+    <value>Indeterminado</value>
+  </data>
+  <data name="DataGridViewCheckBoxCell_ClipboardTrue" xml:space="preserve">
+    <value>Verdadeiro</value>
+  </data>
+  <data name="DataGridViewCheckBoxCell_ClipboardUnchecked" xml:space="preserve">
+    <value>Desmarcado</value>
+  </data>
+  <data name="DataGridViewFilterComboBoxOption_All" xml:space="preserve">
+    <value>(Todos)</value>
+  </data>
+  <data name="DataGridViewFilterComboBoxOption_Blanks" xml:space="preserve">
+    <value>(Vazio)</value>
+  </data>
+  <data name="DataGridViewFilterComboBoxOption_Custom" xml:space="preserve">
+    <value>(Personalizar)</value>
+  </data>
+  <data name="DataGridViewFilterComboBoxOption_NonBlanks" xml:space="preserve">
+    <value>(Sem Espaços Vazios)</value>
+  </data>
+  <data name="DataGridViewGroupingTreeViewDragColumnHeaderHere" xml:space="preserve">
+    <value>Arraste o Nome da Coluna para agrupar pela mesma.</value>
+  </data>
+  <data name="DataGridView_AccButtonCellDefaultAction" xml:space="preserve">
+    <value>Pressionar</value>
+  </data>
+  <data name="DataGridView_AccCellDefaultAction" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="DataGridView_AccCheckBoxCellDefaultActionCheck" xml:space="preserve">
+    <value>Pressione para Marcar</value>
+  </data>
+  <data name="DataGridView_AccCheckBoxCellDefaultActionUncheck" xml:space="preserve">
+    <value>Pressione para Desmarcar</value>
+  </data>
+  <data name="DataGridView_AccColumnHeaderCellDefaultAction" xml:space="preserve">
+    <value>Pressione para Ordenar a Coluna</value>
+  </data>
+  <data name="DataGridView_AccColumnHeaderCellSelectDefaultAction" xml:space="preserve">
+    <value>Pressione para Selecionar a Coluna</value>
+  </data>
+  <data name="DataGridView_AccDataGridViewCellName" xml:space="preserve">
+    <value>{0} Linha {1}</value>
+  </data>
+  <data name="DataGridView_AccEditingControlAccName" xml:space="preserve">
+    <value>Controle de Edição</value>
+  </data>
+  <data name="DataGridView_AccEditingPanelAccName" xml:space="preserve">
+    <value>Painel de Edição</value>
+  </data>
+  <data name="DataGridView_AccHorizontalScrollBarAccName" xml:space="preserve">
+    <value>Barra de Rolagem Horizontal</value>
+  </data>
+  <data name="DataGridView_AccLinkCellDefaultAction" xml:space="preserve">
+    <value>Clicar</value>
+  </data>
+  <data name="DataGridView_AccNullValue" xml:space="preserve">
+    <value>(nulo)</value>
+  </data>
+  <data name="DataGridView_AccRowCreateNew" xml:space="preserve">
+    <value>(Criar Novo)</value>
+  </data>
+  <data name="DataGridView_CannotGroupByThisColumn" xml:space="preserve">
+    <value>Não é possível agrupar por Coluna '{0}'.</value>
+  </data>
+  <data name="DataGridView_ChooseShowHideColumns" xml:space="preserve">
+    <value>Ecolher colunas para Mostrar/Ocultar</value>
+  </data>
+  <data name="DataGridView_InvalidGroupingColumnName" xml:space="preserve">
+    <value>Agrupamento de Coluna Inválido '{0}'.</value>
+  </data>
+  <data name="DataGridView_RowHeaderCellAccDefaultAction" xml:space="preserve">
+    <value>Pressione para selecionar linha</value>
+  </data>
+  <data name="FileDialogBufferTooSmall" xml:space="preserve">
+    <value>Muitos arquivos selecionados. Selecione menos arquivos e tente novamente.</value>
+  </data>
+  <data name="FileDialogCreatePrompt" xml:space="preserve">
+    <value>Arquivo {0} não existe.
+Deseja cria-lo?</value>
+  </data>
+  <data name="FileDialogFileNotFound" xml:space="preserve">
+    <value>Arquivo {0} não existe.
+Verifique se o nome do arquivo fornecido está correto.</value>
+  </data>
+  <data name="FileDialogInvalidFileName" xml:space="preserve">
+    <value>Arquivo {0} não é um nome de arquivo válido.</value>
+  </data>
+  <data name="FileDialogInvalidFilterIndex" xml:space="preserve">
+    <value>Índice do Filtro não é válido.</value>
+  </data>
+  <data name="FileDialogOverwritePrompt" xml:space="preserve">
+    <value>Arquivo {0} já existe.
+Você deseja substitui-lo?</value>
+  </data>
+  <data name="FilterComparisionOperator_Contains" xml:space="preserve">
+    <value>Contém</value>
+  </data>
+  <data name="FilterComparisionOperator_Custom" xml:space="preserve">
+    <value>Personalizar</value>
+  </data>
+  <data name="FilterComparisionOperator_DoesNotContain" xml:space="preserve">
+    <value>Não Contém</value>
+  </data>
+  <data name="FilterComparisionOperator_DoesNotEndWith" xml:space="preserve">
+    <value>Não termina em</value>
+  </data>
+  <data name="FilterComparisionOperator_DoesNotMatch" xml:space="preserve">
+    <value>Não Combina</value>
+  </data>
+  <data name="FilterComparisionOperator_DoesNotStartWith" xml:space="preserve">
+    <value>Não começa com</value>
+  </data>
+  <data name="FilterComparisionOperator_EndsWith" xml:space="preserve">
+    <value>Termina em</value>
+  </data>
+  <data name="FilterComparisionOperator_Equals" xml:space="preserve">
+    <value>Igual</value>
+  </data>
+  <data name="FilterComparisionOperator_GreaterThan" xml:space="preserve">
+    <value>Maior do que</value>
+  </data>
+  <data name="FilterComparisionOperator_GreaterThanOrEqualTo" xml:space="preserve">
+    <value>Maior ou igual a</value>
+  </data>
+  <data name="FilterComparisionOperator_LessThan" xml:space="preserve">
+    <value>Menor do que</value>
+  </data>
+  <data name="FilterComparisionOperator_LessThanOrEqualTo" xml:space="preserve">
+    <value>Menor ou igual a</value>
+  </data>
+  <data name="FilterComparisionOperator_Like" xml:space="preserve">
+    <value>Igual</value>
+  </data>
+  <data name="FilterComparisionOperator_Match" xml:space="preserve">
+    <value>Combina com a Expressão Regular</value>
+  </data>
+  <data name="FilterComparisionOperator_NotEquals" xml:space="preserve">
+    <value>Não é igual</value>
+  </data>
+  <data name="FilterComparisionOperator_NotLike" xml:space="preserve">
+    <value>Não Igual</value>
+  </data>
+  <data name="FilterComparisionOperator_StartsWith" xml:space="preserve">
+    <value>Começa com</value>
+  </data>
+  <data name="FilterMessage" xml:space="preserve">
+    <value>Mostrar linhas onde '{0}' :</value>
+  </data>
+  <data name="HelpCaption" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="HelpInvalidURL" xml:space="preserve">
+    <value>URL da Ajuda '{0}' inválida.</value>
+  </data>
+  <data name="InvalidFileFormat" xml:space="preserve">
+    <value>Formato de Arquivo inválido.</value>
+  </data>
+  <data name="InvalidFileType" xml:space="preserve">
+    <value>Tipo de arquivo inválido.</value>
+  </data>
+  <data name="InvalidFilterMessage" xml:space="preserve">
+    <value>Valor de Filtro Inválido</value>
+  </data>
+  <data name="InvalidUserNameOrPassword" xml:space="preserve">
+    <value>Nome de Usuário ou senha inválido.</value>
+  </data>
+  <data name="LoginButtonText" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="NextFlow" xml:space="preserve">
+    <value>Próximo Fluxo</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>Ou</value>
+  </data>
+  <data name="PasswordLabelText" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="PreviousFlow" xml:space="preserve">
+    <value>Fluxo Anterior</value>
+  </data>
+  <data name="PrintControllerWithStatusDialog_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="PrintControllerWithStatusDialog_Canceling" xml:space="preserve">
+    <value>Cancelando Impressão...</value>
+  </data>
+  <data name="PrintControllerWithStatusDialog_DialogTitlePreview" xml:space="preserve">
+    <value>Gerando Visualização</value>
+  </data>
+  <data name="PrintControllerWithStatusDialog_DialogTitlePrint" xml:space="preserve">
+    <value>Imprimindo</value>
+  </data>
+  <data name="PrintControllerWithStatusDialog_NowPrinting" xml:space="preserve">
+    <value>Página {0} de {1}</value>
+  </data>
+  <data name="PrintPreviewAutoZoomDescr" xml:space="preserve">
+    <value>Determina ajuste automático de zoom para preencher espaço disponível.</value>
+  </data>
+  <data name="PrintPreviewColumnsDescr" xml:space="preserve">
+    <value>Número de páginas Total.</value>
+  </data>
+  <data name="PrintPreviewControlZoomNegative" xml:space="preserve">
+    <value>Zoom deve ser 0 ou maior. Valores Negativos não são permitidos.</value>
+  </data>
+  <data name="PrintPreviewDialog_Close" xml:space="preserve">
+    <value>Fe&amp;char</value>
+  </data>
+  <data name="PrintPreviewDialog_FourPages" xml:space="preserve">
+    <value>Quatro Páginas</value>
+  </data>
+  <data name="PrintPreviewDialog_OnePage" xml:space="preserve">
+    <value>Uma página</value>
+  </data>
+  <data name="PrintPreviewDialog_Page" xml:space="preserve">
+    <value>&amp;Página</value>
+  </data>
+  <data name="PrintPreviewDialog_Print" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="PrintPreviewDialog_PrintPreview" xml:space="preserve">
+    <value>Visualizar Impressão</value>
+  </data>
+  <data name="PrintPreviewDialog_SixPages" xml:space="preserve">
+    <value>Seis Páginas</value>
+  </data>
+  <data name="PrintPreviewDialog_ThreePages" xml:space="preserve">
+    <value>Três Páginas</value>
+  </data>
+  <data name="PrintPreviewDialog_TwoPages" xml:space="preserve">
+    <value>Duas Páginas</value>
+  </data>
+  <data name="PrintPreviewDialog_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="ProxySet_NewSet" xml:space="preserve">
+    <value>Novo Conjunto</value>
+  </data>
+  <data name="RibbonBarMaximizeTheRibbon" xml:space="preserve">
+    <value>Maximizar a Faixa de Opções</value>
+  </data>
+  <data name="RibbonBarMinimizeTheRibbon" xml:space="preserve">
+    <value>Minimizar a Faixa de Opções</value>
+  </data>
+  <data name="RibbonBarShowAboveTheRibbon" xml:space="preserve">
+    <value>Mostrar Acima da Faixa de Opções</value>
+  </data>
+  <data name="RibbonBarShowBelowTheRibbon" xml:space="preserve">
+    <value>Mostrar Abaixo da Faixa de Opções</value>
+  </data>
+  <data name="RibbonBarValidateExpandAndDock" xml:space="preserve">
+    <value>Não é possível retrair a Faixa de Opções com este estilo de dock '{0}'.</value>
+  </data>
+  <data name="SelectFilterOperation" xml:space="preserve">
+    <value>Clique aqui para selecionar a operação do filtro.</value>
+  </data>
+  <data name="TabControlValidateExpandAndDock" xml:space="preserve">
+    <value>Não é possível retrair o controle da guia com este estilo de dock '{0}'.</value>
+  </data>
+  <data name="UploadcontrolErrorContentMissing" xml:space="preserve">
+    <value>Falta Conteúdo na Publicação</value>
+  </data>
+  <data name="UploadControlErrorMaxSize" xml:space="preserve">
+    <value>Tamanho de '{0}' excede o tamanho máximo permitido</value>
+  </data>
+  <data name="UploadControlErrorMinSize" xml:space="preserve">
+    <value>Tamanho de '{0}' é menor do que o tamanho mínimo permitido</value>
+  </data>
+  <data name="UploadControlErrorRMFail" xml:space="preserve">
+    <value>Expressão regular inválida para o nome de arquivo correspondente</value>
+  </data>
+  <data name="UploadControlErrorRMFile" xml:space="preserve">
+    <value>Nome do Arquivo '{0}' falhou na correspondência da expressão regular</value>
+  </data>
+  <data name="UploadControlFileNotAllowed" xml:space="preserve">
+    <value>Tipo de Arquivo ou Nome não permitido como nome de arquivo '{0}'</value>
+  </data>
+  <data name="UserNameLabelText" xml:space="preserve">
+    <value>Nome de Usuário</value>
+  </data>
+  <data name="WGAutoHide" xml:space="preserve">
+    <value>Auto Ocultar</value>
+  </data>
+  <data name="WGBottom" xml:space="preserve">
+    <value>Rodapé</value>
+  </data>
+  <data name="WGDockable" xml:space="preserve">
+    <value>Acoplável</value>
+  </data>
+  <data name="WGFloating" xml:space="preserve">
+    <value>Flutuante</value>
+  </data>
+  <data name="WGGloballyDockAllWindow" xml:space="preserve">
+    <value>Limitar Globalmente Todas as Janelas</value>
+  </data>
+  <data name="WGGloballyDockCurrentWindow" xml:space="preserve">
+    <value>Limitar Globalmente a Janela Atual</value>
+  </data>
+  <data name="WGHide" xml:space="preserve">
+    <value>Ocultar</value>
+  </data>
+  <data name="WGLabelsAbort" xml:space="preserve">
+    <value>Abortar</value>
+  </data>
+  <data name="WGLabelsActiveCell" xml:space="preserve">
+    <value>Célula Ativa</value>
+  </data>
+  <data name="WGLabelsAdd" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="WGLabelsApply" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="WGLabelsApril" xml:space="preserve">
+    <value>Abril</value>
+  </data>
+  <data name="WGLabelsAprilShort" xml:space="preserve">
+    <value>Abr</value>
+  </data>
+  <data name="WGLabelsAscending" xml:space="preserve">
+    <value>Ascendente</value>
+  </data>
+  <data name="WGLabelsAugust" xml:space="preserve">
+    <value>Agosto</value>
+  </data>
+  <data name="WGLabelsAugustShort" xml:space="preserve">
+    <value>Ago</value>
+  </data>
+  <data name="WGLabelsBack" xml:space="preserve">
+    <value>Para trás</value>
+  </data>
+  <data name="WGLabelsBold" xml:space="preserve">
+    <value>Negrio</value>
+  </data>
+  <data name="WGLabelsBoldItalic" xml:space="preserve">
+    <value>Itálico Negrito</value>
+  </data>
+  <data name="WGLabelsCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="WGLabelsClear" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="WGLabelsClose" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="WGLabelsColor" xml:space="preserve">
+    <value>Cor:</value>
+  </data>
+  <data name="WGLabelsColumns" xml:space="preserve">
+    <value>Colunas</value>
+  </data>
+  <data name="WGLabelsCurrentPage" xml:space="preserve">
+    <value>Página Atual</value>
+  </data>
+  <data name="WGLabelsDateInput" xml:space="preserve">
+    <value>Entrada de Data</value>
+  </data>
+  <data name="WGLabelsDatePicker" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="WGLabelsDecember" xml:space="preserve">
+    <value>Dezembro</value>
+  </data>
+  <data name="WGLabelsDecemberShort" xml:space="preserve">
+    <value>Dez</value>
+  </data>
+  <data name="WGLabelsDecsending" xml:space="preserve">
+    <value>Descendente</value>
+  </data>
+  <data name="WGLabelsEffects" xml:space="preserve">
+    <value>Efeitos</value>
+  </data>
+  <data name="WGLabelsFebruary" xml:space="preserve">
+    <value>Fevereiro</value>
+  </data>
+  <data name="WGLabelsFebruaryShort" xml:space="preserve">
+    <value>Fev</value>
+  </data>
+  <data name="WGLabelsFinish" xml:space="preserve">
+    <value>Terminar</value>
+  </data>
+  <data name="WGLabelsFont" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="WGLabelsFontColon" xml:space="preserve">
+    <value>Fonte:</value>
+  </data>
+  <data name="WGLabelsFontStyle" xml:space="preserve">
+    <value>Estilo de Fonte:</value>
+  </data>
+  <data name="WGLabelsFriday" xml:space="preserve">
+    <value>Sexta</value>
+  </data>
+  <data name="WGLabelsFridayShort" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="WGLabelsGridColumnChooser" xml:space="preserve">
+    <value>Escolher Colunas para Mostrar/Ocultar</value>
+  </data>
+  <data name="WGLabelsGrouping" xml:space="preserve">
+    <value>Agrupar</value>
+  </data>
+  <data name="WGLabelsHelp" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="WGLabelsHide" xml:space="preserve">
+    <value>Ocultar</value>
+  </data>
+  <data name="WGLabelsIgnore" xml:space="preserve">
+    <value>Ignorar</value>
+  </data>
+  <data name="WGLabelsItalic" xml:space="preserve">
+    <value>Itálico</value>
+  </data>
+  <data name="WGLabelsJanuary" xml:space="preserve">
+    <value>Janeiro</value>
+  </data>
+  <data name="WGLabelsJanuaryShort" xml:space="preserve">
+    <value>Jan</value>
+  </data>
+  <data name="WGLabelsJuly" xml:space="preserve">
+    <value>Julho</value>
+  </data>
+  <data name="WGLabelsJulyShort" xml:space="preserve">
+    <value>Jul</value>
+  </data>
+  <data name="WGLabelsJune" xml:space="preserve">
+    <value>Junho</value>
+  </data>
+  <data name="WGLabelsJuneShort" xml:space="preserve">
+    <value>Jun</value>
+  </data>
+  <data name="WGLabelsKeysColon" xml:space="preserve">
+    <value>Chaves:</value>
+  </data>
+  <data name="WGLabelsLeft" xml:space="preserve">
+    <value>Esquerda</value>
+  </data>
+  <data name="WGLabelsLoading" xml:space="preserve">
+    <value>Carregando</value>
+  </data>
+  <data name="WGLabelsMakeNewFolder" xml:space="preserve">
+    <value>Fazer Nova Pasta</value>
+  </data>
+  <data name="WGLabelsMarch" xml:space="preserve">
+    <value>Março</value>
+  </data>
+  <data name="WGLabelsMarchShort" xml:space="preserve">
+    <value>Mar</value>
+  </data>
+  <data name="WGLabelsMay" xml:space="preserve">
+    <value>Maio</value>
+  </data>
+  <data name="WGLabelsMayShort" xml:space="preserve">
+    <value>Mai</value>
+  </data>
+  <data name="WGLabelsModifiersColon" xml:space="preserve">
+    <value>Modificadores:</value>
+  </data>
+  <data name="WGLabelsMonday" xml:space="preserve">
+    <value>Segunda</value>
+  </data>
+  <data name="WGLabelsMondayShort" xml:space="preserve">
+    <value>Seg</value>
+  </data>
+  <data name="WGLabelsMore" xml:space="preserve">
+    <value>Mais</value>
+  </data>
+  <data name="WGLabelsMoveDown" xml:space="preserve">
+    <value>Mover para baixo</value>
+  </data>
+  <data name="WGLabelsMoveUp" xml:space="preserve">
+    <value>Mover para cima</value>
+  </data>
+  <data name="WGLabelsNext" xml:space="preserve">
+    <value>Seguinte</value>
+  </data>
+  <data name="WGLabelsNo" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="WGLabelsNovember" xml:space="preserve">
+    <value>Novembro</value>
+  </data>
+  <data name="WGLabelsNovemberShort" xml:space="preserve">
+    <value>Nov</value>
+  </data>
+  <data name="WGLabelsOctober" xml:space="preserve">
+    <value>Outubro</value>
+  </data>
+  <data name="WGLabelsOctoberShort" xml:space="preserve">
+    <value>Out</value>
+  </data>
+  <data name="WGLabelsOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="WGLabelsOpen" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="WGLabelsPrevious" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="WGLabelsRegular" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="WGLabelsRemove" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="WGLabelsReset" xml:space="preserve">
+    <value>Redefinir</value>
+  </data>
+  <data name="WGLabelsRetry" xml:space="preserve">
+    <value>Tentar novamente</value>
+  </data>
+  <data name="WGLabelsRight" xml:space="preserve">
+    <value>Direita</value>
+  </data>
+  <data name="WGLabelsSample" xml:space="preserve">
+    <value>Amostra</value>
+  </data>
+  <data name="WGLabelsSaturday" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
+  <data name="WGLabelsSaturdayShort" xml:space="preserve">
+    <value>Sáb</value>
+  </data>
+  <data name="WGLabelsScript" xml:space="preserve">
+    <value>Script:</value>
+  </data>
+  <data name="WGLabelsSearch" xml:space="preserve">
+    <value>Procurar</value>
+  </data>
+  <data name="WGLabelsSelectFilesToUpload" xml:space="preserve">
+    <value>Selecionar arquivos para enviar</value>
+  </data>
+  <data name="WGLabelsSeptember" xml:space="preserve">
+    <value>Setembro</value>
+  </data>
+  <data name="WGLabelsSeptemberShort" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="WGLabelsShow" xml:space="preserve">
+    <value>Mostrar</value>
+  </data>
+  <data name="WGLabelsSize" xml:space="preserve">
+    <value>Tamanho:</value>
+  </data>
+  <data name="WGLabelsSorting" xml:space="preserve">
+    <value>Ordenar</value>
+  </data>
+  <data name="WGLabelsStrikeout" xml:space="preserve">
+    <value>Rasurar</value>
+  </data>
+  <data name="WGLabelsSubmit" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="WGLabelsSunday" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="WGLabelsSundayShort" xml:space="preserve">
+    <value>Dom</value>
+  </data>
+  <data name="WGLabelsThursday" xml:space="preserve">
+    <value>Quinta</value>
+  </data>
+  <data name="WGLabelsThursdayShort" xml:space="preserve">
+    <value>Qui</value>
+  </data>
+  <data name="WGLabelsToday" xml:space="preserve">
+    <value>Hoje</value>
+  </data>
+  <data name="WGLabelsTuesday" xml:space="preserve">
+    <value>Terça</value>
+  </data>
+  <data name="WGLabelsTuesdayShort" xml:space="preserve">
+    <value>Ter</value>
+  </data>
+  <data name="WGLabelsUnderline" xml:space="preserve">
+    <value>Sublinhar</value>
+  </data>
+  <data name="WGLabelsWednesday" xml:space="preserve">
+    <value>Quarta</value>
+  </data>
+  <data name="WGLabelsWednesdayShort" xml:space="preserve">
+    <value>Qua</value>
+  </data>
+  <data name="WGLabelsWindowClose" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="WGLabelsWindowMaximize" xml:space="preserve">
+    <value>Maximizar</value>
+  </data>
+  <data name="WGLabelsWindowMinimize" xml:space="preserve">
+    <value>Minimizar</value>
+  </data>
+  <data name="WGLabelsWindowRestoreDown" xml:space="preserve">
+    <value>Desfazer</value>
+  </data>
+  <data name="WGLabelsWindowRestoreUp" xml:space="preserve">
+    <value>Refazer</value>
+  </data>
+  <data name="WGLabelsYes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="WGLablesAll" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="WGLablesCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="WGLablesColumnOptions" xml:space="preserve">
+    <value>Opcões de coluna</value>
+  </data>
+  <data name="WGLablesColumnsInstructions" xml:space="preserve">
+    <value>Selecione as colunas que pretende visualizar</value>
+  </data>
+  <data name="WGLablesColumnsStringA" xml:space="preserve">
+    <value>A coluna selecionada deve ser</value>
+  </data>
+  <data name="WGLablesColumnsStringB" xml:space="preserve">
+    <value>Tamanho em pixels</value>
+  </data>
+  <data name="WGLablesEmailRequiered" xml:space="preserve">
+    <value>Necessário endereço de e-mail.</value>
+  </data>
+  <data name="WGLablesFloatRangeRequiered" xml:space="preserve">
+    <value>Necessário valor numérico entre {0} e {1} .</value>
+  </data>
+  <data name="WGLablesFloatRequiered" xml:space="preserve">
+    <value>Necessário valor numérico.</value>
+  </data>
+  <data name="WGLablesGroupingInstructions" xml:space="preserve">
+    <value>Selecione as colunas que pretende agrupar. Utilize as setas para reordenar o agrupamento</value>
+  </data>
+  <data name="WGLablesGroupingOptions" xml:space="preserve">
+    <value>Opcões de reagrupamento</value>
+  </data>
+  <data name="WGLablesHide" xml:space="preserve">
+    <value>Ocultar</value>
+  </data>
+  <data name="WGLablesIntegerRangeRequiered" xml:space="preserve">
+    <value>Necessário valor inteiro entre {0} e {1} .</value>
+  </data>
+  <data name="WGLablesIntegerRequiered" xml:space="preserve">
+    <value>Necessário valor Inteiro.</value>
+  </data>
+  <data name="WGLablesMoveDown" xml:space="preserve">
+    <value>Para baixo</value>
+  </data>
+  <data name="WGLablesMoveUp" xml:space="preserve">
+    <value>Para cima</value>
+  </data>
+  <data name="WGLablesShow" xml:space="preserve">
+    <value>Mostrar</value>
+  </data>
+  <data name="WGLablesSortingInstructions" xml:space="preserve">
+    <value>Selecione as colunas que pretende ordenar. Utilize as setas para reordenar o agrupamento</value>
+  </data>
+  <data name="WGLablesSortingOptions" xml:space="preserve">
+    <value>Opcões de ordenamento</value>
+  </data>
+  <data name="WGLeft" xml:space="preserve">
+    <value>Esquerda</value>
+  </data>
+  <data name="WGRight" xml:space="preserve">
+    <value>Direita</value>
+  </data>
+  <data name="WGTabbedDocument" xml:space="preserve">
+    <value>Documento Tabulado</value>
+  </data>
+  <data name="WGTop" xml:space="preserve">
+    <value>Topo</value>
+  </data>
+</root>

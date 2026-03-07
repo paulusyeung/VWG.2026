@@ -1,0 +1,21 @@
+<Item SiteMap="False" Order="140" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Populating Data</Title>
+  <Properties />
+  <DisplayName>Populating Data</DisplayName>
+  <Description>Demonstrates how tou use different DataSources for populating ComboBox</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ComboBox</Keyword>
+    <Keyword>DataSource</Keyword>
+    <Keyword>Collection</Keyword>
+    <Keyword>DataBase</Keyword>
+    <Keyword>DisplayMember</Keyword>
+    <Keyword>ValueMember</Keyword>
+    <Keyword>Populate</Keyword>
+    <Keyword>Populating</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.ComboBox.PopulatingData.CollectionDataSourcePage</DefaultPage>
+  <Body />
+</Item>

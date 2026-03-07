@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634088519320144913" UpdatedBy="admin" UpdatedOn="634088525633663225">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select date in the demonstrated <em>MonthCalendar </em>and Wiki page for the selected date will be opened in <em>HTMLBox</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[Generate Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>MonthCalendar </em>allows getting selected date by <em>Value </em>property. The <em>MonthCalendar </em>informs about changing current value with <em>ValueChanged </em>event. The Value property is the DateTime type. When you change current date in the <em>MonthCalendar </em>the code get a new date and generate url for a new date and set it for the <em>HTMLBox</em>.</p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634130879806491626" UpdatedBy="admin" UpdatedOn="634130880639934460">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select sub-items in the <em>ListView</em>. Change selected items colors with 'Foreground color' and 'Background color' ComboBoxes. The text of the represented label will be changed to inform you about changing color.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ListView </em>contains ItemFormatting event that occurs when the item is formatted. The <em>ListView</em> does not fire the event on sub-items when the <em>UseItemStyleForSubItems </em>property is set to true.</p>]]></Paragraph>
+  </Nodes>
+</Data>

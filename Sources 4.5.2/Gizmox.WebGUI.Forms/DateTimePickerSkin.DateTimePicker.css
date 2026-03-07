@@ -1,0 +1,130 @@
+.DateTimePicker-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.DateTimePicker-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.DateTimePicker-Control_Disabled input
+{
+    [Skin.ControlTextForegroundDisabled];
+    [Skin.ControlTextFontDisabled];
+}
+
+.DateTimePicker-Table
+{
+	table-layout:fixed;
+	width:100%;
+	height:100%;
+}
+
+.DateTimePicker-Table TD
+{
+	overflow:hidden;
+}
+
+.DateTimePicker-InputValue
+{
+	[Skin.InputValueStyle];
+	[Skin.Font];
+}
+
+.DateTimePicker-Layout
+{
+	table-layout:auto;
+	height:100%;
+}
+
+.DateTimePicker-Layout TD
+{
+	overflow:visible;
+}
+
+.DateTimePicker-CheckBoxIconContainerWidth
+{
+	width:[Skin.CheckBoxIconContainerWidth]px;
+}
+
+.DateTimePicker-CheckBox_Focus
+{
+	[Skin.CheckBoxFocusStyle];
+}
+
+.DateTimePicker-ButtonContainer .DateTimePicker-DropDownIcon
+{
+	background-image:url([Skin.DropDownNormalImage]);
+}
+
+.DateTimePicker-ButtonContainer_Enter .DateTimePicker-DropDownIcon
+{
+	background-image:url([Skin.DropDownOverImage]);
+}
+
+.DateTimePicker-ButtonContainer_Down .DateTimePicker-DropDownIcon
+{
+	background-image:url([Skin.DropDownDownImage]);
+}
+
+
+.DateTimePicker-UpDownUpIcon
+{
+	background-image:url([Skin.UpDownUpNormalImage]);
+}
+
+.DateTimePicker-UpDownUpIcon_Enter
+{
+	background-image:url([Skin.UpDownUpOverImage]);
+}
+
+.DateTimePicker-UpDownUpIcon_Down
+{
+	background-image:url([Skin.UpDownUpDownImage]);
+}
+
+
+.DateTimePicker-UpDownDownIcon
+{
+	background-image:url([Skin.UpDownDownNormalImage]);
+}
+
+.DateTimePicker-UpDownDownIcon_Enter
+{
+	background-image:url([Skin.UpDownDownOverImage]);
+}
+
+.DateTimePicker-UpDownDownIcon_Down
+{
+	background-image:url([Skin.UpDownDownDownImage]);
+}
+
+.DateTimePicker-ButtonContainer
+{
+	[Skin.ButtonsContainerNormalStyle];	
+}
+
+.DateTimePicker-ButtonContainer_Enter
+{
+	[Skin.ButtonsContainerHoverStyle];	
+}
+
+.DateTimePicker-ButtonContainer_Down
+{
+	[Skin.ButtonsContainerPressedStyle];	
+}
+
+.DateTimePicker-CheckBoxIconSize
+{
+	width:[Skin.CheckBoxIconWidth]px;
+	height:[Skin.CheckBoxIconHeight]px;
+	border:1px solid transparent;
+}
+
+.DateTimePicker-CheckBoxIconSize_Focus
+{
+	border:1px dotted black;
+}

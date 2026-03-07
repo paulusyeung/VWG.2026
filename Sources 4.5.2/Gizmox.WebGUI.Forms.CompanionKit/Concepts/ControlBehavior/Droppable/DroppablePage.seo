@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Example of using droppable feature</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DroppablePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DroppablePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DroppablePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DroppablePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DroppablePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>droppable</Keyword>
+    <Keyword>ControlDropped</Keyword>
+    <Keyword>control</Keyword>
+    <Keyword>behavior</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Concepts.ControlBehavior.Droppable.DroppablePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

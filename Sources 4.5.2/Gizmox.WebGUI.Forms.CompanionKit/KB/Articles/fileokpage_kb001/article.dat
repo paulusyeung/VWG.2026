@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634081740678438048" UpdatedBy="admin" UpdatedOn="634082248811121072" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to handle FileOk event of the Visual WebGui OpenFileDialog dialog box.</Description>
+  </Properties>
+  <Nodes />
+</Data>

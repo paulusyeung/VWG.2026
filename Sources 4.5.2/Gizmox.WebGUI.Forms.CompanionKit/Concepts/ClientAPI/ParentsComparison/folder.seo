@@ -1,0 +1,19 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Demonstration of using parent's comparison of two controls</Title>
+  <Properties />
+  <DisplayName>Parent controls </DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>parent</Keyword>
+    <Keyword>text</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.ParentsComparison.Overview</DefaultPage>
+</Item>

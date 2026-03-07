@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634081740925941216" UpdatedBy="admin" UpdatedOn="634082248811277319">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the 'Open selection file dialog with Visual WebGui Upload Dialog' button and the upload file dialog will be opened. Click on the 'Add' button and the <em>OpenFileDialog </em>will be opened. Select file and click on the 'Open' button. And original file name and size will be shown in the 'Selected file name' and 'Selected file size' TextBoxes respectively.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>OpenFileDialog </em>dialog box contains <em>FileOk </em>event that occurs when the user clicks on the open button on a Visual WebGui <em>OpenFileDialog </em>dialog box.</p>]]></Paragraph>
+  </Nodes>
+</Data>

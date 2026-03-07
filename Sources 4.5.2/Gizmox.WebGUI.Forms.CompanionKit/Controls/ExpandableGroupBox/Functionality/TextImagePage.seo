@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Page">
+  <Title>Text Image relation</Title>
+  <Properties />
+  <DisplayName>Text Image relation</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TextImagePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TextImagePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TextImagePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TextImagePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TextImagePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ExpandableGroupBox</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>image</Keyword>
+    <Keyword>relation</Keyword>
+    <Keyword>TextImageRelation</Keyword>
+    <Keyword>IsTextImageSpread</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ExpandableGroupBox.Functionality.TextImagePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

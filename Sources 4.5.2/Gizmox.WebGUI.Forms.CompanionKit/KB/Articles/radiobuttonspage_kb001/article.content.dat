@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634370953961211772" UpdatedBy="admin" UpdatedOn="634370989993364088">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Choose the values by selecting the <em>RadioButtons</em> inside the <em>GroupBox</em> controls. Selected value will appear in a <em>Label</em>&nbsp;under the <em>GroupBox </em>control.&nbsp;Note that only one <em>RadioButton</em> can be selected within the <em>GroupBox</em> control.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>GroupBox </em>has a nice feature in order to group a set of&nbsp;<em>RadioButton </em>controls. So the only one <em>RdioButton </em>can be selected while&nbsp;the others will be unselected automatically.</p>]]></Paragraph>
+  </Nodes>
+</Data>

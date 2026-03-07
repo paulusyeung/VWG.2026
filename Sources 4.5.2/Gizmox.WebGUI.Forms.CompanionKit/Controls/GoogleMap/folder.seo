@@ -1,0 +1,44 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>GoogleMap</Title>
+  <Properties />
+  <DisplayName>GoogleMap</DisplayName>
+  <Description>Contains sample applications that demonstrates usage of GoogleMap control</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>GoogleMap</Keyword>
+    <Keyword>Google</Keyword>
+    <Keyword>Map</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Feature" cols="2">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/GoogleMap.Lobby.gif'/&gt;
+&lt;div&gt;The Visual WebGui &lt;span style="color:#00ccff"&gt;GoogleMap&lt;/span&gt; control is a Wrapper which holds a basic iframe element displaying the Map. It is a part of the &lt;span style="color:#00ccff"&gt;Gizmox.WebGUI.Forms.Professional&lt;/span&gt; assembly and it can be used immediately without out-side references. The &lt;span style="color:#00ccff"&gt;GoogleMap&lt;/span&gt; control acts both as a Google map and as a Visual WebGui control which means Visual WebGui event handling and runtime.
+
+&lt;div style="clear:both;"&gt;
+&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The &lt;span style="color:#00ccff"&gt;GoogleMap&lt;/span&gt; control is available in version 6.4 and up.
+The &lt;span style="color:#00ccff"&gt;GoogleMap&lt;/span&gt; control is one of the Professional suite Professional controls, which means it is free and available in all Visual WebGui versions, while the controls are still in beta. After release, these controls will be packaged in a seperate Professional Controls suite package and sold seperately.&lt;/div&gt;
+
+</PreText>
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Title="MapAddress property" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to set address to locate for GoogleMap control&lt;/div&gt;" Link="item:CompanionKit.Controls.GoogleMap.Features.MapAddressPropertyPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="MapControlType property" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to set map type for GoogleMap control&lt;/div&gt;" Link="item:CompanionKit.Controls.GoogleMap.Features.MapControlTypePropertyPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="MapLocation property" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to set place coordinate to locate for GoogleMap&lt;/div&gt;" Link="item:CompanionKit.Controls.GoogleMap.Features.MapLocationPropertyPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="OverLays property" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to set overlays for GoogleMap control&lt;/div&gt;" Link="item:CompanionKit.Controls.GoogleMap.Features.OverLaysPropertyPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

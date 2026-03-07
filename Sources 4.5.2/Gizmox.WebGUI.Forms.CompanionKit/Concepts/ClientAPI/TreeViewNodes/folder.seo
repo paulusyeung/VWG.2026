@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Demonstration of using nodes of TreeView</Title>
+  <Properties />
+  <DisplayName>Nodes of TreeView</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>nodes</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.TreeViewNodes.Overview</DefaultPage>
+</Item>

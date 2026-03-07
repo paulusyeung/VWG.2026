@@ -1,0 +1,1 @@
+(function(a){a.jqtapplytemplateroot=function(b,c,d){return a.jqtapplytemplate(b,c,d)},a.jqtapplytemplate_test=function(b,c,d){var e=!d;d||(d=a.jqtcreatewriter()),a.jqtapplytemplateroot(b,c,d);if(e)return a(d.flush())}})(jQuery);

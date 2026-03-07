@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="320">
+  <Title>MapControlType property</Title>
+  <Properties />
+  <DisplayName>MapControlType property</DisplayName>
+  <Description>The example demonstrates how to set map type for GoogleMap control</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MapControlTypePropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MapControlTypePropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MapControlTypePropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MapControlTypePropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MapControlTypePropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>GoogleMap</Keyword>
+    <Keyword>MapControlType</Keyword>
+    <Keyword>MapType</Keyword>
+    <Keyword>Type</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.GoogleMap.Features.MapControlTypePropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

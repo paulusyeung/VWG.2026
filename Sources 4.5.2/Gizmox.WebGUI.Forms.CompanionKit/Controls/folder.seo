@@ -1,0 +1,85 @@
+<Item SiteMap="False" Order="0" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>The best way to explore Visual WebGui</Title>
+  <Properties />
+  <DisplayName>Controls</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="True" Name="Resources\Images\Lobby\Lobby1_3.png" Order="103" Lang="All" Type="Link" />
+    <Resource Visible="True" PageScript="False" SiteMap="True" Name="Resources\Images\Lobby\CK_Lobby3_3.png" Order="103" Lang="All" Type="Link" />
+    <Resource Visible="True" PageScript="False" SiteMap="True" Name="Resources\Images\Lobby\CK_Lobby2_3.png" Order="103" Lang="All" Type="Link" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo">
+      <PreText>&lt;img style="float:left; margin-right:20px; margin-bottom:25px" src="/resources/images/lobby/CK_lobby_top.png"/&gt;
+
+Hands-on demonstration for developers
+Live display of controls and concepts 
+Live display of the code behind controls</PreText>
+      <Style precss="margin-left:0px;&#xD;&#xA;margin-right:20px;&#xD;&#xA;padding-left:5px;&#xD;&#xA;margin-top:14px;&#xD;&#xA;color:#a2d4fc;&#xD;&#xA;font-size:14px;&#xD;&#xA;line-height:24px;&#xD;&#xA;font-weight:bold;&#xD;&#xA;" />
+    </Section>
+    <Section ID="Section-02" style="Feature">
+      <Title>CompanionKit Features</Title>
+      <Style concss="background-image:none;" titlecss="padding-top:15px;&#xD;&#xA;padding-bottom:10px;&#xD;&#xA;padding-left:5px;&#xD;&#xA;" />
+    </Section>
+    <Section ID="Section-03" style="Feature">
+      <Title>Visual WebGui Benefits</Title>
+      <Style titlecss="padding: 30px 0px 10px 0px;&#xD;&#xA;padding-left:8px;" />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Title="ListView" Section="Section-01" Body="&lt;div title='Click to see more''&gt;The ListView control displays a collection of items using one of 4 different default views and the flexibility to create other views.&lt;div&gt;" Image="Resources\Images\Lobby\Lobby1_3.png" Link="item:CompanionKit.Controls.ListView.Features.ItemPanel">
+      <Style hassep="true" bodycss="padding-left:4px;&#xD;&#xA;width:244px;&#xD;&#xA;color:#a2d4fc;" titlecss="width:239px;&#xD;&#xA;" linktype="InnerItem" innew="True" />
+    </Element>
+    <Element Title="DataGridView" Section="Section-01" Link="item:CompanionKit.Controls.DataGridView.Appearance.AlternatingStylePage" Body="&lt;div title='Click to see more''&gt;The DataGridView control provides a powerful and flexible way to display data in a tabular format.&lt;/div&gt;" Image="Resources\Images\Lobby\CK_Lobby2_3.png">
+      <Style bodycss="padding-left:4px;&#xD;&#xA;width:244px;&#xD;&#xA;color:#a2d4fc;" titlecss="width:239px;&#xD;&#xA;" imgcss="margin-left:5px;" linktype="InnerItem" innew="True" />
+    </Element>
+    <Element Title="Customization" Section="Section-01" Body="&lt;div title='Click to see more''&gt;Learn how to use Theme/Skin Designer, integrate custom JavaScript and customize behavior of VWG controls&lt;/div&gt;" Image="Resources\Images\Lobby\CK_Lobby3_3.png" Link="http://www.visualwebgui.com/Developers/KB/tabid/654/article/howcustomuploader/Default.aspx">
+      <Style bodycss="padding-left:4px;&#xD;&#xA;width:244px;&#xD;&#xA;color:#a2d4fc;" titlecss="width:239px;&#xD;&#xA;" linktype="HyperLink" innew="True" />
+    </Element>
+    <Element Body="Control Wrapper Wizard allows to incorporate available/3rd party ASP.NET controls into VWG while visual designers &amp; jQuery integration provide customization freedom." Title="Simple Extension &amp; Customization" Section="Section-03" Link="http://www.visualwebgui.com/Technology/WhatsVWG/ControlsExtensibilityThemeDesign/tabid/638/Default.aspx">
+      <Style linktype="HyperLink" bodycss="padding-right:10px;&#xD;&#xA;padding-left:3px;" innew="True" titlecss="padding-left:3px;" />
+    </Element>
+    <Element Body="The new innovative balance between the browser and the server with the best user interface (UI) richness and interactivity only known on desktops until now." Title="Desktop-equivalent Richness&#xD;&#xA;" Section="Section-03" Link="http://www.visualwebgui.com/Technology/WhatsVWG/ServervsClient/tabid/650/Default.aspx">
+      <Style linktype="HyperLink" bodycss="padding-right:10px;" innew="True" />
+    </Element>
+    <Element Body="VWG allows desktop-like responsiveness regardless of the data intensiveness, due to its optimized protocol.&#xD;&#xA;" Title="Performance" Section="Section-03" Link="http://www.visualwebgui.com/Technology/WhatsVWG/Performance/tabid/625/Default.aspx">
+      <Style bodycss="padding-right:10px;" linktype="HyperLink" innew="True" />
+    </Element>
+    <Element Body="VWG’s Empty Client paradigm (no logic is transferred to the client) makes VWG client extremely secured.&#xD;&#xA;" Title="Secured by design" Section="Section-03" Link="http://www.visualwebgui.com/Gizmox/Solutions/VisualWebGui/TheVWGConcept/WhatsVWG/tabid/621/Default.aspx">
+      <Style bodycss="padding-right:10px;&#xD;&#xA;padding-left:3px;" linktype="HyperLink" innew="True" titlecss="padding-left:3px;" />
+    </Element>
+    <Element Body="Play with live code snippets and explore VWG" Title="Live Demo" Section="Section-02">
+      <Style linktype="NoLink" />
+    </Element>
+    <Element Body="A wide range of out-of-the-box visual and non-visual User Interface (UI) server based controls.&#xD;&#xA;" Title="Complete Control Suite" Section="Section-03" Link="http://www.visualwebgui.com/Gizmox/Solutions/VisualWebGui/VisualWebGuibHomepageb/tabid/801/Default.aspx">
+      <Style linktype="HyperLink" innew="True" bodycss="padding-right:10px;" />
+    </Element>
+    <Element Body="VWG enables standard, multi-browsers and mobile devices accessibility with no client installation or specific browser adjustments.&#xD;&#xA;" Title="Cross-browser Compatibility" Section="Section-03" Link="http://www.visualwebgui.com/Technology/WhatsVWG/CommandLevelVirtualization/tabid/623/Default.aspx">
+      <Style linktype="HyperLink" bodycss="padding-right:10px;&#xD;&#xA;" innew="True" />
+    </Element>
+    <Element Body="Learn about each snippet and the available functionality" Title="Understand VWG" Section="Section-02">
+      <Style linktype="NoLink" />
+    </Element>
+    <Element Body="Explore the code behind VWG controls - in C# and VB.NET" Title="See the code" Section="Section-02">
+      <Style linktype="NoLink" />
+    </Element>
+    <Element Body="Share snippets with community, friends and co-workers" Title="Easily share" Section="Section-02">
+      <Style linktype="NoLink" />
+    </Element>
+    <Element Body="Switch between themes and see how controls look and feel in various themes" Title="Change themes" Section="Section-02">
+      <Style linktype="NoLink" />
+    </Element>
+    <Element Body="Find examples and application scenarios for available controls" Title="Quick search" Section="Section-02">
+      <Style linktype="NoLink" />
+    </Element>
+    <Element Body="Flexible scalability options from session and IP stickiness to no-stickiness and from In-Process state management to an application server and a state server." Title="Unlimited Scalability" Section="Section-03" Link="http://www.visualwebgui.com/Gizmox/Technology/Scalabilityanddeploymenteconomy/tabid/626/Default.aspx">
+      <Style linktype="HyperLink" innew="True" bodycss="padding-right:10px;&#xD;&#xA;padding-left:3px;&#xD;&#xA;margin-bottom:35px;" titlecss="padding-left:3px;" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Page">
+  <Title>FileNames Property</Title>
+  <Properties />
+  <DisplayName>FileNames</DisplayName>
+  <Description>The example demonstrates how to get uploaded file names from the OpenFileDialog dialog box.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="FileNamesPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FileNamesPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FileNamesPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FileNamesPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FileNamesPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>OpenFileDialog</Keyword>
+    <Keyword>FileNames</Keyword>
+    <Keyword>Names</Keyword>
+    <Keyword>File</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.OpenFileDialog.Programming.FileNamesPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="True" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

@@ -1,0 +1,17 @@
+﻿<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains sample app that demonstrates how to use Button device events.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Device Events</Keyword>
+    <Keyword>Functionality</Keyword>
+    <Keyword>Buttons</Keyword>      
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.DeviceIntegration.DeviceEvents.Functionality.ExampleButtons</DefaultPage>
+</Item>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634418649049069174" UpdatedBy="admin" UpdatedOn="634419998327223204">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>There are <strong><em>GoogleMap </em></strong>and <em>ComboBox </em>controls on the Form.<br />Use the ComboBox to select map control type.<br />See how the map control type is changing its appearance.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>GoogleMap.MapControlType</strong> property sets the type for the map control.<br />Property Type:&nbsp;Gizmox.WebGUI.Forms.Google.GoogleMapControlType.<br />DefaultValue - Gizmox.WebGUI.Forms.Google.GoogleMapControlType.<strong>SmallZoom</strong>.</p>]]></Paragraph>
+  </Nodes>
+</Data>

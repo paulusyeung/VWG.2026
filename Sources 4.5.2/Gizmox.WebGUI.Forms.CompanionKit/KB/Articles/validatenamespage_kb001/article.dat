@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634080643032287843" UpdatedBy="admin" UpdatedOn="634080644754956443" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to support validation file names in the OpenFileDialog dialog box.</Description>
+  </Properties>
+  <Nodes />
+</Data>

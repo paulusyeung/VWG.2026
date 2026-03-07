@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="102" Status="Publish" Type="Page">
+  <Title>Manipulating form border styles</Title>
+  <Properties />
+  <DisplayName>Form Border Styles</DisplayName>
+  <Description>The example demonstrates how to manipulate with form border styles.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="FormBorderStylesPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormBorderStylesPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormBorderStylesPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormBorderStylesPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormBorderStylesPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BorderStyleForm.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BorderStyleForm.designer.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BorderStyleForm.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BorderStyleForm.designer.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BorderStyleForm.resx" Order="105" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>From</Keyword>
+    <Keyword>BorderStyle</Keyword>
+    <Keyword>Style</Keyword>
+    <Keyword>Border</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Form.Features.FormBorderStylesPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+</Item>

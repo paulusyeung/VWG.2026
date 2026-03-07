@@ -1,0 +1,64 @@
+<Item SiteMap="False" Order="1" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>MainMenu Icons</Title>
+  <Properties />
+  <DisplayName>MainMenu</DisplayName>
+  <Description>The folder is a container of Icons resources. Should be always with Status - Draft.
+  </Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="WordWrap.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ViewWhiteSpace.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="UndoGlobal.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Undo.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="UncommentSelection.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ToggleBookmark.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SurroundWith.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SaveAs.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Save.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ReplaceInFiles.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RedoGlobal.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Redo.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="QuickReplace.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="QuickInfo.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="QuickFind.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Print.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PreviousBookmarkInFolder.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PreviousBookmarkInDocument.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PreviousBookmark.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Paste.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ParameterInfo.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PageSetup.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OpenWebSite.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OpenProject.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OpenFile.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NextBookmarkInFolder.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NextBookmarkinDocument.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NextBookmark.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NewWebSite.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NewProject.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NewFile.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ListMembers.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="InsertSnippet.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="IncreaseLineIndent.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="GenerateMethodStub.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormatSelection.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormatDocument.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FindSymbol.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FindInFiles.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="EnableBookmark.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="EnableAllBookmarks.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Delete.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DecreaseLineIndent.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Cut.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Copy.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CompleteWord.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CommentSelection.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CloseSolution.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ClearBookmark.png" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>
+  </DefaultPage>
+  <Body />
+</Item>

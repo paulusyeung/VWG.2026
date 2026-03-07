@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ListBox datasource</Title>
+  <Properties />
+  <DisplayName>ListBox datasource</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgListBox</Keyword>
+    <Keyword>ListBox</Keyword>
+    <Keyword>dataSource</Keyword>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>tagName</Keyword>
+    <Keyword>vwgCheckBox</Keyword>
+    <Keyword>checked</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.ListBox.Overview</DefaultPage>
+</Item>

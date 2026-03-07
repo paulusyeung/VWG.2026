@@ -1,0 +1,29 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains the examples that demonstrate how to:
+define a custom date/time format string to be displayed in the Visual WebGui DateTimePicker;
+select the format of the date and time displayed in the Visual WebGui DateTimePicker;
+support different languages/cultures in a Visual WebGui DateTimePicker;
+define an upper bound for the dates selected/displayed in the Visual WebGui DateTimePicker;
+define a lower bound for the dates selected/displayed in the Visual WebGui DateTimePicker;
+define whether to display a CheckBox in the Visual WebGui DateTimePicker.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DateTimePicker</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>CustomFormat</Keyword>
+    <Keyword>Date</Keyword>
+    <Keyword>Format</Keyword>
+    <Keyword>Langauge</Keyword>
+    <Keyword>Maximum</Keyword>
+    <Keyword>Limit</Keyword>
+    <Keyword>Minimum</Keyword>
+    <Keyword>CheckBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.DateTimePicker.Features.CustomFormatPropertyPage</DefaultPage>
+  <Body />
+</Item>

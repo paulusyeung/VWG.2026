@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634129090305036013" UpdatedBy="admin" UpdatedOn="634129092357575421" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to add control into a Visual WebGui TableLayoutPanel control.</Description>
+  </Properties>
+  <Nodes />
+</Data>

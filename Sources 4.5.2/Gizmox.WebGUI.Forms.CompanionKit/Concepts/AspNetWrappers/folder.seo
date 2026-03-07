@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>ASP.NET Wrappers</Title>
+  <Properties />
+  <DisplayName>ASP.NET Wrappers</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="With the &lt;span style=&quot;color:#00ccff&quot;&gt;ASP.NET wrapper&lt;/span&gt;, you can take any ASP.NET control, run it through the wrapper and use it like any other native &lt;span style=&quot;color:#00ccff&quot;&gt;VisualWebGui&lt;/span&gt; control.&lt;br&gt;&#xD;&#xA;The Integrated ASP.NET controls wrapper does a good job in automatically creating source code that exposes most properties and events on the ASP.NET control being wrapped, so you can access those properties and events as if you were using a native Visual WebGui control.&lt;br&gt; &#xD;&#xA;All ASP.NET controls are not created equal, so you will need to know the details on how to use the ASP.NET control as it is highly likely that you will have to make some manual modifications to the wrapper generated code, in order to sucessfully use the &lt;span style=&quot;color:#00ccff&quot;&gt;wrapped control&lt;/span&gt; as a Visual WebGui control." Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

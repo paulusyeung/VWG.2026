@@ -1,0 +1,164 @@
+<style rel="stylesheet" type="text/css">
+        #container
+        {
+        margin-top: 5;
+        margin-left: 5;
+        width: 900px;
+        background: #fff;
+        }
+
+        #header
+        {
+        background: #ccc;
+        padding: 20px;
+        }
+
+        #header h1
+        {
+        margin: 0;
+        }
+
+        #navigation
+        {
+        float: left;
+        width: 900px;
+        background: #333;
+        }
+
+        #navigation ul
+        {
+        margin: 0;
+        padding: 0;
+        }
+
+        #navigation ul li
+        {
+        list-style-type: none;
+        display: inline;
+        }
+
+        #navigation li a
+        {
+        display: block;
+        float: left;
+        padding: 5px 10px;
+        color: #fff;
+        text-decoration: none;
+        border-right: 1px solid #fff;
+        }
+        #navigation li a:hover
+        {
+        background: #383;
+        }
+
+        #aside
+        {
+        width: 180px;
+        padding: 10px 0;
+        margin: 0 10px 0 0;
+        display: inline;
+        }
+
+        #aside h3
+        {
+        margin: 0;
+        }
+
+        #footer
+        {
+        background: #ccc;
+        text-align: right;
+        padding: 20px;
+        }
+
+        .seobc
+        {
+        font-family: Arial, Verdana;
+        font-size: 11pt;
+        color: blue; /* have to be to override global one */
+        text-decoration: none;
+        }
+
+        A:hover
+        {
+        font-family: Arial, Verdana;
+        font-size: 11pt;
+        color:blue; /* have to be to override global one */
+        text-decoration: none;
+        }
+
+        A:visited
+        {
+        font-family:Arial, Verdana;
+        font-size: 11pt;
+        color:blue; /* have to be to override global one */
+        text-decoration: none;
+        }
+        .indent{padding-left:10px;}
+        .ResourceFrame
+        {
+        width:100%;
+        height:200px;
+        margin:5 0 5 0;
+        border-style:none;
+        }
+        BODY
+        {
+        /* Required to overcome hiding scrollbars in IE and FF*/
+        overflow:scroll!important;
+        }
+      </style>
+<table id="container" cellpadding="0" cellspacing="0">
+    <!-- Header -->
+    <tr>
+        <td id="header">
+            <span style="font-size:large; font-family:Arial,Verdana;">
+                Visual WebGui CompanionKit
+            </span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div id="navigation">
+                <!-- Render categories -->
+                [%CAT%]
+            </div>
+        </td>
+    </tr>
+    <!-- Content -->
+    <tr>
+        <td>
+            <table width="100%">
+                <col width="200"/>
+                <col/>
+                <tr>
+                    <!-- Render sub-categories -->
+                    <td valign="top">
+                        [%SCAT%]
+                    </td>
+                    <td valign="top">
+                        <!-- Render path to item -->
+                        [%Path%]
+                        <h2>
+                            [%Title%]
+                        </h2>
+                        <p>
+                            [%Description%]
+                        </p>
+                        <!-- Render Lobby elements -->
+                        [%Elements%]
+                        <!-- Render resources -->
+                        [%Resources%]
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <!-- Footer-->
+    <tr>
+        <td id="footer">
+            <!-- TODO: add full blown footer with links to visualwebgui official web site, Wiki and so on-->
+            <a class="seobc" href="http://www.visualwebgui.com">Copyright © 2005-2009 Visual WebGui®</a>
+        </td>
+    </tr>
+</table>

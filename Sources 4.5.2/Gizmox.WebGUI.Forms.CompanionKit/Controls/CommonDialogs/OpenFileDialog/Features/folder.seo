@@ -1,0 +1,43 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains examples that demonstrate how to:
+    use the AddExtension property in the OpenFileDialog dialog box;
+    use CheckFileExists property in OpenFileDialog dialog box;
+    support of validation on the file path existing while uploading;
+    support the default extension in the OpenFileDialog dialog box;
+    support of the filtering in the OpenFileDialog dialog box;
+    set the initial directory displayed by the file dialog box;
+    limit size of opened files;
+    support multi-select in the OpenFileDialog dialog box;
+    open file as Read-only with the OpenFileDialog dialog box;
+    set custom title for the OpenFileDialog dialog box;
+    support validation file names in the OpenFileDialog dialog box.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>OpenFileDialog</Keyword>
+    <Keyword>AddExtension</Keyword>
+    <Keyword>CheckFileExists</Keyword>
+    <Keyword>ValidateNames</Keyword>
+    <Keyword>Validation</Keyword>
+    <Keyword>DefaultExt</Keyword>
+    <Keyword>Default</Keyword>
+    <Keyword>Extension</Keyword>
+    <Keyword>CheckPathExists</Keyword>
+    <Keyword>Filter</Keyword>
+    <Keyword>InitialDirectory</Keyword>
+    <Keyword>Directory</Keyword>
+    <Keyword>MaxFileSize</Keyword>
+    <Keyword>MultiSelect</Keyword>
+    <Keyword>Selection</Keyword>
+    <Keyword>ShowReadOnly</Keyword>
+    <Keyword>ReadOnly</Keyword>
+    <Keyword>Read-Only</Keyword>
+    <Keyword>Title</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.CommonDialogs.OpenFileDialog.Features.MultiSelectPage</DefaultPage>
+  <Body />
+</Item>

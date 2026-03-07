@@ -1,0 +1,152 @@
+.PropertyGrid-BaseControl
+{
+    [Skin.VisualEffect]
+}
+
+.PropertyGrid-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.Foreground];	
+}
+
+.PropertyGrid-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.PropertyGrid-Control_Disabled .PropertyGrid-Category
+{
+    [Skin.ControlTextForegroundDisabled];
+    [Skin.ControlTextBackgroundDisabled];
+}
+
+.PropertyGrid-Container
+{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+	overflow-x:hidden;	
+}
+
+td.PropertyGrid-Category,
+.PropertyGrid-Category
+{
+	[Skin.CategoryStyle];
+}
+
+.PropertyGrid-CategoryRow TD
+{
+	[Skin.GridLines];
+	border-left:0px;
+	border-right:0px;
+	border-bottom:0px;
+}
+
+
+td.PropertyGrid-Label,
+.PropertyGrid-Label
+{
+	[Skin.LabelNormalStyle];	
+}
+
+td.PropertyGrid-ActiveLabel,
+.PropertyGrid-ActiveLabel
+{
+	[Skin.LabelActiveStyle];
+}
+
+.PropertyGrid-Splitter
+{
+	[Skin.SplitterStyle];
+	cursor: w-resize;
+}
+
+
+.PropertyGrid-LabelPlus
+{
+	margin-left:2px;
+	margin-right:2px;
+}
+
+.PropertyGrid-PlusButtonSize
+{
+	height:[Skin.PlusButtonHeight]px;
+	width:[Skin.PlusButtonWidth]px;
+}
+
+
+.PropertyGrid-CategoryPlusButtonSize
+{
+	height:[Skin.CategoryPlusButtonHeight]px;
+	width:[Skin.CategoryPlusButtonWidth]px;
+}
+
+.PropertyGrid-Value input,.PropertyGrid-ActiveValue input, .PropertyGrid-LabelInput
+{
+	width:100%;
+	height:100%;
+	border:none;
+	padding:0px;
+	background-color:Transparent;
+	text-shadow:inherit;
+ }
+
+.PropertyGrid-ActiveValue
+ {
+	[Skin.ValueActiveStyle];
+	border-left:0px;	
+	border-right:0px;
+ }
+ 
+.PropertyGrid-Value
+{
+	[Skin.ValueNormalStyle];
+	border-left:0px;	
+	border-right:0px;
+}
+
+.PropertyGrid-ValueExtension
+{
+	[Skin.ValueNormalStyle];
+	border-left:0px;	
+	border-right:0px;
+}
+
+
+.PropertyGrid-IconCell
+{
+	width:100%;
+	height:13px;
+	margin:1px;
+	border:1px solid black;
+	overflow:hidden;
+}
+
+.PropertyGrid-Table
+{
+	[Skin.GridLines];
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;	
+}
+.PropertyGrid-Table TD
+{
+	overflow:hidden;
+	height:[Skin.RowHeight]px;
+}
+
+.PropertyGrid-Outline
+{
+	[Skin.OutlineStyle];
+}
+
+.PropertyGrid-Control_Disabled .PropertyGrid-Label, .PropertyGrid-Control_Disabled .PropertyGrid-Value
+{
+    [Skin.ControlTextForegroundDisabled];
+}
+
+.PropertyGrid-LabelDisabled input, .PropertyGrid-ValueDisabled, .PropertyGrid-LabelDisabled
+{
+    [Skin.ControlTextForegroundDisabled];    
+}

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634103929764083293" UpdatedBy="admin" UpdatedOn="634123674055706289" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to set parameters and codebase for a Java applet. </Description>
+  </Properties>
+  <Nodes>
+    <Resource Code="AddParameterInEditor.png" />
+    <Resource Code="ArchiveAppletBox.png" />
+    <Resource Code="CodeAppletBox.png" />
+    <Resource Code="CodeBaseAppletBox.png" />
+    <Resource Code="DragAppletBox.png" />
+    <Resource Code="LocationAppletBox.png" />
+    <Resource Code="ParametersAppletBox.png" />
+    <Resource Code="ParametersEditorAppletBox.png" />
+    <Resource Code="RemoveAppletBox.png" />
+    <Resource Code="SetNameAndValueForParameterInEditor.png" />
+    <Resource Code="SizeAppletBox.png" />
+  </Nodes>
+</Data>

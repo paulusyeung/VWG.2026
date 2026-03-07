@@ -1,0 +1,34 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Page">
+  <Title>How to change the RowSpan/ColSpan of the controls in the TableLayoutPanel</Title>
+  <Properties />
+  <DisplayName>RowSpan/ColSpan</DisplayName>
+  <Description>The example demonstrates how to span rows and columns in a Visual WebGui TableLayoutPanel control.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="RowSpanColSpanPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RowSpanColSpanPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RowSpanColSpanPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RowSpanColSpanPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RowSpanColSpanPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TableLayoutPanel</Keyword>
+    <Keyword>RowSpan</Keyword>
+    <Keyword>ColSpan</Keyword>
+    <Keyword>Column</Keyword>
+    <Keyword>Row</Keyword>
+    <Keyword>Layout</Keyword>
+    <Keyword>Table</Keyword>
+    <Keyword>Panel</Keyword>
+    <Keyword>Span</Keyword>
+    <Keyword>Number</Keyword>
+    <Keyword>Quantity</Keyword>
+    <Keyword>Count</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TableLayoutPanel.Functionality.RowSpanColSpanPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

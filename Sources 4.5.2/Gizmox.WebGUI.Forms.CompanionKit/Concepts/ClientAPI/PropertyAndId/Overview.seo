@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Client Property and Id Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="The tested button has text of current style and toggles style after clicking on it.&#xD;&#xA;The &quot;PrintProperties&quot; button fills a text box with info of properties stored in the button. " Section="Section-01" Title="Example scenario:">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+    <Element Body="vwgComponent: property, id;&#xD;&#xA;vwgRadioButton:checked." Section="Section-01" Title="Used ClientAPI functions:">
+      <Style linktype="NoLink" bodycss="font-size:medium" />
+    </Element>
+  </Body>
+</Item>

@@ -1,0 +1,37 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to change column options in ListView</Title>
+  <Properties />
+  <DisplayName>Column Options</DisplayName>
+  <Description>The example demonstrates how to use default Visual WebGUI dialog for changing column options of the ListView. You can open ContextMenu for ListView and select 'Column options…' and you will see open 'Column Options' dialog. The dialog allows to reorder columns, change width of each column, and hide/show columns for the demonstrated ListBox.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ChangeColumnOptionsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ChangeColumnOptionsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ChangeColumnOptionsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ChangeColumnOptionsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ChangeColumnOptionsPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ListViewControlPanel.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ListViewControlPanel.designer.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ListViewControlPanel.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ListViewControlPanel.designer.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ListViewControlPanel.resx" Order="105" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\Headers\Important.gif" Order="106" Lang="All" Title="Important.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\Headers\Opened.gif" Order="107" Lang="All" Title="Opened.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\Headers\Attachment.gif" Order="108" Lang="All" Title="Attachment.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\ImportantMail.gif" Order="109" Lang="All" Title="ImportantMail.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\OpenedMail.gif" Order="110" Lang="All" Title="OpenedMail.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\ClosedMail.gif" Order="111" Lang="All" Title="ClosedMail.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\AttachedMail.gif" Order="112" Lang="All" Title="AttachedMail.gif" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListView</Keyword>
+    <Keyword>Column</Keyword>
+    <Keyword>Option</Keyword>
+    <Keyword>Options</Keyword>
+    <Keyword>Reorder</Keyword>
+    <Keyword>Show</Keyword>
+    <Keyword>ListViewColumnOptions</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListView.Features.ChangeColumnOptionsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>Visual Effects</Title>
+  <Properties />
+  <DisplayName>Visual Effects</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>effects</Keyword>
+    <Keyword>visual</Keyword>
+    <Keyword>effect</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="&lt;span style=&quot;color:#00ccff&quot;&gt;Visual Effects&lt;/span&gt; in VWG allow to use powerful &lt;span style=&quot;color:#00ccff&quot;&gt;CSS3/HTML5&lt;/span&gt; features such as:&#xD;&#xA;&#xD;&#xA;- Text Shadow;&#xD;&#xA;- Box Shadow;&#xD;&#xA;- Border Radius;&#xD;&#xA;- Transform (Rotate, Scale, Scew, Matrix, Translate);&#xD;&#xA;- Translate;&#xD;&#xA;- Gradient Background;&#xD;&#xA;- Border Image." Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110959979572821" UpdatedBy="admin" UpdatedOn="634118524905460174">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check the <em>CheckBox </em>and open <em>DropDown </em>of <em>ComboBox </em>and all items will be&nbsp;sorted in <em>DropDown</em>. Uncheck the <em>CheckBox</em>, open the <em>DropDown </em>and items will be not sorted.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ComboBox </em>contains <em>Sorted </em>property that indicates whether the items in the combo box are sorted.</p>]]></Paragraph>
+  </Nodes>
+</Data>

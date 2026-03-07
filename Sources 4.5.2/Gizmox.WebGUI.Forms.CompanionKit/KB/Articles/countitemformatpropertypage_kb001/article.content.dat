@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634444599711293268" UpdatedBy="admin" UpdatedOn="634448637626748142">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter 'Prefix', 'Center text' and 'Suffix' text&nbsp;values into the appropriate&nbsp;<em>TextBox </em>controls.<br />Press the <em>Button </em>to set the new values.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>CountItem </em>control is a <em>ToolStripLabel </em>that displays the total number of items in the <em>BindingSource</em>. The <strong>CountItemFormat </strong>property is the format string used to format the count.</p><p>Property type: System.String<br />The format String used to format the item count. The default is the string <strong>&quot;of {0}&quot;</strong>.</p>]]></Paragraph>
+  </Nodes>
+</Data>

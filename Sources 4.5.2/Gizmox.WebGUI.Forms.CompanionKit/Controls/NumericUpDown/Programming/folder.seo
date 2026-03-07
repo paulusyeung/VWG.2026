@@ -1,0 +1,20 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains example that demonstrate how to:
+determinate numeric value of the Visual WebGui NumericUpDown;
+support format of the input value in the Visual WebGui NumericUpDown.
+</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>NumericUpDown</Keyword>
+    <Keyword>Value</Keyword>
+    <Keyword>VaueChanged</Keyword>
+    <Keyword>Format</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.NumericUpDown.Programming.NumericValuesPage</DefaultPage>
+  <Body />
+</Item>

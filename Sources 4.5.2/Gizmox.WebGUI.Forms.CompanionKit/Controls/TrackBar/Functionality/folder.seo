@@ -1,0 +1,30 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains the examples that demonstrate how to:
+    change tick style of a TrackBar;
+    manipulate with a value and a range of a TrackBar;
+    manipulate with orientation of a TrackBar control;
+    set the upper/lower bounds for a TrackBar control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>TrackBar</Keyword>
+    <Keyword>Functionality</Keyword>
+    <Keyword>Bounds</Keyword>
+    <Keyword>Range</Keyword>
+    <Keyword>Orientation</Keyword>
+    <Keyword>Vertical</Keyword>
+    <Keyword>Horizontal</Keyword>
+    <Keyword>Maximum</Keyword>
+    <Keyword>Minimum</Keyword>
+    <Keyword>Value</Keyword>
+    <Keyword>TickStyle</Keyword>
+    <Keyword>Tick</Keyword>
+    <Keyword>Mark</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.TrackBar.Functionality.BoundsPage</DefaultPage>
+  <Body />
+</Item>

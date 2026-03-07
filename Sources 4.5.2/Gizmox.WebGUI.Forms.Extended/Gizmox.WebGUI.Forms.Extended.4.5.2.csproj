@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A361B486-6366-4361-B520-F96F936F8EC3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gizmox.WebGUI.Forms.Extended</RootNamespace>
+    <AssemblyName>Gizmox.WebGUI.Forms.Extended</AssemblyName>
+    <PublishUrl>http://localhost/Gizmox.WebGUI.Forms.Extended/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Keys\Gizmox.WebGUI.Forms.Extended.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WG_NET452</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Gizmox.WebGUI.Forms.Extended.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Deployment|AnyCPU' ">
+    <OutputPath>bin\Deployment\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>..\..\..\Private\Core\Gizmox.WebGUI.Media\Gizmox.WebGUI.Media.References\bin\Gizmox.WebGUI.Forms.Extended.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Documentation|AnyCPU' ">
+    <OutputPath>bin\Documentation\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Nightly|AnyCPU' ">
+    <OutputPath>bin\Nightly\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Commercial Deployment|AnyCPU' ">
+    <OutputPath>bin\Commercial Deployment\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <DocumentationFile>..\..\..\Private\Core\Gizmox.WebGUI.Media\Gizmox.WebGUI.Media.References\bin\Gizmox.WebGUI.Forms.Extended.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Express|AnyCPU' ">
+    <OutputPath>bin\Express\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <DocumentationFile>..\..\..\Private\Core\Gizmox.WebGUI.Media\Gizmox.WebGUI.Media.References\bin\Gizmox.WebGUI.Forms.Extended.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Design|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Design\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WG_NET452</DefineConstants>
+    <DocumentationFile>bin\Debug\Gizmox.WebGUI.Forms.Extended.XML</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gizmox.WebGUI.Common, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=263fa4ef694acff6, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 4.0</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gizmox.WebGUI.Forms\Gizmox.WebGUI.Forms.4.5.2.csproj">
+      <Project>{9F0416FE-04C3-4F2A-98CC-B39B6F1022CC}</Project>
+      <Name>Gizmox.WebGUI.Forms.4.5.2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\ProductInfo.cs" />
+    <Compile Include="DataGridViewMaskedTextBoxCell.cs" />
+    <Compile Include="DataGridViewMaskedTextBoxColumn.cs" />
+    <Compile Include="Editors\FCKEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Editors\FCKEditor.designer.cs">
+      <DependentUpon>FCKEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editors\FCKeditorConfigurations.cs" />
+    <Compile Include="Editors\FCKEditorSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExtendedToolTip.cs" />
+    <Compile Include="ExtendedToolTipSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskedComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskedComboBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResourceHandles\GeneralSizeableHandle.cs" />
+    <Compile Include="ResourceHandles\GeneralResourceHandle.cs" />
+    <Compile Include="SurfacePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SurfacePanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Upload\UploadControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Upload\UploadControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkspaceTabs.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkspaceTabSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkspaceTabsSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ExtendedToolTipSkin.resx">
+      <DependentUpon>ExtendedToolTipSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SurfacePanel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Upload\UploadControlSkin.resx">
+      <DependentUpon>UploadControlSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkspaceTabs.resx">
+      <DependentUpon>WorkspaceTabs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Keys\Gizmox.WebGUI.Forms.Extended.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Editors\FCKEditorSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FCKEditorSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaskedComboBoxSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MaskedComboBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SurfacePanelSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SurfacePanelSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkspaceTabSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WorkspaceTabSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkspaceTabsSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WorkspaceTabsSkin.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Editors\FCKEditorSkin.FCKEditor.css">
+      <DependentUpon>FCKEditorSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Editors\FCKEditorSkin.FCKEditor.js">
+      <DependentUpon>FCKEditorSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Editors\FCKEditorSkin.FCKEditor.xslt">
+      <DependentUpon>FCKEditorSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="WorkspaceTabs_45.png" />
+    <EmbeddedResource Include="Editors\FCKEditor_45.png" />
+    <Content Include="ExtendedToolTipSkin.Default.html">
+      <DependentUpon>ExtendedToolTipSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ExtendedToolTipSkin.ExtendedToolTip.xslt">
+      <DependentUpon>ExtendedToolTipSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="MaskedComboBoxSkin.MaskedComboBox.css">
+      <DependentUpon>MaskedComboBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="MaskedComboBoxSkin.MaskedComboBox.xslt">
+      <DependentUpon>MaskedComboBoxSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="MaskedComboBox_45.png" />
+    <Content Include="Upload\UploadControl.bmp" />
+    <Content Include="Upload\UploadControl.png" />
+    <Content Include="Upload\UploadControlSkin.jquery.fileupload.js">
+      <DependentUpon>UploadControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Upload\UploadControlSkin.jquery.iframe-transport.js">
+      <DependentUpon>UploadControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Upload\UploadControlSkin.UploadControl.css">
+      <DependentUpon>UploadControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Upload\UploadControlSkin.UploadControl.Frame.css">
+      <DependentUpon>UploadControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Upload\UploadControlSkin.UploadControl.Frame.js">
+      <DependentUpon>UploadControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Upload\UploadControlSkin.UploadControl.html">
+      <DependentUpon>UploadControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Upload\UploadControlSkin.UploadControl.xslt">
+      <DependentUpon>UploadControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="WorkspaceTabSkin.WorkspaceTab.css">
+      <DependentUpon>WorkspaceTabSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="WorkspaceTabSkin.WorkspaceTab.xslt">
+      <DependentUpon>WorkspaceTabSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="WorkspaceTabsSkin.WorkspaceTabs.css">
+      <DependentUpon>WorkspaceTabsSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="WorkspaceTabsSkin.WorkspaceTabs.ie.css">
+      <DependentUpon>WorkspaceTabsSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="WorkspaceTabsSkin.WorkspaceTabs.js">
+      <DependentUpon>WorkspaceTabsSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="WorkspaceTabsSkin.WorkspaceTabs.moz.css">
+      <DependentUpon>WorkspaceTabsSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="WorkspaceTabsSkin.WorkspaceTabs.xslt">
+      <DependentUpon>WorkspaceTabsSkin.cs</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- 隻 project 打唔開，要取消呢句先得
+  <Import Condition="" Project="$(MSBuildExtensionsPath)\Gizmox\v14.0\Net4.5.2\Gizmox.VWGCoreLibrary.targets" />
+  -->
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

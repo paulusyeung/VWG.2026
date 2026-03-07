@@ -1,0 +1,32 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Interact with ASP.NET page</Title>
+  <Properties />
+  <DisplayName>ASP.NET page interaction</DisplayName>
+  <Description>The example how to raise and handle events of the embeded ASP.NET page</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="InteractWithASPNETPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="InteractWithASPNETPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="InteractWithASPNETPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="InteractWithASPNETPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="InteractWithASPNETPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AspPageForm.aspx" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AspPageForm.aspx.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AspPageFormVB.aspx" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AspPageFormVB.aspx.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AspPageFormVB.aspx.designer.vb" Order="105" Lang="VBNET" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>AspPageBox</Keyword>
+    <Keyword>ASP</Keyword>
+    <Keyword>Page</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>Interact</Keyword>
+    <Keyword>Interaction</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.AspPageBox.Functionality.InteractWithASPNETPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

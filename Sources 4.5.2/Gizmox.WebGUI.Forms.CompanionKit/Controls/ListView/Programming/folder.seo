@@ -1,0 +1,21 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains sample apps that demonstrate how to handle ItemFormatting, SelectedIndexChanged and how to implement custom items sorting.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ListView</Keyword>
+    <Keyword>Item</Keyword>
+    <Keyword>Formatting</Keyword>
+    <Keyword>Validate</Keyword>
+    <Keyword>Sort</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>Sorting</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.ListView.Programming.ItemFormatingValidatingPage</DefaultPage>
+</Item>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634086781609068581" UpdatedBy="admin" UpdatedOn="634090169651188560" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to change foreground color for a DropDown calendar of a Visual WebGui DateTimePicker.</Description>
+  </Properties>
+  <Nodes />
+</Data>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634389258698619518" UpdatedBy="admin" UpdatedOn="634398603056052291">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>There is ASP.NET&nbsp;Page that contains two <em>FormBox </em>controls.<br />One of them has its Stateless property set to '<strong>True</strong>', another one has Stateless property set to '<strong>False</strong>'. <br />Both&nbsp;<em>FormBox </em>controls contain the same Visual WebGUI <em>Form</em>.&nbsp;</p><p>Action:<br />On both forms<em>,&nbsp;</em>press the button<em>&nbsp;</em>to set the Label<em>&nbsp;</em>text below. <br />Refresh the page using F5 key or the 'Refresh' button in your browser.</p><p>Notice that the FormBox with Stateless property set to '<strong>False</strong>' correctly shows the updated values, whereas the other shows the initial values.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>FormBox </em>contains&nbsp;<em>Stateless </em>property that allows to define if the <em>Form </em>loaded into the <em>FormBox </em>will save its state after page refreshed.</p>]]></Paragraph>
+  </Nodes>
+</Data>

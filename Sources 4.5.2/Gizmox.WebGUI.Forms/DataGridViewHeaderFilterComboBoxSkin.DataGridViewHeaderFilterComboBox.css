@@ -1,0 +1,21 @@
+.ComboBox-Control
+{
+    background-repeat:no-repeat;
+    background-position:center;
+	background-image:url([Skin.FilterNormalImage]);
+}
+
+.ComboBox-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.ComboBox-Control_Enter
+{
+	background-image:url([Skin.FilterHoverImage]);
+}
+
+.ComboBox-Control_Down
+{
+	background-image:url([Skin.FilterDownImage]);
+}

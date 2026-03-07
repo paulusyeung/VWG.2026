@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="20" Status="Publish" Type="Page" Height="310">
+  <Title>How to add groups to the RibbonBar page</Title>
+  <Properties />
+  <DisplayName>Adding groups to page</DisplayName>
+  <Description>The example demonstrates how to add Groups to the Visual WebGui RibbonBar control.
+It also demonstrates how to handle SelectedIndexChanged and AdvancedClicked events.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="AddingGroupsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingGroupsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingGroupsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingGroupsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingGroupsPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>RibbonBar</Keyword>
+    <Keyword>Group</Keyword>
+    <Keyword>RibbonBarGroup</Keyword>
+    <Keyword>Grouping</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>New</Keyword>
+  </Keywords>
+  <Comment>Improve keywords with additional elements of this control</Comment>
+  <PageType>CompanionKit.Controls.RibbonBar.Appearance.AddingGroupsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

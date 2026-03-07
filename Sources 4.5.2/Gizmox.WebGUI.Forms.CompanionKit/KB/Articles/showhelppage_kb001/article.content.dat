@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634082504271983877" UpdatedBy="admin" UpdatedOn="634082505639359276">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check/uncheck the 'Enable help button in FontDialog' CheckBox and click on the button and the <em>FontDialog </em>dialog box with the <em>'Help' </em>button will be opened. Click on the 'Help' button and the mouse cursor will be changed to '?'. Click on the interesting field and a help message will be shown in the ToolTip.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Title" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>FontDialog </em>dialog box contains the <em>ShowHelp </em>property that indicates whether the dialog box displays a Help button.</p>]]></Paragraph>
+  </Nodes>
+</Data>

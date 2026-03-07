@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ContextMenu</Title>
+  <Properties />
+  <DisplayName>ContextMenu</DisplayName>
+  <Description>Contains examples that demonstrate how to use ContextMenu control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ContextMenu</Keyword>
+    <Keyword>Menu</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.ContextMenu.Overview</DefaultPage>
+</Item>

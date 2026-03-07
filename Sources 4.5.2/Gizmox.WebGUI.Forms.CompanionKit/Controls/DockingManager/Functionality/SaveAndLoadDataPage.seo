@@ -1,0 +1,18 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Demonstrates how to save DockingWindow's data and then load it</Title>
+  <Properties />
+  <DisplayName>Save and Load Data</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="SaveAndLoadDataPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="SaveAndLoadDataPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="SaveAndLoadDataPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="SaveAndLoadDataPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="SaveAndLoadDataPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DockingManager.Functionality.SaveAndLoadDataPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

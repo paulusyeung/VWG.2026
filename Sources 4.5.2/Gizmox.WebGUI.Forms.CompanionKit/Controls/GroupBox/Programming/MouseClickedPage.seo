@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Handling mouse click</Title>
+  <Properties />
+  <DisplayName>Mouse clicked</DisplayName>
+  <Description>The example demonstrates how to handle Click event for the GroupBox.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MouseClickedPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MouseClickedPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MouseClickedPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MouseClickedPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MouseClickedPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>GroupBox</Keyword>
+    <Keyword>Clicked</Keyword>
+    <Keyword>MouseClick</Keyword>
+    <Keyword>Mouse</Keyword>
+    <Keyword>Click</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.GroupBox.Programming.MouseClickedPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

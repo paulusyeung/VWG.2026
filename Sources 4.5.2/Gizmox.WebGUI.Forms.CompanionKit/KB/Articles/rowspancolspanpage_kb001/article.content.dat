@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634129092728051284" UpdatedBy="admin" UpdatedOn="634129093503845345">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The demonstrated <em>TableLayoutPanel </em>contains panels with the following values:<br />Red panel: Column=0, Row=0, ColumnSpan=2 and RowSpan=1.<br />Yellow panel: Column=2, Row=0, ColumnSpan=1 and RowSpan=2.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>TableLayoutPanel </em>represents a panel that dynamically lays out its contents in a grid composed of rows and columns. The <em>TableLayoutPanel </em>control adds the following properties to its child controls: <em>Cell</em>, <em>Column</em>, <em>Row</em>, <em>ColumnSpan </em>and <em>RowSpan</em>. You can merge cells in the <em>TableLayoutPanel </em>control by setting the <em>ColumnSpan </em>or <em>RowSpan </em>properties on a child control. </p>]]></Paragraph>
+  </Nodes>
+</Data>

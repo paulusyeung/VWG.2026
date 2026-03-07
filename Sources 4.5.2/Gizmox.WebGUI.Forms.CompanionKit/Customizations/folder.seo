@@ -1,0 +1,14 @@
+<Item SiteMap="False" Order="3" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Customizations</Title>
+  <Properties />
+  <DisplayName>Customizations</DisplayName>
+  <Description>Customizations</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Customizations</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Customizations.CustomControls.CustomImpl</DefaultPage>
+  <Body />
+</Item>

@@ -1,0 +1,51 @@
+.ToolBar-Frame
+{
+	height:100%;
+}
+
+.ToolBar-TopLeft
+{
+	[Skin.LeftTopStyle];
+}
+
+.ToolBar-Left
+{
+	[Skin.LeftStyle];
+	background-position:left bottom!important;
+}
+
+.ToolBar-BottomLeft
+{
+	[Skin.LeftBottomStyle]; 
+}
+
+.ToolBar-Center
+{
+	[Skin.CenterStyle];
+}
+
+.ToolBar-TopRight
+{
+	[Skin.RightTopStyle]; 
+}
+
+.ToolBar-Right
+{
+	[Skin.RightStyle]; 
+	background-position: right bottom!important;
+}
+
+.ToolBar-BottomRight
+{
+	[Skin.RightBottomStyle];  
+}
+
+.ToolBar-Top
+{
+	[Skin.TopStyle];
+}
+
+.ToolBar-Bottom
+{
+	[Skin.BottomStyle];
+}

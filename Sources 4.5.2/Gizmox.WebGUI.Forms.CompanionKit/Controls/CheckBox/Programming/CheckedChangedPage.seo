@@ -1,0 +1,20 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Handling Checked Changed</Title>
+  <Properties />
+  <DisplayName>Checked Changed</DisplayName>
+  <Description>Demonstrates how to handle of CheckedChanged event for CheckBox. When user clicks on CheckBox, Label indicates Checked state of CheckBox. If the CheckBox is checked, the label contains 'CheckBox is checked!', otherwise, the label contains 'CheckBox is unchecked!'</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CheckedChangedPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckedChangedPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckedChangedPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckedChangedPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckedChangedPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>CheckBox</Keyword>
+    <Keyword>CheckedChange</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CheckBox.Programming.CheckedChangedPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

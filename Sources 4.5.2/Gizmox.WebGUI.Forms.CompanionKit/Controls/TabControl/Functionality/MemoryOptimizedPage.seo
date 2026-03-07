@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>MemoryOptimized drawing mode</Title>
+  <Properties />
+  <DisplayName>MemoryOptimized mode</DisplayName>
+  <Description>The example demonstrates how to use MemoryOptimized client behavior for the Visual WebGui TabControl.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MemoryOptimizedPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MemoryOptimizedPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MemoryOptimizedPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MemoryOptimizedPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MemoryOptimizedPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Flash\FC_2_3_Column3D.swf" Order="104" Lang="All" Title="FC_2_3_Column3D.swf" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Flash\FC_2_3_DATA.xml" Order="105" Lang="All" Title="FC_2_3_DATA.xml" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Xaml\Sample.xaml" Order="103" Lang="All" Title="Sample.xaml" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>MemoryOptimized</Keyword>
+    <Keyword>TabControl</Keyword>
+    <Keyword>ClientBehavior</Keyword>
+    <Keyword>Tab</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TabControl.Functionality.MemoryOptimizedPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

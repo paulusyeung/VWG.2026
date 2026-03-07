@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Performance</Title>
+  <Properties />
+  <DisplayName>Performance</DisplayName>
+  <Description>Contains sample app that demonstrates how to use internal pages in ListView.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ListView</Keyword>
+    <Keyword>Page</Keyword>
+    <Keyword>Paging</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.ListView.Performance.PagingPage</DefaultPage>
+  <Body />
+</Item>

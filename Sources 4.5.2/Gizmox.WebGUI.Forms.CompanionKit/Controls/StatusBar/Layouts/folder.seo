@@ -1,0 +1,15 @@
+<Item SiteMap="True" Order="102" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Layouts</Title>
+  <Properties />
+  <DisplayName>Layouts</DisplayName>
+  <Description>Contains the example that demonstrates how to support docking style for a StatusBar control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>StatusBar</Keyword>
+    <Keyword>Layouts</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.StatusBar.Layouts.Docking</DefaultPage>
+  <Body />
+</Item>

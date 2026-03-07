@@ -1,0 +1,309 @@
+﻿.CheckBox-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]	
+}
+
+.CheckBox-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.CheckBox-Control_Focus
+{
+    [Skin.ControlFocusedStyle];
+}
+
+.CheckBox-Label
+{
+	[Skin.Foreground];
+	[Skin.Font];	
+	[Skin.LabelNormalStyle];
+	line-height:100%;
+	display:block;
+}
+
+.CheckBox-Control_Focus .CheckBox-Label
+{
+	[Skin.LabelFocusedStyle];
+	display:block;
+}
+
+.CheckBox-Control_Disabled .CheckBox-Label
+{
+    [Skin.ControlTextForegroundDisabled];
+    [Skin.ControlTextFontDisabled];
+}
+
+.CheckBox-ButtonControl
+{
+	
+}
+
+.CheckBox-ButtonControl .CheckBox-FontData
+{
+	[Skin.FontNormal];
+	[Skin.ForegroundNormal];
+}
+
+.CheckBox-ButtonControl_Enter .CheckBox-FontData
+{
+	[Skin.FontHover];
+	[Skin.ForegroundHover];
+}
+
+.CheckBox-ButtonControlChecked .CheckBox-FontData
+{
+	[Skin.FontPressed];
+	[Skin.ForegroundPressed];
+}
+
+.CheckBox-ButtonControl_Focus .CheckBox-FontData
+{
+	[Skin.FontFocused];
+	[Skin.ForegroundFocused];
+}
+
+.CheckBox-ButtonControl_Disabled .CheckBox-FontData
+{
+	[Skin.FontDisabled];
+	[Skin.ForegroundDisabled];
+}
+
+.CheckBox-Content
+{
+	[Skin.ContentPadding];
+}
+
+.CheckBox-ButtonControl .CheckBox-TopLeft
+{
+	[Skin.LeftTopNormalStyle];
+}
+
+.CheckBox-ButtonControl .CheckBox-Left
+{
+	[Skin.LeftNormalStyle];
+}
+
+.CheckBox-ButtonControl .CheckBox-BottomLeft
+{
+	[Skin.LeftBottomNormalStyle]; 
+}
+
+.CheckBox-ButtonControl .CheckBox-Center
+{
+	[Skin.CenterNormalStyle];
+}
+
+.CheckBox-ButtonControl .CheckBox-CenterTransparent
+{
+	[Skin.CenterNormalStyle];
+	background-color:transparent;
+	background-image:none;
+}
+
+.CheckBox-ButtonControl .CheckBox-TopRight
+{
+	[Skin.RightTopNormalStyle]; 
+}
+
+.CheckBox-ButtonControl .CheckBox-Right
+{
+	[Skin.RightNormalStyle]; 
+}
+
+.CheckBox-ButtonControl .CheckBox-BottomRight
+{
+	[Skin.RightBottomNormalStyle];  
+}
+
+.CheckBox-ButtonControl .CheckBox-Top
+{
+	[Skin.TopNormalStyle];
+}
+
+.CheckBox-ButtonControl .CheckBox-Bottom
+{
+	[Skin.BottomNormalStyle];
+}
+
+.CheckBox-ButtonControl_Enter .CheckBox-TopLeft
+{
+	[Skin.LeftTopHoverStyle]; 
+}
+
+.CheckBox-ButtonControl_Enter .CheckBox-Left
+{
+	[Skin.LeftHoverStyle]; 
+}
+
+.CheckBox-ButtonControl_Enter .CheckBox-BottomLeft
+{
+	[Skin.LeftBottomHoverStyle]; 
+}
+
+.CheckBox-ButtonControl_Enter .CheckBox-Center
+{
+	[Skin.CenterHoverStyle];
+}
+
+.CheckBox-ButtonControl_Enter .CheckBox-TopRight
+{
+	[Skin.RightTopHoverStyle]; 
+}
+
+.CheckBox-ButtonControl_Enter .CheckBox-Right
+{
+	[Skin.RightHoverStyle];
+}
+
+.CheckBox-ButtonControl_Enter .CheckBox-BottomRight
+{
+	[Skin.RightBottomHoverStyle];
+}
+
+.CheckBox-ButtonControl_Enter .CheckBox-Top
+{
+	[Skin.TopHoverStyle]; 
+}
+
+.CheckBox-ButtonControl_Enter .CheckBox-Bottom
+{
+	[Skin.BottomHoverStyle]; 
+}
+
+.CheckBox-ButtonControlChecked .CheckBox-TopLeft
+{
+	[Skin.LeftTopPressedStyle]; 
+}
+
+.CheckBox-ButtonControlChecked .CheckBox-Left
+{
+	[Skin.LeftPressedStyle]; 
+}
+
+.CheckBox-ButtonControlChecked .CheckBox-BottomLeft
+{
+	[Skin.LeftBottomPressedStyle];  
+}
+
+.CheckBox-ButtonControlChecked .CheckBox-Center
+{
+	[Skin.CenterPressedStyle];
+}
+
+.CheckBox-ButtonControlChecked .CheckBox-TopRight
+{
+	[Skin.RightTopPressedStyle];
+}
+
+.CheckBox-ButtonControlChecked .CheckBox-Right
+{
+	[Skin.RightPressedStyle];
+}
+
+.CheckBox-ButtonControlChecked .CheckBox-BottomRight
+{
+	[Skin.RightBottomPressedStyle];
+}
+
+.CheckBox-ButtonControlChecked .CheckBox-Top
+{
+	[Skin.TopPressedStyle];
+}
+
+.CheckBox-ButtonControlChecked .CheckBox-Bottom
+{
+	[Skin.BottomPressedStyle];
+}
+
+.CheckBox-ButtonControl_Focus .CheckBox-TopLeft
+{
+	[Skin.LeftTopFocusedStyle];
+}
+
+.CheckBox-ButtonControl_Focus .CheckBox-Left
+{
+	[Skin.LeftFocusedStyle];
+}
+
+.CheckBox-ButtonControl_Focus .CheckBox-BottomLeft
+{
+	[Skin.LeftBottomFocusedStyle]; 
+}
+
+.CheckBox-ButtonControl_Focus .CheckBox-Center
+{
+	[Skin.CenterFocusedStyle]; 
+}
+
+.CheckBox-ButtonControl_Focus .CheckBox-TopRight
+{
+	[Skin.RightTopFocusedStyle];
+}
+
+.CheckBox-ButtonControl_Focus .CheckBox-Right
+{
+	[Skin.RightFocusedStyle]; 
+}
+
+.CheckBox-ButtonControl_Focus .CheckBox-BottomRight
+{
+	[Skin.RightBottomFocusedStyle]; 
+}
+
+.CheckBox-ButtonControl_Focus .CheckBox-Top
+{
+	[Skin.TopFocusedStyle]; 
+}
+
+.CheckBox-ButtonControl_Focus .CheckBox-Bottom
+{
+	[Skin.BottomFocusedStyle]; 
+}
+
+.CheckBox-ButtonControl_Disabled .CheckBox-TopLeft
+{
+	[Skin.LeftTopDisabledStyle];
+}
+
+.CheckBox-ButtonControl_Disabled .CheckBox-Left
+{
+	[Skin.LeftDisabledStyle];
+}
+
+.CheckBox-ButtonControl_Disabled .CheckBox-BottomLeft
+{
+	[Skin.LeftBottomDisabledStyle]; 
+}
+
+.CheckBox-ButtonControl_Disabled .CheckBox-Center
+{
+	[Skin.CenterDisabledStyle];
+}
+
+.CheckBox-ButtonControl_Disabled .CheckBox-TopRight
+{
+	[Skin.RightTopDisabledStyle]; 
+}
+
+.CheckBox-ButtonControl_Disabled .CheckBox-Right
+{
+	[Skin.RightDisabledStyle];
+}
+
+.CheckBox-ButtonControl_Disabled .CheckBox-BottomRight
+{
+	[Skin.RightBottomDisabledStyle]; 
+}
+
+.CheckBox-ButtonControl_Disabled .CheckBox-Top
+{
+	[Skin.TopDisabledStyle];  
+}
+
+.CheckBox-ButtonControl_Disabled .CheckBox-Bottom
+{
+	[Skin.BottomDisabledStyle];
+}

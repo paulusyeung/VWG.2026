@@ -1,0 +1,19 @@
+﻿<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Video Example</Title>
+  <Properties />
+  <DisplayName>Video Capture Example</DisplayName>
+  <Description>Demonstrates how to capture Video using the device</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="VideoExample.cs" Order="1" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="VideoExample.designer.cs" Order="2" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="VideoExample.resx" Order="3" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CaptureDetails.cs" Order="4" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Capure</Keyword>
+    <Keyword>Video</Keyword> 
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.DeviceIntegration.Capture.VideoExample, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

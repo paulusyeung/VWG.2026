@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634078916060777263" UpdatedBy="admin" UpdatedOn="634078917842686475">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter text in the <em>TextBox </em>and click on 'Set text of TextBox to StatusBar' and text of the <em>StatusBar </em>will be change, respectively. Click on the 'Change Font of StatusBar text' button and <em>FontDialog </em>will be opened. Change <em>Font </em>and click on the 'OK' button and the font of the text displayed by the <em>StatusBar </em>will be changed.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>StatusBar </em>contains the following appearance properties:<br /><strong>BackColor </strong>- the background color;<br /><strong>BackgroundImage </strong>&ndash; the background image displayed in the <em>StatusBar</em>;<br /><strong>BackgroundImageLayout </strong>- the background image layout;<br /><strong>BorderColor</strong>- the border color;<br /><strong>BorderStyle </strong>- the border style;<br /><strong>BorderWidth </strong>- the thickness of the border;<br /><strong>Cursor </strong>- the cursor that is displayed when the mouse pointer is over the control;<br /><strong>Font </strong>- the font of the text displayed by the <em>StatusBar</em>;<br /><strong>ForeColor </strong>- the fore color;<br /><strong>Panels </strong>- the collection of a <em>StatusBar </em>panels contained within the <em>StatusBar</em>;<br /><strong>RightToLeft </strong>- a value indicating whether <em>StatusBar</em>'s elements are aligned to support locales using right-to-left fonts;<br /><strong>Text </strong>- the text associated with the <em>StatusBar</em>.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

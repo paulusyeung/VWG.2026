@@ -1,0 +1,79 @@
+﻿.DockingManager-ArrowsClass_top
+{
+	[Skin.ArrowScrollerTopNormalStyle]
+}
+
+.DockingManager-ArrowsClass_top_Enter
+{
+    [Skin.ArrowScrollerTopHoverStyle]
+}
+
+.DockingManager-ArrowsClass_top_Down
+{
+    [Skin.ArrowScrollerTopPressedStyle]
+}
+
+.DockingManager-ArrowsClass_top_Disabled
+{
+    [Skin.ArrowScrollerTopDisabledStyle]
+}
+
+.DockingManager-ArrowsClass_right
+{
+	[Skin.ArrowScrollerRightNormalStyle]
+}
+
+.DockingManager-ArrowsClass_right_Enter
+{
+    [Skin.ArrowScrollerRightHoverStyle]
+}
+
+.DockingManager-ArrowsClass_right_Down
+{
+    [Skin.ArrowScrollerRightPressedStyle]
+}
+
+.DockingManager-ArrowsClass_right_Disabled
+{
+    [Skin.ArrowScrollerRightDisabledStyle]
+}
+
+.DockingManager-ArrowsClass_bottom
+{
+	[Skin.ArrowScrollerBottomNormalStyle]
+}
+
+.DockingManager-ArrowsClass_bottom_Enter
+{
+    [Skin.ArrowScrollerBottomHoverStyle]
+}
+
+.DockingManager-ArrowsClass_bottom_Down
+{
+    [Skin.ArrowScrollerBottomPressedStyle]
+}
+
+.DockingManager-ArrowsClass_bottom_Disabled
+{
+    [Skin.ArrowScrollerBottomDisabledStyle]
+}
+
+.DockingManager-ArrowsClass_left
+{
+	[Skin.ArrowScrollerLeftNormalStyle]
+}
+
+.DockingManager-ArrowsClass_left_Enter
+{
+    [Skin.ArrowScrollerLeftHoverStyle]
+}
+
+.DockingManager-ArrowsClass_left_Down
+{
+    [Skin.ArrowScrollerLeftPressedStyle]
+}
+
+.DockingManager-ArrowsClass_left_Disabled
+{
+    [Skin.ArrowScrollerLeftDisabledStyle]
+}

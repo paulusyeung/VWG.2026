@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains example demonstrate yow to set parameters, codebase, classId for an ActiveX control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ActiveXBox</Keyword>
+    <Keyword>ActiveX</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>Parameters</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.ActiveXBox.Programming.ProvideParametersPage</DefaultPage>
+  <Body />
+</Item>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634172200536692163" UpdatedBy="admin" UpdatedOn="634256864748034075" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to provide custom prompt character for the Visual WebGui MaskedTextBox.</Description>
+  </Properties>
+  <Nodes />
+</Data>

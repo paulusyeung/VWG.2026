@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>DomainUpDown example</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DomainUpDownPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DomainUpDownPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DomainUpDownPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DomainUpDownPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DomainUpDownPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="True" SiteMap="False" Name="DomainUpDownPage.Client.js" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgDomainUpDown</Keyword>
+    <Keyword>vwgComboBox</Keyword>
+    <Keyword>selectedIndex</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Concepts.ClientAPI.DomainUpDown.DomainUpDownPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

@@ -1,0 +1,14 @@
+<Item SiteMap="False" Order="100" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>Gateways</Title>
+  <Properties />
+  <DisplayName>Gateways</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.Gateways.Overview</DefaultPage>
+</Item>

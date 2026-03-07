@@ -1,0 +1,56 @@
+.ToolBarButton-Seperator
+{
+	[Skin.SeperatorStyle];
+	width:[Skin.SeperatorWidth]px;
+}
+
+.ToolBarButton-FontData
+{
+	[Skin.Foreground];
+	[Skin.Font];
+}
+
+.ToolBarButton-Control 
+{
+	[Skin.Margin];
+}
+
+.ToolBarButton-Content 
+{
+	[Skin.Padding];
+}
+
+.ToolBarButton-Control .ToolBarButton-Center
+{
+	[Skin.CenterNormalStyle];
+}
+
+.ToolBarButton-Control_Down .ToolBarButton-Center
+{
+	[Skin.CenterPressedStyle];
+}
+
+.ToolBarButton-Control_Enter .ToolBarButton-Center
+{
+	[Skin.CenterHoverStyle];
+}
+
+.ToolBarButton-Control_Focus .ToolBarButton-Center
+{
+	[Skin.CenterFocusedStyle]; 
+}
+
+.ToolBarButton-Control_Disabled .ToolBarButton-Center
+{
+	[Skin.CenterDisabledStyle];
+}
+
+.ToolBarButton-Control .ToolBarButton-PushedCenter
+{
+	[Skin.CenterPushedStyle];
+}
+
+.ToolBarButton-DropDown
+{
+	[Skin.DropDownButtonStyle];
+}

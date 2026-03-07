@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634166092398097183" UpdatedBy="admin" UpdatedOn="634261960497223210">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the button to open a form with <em>MainMenu</em>. <br />Press the shortcut of a menu item on the keyboard and text of label will be updated.<br />The text will reflect the name of menu item that is associated with pressed shortcut.</p><p>The example supports the following shortcuts:<br />Ctrl S &ndash; File-&gt;Save, <br />Ctrl Shift S &ndash; File-&gt;Save As&hellip;, <br />Ctrl P &ndash; File-&gt;Print and so on.</p><p>You can find out all supported shortcut in the menu.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>MenuItem </em>contains <em>Shortcut </em>and <em>ShowShortcut </em>properties.</p><p>The <strong><em>ShowShortcut</em></strong><em> </em>property indicates whether to show the shortcut in menu.</p><p>The <strong><em>Shortcut</em></strong><em> </em>property defines shortcut key for the menu item. The <em>Shortcut</em> key contains value of the <em>Gizmox.WebGUI.Forms.Shortcut</em> enum. When user presses defined shortcut key on the keyboard, the <em>Click </em>event is fired for the menu item.</p>]]></Paragraph>
+  </Nodes>
+</Data>

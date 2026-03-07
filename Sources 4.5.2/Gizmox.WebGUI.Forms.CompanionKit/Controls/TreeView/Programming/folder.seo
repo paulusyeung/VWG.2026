@@ -1,0 +1,17 @@
+<Item SiteMap="False" Order="101" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains the example that demonstrates how to jump to invisible tree node.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>TreeView</Keyword>
+    <Keyword>Navigation</Keyword>
+    <Keyword>Jump</Keyword>
+    <Keyword>Node</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.TreeView.Programming.EnsureVisiblePage</DefaultPage>
+  <Body />
+</Item>

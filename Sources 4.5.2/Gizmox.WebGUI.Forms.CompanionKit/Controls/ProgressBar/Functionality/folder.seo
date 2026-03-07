@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="102" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains the examples that demonstrate how to:
+    increase the Visual WebGui ProgressBar display by a value that varies;
+    limit upper bound of the Visual WebGui ProgressBar control;
+    limit lower bound of the Visual WebGui ProgressBar control;
+    increase the Visual WebGui ProgressBar display by a fixed value.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ProgressBar</Keyword>
+    <Keyword>Increment</Keyword>
+    <Keyword>Step</Keyword>
+    <Keyword>Bound</Keyword>
+    <Keyword>Maximum</Keyword>
+    <Keyword>Minimum</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.ProgressBar.Functionality.IncrementPage</DefaultPage>
+  <Body />
+</Item>

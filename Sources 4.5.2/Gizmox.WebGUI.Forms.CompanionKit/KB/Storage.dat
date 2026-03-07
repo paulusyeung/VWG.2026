@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Tags>
+    <TagGroup Code="Lang" Label="Languages">
+      <Tag Code="CSharp" Label="C#" />
+      <Tag Code="VBNet" Label="VB.NET" />
+    </TagGroup>
+    <TagGroup Code="Aud" Label="Audience">
+      <Tag Code="Dev" Label="Developers" />
+      <Tag Code="Mng" Label="Managers" />
+      <Tag Code="Des" Label="Designers" />
+    </TagGroup>
+  </Tags>
+  <Categories>
+    <Category Code="DB" Label="Databases">
+      <Category Code="Management" Label="Management">
+        <Category Code="MsSql" Label="SQL Server" />
+        <Category Code="Orcale" Label="Orcale" />
+        <Category Code="MySql" Label="MySql" />
+        <Category Code="Other" Label="Other" />
+      </Category>
+    </Category>
+    <Category Code="UI" Label="UI">
+      <Category Code="Themes" Label="Themes">
+        <Category Code="OS" Label="OS" />
+        <Category Code="Web" Label="Web" />
+      </Category>
+      <Category Code="CustomControls" Label="Custom Controls">
+        <Category Code="Input" Label="Input Controls" />
+        <Category Code="Wraped" Label="Wraped Controls" />
+        <Category Code="Graph" Label="Graph Controls" />
+        <Category Code="Navigation" Label="Navigation Controls" />
+      </Category>
+    </Category>
+  </Categories>
+  <Permissions>
+    <PermissionSet Code="articles" Label="Articles">
+      <Permission Code="create" Label="Create articles and edit owned articles." />
+      <Permission Code="delete" Label="Delete Article" />
+      <Permission Code="edit" Label="Edit any article" />      
+      <Permission Code="publish" Label="Publish articles." />
+    </PermissionSet>
+    <PermissionSet Code="categories" Label="Categories">
+      <Permission Code="create" Label="Create Category" />
+      <Permission Code="delete" Label="Delete Category" />
+    </PermissionSet>
+    <PermissionSet Code="tags" Label="Tags">
+      <Permission Code="create" Label="Create Tag" />
+      <Permission Code="delete" Label="Delete Tag" />
+    </PermissionSet>
+    <PermissionSet Code="groups" Label="Groups">
+      <Permission Code="create" Label="Create Group" />
+      <Permission Code="delete" Label="Delete Group" />
+    </PermissionSet>
+    <PermissionSet Code="authors" Label="Authors">
+      <Permission Code="create" Label="Create Author" />
+      <Permission Code="delete" Label="Delete Author" />
+    </PermissionSet>
+  </Permissions>
+  <Licenses>
+    <License Code="None" Label="None" />
+    <License Code="LGPL" Label="Lesser General Public License (LGPL)" />
+    <License Code="GPL" Label="General Public License (GPL)" />
+  </Licenses>
+  <Types>
+    <Type Code="video" Label="Video" />
+    <Type Code="article" Label="Article" />
+    <Type Code="quickstart" Label="Quick Start" />
+    <Type Code="howto" Label="How to..." />
+  </Types>
+</Data>

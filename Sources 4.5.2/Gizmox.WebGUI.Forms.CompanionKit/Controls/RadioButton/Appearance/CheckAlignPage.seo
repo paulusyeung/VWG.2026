@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to change Radio Button text alignment</Title>
+  <Properties />
+  <DisplayName>Check Align</DisplayName>
+  <Description>The example demonstrates how to change radio box and text alignment in the Visual WebGui RadioButton.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CheckAlignPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckAlignPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckAlignPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckAlignPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckAlignPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>RadioButton</Keyword>
+    <Keyword>CheckAlign</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.RadioButton.Appearance.CheckAlignPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+</Item>

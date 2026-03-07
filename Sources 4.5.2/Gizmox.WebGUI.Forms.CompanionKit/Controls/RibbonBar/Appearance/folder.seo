@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Appearance</Title>
+  <Properties />
+  <DisplayName>Appearance</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>RibbonBar</Keyword>
+    <Keyword>Ribbon</Keyword>
+    <Keyword>Bar</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>Adding</Keyword>
+    <Keyword>New</Keyword>
+    <Keyword>Pages</Keyword>
+    <Keyword>Page</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.RibbonBar.Appearance.AddingPagePage</DefaultPage>
+</Item>

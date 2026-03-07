@@ -1,0 +1,43 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>NavigationTabs</Title>
+  <Properties />
+  <DisplayName>NavigationTabs</DisplayName>
+  <Description>Contains the example that demonstrate how to use NavigationTabs control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Office</Keyword>
+    <Keyword>NavigationTabs</Keyword>
+    <Keyword>Navigation</Keyword>
+    <Keyword>Tabs</Keyword>
+    <Keyword>Tab</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Feature">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/NavigationTabs.lobby.png'/&gt;
+&lt;div style=''&gt;The &lt;span style="color:#00b0f0"&gt;NavigationTabs&lt;/span&gt; control designed to organize available form space in most efficient way. Acting as a container it allows to share the space between tabs. Simple API allows to add tabs with leading caption image and hide them in extra zone. The control inherits best practices of TabControl to optimize content drawing with two special modes.
+
+&lt;span style="color:#00b0f0"&gt;Availability:&lt;/span&gt;
+The NavigationTabs is one of the Professional suite Office controls, which means it is free and available in all Visual WebGui versions, while the controls are still in beta. After release, these controls will be packaged in a seperate Professional Controls suite package and sold seperately.&lt;/div&gt;&lt;div style='clear:both'&gt;&lt;/div&gt;&lt;span style="color:#00b0f0"&gt;The examples below demonstrate how to&lt;/span&gt;
+- Add tabs with text and image
+- Add event handler to control switching between tabs to implement application logic
+- Move tabs to extra zone to separate between important and additional tabs
+</PreText>
+      <Style concss="margin-top: 20px;&#xD;&#xA;margin-bottom: 20px;&#xD;&#xA;background-image:none;" />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to add populated tabs to NavigationTabs control with text and image.&lt;/div&gt;" Title="Text and Image" Section="Section-01" Link="item:CompanionKit.Controls.NavigationTabs.Appearance.TextWithImagePage">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" bodycss="padding-left:15px;" titlecss="padding-left:15px;" />
+    </Element>
+    <Element Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to add handler to SelectedIndexChanged event to implement application logic.&lt;/div&gt;" Title="SelectionIndexChanged event handler" Section="Section-01" Link="item:CompanionKit.Controls.NavigationTabs.Appearance.TextWithImagePage">
+      <Style concss="border: 1px solid transparent;" bodycss="padding-left:15px;" titlecss="padding-left:15px;" linktype="InnerItem" />
+    </Element>
+    <Element Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to show tabs as &quot;Extra&quot; in bottom right corner to separate between important and additional tabs.&lt;/div&gt;&#xD;&#xA;" Title="Extra tabs" Section="Section-01" Link="item:CompanionKit.Controls.NavigationTabs.Appearance.TextWithImagePage">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

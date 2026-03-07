@@ -1,0 +1,19 @@
+﻿<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Image Example</Title>
+  <Properties />
+  <DisplayName>Image Capture Example</DisplayName>
+  <Description>Demonstrates how to capture Image using the device</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ImageExample.cs" Order="1" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ImageExample.designer.cs" Order="2" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ImageExample.resx" Order="3" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CaptureDetails.cs" Order="4" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Capure</Keyword>
+    <Keyword>Image</Keyword> 
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.DeviceIntegration.Capture.ImageExample, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

@@ -1,0 +1,18 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Transform</Title>
+  <Properties />
+  <DisplayName>Transform</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>transform</Keyword>
+    <Keyword>visual</Keyword>
+    <Keyword>effect</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.VisualEffects.Transform.Overview</DefaultPage>
+</Item>

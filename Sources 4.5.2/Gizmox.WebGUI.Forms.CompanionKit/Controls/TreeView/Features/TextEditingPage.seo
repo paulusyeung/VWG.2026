@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="107" Status="Publish" Type="Page">
+  <Title>Node text editing</Title>
+  <Properties />
+  <DisplayName>Text editing</DisplayName>
+  <Description>The example demonstrates how to allow editing text for nodes of the Visual WebGui TreeView.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="TextEditingPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextEditingPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextEditingPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextEditingPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextEditingPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TreeView</Keyword>
+    <Keyword>Node</Keyword>
+    <Keyword>Editing</Keyword>
+    <Keyword>LabelEdit</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TreeView.Features.TextEditingPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields>
+      <Field Column="0" Order="0" Type="CheckBox" Label="LabelEdit" TargetName="treeView1" PropertyName="LabelEdit" />
+    </Fields>
+  </Inspector>
+</Item>

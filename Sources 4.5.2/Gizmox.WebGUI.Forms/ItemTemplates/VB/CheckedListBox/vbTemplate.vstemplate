@@ -1,0 +1,20 @@
+﻿<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>MyCheckedListBox.vb</DefaultName>
+    <Name>Visual WebGui Skinable CheckedListBox</Name>
+    <Description>An item template for creating a Visual WebGui skinable CheckedListBox.</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>CheckedListBox.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$.vb" ReplaceParameters="true">CheckedListBox1.vb</ProjectItem>
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$Skin.vb" ReplaceParameters="true">CheckedListBoxSkin1.vb</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.CheckedListBox.css" ReplaceParameters="true">CheckedListBoxSkin1.CheckedListBox.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.CheckedListBox.ie.css" ReplaceParameters="true">CheckedListBoxSkin1.CheckedListBox.ie.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.CheckedListBox.moz.css" ReplaceParameters="true">CheckedListBoxSkin1.CheckedListBox.moz.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.CheckedListBox.xslt" ReplaceParameters="true">CheckedListBoxSkin1.CheckedListBox.xslt</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Skin.resx" ReplaceParameters="true">CheckedListBoxSkin1.resx</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

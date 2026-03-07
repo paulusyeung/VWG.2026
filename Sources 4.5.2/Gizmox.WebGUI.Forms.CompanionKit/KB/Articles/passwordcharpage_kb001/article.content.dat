@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128294457221515" UpdatedBy="admin" UpdatedOn="634128295350676169">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains demonstrated 'Demo PasswordChar TextBox' <em>TextBox </em>and the 'PasswordChar' TextBox.  Change password char for the demonstrated <em>TextBox </em>with 'PasswordChart' TextBox and try to enter text in the 'Demo PasswordChar TextBox' <em>TextBox </em>and chars in the TextBox will be displayed only character that is set in the 'PasswordChart' TextBox, instead of entered character.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>TextBox </em>contains <em>PasswordChar </em>property that defines the password character.</p>]]></Paragraph>
+  </Nodes>
+</Data>

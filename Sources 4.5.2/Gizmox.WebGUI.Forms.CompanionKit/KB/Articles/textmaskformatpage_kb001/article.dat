@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634172200976303371" UpdatedBy="admin" UpdatedOn="634256861626314135" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to determine whether literals and prompt characters are included in the formatted string of the MaskedTextBox.</Description>
+  </Properties>
+  <Nodes />
+</Data>

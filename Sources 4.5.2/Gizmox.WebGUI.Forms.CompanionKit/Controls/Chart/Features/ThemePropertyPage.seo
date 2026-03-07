@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Theme Property</Title>
+  <Properties />
+  <DisplayName>Theme Property</DisplayName>
+  <Description>The example demonstrates how to vary chart presentations and select one of three themes available.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ThemePropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ThemePropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ThemePropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ThemePropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ThemePropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Chart</Keyword>
+    <Keyword>Presentation</Keyword>
+    <Keyword>Themes</Keyword>
+    <Keyword>Theme</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Chart.Features.ThemePropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

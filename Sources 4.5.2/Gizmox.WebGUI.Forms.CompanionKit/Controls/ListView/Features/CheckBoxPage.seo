@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>CheckBoxes and GridLines properties</Title>
+  <Properties />
+  <DisplayName>CheckBoxes and GridLines</DisplayName>
+  <Description>The example demonstrates how to display a items with a CheckBoxes and GridLines in the Visual WebGui ListView.</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CheckBoxPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CheckBoxPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CheckBoxPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CheckBoxPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CheckBoxPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListView</Keyword>
+    <Keyword>CheckBox</Keyword>
+    <Keyword>Check</Keyword>
+    <Keyword>Item</Keyword>
+    <Keyword>View</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>Grid</Keyword>
+    <Keyword>Lines</Keyword>
+    <Keyword>GridLines</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListView.Features.CheckBoxPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

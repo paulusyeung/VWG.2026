@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>ComponentOne EventsCalendar Example</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1EventsCalendarForm.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1EventsCalendarForm.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1EventsCalendarForm.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1EventsCalendarForm.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1EventsCalendarForm.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1EventsCalendarWrapper.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1EventsCalendarWrapper.designer.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1EventsCalendarWrapper.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1EventsCalendarWrapper.designer.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1EventsCalendarForm.js" Order="105" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="C1EventsCalendarWeb.config" Order="106" Lang="All" Type="File" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Concepts.AspNetWrappers.C1EventsCalendar.C1EventsCalendarPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

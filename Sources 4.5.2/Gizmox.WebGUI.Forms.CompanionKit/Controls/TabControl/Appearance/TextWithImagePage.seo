@@ -1,0 +1,34 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Text with image</Title>
+  <Properties />
+  <DisplayName>Text with image</DisplayName>
+  <Description>The example demonstrates how to create TabPages with an image and text in the capiton.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="TextWithImagePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextWithImagePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextWithImagePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextWithImagePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextWithImagePage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\16x16\About.png" Order="103" Lang="All" Title="About.png" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\16x16\Sea.png" Order="104" Lang="All" Title="Sea.png" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\16x16\Stone.png" Order="105" Lang="All" Title="Stone.png" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\16x16\View.png" Order="106" Lang="All" Title="View.png" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\AboutVWGLogo.jpg" Order="107" Lang="All" Title="AboutVWGLogo.jpg" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\Sea.jpg" Order="108" Lang="All" Title="Sea.jpg" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\Stone.jpg" Order="109" Lang="All" Title="Stone.jpg" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\View.jpg" Order="110" Lang="All" Title="View.jpg" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>TabControl</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>TabPage</Keyword>
+    <Keyword>Tab</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TabControl.Appearance.TextWithImagePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="True" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

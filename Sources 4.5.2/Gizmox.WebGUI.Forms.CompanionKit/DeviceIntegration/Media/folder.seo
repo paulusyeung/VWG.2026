@@ -1,0 +1,13 @@
+<Item SiteMap="False" Order="1" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Media</Title>
+  <Properties />
+  <DisplayName>Media</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.DeviceIntegration.Media.Example</DefaultPage>
+  <Body />
+</Item>

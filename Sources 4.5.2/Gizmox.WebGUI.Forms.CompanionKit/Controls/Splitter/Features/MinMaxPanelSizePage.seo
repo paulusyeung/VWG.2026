@@ -1,0 +1,29 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to use minimum and maximum panel size</Title>
+  <Properties />
+  <DisplayName>Minimum panel size</DisplayName>
+  <Description>The example demonstrates how to use minimum size of a panel for the Visual WebGui Splitter.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MinMaxPanelSizePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinMaxPanelSizePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinMaxPanelSizePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinMaxPanelSizePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinMaxPanelSizePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Splitter</Keyword>
+    <Keyword>Minimum</Keyword>
+    <Keyword>Maximum</Keyword>
+    <Keyword>Max</Keyword>
+    <Keyword>Min</Keyword>
+    <Keyword>Size</Keyword>
+    <Keyword>Limit</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Splitter.Features.MinMaxPanelSizePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

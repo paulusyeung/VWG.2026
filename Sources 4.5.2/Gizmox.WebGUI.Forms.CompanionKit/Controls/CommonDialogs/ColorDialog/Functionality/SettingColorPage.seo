@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="120" Status="Draft" Type="Page">
+  <Title>Setting the Color</Title>
+  <Properties />
+  <DisplayName>Setting the Color</DisplayName>
+  <Description>This sample app demostrates how to use Color property of ColorDialog. You can click on button and you will see opened ColorDialog with selected color that it  is BackColor of Label. When you select color and click on Ok button, you will see the dialog is closed and Label BackColor will be changed.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="SettingColorPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SettingColorPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SettingColorPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SettingColorPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SettingColorPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ColorDialog</Keyword>
+    <Keyword>Color</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.ColorDialog.Functionality.SettingColorPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+</Item>

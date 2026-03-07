@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{127CADEB-B666-4C9A-846F-256397046AB8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gizmox.WebGUI.Forms.CompanionKit.Engine</RootNamespace>
+    <AssemblyName>Gizmox.WebGUI.Forms.CompanionKit.Engine</AssemblyName>
+    <ProjectTypeGuids>{80d85812-7475-4db8-9a61-dd0ef1ebd354};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>http://localhost/Gizmox.WebGUI.Forms.CompanionKit.Engine/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualWebGui>
+      <Properties xmlns="">
+        <ConfigFilePath>../../Gizmox.WebGUI.Forms.CompanionKit</ConfigFilePath>
+      </Properties>
+    </VisualWebGui>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WG_NET452</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gizmox.WebGUI.Common, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=263fa4ef694acff6, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>..\..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Common.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=ea5dfe57c8eb7edd, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>..\..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Common.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Common.Design.Skins, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=82814e180535b402, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>..\..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Common.Design.Skins.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Forms.KB.Engine, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>lib\4.5.2\Gizmox.WebGUI.Forms.KB.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Server, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=3de6eb684226c24d, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>..\..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Server.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.1.271, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net, Version=2.9.2.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Lucene.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Access\Logon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Access\Logon.Designer.cs">
+      <DependentUpon>Logon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Access\LogonController.cs" />
+    <Compile Include="Access\User.cs" />
+    <Compile Include="Search\CKEntity.cs" />
+    <Compile Include="Search\CKSearchEngine.cs" />
+    <Compile Include="SEO\AutoComplete.cs" />
+    <Compile Include="Code\CLikeFormat.cs" />
+    <Compile Include="Code\CodeFormat.cs" />
+    <Compile Include="Code\CSharpFormat.cs" />
+    <Compile Include="Code\HtmlFormat.cs" />
+    <Compile Include="Code\JavaScriptFormat.cs" />
+    <Compile Include="Code\SourceFormat.cs" />
+    <Compile Include="Code\VisualBasicFormat.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ApplicationHost.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\DeviceNavigationUpButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\DeviceNavigationUpButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\MainDeviceListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\MainDeviceListViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\SEOToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\SEOToolStripSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SEO\SEOArticle.cs" />
+    <Compile Include="SEO\SEODeviceMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SEO\SEOItemCollection.cs" />
+    <Compile Include="SEO\SEOLobby.cs" />
+    <Compile Include="SEO\SEOMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SEO\SEOMainForm.Designer.cs">
+      <DependentUpon>SEOMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SEO\SEOContext.cs" />
+    <Compile Include="SEO\SEOElement.cs" />
+    <Compile Include="SEO\SEOEnums.cs" />
+    <Compile Include="SEO\SEOException.cs" />
+    <Compile Include="SEO\SEOFolder.cs" />
+    <Compile Include="SEO\SEOFolderCollection.cs" />
+    <Compile Include="SEO\SEOFormFactory.cs" />
+    <Compile Include="SEO\SEOItem.cs" />
+    <Compile Include="SEO\SEOItemResource.cs" />
+    <Compile Include="SEO\SEOItemResourceInfo.cs" />
+    <Compile Include="SEO\SEOPage.cs" />
+    <Compile Include="SEO\SEOPageCollection.cs" />
+    <Compile Include="SEO\SEOPageElement.cs" />
+    <Compile Include="SEO\SEOPageInspector.cs" />
+    <Compile Include="SEO\SEOPageInspectorField.cs" />
+    <Compile Include="SEO\SEOProperties.cs" />
+    <Compile Include="SEO\SEOResource.cs" />
+    <Compile Include="SEO\SEORouter.cs" />
+    <Compile Include="SEO\SEOSearchItem.cs" />
+    <Compile Include="SEO\SEOSite.cs" />
+    <Compile Include="SEO\SEOSiteMap.cs" />
+    <Compile Include="SEO\SEOSiteMapItem.cs" />
+    <Compile Include="SEO\SEOUtils.cs" />
+    <Compile Include="UI\ArticleEditView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\ArticleEditView.Designer.cs">
+      <DependentUpon>ArticleEditView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CodeViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CodeViewer.Designer.cs">
+      <DependentUpon>CodeViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CreateView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\CreateView.Designer.cs">
+      <DependentUpon>CreateView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\EditView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\EditView.Designer.cs">
+      <DependentUpon>EditView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ElementEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ElementEditForm.Designer.cs">
+      <DependentUpon>ElementEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ElementsEditView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\ElementsEditView.Designer.cs">
+      <DependentUpon>ElementsEditView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ErrorView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\ErrorView.Designer.cs">
+      <DependentUpon>ErrorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FolderEditView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\FolderEditView.Designer.cs">
+      <DependentUpon>FolderEditView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\InspectorEditView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\InspectorEditView.Designer.cs">
+      <DependentUpon>InspectorEditView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\InspectorFieldEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\InspectorFieldEditForm.Designer.cs">
+      <DependentUpon>InspectorFieldEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\InspectorView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\InspectorView.Designer.cs">
+      <DependentUpon>InspectorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ItemLinks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ItemLinks.Designer.cs">
+      <DependentUpon>ItemLinks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LobbyEditView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\LobbyEditView.Designer.cs">
+      <DependentUpon>LobbyEditView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LobbySections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LobbySections.Designer.cs">
+      <DependentUpon>LobbySections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\NavigationCombo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\NavigationTree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\NavigationView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\NavigationViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\PageEditView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\PageEditView.Designer.cs">
+      <DependentUpon>PageEditView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ResourceEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ResourceEditForm.Designer.cs">
+      <DependentUpon>ResourceEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ResourceLinkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ResourceLinkForm.Designer.cs">
+      <DependentUpon>ResourceLinkForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ResourcesEditView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\ResourcesEditView.Designer.cs">
+      <DependentUpon>ResourcesEditView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\StringEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\StringEditorForm.Designer.cs">
+      <DependentUpon>StringEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ThemesBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\ThemesBrowser.Designer.cs">
+      <DependentUpon>ThemesBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ThemesButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\ThemesButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DeviceNavigationUpButtonSkin.resx">
+      <DependentUpon>DeviceNavigationUpButtonSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainDeviceListViewSkin.resx">
+      <DependentUpon>MainDeviceListViewSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SEOToolStripSkin.resx">
+      <DependentUpon>SEOToolStripSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SEO\SEODeviceMainForm.resx">
+      <DependentUpon>SEODeviceMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SEO\SEOMainForm.resx">
+      <DependentUpon>SEOMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CreateView.resx">
+      <DependentUpon>CreateView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\EditView.resx">
+      <DependentUpon>EditView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ElementEditForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ElementEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ElementsEditView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ElementsEditView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ErrorView.resx">
+      <DependentUpon>ErrorView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FolderEditView.resx">
+      <DependentUpon>FolderEditView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\InspectorEditView.resx">
+      <DependentUpon>InspectorEditView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\InspectorFieldEditForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InspectorFieldEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\InspectorView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InspectorView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LobbyEditView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LobbyEditView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\NavigationViewSkin.resx">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PageEditView.resx">
+      <DependentUpon>PageEditView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ResourcesEditView.resx">
+      <DependentUpon>ResourcesEditView.cs</DependentUpon>
+      <SubType>Control</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ThemesBrowser.resx">
+      <DependentUpon>ThemesBrowser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ThemesButtonSkin.resx">
+      <DependentUpon>ThemesButtonSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UI\NavigationViewSkin.Background-repeat.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.Background.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CKLogoReddo.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.graphite.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.iOS7.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.liveOffice.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.vista.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\ThemesButtonSkin.Button.BI.xslt">
+      <DependentUpon>ThemesButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\ThemesButtonSkin.Button.css">
+      <DependentUpon>ThemesButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\ThemesButtonSkin.Button.NBI.css">
+      <DependentUpon>ThemesButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\ThemesButtonSkin.Button.NBI.xslt">
+      <DependentUpon>ThemesButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\ThemesButtonSkin.Button.xslt">
+      <DependentUpon>ThemesButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.TopStrip.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.MenuBackground.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <None Include="Resources\UserControlCSTemplate.txt" />
+    <None Include="Resources\UserControlCSDesignerTemplate.txt" />
+    <None Include="Resources\UserControlResxTemplate.txt" />
+    <None Include="Resources\UserControlVBDesignerTemplate.txt" />
+    <None Include="Resources\UserControlVBTemplate.txt" />
+    <EmbeddedResource Include="Access\Logon.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Logon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\csharp.css" />
+    <EmbeddedResource Include="UI\ArticleEditView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ArticleEditView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CodeViewer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CodeViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ItemLinks.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ItemLinks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LobbySections.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LobbySections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ResourceEditForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ResourceEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ResourceLinkForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ResourceLinkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\StringEditorForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StringEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Resources\SEOItemResourceTemplate.html" />
+    <Content Include="Resources\gss.xsl" />
+    <Content Include="Resources\SEOItemTemplate.html" />
+    <Content Include="Resources\CannotBePreviewed.html" />
+    <Content Include="UI\DeviceNavigationUpButtonSkin.Button.BI.xslt">
+      <DependentUpon>DeviceNavigationUpButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\DeviceNavigationUpButtonSkin.Button.css">
+      <DependentUpon>DeviceNavigationUpButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\DeviceNavigationUpButtonSkin.Button.NBI.css">
+      <DependentUpon>DeviceNavigationUpButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\DeviceNavigationUpButtonSkin.Button.NBI.xslt">
+      <DependentUpon>DeviceNavigationUpButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\DeviceNavigationUpButtonSkin.Button.xslt">
+      <DependentUpon>DeviceNavigationUpButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\MainDeviceListViewSkin.ListView.css">
+      <DependentUpon>MainDeviceListViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\MainDeviceListViewSkin.ListView.xslt">
+      <DependentUpon>MainDeviceListViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\MainDeviceListViewSkin.RowDetails.moz.xslt">
+      <DependentUpon>MainDeviceListViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\MainDeviceListViewSkin.RowDetails.WebKit.xslt">
+      <DependentUpon>MainDeviceListViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.android.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.ios.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\SEOToolStripSkin.SEOToolStrip.css">
+      <DependentUpon>SEOToolStripSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\SEOToolStripSkin.SEOToolStrip.xslt">
+      <DependentUpon>SEOToolStripSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.arrow.down.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.arrow.up.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.autocomplete.searchCenter.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.autocomplete.searchLeft.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.autocomplete.searchRightN.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.autocomplete.searchRightO.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.autocomplete.shadow.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.BackgroundBottom.jpg">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.BackgroundTop.jpg">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.bottom.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CategorySeprator.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CodePane_bottom.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CodePane_bottomLeft.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CodePane_bottomLeftT.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CodePane_menuBottom.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CodePane_menuItem.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CodePane_menuItemSelected.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CodePane_right.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CodePane_rightBottom.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CodePane_RightT.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CodePane_top.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CodePane_TopGradBorder.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CodePane_topLeft.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CodePane_topLeftt.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CodePane_topRight.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CodePane_topTop.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.CommunityButton.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.dd_collapse_150_15_round_corner.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.dd_download.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.dd_expand_150_30_round_corner.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.dd_external.ln.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.dd_external.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.DescriptionIcon.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.DownloadButton.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.EditButton.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.favicon.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.fittotext.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.HelpButton.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.Icon.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.left.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.links.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.LobyFooter.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.LobyHeader.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.Logo.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.menuItemZip.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.messagebox_info.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView-autocomplete.css">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView-dropdown.css">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView-lobby.css">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView-search.css">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView-tabber.css">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView-themes.css">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView.autocomplete-min.js">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView.css">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView.filterbytext.js">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView.ga.js">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView.js">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView.lobby.all.xslt">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView.lobby.moz.xslt">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView.lobby.xslt">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView.themes.js">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NavigationView.xslt">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NodeExpander0.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.NodeExpander1.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.PageHeader.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.PageIcon.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.redirect.gif">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.search.arrow.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.search.close.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.search.help.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.analytics.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.background.hl.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.background.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.button.hover.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.button.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.default.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.facebook.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.gmail.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.office2010.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.themes.themelogo.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.zipRaised.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UI\NavigationViewSkin.zipSinked.png">
+      <DependentUpon>NavigationViewSkin.cs</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Gizmox.WebGUI.Client\Gizmox.WebGUI.Client.4.5.2.csproj">
+      <Project>{847A3249-A4B0-4C49-A61A-7886C9552157}</Project>
+      <Name>Gizmox.WebGUI.Client.4.5.2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Gizmox.WebGUI.Forms.Design\Gizmox.WebGUI.Forms.Design.4.5.2.csproj">
+      <Project>{CE9FE1FE-8877-4199-A823-6B75219942F8}</Project>
+      <Name>Gizmox.WebGUI.Forms.Design.4.5.2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Gizmox.WebGUI.Forms\Gizmox.WebGUI.Forms.4.5.2.csproj">
+      <Project>{9F0416FE-04C3-4F2A-98CC-B39B6F1022CC}</Project>
+      <Name>Gizmox.WebGUI.Forms.4.5.2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VisualBasic.PowerPacks.10.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Basic PowerPacks 10.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Condition="" Project="$(MSBuildExtensionsPath)\Gizmox\v14.0\Net4.5.2\Gizmox.VWGLibrary.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio />
+  </ProjectExtensions>
+</Project>

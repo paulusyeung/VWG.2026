@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="102" Status="Draft" Type="Page">
+  <Title>CheckPathExists</Title>
+  <Properties />
+  <DisplayName>CheckPathExists</DisplayName>
+  <Description>The example demonstrates how to support of validation on the file path existing while uploading.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CheckPathExistsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckPathExistsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckPathExistsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckPathExistsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckPathExistsPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>OpenFileDialog</Keyword>
+    <Keyword>CheckPathExists</Keyword>
+    <Keyword>Validation</Keyword>
+  </Keywords>
+  <Comment>This example has Draft status b/c the OpenFileDialog CheckPathExists property doesn't work correct (VWG-6940)</Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.OpenFileDialog.Features.CheckPathExistsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

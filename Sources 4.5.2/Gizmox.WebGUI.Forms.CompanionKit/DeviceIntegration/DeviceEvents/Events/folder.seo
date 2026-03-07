@@ -1,0 +1,20 @@
+﻿<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Events</Title>
+  <Properties />
+  <DisplayName>Events</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use Battery, Connectivity, Pause and Resume device events.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Device Events</Keyword>
+    <Keyword>Battery</Keyword>
+    <Keyword>Connectivity</Keyword>
+    <Keyword>DropDown</Keyword>
+    <Keyword>Pause</Keyword>
+    <Keyword>Resume</Keyword>    
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.DeviceIntegration.DeviceEvents.Events.ExampleBattery</DefaultPage>
+</Item>

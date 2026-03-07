@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634082499026574447" UpdatedBy="admin" UpdatedOn="634082500435883387" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to change the foreground color for label text with the Visual WebGui FontDialog dialog box.</Description>
+  </Properties>
+  <Nodes />
+</Data>

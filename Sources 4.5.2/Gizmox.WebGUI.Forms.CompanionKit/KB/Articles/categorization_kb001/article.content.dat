@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634094570918490355" UpdatedBy="admin" UpdatedOn="634094572135380931">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The demonstrated <em>PropertyGrid </em>control represents object of the <em>DemoObject </em>type. You can see code of this class in the code section. The class contains 'ValueA' and 'ValueB' properties that are assigned to 'Int Properties' category. 'ValueC' and 'StringValueC' properties are assigned to 'Advanced' category and so on. Pay attention<em> that</em> these properties are displayed in the corresponding categories in the demonstrated <em>PropertyGrid</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>PropertyGrid </em>allows assigning the property to the category by set <em>CategoryAttribute </em>for the object property. The attribute sets the category that the property is under in the grid. This is useful when you want a property grouped by a category name. If a property does not have a category specified, then it will be assigned to the <em>Misc </em>category</p>]]></Paragraph>
+  </Nodes>
+</Data>

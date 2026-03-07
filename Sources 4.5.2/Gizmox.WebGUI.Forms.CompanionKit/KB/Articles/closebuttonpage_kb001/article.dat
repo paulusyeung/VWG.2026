@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634157509019101287" UpdatedBy="admin" UpdatedOn="634275001290696263" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to show and use the close button for tab page
+of the Visual WebGui TabControl.</Description>
+  </Properties>
+  <Nodes />
+</Data>

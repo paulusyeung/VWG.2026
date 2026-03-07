@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634081737884964792" UpdatedBy="admin" UpdatedOn="634082245667724736">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the 'Open selection file dialog with Visual WebGui Upload Dialog' button and upload file dialog will be opened. Click on the 'Add' button and the <em>OpenFileDialog</em> will be opened. Select a file and click 'Open' button. The 'Temporary file name of the OpenFileDialog FileName property' TextBox will contain name of the uploaded file and the 'Original selected file name' TextBox will contain original file name.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>OpenFileDialog </em>dialog box contains <em>FileName </em>property that represents a string with the file name selected in the Visual WebGui <em>OpenFileDialog </em>dialog box.</p>]]></Paragraph>
+  </Nodes>
+</Data>

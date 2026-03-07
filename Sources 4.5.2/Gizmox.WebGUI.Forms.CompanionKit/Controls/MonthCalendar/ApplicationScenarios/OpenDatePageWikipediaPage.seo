@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Open date page in Wikipedia</Title>
+  <Properties />
+  <DisplayName>Date page in Wikipedia</DisplayName>
+  <Description>The example demonstrates how to open a date Wiki page in HTMLBox for the selected date in the Visual WebGui MonthCalendar.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="OpenDatePageWikipediaPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OpenDatePageWikipediaPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OpenDatePageWikipediaPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OpenDatePageWikipediaPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OpenDatePageWikipediaPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>MonthCalendar</Keyword>
+    <Keyword>Sample</Keyword>
+    <Keyword>Example</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.MonthCalendar.ApplicationScenarios.OpenDatePageWikipediaPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

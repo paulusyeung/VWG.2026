@@ -1,0 +1,21 @@
+.TextBox-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+}
+
+.TextBox-Text
+{
+	[Skin.Font];
+	[Skin.Foreground];
+}
+
+.TextBox-SingleLine
+{
+	[Skin.SingleLineInputStyle];
+}
+
+.TextBox-MultiLine
+{
+	[Skin.MultiLineInputStyle];
+}

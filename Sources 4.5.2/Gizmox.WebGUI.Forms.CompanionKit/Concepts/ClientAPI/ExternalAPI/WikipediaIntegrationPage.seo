@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Wikipedia integration</Title>
+  <Properties />
+  <DisplayName>Wikipedia integration</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WikipediaIntegrationPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WikipediaIntegrationPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WikipediaIntegrationPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WikipediaIntegrationPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WikipediaIntegrationPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="True" SiteMap="False" Name="WikipediaIntegrationPage.Client.js" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>External</Keyword>
+    <Keyword>API</Keyword>
+    <Keyword>integration</Keyword>
+    <Keyword>Client</Keyword>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>wikipedia</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Concepts.ClientAPI.ExternalAPI.WikipediaIntegrationPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

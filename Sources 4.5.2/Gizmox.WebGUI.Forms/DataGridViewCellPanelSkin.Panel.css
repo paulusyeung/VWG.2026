@@ -1,0 +1,11 @@
+﻿.Panel-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.Panel-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}

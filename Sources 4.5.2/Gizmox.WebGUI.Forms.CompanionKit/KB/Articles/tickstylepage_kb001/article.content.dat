@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634079069796848663" UpdatedBy="admin" UpdatedOn="634079072099944183">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select <em>TickStyle </em>for the <em>TrackBar </em>with the 'TickStyle of the TrackBar' ComboBox and <em>TickStyle </em>of the <em>TrackBar </em>will be changed, respectively.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>TrackBar </em>contains <em>TickStyle </em>property that determines the position in which to display the tick marks on the Visual WebGui <em>TrackBar</em>.<br />The <em>TickStyle </em>options:<br /><strong>None </strong>- no tick marks appear in the control;<br /><strong>TopLeft </strong>- tick marks are located on the top of a horizontal control or on the left of a vertical control;<br /><strong>BottomRight </strong>- tick marks are located on the bottom of a horizontal control or on the right side of a vertical control;<br /><strong>Both </strong>- tick marks are located on both sides of the control.</p>]]></Paragraph>
+  </Nodes>
+</Data>

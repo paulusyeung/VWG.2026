@@ -1,0 +1,19 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Demonstration of using text, backColor and foreColor ClientAPI functions</Title>
+  <Properties />
+  <DisplayName>Text and Color</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>backColor</Keyword>
+    <Keyword>foreColor</Keyword>
+    <Keyword>text</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.ColorAndText.Overview</DefaultPage>
+</Item>

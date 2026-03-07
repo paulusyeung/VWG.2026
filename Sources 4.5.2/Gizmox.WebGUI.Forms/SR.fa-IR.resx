@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WGLabelsAbort" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="WGLabelsAdd" xml:space="preserve">
+    <value>افزودن</value>
+  </data>
+  <data name="WGLabelsApply" xml:space="preserve">
+    <value>اعمال</value>
+  </data>
+  <data name="WGLabelsApril" xml:space="preserve">
+    <value>آوريل</value>
+  </data>
+  <data name="WGLabelsAprilShort" xml:space="preserve">
+    <value>آوريل</value>
+  </data>
+  <data name="WGLabelsAscending" xml:space="preserve">
+    <value>صعودي</value>
+  </data>
+  <data name="WGLabelsAugust" xml:space="preserve">
+    <value>اوت</value>
+  </data>
+  <data name="WGLabelsAugustShort" xml:space="preserve">
+    <value>اوت</value>
+  </data>
+  <data name="WGLabelsBack" xml:space="preserve">
+    <value>برگشت</value>
+  </data>
+  <data name="WGLabelsCancel" xml:space="preserve">
+    <value>انصراف</value>
+  </data>
+  <data name="WGLabelsClear" xml:space="preserve">
+    <value>پاك كردن</value>
+  </data>
+  <data name="WGLabelsClose" xml:space="preserve">
+    <value>بستن</value>
+  </data>
+  <data name="WGLabelsColumns" xml:space="preserve">
+    <value>ستون ها</value>
+  </data>
+  <data name="WGLabelsDatePicker" xml:space="preserve">
+    <value>انتخاب كننده تاريخ</value>
+  </data>
+  <data name="WGLabelsDecember" xml:space="preserve">
+    <value>دسامبر</value>
+  </data>
+  <data name="WGLabelsDecemberShort" xml:space="preserve">
+    <value>دسامبر</value>
+  </data>
+  <data name="WGLabelsDecsending" xml:space="preserve">
+    <value>نزولي</value>
+  </data>
+  <data name="WGLabelsFebruary" xml:space="preserve">
+    <value>فوريه</value>
+  </data>
+  <data name="WGLabelsFebruaryShort" xml:space="preserve">
+    <value>فوريه</value>
+  </data>
+  <data name="WGLabelsFinish" xml:space="preserve">
+    <value>پايان</value>
+  </data>
+  <data name="WGLabelsFriday" xml:space="preserve">
+    <value>جمعه</value>
+  </data>
+  <data name="WGLabelsFridayShort" xml:space="preserve">
+    <value>جمعه</value>
+  </data>
+  <data name="WGLabelsGrouping" xml:space="preserve">
+    <value>گروه بندي</value>
+  </data>
+  <data name="WGLabelsHelp" xml:space="preserve">
+    <value>راهنما</value>
+  </data>
+  <data name="WGLabelsHide" xml:space="preserve">
+    <value>پنهان</value>
+  </data>
+  <data name="WGLabelsIgnore" xml:space="preserve">
+    <value>صرفنظر</value>
+  </data>
+  <data name="WGLabelsJanuary" xml:space="preserve">
+    <value>ژانويه</value>
+  </data>
+  <data name="WGLabelsJanuaryShort" xml:space="preserve">
+    <value>ژانويه</value>
+  </data>
+  <data name="WGLabelsJuly" xml:space="preserve">
+    <value>جولاي</value>
+  </data>
+  <data name="WGLabelsJulyShort" xml:space="preserve">
+    <value>جولاي</value>
+  </data>
+  <data name="WGLabelsJune" xml:space="preserve">
+    <value>ژوئن</value>
+  </data>
+  <data name="WGLabelsJuneShort" xml:space="preserve">
+    <value>ژوئن</value>
+  </data>
+  <data name="WGLabelsLeft" xml:space="preserve">
+    <value>چپ</value>
+  </data>
+  <data name="WGLabelsLoading" xml:space="preserve">
+    <value>در حال بارگذاري</value>
+  </data>
+  <data name="WGLabelsMarch" xml:space="preserve">
+    <value>مارس</value>
+  </data>
+  <data name="WGLabelsMarchShort" xml:space="preserve">
+    <value>مارس</value>
+  </data>
+  <data name="WGLabelsMay" xml:space="preserve">
+    <value>مي</value>
+  </data>
+  <data name="WGLabelsMayShort" xml:space="preserve">
+    <value>مي</value>
+  </data>
+  <data name="WGLabelsMonday" xml:space="preserve">
+    <value>دوشنبه</value>
+  </data>
+  <data name="WGLabelsMondayShort" xml:space="preserve">
+    <value>دوشنبه</value>
+  </data>
+  <data name="WGLabelsMoveDown" xml:space="preserve">
+    <value>پايين</value>
+  </data>
+  <data name="WGLabelsMoveUp" xml:space="preserve">
+    <value>بالا</value>
+  </data>
+  <data name="WGLabelsNext" xml:space="preserve">
+    <value>بعدي</value>
+  </data>
+  <data name="WGLabelsNo" xml:space="preserve">
+    <value>خير</value>
+  </data>
+  <data name="WGLabelsNovember" xml:space="preserve">
+    <value>نوامبر</value>
+  </data>
+  <data name="WGLabelsNovemberShort" xml:space="preserve">
+    <value>نوامبر</value>
+  </data>
+  <data name="WGLabelsOctober" xml:space="preserve">
+    <value>اكتبر</value>
+  </data>
+  <data name="WGLabelsOctoberShort" xml:space="preserve">
+    <value>اكتبر</value>
+  </data>
+  <data name="WGLabelsOk" xml:space="preserve">
+    <value>تاييد</value>
+  </data>
+  <data name="WGLabelsOpen" xml:space="preserve">
+    <value>بازكردن</value>
+  </data>
+  <data name="WGLabelsPrevious" xml:space="preserve">
+    <value>قبلي</value>
+  </data>
+  <data name="WGLabelsRemove" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="WGLabelsRetry" xml:space="preserve">
+    <value>دوباره</value>
+  </data>
+  <data name="WGLabelsRight" xml:space="preserve">
+    <value>راست</value>
+  </data>
+  <data name="WGLabelsSaturday" xml:space="preserve">
+    <value>شنبه</value>
+  </data>
+  <data name="WGLabelsSaturdayShort" xml:space="preserve">
+    <value>شنبه</value>
+  </data>
+  <data name="WGLabelsSearch" xml:space="preserve">
+    <value>جستجو</value>
+  </data>
+  <data name="WGLabelsSelectFilesToUpload" xml:space="preserve">
+    <value>فايلها را براي آپلود انتخاب كنيد</value>
+  </data>
+  <data name="WGLabelsSeptember" xml:space="preserve">
+    <value>سپتامبر</value>
+  </data>
+  <data name="WGLabelsSeptemberShort" xml:space="preserve">
+    <value>سپتامبر</value>
+  </data>
+  <data name="WGLabelsShow" xml:space="preserve">
+    <value>نمايش</value>
+  </data>
+  <data name="WGLabelsSorting" xml:space="preserve">
+    <value>مرتب سازي</value>
+  </data>
+  <data name="WGLabelsSunday" xml:space="preserve">
+    <value>يكشنبه</value>
+  </data>
+  <data name="WGLabelsSundayShort" xml:space="preserve">
+    <value>يكشنبه</value>
+  </data>
+  <data name="WGLabelsThursday" xml:space="preserve">
+    <value>پنج شنبه</value>
+  </data>
+  <data name="WGLabelsThursdayShort" xml:space="preserve">
+    <value>پنج شنبه</value>
+  </data>
+  <data name="WGLabelsToday" xml:space="preserve">
+    <value>امروز</value>
+  </data>
+  <data name="WGLabelsTuesday" xml:space="preserve">
+    <value>سه شنبه</value>
+  </data>
+  <data name="WGLabelsTuesdayShort" xml:space="preserve">
+    <value>سه شنبه</value>
+  </data>
+  <data name="WGLabelsWednesday" xml:space="preserve">
+    <value>چهارشنبه</value>
+  </data>
+  <data name="WGLabelsWednesdayShort" xml:space="preserve">
+    <value>چهارشنبه</value>
+  </data>
+  <data name="WGLabelsYes" xml:space="preserve">
+    <value>بلي</value>
+  </data>
+  <data name="WGLablesCancel" xml:space="preserve">
+    <value>انصراف</value>
+  </data>
+  <data name="WGLablesColumnOptions" xml:space="preserve">
+    <value>انتخاب های ستون</value>
+  </data>
+  <data name="WGLablesColumnsInstructions" xml:space="preserve">
+    <value>ستون هاي مورد نظر براي رؤيت را انتخاب كنيد. از كليدهاي 'بالا' و 'پايين' براي تغيير ترتيب ستون ها استفاده كنيد.</value>
+  </data>
+  <data name="WGLablesColumnsStringA" xml:space="preserve">
+    <value>ستون انتخاب شده بايد به اينصورت باشد</value>
+  </data>
+  <data name="WGLablesColumnsStringB" xml:space="preserve">
+    <value>وسعت پيكسل ها.</value>
+  </data>
+  <data name="WGLablesGroupingInstructions" xml:space="preserve">
+    <value>ستون هاي مورد نظر براي گروه بندي را انتخاب كنيد. از كليد 'بالا' و 'پايين' براي تغيير ترتيب گروه ها استفاده كنيد.</value>
+  </data>
+  <data name="WGLablesGroupingOptions" xml:space="preserve">
+    <value>انتخاب های گروه بندی</value>
+  </data>
+  <data name="WGLablesHide" xml:space="preserve">
+    <value>پنهان</value>
+  </data>
+  <data name="WGLablesMoveDown" xml:space="preserve">
+    <value>پایین</value>
+  </data>
+  <data name="WGLablesMoveUp" xml:space="preserve">
+    <value>بالا</value>
+  </data>
+  <data name="WGLablesShow" xml:space="preserve">
+    <value>نمایش</value>
+  </data>
+  <data name="WGLablesSortingInstructions" xml:space="preserve">
+    <value>ستون هاي مورد نظر براي مرتب سازي را انتخاب كنيد. از كليد 'بالا' و 'پايين' براي تغيير ترتيب مرتب سازي استفاده كنيد.</value>
+  </data>
+  <data name="WGLablesSortingOptions" xml:space="preserve">
+    <value>انتخاب های مرتب سازی</value>
+  </data>
+  <data name="WGLabelsDefineCustomColors" xml:space="preserve">
+    <value>&lt;&lt; تعريف رنگهاي سفارشي</value>
+  </data>
+  <data name="WGLabelsAddToCustomColors" xml:space="preserve">
+    <value>افزودن</value>
+  </data>
+  <data name="WGLabelsBasicColors" xml:space="preserve">
+    <value>رنگ هاي پايه:</value>
+  </data>
+  <data name="WGLabelsCustomColors" xml:space="preserve">
+    <value>رنگ هاي سفارشي:</value>
+  </data>
+  <data name="WGLabelsRed" xml:space="preserve">
+    <value>قرمز:</value>
+  </data>
+  <data name="WGLabelsGreen" xml:space="preserve">
+    <value>سبز:</value>
+  </data>
+  <data name="WGLabelsBlue" xml:space="preserve">
+    <value>آبي:</value>
+  </data>
+  <data name="WGLabelsHTMLCode" xml:space="preserve">
+    <value>كد رنگ:</value>
+  </data>
+  <data name="WGLabelsColorSolid" xml:space="preserve">
+    <value>نمونه رنگ</value>
+  </data>
+  <data name="WGLabelsHue" xml:space="preserve">
+    <value>فام:</value>
+  </data>
+  <data name="WGLabelsSat" xml:space="preserve">
+    <value>اشباع:</value>
+  </data>
+  <data name="WGLabelsLum" xml:space="preserve">
+    <value>لوم:</value>
+  </data>
+  <data name="WGLabelsWindowMinimize" xml:space="preserve">
+    <value>كمينه</value>
+  </data>
+  <data name="WGLabelsWindowMaximize" xml:space="preserve">
+    <value>بيشينه</value>
+  </data>
+  <data name="WGLabelsWindowClose" xml:space="preserve">
+    <value>بستن</value>
+  </data>
+  <data name="WGLabelsWindowRestoreDown" xml:space="preserve">
+    <value>Restore Down</value>
+  </data>
+  <data name="WGLabelsWindowRestoreUp" xml:space="preserve">
+    <value>Restore Up</value>
+  </data>
+  <data name="WGLabelsBold" xml:space="preserve">
+    <value>پررنگ</value>
+  </data>
+  <data name="WGLabelsBoldItalic" xml:space="preserve">
+    <value>پررنگ مورب</value>
+  </data>
+  <data name="WGLabelsItalic" xml:space="preserve">
+    <value>مورب</value>
+  </data>
+  <data name="WGLabelsRegular" xml:space="preserve">
+    <value>معمولي</value>
+  </data>
+  <data name="WGLabelsSize" xml:space="preserve">
+    <value>اندازه</value>
+  </data>
+  <data name="WGLabelsFontStyle" xml:space="preserve">
+    <value>سبك قلم</value>
+  </data>
+  <data name="WGLabelsFont" xml:space="preserve">
+    <value>قلم</value>
+  </data>
+  <data name="WGLabelsFontColon" xml:space="preserve">
+    <value>قلم:</value>
+  </data>
+  <data name="WGLabelsScript" xml:space="preserve">
+    <value>دستخط:</value>
+  </data>
+  <data name="WGLabelsSample" xml:space="preserve">
+    <value>نمونه</value>
+  </data>
+  <data name="WGLabelsColor" xml:space="preserve">
+    <value>رنگ</value>
+  </data>
+  <data name="WGLabelsUnderline" xml:space="preserve">
+    <value>زير خط دار</value>
+  </data>
+  <data name="WGLabelsStrikeout" xml:space="preserve">
+    <value>خط خورده</value>
+  </data>
+  <data name="WGLabelsEffects" xml:space="preserve">
+    <value>جلوه ها</value>
+  </data>
+  <data name="WGLabelsMakeNewFolder" xml:space="preserve">
+    <value>ايجاد كردن پوشه جديد</value>
+  </data>
+  <data name="WGLablesEmailRequiered" xml:space="preserve">
+    <value>پست الكترونيك الزامي است.</value>
+  </data>
+  <data name="WGLablesFloatRequiered" xml:space="preserve">
+    <value>عدد اعشاري الزامي است.</value>
+  </data>
+  <data name="WGLablesIntegerRequiered" xml:space="preserve">
+    <value>عدد صحيح الزامي است.</value>
+  </data>
+  <data name="WGLablesFloatRangeRequiered" xml:space="preserve">
+    <value>عدد اعشاري بين {0} و {1} الزامي است.</value>
+  </data>
+  <data name="WGLablesIntegerRangeRequiered" xml:space="preserve">
+    <value>عدد صحيح بين {0} و {1} الزامي است.</value>
+  </data>
+  <data name="WGLabelsView" xml:space="preserve">
+    <value>مشاهده</value>
+  </data>
+</root>

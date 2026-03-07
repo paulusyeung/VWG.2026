@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634086866521175681" UpdatedBy="admin" UpdatedOn="634090176165519372">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change date/time in the 'Demonstrated DateTimePicker' <em>DateTimePicker </em>and text of the label will represent a new selected date value.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DateTimePicker</em>'s value is accessible for read or write. The <em>DateTimePicker </em>contains the <em>Value</em> property that represents current the date/time value with the control and the <em>ValueChanged </em>event that occurs when the <em>Value </em>property changes.</p>]]></Paragraph>
+  </Nodes>
+</Data>

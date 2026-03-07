@@ -1,0 +1,26 @@
+.TabControl-Tab_Selected .TabControlSpread-TabTopCenter
+{
+    [Skin.TabTopSelectedSpreadStyle];
+    background-image:url([Skin.Path]TabPageHeaderGradientSelected.gif.wgx);
+	background-repeat:repeat-x;
+	text-align:center;
+}
+
+.TabControl-Tab_Selected .TabControlSpread-TabBottomCenter
+{
+	[Skin.TabBottomSelectedSpreadStyle];
+    background-image:url([Skin.Path]TabPageHeaderGradientSelected.gif.wgx);
+	background-repeat:repeat-x;
+	text-align:center;
+}
+
+.TabControlSpread-Container
+{
+    [Skin.TabPageHeadersContainerSpreadStyle];
+	background-image:url([Skin.Path]TabPageHeaderGradient.gif.wgx);
+	background-repeat:repeat-x;	
+	overflow-y:hidden;
+	overflow-x:visible;
+	display:block;
+}
+

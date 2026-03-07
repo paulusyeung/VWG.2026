@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to pin windows in DockingManager</Title>
+  <Properties />
+  <DisplayName>Pin windows</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="PinWindowsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="PinWindowsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="PinWindowsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="PinWindowsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="PinWindowsPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DockingManager</Keyword>
+    <Keyword>Pin</Keyword>
+    <Keyword>Windows</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DockingManager.Functionality.PinWindowsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

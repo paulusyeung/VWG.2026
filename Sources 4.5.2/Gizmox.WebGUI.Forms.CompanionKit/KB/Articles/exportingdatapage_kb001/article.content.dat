@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135229956360549" UpdatedBy="admin" UpdatedOn="634135230911529025">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the 'Export data from DataGridView to Excel sheet' Button and the example suggests you to save *.csv file with data of the DataGridView. The sample uses <a href="http://www.visualwebgui.com/Developers/Resources/Codes/tabid/326/ArticleType/ArticleView/ArticleID/520/PageID/516/Default.aspx">file download control and gateway</a> for downloading *.csv file.</p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,20 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Page">
+  <Title>Checked</Title>
+  <Properties />
+  <DisplayName>Checked</DisplayName>
+  <Description>Demonstrates how to use Checked property of CheckBox. When you click on 'Demo CheckBox' CheckBox, the label indicates checked state of the CheckBox. If the CheckBox is checked, the label contains 'CheckBox is checked!', otherwise, the label contains 'CheckBox is unchecked!'</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CheckedPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckedPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckedPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckedPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckedPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>CheckBox</Keyword>
+    <Keyword>Checked</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CheckBox.Functionality.CheckedPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

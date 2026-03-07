@@ -1,0 +1,15 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Splitter</Title>
+  <Properties />
+  <DisplayName>Splitter</DisplayName>
+  <Description>Contains examples that demonstrate how to use Splitter control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Splitter</Keyword>
+    <Keyword>Split</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.Splitter.Features.MinMaxPanelSizePage</DefaultPage>
+  <Body />
+</Item>

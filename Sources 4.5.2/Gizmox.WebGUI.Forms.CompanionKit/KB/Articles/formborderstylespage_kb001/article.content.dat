@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634075465543086939" UpdatedBy="admin" UpdatedOn="634075644086073446">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>Select a border style in the 'Border style' ComboBox and click on the 'Open form with selected border style', the form with defined border style will be opened. The opened form contains 'Border style'. Select the style in the ComboBox and from border style will be changed respectively.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>The <em>Form </em>contains <em>BorderStyle </em>property that defines its border style.<br /><br />The <em>Form </em>can be with the following styles:<br /><strong>None </strong>- no border;<br /><strong>FixedSingle </strong>- a single line border;<br /><strong>Fixed3D </strong>- three-dimensional border;<br /><strong>Clear </strong>- a Clear border;<br /><strong>Dashed </strong>- a dashed line border;<br /><strong>Dotted </strong>- a dotted line border;<br /><strong>Inset </strong>- an inset border for a sunken control appearance;<br /><strong>Outset </strong>- an outset border for a raised control appearance.</p>]]></Paragraph>
+    <Paragraph Code="ParagraphElement1" />
+  </Nodes>
+</Data>

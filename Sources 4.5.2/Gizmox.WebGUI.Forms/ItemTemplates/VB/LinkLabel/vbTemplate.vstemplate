@@ -1,0 +1,18 @@
+﻿<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>MyLinkLabel.vb</DefaultName>
+    <Name>Visual WebGui Skinable LinkLabel</Name>
+    <Description>An item template for creating a Visual WebGui skinable LinkLabel.</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>LinkLabel.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$.vb" ReplaceParameters="true">LinkLabel1.vb</ProjectItem>
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$Skin.vb" ReplaceParameters="true">LinkLabelSkin1.vb</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.LinkLabel.css" ReplaceParameters="true">LinkLabelSkin1.LinkLabel.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.LinkLabel.xslt" ReplaceParameters="true">LinkLabelSkin1.LinkLabel.xslt</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Skin.resx" ReplaceParameters="true">LinkLabelSkin1.resx</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

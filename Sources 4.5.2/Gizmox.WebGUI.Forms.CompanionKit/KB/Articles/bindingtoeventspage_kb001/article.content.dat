@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634389828416535354" UpdatedBy="admin" UpdatedOn="634398622734019891">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>ASP.NET page contains TextBox and a Button along with <em>FormBox </em>control.</p><p>The hosted <em>Form </em>contains a <em>ListBox </em>control.</p><p>Enter Item Name and press '<strong>Add Item</strong>' button on the ASP.NET page.</p><p>A new <em>ListBox </em>item will be added to the&nbsp;<em>ListBox </em>of hosted VWG form.</p>]]></Paragraph>
+  </Nodes>
+</Data>

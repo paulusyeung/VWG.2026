@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634414295998205960" UpdatedBy="admin" UpdatedOn="634414313952476227" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to set custom message for error tooltip</Description>
+  </Properties>
+  <Nodes />
+</Data>

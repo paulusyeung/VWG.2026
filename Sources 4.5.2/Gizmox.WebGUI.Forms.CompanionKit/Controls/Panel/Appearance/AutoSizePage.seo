@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Page">
+  <Title>How to set panel to automatically size itself to fit its contents</Title>
+  <Properties />
+  <DisplayName>AutoSize</DisplayName>
+  <Description>Demonstrate how to automatically resize panel to fit its contents. The app contains panel with enable AutoSize property and 'Add Button to Panel' button that adds button to the Panel. When you click on the button you will see that a button will be to the Panel and when added button is place outside of the panel, size of panel will be increased.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="AutoSizePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutoSizePage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutoSizePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutoSizePage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutoSizePage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Panel</Keyword>
+    <Keyword>AutoSize</Keyword>
+    <Keyword>Auto</Keyword>
+    <Keyword>Size</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>Content</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Panel.Appearance.AutoSizePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

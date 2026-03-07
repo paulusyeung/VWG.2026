@@ -1,0 +1,19 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ToolTip</Title>
+  <Properties />
+  <DisplayName>ToolTip</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ToolTip</Keyword>
+    <Keyword>Ballons</Keyword>
+    <Keyword>Ballon</Keyword>
+    <Keyword>Rectangle</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.ToolTip.Overview</DefaultPage>
+</Item>

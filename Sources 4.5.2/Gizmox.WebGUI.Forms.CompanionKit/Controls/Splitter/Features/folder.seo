@@ -1,0 +1,22 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains examples that demonstrate how to change orientation of the Splitter, to support nested splitters to manipulate with min/max size of the Splitter panel.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Splitter</Keyword>
+    <Keyword>Maximum</Keyword>
+    <Keyword>Minimum</Keyword>
+    <Keyword>Size</Keyword>
+    <Keyword>Max</Keyword>
+    <Keyword>Min</Keyword>
+    <Keyword>Panel</Keyword>
+    <Keyword>Nested</Keyword>
+    <Keyword>Orientation</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.Splitter.Features.MinMaxPanelSizePage</DefaultPage>
+  <Body />
+</Item>

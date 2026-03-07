@@ -1,0 +1,29 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to register custom action for the button of the Visual WebGui ToolBar</Title>
+  <Properties />
+  <DisplayName>RegisterClientAction</DisplayName>
+  <Description>The example demonstrates how to register custom action for the button of the Visual WebGui ToolBar.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="RegisterClientActionPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RegisterClientActionPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RegisterClientActionPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RegisterClientActionPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RegisterClientActionPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ToolBar</Keyword>
+    <Keyword>RegisterClientAction</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>Action</Keyword>
+    <Keyword>Client</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ToolBar.Functionality.RegisterClientActionPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields>
+      <Field Column="0" Order="0" Type="CheckBox" Label="ToolBar Enable" TargetName="toolBar1" PropertyName="Enable" />
+    </Fields>
+  </Inspector>
+</Item>

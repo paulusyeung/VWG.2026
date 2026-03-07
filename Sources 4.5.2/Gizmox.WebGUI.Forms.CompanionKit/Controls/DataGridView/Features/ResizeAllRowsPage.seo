@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>ResizeAllRows and StandardTab functionality</Title>
+  <Properties />
+  <DisplayName>ResizeAllRows</DisplayName>
+  <Description>The example demonstrates the functionality of ResizeAllRows and StandardTab properties.</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ResizeAllRowsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ResizeAllRowsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ResizeAllRowsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ResizeAllRowsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ResizeAllRowsPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ResizeAllRows</Keyword>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>StandardTab</Keyword>
+    <Keyword>EnforceEqualRowSize</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DataGridView.Features.ResizeAllRowsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

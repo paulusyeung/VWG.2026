@@ -1,0 +1,16 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>The folder contains sample app that demonstrate how to use Font property of FontDialog.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>FontDialog</Keyword>
+    <Keyword>Functionality</Keyword>
+    <Keyword>Font</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.CommonDialogs.FontDialog.Functionality.FontPage</DefaultPage>
+  <Body />
+</Item>

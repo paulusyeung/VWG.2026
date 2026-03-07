@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Page" Height="165">
+  <Title>ShowUpDown Property</Title>
+  <Properties />
+  <DisplayName>ShowUpDown Property</DisplayName>
+  <Description>The example demonstrates how to manipulate with mode of the changing date in the Visual WebGui DateTimePicker.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ShowUpDownPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ShowUpDownPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ShowUpDownPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ShowUpDownPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ShowUpDownPropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DateTimePicker</Keyword>
+    <Keyword>ShowUpDown</Keyword>
+    <Keyword>Up-Down</Keyword>
+    <Keyword>DropDown</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DateTimePicker.Functionality.ShowUpDownPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

@@ -1,0 +1,29 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to populate a ComboBox from a collection</Title>
+  <Properties />
+  <DisplayName>Collection DataSource</DisplayName>
+  <Description>Demonstrates how to populate a ComboBox from a collection. The ComboBox has DataSource as List of Customer object that contains 'ID' 'FullName' and other public properties.  'ID' property is set such ValueMember and 'FullName' property is set such DisplayMember for the ComboBox. If you will change selected item of the ComboBox you will see to change Text of 'Selected value' and 'Selected Name' TextBoxes.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CollectionDataSourcePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CollectionDataSourcePage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CollectionDataSourcePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CollectionDataSourcePage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CollectionDataSourcePage.resx" Order="120" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\Customer.cs" Order="104" Lang="CSharp" Title="Customer.cs" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\Customer.vb" Order="104" Lang="VBNET" Title="Customer.vb" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\CustomerData.cs" Order="105" Lang="CSharp" Title="CustomerData.cs" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\CustomerData.vb" Order="105" Lang="VBNET" Title="CustomerData.vb" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>ComboBox</Keyword>
+    <Keyword>DataSource</Keyword>
+    <Keyword>Collection</Keyword>
+    <Keyword>DisplayMember</Keyword>
+    <Keyword>ValueMember</Keyword>
+    <Keyword>Populate</Keyword>
+    <Keyword>Populating</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ComboBox.PopulatingData.CollectionDataSourcePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

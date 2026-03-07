@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634172235892339459" UpdatedBy="admin" UpdatedOn="634256864748034075">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select a prompt character from the ComboBox.<br />The <em>MaskedTextBox</em> uses selected prompt character&nbsp;as a&nbsp;placeholder.<br />Prompt characters will be replaced when user enters a text in the textbox.<br /><br />See also description of HidePromptOnLeave.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>MaskedTextBox </em>control contains <em>PromptChar </em>property that defined the character used to represent the absence of user input in <em>MaskedTextBox</em>.</p>]]></Paragraph>
+  </Nodes>
+</Data>

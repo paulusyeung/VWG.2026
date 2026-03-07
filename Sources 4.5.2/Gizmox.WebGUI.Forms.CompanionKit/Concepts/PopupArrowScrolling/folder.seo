@@ -1,0 +1,20 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Popup Arrow Scrolling</Title>
+  <Properties />
+  <DisplayName>Popup Arrow Scrolling</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Popup</Keyword>
+    <Keyword>Arrow</Keyword>
+    <Keyword>Scrolling</Keyword>
+    <Keyword>scroll</Keyword>
+    <Keyword>ScrollerType</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.PopupArrowScrolling.Overview</DefaultPage>
+</Item>

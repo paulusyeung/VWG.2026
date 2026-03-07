@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634086781704069797" UpdatedBy="admin" UpdatedOn="634090169651188560">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select a color in the 'Calendar foreground color' ComboBox and open calendar of the demonstrated <em>DateTimePicker </em>and its foreground color will be corresponding with the selected color.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DateTimePicker </em>contains the <em>CalendarForeColor </em>property that determinates the foreground color to the calendar.</p>]]></Paragraph>
+  </Nodes>
+</Data>

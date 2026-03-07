@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="102" Status="Publish" Type="Page">
+  <Title>Support vertical/horizontal Orientation</Title>
+  <Properties />
+  <DisplayName>Orientation</DisplayName>
+  <Description>The example demonstrates how to change a orientation of the Visual WebGui Splitter.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="OrientationPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OrientationPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OrientationPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OrientationPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OrientationPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Splitter</Keyword>
+    <Keyword>Orientation</Keyword>
+    <Keyword>Vertical</Keyword>
+    <Keyword>Horizontal</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Splitter.Features.OrientationPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634106542525618814" UpdatedBy="admin" UpdatedOn="634305161232783090" Status="Publish" License="None">
+  <Properties>
+    <Title>How to add groups to the RibbonBar page</Title>
+    <Description>The example demonstrates how to add Groups to the Visual WebGui RibbonBar control.
+It also demonstrates how to handle SelectedIndexChanged and AdvancedClicked events.</Description>
+  </Properties>
+  <Nodes />
+</Data>

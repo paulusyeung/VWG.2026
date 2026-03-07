@@ -1,0 +1,36 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Changing Width and Height properties</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WidthHeightPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WidthHeightPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WidthHeightPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WidthHeightPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WidthHeightPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MyTextBox.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MyTextBoxSkin.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MyTextBox.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MyTextBoxSkin.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MyTextBoxSkin.TextBox.js" Order="105" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MyTextBoxSkin.resx" Order="106" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MyTextBoxSkin.TextBox.css" Order="107" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MyTextBoxSkin.TextBox.xslt" Order="108" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>height</Keyword>
+    <Keyword>width</Keyword>
+    <Keyword>vwgTextBox</Keyword>
+    <Keyword>TextBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Concepts.ClientAPI.WidthHeight.WidthHeightPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

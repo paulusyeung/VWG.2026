@@ -1,0 +1,25 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>TableLayoutPanel</Title>
+  <Properties />
+  <DisplayName>TableLayoutPanel</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use TableLayoutPanel control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>TableLayoutPanel</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>Control</Keyword>
+    <Keyword>Table</Keyword>
+    <Keyword>Layout</Keyword>
+    <Keyword>Panel</Keyword>
+    <Keyword>TableLayout</Keyword>
+    <Keyword>Row</Keyword>
+    <Keyword>Column</Keyword>
+    <Keyword>Span</Keyword>
+    <Keyword>RowSpan</Keyword>
+    <Keyword>ColumnSpan</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.TableLayoutPanel.Functionality.AddingControlPage</DefaultPage>
+  <Body />
+</Item>

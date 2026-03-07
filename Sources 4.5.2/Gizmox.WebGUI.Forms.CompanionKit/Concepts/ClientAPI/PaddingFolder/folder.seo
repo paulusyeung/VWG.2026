@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Demonstraion of using padding ClientAPI function</Title>
+  <Properties />
+  <DisplayName>Padding</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>padding</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.PaddingFolder.Overview</DefaultPage>
+</Item>

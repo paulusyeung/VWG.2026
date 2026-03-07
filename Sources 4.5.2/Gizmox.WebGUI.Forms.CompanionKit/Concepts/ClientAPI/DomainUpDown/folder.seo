@@ -1,0 +1,19 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>DomainUpDown</Title>
+  <Properties />
+  <DisplayName>DomainUpDown</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgDomainUpDown</Keyword>
+    <Keyword>vwgComboBox</Keyword>
+    <Keyword>selectedIndex</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.DomainUpDown.Overview</DefaultPage>
+</Item>

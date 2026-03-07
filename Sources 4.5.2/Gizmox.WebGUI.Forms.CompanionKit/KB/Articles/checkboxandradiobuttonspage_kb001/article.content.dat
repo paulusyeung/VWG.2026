@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634127345598526103" UpdatedBy="admin" UpdatedOn="634134208677713333">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check some RadioButton of the 'Change listbox items view type' GroupBox, <em>ListBox </em>item view is changed respectively. If you select the 'Normal' RadioButton, item of <em>ListBox </em>is displayed as Normal item without RadioButton and CheckBox. If you select the 'CheckBox' RadioButton, <em>ListBox </em>item is displayed with the CheckBox and if you select the 'RadioButton' RadioButton, <em>ListBox </em>item is displayed with the RadioButton.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ListBox</em> contains <em>CheckBoxes </em>and <em>RadioBoxes </em>properties that indicate whether <em>ListBox</em> items are displayed with <em>CheckBox </em>or <em>RadioButton </em>respectively.</p>]]></Paragraph>
+  </Nodes>
+</Data>

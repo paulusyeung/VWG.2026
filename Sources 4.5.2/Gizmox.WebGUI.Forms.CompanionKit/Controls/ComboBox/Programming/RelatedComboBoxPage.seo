@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>The example of interaction between two ComboBoxes</Title>
+  <Properties />
+  <DisplayName>Interaction</DisplayName>
+  <Description>The example of interaction between two ComboBoxes. The ComboBox contains DataSource set to table in the database. When you change selected value in 'Customers' ComboBox, you will see that order IDs' ComboBox contains order ids for the selected customer. When you change selected value in 'Customers' order IDs' ComboBox you will see that Customer order price updated and contains price for the selected order.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="RelatedComboBoxPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RelatedComboBoxPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RelatedComboBoxPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RelatedComboBoxPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RelatedComboBoxPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ComboBox</Keyword>
+    <Keyword>Related</Keyword>
+    <Keyword>DataSource</Keyword>
+    <Keyword>Filter</Keyword>
+    <Keyword>Interaction</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ComboBox.Programming.RelatedComboBoxPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+</Item>

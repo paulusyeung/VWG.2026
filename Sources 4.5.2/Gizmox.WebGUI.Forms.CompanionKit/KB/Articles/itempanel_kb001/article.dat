@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634071954464780000" UpdatedBy="admin" UpdatedOn="634072889773904308" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to use control panel within a Listview item.
+Click on 'Edit' button to show the control Panel with a Tab control. You can see and edit the row data. 
+Press 'Commit' button to close contol panel and update row data with changed values.</Description>
+  </Properties>
+  <Nodes>
+    <Tag Code="Lang.CSharp" />
+    <Type Code="article" />
+    <Category Code="UI.CustomControls.Input" />
+  </Nodes>
+</Data>

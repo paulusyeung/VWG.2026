@@ -1,0 +1,22 @@
+﻿<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>MyListView.cs</DefaultName>
+    <Name>Visual WebGui Skinable ListView</Name>
+    <Description>An item template for creating a Visual WebGui skinable ListView.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>ListView.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">ListView1.cs</ProjectItem>
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$Skin.cs" ReplaceParameters="true">ListViewSkin1.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.ListView.css" ReplaceParameters="true">ListViewSkin1.ListView.css</ProjectItem>    
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.ListView.xslt" ReplaceParameters="true">ListViewSkin1.ListView.xslt</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.RowDetails.moz.xslt" ReplaceParameters="true">ListViewSkin1.RowDetails.moz.xslt</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.RowDetails.WebKit.xslt" ReplaceParameters="true">ListViewSkin1.RowDetails.WebKit.xslt</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.ListViewVisualTemplate.css" ReplaceParameters="true">ListViewSkin1.ListViewVisualTemplate.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.ListViewVisualTemplate.xslt" ReplaceParameters="true">ListViewSkin1.ListViewVisualTemplate.xslt</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Skin.resx" ReplaceParameters="true">ListViewSkin1.resx</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

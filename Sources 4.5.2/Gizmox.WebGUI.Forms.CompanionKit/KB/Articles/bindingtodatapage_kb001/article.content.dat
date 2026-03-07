@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634444586525938780" UpdatedBy="admin" UpdatedOn="634451389668992907">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>There are <strong>BindingNavigator </strong>and <em>ListBox </em>controls on the <em>Form</em>.<br />Use the&nbsp;<strong>BindingNavigator </strong>to navigate&nbsp;through the <em>ListBox </em>items.<br />You can add or remove items from <em>ListBox </em>collection by using 'Add new' and 'Remove' buttons.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>The <strong>BindingSource </strong>property represents the data source that the <em>BindingNavigator </em>navigates through. More specifically, the <em>List </em>property of the <em>BindingSource </em>represents the actual data list.</p><p>Property type: Gizmox.WebGui.Forms.BindingSource</p>]]></Paragraph>
+    <Paragraph Code="ParagraphElement2" />
+  </Nodes>
+</Data>

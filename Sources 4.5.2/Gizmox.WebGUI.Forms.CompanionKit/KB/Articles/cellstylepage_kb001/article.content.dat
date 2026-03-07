@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135213626307777" UpdatedBy="admin" UpdatedOn="634135216937912665">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select some cells of the DataGridView and change them style with control which are in 'Cell Style' GroupBox. And style of the selected cells will be changed respectively.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DataGridView </em>contains the following properties that are related to style of cell:<br />- <em>DefaultCellStyle </em>- defines default styles used by all cells in the entire control (including header cells). Additionally the property is contained in a column, or in a row.<br />- <em>RowsDefaultCellStyle </em>- defines default cell styles used by all rows in the control. This does not include header cells.<br />- <em>AlternatingRowsDefaultCellStyle </em>- defines default cell styles used by alternating rows in the control. Used to create a ledger-like effect.<br />- <em>RowHeadersDefaultCellStyle </em>- defines default cell styles used by the control's row headers. Overridden by the current theme if visual styles are enabled.<br />- <em>ColumnHeadersDefaultCellStyle </em>- defines default cell styles used by the control's column headers. Overridden by the current theme if visual styles are enabled.</p><p>Additionally, the <em>DataGridView </em>cell can have exclusive style. The style should the change with <em>Style </em>property of the <em>Cell</em>. This property defines styles specified at the cell level. These styles override those inherited from higher levels. And the <em>Cell </em>contains the InheritedStyle style property that defines all the styles currently applied to the cell including styles inherited from higher levels.</p>]]></Paragraph>
+  </Nodes>
+</Data>

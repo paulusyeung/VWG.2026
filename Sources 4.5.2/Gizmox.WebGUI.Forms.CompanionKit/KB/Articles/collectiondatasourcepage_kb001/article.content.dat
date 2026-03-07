@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110851153544115" UpdatedBy="admin" UpdatedOn="634141939634678746">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The demonstrated <em>CheckedListBox </em>has <em>DataSource </em>property<em>&nbsp;</em>set to a&nbsp;<em>List </em>of <em>Customer </em>objects. <em><br />Customer</em>&nbsp;class&nbsp;defines 'ID' and 'FullName'&nbsp;along with&nbsp;other public properties. <br />The 'ID' property&nbsp;set&nbsp;to the&nbsp;<em>ValueMember </em>and 'FullName' property&nbsp;set to the <em>DisplayMember</em>.</p>]]></Paragraph>
+  </Nodes>
+</Data>

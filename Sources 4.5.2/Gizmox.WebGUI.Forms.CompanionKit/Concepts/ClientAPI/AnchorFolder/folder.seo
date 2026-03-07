@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>Demonstration of using ClientAPI anchor function</Title>
+  <Properties />
+  <DisplayName>Anchor</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>anchor</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.AnchorFolder.Overview</DefaultPage>
+</Item>

@@ -1,0 +1,22 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains example how to display ListView item with CheckBox, to reorder column, to change column options, to use different type for column, to use panel for ListView item, to group item, to resize column and to change view of ListView items.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ListView</Keyword>
+    <Keyword>CheckBox</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>Reorder</Keyword>
+    <Keyword>Group</Keyword>
+    <Keyword>Resize</Keyword>
+    <Keyword>Type</Keyword>
+    <Keyword>Control</Keyword>
+    <Keyword>Size</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.ListView.Features.ItemPanel</DefaultPage>
+  <Body />
+</Item>

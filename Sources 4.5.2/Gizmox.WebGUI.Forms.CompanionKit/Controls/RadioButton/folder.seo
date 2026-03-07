@@ -1,0 +1,16 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>RadioButton Control</Title>
+  <Properties />
+  <DisplayName>RadioButton</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use RadioButton control</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>RadioButton</Keyword>
+    <Keyword>Button</Keyword>
+    <Keyword>Radio</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.RadioButton.Appearance.CheckAlignPage</DefaultPage>
+  <Body />
+</Item>

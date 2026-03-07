@@ -1,0 +1,31 @@
+<Item SiteMap="True" Order="106" Status="Publish" Type="Page">
+  <Title>State image support</Title>
+  <Properties />
+  <DisplayName>State image</DisplayName>
+  <Description>The example demonstrates how to change a image for tree node check and unchecked state of the Visual WebGui TreeView. </Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="StateImagePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StateImagePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StateImagePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StateImagePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StateImagePage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\16x16\SelectedTreeNode.gif" Order="103" Lang="All" Type="Link" Title="SelectedTreeNode.gif" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\16x16\DefaultTreeNode.gif" Order="104" Lang="All" Type="Link" Title="DefaultTreeNode.gif" />
+  </Resources>
+  <Keywords>
+    <Keyword>TreeView</Keyword>
+    <Keyword>TreeNode</Keyword>
+    <Keyword>StateImage</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>State</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TreeView.Features.StateImagePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields>
+      <Field Column="0" Order="0" Type="CheckBox" Label="CheckBoxes" TargetName="treeView1" PropertyName="CheckBoxes" />
+    </Fields>
+  </Inspector>
+</Item>

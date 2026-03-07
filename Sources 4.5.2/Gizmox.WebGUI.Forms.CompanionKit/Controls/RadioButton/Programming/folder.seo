@@ -1,0 +1,19 @@
+<Item SiteMap="False" Order="120" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains sample apps that demonstrate how to handle CheckedChanged events of CheckBox</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>RadioButton</Keyword>
+    <Keyword>CheckedChanged</Keyword>
+    <Keyword>CheckState</Keyword>
+    <Keyword>Check</Keyword>
+    <Keyword>State</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.RadioButton.Programming.CheckStateChangedPage</DefaultPage>
+</Item>

@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Available View types</Title>
+  <Properties />
+  <DisplayName>View type</DisplayName>
+  <Description>The example demonstrates how to change the view type of the Visual WebGui ListView.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ViewsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ViewsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ViewsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ViewsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ViewsPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\16x16\Photo.png" Order="103" Lang="All" Title="Photo.png" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\32x32\Photo.png" Order="103" Lang="All" Title="Photo.png" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListView</Keyword>
+    <Keyword>View</Keyword>
+    <Keyword>Details</Keyword>
+    <Keyword>LargeIcon</Keyword>
+    <Keyword>List</Keyword>
+    <Keyword>SmallIcon</Keyword>
+    <Keyword>Type</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListView.Features.ViewsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

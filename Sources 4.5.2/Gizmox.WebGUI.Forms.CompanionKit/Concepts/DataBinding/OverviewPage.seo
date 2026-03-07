@@ -1,0 +1,13 @@
+<Item SiteMap="True" Order="100" Status="Draft" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>Overview</Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <PageType>
+  </PageType>
+  <Body />
+</Item>

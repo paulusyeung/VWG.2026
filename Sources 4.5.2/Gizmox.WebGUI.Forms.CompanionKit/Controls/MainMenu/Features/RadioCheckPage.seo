@@ -1,0 +1,76 @@
+<Item SiteMap="True" Order="103" Status="Publish" Type="Page">
+  <Title>Support Menu item radio checks</Title>
+  <Properties />
+  <DisplayName>Radio Check</DisplayName>
+  <Description>The example demonstrates how to support menu item radio checks in the Visual WebGui MainMenu</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="RadioCheckPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RadioCheckPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RadioCheckPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RadioCheckPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RadioCheckPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MainMenuForm.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MainMenuForm.designer.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MainMenuForm.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MainMenuForm.designer.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MainMenuForm.resx" Order="105" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\WordWrap.png" Title="WordWrap.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\ViewWhiteSpace.png" Title="ViewWhiteSpace.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\UndoGlobal.png" Title="UndoGlobal.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\Undo.png" Title="Undo.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\UncommentSelection.png" Title="UncommentSelection.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\ToggleBookmark.png" Title="ToggleBookmark.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\SurroundWith.png" Title="SurroundWith.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\SaveAs.png" Title="SaveAs.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\Save.png" Title="Save.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\ReplaceInFiles.png" Title="ReplaceInFiles.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\RedoGlobal.png" Title="RedoGlobal.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\Redo.png" Title="Redo.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\QuickReplace.png" Title="QuickReplace.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\QuickInfo.png" Title="QuickInfo.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\QuickFind.png" Title="QuickFind.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\Print.png" Title="Print.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\PreviousBookmarkInFolder.png" Title="PreviousBookmarkInFolder.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\PreviousBookmarkInDocument.png" Title="PreviousBookmarkInDocument.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\PreviousBookmark.png" Title="PreviousBookmark.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\Paste.png" Title="Paste.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\ParameterInfo.png" Title="ParameterInfo.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\PageSetup.png" Title="PageSetup.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\OpenWebSite.png" Title="OpenWebSite.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\OpenProject.png" Title="OpenProject.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\OpenFile.png" Title="OpenFile.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\NextBookmarkInFolder.png" Title="NextBookmarkInFolder.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\NextBookmarkinDocument.png" Title="NextBookmarkinDocument.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\NextBookmark.png" Title="NextBookmark.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\NewWebSite.png" Title="NewWebSite.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\NewProject.png" Title="NewProject.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\NewFile.png" Title="NewFile.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\ListMembers.png" Title="ListMembers.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\InsertSnippet.png" Title="InsertSnippet.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\IncreaseLineIndent.png" Title="IncreaseLineIndent.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\GenerateMethodStub.png" Title="GenerateMethodStub.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\FormatSelection.png" Title="FormatSelection.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\FormatDocument.png" Title="FormatDocument.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\FindSymbol.png" Title="FindSymbol.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\FindInFiles.png" Title="FindInFiles.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\EnableBookmark.png" Title="EnableBookmark.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\EnableAllBookmarks.png" Title="EnableAllBookmarks.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\Delete.png" Title="Delete.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\DecreaseLineIndent.png" Title="DecreaseLineIndent.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\Cut.png" Title="Cut.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\Copy.png" Title="Copy.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\CompleteWord.png" Title="CompleteWord.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\CommentSelection.png" Title="CommentSelection.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\CloseSolution.png" Title="CloseSolution.png" Order="106" Lang="All" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\MainMenu\ClearBookmark.png" Title="ClearBookmark.png" Order="106" Lang="All" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>MainMenu</Keyword>
+    <Keyword>MenuItem</Keyword>
+    <Keyword>RadioCheck</Keyword>
+    <Keyword>Radio</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.MainMenu.Features.RadioCheckPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

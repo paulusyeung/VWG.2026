@@ -1,0 +1,24 @@
+<Item SiteMap="False" Order="104" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains the examples that demonstrate how to manipulate cell style formatting in a DataGridView, to handle SelectedChanged event for a DataGridView and to support manually sorting for a DataGridView.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>Selection</Keyword>
+    <Keyword>SelectedChanged</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>Programmatic</Keyword>
+    <Keyword>Manually</Keyword>
+    <Keyword>Sort</Keyword>
+    <Keyword>Formatting</Keyword>
+    <Keyword>Style</Keyword>
+    <Keyword>Cell</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.DataGridView.Programming.ProgramaticSortingPage</DefaultPage>
+</Item>

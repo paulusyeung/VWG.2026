@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>OrientationChanged handling</Title>
+  <Properties />
+  <DisplayName>Orientation handling</DisplayName>
+  <Description>The example demonstrates how to catch form OrientationChanged event</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OrientationChangedPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OrientationChangedPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OrientationChangedPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OrientationChangedPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OrientationChangedPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OrientationForm.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OrientationForm.designer.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OrientationForm.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OrientationForm.designer.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="OrientationForm.resx" Order="105" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Form</Keyword>
+    <Keyword>OrientationChanged</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Form.Programming.OrientationChangedPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

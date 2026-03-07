@@ -1,0 +1,51 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>RibbonBar</Title>
+  <Properties />
+  <DisplayName>RibbonBar</DisplayName>
+  <Description>Contains the examples that demonstrates how to use the Visual WebGui RibbonBar control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Office</Keyword>
+    <Keyword>RibbonBar</Keyword>
+    <Keyword>Ribbon</Keyword>
+    <Keyword>Bar</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Feature">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 0px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/RibbonBar.Lobby.png'/&gt;
+&lt;div style=''&gt;The &lt;span style="color:#00b0f0"&gt;RibbonBar&lt;/span&gt; control designed to organize and visualize tool items. Acting as a container it separates different types of items to Pages and Groups. Rich object model and full design time support simplifies UI and business logic implementation. The control integrates features of ToolBar and TabControl in one powerful bundle.
+
+&lt;span style="color:#00b0f0"&gt;Availability:&lt;/span&gt;
+The RibbonBar is one of the Professional suite Office controls, which means it is free and available in all Visual WebGui versions, while the controls are still in beta. After release, these controls will be packaged in a seperate Professional Controls suite package and sold seperately.&lt;/div&gt;&lt;div style='clear:both'&gt;&lt;/div&gt;&lt;span style="color:#00b0f0"&gt;The examples below demonstrate how to&lt;/span&gt;
+- Add Pages and handle SelectedIndexChanged event
+- Add Groups and handle AdvancedClicked event
+- Add Items and SubItems and implement event handlers
+</PreText>
+      <Style concss="margin-top: 20px;&#xD;&#xA;margin-bottom: 20px;" />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The article describes API available for RibbonBar control. The overview of object model is essential for understanding how to use the control in an application.&lt;/div&gt;" Title="Object Model Overview" Section="Section-01" Link="item:CompanionKit.Controls.RibbonBar.rbapioverview">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" bodycss="padding-left:15px;&#xD;&#xA;text-align:justify;" titlecss="padding-left:15px;" />
+    </Element>
+    <Element Title="Adding pages" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to add Pages to the Visual WebGui RibbonBar control. It also demonstrates how to handle SelectedIndexChanged event.&lt;/div&gt;" Link="item:CompanionKit.Controls.RibbonBar.Appearance.AddingPagePage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" bodycss="padding-left:15px;" titlecss="padding-left:15px;" />
+    </Element>
+    <Element Title="Adding groups to page" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to add Groups to the Visual WebGui RibbonBar control. It also demonstrates how to handle AdvancedClicked and SelectedIndexChanged events.&lt;/div&gt;" Link="item:CompanionKit.Controls.RibbonBar.Appearance.AddingGroupsPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" bodycss="padding:0px 15px 10px 0px;text-align:justify;&#xD;&#xA;" />
+    </Element>
+    <Element Title="Adding items to group" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The snippet demonstrates how to add all available types of Items and Subitems. It also demonstrates technique to implement event handlers for available events of control, Items and Subitems.&lt;/div&gt;" Link="item:CompanionKit.Controls.RibbonBar.Appearance.AddingItemsPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" bodycss="padding-left:15px;" titlecss="padding-left:15px;" />
+    </Element>
+    <Element Title="A text editing application scenario" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to initialize the RibbonBar and RichTextEditor to create a text editing application.&lt;/div&gt;" Link="item:CompanionKit.Controls.RibbonBar.ApplicationScenario.TextEditingApplicationPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" bodycss="padding-left:15px;text-align:justify;padding-right:5px;" titlecss="padding-left:15px;" />
+    </Element>
+    <Element Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The article describes different types of events available for RibbonBar control, Items and SubItems objects.&lt;/div&gt;" Title="Events handling" Section="Section-01" Link="item:CompanionKit.Controls.RibbonBar.Appearance.AddingItemsPage">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" bodycss="padding:0px 15px 10px 0px;text-align:justify;&#xD;&#xA;" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

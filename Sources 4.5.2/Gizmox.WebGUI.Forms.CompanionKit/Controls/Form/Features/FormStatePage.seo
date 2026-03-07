@@ -1,0 +1,31 @@
+<Item SiteMap="True" Order="103" Status="Publish" Type="Page">
+  <Title>Manipulating form state</Title>
+  <Properties />
+  <DisplayName>Form state</DisplayName>
+  <Description>The example demonstrates how to manipulate form state.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="FormStatePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormStatePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormStatePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormStatePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormStatePage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="WindowStateForm.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="WindowStateForm.designer.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="WindowStateForm.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="WindowStateForm.designer.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="WindowStateForm.resx" Order="105" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Form</Keyword>
+    <Keyword>State</Keyword>
+    <Keyword>Window</Keyword>
+    <Keyword>WindowState</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Form.Features.FormStatePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

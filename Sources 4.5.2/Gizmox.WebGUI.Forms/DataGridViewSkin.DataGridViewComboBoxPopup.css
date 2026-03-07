@@ -1,0 +1,39 @@
+.DataGridView-ComboBoxPopUpBody
+{
+	margin:0px;
+	border:1px solid black;
+	background:white;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+.DataGridView-ComboBoxSelectedPopupItem
+{
+	background-color: infobackground;
+}
+
+.DataGridView-ComboBoxPopupItem
+{
+	font: normal 8pt Tahoma;
+	padding:2px 2px 0px 2px;
+	width:100%;
+	height:100%;
+}
+
+.DataGridView-ComboBoxPopupItem_Enter
+{
+	color: highlighttext;
+	background-color: highlight;
+}
+
+.DataGridView-ComboBoxPopupItem_Selected
+{
+	color: highlighttext;
+	background-color: highlight;
+}
+
+.DataGridView-ComboBoxPopupItem_Down
+{
+	color: highlighttext;
+	background-color: highlight;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128197441195487" UpdatedBy="admin" UpdatedOn="634134215061349707">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example demonstrates a <em>TreeView </em>with associated context menu.<br />The context menu contains following actions:<br /><em>Add new node</em> - adds a new node as child of selected node. If there is not selected node, a new node added as one of parent nodes.<br /><em>Remove selected node</em> - removes a selected node.<br /><em>View selected node</em> - shows a message describing the selected node.<br />Right click a node or the TreeView to open the context menu, click a menu item to perform an action above.</p><p>&nbsp;</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>TreeView </em>contains the <em>ContextMenu </em>property that represents the shortcut context menu associated with the control. </p>]]></Paragraph>
+  </Nodes>
+</Data>

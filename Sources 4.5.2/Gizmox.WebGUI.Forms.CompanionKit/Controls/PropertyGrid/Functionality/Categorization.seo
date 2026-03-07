@@ -1,0 +1,33 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Page">
+  <Title>How to categorize the properties of an object</Title>
+  <Properties />
+  <DisplayName>Property categorization</DisplayName>
+  <Description>The example demonstrates how to categorize the properties of an object
+A DemoObject selected to be inspected and edited with PropertyGrid.
+You should be able to change non-Read Only properties and see immediateatly the changes reflected below. Pay attention to how presented editors of Color and Enum type properties.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="Categorization.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Categorization.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Categorization.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Categorization.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Categorization.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DemoObject.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DemoObjectConverter.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DemoObject.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DemoObjectConverter.vb" Order="104" Lang="VBNET" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Category</Keyword>
+    <Keyword>Order</Keyword>
+    <Keyword>Group</Keyword>
+    <Keyword>Grouping</Keyword>
+    <Keyword>SelectedObject</Keyword>
+    <Keyword>Object</Keyword>
+  </Keywords>
+  <Comment>Create an "application" where the user inspecting and changing the property of an object, with Category attribute on it. And demonstrate that property shown in the property grid under that specific category</Comment>
+  <PageType>CompanionKit.Controls.PropertyGrid.Functionality.Categorization, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>OfflineMode overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="&lt;span style=&quot;color:#00ccff&quot;&gt;Visual WebGui&lt;/span&gt; introduces support for client-side events that let you respond to user actions without a post back to the server, by running a script in the user’s browser.&#xD;&#xA;&#xD;&#xA; The StatusStrip and PictureBox controls display the current state of the sample (PictureBox changes its image, and StatusStrip changes its color (green/red) and text (online/offline) as appropriate. While the sample is in &lt;span style=&quot;color:#00ccff&quot;&gt;offline mode&lt;/span&gt;, it keeps trying to reconnect to the server and then switch back to online mode. The TextBox control displays a log of switching between online and offline modes." Section="Section-01">
+      <Style linktype="NoLink" bodycss="font-size:medium" />
+    </Element>
+  </Body>
+</Item>

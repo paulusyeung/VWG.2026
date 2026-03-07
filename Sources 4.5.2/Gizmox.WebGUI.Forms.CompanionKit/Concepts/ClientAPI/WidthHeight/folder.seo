@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Width and Height</Title>
+  <Properties />
+  <DisplayName>Width and Height</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>height</Keyword>
+    <Keyword>width</Keyword>
+    <Keyword>vwgTextBox</Keyword>
+    <Keyword>TextBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.WidthHeight.Overview</DefaultPage>
+</Item>

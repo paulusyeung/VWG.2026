@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634414308794136758" UpdatedBy="admin" UpdatedOn="634416552267902351">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>This is a simple registration&nbsp;<em>Form </em>that&nbsp;contains a set of input fields such as <em>TextBox</em>, <em>ComboBox </em>and <em>CheckBox</em>.<br />User has to fill all the fields and agree the terms to be successfully registered.<br />The <strong>'Register' </strong>button performs the validation. All fields with invalid values are highlighted with error icon.<br />The fields with valid values are highlighted with success icon as well.</p>]]></Paragraph>
+  </Nodes>
+</Data>

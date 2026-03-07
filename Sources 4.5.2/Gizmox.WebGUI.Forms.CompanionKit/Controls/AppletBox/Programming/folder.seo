@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains the example that demonstrates how to set parameters and codebase for a Java applet.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>AppletBox</Keyword>
+    <Keyword>Applet</Keyword>
+    <Keyword>Box</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.AppletBox.Programming.ProvideParametersPage</DefaultPage>
+</Item>

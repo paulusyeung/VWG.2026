@@ -1,0 +1,11 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Article">
+  <Title>Terms of use</Title>
+  <Properties />
+  <DisplayName>Terms of use</DisplayName>
+  <Description>General agreement for code usage from the CompanionKit</Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Code>termsofuse_kb001</Code>
+</Item>

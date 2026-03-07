@@ -1,0 +1,14 @@
+<Item SiteMap="False" Order="1" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>File Management</Title>
+  <Properties />
+  <DisplayName>File Management</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.DeviceIntegration.FileManagement.FileExplorer</DefaultPage>
+</Item>

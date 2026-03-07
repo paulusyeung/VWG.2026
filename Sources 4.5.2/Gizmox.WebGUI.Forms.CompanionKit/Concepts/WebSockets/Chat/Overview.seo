@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Chat</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="User enters the nickname in the WatermarkTextBox, writes a message in the Message TextBox, and then presses the Send Button. Messages appear in the &lt;span style=&quot;color:#00ccff&quot;&gt;Chat&lt;/span&gt; TextBox. After the first message the WatermarkTextBox becomes disabled.&lt;br&gt;&#xD;&#xA;The sample uses &lt;span style=&quot;color:#00ccff&quot;&gt;Server Handler&lt;/span&gt;.&lt;br&gt;&#xD;&#xA;To test application, open it in several different browsers and send some messages from each of them." Title="Scenario:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

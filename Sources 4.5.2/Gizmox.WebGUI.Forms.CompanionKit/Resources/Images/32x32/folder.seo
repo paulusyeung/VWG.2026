@@ -1,0 +1,25 @@
+<Item SiteMap="False" Order="1" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>32x32</Title>
+  <Properties />
+  <DisplayName>32x32</DisplayName>
+  <Description>The folder is a container of 32x32 resources. Should be always with Status - Draft.
+  </Description>
+  <Resources>
+    <Resource Visible="False" SiteMap="False" Name="Photo.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="CheckNames.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Calendar.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="BusinessCard.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="AttachItem.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="AttachFile.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Signature.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="FollowUp.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="AddressBook.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="CheckNames.gif" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>
+  </DefaultPage>
+  <Body />
+</Item>

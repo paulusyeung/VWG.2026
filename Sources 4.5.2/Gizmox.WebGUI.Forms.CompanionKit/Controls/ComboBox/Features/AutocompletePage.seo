@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to use the combobox Autocomplete</Title>
+  <Properties />
+  <DisplayName>Autocomplete</DisplayName>
+  <Description>Demonstrates how to use AutoCompleteMode property of ComboBox. AutoCompleteMode property gets or sets an option that controls how automatic completion works for the ComboBox. The ComboBox has the following modes: None - disables the automatic completion feature for the ComboBox and TextBox controls; Suggest - displays the auxiliary drop-down list associated with the edit control. This drop-down is populated with one or more suggested completion strings; Append - appends the remainder of the most likely candidate string to the existing characters, highlighting the appended characters; SuggestAppend - applies both Suggest and Append options. You can select different AutoComplete mode in 'AutoCompleteMode' ComboBox and when you will try to begin enter  value in 'AutoCompleted ComboBox' ComboBox. You will see different behavior of demonstrated the ComboBox.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="AutocompletePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutocompletePage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutocompletePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutocompletePage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutocompletePage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ComboBox</Keyword>
+    <Keyword>AutocompleteMode</Keyword>
+    <Keyword>Autocomplete</Keyword>
+  </Keywords>
+  <Comment>Related issues: 
+http://support.visualwebgui.com/issue/ViewIssue.aspx?id=1799
+http://support.visualwebgui.com/issue/ViewIssue.aspx?id=5466
+
+Committed a temporary solution At revision: 19623. need to be reverted after issues are solved.</Comment>
+  <PageType>CompanionKit.Controls.ComboBox.Features.AutocompletePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

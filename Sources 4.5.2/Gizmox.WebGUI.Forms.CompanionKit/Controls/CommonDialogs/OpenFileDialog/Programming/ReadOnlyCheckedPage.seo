@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="105" Status="Draft" Type="Page">
+  <Title>ReadOnlyChecked Property</Title>
+  <Properties />
+  <DisplayName>ReadOnlyChecked</DisplayName>
+  <Description>The example demonstrates how to manipulate with checked state of the 'Open as read-only' CheckBox in the OpenFileDialog dialog box.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ReadOnlyCheckedPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ReadOnlyCheckedPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ReadOnlyCheckedPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ReadOnlyCheckedPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ReadOnlyCheckedPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>OpenFileDialog</Keyword>
+    <Keyword>ReadOnlyChecked</Keyword>
+    <Keyword>ReadOnly</Keyword>
+    <Keyword>Checked</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.OpenFileDialog.Programming.ReadOnlyCheckedPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

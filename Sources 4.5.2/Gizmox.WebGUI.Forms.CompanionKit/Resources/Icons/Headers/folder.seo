@@ -1,0 +1,18 @@
+<Item SiteMap="False" Order="1" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>Headers</Title>
+  <Properties />
+  <DisplayName>Headers</DisplayName>
+  <Description>The folder is a container of Header Icons resources. Should be always with Status - Draft.
+  </Description>
+  <Resources>
+    <Resource Visible="False" SiteMap="False" Name="Important.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Attachment.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Opened.gif" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>
+  </DefaultPage>
+  <Body />
+</Item>

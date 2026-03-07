@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634080643333425914" UpdatedBy="admin" UpdatedOn="634080644646825215">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check/Uncheck the 'Enable validation names' CheckBox and click on the 'Open file dialog with enable/disable validation of names' button and upload file dialog will be opened. Click on the 'Add' button and <em>OpenFileDialog </em>will be opened. If you check the CheckBox, the OpenFileDialog dialog box will accept only valid Win32 file names. If you uncheck the CheckBox, the OpenFileDialog dialog box will accept all file names.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>OpenFileDialog </em>dialog box contains <em>ValidateNames </em>property that indicates whether the dialog box accepts only valid Win32 file names.</p>]]></Paragraph>
+  </Nodes>
+</Data>

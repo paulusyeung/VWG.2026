@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634087596715367680" UpdatedBy="admin" UpdatedOn="634087598165533211">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check the 'Remove item by name' RadioButton, select name item in the <em>ComboBox </em>and click on the 'Remove item' button and the selected item will be deleted from the demonstrated <em>DomainUpDown </em>control. Check the 'Remove item by position' RadioButton, select position of item that should be removed, in <em>NumericUpDown </em>and click on the 'Remove item' button, and item with the selection position in the <em>DomainUpDown </em>will be removed.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DomainUpDown </em>control allows removing its items by calling the <em>Remove </em>or <em>RemoveAt</em> method of the <em>DomainUpDownItemCollection </em>class. The Remove method removes a specific item, while the <em>RemoveAt </em>method removes an item by its position.</p><p>To remove an item:</p><p>Use the <em>Remove </em>method of the <em>DomainUpDownItemCollection </em>class to remove an item by name.</p><p>Visual Basic<br /><em>DomainUpDown1.Items.Remove(&quot;noodles&quot;)</em><br />C#<br /><em>domainUpDown1.Items.Remove(&quot;noodles&quot;);</em></p><p>Use the RemoveAt method to remove an item by its position.</p><p>Visual Basic<br />' Removes the first item in the list.<br /><em>DomainUpDown1.Items.RemoveAt(0)</em><br />C#<br />// Removes the first item in the list.<br /><em>domainUpDown1.Items.RemoveAt(0);</em><br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

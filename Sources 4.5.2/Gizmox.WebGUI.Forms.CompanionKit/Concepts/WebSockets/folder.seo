@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>WebSockets</Title>
+  <Properties />
+  <DisplayName>WebSockets</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>WebSockets</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="&lt;span style=&quot;color:#00ccff&quot;&gt;WebSocket&lt;/span&gt; is a protocol providing full-duplex communications channels over a single TCP connection.&#xD;&#xA;&#xD;&#xA;In order to use &lt;span style=&quot;color:#00ccff&quot;&gt;WebSockets&lt;/span&gt; functionality in &lt;span style=&quot;color:#00ccff&quot;&gt;VWG&lt;/span&gt;, one should create a class that implements &lt;span style=&quot;color:#00ccff&quot;&gt;IWebSocketHandler&lt;/span&gt; and have such members:&#xD;&#xA;&lt;ul&gt;&#xD;&#xA;&lt;li&gt;&lt;span style=&quot;color:#00ccff&quot;&gt;ClientHandle&lt;/span&gt; - it works like the regular ClientAPI, a js function called with Context.Invoke() will run when a new WebSocket message arrives (Client);&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&lt;span style=&quot;color:#00ccff&quot;&gt;Handle&lt;/span&gt; - this function will run when a WebSocket message arrives (Server);&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&lt;span style=&quot;color:#00ccff&quot;&gt;IsClientHandler&lt;/span&gt; - determines if the program should call the client handler when WebSocket message arrives;&lt;/li&gt;&#xD;&#xA;&lt;li&gt;&lt;span style=&quot;color:#00ccff&quot;&gt;IsServerHandler&lt;/span&gt; - determines if the program should call the server handler when WebSocket message arrives.&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt; " Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

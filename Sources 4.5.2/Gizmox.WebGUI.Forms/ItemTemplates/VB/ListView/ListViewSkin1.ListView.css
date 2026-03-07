@@ -1,0 +1,210 @@
+﻿
+.ListView-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.ListView-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.ListView-FontData
+{
+	[Skin.Font];
+	[Skin.Foreground];
+}
+
+.ListView-Control_Disabled .ListView-FontData
+{
+    [Skin.ControlTextFontDisabled];
+    [Skin.ControlTextForegroundDisabled];
+    [Skin.ControlTextBackgroundDisabled];
+}
+
+td.ListView-HeaderCell,
+.ListView-HeaderCell
+{
+	[Skin.HeaderNormalStyle];
+    line-height:1;
+}
+
+td.ListView-HeaderCell_Enter,
+.ListView-HeaderCell_Enter
+{
+	[Skin.HeaderHoverStyle];
+}
+
+td.ListView-HeaderCell_Down,
+.ListView-HeaderCell_Down
+{
+	[Skin.HeaderPressedStyle];
+}
+
+
+.ListView-HeaderSeperator
+{
+	width:[Skin.HeaderSeperatorWidth]px;
+	[Skin.HeaderSeperatorNormalStyle];
+	cursor: w-resize;	
+	overflow:hidden;
+	
+}
+
+.ListView-GroupHeader
+{
+	[Skin.GroupHeaderStyle];
+}
+
+.ListView-FontGroupHeaderSeperator
+{
+	[Skin.GroupHeaderSeperatorBackground];
+	height:1px;	
+	overflow:hidden;
+}
+
+.ListView-CheckBoxImage
+{
+	width:[Skin.CheckBoxButtonWidth]px;
+	height:[Skin.CheckBoxButtonHeight]px;
+}
+
+.ListView-SortedColumn
+{
+	[Skin.SortedColumnBackground];
+}
+
+
+.ListView-DataRow_Selected .ListView-ItemCell
+{	
+	[Skin.CellSelectedStyle!important];
+}
+
+.ListView-DataFullRow_Selected .ListView-Cell
+{	
+	[Skin.CellSelectedStyle!important];
+}
+
+.ListView-DataRow0 .ListView-Cell
+{
+	[Skin.CellNormalStyle];
+}
+
+.ListView-DataRow1 .ListView-Cell
+{
+	[Skin.CellAlternativeStyle];
+}
+
+.ListView-ListItem_Selected .ListView-ListItemLabel
+{
+	[Skin.CellSelectedStyle!important];
+}
+
+.ListView-ListLargeItem_Selected .ListView-LargeItemLabel
+{
+	[Skin.CellSelectedStyle!important];
+}
+
+.ListView-ListSmallItem_Selected .ListView-SmallItemLabel
+{
+	[Skin.CellSelectedStyle!important];
+}
+
+.ListView-ListSmallItem_Selected .ListView-ListSmallItemImage
+{
+    [Skin.CellSelectedStyle!important];
+}
+
+.ListView-ListLargeItem_Selected .ListView-ListLargeItemImage
+{
+	[Skin.CellSelectedStyle!important];
+}
+.ListView-ListItem_Selected .ListView-ListItemImage
+{
+    [Skin.CellSelectedStyle!important];
+}
+
+.ListView-GridLines .ListView-DataCell
+{
+	[Skin.GridLines];
+	border-top:none;
+	border-left:none;
+	border-right:none;
+}
+
+.ListView-GridLines .ListView-SeperatorCell
+{
+	[Skin.GridLines];
+	border-top:none;
+	border-left:none;
+}
+
+
+.ListView-ColumnSeperator
+{
+	width:[Skin.HeaderSeperatorWidth]px;
+	
+}
+
+.ListView-PagingPanelHeight
+{
+	height:[Skin.PagingPanelHeight]px;
+}
+
+.ListView-PagingPanelStyle
+{
+	[Skin.PagingPanelStyle];
+}
+
+.ListView-PagingFirstImageWidth
+{
+	width:[Skin.PagingFirstButtonWidth]px;
+}
+
+.ListView-PagingLastImageWidth
+{
+	width:[Skin.PagingLastButtonWidth]px;
+}
+
+.ListView-PagingPreviousImageWidth
+{
+	width:[Skin.PagingPreviousButtonWidth]px;
+}
+
+.ListView-PagingNextImageWidth
+{
+	width:[Skin.PagingNextButtonWidth]px;
+}
+
+.ListView-PagingGotoBox
+{
+	[Skin.PagingGotoBoxStyle];
+	text-align:center;
+}
+
+.ListView-PagingLastButtonStyle
+{
+	[Skin.BidirectionalPagingLastButtonStyle];
+	height:100%;
+}
+
+.ListView-PagingFirstButtonStyle
+{
+	[Skin.BidirectionalPagingFirstButtonStyle];
+	height:100%;
+}
+
+.ListView-PagingNextButtonStyle
+{
+	[Skin.BidirectionalPagingNextButtonStyle];
+	height:100%;
+}
+
+.ListView-PagingPrevButtonStyle
+{
+	[Skin.BidirectionalPagingPrevButtonStyle];
+	height:100%;
+}
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110925726702865" UpdatedBy="admin" UpdatedOn="634118518259011387">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Open <em>DropDown </em>for 'Custom TreeView ComboBox' <em>ComboBox </em>and&nbsp;<em>DropDown&nbsp;</em>will be&nbsp;opened&nbsp;with <em>TreeView</em>. Open <em>DropDown </em>for 'Custom Form ComboBox' <em>ComboBox </em>and <em>DropDown </em>will be opened with <em>Form</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ComboBox </em>control contains <em>IsCustomDropDown </em>property that indicating whether this <em>ComboBox </em>has a custom drop down and the <em>GetCustomDropDown </em>method that return Form that is displayed instead of <em>DropDown </em>menu. For creation <em>ComboBox </em>with custom DropDown you should create new class that is inherited from the <em>Gizmox.WebGUI.Forms.ComboBox</em> and override the <em>IsCustomDropDown </em>property, that returns true, and the <em>GetCustomDropDown </em>method.</p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634377095139172099" UpdatedBy="admin" UpdatedOn="634381571108453975">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Choose one of the <em>ComboBox </em>items which represents&nbsp;default buttons&nbsp;that can be&nbsp;set&nbsp;for <em>MessageBox </em>window. Press <em>Button </em>to show <em>MessageBox </em>window. Note that different buttons will be focused according to <em>ComboBox</em> item selected.&nbsp;<em>MessageBox </em>window modal mask can be turned On/Off by switching the 'Show Modal Mask' <em>CheckBox</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><em>MessageBox&nbsp;</em>default button&nbsp;for <em>MessageBox </em>window can be simply set by respectively passing parameters to suitable <em>MessageBox </em>constructor called.</p><p><em>MessageBox </em>constructor parameters:</p><p><strong>enmDefaultButton:</strong> specifies constants defining the default button on a MessageBox;<br /><strong>blnShowModalMask:</strong> determines whether a form has a modal mask when modal;<br /><strong>objEventHandler:</strong> an System.EventHandler function that is called when MessageBox window is closed.</p>]]></Paragraph>
+  </Nodes>
+</Data>

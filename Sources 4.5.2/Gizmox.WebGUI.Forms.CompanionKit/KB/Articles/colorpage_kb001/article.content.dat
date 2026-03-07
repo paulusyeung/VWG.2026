@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634082499386910007" UpdatedBy="admin" UpdatedOn="634082500336345767">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the 'Open FontDialog to change foreground color of label' button. The <em>FontDialog </em>dialog box will be opened with the color <em>ComboBox</em>. Select a custom color, click on the 'Ok' button and foreground color of the represented label will be changed.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>FontDialog </em>dialog box contains the <em>ShowColor </em>property that indicates whether the dialog box displays the color choice.</p>]]></Paragraph>
+  </Nodes>
+</Data>

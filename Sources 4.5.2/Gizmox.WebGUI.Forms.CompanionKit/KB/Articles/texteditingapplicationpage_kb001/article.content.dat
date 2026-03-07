@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634106695271553323" UpdatedBy="admin" UpdatedOn="634305131678301426">
+  <Properties />
+  <Nodes>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains the Visual WebGui <em>RibbonBar </em>and the <em>RixhTextEditor </em>controls.<br />Enter text into <em>RichTextEditor</em> and click RibbonBar&nbsp;formatting buttons to&nbsp;change text appearance.<br /><br /><em>Pay attention:</em><strong><br /></strong>It's sample application scenario for demonstration purposes only, therefore some formatting functionality not implemented.</p>]]></Paragraph>
+  </Nodes>
+</Data>

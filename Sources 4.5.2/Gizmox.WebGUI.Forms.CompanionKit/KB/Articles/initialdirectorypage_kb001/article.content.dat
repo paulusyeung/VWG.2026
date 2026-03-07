@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634080626321829983" UpdatedBy="admin" UpdatedOn="634081630464509450">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter the initial directory in the 'Initial directory' TextBox with keyboard or the&nbsp; <img height="16" width="16" align="top" src="/Resources/Images/16x16/folder.gif" alt="Folder button" /> button. Click on the 'Open OpenFileDialog with specified initial directory' button and the upload file dialog will be opened. Click on the 'Add' button, the <em>OpenFileDialog </em>dialog box will be opened with the set initial directory.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>OpenFileDialog </em>dialog box contains <em>InitialDirectory </em>property that represents the initial directory displayed by the file dialog box.</p>]]></Paragraph>
+  </Nodes>
+</Data>

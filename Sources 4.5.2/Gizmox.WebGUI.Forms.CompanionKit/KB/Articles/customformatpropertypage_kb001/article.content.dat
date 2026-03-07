@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634086824469132521" UpdatedBy="admin" UpdatedOn="634090170011828961">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select a date format in the 'Select custom date format for the DateTimePicker' ListBox and a date format of the <em>DateTimePicker </em>will be changed respectively.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DateTimePicker </em>contains the following properties for manipulating of the date format:<br /><em>CustomFormat </em>- represents the custom date/time format. The default is null.<br /><em>Format </em>- the format of the date and time displayed in the control.<br />The <em>Format </em>property allows setting the following values:<br /><strong>Long </strong>- the <em>DateTimePicker </em>control displays the date/time value in the long date format set by the user's operating system.<br /><strong>Short </strong>- the <em>DateTimePicker </em>control displays the date/time value in the short date format set by the user's operating system.<br /><strong>Time </strong>- the <em>DateTimePicker </em>control displays the date/time value in the time format set by the user's operating system.<br /><strong>Custom </strong>- the <em>DateTimePicker </em>control displays the date/time value in a custom format. <br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

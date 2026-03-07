@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to add windows to DockingManager</Title>
+  <Properties />
+  <DisplayName>Adding windows</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AddingWindowsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AddingWindowsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AddingWindowsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AddingWindowsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AddingWindowsPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DockingManager</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>Window</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DockingManager.Functionality.AddingWindowsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

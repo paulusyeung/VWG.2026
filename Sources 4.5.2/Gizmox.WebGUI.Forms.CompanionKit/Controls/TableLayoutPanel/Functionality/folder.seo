@@ -1,0 +1,26 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use ColumnSpan and RowSpan and to add control onto the TableLayoutPanel.</Description>
+  <Resources />
+  <Keywords >
+    <Keyword>TableLayoutPanel</Keyword>
+    <Keyword>RowSpan</Keyword>
+    <Keyword>ColSpan</Keyword>
+    <Keyword>Column</Keyword>
+    <Keyword>Row</Keyword>
+    <Keyword>Layout</Keyword>
+    <Keyword>Table</Keyword>
+    <Keyword>Panel</Keyword>
+    <Keyword>Span</Keyword>
+    <Keyword>Number</Keyword>
+    <Keyword>Quantity</Keyword>
+    <Keyword>Count</Keyword>
+    <Keyword>Add</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.TableLayoutPanel.Functionality.AddingControlPage</DefaultPage>
+  <Body />
+</Item>

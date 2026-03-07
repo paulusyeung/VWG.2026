@@ -1,0 +1,34 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Embed ASP.NET page</Title>
+  <Properties />
+  <DisplayName>Embed ASP.NET page</DisplayName>
+  <Description>The example that demonstrates how to embed an ASP.NET page</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="EmbedASPNETPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="EmbedASPNETPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="EmbedASPNETPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="EmbedASPNETPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="EmbedASPNETPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AspViewPage.aspx" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AspViewPage.aspx.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AspViewPage.aspx.designer.cs" Order="105" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AspViewPageVB.aspx" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AspViewPageVB.aspx.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AspViewPageVB.aspx.designer.vb" Order="105" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\View.jpg" Order="106" Lang="All" Title="View.jpg" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>AspPageBox</Keyword>
+    <Keyword>ASP</Keyword>
+    <Keyword>Page</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>Embed</Keyword>
+    <Keyword>Embedding</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.AspPageBox.Functionality.EmbedASPNETPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

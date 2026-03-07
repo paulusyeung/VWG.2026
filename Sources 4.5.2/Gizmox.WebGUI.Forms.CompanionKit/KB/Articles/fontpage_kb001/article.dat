@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634082505861863548" UpdatedBy="admin" UpdatedOn="634082506836726015" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to get/set the selected font of the Visual WebGui FontDialog dialog box.</Description>
+  </Properties>
+  <Nodes />
+</Data>

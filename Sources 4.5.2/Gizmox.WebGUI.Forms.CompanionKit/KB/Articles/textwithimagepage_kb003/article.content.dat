@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634158360068284806" UpdatedBy="admin" UpdatedOn="634275000589147233">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example demonstrates multiple TabPages with images and text in the captions.<br />The images organized with ImageList control. Each TabPage references the image with an index or key.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>TabControl </em>contains <em>ImageList </em>property that defines the list images&nbsp;for TabPages (tabs).</p><p>To change text and image use the TabPage properties:</p><p><em>Text&nbsp;&ndash;</em>&nbsp;defines the text to display on the tab.<br /><em>Image </em>&ndash; defines the image to display on the tab.<br /><em>ImageIndex </em>&ndash; defines the image index&nbsp;from the associated ImageList. The default is -1.<br /><em>ImageKey </em>&ndash; defines the image key from the associated ImageList.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

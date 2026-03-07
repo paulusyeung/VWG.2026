@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="109" Status="Draft" Type="Page">
+  <Title>Title Property</Title>
+  <Properties />
+  <DisplayName>Title</DisplayName>
+  <Description>The example demonstrates how to set custom title for the OpenFileDialog dialog box.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="TitlePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TitlePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TitlePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TitlePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TitlePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>OpenFileDialog</Keyword>
+    <Keyword>Title</Keyword>
+  </Keywords>
+  <Comment>This example has Draft status b/c the OpenFileDialog Title property doesn't work correct (VWG-6968)</Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.OpenFileDialog.Features.TitlePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

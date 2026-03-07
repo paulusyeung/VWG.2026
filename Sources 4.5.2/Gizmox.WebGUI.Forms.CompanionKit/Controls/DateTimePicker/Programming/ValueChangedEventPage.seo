@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="165">
+  <Title>ValueChanged Event</Title>
+  <Properties />
+  <DisplayName>ValueChanged Event</DisplayName>
+  <Description>The example demonstrates how to handle ValueChanged event of the Visual WebGui DateTimePicker.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ValueChangedEventPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValueChangedEventPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValueChangedEventPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValueChangedEventPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValueChangedEventPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DateTimePicker</Keyword>
+    <Keyword>Value</Keyword>
+    <Keyword>ValueChanged</Keyword>
+    <Keyword>Event</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DateTimePicker.Programming.ValueChangedEventPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

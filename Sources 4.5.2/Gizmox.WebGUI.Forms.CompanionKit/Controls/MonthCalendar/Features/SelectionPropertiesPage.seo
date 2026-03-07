@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to use SelectionRange and MaxSelectionCount properties</Title>
+  <Properties />
+  <DisplayName>Selection properties</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="SelectionPropertiesPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="SelectionPropertiesPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="SelectionPropertiesPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="SelectionPropertiesPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="SelectionPropertiesPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>MonthCalendar</Keyword>
+    <Keyword>SelectionRange</Keyword>
+    <Keyword>MaxSelectionCount</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.MonthCalendar.Features.SelectionPropertiesPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

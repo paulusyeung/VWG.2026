@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634129143414448034" UpdatedBy="admin" UpdatedOn="634259368744548115">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Move the mouse pointer over the <em>Splitter </em>control (between panels with different background colors), and the cursor will change to indicate that the controls docked to the Splitter control can be resized. Change position of the <em>Splitter </em>control and <em>Splitter </em>will be able decrease size of the docking control to its minimum sizes but increases more than maximum size of docking control.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>Splitter takes account of minimum size of the adjacent control with the same Dock value, but no maximum size.</p>]]></Paragraph>
+  </Nodes>
+</Data>

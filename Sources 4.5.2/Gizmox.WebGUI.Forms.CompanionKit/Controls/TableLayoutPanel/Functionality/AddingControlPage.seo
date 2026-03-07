@@ -1,0 +1,35 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to add controls to TableLayoutPanel</Title>
+  <Properties />
+  <DisplayName>Adding Controls</DisplayName>
+  <Description>The example demonstrates how to add control into a Visual WebGui TableLayoutPanel control.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="AddingControlPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingControlPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingControlPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingControlPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingControlPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TableLayoutPanel</Keyword>
+    <Keyword>RowSpan</Keyword>
+    <Keyword>ColSpan</Keyword>
+    <Keyword>Column</Keyword>
+    <Keyword>Row</Keyword>
+    <Keyword>Layout</Keyword>
+    <Keyword>Table</Keyword>
+    <Keyword>Panel</Keyword>
+    <Keyword>Span</Keyword>
+    <Keyword>Number</Keyword>
+    <Keyword>Quantity</Keyword>
+    <Keyword>Count</Keyword>
+    <Keyword>Add</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TableLayoutPanel.Functionality.AddingControlPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

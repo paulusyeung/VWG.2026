@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+  <Controls>
+    <Control Type="Gizmox.WebGUI.Forms.Phonegap.Integration.PhonegapIntegrator, Gizmox.WebGUI.Forms.Phonegap.Integration" />
+  </Controls>
+</Resources>

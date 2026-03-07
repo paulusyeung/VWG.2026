@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634080633375350173" UpdatedBy="admin" UpdatedOn="634081634297551793" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to limit size of opened files.</Description>
+  </Properties>
+  <Nodes />
+</Data>

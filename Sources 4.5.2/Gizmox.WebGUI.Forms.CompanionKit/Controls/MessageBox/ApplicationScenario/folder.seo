@@ -1,0 +1,18 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Application scenario</Title>
+  <Properties />
+  <DisplayName>Application scenario</DisplayName>
+  <Description>Contains example application that demonstrates how to create and use MessageBox dialogs on the Form.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>MessageBox</Keyword>
+    <Keyword>Sample</Keyword>
+    <Keyword>Usage</Keyword>
+    <Keyword>Example</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.MessageBox.ApplicationScenario.MessageBoxBuilderPage</DefaultPage>
+</Item>

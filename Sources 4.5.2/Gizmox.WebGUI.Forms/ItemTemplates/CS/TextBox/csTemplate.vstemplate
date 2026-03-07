@@ -1,0 +1,18 @@
+﻿<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>MyTextBox.cs</DefaultName>
+    <Name>Visual WebGui Skinable TextBox</Name>
+    <Description>An item template for creating a Visual WebGui skinable TextBox.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>TextBox.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">TextBox1.cs</ProjectItem>
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$Skin.cs" ReplaceParameters="true">TextBoxSkin1.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.TextBox.css" ReplaceParameters="true">TextBoxSkin1.TextBox.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.TextBox.xslt" ReplaceParameters="true">TextBoxSkin1.TextBox.xslt</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Skin.resx" ReplaceParameters="true">TextBoxSkin1.resx</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

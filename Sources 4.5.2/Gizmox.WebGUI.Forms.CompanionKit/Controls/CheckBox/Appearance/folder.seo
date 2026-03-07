@@ -1,0 +1,17 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Appearance</Title>
+  <Properties />
+  <DisplayName>Appearance</DisplayName>
+  <Description>Contains sample app that demonstrates how to use CheckAlign property.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>CheckBox</Keyword>
+    <Keyword>CheckAlign</Keyword>
+    <Keyword>Align</Keyword>
+    <Keyword>Alignment</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.CheckBox.Appearance.CheckAlignPage</DefaultPage>
+  <Body />
+</Item>

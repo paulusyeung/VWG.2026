@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634127361712488887" UpdatedBy="admin" UpdatedOn="634127370571608085">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter item name in the 'Added item text' TextBox and set place of the added items in the <em>ListBox </em>with the 'Added item place' NumericUpToDown and click on the 'Add item into ListBox' Button and item is added  in the <em>ListBox </em>on defined position with specified name.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ListBox </em>control allows adding items by calling the <em>Add </em>or <em>Insert </em>method of the <em>ListBox.ObjectCollection</em> class to add items to the control's Items property. The <em>Add </em>method adds an item to the end of a collection, while the <em>Insert </em>method adds an item at a specified position.<br /><br />To add a new item:<br />Use the <em>Add </em>method to add an item to the end of the list of items.<br /><strong>Visual Basic:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement1" Language="vbnet"><![CDATA[listBox1.Items.Add("noodles")]]></Code>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p><strong>C#:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement2" Language="csharp"><![CDATA[listBox1.Items.Add("noodles");]]></Code>
+    <Paragraph Code="ParagraphElement4"><![CDATA[<p>Use the <em>Insert </em>method to insert an item into the list at a specified position.<br /><strong>Visual Basic:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement3" Language="vbnet"><![CDATA[' Inserts an item at the third position in the list
+listBox1.Items.Insert(2, "rice")]]></Code>
+    <Paragraph Code="ParagraphElement5"><![CDATA[<p><strong>C#:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement4" Language="csharp"><![CDATA[// Inserts an item at the third position in the list
+listBox1.Items.Insert(2, "rice");]]></Code>
+  </Nodes>
+</Data>

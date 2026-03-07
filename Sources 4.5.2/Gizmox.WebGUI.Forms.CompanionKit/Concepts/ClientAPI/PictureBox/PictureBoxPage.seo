@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>PictureBox example</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="PictureBoxPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="PictureBoxPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="PictureBoxPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="PictureBoxPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="PictureBoxPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="True" SiteMap="False" Name="PictureBoxPage.Client.js" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgListBox</Keyword>
+    <Keyword>vwgPictureBox</Keyword>
+    <Keyword>ListBox</Keyword>
+    <Keyword>PictureBox</Keyword>
+    <Keyword>selectedIndex</Keyword>
+    <Keyword>dataSource</Keyword>
+    <Keyword>imageUrl</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Concepts.ClientAPI.PictureBox.PictureBoxPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

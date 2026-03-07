@@ -1,0 +1,27 @@
+.Common-Window
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:0px;
+	height:0px;
+	overflow:visible;
+	display:inline;
+}
+
+.Common-WindowTable
+{
+	table-layout:fixed;
+	position:absolute;
+	display:inline;
+	left:0px;
+	top:0px;
+}
+
+.Common-PopupWindow
+{
+	margin:0px;
+	overflow: visible;
+	cursor:default;
+	display:inline;
+}

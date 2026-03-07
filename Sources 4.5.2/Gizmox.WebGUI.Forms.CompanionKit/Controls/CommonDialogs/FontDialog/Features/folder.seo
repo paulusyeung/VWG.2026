@@ -1,0 +1,20 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use Color, MaxSize, MinSize, ShowEffects and ShowHelp properties of FontDialog.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>FontDialog</Keyword>
+    <Keyword>Color</Keyword>
+    <Keyword>MaxSize</Keyword>
+    <Keyword>MinSize</Keyword>
+    <Keyword>Help</Keyword>
+    <Keyword>Effects</Keyword>
+    <Keyword>Size</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.CommonDialogs.FontDialog.Features.ColorPage</DefaultPage>
+  <Body />
+</Item>

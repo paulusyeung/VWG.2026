@@ -1,0 +1,70 @@
+﻿.ListBox-Control
+{
+	[Skin.Border];
+	[Skin.Background];	
+	[Skin.VisualEffect]
+}
+
+.ListBox-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.ListBox-Control_Disabled .ListBox-FontData
+{
+    [Skin.ControlTextFontDisabled];
+}
+
+.ListBox-FontData
+{
+	[Skin.Font];
+	[Skin.Foreground];
+}
+
+.ListBox-Table_Focus .ListBox-Row_Selected TD 
+{
+  [Skin.FocusedListBoxSelectedRowStyle];
+		
+}
+
+.ListBox-Container_Focus .ListBox-Row_Selected TD 
+{
+	[Skin.FocusedListBoxSelectedRowStyle];
+}
+
+.ListBox-Container .ListBox-Row TD
+{
+	[Skin.CellStyle];
+}
+
+.ListBox-Container .ListBox-Row_Selected TD
+{
+	[Skin.SelectedCellStyle];
+}
+
+.ListBox-ColorBox
+{
+	width:[Skin.ListBoxColorCellWidth]px;
+	height:[Skin.ListBoxColorBoxHeight]px;
+	
+	[Skin.ColorBoxStyle];
+
+}
+
+.ListBox-Container
+{
+	overflow:auto;
+	width:100%;
+	height:100%;
+	border:1px dotted transparent;
+}
+
+.ListBox-Container_Focus
+{
+	border:1px dotted black;
+}
+
+.ListBox-Control_Disabled .ListBox-Container .ListBox-Row TD
+{
+    [Skin.ControlTextForegroundDisabled];
+}

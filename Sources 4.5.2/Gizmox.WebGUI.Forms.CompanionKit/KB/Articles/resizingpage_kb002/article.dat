@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135238489282269" UpdatedBy="admin" UpdatedOn="634135239601319995" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to support resizing of rows and columns through drag and drop in the Visual WebGui DataGridView control.</Description>
+  </Properties>
+  <Nodes />
+</Data>

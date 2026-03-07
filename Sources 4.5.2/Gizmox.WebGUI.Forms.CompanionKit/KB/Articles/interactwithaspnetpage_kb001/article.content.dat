@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634098954254986513" UpdatedBy="admin" UpdatedOn="634098958972486513">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Title" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example demonstrates the process of embedding an ASP.NET web form page as part of Visual WebGUI form. Click on the 'Raise event to VWG' button and message box will be show with message as text of the first TextBox. Click on the 'Button' button the text of the first TextBox will be copied into the second TextBox.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The example demonstrates the process of raising and handling events from embedded ASP.NET page. The example demonstrates the way of interoperation between an ASP.NET page and Visual WebGUI application.<br /><br />To interact between an ASP.NET page and Visual WebGUI application, follow these steps:</p><ol><li>Drag AspPageBox control on the Form in the Visual Studio Designer.</li><li>Set size for the control.</li><li>Set Path to Asp.Net Pages;</li><li>To raise event to the Visual WebGUI server application add JavaScript in the Asp.Net page:</li></ol>]]></Paragraph>
+    <Code Code="CodeElement1" Language="js"><![CDATA[function ShowMessageBox(strMessage)
+{
+    var objEvent = VWG.Events.CreateEvent("<%= PageContext.ID %>","MessageBox");
+    VWG.Events.SetEventAttribute(objEvent,"message",strMessage);
+    VWG.Events.RaiseEvents();
+}]]></Code>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>Method VWG.Events.CreateEvent(&lt;PageContext ID&gt;, MessageType) create event for Asp.Net page with ID that can be got with PageContext.ID and with type that is set as the second parameters.<br />Method VWG.Events.SetEventAttribute(&lt;VWG event&gt;,&lt;Attribute name&gt;,&lt;Attribute Name&gt;) set attribute for VWG event.<br />Method VWG.Events.RaiseEvents()raises all event to Visual WebGUI server application.</p><ol start="5"><li>To handle raised event on the Visual WebGUI server application create owner class, that is inherited from the Gizmox.WebGUI.Forms.Hosts.AspPageBox and override FireEvent method:</li></ol><p><strong>C#:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement2" Language="csharp"><![CDATA[[Serializable()]
+public class MyAspPageBox : Gizmox.WebGUI.Forms.Hosts.AspPageBox
+{
+
+   protected override void FireEvent(Gizmox.WebGUI.Common.Interfaces.IEvent objEvent)
+   {
+      base.FireEvent(objEvent);
+
+      if (objEvent.Type == "MessageBox")
+      {
+         MessageBox.Show(objEvent["message"]);
+      }
+   }
+}]]></Code>
+    <Paragraph Code="ParagraphElement4"><![CDATA[<p><strong>Visual Basic</strong>:</p>]]></Paragraph>
+    <Code Code="CodeElement3" Language="vbnet"><![CDATA[<Serializable()> _
+Public Class MyAspPageBox
+    Inherits Gizmox.WebGUI.Forms.Hosts.AspPageBox
+    
+    ' Methods
+    Protected Overrides Sub FireEvent(ByVal objEvent As IEvent)
+        MyBase.FireEvent(objEvent)
+        If (objEvent.Type = "MessageBox") Then
+            MessageBox.Show(objEvent.Item("message"))
+        End If
+    End Sub
+End Class]]></Code>
+  </Nodes>
+</Data>

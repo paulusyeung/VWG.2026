@@ -1,0 +1,37 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="310">
+  <Title>Example of RibbonBar and RichTextEditor</Title>
+  <Properties />
+  <DisplayName>A text editing application</DisplayName>
+  <Description>The example demonstrates how to initialize the RibbonBar and RichTextEditor to create a text editing application.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="TextEditingApplicationPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextEditingApplicationPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextEditingApplicationPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextEditingApplicationPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextEditingApplicationPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\16x16\Permission.gif" Order="104" Lang="All" Title="Permission.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\16x16\HighImportance.gif" Order="104" Lang="All" Title="HighImportance.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\16x16\LowImportance.gif" Order="104" Lang="All" Title="LowImportance.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\32x32\AddressBook.gif" Order="105" Lang="All" Title="AddressBook.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\32x32\CheckNames.gif" Order="105" Lang="All" Title="CheckNames.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\32x32\AttachFile.gif" Order="105" Lang="All" Title="AttachFile.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\32x32\AttachItem.gif" Order="105" Lang="All" Title="AttachItem.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\32x32\BusinessCard.gif" Order="105" Lang="All" Title="BusinessCard.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\32x32\Calendar.gif" Order="105" Lang="All" Title="Calendar.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\32x32\Signature.gif" Order="105" Lang="All" Title="Signature.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\32x32\FollowUp.gif" Order="105" Lang="All" Title="FollowUp.gif" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>RibbonBar</Keyword>
+    <Keyword>RichTextEditor</Keyword>
+    <Keyword>Rich</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>Editor</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.RibbonBar.ApplicationScenario.TextEditingApplicationPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

@@ -1,0 +1,31 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Example</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DynamicDataForm.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DynamicDataForm.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DynamicDataForm.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DynamicDataForm.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DynamicDataForm.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="True" SiteMap="False" Name="DynamicDataPage.Client.js" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DynamicDataSampleMessage.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DynamicDataSampleMessage.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CompanionKitWebSocketMessage.cs" Order="105" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CompanionKitWebSocketMessage.vb" Order="105" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DynamicDataWebSocketsHandler.cs" Order="106" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DynamicDataWebSocketsHandler.vb" Order="106" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="IPageHandler.cs" Order="107" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="IPageHandler.vb" Order="107" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="DynamicDataWeb.config" Order="108" Lang="All" Type="File" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Concepts.WebSockets.DynamicData.DynamicDataPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

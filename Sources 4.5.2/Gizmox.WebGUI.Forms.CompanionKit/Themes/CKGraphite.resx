@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Font:Value" xml:space="preserve">
+    <value>Arial, 20px</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LinkLabelSkin:ContentStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LinkLabelSkin:ContentStyle.Font:Value" xml:space="preserve">
+    <value>Tahoma, 20px, style=Underline</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LinkLabelSkin:FocusedStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LinkLabelSkin:FocusedStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LabelSkin:Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LabelSkin:Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DataGridViewSkin:ColumnHeaderNormalStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DataGridViewSkin:ColumnHeaderNormalStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewSkin:HeaderHoverStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewSkin:HeaderHoverStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewSkin:HeaderDisabledStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewSkin:HeaderDisabledStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewSkin:HeaderNormalStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewSkin:HeaderNormalStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.PropertyGridSkin:CategoryStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.PropertyGridSkin:CategoryStyle.Font:Value" xml:space="preserve">
+    <value>Tahoma, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:CaptionStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:CaptionStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverLTRSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverLTRSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverRTLSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverRTLSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabHoverLTRStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabHoverLTRStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabHoverRTLStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabHoverRTLStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalLTRSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalLTRSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalRTLSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalRTLSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalLTRStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalLTRStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalRTLStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalRTLStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedLTRSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedLTRSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedRTLSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedRTLSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewSkin:Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewSkin:Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopHoverLTRSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopHoverLTRSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopHoverRTLSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopHoverRTLSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverLTRStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverLTRStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverRTLStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverRTLStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalLTRSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalLTRSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial Narrow, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalRTLSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalRTLSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabNormalLTRStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabNormalLTRStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabNormalRTLStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabNormalRTLStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedLTRSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedLTRSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedRTLSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedRTLSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabSelectedLTRStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabSelectedLTRStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.FlatToolBarButtonSkin:CenterNormalStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.FlatToolBarButtonSkin:CenterNormalStyle.Font:Value" xml:space="preserve">
+    <value>Tahoma, 20px</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolBarButtonSkin:CenterNormalStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolBarButtonSkin:CenterNormalStyle.Font:Value" xml:space="preserve">
+    <value>Tahoma, 20px</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.FormSkin:DialogWindowCaptionStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.FormSkin:DialogWindowCaptionStyle.Font:Value" xml:space="preserve">
+    <value>Tahoma, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TaskBarSkin:ItemLabelStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TaskBarSkin:ItemLabelStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolStripStatusLabelSkin:LinkColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolStripStatusLabelSkin:LinkColor:Value" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolStripLabelSkin:Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolStripLabelSkin:Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LinkLabelSkin:Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LinkLabelSkin:Font:Value" xml:space="preserve">
+    <value>Arial, 20px, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolStripLabelSkin:LinkColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolStripLabelSkin:LinkColor:Value" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.SEOToolStripSkin:CenterStyle.BorderStyle" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderStyle, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.SEOToolStripSkin:CenterStyle.BorderStyle:Value" xml:space="preserve">
+    <value>None</value>
+  </data>  
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolStripSkin:CenterStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolStripSkin:CenterStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.css:FileName" xml:space="preserve">
+    <value>CKiOS.CommonSkin.Common.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CKiOS.CommonSkin.Common.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Common.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.DeviceNavigationUpButtonSkin:Up.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+    <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.DeviceNavigationUpButtonSkin:Up.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+    <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.DeviceNavigationUpButtonSkin:Up.png:FileName" xml:space="preserve">
+    <value>CKGraphite.DeviceNavigationUpButtonSkin.Up.png</value>
+  </data>
+    <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.DeviceNavigationUpButtonSkin:Up.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+    <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.DeviceNavigationUpButtonSkin:Up.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+        <value>CKGraphite.DeviceNavigationUpButtonSkin.Up.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+    </data>
+    <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.DeviceNavigationUpButtonSkin:BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+    <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.DeviceNavigationUpButtonSkin:BackgroundImage:Value" xml:space="preserve">
+    <value>[Empty]</value>
+  </data>
+    <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.DeviceNavigationUpButtonSkin:BackgroundImageRepeat" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImageRepeat, Gizmox.WebGUI.Forms</value>
+  </data>
+    <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.DeviceNavigationUpButtonSkin:BackgroundImageRepeat:Value" xml:space="preserve">
+    <value>None</value>
+  </data>
+    <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.DeviceNavigationUpButtonSkin:CenterNormalStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+    <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.DeviceNavigationUpButtonSkin:CenterNormalStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>Name=Up.png;Namespace=Gizmox.WebGUI.Forms.CompanionKit.UI.DeviceNavigationUpButtonSkin</value>
+  </data>
+    <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.DeviceNavigationUpButtonSkin:CenterNormalStyle.BackgroundImageRepeat" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImageRepeat, Gizmox.WebGUI.Forms</value>
+  </data>
+    <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.DeviceNavigationUpButtonSkin:CenterNormalStyle.BackgroundImageRepeat:Value" xml:space="preserve">
+    <value>None</value>
+  </data>
+</root>

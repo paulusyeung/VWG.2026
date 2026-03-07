@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634098835644889179" UpdatedBy="admin" UpdatedOn="634123702385787341">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains Visual WebGui ActiveXBox control with Flash Media Player that allows browsing Flash animation. FusionCharts, InfoSoft Global are trademarks of their respective owners.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>AciveXBox </em>control allows inserting on the Visual WebGui Form different ActiveX controls. The article describes how to insert the Flash Media Player ActiveX Control on the Visual WebGui Form.<br /><br />To use the Flash Media Player ActiveX Control on the Visual WebGui Form, follow these steps:</p><ol><li>Drag ActiveXBox control on the Form in the Visual Studio Designer.</li></ol><p>&nbsp;</p>]]></Paragraph>
+    <Image Code="ImageElement2" Resource="DragActiveXBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement3"><![CDATA[<ol start="2"><li>Set size for the control.</li></ol>]]></Paragraph>
+    <Image Code="ImageElement4" Resource="SizeActiveXBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement4"><![CDATA[<ol start="3"><li>Set value '<strong>CLSID:D27CDB6E-AE6D-11cf-96B8-444553540000</strong>' into the <em>ActiveXBox.ClassId</em> property.</li></ol><p>&nbsp;</p>]]></Paragraph>
+    <Image Code="ImageElement5" Resource="ClassIdActiveXBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement14"><![CDATA[<ol start="4"><li>Set value 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0&quot; into the ActiveXBox.CodeBase property.</li></ol>]]></Paragraph>
+    <Image Code="ImageElement17" Resource="CodeBaseActiveXBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement5"><![CDATA[<ol type="1" start="5"><li>Set parameters for Windows Media Player ActiveX Control. It can be done with several way:<br />a.&nbsp;&nbsp; With designer :</li></ol><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp; Select Parameters property in the Properties Windows</p>]]></Paragraph>
+    <Image Code="ImageElement6" Resource="ParametersActiveXBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement6"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp; Click on the '...' button and 'ObjectBoxParameters Collection Editor' will be opened</p>]]></Paragraph>
+    <Image Code="ImageElement7" Resource="ParametersEditor.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement7"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp; Click on Add button will be added anew parameter</p>]]></Paragraph>
+    <Image Code="ImageElement8" Resource="AddParameterInEditor.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement8"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp; Select the parameter in section 'Members' and property Name and Value will be displayed in the '&lt;Parameter name&gt; properties' section. Set the name and value for added parameters</p>]]></Paragraph>
+    <Image Code="ImageElement9" Resource="SetNameAndValueParameters.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement9"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - To remove parameter, select the parameter in the 'Members' section and click on the 'Remove' button in the 'ObjectBoxParameters Collection Editor'</p>]]></Paragraph>
+    <Image Code="ImageElement10" Resource="RemoveParameter.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement10"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b.&nbsp;&nbsp; With code:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp; Call method ActiveXBox.AddParameter( &lt;Parameter Name&gt;, &lt;Parameter Value&gt;):<br /><strong>C#:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement1" Language="csharp"><![CDATA[this.demoActiveXBox.AddParameter("Src", "../../../../../../Resources/Flash/FC_2_3_Area2D.swf");]]></Code>
+    <Paragraph Code="ParagraphElement15"><![CDATA[<p><strong>Visual Basic:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement2" Language="vbnet"><![CDATA[Me.demoActiveXBox.AddParameter("Src", "../../../../../../Resources/Flash/FC_2_3_Area2D.swf")]]></Code>
+    <Paragraph Code="ParagraphElement11"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp; Or call 'Add' method for ActiveXBox.Parameters collection:<br /><strong>C#:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement3" Language="csharp"><![CDATA[this.demoActiveXBox.Parameters.Add("FlashVars", "&dataURL=../../../../../../Resources/Flash/FC_2_3_DATA.xml");
+this.demoActiveXBox.Parameters.Add("quality", "high");]]></Code>
+    <Paragraph Code="ParagraphElement16"><![CDATA[<p><strong>Visual Basic:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement4" Language="vbnet"><![CDATA[Me.demoActiveXBox.Parameters.Add("FlashVars", "&dataURL=../../../../../../Resources/Flash/FC_2_3_DATA.xml")
+Me.demoActiveXBox.Parameters.Add("quality", "high")]]></Code>
+    <Paragraph Code="ParagraphElement12"><![CDATA[<ol start="6"><li>To browse specified flash movie file, you should add parameters 'Src' and set value as URL to the flash movie file.</li></ol>]]></Paragraph>
+    <Image Code="ImageElement14" Resource="SetNameAndValueParameters.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement13"><![CDATA[<ol start="7"><li>Start application.</li></ol>]]></Paragraph>
+    <Image Code="ImageElement1" Resource="AppWithFMPActiveXBox.png" Type="Resource" />
+  </Nodes>
+</Data>

@@ -1,0 +1,18 @@
+﻿<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>MyPanel.vb</DefaultName>
+    <Name>Visual WebGui Skinable Panel</Name>
+    <Description>An item template for creating a Visual WebGui skinable Panel.</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>Panel.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$.vb" ReplaceParameters="true">Panel1.vb</ProjectItem>
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$Skin.vb" ReplaceParameters="true">PanelSkin1.vb</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.Panel.css" ReplaceParameters="true">PanelSkin1.Panel.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.Panel.xslt" ReplaceParameters="true">PanelSkin1.Panel.xslt</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Skin.resx" ReplaceParameters="true">PanelSkin1.resx</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

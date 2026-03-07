@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Properties>
+    <DisplayName>editors</DisplayName>
+  </Properties>
+  <Nodes>
+    <Permission Code="articles.edit" />
+    <Permission Code="articles.create" />
+    <Permission Code="articles.publish" />
+  </Nodes>
+</Data>

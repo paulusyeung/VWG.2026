@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ListView items collection</Title>
+  <Properties />
+  <DisplayName>ListView items</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>ListView</Keyword>
+    <Keyword>items</Keyword>
+    <Keyword>collection</Keyword>
+    <Keyword>add</Keyword>
+    <Keyword>remove</Keyword>
+    <Keyword>vwgListView</Keyword>
+    <Keyword>dataSource</Keyword>
+    <Keyword>selectedItems</Keyword>
+    <Keyword>subItems</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.ListView.Overview</DefaultPage>
+</Item>

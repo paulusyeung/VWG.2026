@@ -1,0 +1,33 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>CheckedListBox</Keyword>
+    <Keyword>ListBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/CheckedListBox.Lobby.png'/&gt;
+&lt;div&gt;The Visual WebGui &lt;span style="color:#00ccff"&gt;CheckedListBox&lt;/span&gt; control represents a ListBox in which a check box is displayed to the left of each item.
+
+This control presents a list of items that the user can navigate by using the keyboard or the scrollbar on the right side of the control. The user can place a check mark by one or more items and the checked items can be navigated with the &lt;span style="color:#00ccff"&gt;CheckedListBox&lt;/span&gt;.CheckedItems collection and &lt;span style="color:#00ccff"&gt;CheckedListBox&lt;/span&gt;.CheckedIndices collection.
+
+To add objects to the list at run time, assign an array of object references with the AddRange method. The list then displays the default string value for each object. You can add individual items to the list with the Add method.
+
+&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The &lt;span style="color:#00ccff"&gt;CheckedListBox&lt;/span&gt; control is one of the Out of the Box standard controls, which means it is free and available in all Visual WebGui versions.&lt;/div&gt;</PreText>
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Section="Section-01">
+      <Style linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

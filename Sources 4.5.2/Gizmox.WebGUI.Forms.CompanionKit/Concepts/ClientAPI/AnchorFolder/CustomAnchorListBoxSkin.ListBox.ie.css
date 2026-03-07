@@ -1,0 +1,13 @@
+.ListBox-Container
+{
+	overflow:auto;
+	width:100%;
+	height:100%;	
+	margin:1px;
+}
+
+.ListBox-Container_Focus
+{
+	margin:0px;
+	border:1px dotted black;
+}

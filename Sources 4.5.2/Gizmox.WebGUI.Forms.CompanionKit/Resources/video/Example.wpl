@@ -1,0 +1,15 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="Generator" content="Microsoft Windows Media Player -- 10.0.0.4006"/>
+        <title>Example</title>
+    </head>
+    <body>
+        <seq>
+            <media src="video0.wmv"/>
+            <media src="video1.wmv"/>
+            <media src="video2.wmv"/>
+            <media src="video3.wmv"/>
+        </seq>
+    </body>
+</smil>

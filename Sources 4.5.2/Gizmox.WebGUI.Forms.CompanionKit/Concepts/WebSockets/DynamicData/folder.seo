@@ -1,0 +1,14 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>DynamicData</Title>
+  <Properties />
+  <DisplayName>DynamicData</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.WebSockets.DynamicData.Overview</DefaultPage>
+</Item>

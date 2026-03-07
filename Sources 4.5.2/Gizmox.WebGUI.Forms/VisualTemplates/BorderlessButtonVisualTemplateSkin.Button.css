@@ -1,0 +1,51 @@
+.Button-FlatControlBorderLess .Button-FontData
+{
+	[Skin.FontNormal];
+	[Skin.ForegroundNormal];
+}
+
+.Button-FlatControlBorderLess_Enter .Button-FontData
+{
+	[Skin.FontHover];
+	[Skin.ForegroundHover];
+}
+
+.Button-FlatControlBorderLess_Down .Button-FontData
+{
+	[Skin.FontPressed];
+	[Skin.ForegroundPressed];
+}
+
+.Button-FlatControlBorderLess_Focus .Button-FontData
+{
+	[Skin.FontFocused];
+	[Skin.ForegroundFocused];
+}
+
+.Button-FlatControlBorderLess_Disabled .Button-FontData
+{
+	[Skin.FontDisabled];
+	[Skin.ForegroundDisabled];
+}
+
+.Button-FlatControlBorderLess
+{
+	width:100%;
+	height:100%;
+	[Skin.FlatButtonNormalStyle];
+}
+
+.Button-FlatControlBorderLess_Enter
+{
+	[Skin.FlatButtonHoverStyle];
+}
+
+.Button-FlatControlBorderLess_Focus
+{
+	[Skin.FlatButtonFocusedStyle];
+}
+
+.Button-FlatControlBorderLess_Down
+{
+	[Skin.FlatButtonPressedStyle];	
+}

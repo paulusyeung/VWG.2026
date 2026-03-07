@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Customizing images</Title>
+  <Properties />
+  <DisplayName>Customizing images</DisplayName>
+  <Description>The example demonstrates how to customize the look and feel by using custom images for the buttons</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CustomizingImagesPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomizingImagesPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomizingImagesPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomizingImagesPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomizingImagesPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>BindingNavigator</Keyword>
+    <Keyword>Navigator</Keyword>
+    <Keyword>Navigation</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>Images</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>Customizing</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.BindingNavigator.Features.CustomizingImagesPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

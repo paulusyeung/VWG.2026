@@ -1,0 +1,29 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Page">
+  <Title>How to catch form closing</Title>
+  <Properties />
+  <DisplayName>Close handling</DisplayName>
+  <Description>The example demonstrates how to catch form closing.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CloseHandlingPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CloseHandlingPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CloseHandlingPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CloseHandlingPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CloseHandlingPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ClosedForm.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ClosedForm.designer.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ClosedForm.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ClosedForm.designer.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ClosedForm.resx" Order="105" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Form</Keyword>
+    <Keyword>Closed</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Form.Programming.CloseHandlingPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

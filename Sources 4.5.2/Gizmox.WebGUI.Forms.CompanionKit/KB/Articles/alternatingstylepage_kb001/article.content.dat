@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634109344414056151" UpdatedBy="admin" UpdatedOn="634109345963190400">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change values of the <em>AlternatingRowsDefaultCellStyle </em>property with the <em>PropertyGrid </em>control and appearance of the <em>DataGridView </em>odd-numbered rows will be change respectively. </p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>DataGridView </em>contains <em>AlternatingRowsDefaultCellStyle </em>property that defines the default cell style applied to odd-numbered rows. This property of demonstrated <em>DataGridView </em>is related with the <em>PropertyGrid</em>.</p>]]></Paragraph>
+  </Nodes>
+</Data>

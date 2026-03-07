@@ -1,0 +1,44 @@
+.TrackBar-Control
+{
+      [Skin.VisualEffect];
+}
+
+.TrackBar-TailHorizontalTop
+{
+    [Skin.HorizontalTailTopStyle]
+}
+
+.TrackBar-TailHorizontalBottom
+{
+    [Skin.HorizontalTailBottomStyle]
+}
+
+.TrackBar-TailHorizontalBoth
+{
+    [Skin.HorizontalTailBothStyle]
+}
+
+.TrackBar-TailHorizontalNone
+{
+    [Skin.HorizontalTailNoneStyle]
+}
+
+.TrackBar-TailVerticalTop
+{
+    [Skin.VerticalTailTopStyle]
+}
+
+.TrackBar-TailVerticalBottom
+{
+    [Skin.VerticalTailBottomStyle]
+}
+
+.TrackBar-TailVerticalBoth
+{
+    [Skin.VerticalTailBothStyle]
+}
+
+.TrackBar-TailVerticalNone
+{
+    [Skin.VerticalTailNoneStyle]
+}

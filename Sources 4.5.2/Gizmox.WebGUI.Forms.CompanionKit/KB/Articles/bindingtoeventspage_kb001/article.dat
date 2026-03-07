@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634389826386773283" UpdatedBy="admin" UpdatedOn="634398622734009890" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to use both ASP.NET events and Visual WebGui events side by side.
+And how to link between them.</Description>
+  </Properties>
+  <Nodes />
+</Data>

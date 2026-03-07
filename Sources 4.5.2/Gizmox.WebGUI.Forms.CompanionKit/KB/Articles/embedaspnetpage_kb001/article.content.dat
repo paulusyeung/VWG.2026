@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634098959631861513" UpdatedBy="admin" UpdatedOn="634098960358111513">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example describing the process of embedding an ASP.NET web form page as part of Visual WebGUI form. Pay attention to <em>Path </em>property to specify the relative URL of embedded ASP.NET page.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGUI contains <em>AspPageBox </em>control that allows embedding an ASP.NET web form page as part of Visual WebGUI form. The AspPageBox control <em>Path </em>property that specifies the relative URL of embedded ASP.NET page.</p>]]></Paragraph>
+  </Nodes>
+</Data>

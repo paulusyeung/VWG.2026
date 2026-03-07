@@ -1,0 +1,31 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Page">
+  <Title>Using dialog's return value</Title>
+  <Properties />
+  <DisplayName>Dialog Return Value</DisplayName>
+  <Description>The example demonstrates how to support dialog's return value in a Form.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="DialogReturnValuePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DialogReturnValuePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DialogReturnValuePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DialogReturnValuePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DialogReturnValuePage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DialogReturnValueForm.Designer.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DialogReturnValueForm.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DialogReturnValueForm.Designer.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DialogReturnValueForm.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DialogReturnValueForm.resx" Order="105" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Form</Keyword>
+    <Keyword>DialogResult</Keyword>
+    <Keyword>Result</Keyword>
+    <Keyword>Dialog</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Form.Features.DialogReturnValuePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

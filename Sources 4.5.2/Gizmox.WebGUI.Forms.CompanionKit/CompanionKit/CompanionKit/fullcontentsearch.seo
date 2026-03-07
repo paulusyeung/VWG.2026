@@ -1,0 +1,14 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Article">
+  <Title>Full content search</Title>
+  <Properties />
+  <DisplayName>How to search efficiently</DisplayName>
+  <Description>The article describes how to use CompanionKit search engine to utilize the underlying Lucene.NET engine.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>search</Keyword>
+    <Keyword>content</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Code>fullcontentsearch</Code>
+</Item>

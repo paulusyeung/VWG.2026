@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>WordWrap Property</Title>
+  <Properties />
+  <DisplayName>WordWrap Property</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WordWrapPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WordWrapPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WordWrapPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WordWrapPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WordWrapPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>WordWrap</Keyword>
+    <Keyword>RichTextBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.RichTextBox.Functionality.WordWrapPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

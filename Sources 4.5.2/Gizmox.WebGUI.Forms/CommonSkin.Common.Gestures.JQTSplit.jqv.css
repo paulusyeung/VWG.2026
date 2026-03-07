@@ -1,0 +1,76 @@
+
+
+
+.swipe-action
+{
+    display:none;   
+    position:absolute;  
+	height:38px;
+
+	background: -moz-linear-gradient(top,#BD1421, #DB8389);
+	background: -webkit-gradient(linear, left top, left bottom, from(#BD1421), to(#DB8389));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#BD1421', EndColorStr='#DB8389')";  
+	
+	border: 1px solid #87494E;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+	-moz-box-shadow: 1px 1px  #87494E inset;
+	-webkit-box-shadow: 1px 1px  #87494E inset;   
+	font-size: 16px;
+	font-weight:bold;
+	padding:5px 3px;
+	color:White;    
+}
+
+.swipe-active-action
+{
+    display:block; 
+}
+
+
+@-webkit-keyframes slideout {
+	 0% {
+		
+	   
+	 }
+	 100% {
+		-webkit-transform: translate(-100%,0);
+
+	   
+	 }
+}
+	
+@-webkit-keyframes slidein {
+		
+	0% {
+		-webkit-transform: translate(100%,0);
+
+	   
+	 }
+	 100% {
+		
+	   
+	 }
+}
+	
+	
+
+
+.slideout {
+
+ -webkit-animation-name: slideout;
+ -webkit-animation-duration: 300ms;
+ -webkit-animation-direction: normal;
+ -webkit-animation-timing-function: ease-in-out;
+ -webkit-transform-style: preserve-3d;
+}
+
+.slidein {
+
+ -webkit-animation-name: slidein;
+ -webkit-animation-duration: 300ms;
+ -webkit-animation-direction: normal;
+ -webkit-animation-timing-function: ease-in-out;
+ -webkit-transform-style: preserve-3d;
+}

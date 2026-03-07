@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>OverLays property</Title>
+  <Properties />
+  <DisplayName>OverLays property</DisplayName>
+  <Description>The example demonstrates how to set overlays for GoogleMap control</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="OverLaysPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OverLaysPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OverLaysPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OverLaysPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OverLaysPropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>GoogleMap</Keyword>
+    <Keyword>Overlays</Keyword>
+    <Keyword>Overlay</Keyword>
+    <Keyword>Marker</Keyword>
+    <Keyword>Label</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.GoogleMap.Features.OverLaysPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="True" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields>
+      <Field Column="0" Order="0" Type="Editor" Label="OverLays" TargetName="googleMap1" PropertyName="Overlays" />
+    </Fields>
+  </Inspector>
+</Item>

@@ -1,0 +1,13 @@
+<Item SiteMap="False" Order="1" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Storage</Title>
+  <Properties />
+  <DisplayName>Storage</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+    <DefaultPage>item:CompanionKit.DeviceIntegration.Storage.Functionality.SQLExample</DefaultPage>
+  <Body />
+</Item>

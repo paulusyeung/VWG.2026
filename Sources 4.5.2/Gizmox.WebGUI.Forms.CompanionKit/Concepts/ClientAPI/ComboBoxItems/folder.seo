@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Adding and removing comboBox Items</Title>
+  <Properties />
+  <DisplayName>ComboBox Items</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgComboBox</Keyword>
+    <Keyword>selectedIndex</Keyword>
+    <Keyword>dataSource</Keyword>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>text</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.ComboBoxItems.Overview</DefaultPage>
+</Item>

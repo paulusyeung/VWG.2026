@@ -1,0 +1,23 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains sample applications that demonstrates how to set Caption and Text to MessageBox window and how to set different buttons, icons and options.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>MessageBox</Keyword>
+    <Keyword>MessageBoxButtons</Keyword>
+    <Keyword>MessageBoxIcon</Keyword>
+    <Keyword>MessageBoxOptions</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>Caption</Keyword>
+    <Keyword>Buttons</Keyword>
+    <Keyword>Icon</Keyword>
+    <Keyword>Default</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.MessageBox.Functionality.MessageBoxTextCaptionPage</DefaultPage>
+</Item>

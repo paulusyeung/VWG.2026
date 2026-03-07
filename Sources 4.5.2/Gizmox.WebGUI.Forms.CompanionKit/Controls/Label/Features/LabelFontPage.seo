@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Set Label Fonts</Title>
+  <Properties />
+  <DisplayName>Font property</DisplayName>
+  <Description>The example demonstrates how to set custom font for Label control</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="LabelFontPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelFontPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelFontPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelFontPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelFontPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Label</Keyword>
+    <Keyword>Font</Keyword>
+    <Keyword>Customization</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.LabelFolder.Features.LabelFontPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

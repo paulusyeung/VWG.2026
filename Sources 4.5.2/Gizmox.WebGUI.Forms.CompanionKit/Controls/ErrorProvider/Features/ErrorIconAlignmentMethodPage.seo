@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="100">
+  <Title>SetIconAlignment Method</Title>
+  <Properties />
+  <DisplayName>SetIconAlignment Method</DisplayName>
+  <Description>The example demonstrates how to set error icon alignment method</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ErrorIconAlignmentMethodPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ErrorIconAlignmentMethodPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ErrorIconAlignmentMethodPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ErrorIconAlignmentMethodPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ErrorIconAlignmentMethodPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ErrorProvider</Keyword>
+    <Keyword>IconAlignment</Keyword>
+    <Keyword>SetIconAlignment</Keyword>
+    <Keyword>Icon</Keyword>
+    <Keyword>Alignment</Keyword>
+    <Keyword>IconAlignmentMethod</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ErrorProvider.Features.ErrorIconAlignmentMethodPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

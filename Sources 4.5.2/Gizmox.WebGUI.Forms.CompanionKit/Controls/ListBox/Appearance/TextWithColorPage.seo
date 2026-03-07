@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Page">
+  <Title>How to populate a ListBox item with Color</Title>
+  <Properties />
+  <DisplayName>Text with Color</DisplayName>
+  <Description>The example demonstrates how to populate a ListBox item with color area.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="TextWithColorPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextWithColorPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextWithColorPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextWithColorPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextWithColorPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\Customer.cs" Order="103" Lang="CSharp" Title="Customer.cs" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\Customer.vb" Order="103" Lang="VBNET" Title="Customer.vb" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\CustomerData.cs" Order="104" Lang="CSharp" Title="CustomerData.cs" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\CustomerData.vb" Order="104" Lang="VBNET" Title="CustomerData.vb" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListBox</Keyword>
+    <Keyword>Color</Keyword>
+    <Keyword>DataSource</Keyword>
+    <Keyword>Collection</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListBox.Appearance.TextWithColorPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

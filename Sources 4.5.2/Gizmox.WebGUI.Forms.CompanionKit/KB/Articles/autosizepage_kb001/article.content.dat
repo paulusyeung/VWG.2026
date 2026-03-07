@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634111804787283292" UpdatedBy="admin" UpdatedOn="634144580908495900">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the 'Add Button' and a new button will be added to the Panel. Repeat the adding few times. <br />Check 'AutoSize' when an added button will be placed outside of the panel. <br />Check 'AutoSize' to ensure that size of the panel will fit&nbsp;its content. Uncheck to disable autosize of the panel.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The example contains a panel with enabled <em>AutoSize </em>property.&nbsp;<br />The<em> Button </em>that adds&nbsp;a control&nbsp;to the panel<em>.</em><br />The <em>CheckBox </em>that changes panel's<em> AutoSize </em>property value.</p>]]></Paragraph>
+  </Nodes>
+</Data>

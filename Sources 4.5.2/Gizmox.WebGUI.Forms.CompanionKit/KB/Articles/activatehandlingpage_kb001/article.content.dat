@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634076318581949132" UpdatedBy="admin" UpdatedOn="634076319389058907">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the button to open a new form. Open several forms and switch between them. Text of form label will be updated according to changing of its activated status. The label will represents of the form activated status.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>Form </em>contains the <em>Activated </em>and <em>Deactivate </em>events for informing about changing active status. These events occur when the form is activated or deactivated in code or by the user, respectively.</p>]]></Paragraph>
+  </Nodes>
+</Data>

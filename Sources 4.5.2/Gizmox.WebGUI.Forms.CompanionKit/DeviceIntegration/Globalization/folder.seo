@@ -1,0 +1,15 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+    <Title>Globalization</Title>
+    <Properties />
+    <DisplayName>Globalization</DisplayName>
+    <Description>Contains sample apps that demonstrate how to use Globalization</Description>
+    <Resources />
+    <Keywords>
+        <Keyword>Globalization</Keyword>
+    </Keywords>
+    <Comment>
+    </Comment>
+    <Sections />
+    <Body />
+    <DefaultPage>item:CompanionKit.DeviceIntegration.Globalization.Example</DefaultPage>
+</Item>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634088527695720869" UpdatedBy="admin" UpdatedOn="634090203166848936">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check either the 'Set date to enabled MonthCalendar' or 'Set date to disabled MonthCalendar' <em>RadioButton</em>. Select date in the <em>DateTimePicker </em>and click on the 'Set date to MonthCalendar'. If the 'Set date to enabled MonthCalendar' <em>RadioButton </em>is checked, the selected date will be set for the left enabled <em>MonthCalendar</em>. If the 'Set date to disabled MonthCalendar' <em>RadioButton </em>is checked, the selected date will be set for the right disabled <em>MonthCalendar</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>MonthCalendar </em>contains the <em>Value </em>property that represents current selection date. You can set a date in the <em>MonthCalendar </em>programmatically by using this property. This way you can display dates for the user and not just by user selection.</p>]]></Paragraph>
+  </Nodes>
+</Data>

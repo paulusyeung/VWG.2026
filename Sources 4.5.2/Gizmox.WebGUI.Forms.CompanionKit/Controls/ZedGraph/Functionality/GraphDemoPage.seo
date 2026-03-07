@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Line and Bar Chart</Title>
+  <Properties />
+  <DisplayName>Line and Bar Chart</DisplayName>
+  <Description>The example demonstrates simple 2D line and bar chart.</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="GraphDemoPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="GraphDemoPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="GraphDemoPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="GraphDemoPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="GraphDemoPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Graph</Keyword>
+    <Keyword>ZedGraph</Keyword>
+    <Keyword>2D</Keyword>
+    <Keyword>line</Keyword>
+    <Keyword>chart</Keyword>
+    <Keyword>bar</Keyword>
+    <Keyword>bars</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ZedGraph.Functionality.GraphDemoPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

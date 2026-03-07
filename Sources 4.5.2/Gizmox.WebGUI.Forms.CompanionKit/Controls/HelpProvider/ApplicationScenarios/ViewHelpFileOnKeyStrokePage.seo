@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>View help file on key stroke</Title>
+  <Properties />
+  <DisplayName>View help file</DisplayName>
+  <Description>The example demonstrates how to show help file for controls on the form</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ViewHelpFileOnKeyStrokePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ViewHelpFileOnKeyStrokePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ViewHelpFileOnKeyStrokePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ViewHelpFileOnKeyStrokePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ViewHelpFileOnKeyStrokePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>HelpProvider</Keyword>
+    <Keyword>Help</Keyword>
+    <Keyword>Key</Keyword>
+    <Keyword>Press</Keyword>
+    <Keyword>Stroke</Keyword>
+    <Keyword>File</Keyword>
+  </Keywords>
+  <Comment>Need to update this sample when HelpPrivider gets enhancements in order to work as in Winforms.</Comment>
+  <PageType>CompanionKit.Controls.HelpProvider.ApplicationScenarios.ViewHelpFileOnKeyStrokePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

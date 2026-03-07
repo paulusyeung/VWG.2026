@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634401132055290015" UpdatedBy="admin" UpdatedOn="634407306406768762">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter custom path into the <em>TextBox </em>control. Press <strong>'Browse' </strong>button to open the dialog.<br />In the dialog, press <strong>'Cancel'</strong>/<strong>'Close' </strong>button to exit the dialog without selecting the path.&nbsp;Custom path entered&nbsp;will be&nbsp;set for the dialog and shown under the <em>TextBox </em>control.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <strong>FolderBrowserDialog </strong>control contains the <em>SelectedPath </em>property which can be used for setting the custom value of selected path for the dialog.</p><p><strong>Property Value</strong><br />Type: <em>System.String</em><br />The path of the folder first selected in the dialog box or the last folder selected by the user. The default is an empty string (&quot;&quot;).</p>]]></Paragraph>
+  </Nodes>
+</Data>

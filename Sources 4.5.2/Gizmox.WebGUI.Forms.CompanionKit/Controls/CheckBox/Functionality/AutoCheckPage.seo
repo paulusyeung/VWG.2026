@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>AutoCheck property</Title>
+  <Properties />
+  <DisplayName>AutoCheck</DisplayName>
+  <Description>The example demonstrates AutoCheck property of CheckBox control.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="AutoCheckPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutoCheckPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutoCheckPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutoCheckPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutoCheckPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>CheckBox</Keyword>
+    <Keyword>AutoCheck</Keyword>
+    <Keyword>CheckState</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CheckBox.Functionality.AutoCheckPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

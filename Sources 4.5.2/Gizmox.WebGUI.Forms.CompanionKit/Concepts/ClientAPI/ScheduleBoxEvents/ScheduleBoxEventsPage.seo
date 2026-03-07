@@ -1,0 +1,32 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Example demonstrates how to add events to ScheduleBox using ClientAPI</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>One of comboboxes, should change view mode of SheduleBox. On button click, new event should be added to SheduleBox. All others controls should serve as input controls for filling event information:textBox1 - subject, textBox2 - tagName, combobox - backrgoundColor, maskedTextBox1 (with according mask of date) - startDate, maskedTextBox2 (with according mask of date) - endDate.
+
+Used ClientAPI functions:
+vwgScheduleBox: view, dataSource;
+vwgControl: text;</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ScheduleBoxEventsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ScheduleBoxEventsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ScheduleBoxEventsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ScheduleBoxEventsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ScheduleBoxEventsPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="True" SiteMap="False" Name="ScheduleBoxEventsPage.Client.js" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgScheduleBox</Keyword>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>view</Keyword>
+    <Keyword>dataSource</Keyword>
+    <Keyword>text</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Concepts.ClientAPI.ScheduleBoxEvents.ScheduleBoxEventsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

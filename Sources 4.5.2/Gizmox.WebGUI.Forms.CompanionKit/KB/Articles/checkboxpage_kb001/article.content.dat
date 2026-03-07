@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634130844901424485" UpdatedBy="admin" UpdatedOn="634130852595067474">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check the 'CheckBoxes' CheckBox to change the property value to True and the <em>ListView </em>will display the items with check boxes.<br />Uncheck the 'CheckBoxes' CheckBox to change the property value to False and the <em>ListView </em>will display the items without check boxes.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>ListView </em>contains CheckBoxes property that indicates whether an item should be displayed with or without CheckBox.</p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634409208504205208" UpdatedBy="admin" UpdatedOn="634411390203767049">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>This simple <em>Form </em>contains a ToolBar control with a bunch of <em>ToolBarButton </em>items&nbsp;within it.<br />Click on a toolbar button to see a&nbsp;<em>MessageBox </em>with the&nbsp;button's <strong>ImageKey </strong>property value displayed.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>If you create an <em>ImageList </em>and assign it to the <strong>ImageList </strong>property of the <em>ToolBar</em>, you can assign images from the collection to the <em>ToolBarButton </em>controls. <br />Assignment is done either&nbsp;by assigning the image index value to the <strong>ImageIndex </strong>property of the toolbar button or by assigning an image value to <strong>ImageKey </strong>property&nbsp;of the toolbar button.</p>]]></Paragraph>
+  </Nodes>
+</Data>

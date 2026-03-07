@@ -1,0 +1,20 @@
+<Item SiteMap="False" Order="101" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Application scenario</Title>
+  <Properties />
+  <DisplayName>Application scenario</DisplayName>
+  <Description>Contains example that demonstrates simple UserControl using scenario for checking password strength</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>UserControl</Keyword>
+    <Keyword>Password</Keyword>
+    <Keyword>Strength</Keyword>
+    <Keyword>Sample</Keyword>
+    <Keyword>Example</Keyword>
+    <Keyword>Application</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.UserControl.ApplicationScenario.PasswordStrengthCheckerPage</DefaultPage>
+</Item>

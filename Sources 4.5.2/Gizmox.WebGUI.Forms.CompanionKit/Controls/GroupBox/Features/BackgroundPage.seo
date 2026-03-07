@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="250">
+  <Title>Background Color</Title>
+  <Properties />
+  <DisplayName>Background color</DisplayName>
+  <Description>The example demonstrates how to use background solid or transparent colors.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="BackgroundPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BackgroundPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BackgroundPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BackgroundPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BackgroundPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>GroupBox</Keyword>
+    <Keyword>BackgroundColor</Keyword>
+    <Keyword>BackColor</Keyword>
+    <Keyword>Background</Keyword>
+    <Keyword>Color</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.GroupBox.Features.BackgroundPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

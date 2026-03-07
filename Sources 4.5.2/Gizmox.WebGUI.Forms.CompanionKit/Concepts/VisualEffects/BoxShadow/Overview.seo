@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="The &lt;span style=&quot;color:#00ccff&quot;&gt;BoxShadow&lt;/span&gt; visual effect creates shadow with parameters, that follows the contour of control." Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+    <Element Body="&quot;Choose ShadowColor&quot; button calls color dialog, which defines shadow color and previews on mini panel. &quot;Apply Inset&quot; checkBox applies defines Inset parameter of BoxShadow effect. &quot;Show ShadowBox&quot; button applies BoxShadow visual effect to MonthCalendar." Title="Example scenario:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

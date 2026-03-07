@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="110" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use Checked property of RadioButton control</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>RadioButton</Keyword>
+    <Keyword>Checked</Keyword>
+    <Keyword>Check</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.RadioButton.Functionality.CheckedPage</DefaultPage>
+  <Body />
+</Item>

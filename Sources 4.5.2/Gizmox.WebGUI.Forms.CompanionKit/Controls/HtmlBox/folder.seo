@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>HtmlBox</Title>
+  <Properties />
+  <DisplayName>HtmlBox</DisplayName>
+  <Description>Contains sample apps that demonstrates how to use HTMLBox control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>HTMLBox</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>HTML</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.HtmlBox.Features.DisplayAnInternalHTMLPagePage</DefaultPage>
+  <Body />
+</Item>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128212362072230" UpdatedBy="admin" UpdatedOn="634134216164481767">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>When tree node is selected with code, <em>TreeView </em>expands full path of the node and moves it in view area.</p><p>Select the node in the 'Select a TreeView node' ComboBox and the corresponding node will be selected in the <em>TreeView</em>. And the node will appear in the view area of the <em>TreeView</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>To jump between tree nodes by code the Visual WebGui <em>TreeView </em>contains the <em>SelectedNode </em>property that defines selected tree bode and <em>EnsureVisible </em>method that ensures that the tree node is visible, expanding tree nodes and scrolling the tree view control as necessary.</p>]]></Paragraph>
+  </Nodes>
+</Data>

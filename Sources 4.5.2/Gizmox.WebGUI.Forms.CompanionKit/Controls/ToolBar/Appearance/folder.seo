@@ -1,0 +1,20 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Appearance</Title>
+  <Properties />
+  <DisplayName>Appearance</DisplayName>
+  <Description>Contains sample app that demonstrate how to use different style for ToolBar Button.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ToolBar</Keyword>
+    <Keyword>Button</Keyword>
+    <Keyword>Style</Keyword>
+    <Keyword>DropDownButton</Keyword>
+    <Keyword>DropDown</Keyword>
+    <Keyword>ToggleButton</Keyword>
+    <Keyword>Toggle</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.ToolBar.Appearance.ToolBarButtonStylePage</DefaultPage>
+  <Body />
+</Item>

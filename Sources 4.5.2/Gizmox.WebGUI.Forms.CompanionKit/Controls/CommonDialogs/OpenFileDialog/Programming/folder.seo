@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="102" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains examples how to:
+    determinate the selected file name in the file dialog box.
+    get uploaded file names from the OpenFileDialog dialog box.
+    handle FileOk event of the OpenFileDialog dialog box.
+    get a FileHandle of the current selected file in the OpenFileDialog dialog box.
+    get a FileHandle collection of the current selected files in the OpenFileDialog dialog box.
+    manipulate with checked state of the 'Open as read-only' CheckBox in the OpenFileDialog dialog box.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>OpenFileDialog</Keyword>
+    <Keyword>Programming</Keyword>
+    <Keyword>Filename</Keyword>
+    <Keyword>File</Keyword>
+    <Keyword>FileOk</Keyword>
+    <Keyword>Closed</Keyword>
+    <Keyword>Files</Keyword>
+    <Keyword>ReadOnlyChecked</Keyword>
+    <Keyword>ReadOnly</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.CommonDialogs.OpenFileDialog.Programming.FilePage</DefaultPage>
+  <Body />
+</Item>

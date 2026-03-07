@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135227307420393" UpdatedBy="admin" UpdatedOn="634135228999942057">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select mode in the 'ClipboardCopyMode' ComboBox, select cells in the <em>DataGridView </em>and press on Ctrl C keys. Switch to a text editor and try to paste from clipboard. Pasted data will be differed according to selected copying mode.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DataGridView </em>contains the <em>ClipboardCopyMode </em>property that indicates whether users can copy cell text values to the Clipboard and whether row and column header text is included.<br />The <em>DataGridView </em>allows using the following copying data modes: <br />- <strong>Disable </strong>- Copying to the Clipboard is disabled.<br />- <strong>EnableWithAutoHeaderText </strong>- The text values of selected cells can be copied to the Clipboard. Row or column header text is included for rows or columns that contain selected cells only when the <em>DataGridView.SelectionMode</em> property is set to <strong>RowHeaderSelect </strong>or <strong>ColumnHeaderSelect </strong>and at least one header is selected.<br />- <strong>EnableWithoutHeaderText </strong>- the text values of selected cells can be copied to the Clipboard. Header text is not included.<br />- <strong>EnableAlwaysIncludeHeaderText </strong>- the text values of selected cells can be copied to the Clipboard. Header text is included for rows and columns that contain selected cells.</p>]]></Paragraph>
+  </Nodes>
+</Data>

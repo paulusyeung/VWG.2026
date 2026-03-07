@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains examples that demonstrate how to:
+add RichTextBox control onto a form;
+load formatted text to the control;
+handle HtmlChange event of the control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>RichTextBox</Keyword>
+    <Keyword>Adding</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>Properties</Keyword>
+    <Keyword>Property</Keyword>
+    <Keyword>Events</Keyword>
+    <Keyword>Event</Keyword>
+    <Keyword>Format</Keyword>
+    <Keyword>Formatted</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.RichTextBox.Functionality.AddingToFormPage</DefaultPage>
+  <Body />
+</Item>

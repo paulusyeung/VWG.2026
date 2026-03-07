@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{426695C8-8EA2-429C-9333-CCF30220FA8A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Gizmox.WebGUI.Forms.CompanionKit.ComponentOneSampleAppsVB</AssemblyName>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Gizmox.WebGUI.Forms.CompanionKitVB.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Gizmox.WebGUI.Forms.CompanionKitVB.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Web.Wijmo.Controls.4, Version=4.0.20133.145, Culture=neutral, PublicKeyToken=9b75583953471eea, processorArchitecture=MSIL" />
+    <Reference Include="Gizmox.WebGUI.Common, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=263fa4ef694acff6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Common.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=ea5dfe57c8eb7edd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Common.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Common.Design.Skins, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=82814e180535b402, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Common.Design.Skins.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Forms.Charts, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=f1bb83df6a8597fb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Forms.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Forms.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=dd2a1fd4d120c769, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Forms.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Server, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=3de6eb684226c24d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Gizmox.WebGUI.3rdParty.Assemblies\ZedGraph\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Gizmox" />
+    <Import Include="Gizmox.WebGUI" />
+    <Import Include="Gizmox.WebGUI.Common" />
+    <Import Include="Gizmox.WebGUI.Common.Gateways" />
+    <Import Include="Gizmox.WebGUI.Common.Interfaces" />
+    <Import Include="Gizmox.WebGUI.Common.Resources" />
+    <Import Include="Gizmox.WebGUI.Forms" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="C1BarChartForm.designer.vb">
+      <DependentUpon>C1BarChartForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C1BarChartForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C1BarChartWrapper.designer.vb">
+      <DependentUpon>C1BarChartWrapper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C1BarChartWrapper.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C1EventsCalendarForm.designer.vb">
+      <DependentUpon>C1EventsCalendarForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C1EventsCalendarForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C1EventsCalendarWrapper.designer.vb">
+      <DependentUpon>C1EventsCalendarWrapper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C1EventsCalendarWrapper.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C1GridViewForm.designer.vb">
+      <DependentUpon>C1GridViewForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C1GridViewForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C1GridViewWrapper.designer.vb">
+      <DependentUpon>C1GridViewWrapper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C1GridViewWrapper.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C1LineChartForm.Designer.vb">
+      <DependentUpon>C1LineChartForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C1LineChartForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C1LineChartWrapper.designer.vb">
+      <DependentUpon>C1LineChartWrapper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C1LineChartWrapper.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C1ReportViewerForm.Designer.vb">
+      <DependentUpon>C1ReportViewerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C1ReportViewerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C1ReportViewerWrapper.designer.vb">
+      <DependentUpon>C1ReportViewerWrapper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C1ReportViewerWrapper.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C1TreeViewForm.designer.vb">
+      <DependentUpon>C1TreeViewForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C1TreeViewForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C1TreeViewWrapper.designer.vb">
+      <DependentUpon>C1TreeViewWrapper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C1TreeViewWrapper.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Gizmox.WebGUI.Client\Gizmox.WebGUI.Client.4.5.2.csproj">
+      <Project>{847a3249-a4b0-4c49-a61a-7886c9552157}</Project>
+      <Name>Gizmox.WebGUI.Client.4.5.2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\Gizmox.WebGUI.Forms.Themes\Gizmox.WebGUI.Forms.Themes.4.5.2.csproj">
+      <Project>{d14c788a-9dbe-4a02-b2ce-800ddb367e2f}</Project>
+      <Name>Gizmox.WebGUI.Forms.Themes.4.5.2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\Gizmox.WebGUI.Forms\Gizmox.WebGUI.Forms.4.5.2.csproj">
+      <Project>{9f0416fe-04c3-4f2a-98cc-b39b6f1022cc}</Project>
+      <Name>Gizmox.WebGUI.Forms.4.5.2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Northwind.mdb" />
+    <Content Include="C1EventsCalendarForm.js">
+      <DependentUpon>C1EventsCalendarForm.vb</DependentUpon>
+    </Content>
+    <Content Include="Resources\Designer\ASUS.png" />
+    <Content Include="Resources\Designer\galaxi3.png" />
+    <Content Include="Resources\Designer\iPadHR.png" />
+    <Content Include="Resources\Designer\iPadLR.png" />
+    <Content Include="Resources\Designer\IPhone3.png" />
+    <Content Include="Resources\Designer\IPhone4.png" />
+    <Content Include="Resources\Designer\IPhone5.png" />
+    <Content Include="Resources\UserData\CommonTasks.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="C1BarChartForm.resx">
+      <DependentUpon>C1BarChartForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C1EventsCalendarForm.resx">
+      <DependentUpon>C1EventsCalendarForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C1GridViewForm.resx">
+      <DependentUpon>C1GridViewForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C1LineChartForm.resx">
+      <DependentUpon>C1LineChartForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C1ReportViewerForm.resx">
+      <DependentUpon>C1ReportViewerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C1TreeViewForm.resx">
+      <DependentUpon>C1TreeViewForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Generated\" />
+    <Folder Include="Resources\Icons\" />
+    <Folder Include="Resources\Images\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v12.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Import Condition="" Project="$(MSBuildExtensionsPath)\Gizmox\v14.0\Net4.5.2\Gizmox.VWGApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4001</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

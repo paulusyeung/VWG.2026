@@ -1,0 +1,29 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Applying an alternating style</Title>
+  <Properties />
+  <DisplayName>Alternating Style</DisplayName>
+  <Description>The example demonstrates how to apply an alternating row style for the DataGridView control.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="AlternatingStylePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AlternatingStylePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AlternatingStylePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AlternatingStylePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AlternatingStylePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>alternating</Keyword>
+    <Keyword>style</Keyword>
+    <Keyword>odd</Keyword>
+    <Keyword>numbered</Keyword>
+    <Keyword>row</Keyword>
+    <Keyword>alternative</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DataGridView.Appearance.AlternatingStylePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

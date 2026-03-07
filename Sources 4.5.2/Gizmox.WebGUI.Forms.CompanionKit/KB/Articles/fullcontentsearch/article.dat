@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634286342275333574" UpdatedBy="admin" UpdatedOn="634287143698134545" Status="Publish" License="None">
+  <Properties>
+    <Title>Full content search</Title>
+    <Description>The article describes how to use CompanionKit search engine to utilize the underlying Lucene.NET engine.</Description>
+  </Properties>
+  <Nodes />
+</Data>

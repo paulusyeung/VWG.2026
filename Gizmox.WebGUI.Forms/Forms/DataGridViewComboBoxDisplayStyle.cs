@@ -1,0 +1,23 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Gizmox.WebGUI.Forms.DataGridViewComboBoxDisplayStyle
+// Assembly: Gizmox.WebGUI.Forms, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=c508b41386c60f1d
+// MVID: D9031956-0D2D-4DB7-BDA0-E996D0722B6C
+// Assembly location: C:\Program Files (x86)\Gizmox\Visual WebGUI\SDK 4.5.2\Assemblies\Gizmox.WebGUI.Forms.dll
+// XML documentation location: C:\Program Files (x86)\Gizmox\Visual WebGUI\SDK 4.5.2\Assemblies\Gizmox.WebGUI.Forms.xml
+
+using System;
+
+namespace Gizmox.WebGUI.Forms
+{
+  /// <summary>Defines constants that indicate how a <see cref="T:Gizmox.WebGUI.Forms.DataGridViewComboBoxCell"></see> is displayed.</summary>
+  [Serializable]
+  public enum DataGridViewComboBoxDisplayStyle
+  {
+    /// <summary>ComboBox</summary>
+    ComboBox,
+    /// <summary>DropDownButton</summary>
+    DropDownButton,
+    /// <summary>Nothing</summary>
+    Nothing,
+  }
+}

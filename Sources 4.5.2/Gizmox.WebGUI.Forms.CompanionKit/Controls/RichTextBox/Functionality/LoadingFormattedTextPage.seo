@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="103" Status="Publish" Type="Page">
+  <Title>How to set and get formatted text of the control</Title>
+  <Properties />
+  <DisplayName>Loading formatted text</DisplayName>
+  <Description>The example how to set and get formatted text of the control</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="LoadingFormattedTextPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LoadingFormattedTextPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LoadingFormattedTextPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LoadingFormattedTextPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LoadingFormattedTextPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\UserData\about.html" Order="103" Lang="All" Title="about.html" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\AboutVWGLogo.jpg" Order="104" Lang="All" Title="AboutVWGLogo.jpg" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>RichTextBox</Keyword>
+    <Keyword>Load</Keyword>
+    <Keyword>HTML</Keyword>
+    <Keyword>Formatted</Keyword>
+    <Keyword>Format</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.RichTextBox.Functionality.LoadingFormattedTextPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

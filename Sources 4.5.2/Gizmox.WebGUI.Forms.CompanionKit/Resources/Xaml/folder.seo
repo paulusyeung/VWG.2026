@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="1" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>XAML</Title>
+  <Properties />
+  <DisplayName>XAML</DisplayName>
+  <Description>The folder is a container of XAML resources. Should be always with Status - Draft.
+  </Description>
+  <Resources>
+    <Resource Visible="False" SiteMap="False" Name="Sample.xaml" Order="100" Lang="All" Type="File" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>
+  </DefaultPage>
+  <Body />
+</Item>

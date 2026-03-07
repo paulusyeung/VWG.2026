@@ -1,0 +1,9 @@
+.TextBox-TableContainer
+{
+}
+
+.TextBox-Input_Disabled
+{
+    [Skin.ControlTextFontDisabled];
+    [Skin.ControlTextForegroundDisabled];
+}

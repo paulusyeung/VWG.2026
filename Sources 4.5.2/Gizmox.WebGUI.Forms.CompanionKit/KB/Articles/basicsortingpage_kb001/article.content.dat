@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135219961701369" UpdatedBy="admin" UpdatedOn="634135222148448109">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the column header and its elements will be sorted. Each mouse click on the column header changes order of sorting.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The column of the Visual WebGui <em>DataGridView </em>contains <em>SortMode </em>property that defines the sort mode for the column.<br />The column of the <em>DataGridView </em>can be the following sorting modes:<br />-<strong>Automatic </strong>- default for text box columns. Unless column headers are used for selection, clicking the column header automatically sorts the <em>DataGridView </em>by this column and displays a glyph indicating the sort order.<br />- <strong>NotSortable </strong>- default for non-text box columns. You can sort this column programmatically; however, it is not intended for sorting, so no space is reserved for the sorting glyph.<br />- <strong>Programmatic </strong>- allows sorting this column programmatically, and space is reserved for the sorting glyph. </p>]]></Paragraph>
+  </Nodes>
+</Data>

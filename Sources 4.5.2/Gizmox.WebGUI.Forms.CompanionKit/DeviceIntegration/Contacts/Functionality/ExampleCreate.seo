@@ -1,0 +1,19 @@
+﻿<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Create Contact example</Title>
+  <Properties />
+  <DisplayName>Create Contact</DisplayName>
+  <Description>Demonstrates how to create a new contact on device.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ExampleCreate.cs" Order="1" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExampleCreate.designer.cs" Order="2" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExampleCreate.resx" Order="3" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" PageScript="True" Name="ExampleCreate.Client.js" Order="4" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Contacts</Keyword>    
+    <Keyword>Create</Keyword>    
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.DeviceIntegration.Contacts.Functionality.ExampleCreate, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

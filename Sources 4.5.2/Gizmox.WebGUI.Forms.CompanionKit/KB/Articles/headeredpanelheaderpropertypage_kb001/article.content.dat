@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634441931113943110" UpdatedBy="admin" UpdatedOn="634460020769740498">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>There are <strong>HeaderedPanel</strong>, <em>TextBox</em>, <em>ComboBox</em>, <em>DateTimePicker </em>and <em>Button </em>controls on the <em>Form</em>.<br />Double click on&nbsp;a control to set it as header for <strong>HeaderedPanel </strong>control.<br />Press the <em>Button </em>to reset the <em>Form</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>HeaderedPanel.Header</strong> property gets or sets the control to display as panel header<br />Property type: Gizmox.WebGUI.Forms.<strong>Control</strong></p>]]></Paragraph>
+  </Nodes>
+</Data>

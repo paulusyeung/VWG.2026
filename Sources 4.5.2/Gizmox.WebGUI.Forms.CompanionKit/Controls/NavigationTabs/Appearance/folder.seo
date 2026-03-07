@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Appearance</Title>
+  <Properties />
+  <DisplayName>Appearance</DisplayName>
+  <Description>Contains the example demonstrates how to use text and image in a tab of the Visual WebGui NavigationTabs.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Text</Keyword>
+    <Keyword>Images</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>Events</Keyword>
+    <Keyword>Event</Keyword>
+    <Keyword>Extra</Keyword>
+    <Keyword>Tabs</Keyword>
+    <Keyword>Tab</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.NavigationTabs.Appearance.TextWithImagePage</DefaultPage>
+</Item>

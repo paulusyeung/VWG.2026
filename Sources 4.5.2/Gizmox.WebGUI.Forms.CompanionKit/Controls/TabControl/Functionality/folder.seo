@@ -1,0 +1,33 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains examples that demonstrate how to:
+- show close button in the TabControl;
+- use DrawingOptimized client behavior for the TabControl;
+- use MemoryOptimized client behavior for the TabControl;
+- display tab in one row;
+- display tab in more than one row.
+</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>TabControl</Keyword>
+    <Keyword>Tab</Keyword>
+    <Keyword>DrawingOptimized</Keyword>
+    <Keyword>MemoryOptimized</Keyword>
+    <Keyword>Close</Keyword>
+    <Keyword>CloseButton</Keyword>
+    <Keyword>ShowCloseButton</Keyword>
+    <Keyword>ClientBehavior</Keyword>
+    <Keyword>MultiLine</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo">
+      <Style />
+    </Section>
+  </Sections>
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.TabControl.Functionality.ScrollingPage</DefaultPage>
+</Item>

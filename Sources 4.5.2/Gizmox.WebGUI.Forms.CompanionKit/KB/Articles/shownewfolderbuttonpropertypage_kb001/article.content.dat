@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634401114852842357" UpdatedBy="admin" UpdatedOn="634407307430491124">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Use <em>the CheckBox </em>to toggle the <em>value of the ShowNewFolderButton </em>property of the <em>FolderBrowserDialog </em>control.<br />Press <strong>'Browse' </strong>button to open the dialog. <br />The <strong>'New Folder'</strong> button would either be shown or not depending on the <em>CheckBox </em>state.<br />Selected path will be displayed in the <em>TextBox</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <strong>FolderBrowserDialog </strong>control contains the&nbsp;<em>ShowNewFolderButton </em>property which indicates whether the <strong>'New Folder'</strong> button will be shown in the dialog or not.</p><p><strong>Property Value</strong><br />Type:<em> System.Boolean</em><br />True if the New Folder button is shown in the dialog box; otherwise, false. The default is true.</p>]]></Paragraph>
+  </Nodes>
+</Data>

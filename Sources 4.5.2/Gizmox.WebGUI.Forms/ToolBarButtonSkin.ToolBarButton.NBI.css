@@ -1,0 +1,243 @@
+.ToolBarButton-Control .ToolBarButton-TopLeft
+{
+	[Skin.LeftTopNormalStyle];
+}
+
+.ToolBarButton-Control .ToolBarButton-Left
+{
+	[Skin.LeftNormalStyle];
+}
+
+.ToolBarButton-Control .ToolBarButton-BottomLeft
+{
+	[Skin.LeftBottomNormalStyle]; 
+}
+
+.ToolBarButton-Control .ToolBarButton-TopRight
+{
+	[Skin.RightTopNormalStyle]; 
+}
+
+.ToolBarButton-Control .ToolBarButton-Right
+{
+	[Skin.RightNormalStyle]; 
+}
+
+.ToolBarButton-Control .ToolBarButton-BottomRight
+{
+	[Skin.RightBottomNormalStyle];  
+}
+
+.ToolBarButton-Control .ToolBarButton-Top
+{
+	[Skin.TopNormalStyle];
+}
+
+.ToolBarButton-Control .ToolBarButton-Bottom
+{
+	[Skin.BottomNormalStyle];
+}
+
+.ToolBarButton-Control_Enter .ToolBarButton-TopLeft
+{
+	[Skin.LeftTopHoverStyle]; 
+}
+
+.ToolBarButton-Control_Enter .ToolBarButton-Left
+{
+	[Skin.LeftHoverStyle]; 
+}
+
+.ToolBarButton-Control_Enter .ToolBarButton-BottomLeft
+{
+	[Skin.LeftBottomHoverStyle]; 
+}
+
+.ToolBarButton-Control_Enter .ToolBarButton-TopRight
+{
+	[Skin.RightTopHoverStyle]; 
+}
+
+.ToolBarButton-Control_Enter .ToolBarButton-Right
+{
+	[Skin.RightHoverStyle];
+}
+
+.ToolBarButton-Control_Enter .ToolBarButton-BottomRight
+{
+	[Skin.RightBottomHoverStyle];
+}
+
+.ToolBarButton-Control_Enter .ToolBarButton-Top
+{
+	[Skin.TopHoverStyle]; 
+}
+
+.ToolBarButton-Control_Enter .ToolBarButton-Bottom
+{
+	[Skin.BottomHoverStyle]; 
+}
+
+.ToolBarButton-Control_Down .ToolBarButton-TopLeft
+{
+	[Skin.LeftTopPressedStyle]; 
+}
+
+.ToolBarButton-Control_Down .ToolBarButton-Left
+{
+	[Skin.LeftPressedStyle]; 
+}
+
+.ToolBarButton-Control_Down .ToolBarButton-BottomLeft
+{
+	[Skin.LeftBottomPressedStyle];  
+}
+
+
+.ToolBarButton-Control_Down .ToolBarButton-TopRight
+{
+	[Skin.RightTopPressedStyle];
+}
+
+.ToolBarButton-Control_Down .ToolBarButton-Right
+{
+	[Skin.RightPressedStyle];
+}
+
+.ToolBarButton-Control_Down .ToolBarButton-BottomRight
+{
+	[Skin.RightBottomPressedStyle];
+}
+
+.ToolBarButton-Control_Down .ToolBarButton-Top
+{
+	[Skin.TopPressedStyle];
+}
+
+.ToolBarButton-Control_Down .ToolBarButton-Bottom
+{
+	[Skin.BottomPressedStyle];
+}
+
+.ToolBarButton-Control_Focus .ToolBarButton-TopLeft
+{
+	[Skin.LeftTopFocusedStyle];
+}
+
+.ToolBarButton-Control_Focus .ToolBarButton-Left
+{
+	[Skin.LeftFocusedStyle];
+}
+
+.ToolBarButton-Control_Focus .ToolBarButton-BottomLeft
+{
+	[Skin.LeftBottomFocusedStyle]; 
+}
+
+
+.ToolBarButton-Control_Focus .ToolBarButton-TopRight
+{
+	[Skin.RightTopFocusedStyle];
+}
+
+.ToolBarButton-Control_Focus .ToolBarButton-Right
+{
+	[Skin.RightFocusedStyle]; 
+}
+
+.ToolBarButton-Control_Focus .ToolBarButton-BottomRight
+{
+	[Skin.RightBottomFocusedStyle]; 
+}
+
+.ToolBarButton-Control_Focus .ToolBarButton-Top
+{
+	[Skin.TopFocusedStyle]; 
+}
+
+.ToolBarButton-Control_Focus .ToolBarButton-Bottom
+{
+	[Skin.BottomFocusedStyle]; 
+}
+
+.ToolBarButton-Control_Disabled .ToolBarButton-TopLeft
+{
+	[Skin.LeftTopDisabledStyle];
+}
+
+.ToolBarButton-Control_Disabled .ToolBarButton-Left
+{
+	[Skin.LeftDisabledStyle];
+}
+
+.ToolBarButton-Control_Disabled .ToolBarButton-BottomLeft
+{
+	[Skin.LeftBottomDisabledStyle]; 
+}
+
+.ToolBarButton-Control_Disabled .ToolBarButton-TopRight
+{
+	[Skin.RightTopDisabledStyle]; 
+}
+
+.ToolBarButton-Control_Disabled .ToolBarButton-Right
+{
+	[Skin.RightDisabledStyle];
+}
+
+.ToolBarButton-Control_Disabled .ToolBarButton-BottomRight
+{
+	[Skin.RightBottomDisabledStyle]; 
+}
+
+.ToolBarButton-Control_Disabled .ToolBarButton-Top
+{
+	[Skin.TopDisabledStyle];  
+}
+
+.ToolBarButton-Control_Disabled .ToolBarButton-Bottom
+{
+	[Skin.BottomDisabledStyle];
+}
+
+.ToolBarButton-Control .ToolBarButton-PushedTopLeft
+{
+	[Skin.LeftTopPushedStyle];
+}
+
+.ToolBarButton-Control .ToolBarButton-PushedLeft
+{
+	[Skin.LeftPushedStyle];
+}
+
+.ToolBarButton-Control .ToolBarButton-PushedBottomLeft
+{
+	[Skin.LeftBottomPushedStyle]; 
+}
+
+
+
+.ToolBarButton-Control .ToolBarButton-PushedTopRight
+{
+	[Skin.RightTopPushedStyle]; 
+}
+
+.ToolBarButton-Control .ToolBarButton-PushedRight
+{
+	[Skin.RightPushedStyle]; 
+}
+
+.ToolBarButton-Control .ToolBarButton-PushedBottomRight
+{
+	[Skin.RightBottomPushedStyle];  
+}
+
+.ToolBarButton-Control .ToolBarButton-PushedTop
+{
+	[Skin.TopPushedStyle];
+}
+
+.ToolBarButton-Control .ToolBarButton-PushedBottom
+{
+	[Skin.BottomPushedStyle];
+}

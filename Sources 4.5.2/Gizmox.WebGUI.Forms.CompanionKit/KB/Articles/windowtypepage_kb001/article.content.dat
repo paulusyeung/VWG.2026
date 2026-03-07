@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634076308192038887" UpdatedBy="admin" UpdatedOn="634076310294552343">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the 'Open modeless form' button and Modeless form will be opened. Click on the 'Open modal form' button and Modal form will be opened. Click on the 'Open popup form' button and Popup form will be opened.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>Form</em> can be of <em>Modeless</em>, <em>Modal </em>and <em>Popup </em>types. The <em>Form </em>contains the following methods for opening it with the different type:<br /><strong>Show</strong> - displays the form as a Modeless window;<br /><strong>ShowDialog</strong> - displays the form as a Modal window;<br /><strong>ShowPopup </strong>- displays the form as a Popup window.<br /><br />The <em>ShowDialog </em>in Visual WebGui works differently than WinForms. Code lines after this call is executed immediately and won&rsquo;t wait for the dialog to close. If you need to run code only after the dialog is closed or only if a specific result is returned register to the close event of the dialog.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,17 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>PictureBox</Title>
+  <Properties />
+  <DisplayName>PictureBox</DisplayName>
+  <Description>Contains examples that demonstrate how to use the Visual WebGui PictureBox control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>PictureBox</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>Picture</Keyword>
+    <Keyword>Image</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.PictureBox.Functionality.LoadPicturePage</DefaultPage>
+  <Body />
+</Item>

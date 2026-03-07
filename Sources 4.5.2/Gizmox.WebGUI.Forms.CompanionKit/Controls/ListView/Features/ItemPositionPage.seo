@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Draft" Type="Page">
+  <Title>Item Position</Title>
+  <Properties />
+  <DisplayName>ListView Item Position</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ItemPositionPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ItemPositionPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ItemPositionPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ItemPositionPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ItemPositionPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListView</Keyword>
+    <Keyword>Item</Keyword>
+    <Keyword>Position</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListView.Features.ItemPositionPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

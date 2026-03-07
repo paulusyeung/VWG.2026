@@ -1,0 +1,19 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Control's parent property</Title>
+  <Properties />
+  <DisplayName>Control's parent</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>parent</Keyword>
+    <Keyword>backColor</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.ControlParent.Overview</DefaultPage>
+</Item>

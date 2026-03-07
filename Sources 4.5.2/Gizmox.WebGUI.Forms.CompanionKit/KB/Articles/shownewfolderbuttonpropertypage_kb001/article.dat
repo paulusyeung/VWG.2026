@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634401113595098749" UpdatedBy="admin" UpdatedOn="634407307430471122" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>This example demonstrates how to use the ShowNewFolderButton property to get or set a value indicating whether the 'New Folder' button appears in the folder browser dialog box.</Description>
+  </Properties>
+  <Nodes />
+</Data>

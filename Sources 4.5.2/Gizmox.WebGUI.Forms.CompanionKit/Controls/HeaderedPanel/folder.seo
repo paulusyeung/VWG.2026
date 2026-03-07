@@ -1,0 +1,17 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>HeaderedPanel</Title>
+  <Properties />
+  <DisplayName>HeaderedPanel</DisplayName>
+  <Description>Contains sample application that demonstrates HeaderedPanel control usage</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>HeaderedPanel</Keyword>
+    <Keyword>Panel</Keyword>
+    <Keyword>Header</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.HeaderedPanel.Overview</DefaultPage>
+</Item>

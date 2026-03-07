@@ -1,0 +1,14 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Form</Title>
+  <Properties />
+  <DisplayName>Form</DisplayName>
+  <Description>Contains the examples that demonstrate how to use Form.</Description>
+  <Resources />
+  <Keywords >
+    <Keyword >Form</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.Form.Features.AcceptAndCancelButtonsPage</DefaultPage>
+  <Body />
+</Item>

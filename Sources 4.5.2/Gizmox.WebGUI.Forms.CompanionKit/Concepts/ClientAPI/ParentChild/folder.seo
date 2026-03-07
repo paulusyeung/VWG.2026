@@ -1,0 +1,20 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Demonstration of parent-child controls relations</Title>
+  <Properties />
+  <DisplayName>Parent-child controls</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>addChild</Keyword>
+    <Keyword>removeChild</Keyword>
+    <Keyword>controls</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.ParentChild.Overview</DefaultPage>
+</Item>

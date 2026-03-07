@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="Context.Language">
+<head>
+    <title></title>
+    <link href="[Skin.Path]Commons.Debug.Main.css.wgx" type="text/css"rel="stylesheet"/>
+    <script src="[Skin.Path]Commons.Debug.Main.js.wgx"></script>
+</head>
+<body>
+    <div class="Context.MultiThemeDefault Debug-TabControl" style="width:100%;height:100%;position:absolute;left:0px;top:0px;right:0px;bottom:0px;">       
+
+            <div style="position:absolute;height:18px;top:0px;left:0px;right:0px;" class="Context.MultiThemeDefault Debug-TitleBar">
+                <span class="Context.MultiThemeDefault Debug-TitleBarLabel" id="VWG_LBLEVENTS">Events</span>
+                <span class="Context.MultiThemeDefault Debug-TitleBarLabel" id="VWG_LBLOUTPUT">Output</span>
+                <span class="Context.MultiThemeDefault Debug-TitleBarLabel" id="VWG_LBLRESOURCES">Resources</span>
+            </div>
+
+        
+            <div style="position:absolute;height:26px;top:18px;left:0px;right:0px;" class="Context.MultiThemeDefault Debug-ToolBar">
+                <table id="VWG_BTNEVENTS" class="Context.MultiThemeDefault Common-CellSpacing0 Common-CellPadding0 Debug-ToolBarButtons"  style="width: 100%; height: 100%">
+                    <tr>
+                        <td class="Context.MultiThemeDefault Debug-ToolBarBTN" onclick="Debug_ClearEvents()" onmouseover="Debug_ButtonOn(this)" onmouseout="Debug_ButtonOff(this)">
+                            <img src="[Skin.Path]Debugger.Icons.Clear.gif.wgx" style="width:16px;height:16px" />
+                        </td>
+                        <td class="Context.MultiThemeDefault Debug-ToolBarSP">&nbsp;</td>
+						<td class="Context.MultiThemeDefault Debug-ToolBarBTN" onclick="Debug_TogglePosition()" onmouseover="Debug_ButtonOn(this)" onmouseout="Debug_ButtonOff(this)">
+                            <img src="[Skin.Path]Debugger.Icons.DockPanel.gif.wgx" style="width:16px;height:16px" title="Toggle debug panel position" />
+                        </td>
+						<td class="Context.MultiThemeDefault Debug-ToolBarBTN" onclick="Debug_ToggleFilterEvents(this)" onmouseout="Debug_ButtonOff(this)" onmouseover="Debug_ButtonOn(this)">
+							<img  style="width:16px;height:16px" src="[Skin.Path]Debugger.Icons.FilterEvents.gif.wgx" title="Filter debug events" />
+						</td>
+						<td style="width:100%;"></td>
+                    </tr>
+                </table>
+                <table id="VWG_BTNOUTPUT" class="Context.MultiThemeDefault Common-CellSpacing0 Common-CellPadding0 Debug-ToolBarButtons"  style="width: 100%; height: 100%">
+                    <tr>
+                        <td class="Context.MultiThemeDefault Debug-ToolBarBTN" onclick="Debug_ClearOutput()" onmouseover="Debug_ButtonOn(this)" onmouseout="Debug_ButtonOff(this)">
+                            <img src="[Skin.Path]Debugger.Icons.Clear.gif.wgx"  style="width:16px;height:16px" />
+                        </td>
+                        <td class="Context.MultiThemeDefault Debug-ToolBarSP">&nbsp;</td>
+                        <td style="width:100%;"></td>
+                    </tr>
+                </table>
+
+
+                <table id="VWG_BTNRESOURCES" class="Context.MultiThemeDefault Common-CellSpacing0 Common-CellPadding0 Debug-ToolBarButtons"  style="width: 100%; height: 100%">
+                    <tr>
+						<td class="Context.MultiThemeDefault Debug-ToolBarBTN" onclick="Debug_ShowResources(false, true)" onmouseout="Debug_ButtonOff(this)" onmouseover="Debug_ButtonOn(this)">
+							<img  style="width:16px;height:16px" src="[Skin.Path]Debugger.Resources.Home.gif.wgx" title="Resources Root page" />
+						</td>                        
+                        <td class="Context.MultiThemeDefault Debug-ToolBarBTN" onclick="Debug_ShowResources(true, false)" onmouseover="Debug_ButtonOn(this)" onmouseout="Debug_ButtonOff(this)">
+                            <img src="[Skin.Path]Debugger.Resources.FullScreen.gif.wgx"  style="width:16px;height:16px" title="Open in a window"/>
+                        </td>
+						<td style="width:100%;"></td>
+                    </tr>
+                </table>                
+            </div>
+        
+        
+            
+                <div class="Context.MultiThemeDefault Debug-Body" style="position:absolute;width:100%;top:44px;bottom:26px;left:0px;right:0px;overflow:hidden;">
+                        <div id="VWG_CNTEVENTS" class="Context.MultiThemeDefault Debug-Content" style="position:absolute;overflow:hidden;top:0px;bottom:0px;width:100%;height:100%;">
+                            <div  style="position:absolute;overflow:hidden;width:100%;height:20px;top:0px;">
+                                <table class="Context.MultiThemeDefault Common-Table Debug-List" style="width: 100%; height: 100%; table-layout:fixed">
+                                    <tr>
+                                        <td  class="Context.MultiThemeDefault Debug-ListHeader"  style="height:20px;width:100px;">Source</td>
+                                        <td  class="Context.MultiThemeDefault Debug-ListHeaderSP" style="width:2px;"></td>
+                                        <td  class="Context.MultiThemeDefault Debug-ListHeader" style="width:100px;">Stats</td>
+                                        <td  class="Context.MultiThemeDefault Debug-ListHeaderSP" style="width:2px;"></td>
+                                        <td  class="Context.MultiThemeDefault Debug-ListHeader" style="width:100px;">Subject</td>
+                                        <td  class="Context.MultiThemeDefault Debug-ListHeaderSP" style="width:2px;"></td>
+                                        <td  class="Context.MultiThemeDefault Debug-ListHeader" style="width:100%;">Message</td>
+                                        <td  class="Context.MultiThemeDefault Debug-ListHeaderSP" style="width:2px;"></td>
+                                    
+                                    </tr>
+                                 </table>
+                            </div>
+                            <div   style="position:absolute;top:20px;bottom:0px;left:0px;right:0px;">
+                                <div class="Context.MultiThemeDefault Debug-Scroller">                                
+                                    <table class="Context.MultiThemeDefault Common-Table Debug-List" style="width: 100%; table-layout:fixed">
+                                        <colgroup>
+                                                    <col style="width:100px" />
+                                                    <col style="width:2px" />
+                                                    <col style="width:100px" />
+                                                    <col style="width:2px" />
+                                                    <col style="width:100px" />
+                                                    <col style="width:2px" />
+                                                    <col style="width:100%" />
+                                                    <col style="width:2px" />
+                                            </colgroup>
+                                        <tbody id="VWG_TBODYEVENTS"></tbody>
+                                    </table> 
+                                    </div> 
+                            </div>
+                            </div>
+                            <div id="VWG_CNTOUTPUT" class="Context.MultiThemeDefault Debug-Content Debug-Scroller">
+                                <table   class="Context.MultiThemeDefault Common-Table Debug-List" style="width:100%;table-layout: fixed">
+                                    <tbody id="VWG_TBODYOUTPUT"></tbody>
+                                </table>
+                            </div>
+                    
+						    <div id="VWG_CNTRESOURCES" class="Context.MultiThemeDefault Debug-Content" style="overflow:auto;width:100%;height:100%;position:relative">
+							    <iframe frameborder="0" style="display:none;width:100%;height:100%;position:absolute;left:0px;top:0px;margin:3px;border:none">
+                                </iframe>
+						    </div>
+                </div>
+            
+        <div style="position:absolute;height:26px;bottom:0px;left:0px;right:0px;" class="Context.MultiThemeDefault Debug-PageBar">
+            <span id="VWG_TABEVENTS" class="Context.MultiThemeDefault Debug-PageBarButton" onclick="Debug_Activate('EVENTS');">
+                <div class="Context.MultiThemeDefault Debug-PageBarButtonLeft">
+                    <div class="Context.MultiThemeDefault Debug-PageBarButtonRight nobr">
+                        <img src="[Skin.Path]Debugger.Icons.Events.gif.wgx"  style="width:16px;height:16px" /> Events
+                    </div>
+                </div>
+            </span>
+            <span id="VWG_TABOUTPUT" class="Context.MultiThemeDefault Debug-PageBarButton" onclick="Debug_Activate('OUTPUT');">
+                <div class="Context.MultiThemeDefault Debug-PageBarButtonLeft">
+                    <div class="Context.MultiThemeDefault Debug-PageBarButtonRight nobr">
+                        <img src="[Skin.Path]Debugger.Icons.Output.gif.wgx"  style="width:16px;height:16px" /> Output
+                    </div>
+                </div>
+            </span>
+            <span id="VWG_TABRESOURCES" class="Context.MultiThemeDefault Debug-PageBarButton" onclick="Debug_Activate('RESOURCES');">
+                <div class="Context.MultiThemeDefault Debug-PageBarButtonLeft">
+                    <div class="Context.MultiThemeDefault Debug-PageBarButtonRight nobr">
+                        <img src="[Skin.Path]Debugger.Resources.gif.wgx"  style="width:16px;height:16px" /> Resources
+                    </div>
+                </div>
+            </span>                        
+            <span class="Context.MultiThemeDefault Debug-PageBarButton" style="width:100%;">&nbsp;</span>
+        </div>
+    </div>
+    <script>
+        Debug_Initialize(); Debug_Activate('EVENTS');
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="Each panel contains some controls (child controls). Two buttons do the following:&#xD;&#xA;'&gt;' – transfers checked items from the left panel to the right panel.&#xD;&#xA;'&lt;' – transfers checked items from the right panel to the left panel.&#xD;&#xA;Transfers are made by changing the parent control." Title="Example scenario:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+    <Element Body="vwgControl: addChild, removeChild, controls." Title="Used ClientAPI functions:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

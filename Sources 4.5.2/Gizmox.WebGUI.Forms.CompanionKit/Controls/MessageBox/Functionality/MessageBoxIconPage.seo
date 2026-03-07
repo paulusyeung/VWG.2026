@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="102" Status="Publish" Type="Page" Height="150">
+  <Title>MessageBox Icon  Enumeration</Title>
+  <Properties />
+  <DisplayName>Icons</DisplayName>
+  <Description>MessageBoxIcon Enumeration Allows the user to choose one icon of various icons common in MessageBoxes</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxIconPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxIconPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxIconPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxIconPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxIconPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>MessageBoxIcon</Keyword>
+    <Keyword>MessageBox</Keyword>
+    <Keyword>Icon</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.MessageBoxControl.Functionality.MessageBoxIconPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

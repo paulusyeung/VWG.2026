@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634094554077649795" UpdatedBy="admin" UpdatedOn="634094555447979835">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The demonstrated <em>PropertyGrid </em>control represents object of the <em>DemoObject </em>type. You can see code of the type in the code section. The class contains 'ValueA' property that has <em>ReadOnly </em>attribute.  Select 'ValueA' property in the <em>PropertyGrid </em>and try to edit it. You can't change value of the property. Select 'ValueB' property in the <em>PropertyGrid </em>and try to edit it. You will be able change value of the property.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>PropertyGrid </em>determinates whether property can be edited with <em>ReadOnlyAttribute </em>that indicates whether the property is read-only. This is useful when you want to keep a property from being editable in the grid. By default, a public property with get and set accessor functions is editable in the grid.</p>]]></Paragraph>
+  </Nodes>
+</Data>

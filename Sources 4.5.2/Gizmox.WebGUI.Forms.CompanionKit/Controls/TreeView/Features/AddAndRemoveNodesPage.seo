@@ -1,0 +1,29 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Add and Remove Nodes</Title>
+  <Properties />
+  <DisplayName>Add and Remove Nodes</DisplayName>
+  <Description>The example demonstrates how to add and remove node into/from the TreeView.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="AddAndRemoveNodesPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddAndRemoveNodesPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddAndRemoveNodesPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddAndRemoveNodesPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddAndRemoveNodesPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TreeView</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>Node</Keyword>
+    <Keyword>Remove</Keyword>
+    <Keyword>Insert</Keyword>
+    <Keyword>Delete</Keyword>
+    <Keyword>Del</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TreeView.Features.AddAndRemoveNodesPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

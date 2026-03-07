@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634086832959084941" UpdatedBy="admin" UpdatedOn="634090171128267933">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select date in the 'Minimum date' <em>DateTimePicker </em>and the selected date is minimum date for the 'Demonstrated DateTimePicker' <em>DateTimePicker</em>. Try to select less date in the demonstrated <em>DateTimePicker</em>. And you can't select the date less minimum date.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DateTimePicker </em>contains <em>MinDate </em>property that defines the minimum date and time that can be selected in the control. The default its value is <em>1/1/1753 00:00:00</em>.</p>]]></Paragraph>
+  </Nodes>
+</Data>

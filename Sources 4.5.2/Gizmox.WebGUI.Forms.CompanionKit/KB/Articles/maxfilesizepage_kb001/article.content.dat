@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634080635434894604" UpdatedBy="admin" UpdatedOn="634081634093172869">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter the maximum size of the file in the 'Maximum file size (KB)' TextBox and click on the 'Open File Dialog with limited by maximum file size' button and the upload file dialog will be opened. Click on the 'Add' button and <em>OpenFileDialog</em> will be opened. Files only with less size will be able to upload.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>OpenFileDialog </em>dialog box contains <em>MaxFileSize </em>property that represents the maximum file size allowed in kilobytes.</p>]]></Paragraph>
+  </Nodes>
+</Data>

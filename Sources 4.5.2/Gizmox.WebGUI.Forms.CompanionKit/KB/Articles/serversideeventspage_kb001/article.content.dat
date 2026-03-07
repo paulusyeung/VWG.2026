@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634079098109938493" UpdatedBy="admin" UpdatedOn="634079098879908925">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Title" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Move a slider of the <em>TrackBar </em>to the minimum or maximum position and the value of the 'TrackBar Value' NumericUpDown will be changed according to the slider position. And if you change a value of the 'TrackBar Value' NumericUpDown, the slider position will be changed.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>For manipulating with a value, the <em>TrackBar </em>contains the following properties and events:<br /><strong>Value </strong>- the property defines a numeric value that represents the current position of the scroll box on the <em>TrackBar</em>.<br /><strong>ValueChanged </strong>&ndash; the event occurs when the Value property of a <em>TrackBar </em>changes, either by movement of the scroll box or by manipulation in code.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

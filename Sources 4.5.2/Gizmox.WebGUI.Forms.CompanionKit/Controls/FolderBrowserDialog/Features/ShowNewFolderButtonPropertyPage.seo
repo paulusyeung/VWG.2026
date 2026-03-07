@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Showing a New-Folder Button</Title>
+  <Properties />
+  <DisplayName>New Folder Button</DisplayName>
+  <Description>This example demonstrates how to use the ShowNewFolderButton property to get or set a value indicating whether the 'New Folder' button appears in the folder browser dialog box.</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ShowNewFolderButtonPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ShowNewFolderButtonPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ShowNewFolderButtonPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ShowNewFolderButtonPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ShowNewFolderButtonPropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>FolderBrowserDialog</Keyword>
+    <Keyword>Dialog</Keyword>
+    <Keyword>Folder</Keyword>
+    <Keyword>ShowNewFolderButton</Keyword>
+    <Keyword>NewFolder</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.FolderBrowserDialog.Features.ShowNewFolderButtonPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

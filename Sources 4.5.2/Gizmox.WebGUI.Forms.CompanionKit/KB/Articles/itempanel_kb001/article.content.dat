@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634071956810873750" UpdatedBy="admin" UpdatedOn="634072889773904308">
+  <Properties />
+  <Nodes>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>The&nbsp;implemented ListView provides an edit / commit button that opens a panel with multiple editing options that allow to edit the record</strong></p><p>The capability was implemented as a generic API that allows any control to serve as a sub item and any control to serve as a panel. The possibilities here are enabling a very wide range of scenarios to be implemented.</p>]]></Paragraph>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p><strong>So how does the API work?</strong></p><p>Every ListView item has&nbsp;sub items collection. You can call the <em>Add</em> method, providing the content of it. If you define the column type corresponding with sub item as a control you can alternatively use an overload that accepts a control. <br />Now the panel is even simpler and can be done by two possible API. You can simply add a listview item using one of the <em>ListView.Items.Add()</em> overloads that accepts a control to be used as a panel or you can create an instance of <em>ListViewPanelItem</em> which accepts a control in its constructor and assign it to the listview.</p><p><strong>Here is a sample code that allows you to add both a sub-item control and a panel:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement1" Language="csharp"><![CDATA[// Create the list view
+ListView objListView = new ListView();
+objListView.Dock = DockStyle.Fill;
+
+// Create the list view columns and define the second column as a control column
+objListView.Columns.Add(new ColumnHeader("name", "Name", 150, ListViewColumnType.Text);
+objListView.Columns.Add(new ColumnHeader("button", "", 150, ListViewColumnType.Control);
+
+// Create a user control or any other control as the panel
+ListViewControlPanel objPanel = new ListViewControlPanel();
+
+// Create a new item with a panel and the first sub item as "Some text"
+ListViewItem objItem = this.mobjListView.Items.Add(objPanel, "Some text");
+
+// Create a button and add it to the sub items collection as the second item
+Button objButton = new Button();
+objButton.Tag = objItem;
+objButton.Text = "Edit";
+objItem.SubItems.Add(objButton);]]></Code>
+  </Nodes>
+</Data>

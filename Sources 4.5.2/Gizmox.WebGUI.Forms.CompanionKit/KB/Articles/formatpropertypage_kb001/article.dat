@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634086827416357745" UpdatedBy="admin" UpdatedOn="634090170335608758" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to select the format of the date and time displayed in the Visual WebGui DateTimePicker.</Description>
+  </Properties>
+  <Nodes />
+</Data>

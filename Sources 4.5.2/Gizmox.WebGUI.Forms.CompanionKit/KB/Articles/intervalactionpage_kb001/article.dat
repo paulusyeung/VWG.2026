@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634078835084172902" UpdatedBy="admin" UpdatedOn="634078863100349696" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to create an interval action with a Timer control.</Description>
+  </Properties>
+  <Nodes />
+</Data>

@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Check Align</Title>
+  <Properties />
+  <DisplayName>Check Align</DisplayName>
+  <Description>Demonstrates how to change CheckBox Alignment. The application contains CheckBox and two ComboBoxes. The 'TextAlign' ComboBox contains all enable text alignment and The 'CheckAlign' ComboBox contains all enable check alignment. When you change selected item of 'TextAlign' ComboBox, CheckBox TextAlign property value is changed. And when you change selected item of 'CheckAlign' ComboBox, CheckBox CheckAlign property value is changed.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CheckAlignPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckAlignPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckAlignPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckAlignPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckAlignPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>CheckBox</Keyword>
+    <Keyword>TextAlign</Keyword>
+    <Keyword>CheckAlign</Keyword>
+    <Keyword>Alignment</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CheckBox.Appearance.CheckAlignPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

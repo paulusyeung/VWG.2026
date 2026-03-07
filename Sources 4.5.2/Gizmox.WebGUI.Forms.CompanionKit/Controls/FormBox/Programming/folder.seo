@@ -1,0 +1,21 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains example demonstrates how to bind custom events to Visual WebGUI Form loaded into the FormBox control from the ASP.NET side</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>FormBox</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>Event</Keyword>
+    <Keyword>ASP</Keyword>
+    <Keyword>Bind</Keyword>
+    <Keyword>Binding</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.FormBox.Programming.BindingToEventsPage</DefaultPage>
+</Item>

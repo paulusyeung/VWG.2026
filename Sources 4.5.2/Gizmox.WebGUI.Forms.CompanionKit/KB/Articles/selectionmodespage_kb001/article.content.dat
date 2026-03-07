@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110740090220803" UpdatedBy="admin" UpdatedOn="634146292241773332">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change <em>SelectionMode </em>with <em>ComboBox </em>and select items of <em>CheckedListBox </em>by different ways.<br />The selection modes are the following:</p><ul><li><em>None </em>- No items can be selected</li><li><em>One </em>- Multiple items can be selected</li><li><em>MultiSimple </em>- Multiple items can be selected</li><li><em>MultiExtended </em>- Multiple items can be selected,&nbsp;the user can use&nbsp;SHIFT, CTRL and&nbsp;navigation keys to select the items</li></ul><p>&nbsp;</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The example contains demonstrated <em>CheckedListBox </em>and a <em>ComboBox </em>with list<em> </em>of <em>CheckedListBox SelectionMode </em>property&nbsp;values.</p>]]></Paragraph>
+  </Nodes>
+</Data>

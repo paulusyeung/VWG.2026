@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135241705694995" UpdatedBy="admin" UpdatedOn="634135242360697334">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The code validates each value on null and empty, and it validates on format data for the Phone and the Email columns. If you enter incorrect the Phone or the Email, error message will be shown.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>DataGridView </em>contains the <em>CellValidating </em>event that is fired when a cell loses input focus, enabling content validation.</p>]]></Paragraph>
+  </Nodes>
+</Data>

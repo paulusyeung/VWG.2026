@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to populate a ListBox from a collection</Title>
+  <Properties />
+  <DisplayName>Collection DataSource</DisplayName>
+  <Description>The example demonstrates how to populate a ListBox from a collection.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CollectionDataSourcePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CollectionDataSourcePage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CollectionDataSourcePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CollectionDataSourcePage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CollectionDataSourcePage.resx" Order="120" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\Customer.cs" Order="103" Lang="CSharp" Type="Link" Title="Customer.cs" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\Customer.vb" Order="103" Lang="VBNET" Type="Link" Title="Customer.vb" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\CustomerData.cs" Order="104" Lang="CSharp" Type="Link" Title="CustomerData.cs" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\CustomerData.vb" Order="104" Lang="VBNET" Type="Link" Title="CustomerData.vb" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListBox</Keyword>
+    <Keyword>Collection</Keyword>
+    <Keyword>DataSource</Keyword>
+    <Keyword>Object</Keyword>
+    <Keyword>ValueMember</Keyword>
+    <Keyword>DisplayMember</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListBox.PopulatingData.CollectionDataSourcePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

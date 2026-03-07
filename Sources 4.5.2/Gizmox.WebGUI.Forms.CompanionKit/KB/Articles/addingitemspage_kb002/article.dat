@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634303565961028363" UpdatedBy="admin" UpdatedOn="634304476577873017" Status="Publish" License="None">
+  <Properties>
+    <Title>How to provide event handlers for RibbonBar control, Items and SubItems</Title>
+    <Description>The article describes different types of events available for RibbonBar control, Items and SubItems objects.</Description>
+  </Properties>
+  <Nodes />
+</Data>

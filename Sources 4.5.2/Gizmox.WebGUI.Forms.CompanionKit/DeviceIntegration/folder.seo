@@ -1,0 +1,13 @@
+<Item SiteMap="False" Order="1" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Device Integration</Title>
+  <Properties />
+  <DisplayName>Device Integration</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.DeviceIntegration.Accelerometer.Example</DefaultPage>
+  <Body />
+</Item>

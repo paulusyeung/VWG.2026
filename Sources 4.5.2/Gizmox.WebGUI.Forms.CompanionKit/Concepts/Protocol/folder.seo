@@ -1,0 +1,12 @@
+<Item Order="100" Status="Draft" Type="Folder">
+  <Title>Protocol</Title>
+  <Properties />
+  <DisplayName>Protocol</DisplayName>
+  <Description>Get familiar with the Visual WebGui server-client communication protocol and how you can utilize it.</Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

@@ -1,0 +1,19 @@
+﻿<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>MyRadioButton.cs</DefaultName>
+    <Name>Visual WebGui Skinable RadioButton</Name>
+    <Description>An item template for creating a Visual WebGui skinable RadioButton.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>RadioButton.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">RadioButton1.cs</ProjectItem>
+
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$Skin.cs" ReplaceParameters="true">RadioButtonSkin1.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.RadioButton.css" ReplaceParameters="true">RadioButtonSkin1.RadioButton.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.RadioButton.xslt" ReplaceParameters="true">RadioButtonSkin1.RadioButton.xslt</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Skin.resx" ReplaceParameters="true">RadioButtonSkin1.resx</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

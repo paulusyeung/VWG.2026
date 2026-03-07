@@ -1,0 +1,75 @@
+.TreeView-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.TreeView-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.TreeView-Container
+{
+	width:100%;
+	height:100%;	
+}
+
+.TreeView-PaddingContainer
+{
+	padding:2px;
+	display: inline-block;
+}
+ 
+.TreeView-RowContainer
+{
+	height:18px;	
+}
+
+.TreeView-RowContainer_Selected 
+{
+}
+
+.TreeView-ImageContainer
+{	
+	background-repeat:no-repeat;	
+	height:100%;
+}
+
+.TreeView-ItemContainer
+{
+	height:0px;
+}
+
+.TreeView-TextContainer
+{
+	height:100%;
+	padding:2px 0px 0px 0px;
+}
+
+.TreeView-Label
+{
+	[Skin.Font];
+	[Skin.Foreground];
+	display:inline-block;
+	padding:0px 3px 0px 3px;
+	vertical-align: top;
+}
+.TreeView-Control_Disabled .TreeView-Label
+{
+    [Skin.ControlTextForegroundDisabled];
+}
+
+.TreeView-RowContainer .TreeView-Label
+{
+	[Skin.TreeNodeNormalStyle];
+}
+
+.TreeView-RowContainer_Selected .TreeView-Label
+{
+	[Skin.TreeNodeSelectedStyle!important];
+}
+
+
+

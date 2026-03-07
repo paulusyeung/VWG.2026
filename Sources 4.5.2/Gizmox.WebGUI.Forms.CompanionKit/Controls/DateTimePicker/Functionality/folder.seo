@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="102" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains examples that demonstrate how to: 
+define the CheckBox checked state of the Visual WebGui DateTimePicker;
+manipulate with mode of the changing date in the Visual WebGui DateTimePicker;
+get current value of the Visual WebGui DateTimePicker.
+</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DateTimePicker</Keyword>
+    <Keyword>Checked</Keyword>
+    <Keyword>CheckBox</Keyword>
+    <Keyword>ShowUpDown</Keyword>
+    <Keyword>Up-Down</Keyword>
+    <Keyword>DropDown</Keyword>
+    <Keyword>Value</Keyword>
+    <Keyword>ValueChanged</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.DateTimePicker.Functionality.CheckedPropertyPage</DefaultPage>
+  <Body />
+</Item>

@@ -1,0 +1,10 @@
+.List-PagingSeperator
+{
+	height:2px;
+}
+
+.List-PagingSeperator TD
+{
+	border-top: white 3px ridge;
+	background: #a1a09c;
+}

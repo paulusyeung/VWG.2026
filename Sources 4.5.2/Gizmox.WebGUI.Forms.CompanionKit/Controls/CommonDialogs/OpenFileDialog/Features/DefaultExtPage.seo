@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="103" Status="Draft" Type="Page">
+  <Title>DefaultExt</Title>
+  <Properties />
+  <DisplayName>DefaultExt</DisplayName>
+  <Description>The example demonstrates how to support the default extension in the OpenFileDialog dialog box.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="DefaultExtPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DefaultExtPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DefaultExtPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DefaultExtPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DefaultExtPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>OpenFileDialog</Keyword>
+    <Keyword>DefaultExt</Keyword>
+    <Keyword>Default</Keyword>
+    <Keyword>Extension</Keyword>
+  </Keywords>
+  <Comment>This example has Draft status b/c the OpenFileDialog DefaultExt property doesn't work correct (VWG-6935)</Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.OpenFileDialog.Features.DefaultExtPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

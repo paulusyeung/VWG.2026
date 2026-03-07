@@ -1,0 +1,12 @@
+<Item Order="100" Status="Draft" Type="Folder">
+  <Title>Windows</Title>
+  <Properties />
+  <DisplayName>Windows</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>We should add also Link.Open documentation here.</Comment>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

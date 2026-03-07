@@ -1,0 +1,18 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Appearance</Title>
+  <Properties />
+  <DisplayName>Appearance</DisplayName>
+  <Description>Contains sample apps that demonstrates how to use RadioButton and CheckBox buttons for Items and how to populate ListBox items with color and panel.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ListBox</Keyword>
+    <Keyword>CheckBox</Keyword>
+    <Keyword>RadioButton</Keyword>
+    <Keyword>Color</Keyword>
+    <Keyword>Image</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.ListBox.Appearance.CheckBoxAndRadioButtonsPage</DefaultPage>
+  <Body />
+</Item>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634079064135185945" UpdatedBy="admin" UpdatedOn="634079065215066925">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select the <em>TrackBar </em>orientation with the 'TrackBar orientation' ComboBox and orientation of the demonstrated <em>TrackBar </em>will be change, respectively.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>TrackBar </em>contains <em>Orientation </em>property that indicates the <em>Horizontal </em>or <em>Vertical </em>orientation of the track bar.</p>]]></Paragraph>
+  </Nodes>
+</Data>

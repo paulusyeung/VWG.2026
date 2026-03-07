@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="102" Status="Draft" Type="Page">
+  <Title>How to create a custom property editor</Title>
+  <Properties />
+  <DisplayName>Custom Property Editor</DisplayName>
+  <Description>The example demonstrates how to implement a dedicated property editor</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CustomPropertyEditorPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomPropertyEditorPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomPropertyEditorPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomPropertyEditorPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomPropertyEditorPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>PropertyGrid</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>Editor</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.PropertyGrid.Functionality.CustomPropertyEditorPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

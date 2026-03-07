@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="120" Status="Publish" Type="Page">
+  <Title>How to set TextBoxValidation</Title>
+  <Properties />
+  <DisplayName>Validator</DisplayName>
+  <Description>The example demonstrates how to limit characters set for the Visual WebGui TextBox. </Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ValidatorPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValidatorPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValidatorPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValidatorPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValidatorPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TextBox</Keyword>
+    <Keyword>Validator</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>Character</Keyword>
+    <Keyword>Validation</Keyword>
+    <Keyword>Key</Keyword>
+    <Keyword>Validating</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TextBox.Functionality.ValidatorPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+</Item>

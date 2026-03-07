@@ -1,0 +1,19 @@
+<Item SiteMap="False" Order="110" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains sample apps that represents how to add new item to CheckedListBox, how to use CheckOnClick property CheckedListBox.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>CheckedListBox</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>CheckOnClick</Keyword>
+    <Keyword>Check</Keyword>
+    <Keyword>Click</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.CheckedListBox.Functionality.AddItemPage</DefaultPage>
+</Item>

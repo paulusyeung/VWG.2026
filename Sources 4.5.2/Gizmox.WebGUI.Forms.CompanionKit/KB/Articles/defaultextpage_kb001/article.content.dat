@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634080543192075950" UpdatedBy="admin" UpdatedOn="634080544551857677">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter the default extension in the 'Default extension' TextBox and click on the 'Open OpenFileDialog with specified DefaultExt' button and the upload file dialog will be opened. Click on the 'Add' button and <em>OpenFileDialog </em>will be opened. Select folder and enter file name without extension. The file should be with default extension. Click on the ok and the file will be uploaded.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>OpenFileDialog </em>contains <em>DefaultExt </em>property that determines the default file name extension of the dialog.</p>]]></Paragraph>
+  </Nodes>
+</Data>

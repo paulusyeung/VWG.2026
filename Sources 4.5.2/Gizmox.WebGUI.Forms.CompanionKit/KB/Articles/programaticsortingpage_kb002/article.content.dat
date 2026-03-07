@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135251171730753" UpdatedBy="admin" UpdatedOn="634146531360253236">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>Click on&nbsp;the &quot;User&nbsp;ID&quot; column header to sort items in descending or ascending order.<br />Pay attention to kind of&nbsp;implemented&nbsp;sort - numerically.</p>]]></Paragraph>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The <em>SortMode </em>property<em>&nbsp;</em>for each column of demonstated DataGridView was set to <em>Programmatic</em> mode.<br />The<em> ColumnHeaderMouseClick</em> event handler is called on each click&nbsp;on a column header.<br /><em>Sort() </em>method is called to sort grid rows&nbsp;with&nbsp;an object implementing&nbsp;<em>IComparer </em>interface.<br />Two&nbsp;classes implementing <em>IComparer</em>&nbsp;available in the example:</p><ul><li>NumericComparer - for numerical comparision</li><li>StringComparer - for regular literal comparison</li></ul><p>To implement custom sorting logic you have to create an additional implementation and call <em>Sort()</em> method with an instance of the class.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The column of the Visual WebGui <em>DataGridView </em>contains <em>SortMode </em>property that defines the&nbsp;sort mode.<br />There are&nbsp;three&nbsp;sorting modes available:</p><ul><li><strong>Automatic </strong>- default for text box columns. Unless column headers are used for selection, clicking the column header automatically sorts the <em>DataGridView </em>by this column and displays a glyph indicating the sort order.<br />&nbsp;</li><li><strong>NotSortable </strong>- default for non-text box columns. You can sort this column programmatically; however, it is not intended for sorting, so no space is reserved for the sorting glyph.<br />&nbsp;</li><li><strong>Programmatic </strong>- allows sorting this column programmatically by calling to Sort() method.</li></ul>]]></Paragraph>
+  </Nodes>
+</Data>

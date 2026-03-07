@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634086830842495349" UpdatedBy="admin" UpdatedOn="634267348138733410" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to define an upper bound for the dates selected/displayed in the Visual WebGui DateTimePicker.</Description>
+  </Properties>
+  <Nodes />
+</Data>

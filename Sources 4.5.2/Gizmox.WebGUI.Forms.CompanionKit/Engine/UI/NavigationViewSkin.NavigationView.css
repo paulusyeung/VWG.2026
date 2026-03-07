@@ -1,0 +1,431 @@
+
+
+.GZNV_Container
+{
+    -ms-box-shadow: 0 0 300px 10px #000 inset;
+    -o-box-shadow: 0 0 300px 10px #000 inset;
+    -moz-box-shadow: 0 0 300px 10px #000 inset;
+    -webkit-box-shadow: 0 0 300px 10px #000 inset;
+    box-shadow: 0 0 300px 10px #000 inset;
+	background-image: url('[Skin.Path]Background-repeat.gif.wgx');
+	overflow:auto;
+	top: 0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+.GZNV_Header
+{
+    z-index: 100; 
+    height: 174px;
+    background-color:black;
+}
+.GZNV_Header_Centered {
+    width:980px;
+    margin:0 auto;
+}
+.GZNV_Header_Toplinks {
+    background-color:#45484a;
+    height:53px;
+}
+
+.GZNV_Header_Toplinks ul {
+    margin-top:18px;
+    margin-right:-2px;
+    margin-bottom:0;
+    float:right;
+    list-style:none;
+}
+.GZNV_Header_Toplinks ul li,
+.GZNV_Header_Toplinks ul li a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    text-decoration:none;
+}
+
+.GZNV_Header_Toplinks ul li:last-child {
+    border-right: 0;
+}
+
+.GZNV_Header_Toplinks ul li a.GZNV_Header_Toplink_Forums {
+    color: #d8d8d8;
+}
+
+.GZNV_Header_Toplinks ul li a.GZNV_Header_Toplink_Forums:hover {
+    color:white;
+}
+
+.GZNV_Header_Toplink_Login {
+    color: #fb8719;
+}
+
+.GZNV_Header_Toplink_Login:hover {
+    color: #fca14b;
+}
+
+.GZNV_Header_Toplinks ul li {
+    border-right: 1px solid #666;
+    float:left;
+    padding: 0 8px;
+}
+
+.GZNV_Header_Topmenu {
+    height:101px;
+    background-color:white;
+    clear:both;
+}
+
+.GZNV_Header_Menu {
+    float:right;
+}
+.GZNV_Header_Menu ul {
+    margin-top:34px;
+    float:right;
+    margin-right:50px;
+    list-style:none;
+}
+.GZNV_Header_Menu ul li a{
+    font-family:"Open Sans", sans-serif;
+    font-size:12px;
+    color:#4a4d4f;
+    text-decoration:none;
+}
+
+.GZNV_Header_Menu ul li a:hover {
+    color:#fb8719;
+}
+
+.GZNV_Header_Menu ul li{
+    float:left;
+    margin:5px;
+    margin-left:54px;
+}
+
+.GZNV_Header_Bottom {
+    background:url('[Skin.Path]TopStrip.png.wgx') repeat-x left top;
+    height:82px;
+    font-family:"Open Sans", sans-serif;
+    font-size:31px;
+    color:white;
+    font-weight:bold;
+    padding-top:20px
+}
+
+.GZNV_CKMenu {
+
+}
+
+.GZNV_CKLogo {
+    float:left;
+    margin-top:10px;
+    margin-left:2px;
+    background:url('[Skin.Path]CKLogoReddo.png.wgx') repeat-x left top;
+    width:450px;
+    height:60px;
+}
+.GZNV_Header_SearchBox {
+    z-index: 102;
+    height: 35px;
+    margin-top: 3px;
+    position: relative;
+    background: url('[Skin.Path]MenuBackground.png.wgx') repeat-x;
+}
+.GZNV_NodeSearch
+{
+	position:relative;
+	left:27px;
+	top:3px;	
+}
+
+.GZNV_NodeSearch input
+{
+	font: normal normal normal 13px verdana;
+	background:transparent;
+	border:none;
+	width:179px;
+	height:22px;
+	outline: none;
+	margin-top:2px;
+	margin-left:1px;	
+}
+
+/* Applied when input textbox 'blured' */
+.GZVN_SearchGrayed
+{
+	color: Gray!important;
+	font-style:italic!important;
+	font-size: 12px!important;
+}
+
+.GZVN_SearchButton
+{
+	cursor:pointer;
+	float:left; 
+	width:22px;  
+	height:25px; 
+	background:transparent url('[Skin.Path]autocomplete.searchRightN.png.wgx') no-repeat right top;
+}
+
+.GZNV_Node
+{
+	font-family: Arial;
+	font-size: 9pt;
+	color:white;
+	cursor:pointer;
+}
+
+.GZNV_Node_Selected
+{
+	color:#00ccff;
+}
+
+.GZNV_Node_Enter
+{
+	color:#00ccff;
+}
+
+.GZNV_RootNode
+{
+	border-bottom:1px solid #999999;	
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight:bold;
+	padding-top:6px;
+	color:white;
+	cursor:pointer;
+}
+
+.GZNV_RootNode_Selected
+{
+	color:#00ccff;
+}
+
+.GZNV_RootNode_Enter
+{
+	color:#00ccff;
+}
+
+.GZNV_Node img
+{
+	width:14px;
+	height:14px;
+}
+
+.GZNV_Category
+{
+	font-family: Arial;
+	font-size: 10pt;
+	color:white;
+	font-weight:bold;
+	cursor:pointer;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.GZNV_Category_Selected
+{
+	color:#0cF;
+}
+
+.GZNV_Category_Enter
+{
+	color:#0cF;
+}
+
+.GZNV_PageHeader
+{
+     -moz-box-shadow: 0px 0px 30px #000 inset;
+    -o-box-shadow: 0px 0px 30px #000 inset;
+    -ms-box-shadow: 0px 0px 30px #000 inset;
+    -webkit-box-shadow: 0px 0px 30px #000 inset;
+    box-shadow: 0px 0px 30px #000 inset;
+    border: 1px solid white;    
+	height:39px;
+    font: normal bold 11pt "Century Gothic",arial,sans-serif;
+    color:white;
+    padding:0px 0px 0px 15px;
+}
+
+.GZNV_PageBody
+{
+	position:relative;
+	[Skin.Background];
+}
+
+.GZNV_PageLinks
+{
+	height:75px;
+	padding-top:25px;
+	margin-right:54px;
+	text-align:right;
+	overflow: hidden;
+	min-width:640px;
+}
+
+.GZNV_PageLinks a, .GZNV_PageLinks a:hover, .GZNV_PageLinks a:visited, .GZNV_EditLabel
+{
+	font-family: Arial;
+	font-size: 9pt;
+	font-weight:bold;
+	color:white;
+	border:none;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+.GZNV_ToolItem
+{
+	font: normal bold 9pt Arial;
+	color: White;
+	cursor:pointer;
+	padding-right: 12px;
+}
+.GZNV_ToolItem_Selected
+{
+	color: #00ccff; /*kind of blue*/
+}
+
+.GZNV_PageLinks img
+{
+	margin-right:10px;
+	margin-left:10px;
+	border:none;
+}
+
+.GZNV_EditIcon
+{
+	margin:0px 2px 0px 2px;
+	cursor:pointer;
+}
+
+.GZNV_SearchItem
+{
+	font-family: Arial;
+	font-size: 8pt;
+	color:blue;
+	cursor:pointer;
+}
+
+.GZNV_PageTab
+{
+	width:830px;
+	height:450px;
+	margin-left:20px;
+	border:1px solid gray;
+}
+
+.GZNV_PageTabHeaders
+{
+	overflow:hidden;
+}
+
+.GZNV_PageTabHeader
+{
+	cursor:pointer;
+	border-bottom:1px solid gray;
+	font-family: Arial;
+	font-size: 8pt;
+}
+
+.GZNV_PageTabBody
+{
+	height:100%;
+	width:100%;
+	clear:left;
+}
+
+.GZNV_PageTabPage
+{
+	width:100%;
+	height:100%;
+	display:none;
+}
+
+.GZNV_PageTabPage iframe
+{
+	width:100%;
+	height:100%;
+	border:none;
+}
+
+/*
+ CSS classes related to 'C'ode 'P'ane
+*/
+
+.GZNVCP_ContainerTable {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.GZNVCP_buttonText {
+	text-decoration:none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	vertical-align: middle;
+	height: 20px;
+	width: 200px;
+	padding-left: 12px;
+	background-repeat: no-repeat;
+	color: #39454F;
+	cursor:pointer;
+	background-image:url([Skin.Path]CodePane_menuItem.gif.wgx);
+}
+.GZNVCP_buttonTextSelected {
+	color:#792700;
+	background-image:url([Skin.Path]CodePane_menuItemSelected.gif.wgx);
+}
+.GZNVCP_menuBottomCont
+{
+	background-repeat: repeat-y;
+	background-position: right;
+	background-image:url([Skin.Path]CodePane_right.gif.wgx);
+}
+
+/* The container of page demo user-control, inpector and code-pane*/
+DIV#PageBodyContainer
+{
+	padding:5px;
+	background-color:white;
+}
+
+/* The container of article-page type*/
+.GZNV_Article
+{
+	width:inherit;
+}
+
+/* The cell of article height expander */
+TD.changesize
+{
+	background: url([Skin.Path]bottom.png.wgx); 
+	background-repeat:repeat-x;
+	border-style: none solid none none;
+	border-color: #C4C4C4;
+	border-width: 1px;
+	cursor: pointer;
+}
+
+P.LoadingText
+{
+	font-size: 16pt; 
+	text-align: center; 
+	vertical-align: middle; 
+	font-family: Verdana;
+	font-weight: bold;
+	font-style: italic;
+	color: Gray;
+}
+
+/*
+  Required to solved the problem with defaults of addThis divs
+  VWG default set to border-box, that causes incorrect layout
+  inside of sharing window.
+*/
+div[id^="at16"], div[id^="at_"]
+{
+    box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   -webkit-box-sizing: content-box;
+}

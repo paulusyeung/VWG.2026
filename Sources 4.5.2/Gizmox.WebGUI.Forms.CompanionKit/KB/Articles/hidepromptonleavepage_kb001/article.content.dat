@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634172237561517577" UpdatedBy="admin" UpdatedOn="634256969213687672">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check / Uncheck the &ldquo;Hide prompt on leave&rdquo; <em>CheckBox.</em><br />Move focus to one of the demonstrated <em>MaskedTextBoxes </em>[1]<strong> </strong>or [2].<br />Fill up partially a text and move to another <em>MaskedTextBox</em>.</p><p>Pay attention:</p><p>If the <em>CheckBox </em>is checked - the prompt characters will be hidden.<br />If the <em>CheckBox </em>is unchecked - the prompt characters remain shown.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>MaskedTextBox </em>control contains <em>HidePromptOnLeave </em>Property that indicates whether the prompt characters are hidden when the&nbsp;control loses focus.</p>]]></Paragraph>
+  </Nodes>
+</Data>

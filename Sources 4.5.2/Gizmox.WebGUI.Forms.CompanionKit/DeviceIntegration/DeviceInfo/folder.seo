@@ -1,0 +1,15 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>DeviceInfo</Title>
+  <Properties />
+  <DisplayName>DeviceInfo</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use DeviceInfo</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DeviceInfo</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.DeviceIntegration.DeviceInfo.Example</DefaultPage>
+</Item>

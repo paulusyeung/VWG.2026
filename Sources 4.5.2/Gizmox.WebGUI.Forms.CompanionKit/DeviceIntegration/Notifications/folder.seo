@@ -1,0 +1,15 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+    <Title>Notifications</Title>
+    <Properties />
+    <DisplayName>Notifications</DisplayName>
+    <Description>Contains sample apps that demonstrate how to use Notifications</Description>
+    <Resources />
+    <Keywords>
+        <Keyword>Notifications</Keyword>
+    </Keywords>
+    <Comment>
+    </Comment>
+    <Sections />
+    <Body />
+    <DefaultPage>item:CompanionKit.DeviceIntegration.Notifications.Example</DefaultPage>
+</Item>

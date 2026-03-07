@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634086780368271449" UpdatedBy="admin" UpdatedOn="634090169378951133">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the <img height="16" width="16" align="top" src="/Resources/Images/16x16/Font.png" alt="Folder button" /> button and a <em>FontDialog </em>dialog box will be opened. Select font and click on the 'Ok' button. Text of the label, that represents current font style, will be change. Open calendar of the demonstrated <em>DateTimePicker </em>and its font will be corresponding with the selected font style.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DateTimePicker </em>contains the <em>CalendarFont </em>property that determinates the font style applied to the calendar.</p>]]></Paragraph>
+  </Nodes>
+</Data>

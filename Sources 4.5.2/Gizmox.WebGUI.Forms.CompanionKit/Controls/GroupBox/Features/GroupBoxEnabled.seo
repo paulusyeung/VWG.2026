@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Page" Height="260">
+  <Title>GroupBox Enabled Property</Title>
+  <Properties />
+  <DisplayName>Enabled property</DisplayName>
+  <Description>The example demonstrates how GroupBox Enabled property implemented. Which causes all controls contained within the group box to be enabled or disabled.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="GroupBoxEnabled.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="GroupBoxEnabled.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="GroupBoxEnabled.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="GroupBoxEnabled.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="GroupBoxEnabled.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>GroupBox</Keyword>
+    <Keyword>Enabled</Keyword>
+    <Keyword>Enabling</Keyword>
+    <Keyword>Container</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.GroupBox.Features.GroupBoxEnabled, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

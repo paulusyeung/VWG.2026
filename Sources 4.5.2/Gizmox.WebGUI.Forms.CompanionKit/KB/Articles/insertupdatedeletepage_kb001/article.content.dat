@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135247597778757" UpdatedBy="admin" UpdatedOn="634135247901063889">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Open a ContextMenu for the DataGridView and select a menu item for the following actions:<br />a) Add Row - open new form to enter data about new user;<br />b) Modify Row - open new form to change user data for each selected rows;<br />c) Delete Row - delete all selected row.<br />All actions are executed on the DataSet that is DataSource for the DataGridView.</p>]]></Paragraph>
+  </Nodes>
+</Data>

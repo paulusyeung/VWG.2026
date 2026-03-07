@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{93C2780F-B831-4D88-976A-8329CA9AA446}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gizmox.WebGUI.Forms.Help</RootNamespace>
+    <AssemblyName>Gizmox.WebGUI.Forms.Help</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/Gizmox.WebGUI.Forms.Help/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WG_NET452</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Deployment|AnyCPU' ">
+    <OutputPath>bin\Deployment\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Documentation|AnyCPU' ">
+    <OutputPath>bin\Documentation\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Nightly|AnyCPU' ">
+    <OutputPath>bin\Nightly\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Commercial Deployment|AnyCPU' ">
+    <OutputPath>bin\Commercial Deployment\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Express|AnyCPU' ">
+    <OutputPath>bin\Express\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Design|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Design\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WG_NET452</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gizmox.WebGUI.Common, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=263fa4ef694acff6, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Common.Design.Skins, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=82814e180535b402, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Common.Design.Skins.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.84.0.0, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Gizmox.WebGUI.3rdParty.Assemblies\ICSharpCode.SharpZipLib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gizmox.WebGUI.Forms\Gizmox.WebGUI.Forms.4.5.2.csproj">
+      <Project>{9F0416FE-04C3-4F2A-98CC-B39B6F1022CC}</Project>
+      <Name>Gizmox.WebGUI.Forms.4.5.2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HelpFormBaseSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HelpFormBaseSkin.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- 隻 project 打唔開，要取消呢句先得
+  <Import Condition="" Project="$(MSBuildExtensionsPath)\Gizmox\v14.0\Net4.5.2\Gizmox.VWGCoreLibrary.targets" />
+  -->
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Compile Include="..\ProductInfo.cs" />
+    <Compile Include="HelpDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpFormBaseSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HtmlHelpUtilities\CHMContentGateway.cs" />
+    <Compile Include="HtmlHelpUtilities\CHMExplorerController.cs" />
+    <Compile Include="HtmlHelpUtilities\CHMExplorerNode.cs" />
+    <Compile Include="HtmlHelpUtilities\CHMResourceGateway.cs" />
+    <Compile Include="HtmlHelpUtilities\CHMSearchItem.cs" />
+    <Compile Include="HtmlHelp\Category.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\BinaryReaderHelp.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\CHMBtree.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\CHMFile.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\CHMIdxhdr.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\CHMStrings.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\CHMSystem.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\CHMTocidx.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\CHMTopics.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\CHMUrlstr.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\CHMUrltable.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\DumpingInfo.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\enumerations.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\FullTextEngine.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\HHCParser.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\HHKParser.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\TopicEntry.cs" />
+    <Compile Include="HtmlHelp\ChmDecoding\UrlTableEntry.cs" />
+    <Compile Include="HtmlHelp\ChmFileInfo.cs" />
+    <Compile Include="HtmlHelp\HtmlHelpSystem.cs" />
+    <Compile Include="HtmlHelp\Index.cs" />
+    <Compile Include="HtmlHelp\IndexItem.cs" />
+    <Compile Include="HtmlHelp\IndexTopic.cs" />
+    <Compile Include="HtmlHelp\InformationType.cs" />
+    <Compile Include="HtmlHelp\Interop.cs" />
+    <Compile Include="HtmlHelp\Storage\FileObject.cs" />
+    <Compile Include="HtmlHelp\Storage\FileObjectCollection.cs" />
+    <Compile Include="HtmlHelp\Storage\IBaseStorageWrapper.cs" />
+    <Compile Include="HtmlHelp\Storage\IStorageWrapper.cs" />
+    <Compile Include="HtmlHelp\Storage\ITStorageWrapper.cs" />
+    <Compile Include="HtmlHelp\TableOfContents.cs" />
+    <Compile Include="HtmlHelp\TOCItem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TopicsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HtmlHelp\HtmlHelp.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ReportViewer</Title>
+  <Properties />
+  <DisplayName>ReportViewer</DisplayName>
+  <Description>Contains examples that demonstrates how to use the Visual WebGui ReportViewer control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ReportViewer</Keyword>
+    <Keyword>Report</Keyword>
+    <Keyword>Reporting</Keyword>
+    <Keyword>Viewer</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.AspNetWrappers.ReportViewer.ReportViewerPage</DefaultPage>
+</Item>

@@ -1,0 +1,11 @@
+.WorkspaceTab-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.WorkspaceTab-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}

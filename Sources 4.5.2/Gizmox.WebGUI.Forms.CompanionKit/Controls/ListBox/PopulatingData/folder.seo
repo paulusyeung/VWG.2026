@@ -1,0 +1,18 @@
+<Item SiteMap="False" Order="130" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Populating Data</Title>
+  <Properties />
+  <DisplayName>Populating Data</DisplayName>
+  <Description>Demonstrates how tou use Collection and DataBase as DataSources of the ListBox</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ListBox</Keyword>
+    <Keyword>DataSource</Keyword>
+    <Keyword>Collection</Keyword>
+    <Keyword>Object</Keyword>
+    <Keyword>DataBase</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.ListBox.PopulatingData.CollectionDataSourcePage</DefaultPage>
+  <Body />
+</Item>

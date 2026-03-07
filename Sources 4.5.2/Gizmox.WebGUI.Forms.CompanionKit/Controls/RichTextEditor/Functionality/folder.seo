@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains example that demonstrates how to import rtf files into RichTextEditor control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>RichTextEditor</Keyword>
+    <Keyword>RTF</Keyword>
+    <Keyword>import</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.RichTextEditor.Functionality.RTFImportPage</DefaultPage>
+</Item>

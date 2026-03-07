@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128209575960649" UpdatedBy="admin" UpdatedOn="634128210577685810">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on image of a tree node and the tree node image will be changed to checked state.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>TreeView </em>contains StateImageList property. The property defines the image list that is used to indicate the state of the <em>TreeView </em>and its nodes.</p><p>When the <em>CheckBoxes </em>property of a <em>TreeView </em>is set to true and the <em>StateImageList </em>property is set, <em>each TreeNode</em> that is contained in the <em>TreeView </em>displays the first and second images from the <em>StateImageList </em>to indicate an unchecked or checked state, respectively. You should set the <em>StateImageList </em>property before you add nodes to the TreeView to prevent state images being shown at design time for nodes that do not have a state image set.</p>]]></Paragraph>
+  </Nodes>
+</Data>

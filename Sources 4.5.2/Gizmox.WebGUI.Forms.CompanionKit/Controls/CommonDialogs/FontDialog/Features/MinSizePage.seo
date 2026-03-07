@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="102" Status="Publish" Type="Page">
+  <Title>Applying the MinSize property</Title>
+  <Properties />
+  <DisplayName>MinSize</DisplayName>
+  <Description>The example demonstrates how to limit the minimum font size that it can be selected in the Visual WebGui FontDialog dialog box.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MinSizePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinSizePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinSizePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinSizePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinSizePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>FontDialog</Keyword>
+    <Keyword>MinSize</Keyword>
+    <Keyword>Size</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.FontDialog.Features.MinSizePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+</Item>

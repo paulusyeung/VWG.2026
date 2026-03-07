@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634088395524985168" UpdatedBy="admin" UpdatedOn="634088396552342068">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>Change value of the 'Minimum value' <em>NumericUpDown </em>and try to enter value less than it into the demonstrated <em>NumericUpDown</em>. And after the change focus or press <em>Enter </em>key value of this <em>NumericUpDown </em>will be changed to entered in the 'Minimum value' <em>NumericUpDown</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>The Visual WebGui <em>NumericUpDown </em>contains the <em>Minimum </em>that defines the minimum value for the spin box (also known as an up-down control).</p>]]></Paragraph>
+    <Paragraph Code="ParagraphElement1" />
+  </Nodes>
+</Data>

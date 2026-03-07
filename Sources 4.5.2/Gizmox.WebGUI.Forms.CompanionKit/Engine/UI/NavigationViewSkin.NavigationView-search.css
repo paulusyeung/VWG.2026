@@ -1,0 +1,137 @@
+﻿/* Container of all search items*/
+.GZNVS_Container
+{
+	width:  890px;
+	border: solid 1px black;
+}
+
+/* The container of single search item */
+.GZNVS_ItemContainer
+{
+	margin:		6px 3px 3px 3px;
+	padding:	1px;
+	overflow:	hidden;
+
+	border: solid 1px #D0D0D0;
+
+	/* very light gray*/
+	background-color: #F9F9F9
+}
+
+/* The container of entire text of a search item */
+.GZNVS_Item
+{
+	position:relative;
+	margin: 1px;
+
+	overflow:	hidden;
+
+	font-family: verdana;
+	font-size: 11px;
+	
+	border: solid 1px #D0D0D0;
+}
+
+/* Breadcrumbs container*/
+.GZNVS_BC 
+{
+	margin-top: 8px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	font-weight: bold; 
+	font-size: 11px;
+}
+
+/* breadcrumb single item */
+.GZNVS_BCI 
+{
+	display:inline;
+	margin-right:3px;
+}
+
+/* Item title */
+.GZNVS_ItemHeader
+{
+	font-weight:bold; 
+	margin: 7px 0px 7px 5px;
+	cursor:pointer;
+}
+
+/* Item description */
+.GZNVS_ItemDescription
+{
+	font-weight:normal; 
+	margin: 2px 5px 3px 5px;
+}
+
+/* Keywords container */
+.GZNVS_Keywords
+{
+	text-align:left;
+	padding: 5px 5px 5px 5px;
+}
+
+/* Single Keyword */
+.GZNVS_Keyword
+{
+}
+
+.GZNVS_Link
+{
+	/* dark blue */
+	color: #1b789f;
+	cursor:pointer;
+}
+
+.GZNVS_Underline
+{
+	text-decoration: underline;
+}
+
+/*
+	Filter by text toolbar
+*/
+
+/* The element accumulating selected tags */
+.GZNVS_SelectedTagsValue
+{
+	background-color: white; 
+	border: solid 1px #B6B6B6; 
+}
+
+#GZNVS_FilterTable 
+{
+	margin: 6px 0px 6px 3px;
+}
+
+#GZNVS_FilterTable TD
+{
+	color: #223233; /* almost black */
+}
+
+.GZNVS_Filterarea
+{
+	background-color:#eaeaea;
+	border: solid 1px #DCDCDC; 
+}
+
+/* the image of clear filter/close image*/
+#GZNVS_Closebuttonimage
+{
+	display:block;
+	margin: 4px 4px 4px 4px;
+	width:17px;
+	height:17px;
+	cursor:pointer;
+}
+
+.GZNVS_Smalltext
+{
+	font: normal normal normal 11px Verdana,Geneva,sans-serif;
+}
+
+/* ========= class for highlighting text typed in title/description ========= */
+.GZNVS_Highlight
+{ 
+	background-color: #FFFF96; /* kind of yellow*/
+}

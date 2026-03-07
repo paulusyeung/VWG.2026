@@ -1,0 +1,35 @@
+<Item SiteMap="True" Order="99" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>ListView</Keyword>
+    <Keyword>items</Keyword>
+    <Keyword>collection</Keyword>
+    <Keyword>add</Keyword>
+    <Keyword>remove</Keyword>
+    <Keyword>vwgListView</Keyword>
+    <Keyword>dataSource</Keyword>
+    <Keyword>selectedItems</Keyword>
+    <Keyword>subItems</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="Click on:&#xD;&#xA;&quot;Fill ListView&quot; to fill the &lt;span style=&quot;color:#00ccff&quot;&gt;ListView&lt;/span&gt; with several &lt;span style=&quot;color:#00ccff&quot;&gt;items&lt;/span&gt; and &lt;span style=&quot;color:#00ccff&quot;&gt;subitems&lt;/span&gt;&#xD;&#xA;&quot;Add item&quot; to add one new item and subitem to the ListView&#xD;&#xA;&quot;Remove All&quot; to remove all items (an alert with the number of items will appear)&#xD;&#xA;&quot;Remove one&quot; to remove one last item. &#xD;&#xA;&quot;Selected Info&quot; to show how many items are &lt;span style=&quot;color:#00ccff&quot;&gt;selected&lt;/span&gt;. If only 1 item is selected the label shows how many subItems this item has." Title="Example scenario:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+    <Element Body="vwgListView: dataSource, selectedItems, items, subItems;" Title="Used ClientAPI functions:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

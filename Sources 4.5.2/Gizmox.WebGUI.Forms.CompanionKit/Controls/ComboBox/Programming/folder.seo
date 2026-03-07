@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="150" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Demonstrates how to create combobox that interact with one another</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ComboBox</Keyword>
+    <Keyword>Related</Keyword>
+    <Keyword>Interaction</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.ComboBox.Programming.RelatedComboBoxPage</DefaultPage>
+  <Body />
+</Item>

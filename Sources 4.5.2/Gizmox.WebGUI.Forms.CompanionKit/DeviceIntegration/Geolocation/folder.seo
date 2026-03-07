@@ -1,0 +1,15 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+    <Title>Geolocation</Title>
+    <Properties />
+    <DisplayName>Geolocation</DisplayName>
+    <Description>Contains sample apps that demonstrate how to use Geolocation</Description>
+    <Resources />
+    <Keywords>
+        <Keyword>Geolocation</Keyword>
+    </Keywords>
+    <Comment>
+    </Comment>
+    <Sections />
+    <Body />
+    <DefaultPage>item:CompanionKit.DeviceIntegration.Geolocation.Example</DefaultPage>
+</Item>

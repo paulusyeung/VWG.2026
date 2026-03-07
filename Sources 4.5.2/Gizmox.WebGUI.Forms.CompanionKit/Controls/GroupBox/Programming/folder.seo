@@ -1,0 +1,18 @@
+<Item SiteMap="False" Order="101" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains the example that demonstrates how to handle Click event for the GroupBox control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>GroupBox</Keyword>
+    <Keyword>Clicked</Keyword>
+    <Keyword>MouseClick</Keyword>
+    <Keyword>Mouse</Keyword>
+    <Keyword>Click</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.GroupBox.Programming.MouseClickedPage</DefaultPage>
+  <Body />
+</Item>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634081743596444148" UpdatedBy="admin" UpdatedOn="634082254754189564" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to manipulate with checked states of the 'Open as read-only' CheckBox in the Visual WebGui OpenFileDialog dialog box.</Description>
+  </Properties>
+  <Nodes />
+</Data>

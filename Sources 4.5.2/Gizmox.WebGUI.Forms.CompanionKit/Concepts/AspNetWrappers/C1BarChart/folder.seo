@@ -1,0 +1,14 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ComponentOne BarChart</Title>
+  <Properties />
+  <DisplayName>ComponentOne BarChart</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.AspNetWrappers.C1BarChart.C1BarChartPage</DefaultPage>
+</Item>

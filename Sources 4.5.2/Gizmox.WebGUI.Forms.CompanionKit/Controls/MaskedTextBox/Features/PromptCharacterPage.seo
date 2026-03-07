@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="102" Status="Publish" Type="Page">
+  <Title>PromptChar Property</Title>
+  <Properties />
+  <DisplayName>Prompt Character </DisplayName>
+  <Description>The example demonstrates how to provide custom prompt character for the Visual WebGui MaskedTextBox.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="PromptCharacterPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PromptCharacterPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PromptCharacterPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PromptCharacterPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PromptCharacterPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>MaskedTextBox</Keyword>
+    <Keyword>Prompt</Keyword>
+    <Keyword>PromptChar</Keyword>
+    <Keyword>Character</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.MaskedTextBox.Features.PromptCharacterPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

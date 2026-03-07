@@ -1,0 +1,18 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Application Scenarios</Title>
+  <Properties />
+  <DisplayName>Application Scenarios</DisplayName>
+  <Description>Contains sample apps that demonstrates how load image to PictureBox with OpenFileDialog</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>OpenFileDialog</Keyword>
+    <Keyword>Application Scenarios</Keyword>
+    <Keyword>Picture</Keyword>
+    <Keyword>Image</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.CommonDialogs.OpenFileDialog.ApplicationScenarios.DisplayPicturePage</DefaultPage>
+</Item>

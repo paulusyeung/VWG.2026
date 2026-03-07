@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634444607315818090" UpdatedBy="admin" UpdatedOn="634444613529474654">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>There is a simple <strong>BindingNavigator </strong>control on the <em>Form </em>but with custom images set for its buttons.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>BindingNavigator.Buttons</strong> property gets the toolbar buttons collection. You can modify items of this collection for instance set custom image or tooltip text for the button.</p><p>Property type: Gizmox.WebGui.Forms.ToolBarItemCollection</p>]]></Paragraph>
+  </Nodes>
+</Data>

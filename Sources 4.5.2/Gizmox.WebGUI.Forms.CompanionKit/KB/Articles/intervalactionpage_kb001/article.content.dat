@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634078861044685228" UpdatedBy="admin" UpdatedOn="634078862706904642">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The demonstrated <em>Timer </em>contains defined <em>Interval </em>property as 1000 milliseconds and registered handler for the <em>Tick</em> event. The handler updates text of the label on every second. The Label will represent current time.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>Timer </em>contains an <em>Interval </em>property and a <em>Tick </em>event to control tick action through defined interval. The <em>Interval</em> property represents the time, in milliseconds, between timer ticks. The <em>Tick </em>event occurs when the specified timer interval has elapsed and the timer is enabled.</p>]]></Paragraph>
+  </Nodes>
+</Data>

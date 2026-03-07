@@ -1,0 +1,33 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Handling different toolbar button style</Title>
+  <Properties />
+  <DisplayName>ToolBar Button Style</DisplayName>
+  <Description>The example demonstrates how to use different style for the Button of the Visual WebGui ToolBar. </Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ToolBarButtonStylePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ToolBarButtonStylePage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ToolBarButtonStylePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ToolBarButtonStylePage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ToolBarButtonStylePage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ToolBar</Keyword>
+    <Keyword>Button</Keyword>
+    <Keyword>Style</Keyword>
+    <Keyword>DropDownButton</Keyword>
+    <Keyword>DropDown</Keyword>
+    <Keyword>ToggleButton</Keyword>
+    <Keyword>Toggle</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ToolBar.Appearance.ToolBarButtonStylePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields>
+      <Field Column="0" Order="0" Type="ComboBox" Label="The First Buton StyLe" TargetName="toolBarButton1" PropertyName="Style" />
+      <Field Column="0" Order="0" Type="ComboBox" Label="The second Button style" TargetName="toolBarButton2" PropertyName="Style" />
+      <Field Column="0" Order="0" Type="ComboBox" Label="The third Button Style" TargetName="toolBarButton3" PropertyName="Style" />
+    </Fields>
+  </Inspector>
+</Item>

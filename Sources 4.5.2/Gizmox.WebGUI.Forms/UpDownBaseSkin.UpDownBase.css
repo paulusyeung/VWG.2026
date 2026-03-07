@@ -1,0 +1,62 @@
+.UpDownBase-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.UpDownBase-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.UpDownBase-Input
+{
+	[Skin.Foreground];
+	[Skin.Font];
+}
+
+.UpDownBase-UpCell
+{
+	[Skin.UpNormalStyle];
+}
+
+.UpDownBase-UpCell_Enter
+{
+	[Skin.UpOverStyle];
+}
+
+.UpDownBase-UpCell_Down
+{
+	[Skin.UpDownStyle];
+}
+
+.UpDownBase-DownCell
+{
+	[Skin.DownNormalStyle];
+}
+
+.UpDownBase-DownCell_Enter
+{
+	[Skin.DownOverStyle];
+}
+
+.UpDownBase-DownCell_Down
+{
+	[Skin.DownDownStyle];
+}
+
+.UpDownBase-ButtonsContainer
+{
+	[Skin.ButtonsContainerNormalStyle];	
+}
+
+.UpDownBase-ButtonsContainer_Enter
+{
+	[Skin.ButtonsContainerHoverStyle];	
+}
+
+.UpDownBase-ButtonsContainer_Down
+{
+	[Skin.ButtonsContainerPressedStyle];	
+}

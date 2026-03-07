@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Demonstration of searching events by date</Title>
+  <Properties />
+  <DisplayName>Searching events</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>events</Keyword>
+    <Keyword>startDate</Keyword>
+    <Keyword>endDate</Keyword>
+    <Keyword>subject</Keyword>
+    <Keyword>view</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.SearchingEvents.Overview</DefaultPage>
+</Item>

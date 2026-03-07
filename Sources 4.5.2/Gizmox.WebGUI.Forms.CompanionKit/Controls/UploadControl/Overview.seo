@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="The &lt;span style=&quot;color:#00ccff&quot;&gt;UploadControl&lt;/span&gt; allows to load numerous batches of files to the location, defined by user. The user able to upload file via &lt;span style=&quot;color:#00ccff&quot;&gt;drag&amp;drop&lt;/span&gt; feature and also via browse window. During uploading files, the control represents file name and speed of uploading in appropriate places. The user has possibility to change input file types, by using a regular expression and the UploadFileTypes property." Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

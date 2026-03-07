@@ -1,0 +1,20 @@
+<Item SiteMap="False" Order="110" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Application Scenarios</Title>
+  <Properties />
+  <DisplayName>Application Scenarios</DisplayName>
+  <Description>Contains sample application that demonstrates how to implement help support on your form</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>HelpProvider</Keyword>
+    <Keyword>Help</Keyword>
+    <Keyword>Key</Keyword>
+    <Keyword>Press</Keyword>
+    <Keyword>Stroke</Keyword>
+    <Keyword>File</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.HelpProvider.ApplicationScenarios.ViewHelpFileOnKeyStrokePage</DefaultPage>
+</Item>

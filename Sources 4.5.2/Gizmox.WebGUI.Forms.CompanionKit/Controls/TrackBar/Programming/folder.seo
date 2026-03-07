@@ -1,0 +1,18 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains the example that demonstrates how to handle event on the server-side.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Trackbar</Keyword>
+    <Keyword>Programming</Keyword>
+    <Keyword>ValueChanged</Keyword>
+    <Keyword>Value</Keyword>
+    <Keyword>Event</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.TrackBar.Programming.ServerSideEventsPage</DefaultPage>
+  <Body />
+</Item>

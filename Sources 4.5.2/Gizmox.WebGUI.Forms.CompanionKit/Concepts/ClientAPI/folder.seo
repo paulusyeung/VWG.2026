@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>ClientAPI</Title>
+  <Properties />
+  <DisplayName>Client API</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>Client</Keyword>
+    <Keyword>API</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="The Visual WebGui &lt;span style=&quot;color:#00ccff&quot;&gt;ClientAPI&lt;/span&gt; gives access to &lt;span style=&quot;color:#00ccff&quot;&gt;JavaScript&lt;/span&gt; functions to interact with the VWG controls. This allows you to develop more efficient applications by pushing certain functionality on to the &lt;span style=&quot;color:#00ccff&quot;&gt;client&lt;/span&gt;, for example, checking the validity of the information on a login form before posting back to the server for authentication.&#xD;&#xA;&#xD;&#xA;Note that the more functionality you push to the client, the less “empty” the client becomes. It is therefore still best practice to keep the business logic aspects of the application on the server, and only push functionality to the client that will increase efficiency without compromising your applications security." Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

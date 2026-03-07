@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="101" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains the example that demonstrates how to handle Click event of the SplitContainer control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>SplitContainer</Keyword>
+    <Keyword>Mouse</Keyword>
+    <Keyword>Click</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.SplitContainer.Programming.MouseClickedPage</DefaultPage>
+  <Body />
+</Item>

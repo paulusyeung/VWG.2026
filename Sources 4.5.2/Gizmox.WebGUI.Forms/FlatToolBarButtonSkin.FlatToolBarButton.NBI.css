@@ -1,0 +1,199 @@
+.FlatToolBarButton-Control .FlatToolBarButton-TopLeft
+{
+	[Skin.LeftTopNormalStyle];
+}
+
+.FlatToolBarButton-Control .FlatToolBarButton-Left
+{
+	[Skin.LeftNormalStyle];
+}
+
+.FlatToolBarButton-Control .FlatToolBarButton-BottomLeft
+{
+	[Skin.LeftBottomNormalStyle]; 
+}
+
+.FlatToolBarButton-Control .FlatToolBarButton-TopRight
+{
+	[Skin.RightTopNormalStyle]; 
+}
+
+.FlatToolBarButton-Control .FlatToolBarButton-Right
+{
+	[Skin.RightNormalStyle]; 
+}
+
+.FlatToolBarButton-Control .FlatToolBarButton-BottomRight
+{
+	[Skin.RightBottomNormalStyle];  
+}
+
+.FlatToolBarButton-Control .FlatToolBarButton-Top
+{
+	[Skin.TopNormalStyle];
+}
+
+.FlatToolBarButton-Control .FlatToolBarButton-Bottom
+{
+	[Skin.BottomNormalStyle];
+}
+
+.FlatToolBarButton-Control_Enter .FlatToolBarButton-TopLeft
+{
+	[Skin.LeftTopHoverStyle]; 
+}
+
+.FlatToolBarButton-Control_Enter .FlatToolBarButton-Left
+{
+	[Skin.LeftHoverStyle]; 
+}
+
+.FlatToolBarButton-Control_Enter .FlatToolBarButton-BottomLeft
+{
+	[Skin.LeftBottomHoverStyle]; 
+}
+
+.FlatToolBarButton-Control_Enter .FlatToolBarButton-TopRight
+{
+	[Skin.RightTopHoverStyle]; 
+}
+
+.FlatToolBarButton-Control_Enter .FlatToolBarButton-Right
+{
+	[Skin.RightHoverStyle];
+}
+
+.FlatToolBarButton-Control_Enter .FlatToolBarButton-BottomRight
+{
+	[Skin.RightBottomHoverStyle];
+}
+
+.FlatToolBarButton-Control_Enter .FlatToolBarButton-Top
+{
+	[Skin.TopHoverStyle]; 
+}
+
+.FlatToolBarButton-Control_Enter .FlatToolBarButton-Bottom
+{
+	[Skin.BottomHoverStyle]; 
+}
+
+.FlatToolBarButton-Control_Down .FlatToolBarButton-TopLeft
+{
+	[Skin.LeftTopPressedStyle]; 
+}
+
+.FlatToolBarButton-Control_Down .FlatToolBarButton-Left
+{
+	[Skin.LeftPressedStyle]; 
+}
+
+.FlatToolBarButton-Control_Down .FlatToolBarButton-BottomLeft
+{
+	[Skin.LeftBottomPressedStyle];  
+}
+
+.FlatToolBarButton-Control_Down .FlatToolBarButton-TopRight
+{
+	[Skin.RightTopPressedStyle];
+}
+
+.FlatToolBarButton-Control_Down .FlatToolBarButton-Right
+{
+	[Skin.RightPressedStyle];
+}
+
+.FlatToolBarButton-Control_Down .FlatToolBarButton-BottomRight
+{
+	[Skin.RightBottomPressedStyle];
+}
+
+.FlatToolBarButton-Control_Down .FlatToolBarButton-Top
+{
+	[Skin.TopPressedStyle];
+}
+
+.FlatToolBarButton-Control_Down .FlatToolBarButton-Bottom
+{
+	[Skin.BottomPressedStyle];
+}
+
+.FlatToolBarButton-Control_Focus .FlatToolBarButton-TopLeft
+{
+	[Skin.LeftTopFocusedStyle];
+}
+
+.FlatToolBarButton-Control_Focus .FlatToolBarButton-Left
+{
+	[Skin.LeftFocusedStyle];
+}
+
+.FlatToolBarButton-Control_Focus .FlatToolBarButton-BottomLeft
+{
+	[Skin.LeftBottomFocusedStyle]; 
+}
+
+.FlatToolBarButton-Control_Focus .FlatToolBarButton-TopRight
+{
+	[Skin.RightTopFocusedStyle];
+}
+
+.FlatToolBarButton-Control_Focus .FlatToolBarButton-Right
+{
+	[Skin.RightFocusedStyle]; 
+}
+
+.FlatToolBarButton-Control_Focus .FlatToolBarButton-BottomRight
+{
+	[Skin.RightBottomFocusedStyle]; 
+}
+
+.FlatToolBarButton-Control_Focus .FlatToolBarButton-Top
+{
+	[Skin.TopFocusedStyle]; 
+}
+
+.FlatToolBarButton-Control_Focus .FlatToolBarButton-Bottom
+{
+	[Skin.BottomFocusedStyle]; 
+}
+
+.FlatToolBarButton-Control_Disabled .FlatToolBarButton-TopLeft
+{
+	[Skin.LeftTopDisabledStyle];
+}
+
+.FlatToolBarButton-Control_Disabled .FlatToolBarButton-Left
+{
+	[Skin.LeftDisabledStyle];
+}
+
+.FlatToolBarButton-Control_Disabled .FlatToolBarButton-BottomLeft
+{
+	[Skin.LeftBottomDisabledStyle]; 
+}
+
+.FlatToolBarButton-Control_Disabled .FlatToolBarButton-TopRight
+{
+	[Skin.RightTopDisabledStyle]; 
+}
+
+.FlatToolBarButton-Control_Disabled .FlatToolBarButton-Right
+{
+	[Skin.RightDisabledStyle];
+}
+
+.FlatToolBarButton-Control_Disabled .FlatToolBarButton-BottomRight
+{
+	[Skin.RightBottomDisabledStyle]; 
+}
+
+.FlatToolBarButton-Control_Disabled .FlatToolBarButton-Top
+{
+	[Skin.TopDisabledStyle];  
+}
+
+.FlatToolBarButton-Control_Disabled .FlatToolBarButton-Bottom
+{
+	[Skin.BottomDisabledStyle];
+}

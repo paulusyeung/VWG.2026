@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Open link in client/server</Title>
+  <Properties />
+  <DisplayName>ClientMode</DisplayName>
+  <Description>The example demonstrates how to use LinkLabel to open external web page with mouse click</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ClientModePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ClientModePage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ClientModePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ClientModePage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ClientModePage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>LinkLabel</Keyword>
+    <Keyword>Link</Keyword>
+    <Keyword>Label</Keyword>
+    <Keyword>Url</Keyword>
+    <Keyword>Mode</Keyword>
+    <Keyword>Client</Keyword>
+    <Keyword>ClientMode</Keyword>
+    <Keyword>External</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.LinkLabel.Functionality.ClientModePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

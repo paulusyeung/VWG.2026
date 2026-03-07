@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110975373128934" UpdatedBy="admin" UpdatedOn="634143021492840246" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to populate a ComboBox from a collection. </Description>
+  </Properties>
+  <Nodes />
+</Data>

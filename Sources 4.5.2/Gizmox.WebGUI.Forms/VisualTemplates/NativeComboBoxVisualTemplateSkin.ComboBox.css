@@ -1,0 +1,28 @@
+.ComboBox-Control
+{
+	[Skin.Padding];
+	[Skin.Border];
+	[Skin.Background];
+    [Skin.Foreground];
+	[Skin.Font];
+	[Skin.VisualEffect]
+}
+
+.ComboBox-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.ComboBox-Select
+{
+	[Skin.Foreground];
+    [Skin.Background];
+	[Skin.Font];
+}
+
+.ComboBox-Select_Disabled
+{    
+    [Skin.ControlTextForegroundDisabled];
+    [Skin.ControlTextBackgroundDisabled];
+    [Skin.ControlTextFontDisabled];
+}

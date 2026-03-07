@@ -1,0 +1,20 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Message Property</Title>
+  <Properties />
+  <DisplayName>Message Property</DisplayName>
+  <Description>The example demonstrates how to use Message property.</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MessagePropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MessagePropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MessagePropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MessagePropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MessagePropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>WatermarkTextBox</Keyword>
+    <Keyword>Message</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.WatermarkTextBox.Features.MessagePropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

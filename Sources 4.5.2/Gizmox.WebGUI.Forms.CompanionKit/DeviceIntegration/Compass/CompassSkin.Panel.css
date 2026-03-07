@@ -1,0 +1,15 @@
+﻿.Panel-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+}
+
+.Compass-Arrow
+{
+    background-image: url('[Skin.Path]CompassArrow.png.wgx');
+    width: 16px;
+    height:185px;
+    position: absolute;
+    left: 47%;
+    top: 29%; 
+}

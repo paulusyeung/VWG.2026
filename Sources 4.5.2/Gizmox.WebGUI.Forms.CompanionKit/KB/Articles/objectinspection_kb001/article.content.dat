@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634094572920390979" UpdatedBy="admin" UpdatedOn="634094643475003651">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click a button and you will see that PropertyGrid will be updated with properties of selected control. Change Title, BorderStyle, BorderWidth, Font and other properties and you will see that the selected object updated in run-time.<br />&nbsp;</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>PropetyGrid </em>contains <em>SelectedObject </em>property that defines the object for which the grid displays properties. The <em>PropertyGrid </em>does the rest. Each time you set SelectedObject, the <em>PropertyGrid</em> refreshes the properties shown.</p>]]></Paragraph>
+  </Nodes>
+</Data>

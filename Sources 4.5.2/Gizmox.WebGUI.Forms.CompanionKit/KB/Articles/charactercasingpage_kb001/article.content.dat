@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128292651551271" UpdatedBy="admin" UpdatedOn="634128293849397345">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>To see how CharacterCasing property works, select the value from the 'CharacterCasing' ComboBox and enter a text in the TextBox.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>TextBox </em>contains <em>CharacterCasing </em>property that indicates if all characters should be left alone or converted to uppercase or lowercase. There are 3 possible case transformations and values of <em>CharacterCasing </em>property:<br /><strong>Normal </strong>- The case of characters is left unchanged<br /><strong>Upper </strong>- Converts all characters to uppercase, like: abCdDf to ABCDEF<br /><strong>Lower </strong>- Converts all characters to lowercase, like: abCdDf to abcddf</p>]]></Paragraph>
+  </Nodes>
+</Data>

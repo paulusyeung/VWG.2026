@@ -1,0 +1,21 @@
+﻿<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>MyTabControl.vb</DefaultName>
+    <Name>Visual WebGui Skinable TabControl</Name>
+    <Description>An item template for creating a Visual WebGui skinable TabControl.</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>TabControl.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$.vb" ReplaceParameters="true">TabControl1.vb</ProjectItem>
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$Skin.vb" ReplaceParameters="true">TabControlSkin1.vb</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.TabControl.css" ReplaceParameters="true">TabControlSkin1.TabControl.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.TabControl.grd.css" ReplaceParameters="true">TabControlSkin1.TabControl.grd.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.TabControl.ngrd.css" ReplaceParameters="true">TabControlSkin1.TabControl.ngrd.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.TabControl.ie.css" ReplaceParameters="true">TabControlSkin1.TabControl.ie.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.TabControl.xslt" ReplaceParameters="true">TabControlSkin1.TabControl.xslt</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Skin.resx" ReplaceParameters="true">TabControlSkin1.resx</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

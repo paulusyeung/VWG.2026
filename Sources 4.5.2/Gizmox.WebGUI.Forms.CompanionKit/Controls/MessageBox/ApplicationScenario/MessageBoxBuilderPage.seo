@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="360">
+  <Title>MessageBox builder</Title>
+  <Properties />
+  <DisplayName>MessageBox builder</DisplayName>
+  <Description>The example application demonstrates how to create and use MessageBox dialogs on the Form.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxBuilderPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxBuilderPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxBuilderPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxBuilderPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxBuilderPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>MessageBox</Keyword>
+    <Keyword>Sample</Keyword>
+    <Keyword>Example</Keyword>
+    <Keyword>Builder</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.MessageBoxControl.ApplicationScenario.MessageBoxBuilderPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

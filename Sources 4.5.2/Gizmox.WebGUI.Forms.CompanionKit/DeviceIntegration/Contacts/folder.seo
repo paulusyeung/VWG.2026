@@ -1,0 +1,13 @@
+<Item SiteMap="False" Order="1" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Contacts</Title>
+  <Properties />
+  <DisplayName>Contacts</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.DeviceIntegration.Contacts.Functionality.ExampleSearch</DefaultPage>
+  <Body />
+</Item>

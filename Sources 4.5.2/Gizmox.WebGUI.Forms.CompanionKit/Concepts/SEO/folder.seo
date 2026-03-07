@@ -1,0 +1,12 @@
+<Item Order="100" Status="Draft" Type="Folder">
+  <Title>Search Engine Optimizations (SEO)</Title>
+  <Properties />
+  <DisplayName>SEO</DisplayName>
+  <Description>Integrating search engine optimizations for a Visual WebGui application.</Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

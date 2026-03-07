@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634130850579742076" UpdatedBy="admin" UpdatedOn="634130851598967349">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The 'ListView to demonstrate the reordering of columns' <em>ListView </em>allows reordering columns. You can press on column header with mouse button and drag the column into another position for this <em>ListView</em>.<br />The 'ListView with unallowed reordering columns' <em>ListView </em>doesn't allow reordering columns, you will be unable to reorder the column position.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ListView </em>contains <em>AllowColumnReorder </em>property that indicates whether the user can reorder columns in details view.</p>]]></Paragraph>
+  </Nodes>
+</Data>

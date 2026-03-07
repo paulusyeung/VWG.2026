@@ -1,0 +1,45 @@
+
+.FlatToolBar-TopLeft
+{
+	[Skin.LeftTopStyle];
+}
+
+.FlatToolBar-Left
+{
+	[Skin.LeftStyle];
+}
+
+.FlatToolBar-BottomLeft
+{
+	[Skin.LeftBottomStyle]; 
+}
+
+.FlatToolBar-Center
+{
+	[Skin.CenterStyle];
+}
+
+.FlatToolBar-TopRight
+{
+	[Skin.RightTopStyle]; 
+}
+
+.FlatToolBar-Right
+{
+	[Skin.RightStyle]; 
+}
+
+.FlatToolBar-BottomRight
+{
+	[Skin.RightBottomStyle];  
+}
+
+.FlatToolBar-Top
+{
+	[Skin.TopStyle];
+}
+
+.FlatToolBar-Bottom
+{
+	[Skin.BottomStyle];
+}

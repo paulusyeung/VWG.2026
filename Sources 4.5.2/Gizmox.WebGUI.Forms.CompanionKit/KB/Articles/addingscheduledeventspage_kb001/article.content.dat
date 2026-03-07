@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634152535081278618" UpdatedBy="admin" UpdatedOn="634273273644285834">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The ScheduleBox control contains ScheduleBoxEventCollection&nbsp;to store&nbsp;ScheduleBoxEvent objects. <br />To add a new event use Add() method of the collection.</p><p><strong>Press 'Add new event...' button.</strong><br />Enter event details or press 'Fill with a test data' button and click OK.<br />The event will be added to the Events collection of the control.<br />The <em>FirstDate</em> property of ScheduleBox will be set to the Start date of newly added event.</p><p><strong>Double click</strong> the event to open / adjust event details.<br /><br />Pay attention to View mode of the ScheduleBox.<br />The only events scheduled to 28 Nov 2010 are shown because the view mode is set to <em>Day</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>ScheduleBoxEvent</em><em>&nbsp;&nbsp;</em>event object defines&nbsp;the following properties:<br /><em><br />Subject </em>&ndash; subject of the event ( string ). Shown as a title for the event presentation.<br /><em><br />Start&nbsp;</em>&ndash; start time of the event ( DateTime )<br /><em><br />End </em>&ndash; end time of the event ( DateTime )<br /><em><br />Tag </em>&ndash; property to provide additional information for the event ( System.Object ). <br />&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; In the editing form of the example it's Details field.</p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Demonstration of using TabPages Collection</Title>
+  <Properties />
+  <DisplayName>TabPages Collection</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TabPagesCollectionPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TabPagesCollectionPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TabPagesCollectionPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TabPagesCollectionPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TabPagesCollectionPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>WorkspaceTabs</Keyword>
+    <Keyword>Collection</Keyword>
+    <Keyword>TabPages</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.WorkspaceTabs.PopulatingData.TabPagesCollectionPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

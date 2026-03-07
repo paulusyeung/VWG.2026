@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="The &lt;span style=&quot;color:#00ccff&quot;&gt;GradientBackground&lt;/span&gt; visual effect fills control's background with gradient of two selected colors." Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+    <Element Body="User can choose colors for gradient by clicking on &quot;Choose Color1&quot; and &quot;Choose Color2&quot; buttons. &quot;GradientType&quot; comboBox defines type of gradient, by which will filled the control. On &quot;Show GradientBackground&quot; button's click, ListBox's background becomes gradient." Title="Example scenario:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

@@ -1,0 +1,18 @@
+﻿<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>MyDomainUpDown.vb</DefaultName>
+    <Name>Visual WebGui Skinable DomainUpDown</Name>
+    <Description>An item template for creating a Visual WebGui skinable DomainUpDown.</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>DomainUpDown.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$.vb" ReplaceParameters="true">DomainUpDown1.vb</ProjectItem>
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$Skin.vb" ReplaceParameters="true">DomainUpDownSkin1.vb</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.DomainUpDown.css" ReplaceParameters="true">DomainUpDownSkin1.DomainUpDown.css</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.vb\$fileinputname$Skin.DomainUpDown.xslt" ReplaceParameters="true">DomainUpDownSkin1.DomainUpDown.xslt</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Skin.resx" ReplaceParameters="true">DomainUpDownSkin1.resx</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Appearance</Title>
+  <Properties />
+  <DisplayName>Appearance</DisplayName>
+  <Description>Contains sample app that demonstrates how to use Multiline and Alignment properties.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>WorkspaceTabs</Keyword>
+    <Keyword>Multiline</Keyword>
+    <Keyword>Alignment</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.WorkspaceTabs.Appearance.AlignmentPage</DefaultPage>
+</Item>

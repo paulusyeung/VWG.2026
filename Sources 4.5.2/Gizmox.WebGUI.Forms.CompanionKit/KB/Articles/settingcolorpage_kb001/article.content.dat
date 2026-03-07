@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634112613709655054" UpdatedBy="admin" UpdatedOn="634140478008619146">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on button and ColorDialog&nbsp;will be opened with selected color that it is BackColor of Label.&nbsp;Select color and click on Ok button and the dialog will be closed and Label BackColor will be changed</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2" />
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>The Visual WebGui <em>ColorDialog </em>dialog box contains <em>Color </em>property that the color selected by the user.</p>]]></Paragraph>
+  </Nodes>
+</Data>

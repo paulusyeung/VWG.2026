@@ -1,0 +1,17 @@
+<Item SiteMap="False" Order="1" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>User Data</Title>
+  <Properties />
+  <DisplayName>UserData</DisplayName>
+  <Description>The folder is a container of User Data resources. Should be always with Status - Draft.
+  </Description>
+  <Resources>
+    <Resource Visible="False" SiteMap="False" Name="about.html" Order="100" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Help.chm" Order="100" Lang="All" Type="File" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>
+  </DefaultPage>
+  <Body />
+</Item>

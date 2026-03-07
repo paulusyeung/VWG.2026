@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Validating a Form Using the ErrorProvider</Title>
+  <Properties />
+  <DisplayName>Validating a Form</DisplayName>
+  <Description>The example demonstrates how to use ErrorProvider for validating a Form</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ErrorProviderValidatingAFormPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ErrorProviderValidatingAFormPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ErrorProviderValidatingAFormPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ErrorProviderValidatingAFormPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ErrorProviderValidatingAFormPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ErrorProvider</Keyword>
+    <Keyword>Validating</Keyword>
+    <Keyword>Validate</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ErrorProvider.ApplicationScenarios.ErrorProviderValidatingAFormPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

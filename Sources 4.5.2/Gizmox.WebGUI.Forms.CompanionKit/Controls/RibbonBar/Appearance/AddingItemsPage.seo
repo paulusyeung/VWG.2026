@@ -1,0 +1,30 @@
+<Item SiteMap="True" Order="30" Status="Publish" Type="Page" Height="310">
+  <Title>How to add items and subitems to group</Title>
+  <Properties />
+  <DisplayName>Adding items to group</DisplayName>
+  <Description>The snippet demonstrates how to add all available types of Items and Subitems to RibbonBar. It also demonstrates technique to implement event handlers for available events of control, Items and Subitems.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="AddingItemsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingItemsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingItemsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingItemsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingItemsPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Images.zip" Order="103" Lang="All" Type="File" ViewType="NoView" />
+  </Resources>
+  <Keywords>
+    <Keyword>RibbonBar</Keyword>
+    <Keyword>Event</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>Adding</Keyword>
+    <Keyword>New</Keyword>
+    <Keyword>Items</Keyword>
+    <Keyword>Item</Keyword>
+  </Keywords>
+  <Comment>VWG-8391 (work around) - RibbonBarFlowItem width ignored
+VWG-8418 (work around) - RibbonBar - incorrect order of Items in RibbonBarFlowItem
+VWG-8419 - RibbonBar - RibbonBarComboBoxItem - rendered with visual glitch</Comment>
+  <PageType>CompanionKit.Controls.RibbonBar.Appearance.AddingItemsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

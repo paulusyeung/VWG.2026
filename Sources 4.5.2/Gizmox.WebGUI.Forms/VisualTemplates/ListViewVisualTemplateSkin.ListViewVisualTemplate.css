@@ -1,0 +1,23 @@
+.ListViewVisualTemplateContactRowHeight
+{
+    height:44px;
+}
+
+.ListViewVisualTemplateContactFirstName
+{    
+    font-size: 15.5px;
+    float:left;
+}
+
+.ListViewVisualTemplateContactLastName
+{
+    font-weight: bold;
+    font-size: 15.5px;
+    float:left;
+    margin-left:5px;
+}
+
+.ListViewVisualTemplateGroup
+{
+    font-size: 18px;
+}

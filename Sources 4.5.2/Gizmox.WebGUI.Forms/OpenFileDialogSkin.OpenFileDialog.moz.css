@@ -1,0 +1,21 @@
+input
+{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	user-select:text;
+	-moz-user-select:text;
+	-webkit-user-select:text;
+	outline:none;
+}
+
+div,img,span,table,a
+{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	user-select:none;	
+	-moz-user-select:-moz-none;
+	-webkit-user-select:none;	
+	outline:none;
+}

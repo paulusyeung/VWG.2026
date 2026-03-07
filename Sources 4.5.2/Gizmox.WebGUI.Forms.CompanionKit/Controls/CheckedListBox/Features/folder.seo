@@ -1,0 +1,17 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains sample apps that demonstrates how to use different SelectionMode and Sorted properties of CheckedListBox.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>CheckedListBox</Keyword>
+    <Keyword>SelectionMode</Keyword>
+    <Keyword>Sorted</Keyword>
+    <Keyword>Sort</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.CheckedListBox.Features.SelectionModesPage</DefaultPage>
+  <Body />
+</Item>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634080625559620649" UpdatedBy="admin" UpdatedOn="634081630464509450" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to set the initial directory displayed in the file dialog box.</Description>
+  </Properties>
+  <Nodes />
+</Data>

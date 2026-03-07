@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634409224657519125" UpdatedBy="admin" UpdatedOn="634411390137467049">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The <em>Form </em>contains a&nbsp;<em>TreeView </em>control with a few nodes within it.<br />All images for the <em>TreeView </em>nodes are provided by the&nbsp;<em>ImageList </em>control.<br />Try to expand and select <em>TreeView </em>nodes and see that&nbsp;images will be&nbsp;changed according to node state.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>If the <strong>ImageList </strong>property value of the <em>TreeView</em>&nbsp;is anything other than null, all the tree nodes display the first Image stored in the <em>ImageList</em>. <br />You can specify which images from the list are displayed for selected and unselected nodes by setting the <strong>ImageIndex </strong>and <strong>SelectedImageIndex </strong>properties. <br />Individual <em>TreeNode </em>objects can specify which image is displayed by setting their <strong>ImageIndex </strong>and <strong>SelectedImageIndex </strong>properties. These individual settings will override the settings in the corresponding <em>TreeView </em>properties.</p>]]></Paragraph>
+  </Nodes>
+</Data>

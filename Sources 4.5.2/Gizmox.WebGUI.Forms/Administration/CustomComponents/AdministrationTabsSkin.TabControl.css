@@ -1,0 +1,354 @@
+﻿.TabControl-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.TabControl-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.TabControl-Control_Disabled .TabControl-PageHeaderText
+{
+    [Skin.ControlTextForegroundDisabled];
+}
+
+.TabControl-LeftFrame
+{
+	[Skin.LeftFrameStyle];
+}
+
+.TabControl-CenterFrame
+{
+	[Skin.CenterFrameStyle];
+}
+
+.TabControl-RightFrame
+{
+	[Skin.RightFrameStyle];
+}
+
+.TabControl-RightBottomFrame
+{
+	[Skin.RightBottomFrameStyle];
+}
+
+.TabControl-CenterBottomFrame
+{
+	[Skin.BottomFrameStyle];
+}
+
+.TabControl-LeftBottomFrame
+{
+	[Skin.LeftBottomFrameStyle];
+}
+
+.TabControl-RightTopFrame
+{
+	[Skin.RightTopFrameStyle];
+}
+
+.TabControl-CenterTopFrame
+{
+	[Skin.TopFrameStyle];
+}
+
+.TabControl-LeftTopFrame
+{
+	[Skin.LeftTopFrameStyle];
+}
+
+.TabControl-SeperatorLeftFrame
+{
+	[Skin.LeftSeperatorFrameStyle];
+}
+
+.TabControl-SeperatorCenterFrame
+{
+	[Skin.CenterSeperatorFrameStyle];
+}
+
+.TabControl-SeperatorRightFrame
+{
+	[Skin.RightSeperatorFrameStyle];
+}
+
+/* Top Zone*/
+.TabControl-TabsTopContainer
+{
+	[Skin.TabsTopContainerStyle];	
+}
+
+.TabControl-Tab .TabControl-TabTopRight
+{
+	[Skin.RightTopTabNormalStyle];	
+	float:left;
+}
+
+.TabControl-Tab .TabControl-TabTopCenter
+{
+	[Skin.CenterTopTabNormalStyle];
+	float:left;
+}
+
+.TabControl-Tab .TabControlSpread-TabTopCenter
+{
+	[Skin.TabTopNormalSpreadStyle];	
+	text-align: center;
+}
+
+.TabControl-Tab .TabControl-TabTopLeft
+{
+	[Skin.LeftTopTabNormalStyle];
+	float:left;
+}
+
+.TabControl-Tab_Enter .TabControl-TabTopRight
+{
+	[Skin.RightTopTabHoverStyle];
+}
+
+.TabControl-Tab_Enter .TabControl-TabTopCenter
+{
+	[Skin.CenterTopTabHoverStyle];
+}
+
+.TabControl-Tab_Enter .TabControlSpread-TabTopCenter
+{
+	[Skin.TabTopHoverSpreadStyle];
+	text-align:center;
+}
+
+.TabControl-Tab_Enter .TabControl-TabTopLeft
+{
+	[Skin.LeftTopTabHoverStyle];
+}
+
+.TabControl-Tab_Selected .TabControl-TabTopRight
+{
+	[Skin.RightTopTabSelectedStyle];
+}
+
+.TabControl-Tab_Selected .TabControl-TabTopCenter
+{
+	[Skin.CenterTopTabSelectedStyle];
+}
+
+.TabControl-Tab_Selected .TabControlSpread-TabTopCenter
+{
+	[Skin.TabTopSelectedSpreadStyle];
+	text-align:center;
+}
+
+.TabControl-Tab_Selected .TabControl-TabTopLeft
+{
+	[Skin.LeftTopTabSelectedStyle];
+}
+/* End Top Zone*/
+
+/* Bottom Zone*/
+.TabControl-TabsBottomContainer
+{
+	[Skin.TabsBottomContainerStyle];	
+}
+
+.TabControl-Tab .TabControl-TabBottomRight
+{
+	[Skin.RightBottomTabNormalStyle];	
+	float:left;
+}
+
+.TabControl-Tab .TabControl-TabBottomCenter
+{
+	[Skin.CenterBottomTabNormalStyle];
+	float:left;
+}
+
+.TabControl-Tab .TabControlSpread-TabBottomCenter
+{
+	[Skin.TabBottomNormalSpreadStyle];
+	text-align: center;
+}
+
+.TabControl-Tab .TabControl-TabBottomLeft
+{
+	[Skin.LeftBottomTabNormalStyle];
+	float:left;
+}
+
+.TabControl-Tab_Enter .TabControl-TabBottomRight
+{
+	[Skin.RightBottomTabHoverStyle];
+	
+}
+
+.TabControl-Tab_Enter .TabControl-TabBottomCenter
+{
+	[Skin.CenterBottomTabHoverStyle];
+}
+
+.TabControl-Tab_Enter .TabControlSpread-TabBottomCenter
+{
+	[Skin.TabBottomHoverSpreadStyle];
+	text-align: center;
+}
+
+.TabControl-Tab_Enter .TabControl-TabBottomLeft
+{
+	[Skin.LeftBottomTabHoverStyle];
+}
+
+.TabControl-Tab_Selected .TabControl-TabBottomRight
+{
+	[Skin.RightBottomTabSelectedStyle];
+}
+
+.TabControl-Tab_Selected .TabControl-TabBottomCenter
+{
+	[Skin.CenterBottomTabSelectedStyle];
+}
+
+.TabControl-Tab_Selected .TabControlSpread-TabBottomCenter
+{
+	[Skin.TabBottomSelectedSpreadStyle];
+	text-align: center;
+}
+
+.TabControl-Tab_Selected .TabControl-TabBottomLeft
+{
+	[Skin.LeftBottomTabSelectedStyle];
+}
+/* End Bottom Zone*/
+
+.TabControl-RightScrollButton
+{
+	[Skin.BidirectionalRightScrollButtonNormalStyle];
+	width:[Skin.RightScrollButtonWidth]px;
+	height:[Skin.RightScrollButtonHeight]px;
+}
+
+.TabControl-RightScrollButton_Enter
+{
+	[Skin.BidirectionalRightScrollButtonHoverStyle];
+}
+
+.TabControl-RightScrollButton_Down
+{
+	[Skin.BidirectionalRightScrollButtonPressedStyle];
+}
+
+
+.TabControl-LeftScrollButton
+{
+	[Skin.BidirectionalLeftScrollButtonNormalStyle];
+	width:[Skin.LeftScrollButtonWidth]px;
+	height:[Skin.LeftScrollButtonHeight]px;
+}
+
+.TabControl-LeftScrollButton_Enter
+{
+	[Skin.BidirectionalLeftScrollButtonHoverStyle];
+}
+
+.TabControl-LeftScrollButton_Down
+{
+	[Skin.BidirectionalLeftScrollButtonPressedStyle];
+}
+
+
+.TabControl-CloseButton
+{
+	[Skin.CloseButtonNormalStyle];
+}
+
+.TabControl-CloseButton_Enter
+{
+	[Skin.CloseButtonHoverStyle];
+}
+
+.TabControl-CloseButton_Down
+{
+	[Skin.CloseButtonPressedStyle];
+}
+
+.TabControl-ExpandButton
+{
+	[Skin.ExpandButtonNormalStyle];
+	width:[Skin.ExpandButtonWidth]px;
+	height:[Skin.ExpandButtonHeight]px;
+}
+
+.TabControl-ExpandButton_Enter
+{
+	[Skin.ExpandButtonHoverStyle];
+}
+
+.TabControl-ExpandButton_Down
+{
+	[Skin.ExpandButtonPressedStyle];
+}
+
+.TabControl-CollapseButton
+{
+	[Skin.CollapseButtonNormalStyle];
+	width:[Skin.CollapseButtonWidth]px;
+	height:[Skin.CollapseButtonHeight]px;
+}
+
+.TabControl-CollapseButton_Enter
+{
+	[Skin.CollapseButtonHoverStyle];
+}
+
+.TabControl-CollapseButton_Down
+{
+	[Skin.CollapseButtonPressedStyle];
+}
+
+.TabControl-ImageSize
+{
+	width:[Skin.TabImageWidth]px;
+	height:[Skin.TabImageHeight]px;
+}
+
+.TabControlSpread-ImageSize
+{
+	width:[Skin.TabImageWidth]px;
+	height:[Skin.TabImageHeight]px;
+	vertical-align: middle;
+}
+
+.TabControl-ContextualTabGroup
+{
+	[Skin.ContextualTabGroupNormalStyle];
+}
+
+.TabPage-Control .TabControl-Tab
+{
+    display:block;
+    vertical-align:middle;
+    [Skin.TabPageMoreTabPagesStyle];
+	height:[Skin.TabPageMoreTabPageHeight]px;
+}
+.TabPage-Control .TabControl-Tab_Enter
+{
+    [Skin.TabPageMoreTabHoverPagesStyle];
+}
+
+.TabPage-Control .TabControl-Tab_Down
+{
+    [Skin.TabPageMoreTabPressedPagesStyle];
+}
+
+.AdministrationTabs-HeadersContainer
+{
+    margin:0px;padding:0px;list-style:none;text-align:center;
+}
+
+.AdministrationTabs-HeadersContainer > li
+{
+    display:inline-block;
+}
+

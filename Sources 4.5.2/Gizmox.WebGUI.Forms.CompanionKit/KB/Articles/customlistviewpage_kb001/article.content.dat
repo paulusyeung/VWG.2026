@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634072093881698164" UpdatedBy="admin" UpdatedOn="634072880968166596">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>Click on the button in Phone column. <br />The message ' The phone number of &lt;User Name&gt; is &lt;User Phone&gt;'!' will be shown.<br />Click CheckBox in 'VIP' column and message 'The user &lt;User Name&gt; tagged as VIP user' will be shown.<br />&nbsp;</p>]]></Paragraph>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>ListView column can be the one of following types:</p><ul><li><strong>Text</strong> - ListView converts added data to a text. Column 'User Name' has this type.</li><li><strong>Number</strong> - ListView converts added data to a number. Column 'User ID' has this type.</li><li><strong>Date</strong> - ListView converts added data to a date. Column 'Birthdate' has this type.</li><li><strong>Icon</strong> - ListView converts added data to an icon. Column 'User ID' has this type.</li><li><strong>Control</strong> - ListView uses added control to show in an item. Columns 'Phone' and 'VIP'&nbsp;have this type.</li></ul>]]></Paragraph>
+  </Nodes>
+</Data>

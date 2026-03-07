@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634308547257464762" UpdatedBy="admin" UpdatedOn="634371079978008084">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains the <em>GroupBox</em> with three <em>RadioButtons</em> associated with different background colors.<br />Select apropriate&nbsp;<em>RadioButton</em> to change <em>GroupBox</em> backgroud color.<br /><em>Pay attention</em>: the image behind the GroupBox becomes visible&nbsp;when transparent color is selected.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>GroupBox</em> contains&nbsp;<em>BackColor </em>property that allows to set different background colors to the GroupBox control or leave it transparent.</p><p><strong>BackColor property</strong></p><p>This property of <em>GroupBox </em>control is inherited from Gizmox.WebGui.Forms.Control.<br />The default value is Color.Transparent in the default skin.</p>]]></Paragraph>
+  </Nodes>
+</Data>

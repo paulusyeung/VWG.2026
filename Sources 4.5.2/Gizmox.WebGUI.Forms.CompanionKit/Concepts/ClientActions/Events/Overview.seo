@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Events overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Events</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo">
+      <PreText>Events overview.</PreText>
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Section="Section-01">
+      <Style linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

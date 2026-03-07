@@ -1,0 +1,19 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>RichTextBox</Title>
+  <Properties />
+  <DisplayName>RichTextBox</DisplayName>
+  <Description>Contains examples that demonstrates how to use the Visual WebGui RichTextBox control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>RichTextBox</Keyword>
+    <Keyword>Rich</Keyword>
+    <Keyword>TextBox</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>Box</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.RichTextBox.Overview</DefaultPage>
+</Item>

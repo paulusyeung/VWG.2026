@@ -1,0 +1,18 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Wikipedia integration</Title>
+  <Properties />
+  <DisplayName>Wikipedia integration</DisplayName>
+  <Description>Demonstrates how to integrate with wikipedia through client events.</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WikipediaIntegration.cs" Order="1" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WikipediaIntegration.designer.cs" Order="2" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="WikipediaIntegration.resx" Order="3" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="True" SiteMap="False" Name="WikipediaIntegration.Client.js" Order="4" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Wikipedia integration</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Concepts.ClientActions.Events.WikipediaIntegration, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

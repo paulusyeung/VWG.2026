@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="105" Status="Draft" Type="Page">
+  <Title>InitialDirectory Property</Title>
+  <Properties />
+  <DisplayName>InitialDirectory</DisplayName>
+  <Description>The example demonstrates how to set the initial directory displayed by the file dialog box.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="InitialDirectoryPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="InitialDirectoryPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="InitialDirectoryPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="InitialDirectoryPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="InitialDirectoryPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\16x16\Folder.gif" Order="103" Lang="All" Type="Link" Title="Folder.gif" />
+  </Resources>
+  <Keywords>
+    <Keyword>OpenFileDialog</Keyword>
+    <Keyword>InitialDirectory</Keyword>
+    <Keyword>Directory</Keyword>
+  </Keywords>
+  <Comment>This example has Draft status b/c the OpenFileDialog InitialDirectoryproperty doesn't work correct (VWG-6738)</Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.OpenFileDialog.Features.InitialDirectoryPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

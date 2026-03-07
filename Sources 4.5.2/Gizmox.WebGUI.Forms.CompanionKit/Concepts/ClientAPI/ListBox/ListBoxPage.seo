@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>ListBox datasource example</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ListBoxPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ListBoxPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ListBoxPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ListBoxPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ListBoxPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="True" SiteMap="False" Name="ListBoxPage.Client.js" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgListBox</Keyword>
+    <Keyword>ListBox</Keyword>
+    <Keyword>dataSource</Keyword>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>tagName</Keyword>
+    <Keyword>vwgCheckBox</Keyword>
+    <Keyword>checked</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Concepts.ClientAPI.ListBox.ListBoxPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

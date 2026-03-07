@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135229771514433" UpdatedBy="admin" UpdatedOn="634135231027780513" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to export data from the Visual WebGui DataGridView to the excel sheet.</Description>
+  </Properties>
+  <Nodes />
+</Data>

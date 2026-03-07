@@ -1,0 +1,19 @@
+﻿<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Web SQL Example</Title>
+  <Properties />
+  <DisplayName>Web SQL Example</DisplayName>
+  <Description>Demonstrates how to use Web SQL.</Description>
+    <Resources>
+        <Resource Visible="True" PageScript="False" SiteMap="False" Name="SQLExample.cs" Order="1" Lang="CSharp" Type="File" />
+        <Resource Visible="True" PageScript="False" SiteMap="False" Name="SQLExample.designer.cs" Order="2" Lang="CSharp" Type="File" />
+        <Resource Visible="True" PageScript="False" SiteMap="False" Name="SQLExample.resx" Order="3" Lang="All" Type="File" />
+        <Resource Visible="True" PageScript="True" SiteMap="False"  Name="SQLExample.Client.js" Order="4" Lang="All" Type="File" />
+        <Resource Visible="True" PageScript="False" SiteMap="False" Name="DataGateway.cs" Order="5" Lang="CSharp" Type="File" />
+    </Resources>
+  <Keywords>
+    <Keyword>Local Storage</Keyword> 
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.DeviceIntegration.Storage.Functionality.SQLExample, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

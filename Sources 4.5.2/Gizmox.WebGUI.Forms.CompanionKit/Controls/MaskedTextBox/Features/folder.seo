@@ -1,0 +1,49 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>MaskedTextBox Overview</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains examples that demonstrate how to:
+- determine whether literals and prompt characters are included in the formatted string of the Visual WebGui MaskedTextBox;
+- define the input mask to use at run time;
+- provide custom prompt character for the Visual WebGui MaskedTextBox;
+- hide prompt characters in the input mask when the masked text box loses focus.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>MaskedTextBox</Keyword>
+    <Keyword>Masked</Keyword>
+    <Keyword>TextBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Feature" cols="2">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/Maskedtextbox.Lobby.png'/&gt;
+&lt;div&gt;The &lt;span style="color:#00ccff"&gt;MaskedTextBox&lt;/span&gt; control is functionally equivialent to the Windows Forms MaskedTextBox  control. Uses a mask to distinguish between proper and improper user input.&lt;/div&gt;&lt;div style='clear:both'&gt;&lt;/div&gt;
+&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The MaskedTextBox is one of the Out of the Box standard controls, which means it is free and available in all Visual WebGui versions.
+
+&lt;span style="color:#00ccff"&gt;The examples below demonstrate how to:&lt;/span&gt;
+- Determine whether literals and prompt characters are included in the formatted string of the Visual WebGui MaskedTextBox
+- Define the input mask to use at run time
+- Provide custom prompt character for the Visual WebGui MaskedTextBox
+- Hide prompt characters in the input mask when the masked text box loses focus.</PreText>
+      <Style concss="margin-top: 20px;&#xD;&#xA;margin-bottom: 20px;&#xD;&#xA;" />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Title="TextMaskFormat Property" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to determine whether literals and prompt characters are included in the formatted string of the Visual WebGui MaskedTextBox.&lt;/div&gt;" Link="item:CompanionKit.Controls.MaskedTextBox.Features.TextMaskFormatPage" Section="Section-01">
+      <Style linktype="InnerItem" titlecss="padding-left:15px;" bodycss="padding-left:15px;" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="Mask Property" Body="&lt;div  onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to define the input mask to use at run time.&lt;/div&gt;" Link="item:CompanionKit.Controls.MaskedTextBox.Features.MaskPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="Prompt Character " Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to provide custom prompt character for the Visual WebGui MaskedTextBox.&lt;/div&gt;" Link="item:CompanionKit.Controls.MaskedTextBox.Features.PromptCharacterPage" Section="Section-01">
+      <Style linktype="InnerItem" titlecss="margin-top: 10px;&#xD;&#xA;padding-left:15px;" bodycss="padding-left:15px;&#xD;&#xA;padding-bottom:10px;" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="HidePromptOnLeave Property" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to hide prompt characters in the input mask when the masked text box loses focus.&lt;/div&gt;" Link="item:CompanionKit.Controls.MaskedTextBox.Features.HidePromptOnLeavePage" Section="Section-01">
+      <Style linktype="InnerItem" titlecss="margin-top: 10px;" concss="border: 1px solid transparent;" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

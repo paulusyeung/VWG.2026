@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634094550925890703" UpdatedBy="admin" UpdatedOn="634094643474222391" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to create property grid and select an object for inspecting.</Description>
+  </Properties>
+  <Nodes />
+</Data>

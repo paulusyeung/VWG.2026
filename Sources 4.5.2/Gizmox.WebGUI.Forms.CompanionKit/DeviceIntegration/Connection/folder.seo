@@ -1,0 +1,15 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+    <Title>Connection</Title>
+    <Properties />
+    <DisplayName>Connection</DisplayName>
+    <Description>Contains sample apps that demonstrate how to use Connection</Description>
+    <Resources />
+    <Keywords>
+        <Keyword>Connection</Keyword>
+    </Keywords>
+    <Comment>
+    </Comment>
+    <Sections />
+    <Body />
+    <DefaultPage>item:CompanionKit.DeviceIntegration.Connection.Example</DefaultPage>
+</Item>

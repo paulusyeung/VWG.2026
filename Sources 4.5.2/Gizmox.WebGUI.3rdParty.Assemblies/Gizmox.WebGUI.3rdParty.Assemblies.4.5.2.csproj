@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{495520D8-B809-48A0-878F-FBC10D6BA5FA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gizmox.WebGUI._rdParty.Assemblies</RootNamespace>
+    <AssemblyName>Gizmox.WebGUI.3rdParty.Assemblies</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Content Include="ICSharpCode.SharpZipLib\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="ICSharpCode.SharpZipLib\ICSharpCode.SharpZipLib.License.Exception.txt" />
+    <Content Include="ICSharpCode.SharpZipLib\ICSharpCode.SharpZipLib.License.txt" />
+    <Content Include="Itenso\Itenso.Rtf.Converter.Html.dll" />
+    <Content Include="Itenso\Itenso.Rtf.Interpreter.dll" />
+    <Content Include="Itenso\Itenso.Rtf.Parser.dll" />
+    <Content Include="Itenso\Itenso.Sys.dll" />
+    <Content Include="Newtonsoft.Json\Newtonsoft.Json.dll" />
+    <Content Include="ZedGraph\ZedGraph.dll" />
+    <Content Include="SignalR\v2.0\Microsoft.AspNet.SignalR.Core.dll" />
+    <Content Include="SignalR\v2.0\Microsoft.AspNet.SignalR.SystemWeb.dll" />
+    <Content Include="SignalR\v2.0\Microsoft.Owin.dll" />
+    <Content Include="SignalR\v2.0\Microsoft.Owin.Host.SystemWeb.dll" />
+    <Content Include="SignalR\v2.0\Microsoft.Owin.Security.dll" />
+    <Content Include="SignalR\v2.0\Owin.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+</Project>

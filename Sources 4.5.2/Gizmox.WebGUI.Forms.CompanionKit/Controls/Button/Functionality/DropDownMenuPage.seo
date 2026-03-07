@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Page">
+  <Title>Adding DropDownMenu to button</Title>
+  <Properties />
+  <DisplayName>Drop Down Menu</DisplayName>
+  <Description>Demonstrates how to use DropDownMenu property of Button control. The sample app contains the demonstrated Button with defined DropDownMenu property as ContextMenu. If you click on the Button DropDown menu is opened. Clicking on each menu item causes the message 'Menu Item has been clicked!' is shown.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="DropDownMenuPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DropDownMenuPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DropDownMenuPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DropDownMenuPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DropDownMenuPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Button</Keyword>
+    <Keyword>DropDownMenu</Keyword>
+    <Keyword>DropDown</Keyword>
+    <Keyword>ContextMenu</Keyword>
+    <Keyword>Menu</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Button.Functionality.DropDownMenuPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

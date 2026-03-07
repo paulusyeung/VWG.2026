@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Reorder columns through Drag and Drop</Title>
+  <Properties />
+  <DisplayName>Column Reordering</DisplayName>
+  <Description>The example demonstrates how to allow reordering of columns through Drag and Drop in the Visual WebGui ListView.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ColumnReorderingPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ColumnReorderingPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ColumnReorderingPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ColumnReorderingPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ColumnReorderingPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListView</Keyword>
+    <Keyword>Reorder</Keyword>
+    <Keyword>Order</Keyword>
+    <Keyword>Column</Keyword>
+    <Keyword>Drag</Keyword>
+    <Keyword>Drop</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListView.Features.ColumnReorderingPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

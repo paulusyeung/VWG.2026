@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634158361316409806" UpdatedBy="admin" UpdatedOn="634275001290696263">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click the&nbsp;'<strong>Show CloseButton</strong>' checkbox to display close button.<br /><br />Click the close button <img height="19" width="19" align="top" alt="Back scroll button" src="/KB/Articles/closebuttonpage_kb001/closebutton.png" /> to remove currently selected TabPage.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>TabControl contains property and event related to close button:</p><p><em>ShowCloseButton </em>property indicates whether to show the tab close button.</p><p><em>CloseClick </em>event occurs when the close button clicked.</p>]]></Paragraph>
+  </Nodes>
+</Data>

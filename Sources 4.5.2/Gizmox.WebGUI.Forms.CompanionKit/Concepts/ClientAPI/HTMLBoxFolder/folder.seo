@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>HTMLBox Demonstration</Title>
+  <Properties />
+  <DisplayName>HTMLBox</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>vwgFrameControl</Keyword>
+    <Keyword>source</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.HTMLBoxFolder.Overview</DefaultPage>
+</Item>

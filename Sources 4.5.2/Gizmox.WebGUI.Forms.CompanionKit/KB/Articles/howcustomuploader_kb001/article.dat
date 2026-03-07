@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634044158816511488" UpdatedBy="admin" UpdatedOn="634260325361489782" Status="Publish" License="None">
+  <Properties>
+    <Title>How to implement Visual WebGui custom control</Title>
+    <Description>Visual WebGui allows fast and simple development of Web/Cloud applications while providing flexibility and extensibility to leverage existing 3rd party components. This article shows how to implement a custom control by integration of Aurigma Image Uploader for further usage in Visual WebGui projects. The implementation will be done by demonstrating of key concept of new skin designer introduced in version 6.4.</Description>
+  </Properties>
+  <Nodes>
+    <Category Code="UI.CustomControls.Input" />
+  </Nodes>
+</Data>

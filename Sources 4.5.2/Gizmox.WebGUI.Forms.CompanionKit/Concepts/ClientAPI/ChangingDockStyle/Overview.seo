@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview Client Dock Style</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="Demonstrates how to change docking styles. Each button applies one of the five &lt;span style=&quot;color:#00ccff&quot;&gt;dock styles&lt;/span&gt;: Top, Fill, Bottom, Left, Right." Section="Section-01" Title="Example scenario:">
+      <Style linktype="NoLink" bodycss="font-size:medium" />
+    </Element>
+    <Element Body="vwgControl: dock." Section="Section-01" Title="Used ClientAPI functions:">
+      <Style linktype="NoLink" bodycss="font-size:medium" />
+    </Element>
+  </Body>
+</Item>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634111794362471248" UpdatedBy="admin" UpdatedOn="634144576082151428" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrate how to add scrolling for a panel to ensure viewing of controls placed outside of visible boundaries.</Description>
+  </Properties>
+  <Nodes />
+</Data>

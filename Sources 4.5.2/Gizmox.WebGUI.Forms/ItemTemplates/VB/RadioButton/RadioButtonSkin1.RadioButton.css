@@ -1,0 +1,37 @@
+﻿
+.RadioButton-Control
+{
+	[Skin.Border];	
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.RadioButton-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.RadioButton-Control_Focus
+{
+    [Skin.ControlFocusedStyle];
+}
+
+.RadioButton-Label
+{
+	[Skin.Foreground];
+	[Skin.Font];	
+	[Skin.TextNormalStyle];
+	line-height:100%;	
+	display:block;
+}
+
+.RadioButton-Control_Focus .RadioButton-Label
+{
+	[Skin.TextFocusedStyle];
+	display:block;
+}
+
+.RadioButton-Control_Disabled .RadioButton-Label
+{
+    [Skin.ControlTextForegroundDisabled];
+}

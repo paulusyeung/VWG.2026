@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634112601191108060" UpdatedBy="admin" UpdatedOn="634139510559752274" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>This example demostrates how to use CustomColors property of ColorDialog.</Description>
+  </Properties>
+  <Nodes />
+</Data>

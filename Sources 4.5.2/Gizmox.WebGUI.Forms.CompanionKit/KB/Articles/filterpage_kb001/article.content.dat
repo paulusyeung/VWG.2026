@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634080545113736273" UpdatedBy="admin" UpdatedOn="634081629456677600">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select filters of file types in the ListBox and click on the 'Open OpenFileDialog with specified Filter' button and the upload file dialog will be opened. And <em>OpenFileDialog </em>will contain selected filters in the 'Files of type' ConboBox. The <em>OpenFileDialog </em>will display only files with selected extension.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>OpenFileDialog </em>contains the following properties for the filtering of open file types:<br /><strong>Filter </strong>- the current filter string of the&nbsp;file name  to determine the choices that appear in the &quot;Save as file type&quot; or &quot;Files of type&quot; box in the dialog box.<br /><strong>FilterIndex </strong>&ndash; indicates the index of the filter currently selected in the file dialog box.</p><p>For each filtering option, the filter string contains a description of the filter, followed by the vertical bar (|) and the filter pattern. The strings for different filtering options are separated by the vertical bar.<br />The following is an example of a filter string: <br />Text files (*.txt)|*.txt|All files (*.*)|*.*<br />You can add several filter patterns to a filter by separating the file types with semicolons, for example: <br />Image Files(*.BMP;*.JPG;*.GIF)|*.BMP;*.JPG;*.GIF|All files (*.*)|*.*<br />Use the FilterIndex property to set which filtering option is shown first to the user.</p>]]></Paragraph>
+  </Nodes>
+</Data>

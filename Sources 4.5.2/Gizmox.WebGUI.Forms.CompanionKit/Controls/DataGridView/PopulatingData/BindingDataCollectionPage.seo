@@ -1,0 +1,32 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to populate data through binded collection</Title>
+  <Properties />
+  <DisplayName>Binding Data Collection</DisplayName>
+  <Description>The example demonstrates how to populate a DataGridView from a collection.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="BindingDataCollectionPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingDataCollectionPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingDataCollectionPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingDataCollectionPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingDataCollectionPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\32x32\Photo.png" Order="103" Lang="All" Type="Link" Title="Photo.png" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\Customer.cs" Order="104" Lang="CSharp" Type="Link" Title="Customer.cs" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\Customer.vb" Order="104" Lang="VBNET" Type="Link" Title="Customer.vb" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\CustomerData.cs" Order="105" Lang="CSharp" Type="Link" Title="CustomerData.cs" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\CustomerData.vb" Order="105" Lang="VBNET" Type="Link" Title="CustomerData.vb" />
+  </Resources>
+  <Keywords>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>Collection</Keyword>
+    <Keyword>DataSource</Keyword>
+    <Keyword>Object</Keyword>
+    <Keyword>Custom</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DataGridView.PopulatingData.BindingDataCollectionPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>DomainUpDown</Title>
+  <Properties />
+  <DisplayName>DomainUpDown</DisplayName>
+  <Description>Contains examples that demonstrate how to use the Visual WebGui DomainUpDown control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DomainUpDown</Keyword>
+    <Keyword>UpDown</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.DomainUpDown.Overview</DefaultPage>
+</Item>

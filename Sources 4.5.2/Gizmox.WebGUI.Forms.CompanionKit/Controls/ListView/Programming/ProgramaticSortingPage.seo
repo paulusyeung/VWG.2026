@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to apply sorting programmatically</Title>
+  <Properties />
+  <DisplayName>Programmatic Sorting</DisplayName>
+  <Description>The example demonstrates how to implement custom sorting for a ListView</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ProgramaticSortingPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ProgramaticSortingPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ProgramaticSortingPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ProgramaticSortingPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ProgramaticSortingPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListView</Keyword>
+    <Keyword>Sort</Keyword>
+    <Keyword>Sorting</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>Order</Keyword>
+    <Keyword>Ordering</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListView.Programming.ProgramaticSortingPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

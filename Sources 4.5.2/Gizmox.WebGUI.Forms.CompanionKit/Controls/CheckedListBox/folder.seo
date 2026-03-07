@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>CheckedListBox</Title>
+  <Properties />
+  <DisplayName>CheckedListBox</DisplayName>
+  <Description>Contains sample apps that demonstrates how to use CheckedListBox control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>CheckedListBox</Keyword>
+    <Keyword>ListBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.CheckedListBox.Overview</DefaultPage>
+</Item>

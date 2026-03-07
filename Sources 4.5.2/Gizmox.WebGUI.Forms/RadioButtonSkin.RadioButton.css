@@ -1,0 +1,310 @@
+
+.RadioButton-Control
+{
+	[Skin.Border];	
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.RadioButton-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.RadioButton-Control_Focus
+{
+    [Skin.ControlFocusedStyle];
+}
+
+.RadioButton-Label
+{
+	[Skin.Foreground];
+	[Skin.Font];	
+	[Skin.TextNormalStyle];
+	line-height:100%;	
+	display:block;
+}
+
+.RadioButton-Control_Focus .RadioButton-Label
+{
+	[Skin.TextFocusedStyle];
+	display:block;
+}
+
+.RadioButton-Control_Disabled .RadioButton-Label
+{
+    [Skin.ControlTextForegroundDisabled];
+    [Skin.ControlTextFontDisabled];
+}
+
+.RadioButton-ButtonControl
+{
+	
+}
+
+.RadioButton-ButtonControl .RadioButton-FontData
+{
+	[Skin.FontNormal];
+	[Skin.ForegroundNormal];
+}
+
+.RadioButton-ButtonControl_Enter .RadioButton-FontData
+{
+	[Skin.FontHover];
+	[Skin.ForegroundHover];
+}
+
+.RadioButton-ButtonControlChecked .RadioButton-FontData
+{
+	[Skin.FontPressed];
+	[Skin.ForegroundPressed];
+}
+
+.RadioButton-ButtonControl_Focus .RadioButton-FontData
+{
+	[Skin.FontFocused];
+	[Skin.ForegroundFocused];
+}
+
+.RadioButton-ButtonControl_Disabled .RadioButton-FontData
+{
+	[Skin.FontDisabled];
+	[Skin.ForegroundDisabled];
+}
+
+.RadioButton-Content
+{
+	[Skin.ContentPadding];
+}
+
+.RadioButton-ButtonControl .RadioButton-TopLeft
+{
+	[Skin.LeftTopNormalStyle];
+}
+
+.RadioButton-ButtonControl .RadioButton-Left
+{
+	[Skin.LeftNormalStyle];
+}
+
+.RadioButton-ButtonControl .RadioButton-BottomLeft
+{
+	[Skin.LeftBottomNormalStyle]; 
+}
+
+.RadioButton-ButtonControl .RadioButton-Center
+{
+	[Skin.CenterNormalStyle];
+}
+
+.RadioButton-ButtonControl .RadioButton-CenterTransparent
+{
+	[Skin.CenterNormalStyle];
+	background-color:transparent;
+	background-image:none;
+}
+
+.RadioButton-ButtonControl .RadioButton-TopRight
+{
+	[Skin.RightTopNormalStyle]; 
+}
+
+.RadioButton-ButtonControl .RadioButton-Right
+{
+	[Skin.RightNormalStyle]; 
+}
+
+.RadioButton-ButtonControl .RadioButton-BottomRight
+{
+	[Skin.RightBottomNormalStyle];  
+}
+
+.RadioButton-ButtonControl .RadioButton-Top
+{
+	[Skin.TopNormalStyle];
+}
+
+.RadioButton-ButtonControl .RadioButton-Bottom
+{
+	[Skin.BottomNormalStyle];
+}
+
+.RadioButton-ButtonControl_Enter .RadioButton-TopLeft
+{
+	[Skin.LeftTopHoverStyle]; 
+}
+
+.RadioButton-ButtonControl_Enter .RadioButton-Left
+{
+	[Skin.LeftHoverStyle]; 
+}
+
+.RadioButton-ButtonControl_Enter .RadioButton-BottomLeft
+{
+	[Skin.LeftBottomHoverStyle]; 
+}
+
+.RadioButton-ButtonControl_Enter .RadioButton-Center
+{
+	[Skin.CenterHoverStyle];
+}
+
+.RadioButton-ButtonControl_Enter .RadioButton-TopRight
+{
+	[Skin.RightTopHoverStyle]; 
+}
+
+.RadioButton-ButtonControl_Enter .RadioButton-Right
+{
+	[Skin.RightHoverStyle];
+}
+
+.RadioButton-ButtonControl_Enter .RadioButton-BottomRight
+{
+	[Skin.RightBottomHoverStyle];
+}
+
+.RadioButton-ButtonControl_Enter .RadioButton-Top
+{
+	[Skin.TopHoverStyle]; 
+}
+
+.RadioButton-ButtonControl_Enter .RadioButton-Bottom
+{
+	[Skin.BottomHoverStyle]; 
+}
+
+.RadioButton-ButtonControlChecked .RadioButton-TopLeft
+{
+	[Skin.LeftTopPressedStyle]; 
+}
+
+.RadioButton-ButtonControlChecked .RadioButton-Left
+{
+	[Skin.LeftPressedStyle]; 
+}
+
+.RadioButton-ButtonControlChecked .RadioButton-BottomLeft
+{
+	[Skin.LeftBottomPressedStyle];  
+}
+
+.RadioButton-ButtonControlChecked .RadioButton-Center
+{
+	[Skin.CenterPressedStyle];
+}
+
+.RadioButton-ButtonControlChecked .RadioButton-TopRight
+{
+	[Skin.RightTopPressedStyle];
+}
+
+.RadioButton-ButtonControlChecked .RadioButton-Right
+{
+	[Skin.RightPressedStyle];
+}
+
+.RadioButton-ButtonControlChecked .RadioButton-BottomRight
+{
+	[Skin.RightBottomPressedStyle];
+}
+
+.RadioButton-ButtonControlChecked .RadioButton-Top
+{
+	[Skin.TopPressedStyle];
+}
+
+.RadioButton-ButtonControlChecked .RadioButton-Bottom
+{
+	[Skin.BottomPressedStyle];
+}
+
+.RadioButton-ButtonControl_Focus .RadioButton-TopLeft
+{
+	[Skin.LeftTopFocusedStyle];
+}
+
+.RadioButton-ButtonControl_Focus .RadioButton-Left
+{
+	[Skin.LeftFocusedStyle];
+}
+
+.RadioButton-ButtonControl_Focus .RadioButton-BottomLeft
+{
+	[Skin.LeftBottomFocusedStyle]; 
+}
+
+.RadioButton-ButtonControl_Focus .RadioButton-Center
+{
+	[Skin.CenterFocusedStyle]; 
+}
+
+.RadioButton-ButtonControl_Focus .RadioButton-TopRight
+{
+	[Skin.RightTopFocusedStyle];
+}
+
+.RadioButton-ButtonControl_Focus .RadioButton-Right
+{
+	[Skin.RightFocusedStyle]; 
+}
+
+.RadioButton-ButtonControl_Focus .RadioButton-BottomRight
+{
+	[Skin.RightBottomFocusedStyle]; 
+}
+
+.RadioButton-ButtonControl_Focus .RadioButton-Top
+{
+	[Skin.TopFocusedStyle]; 
+}
+
+.RadioButton-ButtonControl_Focus .RadioButton-Bottom
+{
+	[Skin.BottomFocusedStyle]; 
+}
+
+.RadioButton-ButtonControl_Disabled .RadioButton-TopLeft
+{
+	[Skin.LeftTopDisabledStyle];
+}
+
+.RadioButton-ButtonControl_Disabled .RadioButton-Left
+{
+	[Skin.LeftDisabledStyle];
+}
+
+.RadioButton-ButtonControl_Disabled .RadioButton-BottomLeft
+{
+	[Skin.LeftBottomDisabledStyle]; 
+}
+
+.RadioButton-ButtonControl_Disabled .RadioButton-Center
+{
+	[Skin.CenterDisabledStyle];
+}
+
+.RadioButton-ButtonControl_Disabled .RadioButton-TopRight
+{
+	[Skin.RightTopDisabledStyle]; 
+}
+
+.RadioButton-ButtonControl_Disabled .RadioButton-Right
+{
+	[Skin.RightDisabledStyle];
+}
+
+.RadioButton-ButtonControl_Disabled .RadioButton-BottomRight
+{
+	[Skin.RightBottomDisabledStyle]; 
+}
+
+.RadioButton-ButtonControl_Disabled .RadioButton-Top
+{
+	[Skin.TopDisabledStyle];  
+}
+
+.RadioButton-ButtonControl_Disabled .RadioButton-Bottom
+{
+	[Skin.BottomDisabledStyle];
+}

@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="180">
+  <Title>How to populate a checked ListBox from a collection</Title>
+  <Properties />
+  <DisplayName>Collection DataSource</DisplayName>
+  <Description>Demonstrates how to populate a CheckedListBox from a collection. The CheckedListBox has DataSource as List of Customer object that contains 'ID' 'FullName' and other public properties.  'ID' property is set such ValueMember and 'FullName' property is set such DisplayMember for the CheckedListBox.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CollectionDataSourcePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CollectionDataSourcePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CollectionDataSourcePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CollectionDataSourcePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CollectionDataSourcePage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\Customer.cs" Order="103" Lang="CSharp" Title="Customer.cs" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\Customer.vb" Order="103" Lang="VBNET" Title="Customer.vb" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\CustomerData.cs" Order="104" Lang="CSharp" Title="CustomerData.cs" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\CustomerData.vb" Order="104" Lang="VBNET" Title="CustomerData.vb" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>CheckedListBox</Keyword>
+    <Keyword>Collection</Keyword>
+    <Keyword>DataSource</Keyword>
+    <Keyword>ValueMember</Keyword>
+    <Keyword>DisplayMember</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CheckedListBox.PopulatingData.CollectionDataSourcePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

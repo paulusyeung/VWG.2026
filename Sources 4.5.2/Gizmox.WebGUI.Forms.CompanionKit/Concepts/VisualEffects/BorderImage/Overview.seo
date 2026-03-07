@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="The &lt;span style=&quot;color:#00ccff&quot;&gt;Border Image&lt;/span&gt; visual effect allows user to set image as a border around of control." Section="Section-01">
+      <Style linktype="NoLink" bodycss="font-size:medium" />
+    </Element>
+    <Element Body="&quot;Border Repeat&quot; comboBox allows to set BorderImage visual effect with according parameter to button control." Title="Example scenario:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

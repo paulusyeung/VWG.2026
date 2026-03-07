@@ -1,0 +1,38 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to use a control panel with a listview Item</Title>
+  <Properties />
+  <DisplayName>Listview with control panel</DisplayName>
+  <Description>The examples demonstrates how to use a control panel within listview Item. Combined with example of adding a control in listview sub-item, you can achieve a lot of interesting user interfaces and functionality.</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ItemPanel.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ItemPanel.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ItemPanel.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ItemPanel.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ItemPanel.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ListViewControlPanel.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ListViewControlPanel.designer.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ListViewControlPanel.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ListViewControlPanel.designer.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ListViewControlPanel.resx" Order="105" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Resources\Icons\Headers\Important.gif" Order="106" Lang="All" Title="Important.gif" Type="Link" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Resources\Icons\Headers\Opened.gif" Order="107" Lang="All" Title="Opened.gif" Type="Link" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Resources\Icons\Headers\Attachment.gif" Order="108" Lang="All" Title="Attachment.gif" Type="Link" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Resources\Icons\ImportantMail.gif" Order="109" Lang="All" Title="ImportantMail.gif" Type="Link" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Resources\Icons\OpenedMail.gif" Order="110" Lang="All" Title="OpenedMail.gif" Type="Link" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Resources\Icons\ClosedMail.gif" Order="111" Lang="All" Title="ClosedMail.gif" Type="Link" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Resources\Icons\AttachedMail.gif" Order="112" Lang="All" Title="AttachedMail.gif" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>Subitem</Keyword>
+    <Keyword>Item</Keyword>
+    <Keyword>Panel</Keyword>
+    <Keyword>ListView</Keyword>
+    <Keyword>Custom</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListView.Features.ItemPanel, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

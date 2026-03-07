@@ -1,0 +1,31 @@
+<Item SiteMap="True" Order="103" Status="Publish" Type="Page">
+  <Title>Navigate tree with keyboard</Title>
+  <Properties />
+  <DisplayName>Keyboard support</DisplayName>
+  <Description>The example demonstrates how to support keyboard in the Visual WebGui TreeView. </Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="KeyboardSupportPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="KeyboardSupportPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="KeyboardSupportPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="KeyboardSupportPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="KeyboardSupportPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TreeView</Keyword>
+    <Keyword>Keyboard</Keyword>
+    <Keyword>Navigation</Keyword>
+    <Keyword>Key</Keyword>
+    <Keyword>Arrow</Keyword>
+    <Keyword>Up</Keyword>
+    <Keyword>Down</Keyword>
+    <Keyword>Expand</Keyword>
+    <Keyword>Collapse</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TreeView.Features.KeyboardSupportPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

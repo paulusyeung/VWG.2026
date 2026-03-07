@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Extended Headers</Title>
+  <Properties />
+  <DisplayName>Extended Headers</DisplayName>
+  <Description>The example demonstrates Extended Headers functionality.</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ExtendedHeadersPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ExtendedHeadersPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ExtendedHeadersPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ExtendedHeadersPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ExtendedHeadersPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Extended</Keyword>
+    <Keyword>Headers</Keyword>
+    <Keyword>DataGridView</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DataGridView.Features.ExtendedHeadersPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

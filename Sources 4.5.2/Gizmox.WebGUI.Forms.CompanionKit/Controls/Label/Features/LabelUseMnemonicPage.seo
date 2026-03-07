@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="100" Status="Draft" Type="Page">
+  <Title>Use Mnemonic</Title>
+  <Properties />
+  <DisplayName>UseMnemonic property</DisplayName>
+  <Description>The example demonstrates how to use mnemonic symbols for better keyboard navigation</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="LabelUseMnemonicPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelUseMnemonicPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelUseMnemonicPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelUseMnemonicPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelUseMnemonicPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Label</Keyword>
+    <Keyword>UseMnemonic</Keyword>
+    <Keyword>Keyboard</Keyword>
+    <Keyword>Navigation</Keyword>
+    <Keyword>Mnemonic</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.LabelFolder.Features.LabelUseMnemonicPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

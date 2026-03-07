@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634078840865690155" UpdatedBy="admin" UpdatedOn="634078962260258026" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates updating status of load process. The Timer updates text of the StatusBar and a value of the ProgressBar via 500 millisecond.</Description>
+  </Properties>
+  <Nodes />
+</Data>

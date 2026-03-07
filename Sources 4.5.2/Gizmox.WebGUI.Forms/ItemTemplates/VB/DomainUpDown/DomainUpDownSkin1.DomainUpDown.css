@@ -1,0 +1,64 @@
+﻿.DomainUpDown-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.DomainUpDown-Input
+{
+	[Skin.Foreground];
+	[Skin.Font];
+}
+
+.DomainUpDown-Input_Disabled
+{
+	[Skin.ControlTextForegroundDisabled];
+    [Skin.ControlTextBackgroundDisabled];
+    [Skin.ControlTextFontDisabled];
+}
+
+.DomainUpDown-UpCell
+{
+	[Skin.UpNormalStyle];
+}
+
+.DomainUpDown-UpCell_Enter
+{
+	[Skin.UpOverStyle];
+}
+
+.DomainUpDown-UpCell_Down
+{
+	[Skin.UpDownStyle];
+}
+
+.DomainUpDown-DownCell
+{
+	[Skin.DownNormalStyle];
+}
+
+.DomainUpDown-DownCell_Enter
+{
+	[Skin.DownOverStyle];
+}
+
+.DomainUpDown-DownCell_Down
+{
+	[Skin.DownDownStyle];
+}
+
+.DomainUpDown-ButtonsContainer
+{
+	[Skin.ButtonsContainerNormalStyle];	
+}
+
+.DomainUpDown-ButtonsContainer_Enter
+{
+	[Skin.ButtonsContainerHoverStyle];	
+}
+
+.DomainUpDown-ButtonsContainer_Down
+{
+	[Skin.ButtonsContainerPressedStyle];	
+}

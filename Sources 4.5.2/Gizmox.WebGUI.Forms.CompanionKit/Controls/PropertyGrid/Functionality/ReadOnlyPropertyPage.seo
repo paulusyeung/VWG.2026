@@ -1,0 +1,30 @@
+<Item SiteMap="True" Order="105" Status="Publish" Type="Page">
+  <Title>How to display read-only property.</Title>
+  <Properties />
+  <DisplayName>Read Only Property </DisplayName>
+  <Description>The example demonstrates how to display read-only property in the Visual WebGui PropertyGrid.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ReadOnlyPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ReadOnlyPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ReadOnlyPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ReadOnlyPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ReadOnlyPropertyPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DemoObject.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DemoObjectConverter.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DemoObject.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DemoObjectConverter.vb" Order="104" Lang="VBNET" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>PropertyGrid</Keyword>
+    <Keyword>Read-Only</Keyword>
+    <Keyword>Read</Keyword>
+    <Keyword>ReadOnly</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.PropertyGrid.Functionality.ReadOnlyPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

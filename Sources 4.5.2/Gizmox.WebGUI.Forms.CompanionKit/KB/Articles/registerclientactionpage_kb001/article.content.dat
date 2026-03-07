@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128267106172590" UpdatedBy="admin" UpdatedOn="634128267791176974">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The demonstrated <em>ToolBar </em>contains three <em>Buttons </em>with registered action to open web site. Click on the 'VisualWebGUI' button, the internet browser with 'http://www.visualwebgui.com' site will be opened. Click on the 'Google' Button the internet browser with 'http://www.google.com' is opened. Click on the 'Microsoft' button the internet browser with 'http://www.microsoft.com' is opened.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>Button </em>of the Visual WebGui <em>ToolBar </em>contains <em>RegisterClientAction </em>methods that registers the default client invocation. The action will be invocated by click on the button.</p>]]></Paragraph>
+  </Nodes>
+</Data>

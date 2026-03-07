@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110901754580915" UpdatedBy="admin" UpdatedOn="634110942263890365">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>Open <em>DropDown </em>for 'Custom TreeView ComboBox' <em>ComboBox </em>and <em>DropDown </em>will be opened with text and color rectangles.</p>]]></Paragraph>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>&nbsp;The example contains the demonstrated <em>ComboBox</em>, which&nbsp;has <em>DataSource </em>as the array of objects that have public property 'FavoriteColor' with <em>Color </em>type. And the 'FavoriteColor' property is set as <em>ColorMember </em>for the <em>ComboBox</em></p>]]></Paragraph>
+  </Nodes>
+</Data>

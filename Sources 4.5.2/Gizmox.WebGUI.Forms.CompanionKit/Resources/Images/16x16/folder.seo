@@ -1,0 +1,34 @@
+<Item SiteMap="False" Order="1" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>16x16</Title>
+  <Properties />
+  <DisplayName>16x16</DisplayName>
+  <Description>The folder is a container of 16x16 resources. Should be always with Status - Draft.
+  </Description>
+  <Resources>
+    <Resource Visible="False" SiteMap="False" Name="SelectedTreeNode.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="DefaultTreeNode.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Folder.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Font.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Delete.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Print.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="HighImportance.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Permission.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="LowImportance.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Photo.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Sea.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="About.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="View.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Stone.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Delete.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="appointment.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="RightReadingPane.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="EmptyTreeNode.gif" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>
+  </DefaultPage>
+</Item>

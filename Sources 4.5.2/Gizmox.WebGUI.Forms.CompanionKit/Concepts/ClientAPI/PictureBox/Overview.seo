@@ -1,0 +1,33 @@
+<Item SiteMap="True" Order="99" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgListBox</Keyword>
+    <Keyword>vwgPictureBox</Keyword>
+    <Keyword>ListBox</Keyword>
+    <Keyword>PictureBox</Keyword>
+    <Keyword>selectedIndex</Keyword>
+    <Keyword>dataSource</Keyword>
+    <Keyword>imageUrl</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="A &lt;span style=&quot;color:#00ccff&quot;&gt;ListBox&lt;/span&gt; contains a list of image names. The &lt;span style=&quot;color:#00ccff&quot;&gt;PictureBox.imageUrl&lt;/span&gt; changes according to the selected item in the ListBox." Title="Example scenario:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+    <Element Body="vwgPictureBox: imageUrl; vwgListBox: selectedIndex, dataSource;" Title="Used ClientAPI functions:" Section="Section-01">
+      <Style linktype="NoLink" bodycss="font-size:medium" />
+    </Element>
+  </Body>
+</Item>

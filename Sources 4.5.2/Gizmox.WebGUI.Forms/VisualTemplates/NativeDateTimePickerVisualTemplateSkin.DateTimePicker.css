@@ -1,0 +1,24 @@
+.DateTimePicker-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.DateTimePicker-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.DateTimePicker-Input
+{	
+	[Skin.Font];
+    [Skin.InputValueStyle];
+}
+
+.DateTimePicker-Input_Disabled
+{
+    [Skin.ControlTextForegroundDisabled];
+    [Skin.ControlTextBackgroundDisabled];
+    [Skin.ControlTextFontDisabled];
+}

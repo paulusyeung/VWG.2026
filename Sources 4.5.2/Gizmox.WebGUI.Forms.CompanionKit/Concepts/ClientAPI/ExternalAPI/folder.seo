@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>External API integration</Title>
+  <Properties />
+  <DisplayName>External API integration</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>External</Keyword>
+    <Keyword>API</Keyword>
+    <Keyword>integration</Keyword>
+    <Keyword>Client</Keyword>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>wikipedia</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.ExternalAPI.Overview</DefaultPage>
+</Item>

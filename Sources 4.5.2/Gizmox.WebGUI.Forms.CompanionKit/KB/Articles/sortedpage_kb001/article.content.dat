@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110750048102546" UpdatedBy="admin" UpdatedOn="634110791758831499">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check 'Turn on Sorted property for CheckedListBox' <em>CheckBox </em>and <em>CheckedListBox </em>items will be sorted. Uncheck the <em>CheckBox </em>and these items will be unsorted.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The example contains demonstrated <em>CheckedListBox </em>and <em>CheckBox&nbsp; </em>'Turn on Sorted property for CheckedListBox', which change <em>CheckedListBox Sorted </em>property value&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

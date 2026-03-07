@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Binding to Data using a BindingSource</Title>
+  <Properties />
+  <DisplayName>Binding to Data</DisplayName>
+  <Description>The example demonstrates how to bind BindingNavigator control to a BindingSource</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="BindingToDataPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingToDataPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingToDataPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingToDataPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingToDataPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>BindingNavigator</Keyword>
+    <Keyword>Navigator</Keyword>
+    <Keyword>Navigation</Keyword>
+    <Keyword>BindingSource</Keyword>
+    <Keyword>Binding</Keyword>
+    <Keyword>DataBinding</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.BindingNavigator.Features.BindingToDataPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

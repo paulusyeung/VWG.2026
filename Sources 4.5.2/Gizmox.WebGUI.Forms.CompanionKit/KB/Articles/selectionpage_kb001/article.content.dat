@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135239897101245" UpdatedBy="admin" UpdatedOn="634135241155851245">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change the <em>DataGridView </em>selection mode by the 'SelectionMode' ComboBox and select cells according to the different mode.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DataGridView </em>contains the <em>SelectionMode </em>property that defines how the cells of the DataGridView can be selected.<br />Selection modes are the following: <br />- <strong>CellSelect </strong>- one or more individual cells can be selected.<br />- <strong>FullRowSelect </strong>- the entire row will be selected by clicking its row's header or a cell contained in that row. <br />- FullColumnSelect - the entire column will be selected by clicking the column's header or a cell contained in that column.<br />- <strong>RowHeaderSelect </strong>- the row will be selected by clicking in the row's header cell. An individual cell can be selected by clicking that cell.<br />- <strong>ColumnHeaderSelect </strong>- the column will be selected by clicking in the column's header cell. An individual cell can be selected by clicking that cell.</p>]]></Paragraph>
+  </Nodes>
+</Data>

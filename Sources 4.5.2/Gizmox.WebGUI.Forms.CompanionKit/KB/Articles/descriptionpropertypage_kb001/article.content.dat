@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634401106115815733" UpdatedBy="admin" UpdatedOn="634401112829815457">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter description text into the <em>TextBox </em>and press <strong>'Browse' </strong>button to open the dialog.<br /><em>FolderBrowserDialog </em>window will appear with custom description text entered.<br />Selected path will be displayed under the <em>TextBox</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>FolderBrowserDialog </em>control contains the <em>Description </em>property which can be used for setting custom description for the dialog window.</p>]]></Paragraph>
+  </Nodes>
+</Data>

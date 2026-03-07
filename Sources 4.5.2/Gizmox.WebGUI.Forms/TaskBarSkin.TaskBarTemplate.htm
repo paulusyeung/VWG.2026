@@ -1,0 +1,31 @@
+<div style="position:absolute;" id="VWG_TaskBarBox" class="Context.MultiThemeDefault TaskBar-Box Common-Unselectable" dir="Context.Direction">
+    <table id="VWG_TaskBarFrame" class="Context.MultiThemeDefault Common-CellSpacing0 Common-CellPadding0 TaskBar-Frame"  dir="ltr">
+        <colgroup>
+        <col style="width:[Skin.LeftFrameWidth]px;"/>
+        <col>
+        <col style="width:[Skin.RightFrameWidth]px;"/>
+        </colgroup>
+
+        <!-- Draw top frame -->
+        <tr style="height:[Skin.TopFrameHeight]px;">
+            <td class="Context.MultiThemeDefault TaskBar-TopLeftFrame" style="background-position: left top;"></td>
+            <td class="Context.MultiThemeDefault TaskBar-TopFrame" style="background-position: left top;"></td>
+            <td class="Context.MultiThemeDefault TaskBar-TopRightFrame" style="background-position: right top;"></td>
+        </tr>
+
+        <!-- Draw center frame -->
+        <tr style="height:100%;">
+            <td class="Context.MultiThemeDefault TaskBar-LeftFrame" style="background-position: left top;"></td>
+            <td class="Context.MultiThemeDefault TaskBar-CenterFrame" dir="Context.Direction">&nbsp;</td>
+            <td class="Context.MultiThemeDefault TaskBar-RightFrame" style="background-position: right top;"></td>
+        </tr>        
+        
+        <!-- Draw bottom frame -->
+        <tr style="height:[Skin.BottomFrameHeight]px;[Skin.BottomFrameDisplayStyle]">
+            <td class="Context.MultiThemeDefault TaskBar-BottomLeftFrame" style="background-position: left bottom;"></td>
+            <td class="Context.MultiThemeDefault TaskBar-BottomFrame" style="background-position: left bottom;"></td>
+            <td class="Context.MultiThemeDefault TaskBar-BottomRightFrame" style="background-position: right bottom;"></td>
+        </tr>
+    </table>
+    <div id="VWG_TaskBarItems" class="Context.MultiThemeDefault TaskBar-Items">[Skin.ItemTemplate]</div>    
+</div>

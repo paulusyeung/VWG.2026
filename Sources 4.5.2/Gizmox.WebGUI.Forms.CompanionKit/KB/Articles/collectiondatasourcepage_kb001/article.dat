@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110810041089362" UpdatedBy="admin" UpdatedOn="634141939634678746" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to populate a CheckedListBox from a collection. </Description>
+  </Properties>
+  <Nodes />
+</Data>

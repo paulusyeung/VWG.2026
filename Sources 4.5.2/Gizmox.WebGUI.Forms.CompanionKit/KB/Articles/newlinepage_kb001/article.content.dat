@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135235194396345" UpdatedBy="admin" UpdatedOn="634135235994250333">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check the 'AllowUserToAddRows' CheckBox and you can add a new line in run-time in the DataGridView. Select cell of the new line and try enter value and new row will be added to the DataGridView. You can fill up all cells of the added row.<br />Uncheck the 'AllowUserToAddRows' CheckBox and the new line will be hided. And you will be unable to add a new line in run-time in the DataGridView.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DataGridView </em>control contains <em>AllowUserToAddRows </em>property that indicates whether the option to add rows is displayed to the user.</p>]]></Paragraph>
+  </Nodes>
+</Data>

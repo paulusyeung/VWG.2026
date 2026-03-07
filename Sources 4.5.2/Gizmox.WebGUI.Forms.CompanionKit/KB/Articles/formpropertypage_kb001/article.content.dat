@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634389337087099448" UpdatedBy="admin" UpdatedOn="634398518849912519">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>ASP.NET page contains DropDownList with items representing Visual WebGui&nbsp;<em>Form </em>names to be showed inside <em>FormBox </em>control. Change DropDownList's&nbsp;selected item to change the <em>Form </em>being<em>&nbsp;</em>shown in the FormBox.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>Visual WebGui&nbsp;<em>FormBox </em>control contains <em>Form </em>property to set the name of VWG&nbsp;Form<em> </em>to load.</p>]]></Paragraph>
+  </Nodes>
+</Data>

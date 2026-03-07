@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Page">
+  <Title>How to wrap content</Title>
+  <Properties />
+  <DisplayName>WrapContents</DisplayName>
+  <Description>Demonstrates how to wrap contents of the FlowLayoutPanel. The app contains FlowLayoutPanel with many buttons, ' WrapContents' CheckBox and 'FlowDirection' ComboBox. Number of buttons is more than the panel may contain in one line. If we check the CheckBox you will see that controls are placed in two rows.  If we uncheck the CheckBox, you will see that controls are placed one row and some controls are not visible and placed outside of the panel. If you change selected value in the 'FlowDirection' ComboBox, you will see changing flow direction of buttons on the FlowLayoutPanel.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="WrapContentsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="WrapContentsPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="WrapContentsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="WrapContentsPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="WrapContentsPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>FlowLayoutPanel</Keyword>
+    <Keyword>Panel</Keyword>
+    <Keyword>Flow</Keyword>
+    <Keyword>Layout</Keyword>
+    <Keyword>Wrap</Keyword>
+    <Keyword>Content</Keyword>
+    <Keyword>Direction</Keyword>
+    <Keyword>FlowDirection</Keyword>
+    <Keyword>WrapContents</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.FlowLayoutPanel.Functionality.WrapContentsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

@@ -1,0 +1,18 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>AspPageBox</Title>
+  <Properties />
+  <DisplayName>AspPageBox</DisplayName>
+  <Description>Contains examples that demonstrate how to use AspPageBox control</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>AspPageBox</Keyword>
+    <Keyword>ASP</Keyword>
+    <Keyword>Page</Keyword>
+    <Keyword>Box</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.AspPageBox.Functionality.EmbedASPNETPage</DefaultPage>
+</Item>

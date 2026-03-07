@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Display Label image</Title>
+  <Properties />
+  <DisplayName>Image property</DisplayName>
+  <Description>The example demonstrates how to set image to display for Label control</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="LabelImagePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelImagePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelImagePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelImagePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelImagePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Label</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>ImageAlign</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>Alignment</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.LabelFolder.Features.LabelImagePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

@@ -1,0 +1,30 @@
+<Item SiteMap="False" Order="101" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality of PropertyGrid control</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains examples that demonstrate how to:
+  categorize the properties of an object in the Visual WebGui PropertyGrid;
+  create property grid and select an object for inspecting;
+  implement a dedicated property editor;
+  provide description text of a property for the Visual WebGui PropertyGrid;
+  display read-only property in the Visual WebGui PropertyGrid.
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>PropertyGrid</Keyword>
+    <Keyword>Inspect</Keyword>
+    <Keyword>Runtime</Keyword>
+    <Keyword>Object</Keyword>
+    <Keyword>Category</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>Hiding</Keyword>
+    <Keyword>Description</Keyword>
+    <Keyword>Property</Keyword>
+    <Keyword>ReadOnly</Keyword>
+    <Keyword>Read-Only</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.PropertyGrid.Functionality.ObjectInspection</DefaultPage>
+  <Body />
+</Item>

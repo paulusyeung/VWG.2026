@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+	<Controls>
+    <Control Type="Gizmox.WebGUI.Forms.Phonegap.Integration.PhonegapIntegrator, Gizmox.WebGUI.Forms.Phonegap.Integration" />
+    <Control Type="Gizmox.WebGUI.Forms.Native.Integration.NativeDeviceIntegrator, Gizmox.WebGUI.Forms.Native.Integration" />
+    <Control Type="Gizmox.WebGUI.Forms.UserControl, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.MdiClient, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.FrameControl, Gizmox.WebGUI.Forms" />
+		<Control Type="Gizmox.WebGUI.Forms.HtmlBox, Gizmox.WebGUI.Forms" />
+		<Control Type="Gizmox.WebGUI.Forms.Panel, Gizmox.WebGUI.Forms" />
+		<Control Type="Gizmox.WebGUI.Forms.Menu, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.Menu+MenuItemControl, Gizmox.WebGUI.Forms" />
+		<Control Type="Gizmox.WebGUI.Forms.MainMenu, Gizmox.WebGUI.Forms"  />
+		<Control Type="Gizmox.WebGUI.Forms.TableLayoutPanel, Gizmox.WebGUI.Forms" />
+		<Control Type="Gizmox.WebGUI.Forms.ToolBar, Gizmox.WebGUI.Forms" />
+		<Control Type="Gizmox.WebGUI.Forms.Splitter, Gizmox.WebGUI.Forms" />
+		<Control Type="Gizmox.WebGUI.Forms.CheckBox, Gizmox.WebGUI.Forms" />
+		<Control Type="Gizmox.WebGUI.Forms.TextBox, Gizmox.WebGUI.Forms" />
+		<Control Type="Gizmox.WebGUI.Forms.MaskedTextBox, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.RichTextBox, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.RadioButton, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ComboBox, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ColorComboBox, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ButtonBase, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.Button, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.MonthCalendar, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.DateTimePicker, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.TabControl, Gizmox.WebGUI.Forms" />
+		<Control Type="Gizmox.WebGUI.Forms.GroupBox, Gizmox.WebGUI.Forms" />
+		<Control Type="Gizmox.WebGUI.Forms.Label, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.Form, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ProgressBar, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.StatusBar, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.VirtualDataGridView, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.DataGridView, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.PropertyGrid, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.PropertyGridInternal.PropertyGridView, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.LinkLabel, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.CheckedListBox, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ColorListBox, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ListBox, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.TrackBar, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.UpDownBase, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.NumericUpDown, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.DomainUpDown, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.TreeView, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.PictureBox, Gizmox.WebGUI.Forms"/>
+    <Control Type="Gizmox.WebGUI.Forms.BindingNavigator, Gizmox.WebGUI.Forms"/>
+    
+    <Control Type="Gizmox.WebGUI.Forms.ScrollablePanel, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ListView, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.Hosts.AppletBoxBase, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.Hosts.FlashBoxBase, Gizmox.WebGUI.Forms"/>
+    <Control Type="Gizmox.WebGUI.Forms.Hosts.ObjectBox, Gizmox.WebGUI.Forms"/>
+    <Control Type="Gizmox.WebGUI.Forms.Hosts.AspPageBox, Gizmox.WebGUI.Forms"/>
+    <Control Type="Gizmox.WebGUI.Forms.Hosts.AspControlBoxBase, Gizmox.WebGUI.Forms"/>
+    <Control Type="Gizmox.WebGUI.Forms.MasterPageContent, Gizmox.WebGUI.Forms"/>
+    <Control Type="Gizmox.WebGUI.Forms.MasterPage, Gizmox.WebGUI.Forms"/>
+    <Control Type="Gizmox.WebGUI.Forms.OrientationTabControl, Gizmox.WebGUI.Forms"/>
+    <Control Type="Gizmox.WebGUI.Forms.FlowLayoutPanel, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.XamlBox, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.OpenFileDialog, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ColorDialog, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.FolderBrowserDialog, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.MessageBox, Gizmox.WebGUI.Forms" />
+
+    <Control Type="Gizmox.WebGUI.Forms.PropertyGridToolStrip, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ToolStrip, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ToolStripButton, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ToolStripLabel, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ToolStripSplitButton, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ToolStripDropDownButton, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ToolStripSeparator, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ToolStripControlHost, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.StatusStrip, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.MenuStrip, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ToolStripStatusLabel, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ToolStripContainer, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ToolStripPanel, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.DeviceIntegration.DeviceIntegrator, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.DockingManager, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ContextualToolbar.ContextualToolbar, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.ContextualToolbar.ProxyControlContextualToolbar, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.WatermarkTextBox, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.Administration.CustomComponents.AdministrationWatermarkTextBox, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.Administration.CustomComponents.AdministrationButton, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.Administration.CustomComponents.AdministrationTabs, Gizmox.WebGUI.Forms" />
+    <Control Type="Gizmox.WebGUI.Forms.Administration.CustomComponents.AdministrationHeaderLabel, Gizmox.WebGUI.Forms" />
+  </Controls>
+
+  <Includes>
+    <Include IncludeName="jQuery" IncludeType="Script" SourceType="Resource" Source="Gizmox.WebGUI.Forms.Resources.Scripts.jQuery.js" MinimalSource="Gizmox.WebGUI.Forms.Resources.Scripts.jQuery.min.js" Assembly="Gizmox.WebGUI.Forms" />
+    <Include IncludeName="jQuery-VWGExtentions" IncludeType="Script" SourceType="Resource" Source="Gizmox.WebGUI.Forms.Resources.Scripts.jQuery-VWGExtentions.js" MinimalSource="Gizmox.WebGUI.Forms.Resources.Scripts.jQuery-VWGExtentions.min.js" Assembly="Gizmox.WebGUI.Forms" />
+	  <Include IncludeName="jQuery-Templates"  IncludeType="Script" SourceType="Resource" Source="Gizmox.WebGUI.Forms.Resources.Scripts.jQueryTemplates.js" MinimalSource="Gizmox.WebGUI.Forms.Resources.Scripts.jQueryTemplates.min.js" Assembly="Gizmox.WebGUI.Forms" PresentationDrawingEngine="JQT"/>
+	  <Include IncludeName="jQuery-XPath" IncludeType="Script" SourceType="Resource" Source="Gizmox.WebGUI.Forms.Resources.Scripts.jQueryXPath.js" MinimalSource="Gizmox.WebGUI.Forms.Resources.Scripts.jQueryXPath.min.js" Assembly="Gizmox.WebGUI.Forms" PresentationDrawingEngine="JQT"/>
+	  <Include IncludeName="jQueryXPathEngine" IncludeType="Script" SourceType="Resource" Source="Gizmox.WebGUI.Forms.Resources.Scripts.jQueryXPathEngine.js" MinimalSource="Gizmox.WebGUI.Forms.Resources.Scripts.jQueryXPathEngine.min.js" Assembly="Gizmox.WebGUI.Forms" PresentationDrawingEngine="JQT"/>
+	  <Include IncludeName="jQuery-TemplatesTest" IncludeType="Script" SourceType="Resource" Source="Gizmox.WebGUI.Forms.Resources.Scripts.jQueryTemplatesTest.js" MinimalSource="Gizmox.WebGUI.Forms.Resources.Scripts.jQueryTemplatesTest.min.js" Assembly="Gizmox.WebGUI.Forms" PresentationDrawingEngine="JQT"/>
+    <Include IncludeName="jQuery-Format" IncludeType="Script" SourceType="Resource" Source="Gizmox.WebGUI.Forms.Resources.Scripts.jQueryFormat.js" MinimalSource="Gizmox.WebGUI.Forms.Resources.Scripts.jQueryFormat.min.js" Assembly="Gizmox.WebGUI.Forms"/>
+    <Include IncludeName="iScroll" IncludeType="Script" SourceType="Resource" Source="Gizmox.WebGUI.Forms.Resources.Scripts.iscroll-probe.js" MinimalSource="Gizmox.WebGUI.Forms.Resources.Scripts.iScroll-probe.min.js" Assembly="Gizmox.WebGUI.Forms"/>
+    <Include IncludeName="jQuery-UI-Script" IncludeType="Script" SourceType="Resource" Source="Gizmox.WebGUI.Forms.Resources.Scripts.jQuery-UI.js" MinimalSource="Gizmox.WebGUI.Forms.Resources.Scripts.jQuery-UI.min.js" Assembly="Gizmox.WebGUI.Forms" />
+    <Include IncludeName="jQuery-UI-Style" IncludeType="StyleSheet" SourceType="Resource" Source="Gizmox.WebGUI.Forms.Resources.StyleSheets.jQuery-UI.css" MinimalSource="Gizmox.WebGUI.Forms.Resources.StyleSheets.jQuery-UI.min.css" Assembly="Gizmox.WebGUI.Forms" />
+    <Include IncludeName="jQuery-UI-Touch-Punch" IncludeType="Script" SourceType="Resource" Source="Gizmox.WebGUI.Forms.Resources.Scripts.jQuery-UI-Touch-Punch.js" MinimalSource="Gizmox.WebGUI.Forms.Resources.Scripts.jQuery-UI-Touch-Punch.min.js" Assembly="Gizmox.WebGUI.Forms" />
+    <Include IncludeName="jQuery-Mousewheel" IncludeType="Script" SourceType="Resource" Source="Gizmox.WebGUI.Forms.Resources.Scripts.jquery.mousewheel.js" MinimalSource="Gizmox.WebGUI.Forms.Resources.Scripts.jquery.mousewheel.min.js" Assembly="Gizmox.WebGUI.Forms" />
+  </Includes>
+
+  <PresentationDrawingEngines>
+    <PresentationDrawingEngine Type="XSLT" UserAgentRegEx="MSIE ([^;]*)|trident.*; rv:([0-9.]+)"/>
+    <PresentationDrawingEngine Type="JQT" UserAgentRegEx="mozilla"/>
+    <PresentationDrawingEngine Type="JQT" UserAgentRegEx="opera"/>
+  </PresentationDrawingEngines>
+
+  <EnterpriseMobileServer>
+    <Actions>
+      <Action Type="Gizmox.WebGUI.Forms.ProxyEvent, Gizmox.WebGUI.Forms" />
+      <Action Type="Gizmox.WebGUI.Forms.ProxyActivateFormCommand, Gizmox.WebGUI.Forms" />
+      <Action Type="Gizmox.WebGUI.Forms.ProxyCloseActiveFormCommand, Gizmox.WebGUI.Forms" />
+      <Action Type="Gizmox.WebGUI.Forms.ProxyNavigationCommandPrevious, Gizmox.WebGUI.Forms" />
+      <Action Type="Gizmox.WebGUI.Forms.ProxyNavigationCommandNext, Gizmox.WebGUI.Forms" />
+      <Action Type="Gizmox.WebGUI.Forms.ProxyNavigationCommandFirst, Gizmox.WebGUI.Forms" />
+      <Action Type="Gizmox.WebGUI.Forms.ProxyNavigationCommandLast, Gizmox.WebGUI.Forms" />
+      <Action Type="Gizmox.WebGUI.Forms.ProxyNavigationCommandTo, Gizmox.WebGUI.Forms" />
+    </Actions>    
+  </EnterpriseMobileServer>
+
+  <VisualTemplates>
+    <VisualTemplate Type="Gizmox.WebGUI.Forms.NativeComboBoxVisualTemplate, Gizmox.WebGUI.Forms" />
+    <VisualTemplate Type="Gizmox.WebGUI.Forms.NativeDateTimePickerVisualTemplate, Gizmox.WebGUI.Forms" />
+    <VisualTemplate Type="Gizmox.WebGUI.Forms.NativeTrackBarVisualTemplate, Gizmox.WebGUI.Forms" />
+    <VisualTemplate Type="Gizmox.WebGUI.Forms.CheckBoxSwitchVisualTemplate, Gizmox.WebGUI.Forms" />
+    <VisualTemplate Type="Gizmox.WebGUI.Forms.ListViewVisualTemplate, Gizmox.WebGUI.Forms" />
+    <VisualTemplate Type="Gizmox.WebGUI.Forms.BorderlessButtonVisualTemplate, Gizmox.WebGUI.Forms" />
+    <VisualTemplate Type="Gizmox.WebGUI.Forms.HeaderLabelVisualTemplate, Gizmox.WebGUI.Forms" />
+    <VisualTemplate Type="Gizmox.WebGUI.Forms.TitleLabelVisualTemplate, Gizmox.WebGUI.Forms" />
+    <VisualTemplate Type="Gizmox.WebGUI.Forms.BorderlessTextBoxVisualTemplate, Gizmox.WebGUI.Forms" />
+    <VisualTemplate Type="Gizmox.WebGUI.Forms.TabControlLogicalVisualTemplate, Gizmox.WebGUI.Forms" />
+    <VisualTemplate Type="Gizmox.WebGUI.Forms.TabControlSpreadVisualTemplate, Gizmox.WebGUI.Forms" />
+    <VisualTemplate Type="Gizmox.WebGUI.Forms.TreeViewVisualTemplate, Gizmox.WebGUI.Forms" />
+  </VisualTemplates> 
+</Resources>

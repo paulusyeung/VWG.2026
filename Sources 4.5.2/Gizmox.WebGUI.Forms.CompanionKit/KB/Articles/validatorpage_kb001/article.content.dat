@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128296106315677" UpdatedBy="admin" UpdatedOn="634128296690075527">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The demonstrated TextBox can be entered only digits: 0 to 9, '.' and '-'.  If you try to enter characters except digits, '.' and '-' they will not appear in TextBox.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>TextBox </em>contains <em>Validator </em>property that defines the text box validator of the <em>TextBoxValidation</em> type. The text box validator checks whether entered character is matched with set pattern. </p>]]></Paragraph>
+  </Nodes>
+</Data>

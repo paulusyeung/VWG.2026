@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634111794805601569" UpdatedBy="admin" UpdatedOn="634144576082307676">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the button&nbsp;and a new&nbsp;button will be added to the <em>Panel. </em>Repeat the adding few times. Check 'AutoScroll' when an added button will be placed outside of the panel.&nbsp;Scrolling will&nbsp;appear&nbsp;within the panel. Uncheck 'AutoScroll'&nbsp;to hide scrollbars.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The&nbsp;example contains the <em>Panel </em>with enabled <em>AutoScroll </em>property and&nbsp;a <em>Button</em>&nbsp;to add&nbsp;controls to the <em>Panel</em>.</p>]]></Paragraph>
+  </Nodes>
+</Data>

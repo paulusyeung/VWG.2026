@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Page">
+  <Title>Support nested splitters</Title>
+  <Properties />
+  <DisplayName>Nested splitters</DisplayName>
+  <Description>The example demonstrates how to support nesting of the Visual WebGui SplitContainer controls</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="NestedSplittersPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NestedSplittersPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NestedSplittersPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NestedSplittersPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NestedSplittersPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>SplitContainer</Keyword>
+    <Keyword>Nesting</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.SplitContainer.Features.NestedSplittersPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

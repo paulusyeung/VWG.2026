@@ -1,0 +1,32 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>SearchTextBox</Keyword>
+    <Keyword>TextBox</Keyword>
+    <Keyword>Search</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/SearchTextBox.Lobby.png'/&gt;
+&lt;div&gt;The Visual WebGui &lt;span style="color:#00ccff"&gt;SearchTextBox&lt;/span&gt; control is a customized TextBox to include search visual components.
+
+The &lt;span style="color:#00ccff"&gt;SearchTextBox&lt;/span&gt; inherits from TextBox and has a few added features, which make it more suitable for use in search entry scenarios. These scenarios include the user entering a search string and then initiates the search by clicking an icon, or by selecting actions from a dropdown menu. The &lt;span style="color:#00ccff"&gt;SearchTextBox&lt;/span&gt; does not do any searching by itself, rather supplies the skeleton to make it more usable in such scenarios. Most notable additions are the WatermarkText and DropDownMenu properties, as well as the Search event. 
+
+&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The &lt;span style="color:#00ccff"&gt;SearchTextBox&lt;/span&gt; control is one of the Professional suite Office controls, which means it is free and available in all Visual WebGui versions, while the controls are still in beta. After release, these controls will be packaged in a separate Professional Controls suite package and sold separately. Please visit &lt;span style="color:#00ccff;cursor:pointer;text-decoration:underline;" onclick="window.open('http://www.visualwebgui.com/tabid/683/Default.aspx','_newtab');"&gt;this page&lt;/span&gt; for more details.&lt;/div&gt;</PreText>
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Section="Section-01">
+      <Style linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Close button</Title>
+  <Properties />
+  <DisplayName>Close button</DisplayName>
+  <Description>The example demonstrates how to show and use the close button for tab page
+of the Visual WebGui TabControl.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CloseButtonPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CloseButtonPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CloseButtonPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CloseButtonPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CloseButtonPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TabControl</Keyword>
+    <Keyword>Tab</Keyword>
+    <Keyword>Close</Keyword>
+    <Keyword>ShowCloseButton</Keyword>
+    <Keyword>CloseClick</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TabControl.Functionality.CloseButtonPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

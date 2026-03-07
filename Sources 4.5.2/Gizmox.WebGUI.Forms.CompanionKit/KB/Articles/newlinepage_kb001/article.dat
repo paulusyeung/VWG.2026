@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135234207196209" UpdatedBy="admin" UpdatedOn="634135236026594497" Status="Submitted" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to support new line in the Visual WebGui DataGridView control.</Description>
+  </Properties>
+  <Nodes />
+</Data>

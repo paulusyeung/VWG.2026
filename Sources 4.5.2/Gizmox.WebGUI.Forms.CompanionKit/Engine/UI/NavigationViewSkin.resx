@@ -1,0 +1,1618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.xslt" xml:space="preserve">
+    <value>TemplateResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.xslt:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.xslt:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView.xslt</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.xslt:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.xslt:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView.xslt;Gizmox.WebGUI.Forms.Skins.Resources.TemplateContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.xslt:PresentationRole" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.xslt:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.css:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:BackgroundTop.jpg" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:BackgroundTop.jpg:ImageFormat" xml:space="preserve">
+    <value>Jpeg</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:BackgroundTop.jpg:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.BackgroundTop.jpg</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:BackgroundTop.jpg:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:BackgroundTop.jpg:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.BackgroundTop.jpg;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Background.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Background.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Background.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.Background.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Background.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Background.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.Background.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:BackgroundBottom.jpg" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:BackgroundBottom.jpg:ImageFormat" xml:space="preserve">
+    <value>Jpeg</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:BackgroundBottom.jpg:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.BackgroundBottom.jpg</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:BackgroundBottom.jpg:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:BackgroundBottom.jpg:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.BackgroundBottom.jpg;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CategorySeprator.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CategorySeprator.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CategorySeprator.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CategorySeprator.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CategorySeprator.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CategorySeprator.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CategorySeprator.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Logo.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Logo.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Logo.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.Logo.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Logo.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Logo.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.Logo.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NodeExpander0.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NodeExpander0.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NodeExpander0.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NodeExpander0.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NodeExpander0.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NodeExpander0.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NodeExpander0.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NodeExpander1.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NodeExpander1.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NodeExpander1.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NodeExpander1.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NodeExpander1.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NodeExpander1.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NodeExpander1.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.js:CompilerActions" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.js:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Icon.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Icon.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Icon.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.Icon.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Icon.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Icon.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.Icon.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:LobyHeader.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:LobyHeader.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:LobyHeader.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.LobyHeader.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:LobyHeader.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:LobyHeader.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.LobyHeader.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:PageHeader.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:PageHeader.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:PageHeader.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.PageHeader.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:PageHeader.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:PageHeader.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.PageHeader.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:HelpButton.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:HelpButton.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:HelpButton.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.HelpButton.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:HelpButton.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:HelpButton.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.HelpButton.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:DownloadButton.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:DownloadButton.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:DownloadButton.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.DownloadButton.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:DownloadButton.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:DownloadButton.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.DownloadButton.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:PageIcon.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:PageIcon.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:PageIcon.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.PageIcon.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:PageIcon.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:PageIcon.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.PageIcon.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:DescriptionIcon.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:DescriptionIcon.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:DescriptionIcon.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.DescriptionIcon.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:DescriptionIcon.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:DescriptionIcon.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.DescriptionIcon.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CommunityButton.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CommunityButton.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CommunityButton.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CommunityButton.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CommunityButton.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CommunityButton.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CommunityButton.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:LobyFooter.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:LobyFooter.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:LobyFooter.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.LobyFooter.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:LobyFooter.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:LobyFooter.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.LobyFooter.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:EditButton.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:EditButton.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:EditButton.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.EditButton.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:EditButton.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:EditButton.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.EditButton.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-tabber.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-tabber.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-tabber.css:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView-tabber.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-tabber.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-tabber.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView-tabber.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-tabber.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-tabber.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_menuItem.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_menuItem.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_menuItem.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CodePane_menuItem.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_menuItem.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_menuItem.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CodePane_menuItem.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_menuItemSelected.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_menuItemSelected.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_menuItemSelected.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CodePane_menuItemSelected.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_menuItemSelected.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_menuItemSelected.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CodePane_menuItemSelected.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topLeftt.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topLeftt.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topLeftt.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CodePane_topLeftt.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topLeftt.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topLeftt.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CodePane_topLeftt.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_TopGradBorder.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_TopGradBorder.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_TopGradBorder.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CodePane_TopGradBorder.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_TopGradBorder.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_TopGradBorder.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CodePane_TopGradBorder.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_top.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_top.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_top.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CodePane_top.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_top.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_top.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CodePane_top.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_RightT.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_RightT.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_RightT.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CodePane_RightT.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_RightT.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_RightT.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CodePane_RightT.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topRight.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topRight.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topRight.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CodePane_topRight.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topRight.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topRight.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CodePane_topRight.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topLeft.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topLeft.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topLeft.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CodePane_topLeft.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topLeft.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topLeft.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CodePane_topLeft.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_menuBottom.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_menuBottom.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_menuBottom.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CodePane_menuBottom.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_menuBottom.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_menuBottom.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CodePane_menuBottom.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_bottom.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_bottom.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_bottom.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CodePane_bottom.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_bottom.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_bottom.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CodePane_bottom.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_rightBottom.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_rightBottom.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_rightBottom.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CodePane_rightBottom.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_rightBottom.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_rightBottom.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CodePane_rightBottom.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_bottomLeft.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_bottomLeft.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_bottomLeft.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CodePane_bottomLeft.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_bottomLeft.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_bottomLeft.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CodePane_bottomLeft.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_right.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_right.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_right.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CodePane_right.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_right.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_right.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CodePane_right.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:left.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:left.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:left.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.left.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:left.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:left.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.left.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topTop.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topTop.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topTop.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CodePane_topTop.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topTop.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_topTop.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CodePane_topTop.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-dropdown.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-dropdown.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-dropdown.css:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView-dropdown.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-dropdown.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-dropdown.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView-dropdown.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-dropdown.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-dropdown.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_collapse_150_15_round_corner.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_collapse_150_15_round_corner.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_collapse_150_15_round_corner.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.dd_collapse_150_15_round_corner.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_collapse_150_15_round_corner.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_collapse_150_15_round_corner.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.dd_collapse_150_15_round_corner.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_expand_150_30_round_corner.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_expand_150_30_round_corner.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_expand_150_30_round_corner.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.dd_expand_150_30_round_corner.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_expand_150_30_round_corner.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_expand_150_30_round_corner.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.dd_expand_150_30_round_corner.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_download.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_download.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_download.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.dd_download.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_download.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_download.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.dd_download.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_external.ln.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_external.ln.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_external.ln.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.dd_external.ln.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_external.ln.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_external.ln.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.dd_external.ln.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_external.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_external.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_external.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.dd_external.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_external.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:dd_external.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.dd_external.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:menuItemZip.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:menuItemZip.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:menuItemZip.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.menuItemZip.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:menuItemZip.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:menuItemZip.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.menuItemZip.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:zipSinked.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:zipSinked.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:zipSinked.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.zipSinked.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:zipSinked.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:zipSinked.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.zipSinked.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:zipRaised.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:zipRaised.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:zipRaised.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.zipRaised.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:zipRaised.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:zipRaised.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.zipRaised.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-search.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-search.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-search.css:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView-search.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-search.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-search.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView-search.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-search.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-search.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:search.arrow.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:search.arrow.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:search.arrow.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.search.arrow.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:search.arrow.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:search.arrow.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.search.arrow.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_bottomLeftT.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_bottomLeftT.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_bottomLeftT.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CodePane_bottomLeftT.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_bottomLeftT.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CodePane_bottomLeftT.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CodePane_bottomLeftT.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:arrow.down.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:arrow.down.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:arrow.down.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.arrow.down.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:arrow.down.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:arrow.down.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.arrow.down.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:arrow.up.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:arrow.up.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:arrow.up.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.arrow.up.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:arrow.up.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:arrow.up.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.arrow.up.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:bottom.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:bottom.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:bottom.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.bottom.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:bottom.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:bottom.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.bottom.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:fittotext.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:fittotext.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:fittotext.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.fittotext.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:fittotext.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:fittotext.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.fittotext.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:redirect.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:redirect.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:redirect.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.redirect.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:redirect.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:redirect.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.redirect.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:favicon.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:favicon.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:favicon.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.favicon.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:favicon.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:favicon.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.favicon.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.ga.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.ga.js:CompilerActions" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.ga.js:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView.ga.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.ga.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.ga.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView.ga.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.ga.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.ga.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:messagebox_info.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:messagebox_info.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:messagebox_info.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.messagebox_info.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:messagebox_info.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:messagebox_info.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.messagebox_info.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-themes.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-themes.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-themes.css:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView-themes.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-themes.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-themes.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView-themes.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-themes.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-themes.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.themelogo.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.themelogo.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.themelogo.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.themelogo.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.themelogo.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.themelogo.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.themelogo.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.analytics.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.analytics.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.analytics.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.analytics.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.analytics.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.analytics.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.analytics.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.background.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.background.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.background.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.background.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.background.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.background.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.background.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.button.hover.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.button.hover.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.button.hover.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.button.hover.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.button.hover.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.button.hover.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.button.hover.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.button.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.button.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.button.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.button.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.button.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.button.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.button.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.default.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.default.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.default.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.default.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.default.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.default.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.default.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.facebook.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.facebook.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.facebook.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.facebook.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.facebook.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.facebook.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.facebook.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.gmail.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.gmail.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.gmail.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.gmail.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.gmail.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.gmail.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.gmail.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.themes.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.themes.js:CompilerActions" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.themes.js:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView.themes.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.themes.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.themes.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView.themes.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.themes.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.themes.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.background.hl.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.background.hl.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.background.hl.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.background.hl.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.background.hl.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.background.hl.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.background.hl.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.xslt" xml:space="preserve">
+    <value>TemplateResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.xslt:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.xslt:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView.lobby.xslt</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.xslt:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.xslt:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView.lobby.xslt;Gizmox.WebGUI.Forms.Skins.Resources.TemplateContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.xslt:PresentationRole" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.xslt:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-lobby.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-lobby.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-lobby.css:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView-lobby.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-lobby.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-lobby.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView-lobby.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-lobby.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-lobby.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.autocomplete-min.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.autocomplete-min.js:CompilerActions" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.autocomplete-min.js:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView.autocomplete-min.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.autocomplete-min.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.autocomplete-min.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView.autocomplete-min.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.autocomplete-min.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.autocomplete-min.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-autocomplete.css" xml:space="preserve">
+    <value>StyleSheetResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-autocomplete.css:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-autocomplete.css:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView-autocomplete.css</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-autocomplete.css:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-autocomplete.css:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView-autocomplete.css;Gizmox.WebGUI.Forms.Skins.Resources.StyleSheetContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-autocomplete.css:PresentationRole" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView-autocomplete.css:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.shadow.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.shadow.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.shadow.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.autocomplete.shadow.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.shadow.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.shadow.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.autocomplete.shadow.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchCenter.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchCenter.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchCenter.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.autocomplete.searchCenter.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchCenter.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchCenter.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.autocomplete.searchCenter.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchLeft.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchLeft.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchLeft.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.autocomplete.searchLeft.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchLeft.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchLeft.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.autocomplete.searchLeft.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchRightN.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchRightN.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchRightN.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.autocomplete.searchRightN.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchRightN.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchRightN.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.autocomplete.searchRightN.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchRightO.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchRightO.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchRightO.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.autocomplete.searchRightO.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchRightO.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:autocomplete.searchRightO.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.autocomplete.searchRightO.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:search.close.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:search.close.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:search.close.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.search.close.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:search.close.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:search.close.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.search.close.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.filterbytext.js" xml:space="preserve">
+    <value>ScriptResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.filterbytext.js:CompilerActions" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.filterbytext.js:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView.filterbytext.js</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.filterbytext.js:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.filterbytext.js:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView.filterbytext.js;Gizmox.WebGUI.Forms.Skins.Resources.ScriptContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.filterbytext.js:PresentationRole" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.filterbytext.js:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:links.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:links.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:links.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.links.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:links.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:links.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.links.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.office2010.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.office2010.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.office2010.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.office2010.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.office2010.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.office2010.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.office2010.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:search.help.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:search.help.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:search.help.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.search.help.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:search.help.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:search.help.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.search.help.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.all.xslt" xml:space="preserve">
+    <value>TemplateResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.all.xslt:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.all.xslt:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView.lobby.all.xslt</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.all.xslt:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.all.xslt:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView.lobby.all.xslt;Gizmox.WebGUI.Forms.Skins.Resources.TemplateContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.all.xslt:PresentationRole" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.all.xslt:PresentationEngine" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.all.xslt:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.moz.xslt" xml:space="preserve">
+    <value>TemplateResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.moz.xslt:CompilerActions" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.moz.xslt:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.NavigationView.lobby.moz.xslt</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.moz.xslt:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.moz.xslt:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.NavigationView.lobby.moz.xslt;Gizmox.WebGUI.Forms.Skins.Resources.TemplateContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.moz.xslt:PresentationRole" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.moz.xslt:PresentationEngine" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:NavigationView.lobby.moz.xslt:Presentation" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.android.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.android.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.android.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.android.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.android.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.android.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.android.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.ios.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.ios.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.ios.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.ios.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.ios.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.ios.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.ios.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.liveOffice.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.liveOffice.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.liveOffice.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.liveOffice.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.liveOffice.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.liveOffice.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.liveOffice.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.vista.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.vista.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.vista.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.vista.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.vista.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.vista.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.vista.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Background-repeat.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Background-repeat.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Background-repeat.gif:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.Background-repeat.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Background-repeat.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:Background-repeat.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.Background-repeat.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.graphite.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.graphite.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.graphite.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.graphite.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.graphite.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.graphite.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.graphite.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.iOS7.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.iOS7.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.iOS7.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.themes.iOS7.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.iOS7.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:themes.iOS7.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.themes.iOS7.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CKLogoReddo.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CKLogoReddo.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CKLogoReddo.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.CKLogoReddo.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CKLogoReddo.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:CKLogoReddo.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.CKLogoReddo.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:TopStrip.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:TopStrip.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:TopStrip.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.TopStrip.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:TopStrip.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:TopStrip.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.TopStrip.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:MenuBackground.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:MenuBackground.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:MenuBackground.png:FileName" xml:space="preserve">
+    <value>NavigationViewSkin.MenuBackground.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:MenuBackground.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.CompanionKit.UI.NavigationViewSkin:MenuBackground.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NavigationViewSkin.MenuBackground.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+</root>

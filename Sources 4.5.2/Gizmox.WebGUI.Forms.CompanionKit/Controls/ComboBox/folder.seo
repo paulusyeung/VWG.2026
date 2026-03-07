@@ -1,0 +1,15 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ComboBox</Title>
+  <Properties />
+  <DisplayName>ComboBox</DisplayName>
+  <Description>Contains sample apps that demonstrates how to use ComboBox control</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ComboBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.ComboBox.Overview</DefaultPage>
+</Item>

@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>View3D Property</Title>
+  <Properties />
+  <DisplayName>View3D Property</DisplayName>
+  <Description>The example demonstrates how to enable 3D view for Chart control</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="View3DPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="View3DPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="View3DPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="View3DPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="View3DPropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Chart</Keyword>
+    <Keyword>3DView</Keyword>
+    <Keyword>3D</Keyword>
+    <Keyword>View</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Chart.Features.View3DPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

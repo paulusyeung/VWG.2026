@@ -1,0 +1,11 @@
+.TabPage-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.TabPage-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634432475446738677" UpdatedBy="admin" UpdatedOn="634440742042688000">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Use&nbsp;<em>Button </em>controls to open <em>FontDialog </em>window in order to set font for the&nbsp;appropriate <strong><em>Label </em></strong>control</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>Label.Font</strong> property gets or sets the font of the text displayed by the control.</p><p>Type: System.Drawing.Font<br />Default value -&nbsp;&nbsp;the value of the <strong>DefaultFont </strong>property of the <em>Control </em>class - Tahoma 8.25.</p>]]></Paragraph>
+  </Nodes>
+</Data>

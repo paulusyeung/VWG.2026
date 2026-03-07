@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="102" Status="Publish" Type="Page" Height="165">
+  <Title>Value Property</Title>
+  <Properties />
+  <DisplayName>Value Property</DisplayName>
+  <Description>The example demonstrates how to get current value of the Visual WebGui DateTimePicker.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ValuePropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValuePropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValuePropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValuePropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValuePropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DateTimePicker</Keyword>
+    <Keyword>Value</Keyword>
+    <Keyword>ValueChanged</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DateTimePicker.Functionality.ValuePropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

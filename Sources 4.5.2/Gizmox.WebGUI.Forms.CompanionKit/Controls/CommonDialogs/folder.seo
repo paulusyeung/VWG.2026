@@ -1,0 +1,18 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Common Dialogs</Title>
+  <Properties />
+  <DisplayName>Common Dialogs</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use default Dialogs suach as ColorDialog, FontDialog and OpenFileDialog</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ColorDialog</Keyword>
+    <Keyword>FontDialog</Keyword>
+    <Keyword>OpenFileDialog</Keyword>
+    <Keyword>Dialog</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.CommonDialogs.Overview</DefaultPage>
+</Item>

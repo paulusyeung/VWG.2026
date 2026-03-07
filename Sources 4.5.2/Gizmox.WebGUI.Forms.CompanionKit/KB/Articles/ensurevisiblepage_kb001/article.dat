@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128212276290431" UpdatedBy="admin" UpdatedOn="634134216163231759" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to jump to invisible tree node in the Visual WebGui TreeView.</Description>
+  </Properties>
+  <Nodes />
+</Data>

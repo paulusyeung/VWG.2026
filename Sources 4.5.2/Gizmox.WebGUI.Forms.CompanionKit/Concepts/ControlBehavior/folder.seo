@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>Control Behavior</Title>
+  <Properties />
+  <DisplayName>Control Behavior</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="VWG has &lt;span style=&quot;color:#00ccff&quot;&gt;jQuery-UI&lt;/span&gt; support represented by such properties and events: &#xD;&#xA;&#xD;&#xA;- Selectable (ControlSelected event);&#xD;&#xA;- Draggable (Draggable property and DraggableOptions);&#xD;&#xA;- Resizable (Resizable property and ResizableOptions);&#xD;&#xA;- Droppable (ControlDropped event)." Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

@@ -1,0 +1,23 @@
+﻿<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Search Contacts example</Title>
+  <Properties />
+  <DisplayName>Search Contacts</DisplayName>
+  <Description>Demonstrates how to search contacts on device.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ExampleSearch.cs" Order="1" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExampleSearch.designer.cs" Order="2" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExampleSearch.resx" Order="3" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ContactsListView.cs" Order="4" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ContactsListViewSkin.cs" Order="5" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ContactsListViewSkin.resx" Order="6" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ContactsListViewSkin.ListView.css" Order="7" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ContactsListViewSkin.ListView.xslt" Order="8" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Contacts</Keyword>    
+    <Keyword>Search</Keyword>    
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.DeviceIntegration.Contacts.Functionality.ExampleSearch, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

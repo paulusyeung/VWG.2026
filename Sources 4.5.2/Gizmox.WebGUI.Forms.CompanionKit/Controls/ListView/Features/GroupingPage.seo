@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Divide Listview items to groups</Title>
+  <Properties />
+  <DisplayName>Grouping of Items</DisplayName>
+  <Description>The example demonstrates how to group items in the Visual WebGui ListView.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="GroupingPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="GroupingPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="GroupingPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="GroupingPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="GroupingPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListView</Keyword>
+    <Keyword>Separator</Keyword>
+    <Keyword>Group</Keyword>
+    <Keyword>Devide</Keyword>
+    <Keyword>Item</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListView.Features.GroupingPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

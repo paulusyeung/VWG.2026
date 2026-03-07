@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Draft" Type="Page" Height="100">
+  <Title>BlinkStyle Property</Title>
+  <Properties />
+  <DisplayName>BlinkStyle Property</DisplayName>
+  <Description>The example demonstrates how to set icons blinking style for ErrorProvider</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="BlinkStylePropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BlinkStylePropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BlinkStylePropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BlinkStylePropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BlinkStylePropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ErrorProvider</Keyword>
+    <Keyword>BlinkStyle</Keyword>
+    <Keyword>Blink Style</Keyword>
+    <Keyword>Blink</Keyword>
+    <Keyword>Style</Keyword>
+    <Keyword>Blinking</Keyword>
+  </Keywords>
+  <Comment>Pending issue:
+http://support.visualwebgui.com/issue/ViewIssue.aspx?id=7543</Comment>
+  <PageType>CompanionKit.Controls.ErrorProvider.Features.BlinkStylePropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="106" Status="Draft" Type="Page">
+  <Title>MaxFileSize Property</Title>
+  <Properties />
+  <DisplayName>MaxFileSize</DisplayName>
+  <Description>The example demonstrates how to limited size of opened files.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MaxFileSizePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxFileSizePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxFileSizePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxFileSizePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxFileSizePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>OpenFileDialog</Keyword>
+    <Keyword>MaxFileSize</Keyword>
+    <Keyword>Filter</Keyword>
+  </Keywords>
+  <Comment>This example has Draft status b/c the OpenFileDialog MaxFileSize property doesn't work correct (VWG-5470)</Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.OpenFileDialog.Features.MaxFileSizePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Determine Text alignment</Title>
+  <Properties />
+  <DisplayName>TextAlign property</DisplayName>
+  <Description>The example demonstrates how to set text alignment for Label control</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="LabelTextAlignPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelTextAlignPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelTextAlignPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelTextAlignPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LabelTextAlignPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Label</Keyword>
+    <Keyword>TextAlign</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>Alignment</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.LabelFolder.Features.LabelTextAlignPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

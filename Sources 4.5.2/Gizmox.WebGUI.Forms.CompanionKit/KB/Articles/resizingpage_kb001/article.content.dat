@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634130853530854713" UpdatedBy="admin" UpdatedOn="634130854920394856">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Move the mouse cursor to a separator between two column headers. The cursor will be changed to the 'Resize' icon. Press on the mouse button and drag to resize the column.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ListView </em>allow to resize columns through Drag and Drop. For automatically resizing column <em>ListView </em>contains the ColumnResizeStyle property that defines auto resizing style. The <em>ListView </em>auto resizing style can be the following:<br /><strong>None </strong>- specifies no resizing should occur.<br /><strong>HeaderSize </strong>- specifies the column should be resized based on the length of the column header content.<br /><strong>ColumnContent </strong>- specifies the column should be resized based on the length of the column content.</p>]]></Paragraph>
+  </Nodes>
+</Data>

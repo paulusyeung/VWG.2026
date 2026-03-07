@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634166169434079278" UpdatedBy="admin" UpdatedOn="634261972376673054">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the button to open a form with MainMenu.<br /> Open 'RadioCheck Menu' menu to see menu items with&nbsp;radio-button mark.<br />Click menu items to see how radio-button behaves.<br />Pay attention that only clicked item marked, the selection marks will be dropped from the rest of items.<br />The label on the form will reflect the current checked state of clicked menu item.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>MenuItem </em>contains the <strong>RadioCheck</strong><em> </em>property that indicates whether the <em>MenuItem</em>, if checked, displays a radio-button instead of a check mark. The <strong>Checked</strong><em> </em>property indicates whether menu item is checked.&nbsp;The <strong>Click</strong> event should be implemented to handle changes of the checked state.</p>]]></Paragraph>
+  </Nodes>
+</Data>

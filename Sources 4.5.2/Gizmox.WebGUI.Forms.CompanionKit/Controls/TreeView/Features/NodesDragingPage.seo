@@ -1,0 +1,30 @@
+<Item SiteMap="True" Order="104" Status="Publish" Type="Page">
+  <Title>Drag and drop tree nodes</Title>
+  <Properties />
+  <DisplayName>Drag and Drop</DisplayName>
+  <Description>The example demonstrates how to use drag and drop with the Visual WebGui TreeView. </Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="NodesDragingPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NodesDragingPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NodesDragingPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NodesDragingPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NodesDragingPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TreeView</Keyword>
+    <Keyword>DragAndDrop</Keyword>
+    <Keyword>Drag</Keyword>
+    <Keyword>AllowDrop</Keyword>
+    <Keyword>DragTarges</Keyword>
+    <Keyword>Move</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TreeView.Features.NodesDragingPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="0,200" Docking="Right">
+    <Fields>
+      <Field Column="0" Order="0" Type="CheckBox" Label="AllowDrop of 'Dropped ListBox'" TargetName="listBox1" PropertyName="AllowDrop" />
+    </Fields>
+  </Inspector>
+</Item>

@@ -1,0 +1,18 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Appearance</Title>
+  <Properties />
+  <DisplayName>Appearance</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ScheduleBox</Keyword>
+    <Keyword>Appearance</Keyword>
+    <Keyword>View</Keyword>
+    <Keyword>Layout</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.ScheduleBox.Appearance.ScheduleBoxViewPropertiesPage</DefaultPage>
+  <Body />
+</Item>

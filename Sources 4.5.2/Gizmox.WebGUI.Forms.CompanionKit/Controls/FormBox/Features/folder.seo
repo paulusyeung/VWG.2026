@@ -1,0 +1,19 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains examples that demonstrate how to use Stateless, Form, Argument and Results properties of FormBox</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>FormBox</Keyword>
+    <Keyword>Stateless</Keyword>
+    <Keyword>Form</Keyword>
+    <Keyword>Arguments</Keyword>
+    <Keyword>Results</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.FormBox.Features.StatelessPropertyPage</DefaultPage>
+</Item>

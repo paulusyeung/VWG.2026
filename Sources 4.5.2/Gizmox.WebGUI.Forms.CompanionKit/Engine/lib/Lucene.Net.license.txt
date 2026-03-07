@@ -1,0 +1,20 @@
+20/Dec/2010
+
+Lucene.Net is a source code, class-per-class, API-per-API and  algorithmatic port  of the 
+Java Lucene search engine to the C# and .NET platform utilizing Microsoft .NET Framework. 
+In addition to the APIs and classes port to C#, the algorithm of Java Lucene is ported to
+C# Lucene. This means an index created with Java Lucene is back-and-forth compatible with
+the C# Lucene; both  at reading,  writing  and  updating. In fact a  Lucene  index can be
+concurrently searched and updated using Java Lucene and C# Lucene processes.
+
+HomePage    http://incubator.apache.org/lucene.net/
+Category    Search Engines
+License     Apache Software License: 
+			http://www.apache.org/licenses/LICENSE-2.0.txt
+
+From: http://en.wikipedia.org/wiki/Apache_License
+The Apache License is a free software license authored by the Apache Software
+Foundation (ASF). The Apache License requires  preservation of  the copyright 
+notice and disclaimer, but  it is not a  copyleft license —  it allows use of
+the source code for the development of proprietary  software as  well as free
+and open source software.

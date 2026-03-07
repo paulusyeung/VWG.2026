@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110794065884094" UpdatedBy="admin" UpdatedOn="634110809639844498" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to use 'CheckOnClick' property for CheckedListBox control. </Description>
+  </Properties>
+  <Nodes />
+</Data>

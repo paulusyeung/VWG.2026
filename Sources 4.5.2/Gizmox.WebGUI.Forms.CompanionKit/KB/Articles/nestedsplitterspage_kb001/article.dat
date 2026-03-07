@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634129144326797623" UpdatedBy="admin" UpdatedOn="634144636462159804" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to support nesting of the Visual WebGui splitters.</Description>
+  </Properties>
+  <Nodes />
+</Data>

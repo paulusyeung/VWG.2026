@@ -1,0 +1,20 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Events</Keyword>
+    <Keyword>Event</Keyword>
+    <Keyword>New</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>Adding</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.ScheduleBox.Functionality.AddingScheduledEventsPage</DefaultPage>
+</Item>

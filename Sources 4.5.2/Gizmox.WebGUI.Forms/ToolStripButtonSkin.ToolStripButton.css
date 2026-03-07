@@ -1,0 +1,113 @@
+.Button-FlatControl .Button-FontData
+{
+	[Skin.FontNormal];
+	[Skin.ForegroundNormal];
+}
+
+.Button-FlatControl_Enter .Button-FontData
+{
+	[Skin.FontHover];
+	[Skin.ForegroundHover];
+}
+
+.Button-FlatControl_Down .Button-FontData
+{
+	[Skin.FontPressed];
+	[Skin.ForegroundPressed];
+}
+
+.Button-FlatControl_Focus .Button-FontData
+{
+	[Skin.FontFocused];
+	[Skin.ForegroundFocused];
+}
+
+.Button-FlatControl_Disabled .Button-FontData
+{
+	[Skin.FontDisabled];
+	[Skin.ForegroundDisabled];
+}
+
+.Button-FlatControl 
+{
+	width:100%;
+	height:100%;
+	[Skin.FlatButtonNormalStyle];
+}
+
+.Button-FlatControl_Enter
+{
+	[Skin.FlatButtonHoverStyle];
+}
+
+.Button-FlatControl_Focus
+{
+	[Skin.FlatButtonFocusedStyle];
+}
+
+.Button-FlatControl_Down
+{
+	[Skin.FlatButtonPressedStyle];	
+}
+
+.Button-FlatCheckedControl .Button-FontData
+{
+	[Skin.FontNormal];
+	[Skin.ForegroundNormal];
+}
+
+.Button-FlatCheckedControl_Enter .Button-FontData
+{
+	[Skin.FontHover];
+	[Skin.ForegroundHover];
+}
+
+.Button-FlatCheckedControl_Down .Button-FontData
+{
+	[Skin.FontPressed];
+	[Skin.ForegroundPressed];
+}
+
+.Button-FlatCheckedControl_Focus .Button-FontData
+{
+	[Skin.FontFocused];
+	[Skin.ForegroundFocused];
+}
+
+.Button-FlatCheckedControl_Disabled .Button-FontData
+{
+	[Skin.FontDisabled];
+	[Skin.ForegroundDisabled];
+}
+
+.Button-FlatCheckedControl 
+{
+	width:100%;
+	height:100%;
+	[Skin.FlatCheckedButtonNormalStyle];
+}
+
+.Button-FlatCheckedControl_Enter
+{
+	[Skin.FlatCheckedButtonHoverStyle];
+}
+
+.Button-FlatCheckedControl_Focus
+{
+	[Skin.FlatCheckedButtonFocusedStyle];
+}
+
+.Button-FlatCheckedControl_Down
+{
+	[Skin.FlatCheckedButtonPressedStyle];	
+}
+
+.Button-Image
+{
+    [Skin.ImageStyle];
+}
+
+.Button-Image_Disabled
+{
+    [Skin.ImageDisabledStyle];
+}

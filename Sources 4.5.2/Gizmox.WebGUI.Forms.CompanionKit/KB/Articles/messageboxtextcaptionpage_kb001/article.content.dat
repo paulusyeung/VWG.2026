@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634377014542310348" UpdatedBy="admin" UpdatedOn="634381572119961500">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter caption text and message text in to the appropriate <em>TextBox</em> fields and press the <em>Button</em>.&nbsp;<em>MessageBox </em>window will be shown with caption and message text values entered. <em>MessageBox </em>window modal&nbsp;mask can be&nbsp;turned On/Off&nbsp;by&nbsp;switching the 'Show Modal Mask'&nbsp;<em>CheckBox</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>Caption text and message text for MessageBox window can be simply set by&nbsp;respectively&nbsp;passing parameters to suitable MessageBox constructor called.</p><p>MessageBox constructor parameters:</p><p><strong>strText:</strong>&nbsp;text to display in the MessageBox;<br /><strong>strCaption:</strong>&nbsp;text to display in the title bar of the MessageBox;<br /><strong>blnShowModalMask:</strong> determines whether a form has a modal mask when modal;<br /><strong>objEventHandler:</strong> an System.EventHandler function that is&nbsp;called when MessageBox window is&nbsp;closed.</p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,29 @@
+<Item SiteMap="True" Order="104" Status="Publish" Type="Page">
+  <Title>How to provide descriptional text of a property</Title>
+  <Properties />
+  <DisplayName>Property Description</DisplayName>
+  <Description>The example demonstrates how to provide description text of a property for the Visual WebGui PropertyGrid.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="PropertyDescriptionPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PropertyDescriptionPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PropertyDescriptionPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PropertyDescriptionPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PropertyDescriptionPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DemoObject.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DemoObjectConverter.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DemoObject.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DemoObjectConverter.vb" Order="104" Lang="VBNET" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>PropertyGrid</Keyword>
+    <Keyword>Property</Keyword>
+    <Keyword>Description</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.PropertyGrid.Functionality.PropertyDescriptionPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

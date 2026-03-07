@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Filtering. Filters in header and custom filter dialog.</Title>
+  <Properties />
+  <DisplayName>Filtering</DisplayName>
+  <Description>The example demonstrates filtering functionality in DataGridView.</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="FilteringPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="FilteringPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="FilteringPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="FilteringPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="FilteringPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>filters</Keyword>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>custom</Keyword>
+    <Keyword>filter</Keyword>
+    <Keyword>dialog</Keyword>
+    <Keyword>filtering</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DataGridView.PopulatingData.FilteringPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

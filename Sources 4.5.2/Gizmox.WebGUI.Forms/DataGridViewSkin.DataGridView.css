@@ -1,0 +1,243 @@
+.DataGridView-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.Foreground];
+	[Skin.VisualEffect]
+}
+
+.DataGridView-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.DataGridView-Control_Disabled .DataGridView-ColumnHeader
+{
+    [Skin.ControlTextForegroundDisabled];
+    [Skin.ControlTextBackgroundDisabled];
+}
+
+.DataGridView-RowHeader
+{
+	[Skin.RowHeaderNormalStyle];
+	box-sizing:border-box;		
+}
+
+.DataGridView-RowHeader_Selected
+{
+	[Skin.SelectedRowHeaderOpacity];
+}
+
+.DataGridView-ColumnHeader
+{
+	[Skin.ColumnHeaderNormalStyle];
+	cursor:pointer;
+	box-sizing:border-box;	
+}
+
+.DataGridView-TopHeader
+{
+	[Skin.LeftTopHeaderNormalStyle];		
+}
+
+.DataGridView-Cell
+{
+	[Skin.CellNormalStyle];
+	overflow:hidden;
+	box-sizing:border-box;		
+}
+
+.DataGridView-Cell_Selected
+{
+	[Skin.CellSelectedStyle];
+	overflow:hidden;
+	box-sizing:border-box;		
+}
+
+.DataGridView-RowHeaderCellBorderStyle
+{
+	[Skin.GridLines];
+	border-left:none;
+	border-top:none;		
+}
+
+.DataGridView-Cells 
+{
+	overflow:hidden;
+}
+
+.DataGridView-RowHeaderSplitter
+{
+	cursor:n-resize;
+	overflow:hidden;
+	height:3px;
+}
+
+
+.DataGridView-Space
+{
+	background:transparent;
+	border:none;
+}
+
+.DataGridView-PagingPanelHeight
+{
+	height:[Skin.PagingPanelHeight]px;
+}
+
+.DataGridView-ColumnChooser
+{
+	[Skin.ColumnChooserStyle];	
+	cursor:pointer;
+}
+
+.DataGridView-ExpandCollapseColumn
+{
+	width:[Skin.ExpandCollapseColumnWidth]px;
+}
+
+.DataGridView-ExpandButton
+{
+	cursor:pointer;
+	[Skin.ExpandButtonImageStyle];
+}
+.DataGridView-CollapseButton
+{
+	cursor:pointer;
+	[Skin.CollapseButtonImageStyle];
+}
+
+.DataGridView-ExpandButtonRowHeader
+{
+	[Skin.ExpandedRowHeaderStyle];
+	
+}
+
+.DataGridView-EmptyExpandCollapse
+{
+	[Skin.EmptyExpandCollapseImageStyle];	
+}
+
+.DataGridView-PagingPanelStyle
+{
+	[Skin.PagingPanelStyle];
+}
+
+.DataGridView-PagingFirstImageWidth
+{
+	width:[Skin.PagingFirstButtonWidth]px;
+}
+
+.DataGridView-PagingLastImageWidth
+{
+	width:[Skin.PagingLastButtonWidth]px;
+}
+
+.DataGridView-PagingPreviousImageWidth
+{
+	width:[Skin.PagingPreviousButtonWidth]px;
+}
+
+.DataGridView-PagingNextImageWidth
+{
+	width:[Skin.PagingNextButtonWidth]px;
+}
+
+.DataGridView-PagingGotoBox
+{
+	[Skin.PagingGotoBoxStyle];
+	text-align:center;
+}
+
+.DataGridView-PagingLastButtonStyle
+{
+	[Skin.BidirectionalPagingLastButtonStyle];
+	height:100%;
+}
+
+.DataGridView-PagingFirstButtonStyle
+{
+	[Skin.BidirectionalPagingFirstButtonStyle];
+	height:100%;
+}
+
+.DataGridView-PagingNextButtonStyle
+{
+	[Skin.BidirectionalPagingNextButtonStyle];
+	height:100%;
+}
+
+.DataGridView-PagingPrevButtonStyle
+{
+	[Skin.BidirectionalPagingPrevButtonStyle];
+	height:100%;
+}
+
+.DataGridView-RowHeaderText
+{
+	white-space:nowrap;
+}
+
+.DataGridView-Caption
+{
+    [Skin.CaptionStyle];
+}
+
+.DataGridView-ClearAllFiltersButton
+{
+    [Skin.FilterRowClearButtonStyle];
+    width: [Skin.FilterClearButtonImageWidth]px; 
+    height:[Skin.FilterClearButtonImageHeight]px;   
+}
+
+.DataGridView-GroupingDropArea
+{
+    [Skin.GroupingDropAreaStyle];
+}
+
+td.DataGridView-GroupingDropAreaEmptyMessage
+{
+    [Skin.GroupingDropAreaEmptyMessageStyle];
+}
+
+.DataGridView-DropIndicator
+{
+    [Skin.DropIndicatorStyle];
+    width:[Skin.DropIndicatorDownArrowImageWidth]px;
+    height:[Skin.DropIndicatorDownArrowImageHeight]px;
+}
+
+.DataGridView-ColumnHeaderSplitter
+{
+	cursor:e-resize;
+	overflow:hidden;
+}
+
+.DataGridView-RowHeaderIconFirstContainer
+{
+	display:table;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+.DataGridView-RowHeaderIconSecondContainer
+{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.DataGridView-ExtendedColumnsNonFrozen
+{
+    [Skin.ExtendedColumnsNonFrozenStyle];    
+}
+
+.DataGridView-ExtendedColumnsFrozen
+{
+    [Skin.ExtendedColumnsFrozenStyle];    
+}
+
+.DataGridView-ExtendedColumnsCorner
+{
+    [Skin.ExtendedColumnsCornerStyle];    
+}

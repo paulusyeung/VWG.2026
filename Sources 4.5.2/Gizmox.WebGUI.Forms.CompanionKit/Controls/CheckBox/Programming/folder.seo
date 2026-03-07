@@ -1,0 +1,17 @@
+<Item SiteMap="False" Order="120" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains sample apps that demonstrate how to handle CheckedChanged and CheckedStateChanged events of CheckBox</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>CheckBox</Keyword>
+    <Keyword>CheckedChanged</Keyword>
+    <Keyword>CheckedStateChanged</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.CheckBox.Programming.CheckedChangedPage</DefaultPage>
+</Item>

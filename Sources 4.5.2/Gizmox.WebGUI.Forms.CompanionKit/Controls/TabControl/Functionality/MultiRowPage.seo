@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="95" Status="Publish" Type="Page">
+  <Title>Multi row tabs ordering</Title>
+  <Properties />
+  <DisplayName>Multi row tabs ordering</DisplayName>
+  <Description>The example demonstrates how to display TabControl tabs in multiple rows</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MultiRowPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MultiRowPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MultiRowPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MultiRowPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MultiRowPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TabControl</Keyword>
+    <Keyword>Multiline</Keyword>
+    <Keyword>Tab</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TabControl.Functionality.MultiRowPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

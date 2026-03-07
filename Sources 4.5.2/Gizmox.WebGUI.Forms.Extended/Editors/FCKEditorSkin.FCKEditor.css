@@ -1,0 +1,11 @@
+
+.FCKEditor-Control
+{
+	border:1px solid #6F9DD9;
+	background:white;
+}
+
+.FCKEditor-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}

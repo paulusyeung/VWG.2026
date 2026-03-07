@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="menuItem9.Icon" xml:space="preserve">
+    <value>MainMenu.CloseSolution.png</value>
+  </data>
+  <data name="menuItem10.Icon" xml:space="preserve">
+    <value>MainMenu.Save.png</value>
+  </data>
+  <data name="menuItem11.Icon" xml:space="preserve">
+    <value>MainMenu.SaveAs.png</value>
+  </data>
+  <data name="menuItem15.Icon" xml:space="preserve">
+    <value>MainMenu.PageSetup.png</value>
+  </data>
+  <data name="menuItem16.Icon" xml:space="preserve">
+    <value>MainMenu.Print.png</value>
+  </data>
+  <data name="menuItem24.Icon" xml:space="preserve">
+    <value>MainMenu.NewProject.png</value>
+  </data>
+  <data name="menuItem25.Icon" xml:space="preserve">
+    <value>MainMenu.NewWebSite.png</value>
+  </data>
+  <data name="menuItem26.Icon" xml:space="preserve">
+    <value>MainMenu.NewFile.png</value>
+  </data>
+  <data name="menuItem28.Icon" xml:space="preserve">
+    <value>MainMenu.OpenProject.png</value>
+  </data>
+  <data name="menuItem29.Icon" xml:space="preserve">
+    <value>MainMenu.OpenWebSite.png</value>
+  </data>
+  <data name="menuItem30.Icon" xml:space="preserve">
+    <value>MainMenu.OpenFile.png</value>
+  </data>
+  <data name="menuItem39.Icon" xml:space="preserve">
+    <value>MainMenu.Undo.png</value>
+  </data>
+  <data name="menuItem40.Icon" xml:space="preserve">
+    <value>MainMenu.Redo.png</value>
+  </data>
+  <data name="menuItem41.Icon" xml:space="preserve">
+    <value>MainMenu.UndoGlobal.png</value>
+  </data>
+  <data name="menuItem42.Icon" xml:space="preserve">
+    <value>MainMenu.RedoGlobal.png</value>
+  </data>
+  <data name="menuItem44.Icon" xml:space="preserve">
+    <value>MainMenu.Cut.png</value>
+  </data>
+  <data name="menuItem45.Icon" xml:space="preserve">
+    <value>MainMenu.Copy.png</value>
+  </data>
+  <data name="menuItem46.Icon" xml:space="preserve">
+    <value>MainMenu.Paste.png</value>
+  </data>
+  <data name="menuItem48.Icon" xml:space="preserve">
+    <value>MainMenu.Delete.png</value>
+  </data>
+  <data name="menuItem54.Icon" xml:space="preserve">
+    <value>MainMenu.QuickFind.png</value>
+  </data>
+  <data name="menuItem55.Icon" xml:space="preserve">
+    <value>MainMenu.QuickReplace.png</value>
+  </data>
+  <data name="menuItem56.Icon" xml:space="preserve">
+    <value>MainMenu.FindInFiles.png</value>
+  </data>
+  <data name="menuItem57.Icon" xml:space="preserve">
+    <value>MainMenu.ReplaceInFiles.png</value>
+  </data>
+  <data name="menuItem58.Icon" xml:space="preserve">
+    <value>MainMenu.FindSymbol.png</value>
+  </data>
+  <data name="menuItem66.Icon" xml:space="preserve">
+    <value>MainMenu.FormatDocument.png</value>
+  </data>
+  <data name="menuItem67.Icon" xml:space="preserve">
+    <value>MainMenu.FormatSelection.png</value>
+  </data>
+  <data name="menuItem73.Icon" xml:space="preserve">
+    <value>MainMenu.ViewWhiteSpace.png</value>
+  </data>
+  <data name="menuItem74.Icon" xml:space="preserve">
+    <value>MainMenu.WordWrap.png</value>
+  </data>
+  <data name="menuItem76.Icon" xml:space="preserve">
+    <value>MainMenu.CommentSelection.png</value>
+  </data>
+  <data name="menuItem77.Icon" xml:space="preserve">
+    <value>MainMenu.UncommentSelection.png</value>
+  </data>
+  <data name="menuItem78.Icon" xml:space="preserve">
+    <value>MainMenu.IncreaseLineIndent.png</value>
+  </data>
+  <data name="menuItem79.Icon" xml:space="preserve">
+    <value>MainMenu.DecreaseLineIndent.png</value>
+  </data>
+  <data name="menuItem80.Icon" xml:space="preserve">
+    <value>MainMenu.ToggleBookmark.png</value>
+  </data>
+  <data name="menuItem81.Icon" xml:space="preserve">
+    <value>MainMenu.EnableAllBookmarks.png</value>
+  </data>
+  <data name="menuItem82.Icon" xml:space="preserve">
+    <value>MainMenu.EnableBookmark.png</value>
+  </data>
+  <data name="menuItem83.Icon" xml:space="preserve">
+    <value>MainMenu.PreviousBookmark.png</value>
+  </data>
+  <data name="menuItem84.Icon" xml:space="preserve">
+    <value>MainMenu.NextBookmark.png</value>
+  </data>
+  <data name="menuItem85.Icon" xml:space="preserve">
+    <value>MainMenu.ClearBookmark.png</value>
+  </data>
+  <data name="menuItem87.Icon" xml:space="preserve">
+    <value>MainMenu.PreviousBookmarkInFolder.png</value>
+  </data>
+  <data name="menuItem88.Icon" xml:space="preserve">
+    <value>MainMenu.NextBookmarkInFolder.png</value>
+  </data>
+  <data name="menuItem90.Icon" xml:space="preserve">
+    <value>MainMenu.PreviousBookmarkInDocument.png</value>
+  </data>
+  <data name="menuItem91.Icon" xml:space="preserve">
+    <value>MainMenu.NextBookmarkinDocument.png</value>
+  </data>
+  <data name="menuItem99.Icon" xml:space="preserve">
+    <value>MainMenu.GenerateMethodStub.png</value>
+  </data>
+  <data name="menuItem102.Icon" xml:space="preserve">
+    <value>MainMenu.ListMembers.png</value>
+  </data>
+  <data name="menuItem103.Icon" xml:space="preserve">
+    <value>MainMenu.ParameterInfo.png</value>
+  </data>
+  <data name="menuItem104.Icon" xml:space="preserve">
+    <value>MainMenu.QuickInfo.png</value>
+  </data>
+  <data name="menuItem106.Icon" xml:space="preserve">
+    <value>MainMenu.CompleteWord.png</value>
+  </data>
+  <data name="menuItem108.Icon" xml:space="preserve">
+    <value>MainMenu.InsertSnippet.png</value>
+  </data>
+  <data name="menuItem109.Icon" xml:space="preserve">
+    <value>MainMenu.SurroundWith.png</value>
+  </data>
+</root>

@@ -1,0 +1,139 @@
+
+.MainMenu-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.Font];
+	[Skin.Foreground];
+	[Skin.VisualEffect]
+}
+
+.MainMenu-Seperator
+{
+	[Skin.SeperatorStyle];
+	width:[Skin.SeperatorWidth]px;
+	height:100%;
+	overflow:hidden;
+	
+}
+
+.MainMenu-Frame
+{
+	height:100%;
+}
+
+.MainMenu-FrameLeft
+{
+	[Skin.LeftFrameStyle];
+}
+
+.MainMenu-FrameCenter
+{
+	[Skin.CenterFrameStyle];
+	text-decoration: inherit !important;
+}
+
+.MainMenu-FrameRight
+{
+	[Skin.RightFrameStyle];
+}
+
+
+.MainMenu-MenuItem
+{
+	height:100%;
+	text-decoration: inherit;
+}
+
+.MainMenu-Left, .MainMenu-Right
+{
+	float:left;
+	height:100%;
+	overflow:hidden;
+}
+
+.MainMenu-Center
+{
+	float:left;
+	height:100%;
+	overflow-y:hidden;
+}
+
+.MainMenu-MenuItem .MainMenu-Left
+{
+	[Skin.LeftMenuItemNormalStyle];
+}
+
+.MainMenu-MenuItem .MainMenu-Center
+{
+	[Skin.CenterMenuItemNormalStyle];
+	text-decoration:inherit;
+	
+}
+
+.MainMenu-MenuItem .MainMenu-Right
+{
+	[Skin.RightMenuItemNormalStyle];
+}
+
+.MainMenu-MenuItem_Enter .MainMenu-Left
+{
+	[Skin.LeftMenuItemHoverStyle];
+}
+
+.MainMenu-MenuItem_Enter .MainMenu-Center
+{
+	[Skin.CenterMenuItemHoverStyle];
+}
+
+.MainMenu-MenuItem_Enter .MainMenu-Right
+{
+	[Skin.RightMenuItemHoverStyle];
+}
+
+.MainMenu-MenuItem_Down .MainMenu-Left
+{
+	[Skin.LeftMenuItemPressedStyle];
+}
+
+.MainMenu-MenuItem_Down .MainMenu-Center
+{
+	[Skin.CenterMenuItemPressedStyle];
+}
+
+.MainMenu-MenuItem_Down .MainMenu-Right
+{
+	[Skin.RightMenuItemPressedStyle];
+}
+
+.MainMenu-MenuItem .MainMenu-Left_Disable
+{
+	[Skin.LeftMenuItemDisableStyle];
+	float:left;
+	height:100%;
+	overflow-y:hidden;
+}
+
+.MainMenu-MenuItem .MainMenu-Center_Disable
+{
+	[Skin.CenterMenuItemDisableStyle];
+	float:left;
+	height:100%;
+	overflow-y:hidden;
+	
+}
+
+.MainMenu-MenuItem .MainMenu-Right_Disable
+{
+	[Skin.RightMenuItemDisableStyle];
+	float:left;
+	height:100%;
+	overflow-y:hidden;
+}
+
+.MainMenu-Left_Disable, .MainMenu-Center_Disable,.MainMenu-Right_Disable
+{
+	float:left;
+	height:100%;
+	overflow-y:hidden;
+}

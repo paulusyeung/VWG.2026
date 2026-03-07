@@ -1,0 +1,24 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>DataGridView</Title>
+  <Properties />
+  <DisplayName>DataGridView</DisplayName>
+  <Description>Contains examples that demonstrate how to use the DataGridView control.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="UserDS.xsd" Order="100" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="UserDS.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="UserDS.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="UserDS.xsc" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="UserDS.xss" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>DataGrid</Keyword>
+    <Keyword>GridView</Keyword>
+    <Keyword>Grid</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.DataGridView.Overview</DefaultPage>
+</Item>

@@ -1,0 +1,13 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>CompanionKit</Title>
+  <Properties />
+  <DisplayName>CompanionKit</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.CompanionKit.CompanionKit.termsofuse</DefaultPage>
+  <Body />
+</Item>

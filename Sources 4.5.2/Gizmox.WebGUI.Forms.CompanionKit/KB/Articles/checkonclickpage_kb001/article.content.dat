@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110798790552906" UpdatedBy="admin" UpdatedOn="634110808936103294">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check the <em>CheckBox </em>and click on item of <em>CheckedListBox </em>and&nbsp;<em>CheckBox </em>of selected Item will be checked.&nbsp;Uncheck the <em>CheckBox </em>and click on item of <em>CheckedListBox </em>again and clicked item will&nbsp;be selected but its <em>CheckBox </em>is unchecked.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The example contains <em>CheckedListBox </em>to demonstrate usage of 'CheckOnClick' property, and <em>CheckBox </em>to change the value of 'CheckOnClick' property.</p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634088386795556034" UpdatedBy="admin" UpdatedOn="634088391843390520" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to limit upper bound of the Visual WebGui NumericUpDown.</Description>
+  </Properties>
+  <Nodes />
+</Data>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634454868897483850" UpdatedBy="admin" UpdatedOn="634461004363003932">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>There is <strong>SearchTextBox </strong>control on the <em>Form</em>.<br />Click on the 'Arrow' button to show the <strong>DropDownMenu</strong>.<br />In the menu you can either set search text from one of the top searches or choose search engine to use.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>DropDownMenu </strong>property gets or sets the dropdown menu for <strong>SearchTextBox </strong>control</p><p>Property type: Gizmox.WebGui.Forms.<strong>ContextMenu</strong></p>]]></Paragraph>
+  </Nodes>
+</Data>

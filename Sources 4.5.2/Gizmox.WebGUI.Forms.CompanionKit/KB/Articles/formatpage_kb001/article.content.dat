@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634088400328327900" UpdatedBy="admin" UpdatedOn="634088402247102460">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter number of decimal places into the 'Decimal places' <em>NumericUpDown </em>and number of decimal places to display in the spin box of the demonstrated <em>NumericUpDown </em>will be changed respectively.</p><p>Check the 'Enable thousands separator' <em>CheckBox</em>, enter 10000 value in the demonstrated <em>NumericUpDown</em> control and thousands separator will be displayed.<br />&nbsp;</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2" />
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>The Visual WebGui <em>NumericUpDown </em>control allows configure how values are displayed. The <em>DecimalPlaces</em> property determines how many numbers appear after the decimal point; the default is 0. The <em>ThousandsSeparator </em>property determines whether a separator will be inserted between every three decimal digits; the default is false. The control can display values in hexadecimal instead of decimal format, if the <em>Hexadecimal </em>property is set to true; the default is false.</p><p>To format the numeric value:</p><p>Display a decimal value by setting the <em>DecimalPlaces </em>property to an integer and setting the <em>ThousandsSeparator </em>property to true or false.</p><p><strong>Visual Basic</strong><br /><em>NumericUpDown1.DecimalPlaces = 2<br />NumericUpDown1.ThousandsSeparator = True</em><br /><strong>C#</strong><br /><em>numericUpDown1.DecimalPlaces = 2;<br />numericUpDown1.ThousandsSeparator = true;</em></p><p>Display a hexadecimal value by setting the Hexadecimal property to true.</p><p><strong>Visual Basic</strong><br /><em>NumericUpDown1.Hexadecimal = True</em><br /><strong>C#</strong><br /><em>numericUpDown1.Hexadecimal = true;</em></p><p><em>Note</em>: Even if the value is displayed on the form as hexadecimal, any tests you perform on the Value property will be testing its decimal value.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

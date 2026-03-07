@@ -1,0 +1,20 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains the examples that demonstrate how to catch form loading, closing, activating and orientation changing events.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>From</Keyword>
+    <Keyword>Activated</Keyword>
+    <Keyword>Deactivate</Keyword>
+    <Keyword>Closed</Keyword>
+    <Keyword>Load</Keyword>
+    <Keyword>OrientationChanged</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.Form.Programming.ActivateHandlingPage</DefaultPage>
+</Item>

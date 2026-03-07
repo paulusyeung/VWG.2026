@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634370893810010361" UpdatedBy="admin" UpdatedOn="634370989661545578">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Uncheck the <em>CheckBox </em>and the <em>GroupBox </em>control will be disabled as well as all the controls it contains. Check the <em>CheckBox </em>to enable <em>GroupBox </em>control with all&nbsp;child&nbsp;controls.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>GroupBox </em>contains <em>Enabled </em>property that indicates whether the <em>GroupBox </em>with all nested controls are accessible for user editing.</p>]]></Paragraph>
+  </Nodes>
+</Data>

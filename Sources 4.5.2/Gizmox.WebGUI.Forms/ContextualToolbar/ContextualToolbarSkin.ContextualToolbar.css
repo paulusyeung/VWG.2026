@@ -1,0 +1,38 @@
+.ContextualToolbar-Container
+{
+    [Skin.ContextualToolbarContainer];    
+    position:absolute;    
+}
+
+
+.ContextualToolbar-Button
+{
+    width: [Skin.ContextualToolbarButtonWidth]px;
+    height:[Skin.ContextualToolbarButtonHeight]px;
+    [Skin.ContextualToolbarButton];
+    display:inline-block;
+    
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+
+.ContextualToolbar-Button_First
+{
+    [Skin.ContextualToolbarButtonFirst];
+}
+
+.ContextualToolbar-Button:hover
+{   
+    width: [Skin.ContextualToolbarButtonHoverWidth]px;
+    height:[Skin.ContextualToolbarButtonHoverHeight]px;
+    [Skin.ContextualToolbarButtonHover];
+    cursor:pointer;
+}
+
+.ContextualToolbar-ButtonImage
+{
+    width: [Skin.ContextualToolbarButtonImageWidth]px;
+    height: [Skin.ContextualToolbarButtonImageHeight]px;
+    background-repeat: no-repeat;
+}

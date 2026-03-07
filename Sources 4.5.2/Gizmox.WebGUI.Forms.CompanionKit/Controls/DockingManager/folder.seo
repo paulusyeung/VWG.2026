@@ -1,0 +1,15 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>DockingManager</Title>
+  <Properties />
+  <DisplayName>DockingManager</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Contains sample apps that demonstrate how to use DockingManager control</Keyword>
+  </Keywords>
+  <Comment>DockingManager; Window; Pin; </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.DockingManager.Overview</DefaultPage>
+</Item>

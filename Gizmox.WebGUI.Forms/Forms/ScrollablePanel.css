@@ -1,0 +1,21 @@
+.WGScrollbarsPanel-Table
+{
+	width:100%;
+	height:100%;
+	table-layout:fixed;
+}
+
+.WGScrollbarsPanel-ButtonScroller
+{
+
+	height:100%;
+	cursor:hand;
+	font-family:webdings;
+}
+
+.WGScrollbarsPanel-Scroller
+{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}

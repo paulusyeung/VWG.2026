@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>AllowFullOpen property</Title>
+  <Properties />
+  <DisplayName>AllowFullOpen property</DisplayName>
+  <Description>This sample application demonstrates how to use ColorDialog with full color pallete. The application allows to change Background and Foreground colors with ColorDialog. Click on the buttons to see opened ColorDialog with full color pallet.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="AllowFullOpenPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AllowFullOpenPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AllowFullOpenPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AllowFullOpenPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AllowFullOpenPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ColorDialog</Keyword>
+    <Keyword>AllowFullOpen</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.ColorDialog.Functionality.AllowFullOpenPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+</Item>

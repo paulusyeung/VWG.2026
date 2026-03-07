@@ -1,0 +1,12 @@
+.TabControl-Container
+{
+    [Skin.Foreground];
+	overflow-y:hidden;
+	overflow-x:visible;
+	display:inline;
+}
+
+.TabControl-Container div
+{
+	display:inline-block;
+}

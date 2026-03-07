@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{847A3249-A4B0-4C49-A61A-7886C9552157}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gizmox.WebGUI.Client</RootNamespace>
+    <AssemblyName>Gizmox.WebGUI.Client</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Keys\Gizmox.WebGUI.Client.snk</AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WG_NET452</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Deployment|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Documentation|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Nightly|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Commercial Deployment|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Express|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Design|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WG_NET452</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gizmox.WebGUI.Common, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=263fa4ef694acff6, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gizmox.WebGUI.Forms\Gizmox.WebGUI.Forms.4.5.2.csproj">
+      <Project>{9F0416FE-04C3-4F2A-98CC-B39B6F1022CC}</Project>
+      <Name>Gizmox.WebGUI.Forms.4.5.2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="System\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- 隻 project 打唔開，要取消呢句先得
+  <Import Condition="" Project="$(MSBuildExtensionsPath)\Gizmox\v14.0\Net4.5.2\Gizmox.VWGCoreLibrary.targets" />
+  -->
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Compile Include="..\ProductInfo.cs" />
+    <Compile Include="Application.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="Controllers\BindingNavigatorController.cs" />
+    <Compile Include="Controllers\ButtonBaseControler.cs" />
+    <Compile Include="Controllers\ButtonController.cs" />
+    <Compile Include="Controllers\CheckBoxController.cs" />
+    <Compile Include="Controllers\CheckedListBoxController.cs" />
+    <Compile Include="Controllers\ComboBoxController.cs" />
+    <Compile Include="Controllers\ComponentController.cs" />
+    <Compile Include="Controllers\ContainerControlController.cs" />
+    <Compile Include="Controllers\ContextMenuController.cs" />
+    <Compile Include="Controllers\ContextMenuStripController.cs" />
+    <Compile Include="Controllers\ControlCollectionController.cs" />
+    <Compile Include="Controllers\ControlController.cs" />
+    <Compile Include="Controllers\ComponentCollectionController.cs" />
+    <Compile Include="Controllers\DomainUpDownController.cs" />
+    <Compile Include="Controllers\ListControlController.cs" />
+    <Compile Include="Controllers\ListViewGroupCollectionController.cs" />
+    <Compile Include="Controllers\ListViewGroupController.cs" />
+    <Compile Include="Controllers\ListViewItemController.cs" />
+    <Compile Include="Controllers\ListViewSubItemCollectionController.cs" />
+    <Compile Include="Controllers\MaskedTextBoxController.cs" />
+    <Compile Include="Controllers\MenuController.cs" />
+    <Compile Include="Controllers\DataGidViewButtonColumnController.cs" />
+    <Compile Include="Controllers\DataGidViewCheckBoxColumnController.cs" />
+    <Compile Include="Controllers\DataGidViewColumnCollectionController .cs" />
+    <Compile Include="Controllers\DataGidViewColumnController.cs" />
+    <Compile Include="Controllers\DataGidViewComboBoxColumnController.cs" />
+    <Compile Include="Controllers\DataGidViewImageColumnController.cs" />
+    <Compile Include="Controllers\DataGidViewLinkColumnController.cs" />
+    <Compile Include="Controllers\DataGidViewTextBoxColumnController.cs" />
+    <Compile Include="Controllers\MenuStripController.cs" />
+    <Compile Include="Controllers\NavigationTabsController.cs" />
+    <Compile Include="Controllers\NumericUpDownController.cs" />
+    <Compile Include="Controllers\ProgressBarController.cs" />
+    <Compile Include="Controllers\RichTextBoxController.cs" />
+    <Compile Include="Controllers\SplitContainerController.cs" />
+    <Compile Include="Controllers\SplitterPanelController.cs" />
+    <Compile Include="Controllers\StackPanelController.cs" />
+    <Compile Include="Controllers\StatusBarPanelController.cs" />
+    <Compile Include="Controllers\StatusPanelCollectionController.cs" />
+    <Compile Include="Controllers\StatusBarController.cs" />
+    <Compile Include="Controllers\DateTimePickerController.cs" />
+    <Compile Include="Controllers\LinkLabelController.cs" />
+    <Compile Include="Controllers\GroupBoxController.cs" />
+    <Compile Include="Controllers\PlaceHolderController.cs" />
+    <Compile Include="Controllers\HtmlBoxController.cs" />
+    <Compile Include="Controllers\GenericComponentController.cs" />
+    <Compile Include="Controllers\LabelController.cs" />
+    <Compile Include="Controllers\DataGridViewController.cs" />
+    <Compile Include="Controllers\FlowLayoutPanelController.cs" />
+    <Compile Include="Controllers\FormController.cs" />
+    <Compile Include="Controllers\ItemsCollectionController.cs" />
+    <Compile Include="Controllers\ListBoxController.cs" />
+    <Compile Include="Controllers\ListViewColumnHeaderCollectionController.cs" />
+    <Compile Include="Controllers\ListViewColumnHeaderController.cs" />
+    <Compile Include="Controllers\ListViewController.cs" />
+    <Compile Include="Controllers\ListViewItemCollectionController.cs" />
+    <Compile Include="Controllers\ListViewSubItemController.cs" />
+    <Compile Include="Controllers\MainMenuController.cs" />
+    <Compile Include="Controllers\MenuItemCollectionController.cs" />
+    <Compile Include="Controllers\MenuItemController.cs" />
+    <Compile Include="Controllers\ObjectCollectionController.cs" />
+    <Compile Include="Controllers\ObjectController.cs" />
+    <Compile Include="Controllers\PanelController.cs" />
+    <Compile Include="Controllers\PictureBoxController.cs" />
+    <Compile Include="Controllers\PropertyGridController.cs" />
+    <Compile Include="Controllers\RadioButtonController.cs" />
+    <Compile Include="Controllers\ScrollableControlController.cs" />
+    <Compile Include="Controllers\StatusStripController.cs" />
+    <Compile Include="Controllers\TabControlController.cs" />
+    <Compile Include="Controllers\ColumnStyleController.cs" />
+    <Compile Include="Controllers\LayoutSettingsController.cs" />
+    <Compile Include="Controllers\RowStyleController.cs" />
+    <Compile Include="Controllers\TableLayoutColumnStyleCollectionController.cs" />
+    <Compile Include="Controllers\TableLayoutControlCollectionController.cs" />
+    <Compile Include="Controllers\TableLayoutPanelCellPositionController.cs" />
+    <Compile Include="Controllers\TableLayoutPanelController.cs" />
+    <Compile Include="Controllers\TableLayoutRowStyleCollectionController.cs" />
+    <Compile Include="Controllers\TableLayoutSettingsController.cs" />
+    <Compile Include="Controllers\TableLayoutSettingsStubController.cs" />
+    <Compile Include="Controllers\TableLayoutStyleCollectionController.cs" />
+    <Compile Include="Controllers\TableLayoutStyleController.cs" />
+    <Compile Include="Controllers\TabPageController.cs" />
+    <Compile Include="Controllers\TextBoxBaseController.cs" />
+    <Compile Include="Controllers\TextBoxController.cs" />
+    <Compile Include="Controllers\ToolBarButtonController.cs" />
+    <Compile Include="Controllers\ToolBarController.cs" />
+    <Compile Include="Controllers\ToolBarItemCollectionController.cs" />
+    <Compile Include="Controllers\ToolStripButtonController.cs" />
+    <Compile Include="Controllers\ToolStripComboBoxController.cs" />
+    <Compile Include="Controllers\ToolStripContainerController.cs" />
+    <Compile Include="Controllers\ToolStripContentPanelController.cs" />
+    <Compile Include="Controllers\ToolStripControlHostController.cs" />
+    <Compile Include="Controllers\ToolStripController.cs" />
+    <Compile Include="Controllers\ToolStripDropDownButtonController.cs" />
+    <Compile Include="Controllers\ToolStripDropDownController.cs" />
+    <Compile Include="Controllers\ToolStripDropDownItemController.cs" />
+    <Compile Include="Controllers\ToolStripDropDownMenuController.cs" />
+    <Compile Include="Controllers\ToolStripItemCollectionController.cs" />
+    <Compile Include="Controllers\ToolStripItemController.cs" />
+    <Compile Include="Controllers\ToolStripLabelController.cs" />
+    <Compile Include="Controllers\ToolStripMenuItemController.cs" />
+    <Compile Include="Controllers\ToolStripPanelController.cs" />
+    <Compile Include="Controllers\ToolStripProgressBarController.cs" />
+    <Compile Include="Controllers\ToolStripSeparatorController.cs" />
+    <Compile Include="Controllers\ToolStripSplitButtonController.cs" />
+    <Compile Include="Controllers\ToolStripStatusLabelController.cs" />
+    <Compile Include="Controllers\ToolStripTextBoxController.cs" />
+    <Compile Include="Controllers\TrackBarController.cs" />
+    <Compile Include="Controllers\TreeNodeCollectionController.cs" />
+    <Compile Include="Controllers\TreeNodeController.cs" />
+    <Compile Include="Controllers\TreeViewController.cs" />
+    <Compile Include="Controllers\UpDownBaseController.cs" />
+    <Compile Include="Controllers\UserControlController.cs" />
+    <Compile Include="Controllers\WorkspaceTabsController.cs" />
+    <Compile Include="Cookies.cs" />
+    <Compile Include="Design\ClientDesignContext.cs" />
+    <Compile Include="EmbededResource.cs" />
+    <Compile Include="Event.cs" />
+    <Compile Include="EventCollection.cs" />
+    <Compile Include="Forms\ApplicationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientColumnHeader.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientDomainUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientDomainUpDown.Designer.cs">
+      <DependentUpon>ClientDomainUpDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientHtmlBox.2.0.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientListViewItem.cs" />
+    <Compile Include="Forms\ClientMenuStyleProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientNumericUpDown.Designer.cs">
+      <DependentUpon>ClientNumericUpDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ClientPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientStackPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientTreeNode.cs" />
+    <Compile Include="Forms\ClientTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientUpDown.Designer.cs">
+      <DependentUpon>ClientUpDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GatewayRequest.cs" />
+    <Compile Include="GatewayStream.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\ArgumentsProvider.cs" />
+    <Compile Include="Providers\ResultsProvider.cs" />
+    <Compile Include="Request.cs" />
+    <Compile Include="Response.cs" />
+    <Compile Include="Server.cs" />
+    <Compile Include="ServerSwitches.cs" />
+    <Compile Include="Session.cs" />
+    <Compile Include="Trace.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\ApplicationForm.resx">
+      <DependentUpon>ApplicationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ClientButton.resx">
+      <DependentUpon>ClientButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ClientForm.resx">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Keys\Gizmox.WebGUI.Client.snk" />
+  </ItemGroup>
+</Project>

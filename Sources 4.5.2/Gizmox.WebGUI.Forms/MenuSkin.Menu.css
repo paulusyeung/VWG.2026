@@ -1,0 +1,54 @@
+.Menu-DialogBody
+{
+}
+
+.Menu-PopupWindow
+{
+	position:absolute;
+	[Skin.Font];
+}
+
+.Menu-PopupWindow .Menu-TopLeft
+{
+	[Skin.LeftTopPopupWindowStyle];
+}
+
+.Menu-PopupWindow .Menu-Left
+{
+	[Skin.LeftPopupWindowStyle];
+}
+
+.Menu-PopupWindow .Menu-BottomLeft
+{
+	[Skin.LeftBottomPopupWindowStyle]; 
+}
+
+.Menu-PopupWindow .Menu-Center
+{
+	[Skin.CenterPopupWindowStyle];	
+}
+
+.Menu-PopupWindow .Menu-TopRight
+{
+	[Skin.RightTopPopupWindowStyle]; 
+}
+
+.Menu-PopupWindow .Menu-Right
+{
+	[Skin.RightPopupWindowStyle]; 
+}
+
+.Menu-PopupWindow .Menu-BottomRight
+{
+	[Skin.RightBottomPopupWindowStyle];  
+}
+
+.Menu-PopupWindow .Menu-Top
+{
+	[Skin.TopPopupWindowStyle];
+}
+
+.Menu-PopupWindow .Menu-Bottom
+{
+	[Skin.BottomPopupWindowStyle];
+}

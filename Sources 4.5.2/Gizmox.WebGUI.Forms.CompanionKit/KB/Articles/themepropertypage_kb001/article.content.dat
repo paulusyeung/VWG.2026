@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634430747548954714" UpdatedBy="admin" UpdatedOn="634430760482244302">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Use <em>ComboBox </em>to select&nbsp;one of&nbsp;three&nbsp;themes available&nbsp;for <strong><em>Chart </em></strong>control.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>Chart.Theme </strong>property gets or sets the theme for <em>Chart </em>control.<br />Property Type: Gizmox.WebGUI.Forms.Charts.ThemeTypes<br />DefaultValue - Gizmox.WebGUI.Forms.Charts.ThemeTypes.<strong>Theme1</strong></p>]]></Paragraph>
+  </Nodes>
+</Data>

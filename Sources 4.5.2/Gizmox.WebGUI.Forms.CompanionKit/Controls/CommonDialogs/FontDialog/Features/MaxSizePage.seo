@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Page">
+  <Title>Applying the MaxSize property</Title>
+  <Properties />
+  <DisplayName>MaxSize</DisplayName>
+  <Description>The example demonstrates how to limit maximum font size that it can be selected in the Visual WebGui FontDialog dialog box</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MaxSizePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxSizePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxSizePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxSizePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxSizePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>FontDialog</Keyword>
+    <Keyword>MaxSize</Keyword>
+    <Keyword>Size</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.FontDialog.Features.MaxSizePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+</Item>

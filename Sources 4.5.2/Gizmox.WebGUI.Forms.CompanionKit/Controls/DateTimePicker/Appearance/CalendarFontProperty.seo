@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="102" Status="Draft" Type="Page" Height="165">
+  <Title>CalendarFont Property</Title>
+  <Properties />
+  <DisplayName>CalendarFont Property</DisplayName>
+  <Description>The example demonstrates how to change font for a DropDown Calendar of a Visual WebGui DateTimePicker.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CalendarFontProperty.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CalendarFontProperty.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CalendarFontProperty.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CalendarFontProperty.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CalendarFontProperty.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\16x16\Font.png" Order="103" Lang="All" Title="Font.png" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>DateTimePicker</Keyword>
+    <Keyword>CalendarFont</Keyword>
+    <Keyword>Calendar</Keyword>
+    <Keyword>Font</Keyword>
+  </Keywords>
+  <Comment>CalendarFont Property isn't implemented. VWG-6977</Comment>
+  <PageType>CompanionKit.Controls.DateTimePicker.Appearance.CalendarFontProperty, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

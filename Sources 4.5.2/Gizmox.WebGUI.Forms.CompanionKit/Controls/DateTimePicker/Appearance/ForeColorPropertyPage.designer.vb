@@ -1,0 +1,119 @@
+Namespace CompanionKit.Controls.DateTimePicker.Appearance
+
+	<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+	Partial Class ForeColorPropertyPage
+		Inherits UserControl
+
+		'Form overrides dispose to clean up the component list.
+		<System.Diagnostics.DebuggerNonUserCode()> _
+		Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+			Try
+				If disposing AndAlso components IsNot Nothing Then
+					components.Dispose()
+				End If
+			Finally
+				MyBase.Dispose(disposing)
+			End Try
+		End Sub
+
+		'Required by the Visual WebGui UserControl Designer
+		Private components As System.ComponentModel.IContainer
+
+		'NOTE: The following procedure is required by the WebGui UserControl Designer
+		'It can be modified using the Windows Form Designer.  
+		'Do not modify it using the code editor.
+		<System.Diagnostics.DebuggerStepThrough()> _
+		Private Sub InitializeComponent()
+            Me.mobjForeColorLabel = New Gizmox.WebGUI.Forms.Label()
+            Me.mobjForeColorComboBox = New Gizmox.WebGUI.Forms.ComboBox()
+            Me.mobjDemoDateTimePickerLabel = New Gizmox.WebGUI.Forms.Label()
+            Me.mobjDemoDateTimePicker = New Gizmox.WebGUI.Forms.DateTimePicker()
+            Me.mobjLayoutPanel = New Gizmox.WebGUI.Forms.TableLayoutPanel()
+            Me.mobjLayoutPanel.SuspendLayout()
+            Me.SuspendLayout()
+            '
+            'mobjForeColorLabel
+            '
+            Me.mobjForeColorLabel.AutoSize = True
+            Me.mobjForeColorLabel.Dock = Gizmox.WebGUI.Forms.DockStyle.Fill
+            Me.mobjForeColorLabel.Location = New System.Drawing.Point(76, 29)
+            Me.mobjForeColorLabel.Name = "foreColorLabel"
+            Me.mobjForeColorLabel.Size = New System.Drawing.Size(358, 50)
+            Me.mobjForeColorLabel.TabIndex = 0
+            Me.mobjForeColorLabel.Text = "Foreground color"
+            Me.mobjForeColorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+            '
+            'mobjForeColorComboBox
+            '
+            Me.mobjForeColorComboBox.AllowDrag = False
+            Me.mobjForeColorComboBox.BorderStyle = Gizmox.WebGUI.Forms.BorderStyle.Fixed3D
+            Me.mobjForeColorComboBox.Dock = Gizmox.WebGUI.Forms.DockStyle.Fill
+            Me.mobjForeColorComboBox.Location = New System.Drawing.Point(76, 79)
+            Me.mobjForeColorComboBox.Name = "foreColorComboBox"
+            Me.mobjForeColorComboBox.Size = New System.Drawing.Size(358, 21)
+            Me.mobjForeColorComboBox.TabIndex = 1
+            '
+            'mobjDemoDateTimePickerLabel
+            '
+            Me.mobjDemoDateTimePickerLabel.AutoSize = True
+            Me.mobjDemoDateTimePickerLabel.Dock = Gizmox.WebGUI.Forms.DockStyle.Fill
+            Me.mobjDemoDateTimePickerLabel.Location = New System.Drawing.Point(76, 129)
+            Me.mobjDemoDateTimePickerLabel.Name = "demoDateTimePickerLabel"
+            Me.mobjDemoDateTimePickerLabel.Size = New System.Drawing.Size(358, 50)
+            Me.mobjDemoDateTimePickerLabel.TabIndex = 2
+            Me.mobjDemoDateTimePickerLabel.Text = "Demonstrated DateTimePicker"
+            Me.mobjDemoDateTimePickerLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+            '
+            'mobjDemoDateTimePicker
+            '
+            Me.mobjDemoDateTimePicker.CustomFormat = ""
+            Me.mobjDemoDateTimePicker.Dock = Gizmox.WebGUI.Forms.DockStyle.Fill
+            Me.mobjDemoDateTimePicker.Location = New System.Drawing.Point(76, 179)
+            Me.mobjDemoDateTimePicker.Name = "demoDateTimePicker"
+            Me.mobjDemoDateTimePicker.Size = New System.Drawing.Size(358, 21)
+            Me.mobjDemoDateTimePicker.TabIndex = 3
+            '
+            'mobjLayoutPanel
+            '
+            Me.mobjLayoutPanel.ColumnCount = 3
+            Me.mobjLayoutPanel.ColumnStyles.Add(New Gizmox.WebGUI.Forms.ColumnStyle(Gizmox.WebGUI.Forms.SizeType.Percent, 15.0!))
+            Me.mobjLayoutPanel.ColumnStyles.Add(New Gizmox.WebGUI.Forms.ColumnStyle(Gizmox.WebGUI.Forms.SizeType.Percent, 70.0!))
+            Me.mobjLayoutPanel.ColumnStyles.Add(New Gizmox.WebGUI.Forms.ColumnStyle(Gizmox.WebGUI.Forms.SizeType.Percent, 15.0!))
+            Me.mobjLayoutPanel.Controls.Add(Me.mobjForeColorLabel, 1, 1)
+            Me.mobjLayoutPanel.Controls.Add(Me.mobjDemoDateTimePicker, 1, 5)
+            Me.mobjLayoutPanel.Controls.Add(Me.mobjForeColorComboBox, 1, 2)
+            Me.mobjLayoutPanel.Controls.Add(Me.mobjDemoDateTimePickerLabel, 1, 4)
+            Me.mobjLayoutPanel.Dock = Gizmox.WebGUI.Forms.DockStyle.Fill
+            Me.mobjLayoutPanel.Location = New System.Drawing.Point(0, 0)
+            Me.mobjLayoutPanel.Name = "mobjLayoutPanel"
+            Me.mobjLayoutPanel.RowCount = 7
+            Me.mobjLayoutPanel.RowStyles.Add(New Gizmox.WebGUI.Forms.RowStyle(Gizmox.WebGUI.Forms.SizeType.Percent, 50.0!))
+            Me.mobjLayoutPanel.RowStyles.Add(New Gizmox.WebGUI.Forms.RowStyle(Gizmox.WebGUI.Forms.SizeType.Absolute, 50.0!))
+            Me.mobjLayoutPanel.RowStyles.Add(New Gizmox.WebGUI.Forms.RowStyle(Gizmox.WebGUI.Forms.SizeType.Absolute, 30.0!))
+            Me.mobjLayoutPanel.RowStyles.Add(New Gizmox.WebGUI.Forms.RowStyle(Gizmox.WebGUI.Forms.SizeType.Absolute, 20.0!))
+            Me.mobjLayoutPanel.RowStyles.Add(New Gizmox.WebGUI.Forms.RowStyle(Gizmox.WebGUI.Forms.SizeType.Absolute, 50.0!))
+            Me.mobjLayoutPanel.RowStyles.Add(New Gizmox.WebGUI.Forms.RowStyle(Gizmox.WebGUI.Forms.SizeType.Absolute, 30.0!))
+            Me.mobjLayoutPanel.RowStyles.Add(New Gizmox.WebGUI.Forms.RowStyle(Gizmox.WebGUI.Forms.SizeType.Percent, 50.0!))
+            Me.mobjLayoutPanel.Size = New System.Drawing.Size(512, 238)
+            Me.mobjLayoutPanel.TabIndex = 4
+            '
+            'ForeColorPropertyPage
+            '
+            Me.Controls.Add(Me.mobjLayoutPanel)
+            Me.MinimumSize = New System.Drawing.Size(350, 238)
+            Me.Size = New System.Drawing.Size(512, 238)
+            Me.Text = "ForeColorPropertyPage"
+            Me.mobjLayoutPanel.ResumeLayout(False)
+            Me.ResumeLayout(False)
+
+        End Sub
+
+        Private mobjForeColorLabel As Gizmox.WebGUI.Forms.Label
+        Private WithEvents mobjForeColorComboBox As Gizmox.WebGUI.Forms.ComboBox
+        Private mobjDemoDateTimePickerLabel As Gizmox.WebGUI.Forms.Label
+        Private mobjDemoDateTimePicker As Gizmox.WebGUI.Forms.DateTimePicker
+        Private mobjLayoutPanel As Gizmox.WebGUI.Forms.TableLayoutPanel
+
+	End Class
+
+End Namespace

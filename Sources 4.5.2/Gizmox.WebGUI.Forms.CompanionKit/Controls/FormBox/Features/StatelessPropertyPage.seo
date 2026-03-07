@@ -1,0 +1,40 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="290">
+  <Title>Stateless property</Title>
+  <Properties />
+  <DisplayName>Stateless property</DisplayName>
+  <Description>The example demonstrates how to use Stateless property of FormBox</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyPage.cs" Order="102" Lang="CSharp" Title="Page.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyPage.designer.cs" Order="102" Lang="CSharp" Title="Page.designer.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyPage.vb" Order="102" Lang="VBNET" Title="Page.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyPage.designer.vb" Order="102" Lang="VBNET" Title="Page.designer.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyPage.resx" Order="102" Lang="All" Title="Page.resx" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyWebForm.aspx.designer.cs" Order="99" Lang="CSharp" Title="WebForm.aspx.designer.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyWebForm.aspx.cs" Order="99" Lang="CSharp" Title="WebForm.aspx.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyWebForm.aspx" Order="99" Lang="CSharp" Title="WebForm.aspx" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyTrueForm.resx" Order="101" Lang="All" Title="TrueForm.resx" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyTrueForm.Designer.cs" Order="101" Lang="CSharp" Title="TrueForm.Designer.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyTrueForm.cs" Order="101" Lang="CSharp" Title="TrueForm.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyFalseForm.resx" Order="100" Lang="All" Title="FalseForm.resx" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyFalseForm.Designer.cs" Order="100" Lang="CSharp" Title="FalseForm.Designer.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyFalseForm.cs" Order="100" Lang="CSharp" Title="FalseForm.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyWebFormVB.aspx.vb" Order="99" Lang="VBNET" Title="WebFormVB.aspx.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyWebFormVB.aspx.designer.vb" Order="99" Lang="VBNET" Title="WebFormVB.aspx.designer.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyWebFormVB.aspx" Order="99" Lang="VBNET" Title="WebFormVB.aspx" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyTrueForm.vb" Order="101" Lang="VBNET" Title="TrueForm.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyTrueForm.Designer.vb" Order="101" Lang="VBNET" Title="TrueForm.Designer.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyFalseForm.vb" Order="100" Lang="VBNET" Title="FalseForm.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatelessPropertyFalseForm.Designer.vb" Order="100" Lang="VBNET" Title="FalseForm.Designer.vb" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>FormBox</Keyword>
+    <Keyword>State</Keyword>
+    <Keyword>Stateless</Keyword>
+    <Keyword>Refresh</Keyword>
+  </Keywords>
+  <Comment>See related issue: VWG-8791 - regarding border around the formbox.</Comment>
+  <PageType>CompanionKit.Controls.FormBox.Features.StatelessPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

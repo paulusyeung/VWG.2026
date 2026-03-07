@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634094555707983163" UpdatedBy="admin" UpdatedOn="634094556624401143">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The demonstrated <em>PropertyGrid </em>control represents object of the <em>DemoObject </em>type. You can see code of the type in the code section. Select property in the <em>PropertyGrid</em>. Pay attention that text in the description panel of the <em>PropertyGrid </em>corresponds to text in the <em>Description </em>attribute of the property.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>PropertyGrid </em>allows defining description text of a property with <em>DescriptionAttribute </em>of the property. Sets the text for the property that is displayed in the description help pane below the properties. This is a useful way to provide help text for the active property (the property that has focus). </p>]]></Paragraph>
+  </Nodes>
+</Data>

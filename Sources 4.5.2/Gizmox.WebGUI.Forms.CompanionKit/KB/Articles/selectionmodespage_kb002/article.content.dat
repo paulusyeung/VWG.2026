@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634127352569774124" UpdatedBy="admin" UpdatedOn="634134211855235438">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change selection mode for demonstrated <em>ListBox </em>with 'SelectionMode' ComboBox and select items of the <em>ListBox</em> by different ways. </p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ListBox </em>contains the SelectionMode property that defines the method in which items are selected in the <em>ListBox</em>. <br />The selection modes are the following: <br /><strong>None </strong>- No items can be selected; <br /><strong>One </strong>&ndash; only one item can be selected at the same time;<br /><strong>MultiSimple </strong>- Multiple items can be selected; <br /><strong>MultiExtended </strong>- Multiple items can be selected, and the user can use the <em>SHIFT</em>, <em>CTRL</em>, and arrow keys to make selections.<br />The default is <em>SelectionMode.One</em>.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

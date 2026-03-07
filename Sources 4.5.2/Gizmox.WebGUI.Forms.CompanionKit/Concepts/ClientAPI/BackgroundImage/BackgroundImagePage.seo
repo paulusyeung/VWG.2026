@@ -1,0 +1,36 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Example of using BackgroundImage property</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackgroundImagePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackgroundImagePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackgroundImagePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackgroundImagePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackgroundImagePage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackImagePanel.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackImagePanelSkin.cs" Order="104" Lang="CSharp" Type="File" />
+	  <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackImagePanel.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackImagePanelSkin.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackImagePanelSkin.berry.jpg" Order="105" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackImagePanelSkin.dandelion.jpg" Order="106" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackImagePanelSkin.field.jpg" Order="107" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackImagePanelSkin.Panel.js" Order="108" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackImagePanelSkin.resx" Order="109" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackImagePanelSkin.Panel.css" Order="110" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="BackImagePanelSkin.Panel.xslt" Order="111" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>Control</Keyword>
+    <Keyword>backgroundImageUrl</Keyword>
+    <Keyword>Panel</Keyword>
+    <Keyword>custom</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Concepts.ClientAPI.BackgroundImage.BackgroundImagePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

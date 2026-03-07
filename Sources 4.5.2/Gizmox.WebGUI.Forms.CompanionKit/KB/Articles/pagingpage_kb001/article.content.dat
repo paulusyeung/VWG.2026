@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634130862341379850" UpdatedBy="admin" UpdatedOn="634130872005660451">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change value in 'ItemsPerPage' NumericUpDown to update the number of items per page and TotalPages counter for the left ListView</p><p>The 'ListView with paging items' ListView uses internal paging. This ListView will perform the internal paging.<br />The 'ListView without paging items' ListView doesn't use internal paging. This ListView doesn't perform internal paging.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>In Visual WebGui we have an internal capability of paging as an integral part of the <em>ListView</em>. Paging in a <em>ListView </em>is an optimization method that prevents huge mounts of data to be loaded in the client's browser. The <em>ListView </em>(either fully automatic or manually as in the sample application) &quot;pages&quot; the data and only sends the records for the currently active page in the <em>ListView </em>to the client's browser, thus only a small portion of the total number of records are actually sent to the browser at a time. Using fully automatic <em>ListView </em>internal paging does however mean that the whole dataset will be loaded on the server side on the webserver. Best practice, to minimize resource usage on the web server, is to have implement manual paging where only the data for the currently active <em>ListView </em>page is loaded from the database to the WebServer and then to the client.</p><p>The Visual WebGui <em>ListView </em>contains the following properties for working with Pages:<br /><strong>UseInternalPaging </strong>- indicates whether <em>ListView </em>should use pages;<br /><strong>ItemsPerPage </strong>- defines a number of items per page;<br /><strong>CurrentPage </strong>- an index of current page;<br /><strong>TotalPages </strong>- a number of internal pages.</p>]]></Paragraph>
+    <Header Code="HeaderElement3" Type="Subtitle" ShowInTOC="0"><![CDATA[Sample code]]></Header>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>The sample code allows you to use pages in ListView and switch between ListView pages:</p><p><strong>C#</strong>:</p>]]></Paragraph>
+    <Code Code="CodeElement1" Language="csharp"><![CDATA[ListView _listView = new ListView();
+Label lblNumberPaging = new Label();
+private void Form1_Load(object sender, EventArgs e)
+{
+    // Create the list view
+    _listView.ItemsPerPage = 14;
+    _listView.Location = new Point(10, 10);
+    _listView.PagingChanged  = new EventHandler(_listView_PagingChanged);
+    _listView.Size = new Size(400, 200);
+    _listView.UseInternalPaging = true;
+
+    // Create the list view columns
+    _listView.Columns.Add(new ColumnHeader("name", "Name", 150, ListViewColumnType.Text));
+    _listView.Columns.Add(new ColumnHeader("email", "Email", 150, ListViewColumnType.Text));
+
+    //Fill up ListView
+    addItemsTolIstView(60);
+
+    // Create a button and handler for click event that to add new items into ListView
+    Button btnAddItems= new Button();
+    btnAddItems.Location = new Point(10, 220);
+    btnAddItems.Text = "Add item";
+    btnAddItems.Click  = new EventHandler(btnAddItems_Click);
+
+    //Create label that indicates ListView current page
+    this.lblNumberPaging.AutoSize = true;
+    this.lblNumberPaging.Location = new Point(10, 250);
+    this.lblNumberPaging.Text = string.Format("The ListView current page is {0}!", this._listView.CurrentPage);
+
+    this.Controls.Add(_listView);
+    this.Controls.Add(btnAddItems);
+    this.Controls.Add(lblNumberPaging);
+}
+
+/// <summary>
+/// Add Items to ListView
+/// </summary>
+/// <param name="numberAddedItems">number new Items</param>
+void addItemsTolIstView(int numberAddedItems)
+{
+    int numberItems = this._listView.Items.Count   numberAddedItems;
+    for (int i = this._listView.Items.Count; i < numberItems;   i)
+    {
+        this._listView.Items.Add(new ListViewItem(new string[] { string.Format("User{0}", i), string.Format("user{0}@gmail.com", i) }));
+    }
+}
+
+/// <summary>
+/// Invoke when the paging parameters are changed
+/// </summary>
+/// <param name="sender"></param>
+/// <param name="e"></param>
+void _listView_PagingChanged(object sender, EventArgs e)
+{
+    this.lblNumberPaging.Text = string.Format("The ListView current page is {0}!", this._listView.CurrentPage);
+}
+
+/// <summary>
+/// Add ten items in ListView
+/// </summary>
+/// <param name="sender"></param>
+/// <param name="e"></param>
+void btnAddItems_Click(object sender, EventArgs e)
+{
+    addItemsTolIstView(10);
+}]]></Code>
+  </Nodes>
+</Data>

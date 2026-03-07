@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634159323951182058" UpdatedBy="admin" UpdatedOn="634299057182019198" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to populate the Visual WebGui NavigationTabs control.
+How to use images, handle events and define extra tabs.</Description>
+  </Properties>
+  <Nodes />
+</Data>

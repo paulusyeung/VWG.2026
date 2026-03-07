@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634112669936511851" UpdatedBy="admin" UpdatedOn="634121292879013446">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>Number of buttons is more than the panel may contain in one line. Check the <em>WrapContents' CheckBox </em>and controls will be placed in two rows.Uncheck the<em> 'WrapContents' CheckBox </em>and controls will be placed one row and some controls will be not visible and placed outside of the panel. Change selected value in the 'FlowDirection' <em>ComboBox </em>and flow direction of buttons on the <em>FlowLayoutPanel&nbsp; </em>will be changed.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains <em>FlowLayoutPanel </em>with many buttons, ' WrapContents' <em>CheckBox </em>and 'FlowDirection' <em>ComboBox</em>.</p>]]></Paragraph>
+  </Nodes>
+</Data>

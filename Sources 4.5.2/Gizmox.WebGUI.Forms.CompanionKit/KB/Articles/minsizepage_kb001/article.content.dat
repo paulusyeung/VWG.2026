@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634082502044256342" UpdatedBy="admin" UpdatedOn="634082502680214192">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter minimum font size into the 'Minimum font size for label' TextBox and click on the 'Open FontDialog to change font of the label' button. The <em>FontDialog </em>will be opened with limited with font sizes that can be selected. If you try to set size less than the set minimum size, the error message will be shown.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>FontDialog </em>dialog box contains the <em>MinSize </em>property that represents the minimum point size a user can select.</p>]]></Paragraph>
+  </Nodes>
+</Data>

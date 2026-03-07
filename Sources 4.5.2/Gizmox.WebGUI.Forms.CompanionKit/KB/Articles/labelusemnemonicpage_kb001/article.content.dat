@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634432370211915872" UpdatedBy="admin" UpdatedOn="634440749048848000">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Use <em>CheckBox </em>control to turn On/Off mnemonic symbols for <em>Label </em>controls on the form.<br />If mnemonic is on press ALT plus&nbsp;the mnemonic character(the underscored character) to&nbsp;set the focus to the <em>TextBox </em>that is next to <em>Label</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>Label.UseMnemonic</strong> property gets or sets a value indicating whether the control interprets an ampersand character (&amp;) in the control's Text property to be an access key prefix character.</p><p>If the <strong>UseMnemonic </strong>property is set to true and a mnemonic character (a character preceded by the ampersand) is defined in the Text property of the <em>Label</em>, pressing ALT&nbsp;plus&nbsp;the mnemonic character sets the focus to the control that follows the <em>Label </em>in the tab order. You can use this property to provide proper keyboard navigation to the controls on your form.</p><p><strong>Note:</strong> using mnemonic characters could brake regular use of '&amp;' character in the <strong>Label </strong>text.</p><p>Type: System.Boolean<br />Default Value - <strong>False</strong></p>]]></Paragraph>
+  </Nodes>
+</Data>

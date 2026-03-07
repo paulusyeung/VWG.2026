@@ -1,0 +1,20 @@
+<Item SiteMap="False" Order="103" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Populating Data</Title>
+  <Properties />
+  <DisplayName>Populating Data</DisplayName>
+  <Description>Contains examples that demonstrate how to populate a DataGridView with Database table data and the Collection objects and how to manipulate with data in a DataGridView.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>Collection</Keyword>
+    <Keyword>DataSource</Keyword>
+    <Keyword>Object</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>DataBase</Keyword>
+    <Keyword>Table</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.DataGridView.PopulatingData.BindingDataCollectionPage</DefaultPage>
+  <Body />
+</Item>

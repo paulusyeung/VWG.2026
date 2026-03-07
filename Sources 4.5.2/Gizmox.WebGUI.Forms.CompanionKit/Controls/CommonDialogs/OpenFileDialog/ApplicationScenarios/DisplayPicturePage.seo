@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Display a picture from a file</Title>
+  <Properties />
+  <DisplayName>Display a picture</DisplayName>
+  <Description>The example demonstrates how to open images in PictureBox with OpenFileDialog.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="DisplayPicturePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DisplayPicturePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DisplayPicturePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DisplayPicturePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DisplayPicturePage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\View.jpg" Order="103" Lang="All" Type="Link" Title="View.jpg" />
+  </Resources>
+  <Keywords>
+    <Keyword>OpenFileDialog</Keyword>
+    <Keyword>Picture</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>PictureBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.OpenFileDialog.ApplicationScenarios.DisplayPicturePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

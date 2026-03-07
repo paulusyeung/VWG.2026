@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>TabControl Demonstration</Title>
+  <Properties />
+  <DisplayName>TabControl</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>vwgTabControl</Keyword>
+    <Keyword>selectedIndex</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.TabControl.Overview</DefaultPage>
+</Item>

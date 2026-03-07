@@ -1,0 +1,20 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Page">
+  <Title>Format Value</Title>
+  <Properties />
+  <DisplayName>Format Value</DisplayName>
+  <Description>The example demonstrates how to support format of the input value in the Visual WebGui NumericUpDown.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="FormatPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormatPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormatPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormatPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormatPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>NumericUpDown</Keyword>
+    <Keyword>Format</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.NumericUpDown.Programming.FormatPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

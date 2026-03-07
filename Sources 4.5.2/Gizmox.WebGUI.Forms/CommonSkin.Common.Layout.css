@@ -1,0 +1,38 @@
+
+.nobr 
+{
+     white-space:nowrap;
+}
+
+.Layout-ControlContainer
+{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+
+.Common-ButtonTable
+{
+	width:100%;
+	height:100%;
+	table-layout:auto;
+	margin:0px;		
+}
+
+.Common-Window
+{
+	position:absolute;
+}
+
+.Common-FrameResizeHandle
+{
+	position:absolute!important;
+	overflow:hidden;
+}
+
+.Common-PagingPanel A
+{
+	cursor:pointer;
+	height:100%;
+	display:block;
+}

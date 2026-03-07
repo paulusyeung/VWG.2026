@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="UserDS" targetNamespace="http://tempuri.org/UserDS.xsd" xmlns:mstns="http://tempuri.org/UserDS.xsd" xmlns="http://tempuri.org/UserDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="UserDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="UserDS" msprop:Generator_DataSetName="UserDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Users" msprop:Generator_UserTableName="Users" msprop:Generator_RowDeletedName="UsersRowDeleted" msprop:Generator_RowChangedName="UsersRowChanged" msprop:Generator_RowClassName="UsersRow" msprop:Generator_RowChangingName="UsersRowChanging" msprop:Generator_RowEvArgName="UsersRowChangeEvent" msprop:Generator_RowEvHandlerName="UsersRowChangeEventHandler" msprop:Generator_TableClassName="UsersDataTable" msprop:Generator_TableVarName="tableUsers" msprop:Generator_RowDeletingName="UsersRowDeleting" msprop:Generator_TablePropName="Users">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserId" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="UserId" msprop:Generator_ColumnPropNameInRow="UserId" msprop:Generator_ColumnVarNameInTable="columnUserId" msprop:Generator_ColumnPropNameInTable="UserIdColumn" type="xs:int" />
+              <xs:element name="UserName" msprop:Generator_UserColumnName="UserName" msprop:Generator_ColumnPropNameInRow="UserName" msprop:Generator_ColumnVarNameInTable="columnUserName" msprop:Generator_ColumnPropNameInTable="UserNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UserEmail" msprop:Generator_UserColumnName="UserEmail" msprop:Generator_ColumnVarNameInTable="columnUserEmail" msprop:Generator_ColumnPropNameInRow="UserEmail" msprop:Generator_ColumnPropNameInTable="UserEmailColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UserPhone" msprop:Generator_UserColumnName="UserPhone" msprop:Generator_ColumnVarNameInTable="columnUserPhone" msprop:Generator_ColumnPropNameInRow="UserPhone" msprop:Generator_ColumnPropNameInTable="UserPhoneColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UserCity" msprop:Generator_UserColumnName="UserCity" msprop:Generator_ColumnVarNameInTable="columnUserCity" msprop:Generator_ColumnPropNameInRow="UserCity" msprop:Generator_ColumnPropNameInTable="UserCityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UserAddress" msprop:Generator_UserColumnName="UserAddress" msprop:Generator_ColumnVarNameInTable="columnUserAddress" msprop:Generator_ColumnPropNameInRow="UserAddress" msprop:Generator_ColumnPropNameInTable="UserAddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UserCountry" msprop:Generator_UserColumnName="UserCountry" msprop:Generator_ColumnVarNameInTable="columnUserCountry" msprop:Generator_ColumnPropNameInRow="UserCountry" msprop:Generator_ColumnPropNameInTable="UserCountryColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UserState" msprop:Generator_UserColumnName="UserState" msprop:Generator_ColumnVarNameInTable="columnUserState" msprop:Generator_ColumnPropNameInRow="UserState" msprop:Generator_ColumnPropNameInTable="UserStateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UserZipCode" msprop:Generator_UserColumnName="UserZipCode" msprop:Generator_ColumnVarNameInTable="columnUserZipCode" msprop:Generator_ColumnPropNameInRow="UserZipCode" msprop:Generator_ColumnPropNameInTable="UserZipCodeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Users" />
+      <xs:field xpath="mstns:UserId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

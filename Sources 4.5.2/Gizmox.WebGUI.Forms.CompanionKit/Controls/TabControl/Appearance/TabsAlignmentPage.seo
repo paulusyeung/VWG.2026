@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to use tabs alignment</Title>
+  <Properties />
+  <DisplayName>Tabs Alignment</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TabsAlignmentPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TabsAlignmentPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TabsAlignmentPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TabsAlignmentPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TabsAlignmentPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TabTop.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TabBottom.png" Order="104" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TabControl</Keyword>
+    <Keyword>Tabs</Keyword>
+    <Keyword>Alignment</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TabControl.Appearance.TabsAlignmentPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

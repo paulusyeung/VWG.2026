@@ -1,0 +1,19 @@
+<Item SiteMap="False" Order="102" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Application Scenarios</Title>
+  <Properties />
+  <DisplayName>Application Scenarios</DisplayName>
+  <Description>Contains examples that demonstrates sample usage of ErrorProvider in application</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ErrorProvider</Keyword>
+    <Keyword>Scenario</Keyword>
+    <Keyword>Validating</Keyword>
+    <Keyword>Validation</Keyword>
+    <Keyword>Validate</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.ErrorProvider.ApplicationScenarios.ErrorProviderValidatingAFormPage</DefaultPage>
+</Item>

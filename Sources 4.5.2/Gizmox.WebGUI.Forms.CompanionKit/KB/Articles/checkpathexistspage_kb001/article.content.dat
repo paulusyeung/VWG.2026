@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634080540125064712" UpdatedBy="admin" UpdatedOn="634081626327379584">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check/Uncheck the 'Enable CheckPathExists for OpenFileDialog' <em>CheckBox </em>and click on the 'Open OpenFileDialog with enable/disable CheckPathExists' button and upload file dialog will be opened. If you check the <em>CheckBox</em>, the dialog box displays a warning when the user specifies a path that does not exist. If you uncheck the <em>CheckBox</em>, the dialog box doesn't display a warning when the user specifies a path that does not exist.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>OpenFileDialog </em>contains <em>CheckPathExists </em>property that indicates whether the dialog box displays a warning if the user specifies a path that does not exist.</p>]]></Paragraph>
+  </Nodes>
+</Data>

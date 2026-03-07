@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ExtendedToolTip</Keyword>
+    <Keyword>tooltip</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="The &lt;span style=&quot;color:#00ccff&quot;&gt;ExtendedToolTip&lt;/span&gt; is an extension to the ToolTip component and provides the same functionality with regards to regular text only tooltips. In addition, it is capable of showing extended tooltips in Html form.&lt;br&gt;&#xD;&#xA;&#xD;&#xA;&lt;b&gt;Mixing text and Html tooltips&lt;/b&gt;&lt;br&gt;&#xD;&#xA;If you intend to show both text only and &lt;span style=&quot;color:#00ccff&quot;&gt;Html&lt;/span&gt; tooltips on the same form, there is no need to add both ToolTip and ExtendedToolTip extenders to your from, as the ExtendedToolTip extender is capable of showing both types, determined by the setting of ExtendedToolTip.ToolTipTemplateName. If this property is not set, the extender works like a standard ToolTip extender, showing text only tooltips. If &lt;span style=&quot;color:#00ccff&quot;&gt;ExtendedToolTip.ToolTipTemplateName&lt;/span&gt; is set, the extender will show Html tooltips." Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

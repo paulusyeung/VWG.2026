@@ -1,0 +1,29 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Page">
+  <Title>Reorder columns through drag and drop</Title>
+  <Properties />
+  <DisplayName>Column Reordering</DisplayName>
+  <Description>The example demonstrates how to allow reordering of columns through Drag and Drop for the DataGridView.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ColumnReorderingPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ColumnReorderingPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ColumnReorderingPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ColumnReorderingPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ColumnReorderingPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DataGridview</Keyword>
+    <Keyword>Reorder</Keyword>
+    <Keyword>Column</Keyword>
+    <Keyword>AllowUserToOrderColumns</Keyword>
+    <Keyword>Custom</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DataGridView.Features.ColumnReorderingPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="True" ShowAdvanced="False" Columns="0,200" Docking="Bottom">
+    <Fields>
+      <Field Column="0" Order="0" Type="CheckBox" Label="AllowUserToOrderColumns" TargetName="dataGridView1" PropertyName="AllowUserToOrderColumns" />
+    </Fields>
+  </Inspector>
+</Item>

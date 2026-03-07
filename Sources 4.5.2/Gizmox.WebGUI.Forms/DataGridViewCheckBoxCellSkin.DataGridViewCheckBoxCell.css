@@ -1,0 +1,36 @@
+.CheckBox-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]	
+}
+
+.CheckBox-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.CheckBox-Control_Focus
+{
+    [Skin.ControlFocusedStyle];
+}
+
+
+.CheckBox-Label
+{
+	[Skin.Foreground];
+	[Skin.Font];
+	[Skin.LabelNormalStyle];
+
+}
+
+.CheckBox-Control_Focus .CheckBox-Label
+{
+	[Skin.LabelFocusedStyle];
+	display:block;
+}
+
+.CheckBox-Control_Disabled .CheckBox-Label
+{
+    [Skin.ControlTextForegroundDisabled];
+}

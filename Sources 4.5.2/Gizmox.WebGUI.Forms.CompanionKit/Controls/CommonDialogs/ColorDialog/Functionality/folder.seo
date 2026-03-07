@@ -1,0 +1,19 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use AllowFullOpen, CustomColors and Color property of the color dialog</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ColorDialog</Keyword>
+    <Keyword>AllowFullOpen</Keyword>
+    <Keyword>Color</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>Set</Keyword>
+    <Keyword>Setting</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.CommonDialogs.ColorDialog.Functionality.AllowFullOpenPage</DefaultPage>
+  <Body />
+</Item>

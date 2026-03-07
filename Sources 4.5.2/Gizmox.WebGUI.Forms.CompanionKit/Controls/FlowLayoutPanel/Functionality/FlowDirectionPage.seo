@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>FlowDirection</Title>
+  <Properties />
+  <DisplayName>Manage flow direction</DisplayName>
+  <Description>Demonstrates how to change flow direction of added control in FlowLayoutPanel. The app contains FlowLayoutPanel with many buttons, 'WrapContents' CheckBox and 'FlowDirection' ComboBox. Number of buttons is more than the panel may contain in one line. If we check the CheckBox you will see that controls are placed in two rows.  If we uncheck the checkbox, you will see that controls are placed one row and some controls are not visible and placed outside of the panel.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="FlowDirectionPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FlowDirectionPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FlowDirectionPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FlowDirectionPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FlowDirectionPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>FlowLayoutPanel</Keyword>
+    <Keyword>Panel</Keyword>
+    <Keyword>Flow</Keyword>
+    <Keyword>Layout</Keyword>
+    <Keyword>Wrap</Keyword>
+    <Keyword>Content</Keyword>
+    <Keyword>Direction</Keyword>
+    <Keyword>FlowDirection</Keyword>
+    <Keyword>WrapContents</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.FlowLayoutPanel.Functionality.FlowDirectionPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

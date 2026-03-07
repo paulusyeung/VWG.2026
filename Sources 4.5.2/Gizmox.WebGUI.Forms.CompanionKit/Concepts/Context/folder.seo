@@ -1,0 +1,13 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Context</Title>
+  <Properties />
+  <DisplayName>Context</DisplayName>
+  <Description>Contains sample which demonstrate VWG Context usage</Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.Context.ContextPage</DefaultPage>
+</Item>

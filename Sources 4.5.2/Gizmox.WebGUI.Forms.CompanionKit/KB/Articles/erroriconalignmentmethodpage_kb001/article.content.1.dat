@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634414303423696166" UpdatedBy="admin" UpdatedOn="634414306062625622">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The <em>Form </em>contain a <em>TextBox </em>control used for showing the error.<br />Use <em>ComboBoxto </em>set&nbsp;alignment method&nbsp;for the error icon.<br />Press<strong> 'Show Error' </strong>and<strong> 'Hide Error' </strong>buttons to show and hide the error respectively</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><em>ErrorProvider.SetIconAlignment</em> method sets the location where the error icon should be placed in relation to the control.</p><p><strong>Parameters</strong><br /><em>objControl</em>: The control to set the icon location for.<br /><em>strValue</em>: One of the ErrorIconAlignment values.</p><p>The final placement of the icon is modified by the icon padding values.</p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains sample apps that demonstrate common features of DockingManager control</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DockingManager</Keyword>
+    <Keyword>Window</Keyword>
+    <Keyword>Pin</Keyword>
+    <Keyword>AutoHidden</Keyword>
+    <Keyword>Docked</Keyword>
+    <Keyword>Float</Keyword>
+    <Keyword>Tabbed</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.DockingManager.Functionality.AddingWindowsPage</DefaultPage>
+</Item>

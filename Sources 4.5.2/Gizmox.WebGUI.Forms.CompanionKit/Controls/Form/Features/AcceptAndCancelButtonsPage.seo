@@ -1,0 +1,30 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to use Accept and Cancel buttons</Title>
+  <Properties />
+  <DisplayName>Accept and Cancel buttons</DisplayName>
+  <Description>The example demonstrates how to use Accept and Cancel buttons with a Form.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="AcceptAndCancelButtonsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AcceptAndCancelButtonsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AcceptAndCancelButtonsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AcceptAndCancelButtonsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AcceptAndCancelButtonsPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AcceptAndCancelButtonsForm.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AcceptAndCancelButtonsForm.designer.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AcceptAndCancelButtonsForm.vb" Order="103" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AcceptAndCancelButtonsForm.designer.vb" Order="104" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AcceptAndCancelButtonsForm.resx" Order="105" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Form</Keyword>
+    <Keyword>AcceptButton</Keyword>
+    <Keyword>CancelButton</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Form.Features.AcceptAndCancelButtonsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

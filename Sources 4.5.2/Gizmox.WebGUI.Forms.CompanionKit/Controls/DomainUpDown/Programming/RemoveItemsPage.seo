@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Page">
+  <Title>How to Remove Items from Visual WebGui DomainUpDown Control</Title>
+  <Properties />
+  <DisplayName>Remove Items</DisplayName>
+  <Description>The example demonstrates how to remove items from the Visual WebGui DomainUpDown control</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="RemoveItemsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RemoveItemsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RemoveItemsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RemoveItemsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RemoveItemsPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DomainUpDown</Keyword>
+    <Keyword>Remove</Keyword>
+    <Keyword>Delete</Keyword>
+    <Keyword>Item</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DomainUpDown.Programming.RemoveItemsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

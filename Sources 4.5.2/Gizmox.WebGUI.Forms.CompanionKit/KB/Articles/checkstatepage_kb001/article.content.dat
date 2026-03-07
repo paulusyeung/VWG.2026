@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110163175069048" UpdatedBy="admin" UpdatedOn="634118479738549048">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on <em>button </em>'Checks State' and <em>label </em>will represent <em>CheckBox </em>state with message 'CheckBox state is &lt;CheckState property value&gt;.'&nbsp; Select item of&nbsp; 'CheckBox State' to change state and define it .</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>CheckBox </em>contains the <em>CheckState </em>property and <em>CheckStateChange </em>event for manipulating with its checked state. The <em>CheckState </em>property defines current checked state of the <em>CheckBox</em>. The property can be contains the following values:<br /><strong>Unchecked </strong>&ndash; defines unchecked state of the <em>CheckBox </em>control<br /><strong>Checked </strong>&ndash; defines checked state of the <em>CheckBox </em>control<br /><strong>Indeterminate </strong>&ndash; defines indeterminate state of the <em>CheckBox </em>control. The state is accessed if <em>ThreeState </em>property is enabled for <em>CheckBox</em>.</p>]]></Paragraph>
+  </Nodes>
+</Data>

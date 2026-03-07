@@ -1,0 +1,251 @@
+.Common-Strech
+{
+	width:100%;
+	height:100%;
+}
+
+.Common-StrechedBG
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+}
+
+.Common-ZoomedBG
+{
+	left:0px;
+	top:0px;
+	height:100%;
+}
+
+.Common-FontData
+{
+	[Skin.Font];
+}
+
+.Common-FontMenu
+{
+	font: normal 8pt Tahoma;
+}
+
+.Common-Icon16X16
+{
+	border:none;	
+    width: 32px;    
+    height: 32px;
+}
+
+.Common-DragLayer
+{
+	position:absolute;
+	display:none;
+	top:0px;
+	left:0px;
+}
+
+.Common-MoveCursor
+{
+	cursor:move;
+}
+
+.Common-HorizontalResize
+{
+	cursor:e-resize;
+}
+
+.Common-VerticalResize
+{
+	cursor:n-resize;
+}
+
+.Common-RightUpResize
+{
+	cursor:ne-resize;
+}
+
+.Common-LeftUpResize
+{
+	cursor:nw-resize;
+}
+
+.Common-MaskedModalWindowBox
+{
+	[Skin.WindowModalMaskStyle];
+	[Skin.WindowModalMaskOpacity];
+}
+
+.Common-TransparentModalWindowBox
+{
+	background-color:White;
+	[Skin.WindowModalTransparentMaskOpacity];
+}
+
+.Common-LoadingAnimationBox
+{
+	[Skin.LoadingAnimationBox];	
+}
+
+.Common-DefaultCursor
+{
+	cursor:default;
+}
+
+/* HTML 5 cellspacing and cellpadding are deprcated, should be used within CSS*/
+.Common-Table 
+{
+    border-spacing: 0px;
+    border: 0px;   
+}
+
+.Common-Table tr td, tr th
+{
+    padding: 0px 0px 0px 0px;
+}
+
+.Common-Content
+{
+    border:none;
+    padding:0px;
+    margin:0px;
+}
+
+.Common-CellSpacing0, 
+.Common-CellSpacing1, 
+.Common-CellSpacing2, 
+.Common-CellSpacing5, 
+.Common-CellSpacing0 {
+    border-spacing: 0;
+}
+.Common-CellSpacing1 {
+    border-spacing: 1px;
+}
+.Common-CellSpacing2 {
+    border-spacing: 2px;
+}
+.Common-CellSpacing5 {
+    border-spacing: 5px;
+}
+.Common-CellPadding0 td {
+    padding:0;
+}
+.Common-CellPadding3 td {
+    padding:3px;
+}
+
+.Common-NoBorder {
+    border:none;
+}
+
+.Common-MarginTopLeftZero {
+    margin-top:0;
+    margin-left:0;
+}
+
+.Common-NoVspaceNoHspaceMiddle {
+    margin:0;
+    vertical-align:middle;
+    text-align:center;
+}
+.Common-AllowTransparency {
+    background-color:transparent;
+}
+
+.Common-AlignRight {
+    text-align:right;
+}
+.Common-AlignLeft {
+    text-align:left;
+}
+.Common-AlignCenter {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.Common-VAlignTop {
+    vertical-align:top;
+}
+.Common-VAlignMiddle {
+    vertical-align:middle;
+}
+.Common-VAlignBottom {
+    vertical-align:bottom;
+}
+.Common-PositionAbsolute
+{
+    position:absolute;
+}
+
+.Common-SelectedIndicatorSE
+{
+    width: [Skin.RightBottomSelectedIndicatorWidth]px;
+    height: [Skin.RightBottomSelectedIndicatorHeight]px;
+    right: 0px;
+    bottom: 0px;
+    [Skin.RightBottomSelectedIndicatorStyle];
+}
+
+.Common-SelectedIndicatorSW
+{
+    width: [Skin.LeftBottomSelectedIndicatorWidth]px;
+    height: [Skin.LeftBottomSelectedIndicatorHeight]px;
+    left: 0px;
+    bottom: 0px;
+    [Skin.LeftBottomSelectedIndicatorStyle];
+}
+
+.Common-SelectedIndicatorNW
+{
+    width: [Skin.LeftTopSelectedIndicatorWidth]px;
+    height: [Skin.LeftTopSelectedIndicatorHeight]px;
+    left: 0px;
+    top: 0px;
+    [Skin.LeftTopSelectedIndicatorStyle];
+}
+
+.Common-SelectedIndicatorNE
+{
+    width: [Skin.RightTopSelectedIndicatorWidth]px;
+    height: [Skin.RightTopSelectedIndicatorHeight]px;
+    right: 0px;
+    top: 0px;
+    [Skin.RightTopSelectedIndicatorStyle];
+}
+
+.Common-SelectedIndicatorS
+{
+    width: [Skin.BottomSelectedIndicatorWidth]px;
+    height: [Skin.BottomSelectedIndicatorHeight]px;
+    left:50%;
+    bottom: 0px;
+    [Skin.BottomSelectedIndicatorStyle];
+}
+.Common-SelectedIndicatorW
+{
+    width: [Skin.LeftSelectedIndicatorWidth]px;
+    height: [Skin.LeftSelectedIndicatorHeight]px;
+    left: 0px;
+    top:50%;
+    [Skin.LeftSelectedIndicatorStyle];
+}
+.Common-SelectedIndicatorN
+{
+    width: [Skin.TopSelectedIndicatorWidth]px;
+    height: [Skin.TopSelectedIndicatorHeight]px;
+    left: 50%;
+    top: 0px;
+    [Skin.TopSelectedIndicatorStyle];
+}
+.Common-SelectedIndicatorE
+{
+    width: [Skin.RightSelectedIndicatorWidth]px;
+    height: [Skin.RightSelectedIndicatorHeight]px;
+    right: 0px;
+    top: 50%;
+    [Skin.RightSelectedIndicatorStyle];
+}
+
+.Common-Hidden {
+    display:none;
+}

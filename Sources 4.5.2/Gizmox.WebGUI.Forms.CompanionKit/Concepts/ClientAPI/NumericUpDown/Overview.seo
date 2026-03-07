@@ -1,0 +1,32 @@
+<Item SiteMap="True" Order="99" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>NumericUpDown</Keyword>
+    <Keyword>ListBox</Keyword>
+    <Keyword>value</Keyword>
+    <Keyword>selectedIndex</Keyword>
+    <Keyword>vwgListBox</Keyword>
+    <Keyword>vwgNumericUpDown</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="Changing the selected item in a &lt;span style=&quot;color:#00ccff&quot;&gt;ListBox&lt;/span&gt; changes a &lt;span style=&quot;color:#00ccff&quot;&gt;NumericUpDown&lt;/span&gt; value. A Label shows the current value of the NumericUpDown. " Title="Example scenario:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+    <Element Body="vwgNumericUpDown: value;&#xD;&#xA;vwgListBox: selectedIndex;" Title="Used ClientAPI functions:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

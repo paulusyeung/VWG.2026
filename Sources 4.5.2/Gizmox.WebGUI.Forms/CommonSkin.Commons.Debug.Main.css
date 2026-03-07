@@ -1,0 +1,232 @@
+BODY
+{
+	overflow:hidden; 
+	border:none;
+	background-color:#E5E5D7;
+	margin:2px;
+}
+
+input, textarea
+{
+	box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-user-select:text;
+	-webkit-user-select:text;
+	outline:none;
+}
+
+div,img,span,table,a, td
+{
+	box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-user-select:-moz-none;
+	-webkit-user-select:none;	
+	outline:none;
+}
+
+.nobr 
+{
+     white-space:nowrap;
+}
+
+
+
+.Debug-Content
+{
+	display:none;
+}
+
+.Debug-TitleBarLabel
+{
+	display:none;
+}
+
+.Debug-TitleBar
+{
+	background-image:url([Skin.CommonPath]Debugger.TitleBar.gif.wgx);
+	background-position:top;
+	background-repeat:repeat-x;	
+	color: white;
+	font-family:Tahoma;
+	font-size:8.25pt;
+	
+	padding:0px 3px 0px 3px;
+	border:1px solid #ACA899;
+	border-bottom:none;
+}
+
+.Debug-ToolBarButtons
+{
+	display:none;
+}
+
+.Debug-ToolBar
+{
+	background-image:url([Skin.CommonPath]Debugger.ToolBar.gif.wgx);
+	background-position:top;
+	background-repeat:repeat-x;
+	border:1px solid #ACA899;
+	border-bottom:none;
+	border-top:none;
+	padding:2px 5px 0px 5px;
+}
+
+.Debug-ToolBarSP
+{
+	background-image:url([Skin.CommonPath]Debugger.ToolBarSP.gif.wgx);
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+
+.Debug-ToolBarBTN IMG
+{
+	margin:0px 4px 0px 4px;
+}
+
+.Debug-ToolBarBTN
+{
+	cursor:pointer;
+	padding:1px;
+}
+
+.Debug-ToolBarBTN_Enter, .Debug-ToolBarBTN_Toggle
+{
+	border:1px solid blue;
+	padding:0px;
+	background-color:#C1D2EE;
+}
+
+.Debug-Body
+{
+	border:1px solid #716F64;
+	border-top:none;
+	background-color:White;
+	position:relative;
+
+}
+
+.Debug-PageBar 
+{	
+    background-image:url([Skin.CommonPath]Debugger.PageBar.gif.wgx);
+	background-position:top;
+	background-repeat:repeat-x;
+}
+
+
+.Debug-TabControl
+{
+	
+}
+
+.Debug-PageBarButton
+{
+	color: #716F64;
+	font-family:Tahoma;
+	font-size:8.25pt;
+	text-align:center;
+	background-image:url([Skin.CommonPath]Debugger.PageBar.gif.wgx);
+	background-position:top;
+	background-repeat:repeat-x;
+	cursor:pointer;
+	width:80px;
+	display: inline-block;
+}
+
+.Debug-PageBarButtonLeft
+{
+	width:100%;
+	height:100%;
+}
+
+.Debug-PageBarButtonRight
+{
+	width:100%;
+	height:100%;
+	padding:5px 0px 5px 0px;
+	overflow:visible;
+}
+
+.Debug-PageBarButton .Debug-PageBarButtonLeft
+{
+}
+
+.Debug-PageBarButton .Debug-PageBarButtonRight
+{
+
+	background-image:url([Skin.CommonPath]Debugger.PageBarDR.gif.wgx);
+	background-position:top right;
+	background-repeat:no-repeat;
+}
+
+.Debug-PageBarButton_Selected
+{
+	background-image:url([Skin.CommonPath]Debugger.PageBarSC.gif.wgx);
+	background-position:top;
+	background-repeat:repeat-x;
+}
+
+.Debug-PageBarButton_Selected  .Debug-PageBarButtonLeft
+{
+	background-image:url([Skin.CommonPath]Debugger.PageBarSL.gif.wgx);
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+
+.Debug-PageBarButton_Selected  .Debug-PageBarButtonRight
+{
+	background-image:url([Skin.CommonPath]Debugger.PageBarSR.gif.wgx);
+	background-position:top right;
+	background-repeat:no-repeat;
+}
+
+.Debug-ListHeader
+{
+	background-image:url([Skin.CommonPath]Debugger.ListHeader.gif.wgx);
+	background-position:top;
+	background-repeat:repeat-x;
+}
+
+.Debug-ListHeaderSP
+{
+	background-image:url([Skin.CommonPath]Debugger.ListHeaderSP.gif.wgx);
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+
+.Debug-List TD
+{
+	padding:0px 3px 0px 3px;
+	font-family:Tahoma;
+	font-size:8.25pt;
+}
+
+.Debug-Scroller
+{
+	overflow-x:hidden;
+	overflow-y:auto;
+	width:100%;
+	height:100%;
+}
+
+
+/* HTML 5 cellspacing and cellpadding are deprcated, should be used within CSS*/
+.Common-Table 
+{
+    border-spacing: 0px;
+    border: 0px;   
+}
+
+.Common-Table tr td, tr th
+{
+    padding: 0px 0px 0px 0px;
+}
+
+.Common-CellSpacing0 {
+    border-spacing: 0;
+    border-collapse:separate;
+}
+.Common-CellPadding0 td {
+    padding:0;
+}

@@ -1,0 +1,14 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>FontDialog</Title>
+  <Properties />
+  <DisplayName>FontDialog</DisplayName>
+  <Description>Contains sample apps that demonstrates how to use FontDialog</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>FontDialog</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.CommonDialogs.FontDialog.Features.ColorPage</DefaultPage>
+  <Body />
+</Item>

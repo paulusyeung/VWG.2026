@@ -1,0 +1,56 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ColorDialog</Keyword>
+    <Keyword>FontDialog</Keyword>
+    <Keyword>OpenFileDialog</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/ColorDialog.Lobby.png'/&gt;
+&lt;div&gt;The Visual WebGui &lt;span style="color:#00ccff"&gt;ColorDialog&lt;/span&gt; control represents a common dialog box that displays available colors along with controls that enable the user to define custom colors. 
+The colors can be achieved by visual selection - either from predefined basic colors or from a pallet, by hexadecimal value or by RGB value.
+
+When you create an instance of &lt;span style="color:#00ccff"&gt;ColorDialog&lt;/span&gt;, some of the read/write properties are set to initial values. For a list of these values, see the &lt;span style="color:#00ccff"&gt;ColorDialog&lt;/span&gt; constructor.
+
+&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The &lt;span style="color:#00ccff"&gt;ColorDialog&lt;/span&gt; control is one of the Out of the Box standard controls, which means it is free and available in all Visual WebGui versions.&lt;/div&gt;
+
+
+
+&lt;img style='float:left; padding: 3px;margin-right:14px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/FontDialog.Lobby.png'/&gt;
+&lt;div&gt;The Visual WebGui &lt;span style="color:#00ccff"&gt;FontDialog&lt;/span&gt; control prompts the user to choose a font from among those installed on the local computer.
+
+When you create an instance of &lt;span style="color:#00ccff"&gt;FontDialog&lt;/span&gt;, some of the read/write properties are set to initial values. For a list of these values, see the FontDialog constructor.
+
+&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The &lt;span style="color:#00ccff"&gt;FontDialog&lt;/span&gt; control is one of the Out of the Box standard controls, which means it is free and available in all Visual WebGui versions.&lt;/div&gt;
+
+
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/OpenFileDialog.Lobby.png'/&gt;
+&lt;div&gt;The Visual WebGui &lt;span style="color:#00ccff"&gt;OpenFileDialog&lt;/span&gt; control prompts the user to open a file. This class cannot be inherited.
+
+This class allows you to check whether a file exists and to open it. The ShowReadOnly property determines whether a read-only check box appears in the dialog box. The ReadOnlyChecked property indicates whether the read-only check box is checked.
+
+Most of the functionality for this class is found in the FileDialog class.
+
+&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The &lt;span style="color:#00ccff"&gt;OpenFileDialog&lt;/span&gt; control is one of the Out of the Box standard controls, which means it is free and available in all Visual WebGui versions.&lt;/div&gt;</PreText>
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Section="Section-01">
+      <Style linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

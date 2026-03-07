@@ -1,0 +1,51 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>ScheduleBox</Title>
+  <Properties />
+  <DisplayName>ScheduleBox</DisplayName>
+  <Description>Contains examples that demonstrate how to use the Visual WebGui ScheduleBox control.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="Events.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="EventForm.Designer.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="EventForm.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Appearence.Designer.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Appearence.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Events.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="EventForm.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Appearence.vb" Order="100" Lang="VBNET" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Office</Keyword>
+    <Keyword>ScheduleBox</Keyword>
+    <Keyword>Schedule</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Feature" cols="2">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/schedulebox.lobby.png'/&gt;
+&lt;div style=''&gt;The &lt;span style="color:#00b0f0"&gt;ScheduleBox&lt;/span&gt; control designed to present  appointments (events) in user friendly manner. The control has a few view modes promising best available observing of events and programming model to ensure smooth integration with existing application logic.&lt;span style="color:#00b0f0"&gt;
+
+Availability:&lt;/span&gt;
+The ScheduleBox is one of the Professional suite Office controls, which means it is free and available in all Visual WebGui versions, while the controls are still in beta. After release, these controls will be packaged in a seperate Professional Controls suite package and sold seperately.&lt;/div&gt;&lt;div style='clear:both'&gt;&lt;/div&gt;&lt;span style="color:#00b0f0"&gt;The examples below demonstrate how to:&lt;/span&gt;
+- Customize view, hour format and other appearance related properties of the ScheduleBox
+- Add events to show in the ScheduleBox control
+- Assign ContextMenu to a ScheduleBox control and to a SchduleBoxEvent object to implement additional application logic
+
+</PreText>
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates view mode, hours format and other appearance related properties of the Visual WebGui ScheduleBox.&lt;/div&gt;" Title="View properties" Section="Section-01" Link="item:CompanionKit.Controls.ScheduleBox.Appearance.ScheduleBoxViewPropertiesPage">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" bodycss="padding-left:15px;" titlecss="padding-left:15px;" />
+    </Element>
+    <Element Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to add events to the Visual WebGui ScheduleBox control&lt;/div&gt;" Title="Adding new events" Section="Section-01" Link="item:CompanionKit.Controls.ScheduleBox.Functionality.AddingScheduledEventsPage">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" bodycss="padding-left:15px;" titlecss="padding-left:15px;" />
+    </Element>
+    <Element Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to assign ContextMenu to a ScheduleBox control and to a SchduleBoxEvent object to implement additional application logic&lt;/div&gt;" Title="ContextMenu" Section="Section-01" Link="item:CompanionKit.Controls.ScheduleBox.Functionality.AddingContextMenuForEventPage">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" bodycss="padding-left:15px;" titlecss="padding-left:15px;" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains examples that demonstrate how to: 
+load a picture using the Visual WebGui Designer;
+modify the Size or Placement of a Picture at Run Time in the Visual WebGui PictureBox control.
+</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>PictureBox</Keyword>
+    <Keyword>Load</Keyword>
+    <Keyword>Size</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>Picture</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>Mode</Keyword>
+    <Keyword>SizeMode</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.PictureBox.Functionality.LoadPicturePage</DefaultPage>
+  <Body />
+</Item>

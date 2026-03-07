@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Translate</Title>
+  <Properties />
+  <DisplayName>Translate</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>VisualEffects</Keyword>
+    <Keyword>Translate</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.VisualEffects.Translate.Overview</DefaultPage>
+</Item>

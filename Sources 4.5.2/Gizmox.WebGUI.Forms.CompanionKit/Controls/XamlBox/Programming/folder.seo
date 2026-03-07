@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains the example that demonstrates how to set parameters for an embeded XAML application.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>XamlBox</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>Xaml</Keyword>
+    <Keyword>Parameters</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.XamlBox.Programming.ProvideParametersPage</DefaultPage>
+  <Body />
+</Item>

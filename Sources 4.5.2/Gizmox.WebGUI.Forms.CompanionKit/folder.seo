@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="0" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>
+  </Title>
+  <Properties />
+  <DisplayName>
+  </DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls</DefaultPage>
+</Item>

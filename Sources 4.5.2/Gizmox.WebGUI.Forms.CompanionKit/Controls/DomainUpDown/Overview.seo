@@ -1,0 +1,33 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DomainUpDown</Keyword>
+    <Keyword>UpDown</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/DomainUpDown.Lobby.png'/&gt;
+&lt;div&gt;The Visual WebGui &lt;span style="color:#00ccff"&gt;DomainUpDown&lt;/span&gt; control represents a spin box (also known as an up-down control) that displays string values.
+
+A &lt;span style="color:#00ccff"&gt;DomainUpDown&lt;/span&gt; control displays a single string value that is selected from an Object collection by clicking the up or down buttons of the control. The user can also enter text in the control, unless the ReadOnly property is set to true (the string typed in must match an item in the collection to be accepted). When an item is selected, the object is converted to a string value so it can be displayed in the spin box.
+
+To create a collection of objects to display in the &lt;span style="color:#00ccff"&gt;DomainUpDown&lt;/span&gt; control, you can add or remove the items individually by using the Add and Remove methods. This can be called in an event handler, such as the Click event of a button. The object collection can be sorted alphabetically by setting the Sorted property to true. When the Wrap property is set to true, if you scroll past the last or first object in the collection, the list will start over with the first or last object respectively and appear to roll in a continuous list.
+
+&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The &lt;span style="color:#00ccff"&gt;DomainUpDown&lt;/span&gt; control is one of the Out of the Box standard controls, which means it is free and available in all Visual WebGui versions.&lt;/div&gt;</PreText>
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Section="Section-01">
+      <Style linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

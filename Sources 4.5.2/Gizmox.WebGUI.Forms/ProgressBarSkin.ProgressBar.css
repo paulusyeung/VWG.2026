@@ -1,0 +1,19 @@
+
+.ProgressBar-Control
+{
+    [Skin.ProgressBarNormalStyle];
+    background-size:100% 100%;
+	[Skin.VisualEffect];
+}
+
+.ProgressBar-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.ProgressBar-Bar
+{
+    [Skin.ProgressBarBarStyle];
+    background-size:100% 100%;
+}
+

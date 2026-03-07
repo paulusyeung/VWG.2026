@@ -1,0 +1,55 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>FormBox</Title>
+  <Properties />
+  <DisplayName>FormBox</DisplayName>
+  <Description>Contains samples to demonstrate how to use Visual WebGui FormBox control</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>FormBox</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>ASP</Keyword>
+    <Keyword>Page</Keyword>
+    <Keyword>Form</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Feature">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/FormBox.Lobby.png'/&gt;
+&lt;div&gt;The &lt;span style="color:#00ccff"&gt;FormBox&lt;/span&gt; control is used as a way to host a Visual WebGui form inside an ASP.NET application.
+
+
+&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The FormBox is one of the Out of the Box standard controls, which means it is free and available in all Visual WebGui versions.
+&lt;/div&gt;&lt;div style='clear:both'&gt;&lt;/div&gt;
+&lt;span style="color:#00ccff"&gt;The examples below demonstrate how to:&lt;/span&gt;
+- Use the Stateless property to allow a Visual WebGui form to save its state
+- Use the Form property to set the name of form to load
+- Use the Arguments property to pass values from ASP.NET page to Visual WebGui form
+- Use the Results property to return values from the Visual WebGui form to the hosting ASP.NET page
+- Bind custom events and communicate between a hosting ASP.NET and hosted Visual WebGui applications.
+
+</PreText>
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Title="Stateless" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to get or set a value indicating whether the FormBox is stateless. If so, each refresh would reset the state of the form and its components.&lt;/div&gt;" Link="item:CompanionKit.Controls.FormBox.Features.StatelessPropertyPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="Form Property" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to use the FormBox Form property. This property used to reference hosted Visual WebGui form by name.&lt;/div&gt;" Link="item:CompanionKit.Controls.FormBox.Features.FormPropertyPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="Arguments Property" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;Example demonstrates how to use Arguments property to pass values from ASP.NET page to Visual WebGui Form..&lt;/div&gt;" Link="item:CompanionKit.Controls.FormBox.Features.ArgumentsPropertyPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="Results Property" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to use FormBox's Results property to return values back to the hosting ASP.NET page.&lt;/div&gt;" Link="item:CompanionKit.Controls.FormBox.Features.ResultsPropertyPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="Binding to events" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to use both ASP.NET events and Visual WebGui events side by side. And how to link between them.&lt;/div&gt;" Link="item:CompanionKit.Controls.FormBox.Programming.BindingToEventsPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

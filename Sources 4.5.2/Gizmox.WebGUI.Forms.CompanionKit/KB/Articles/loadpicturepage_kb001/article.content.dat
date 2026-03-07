@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634091871812650995" UpdatedBy="admin" UpdatedOn="634104049779483203">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>With the Visual WebGui <em>PictureBox </em>control, you can load and display a picture on a form at design time by setting the Image property to a valid picture. The following table shows the acceptable file types.</p><p>Type File name extension:</p><ul><li>Bitmap (*.bmp)</li><li>Icon (*.ico)</li><li>GIF(*.gif)</li><li>Metafile(*.wmf)</li><li>JPEG(*.jpg)</li></ul><p>To display a picture at design time:</p><ol><li>Make sure the Image folder defined in the web.config points to a real one with images inside.</li><li>Drag a PictureBox control on a form.</li><li>On the Properties window, select the Image property, then click the ellipsis button to display the Open dialog box.</li><li>If you look for a specific file type (for example, .gif files), select it in the Files of type box.</li><li>Select the file you want to display.<br />&nbsp;</li></ol><p>&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

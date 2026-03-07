@@ -1,0 +1,20 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>CheckedListBox add item</Title>
+  <Properties />
+  <DisplayName>Add item</DisplayName>
+  <Description>Demonstrates how to add item into CheckedListBox. You can enter item name in 'Added item text' TextBox and set place of added items in ListBox with 'Added item place' NumericUpDown and the click on 'Add item' button and you will see added item in CheckedListBox on defined position.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="AddItemPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddItemPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddItemPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddItemPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddItemPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>CheckedListBox</Keyword>
+    <Keyword>Add</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CheckedListBox.Functionality.AddItemPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

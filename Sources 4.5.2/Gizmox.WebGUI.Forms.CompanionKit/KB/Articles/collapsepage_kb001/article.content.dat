@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634112638353679541" UpdatedBy="admin" UpdatedOn="634147069576009652">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Right Click&nbsp;inside&nbsp;<em>UserControl</em>&nbsp;boundaries to open&nbsp;the ContextMenu. The label will be changed to 'ContexMenu is shown!' when the context menu will be opened. Click on a item menu and the&nbsp;text of the label will be changed indicating what item&nbsp;was selected.<br />The label will be changed to 'ContexMenu isn't shown!' when the context menu will be hidden.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>Each VWG control&nbsp;has the&nbsp;<em>ContextMenu </em>property that represents the shortcut menu associated with the control.<br />This property is&nbsp;set for the <em>UserControl&nbsp;</em>in the example. The <em>ContextMenu&nbsp;</em>defines <em>Collapse </em>event that occurs after the shortcut menu&nbsp;disappears.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

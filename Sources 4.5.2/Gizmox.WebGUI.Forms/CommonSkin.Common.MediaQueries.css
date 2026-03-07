@@ -1,0 +1,6 @@
+@media screen and (max-height: 330px) {
+  .Common-HiddenOnShortDisplay
+  {
+    display: none;
+  }
+}

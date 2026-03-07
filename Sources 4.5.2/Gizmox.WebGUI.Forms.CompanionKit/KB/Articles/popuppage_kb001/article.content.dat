@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634112633510030450" UpdatedBy="admin" UpdatedOn="634139523683826510">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the <em>UserControl </em>and the <em>ContextMenu </em>will be opened and text of the label will be changed to 'ContexMenu is shown!'. After hide of the menu the label text will be changed to 'ContexMenu isn't shown!'<br />&nbsp;</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The each VWG control contains <em>ContextMenu </em>property that represents the shortcut menu associated with the control. This property is defined for the <em>UserControl </em>of the example.The <em>ContextMenu </em>contains <em>Popup </em>event that occurs before the shortcut menu is displayed.</p>]]></Paragraph>
+  </Nodes>
+</Data>

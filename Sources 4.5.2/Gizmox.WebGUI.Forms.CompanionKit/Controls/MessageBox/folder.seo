@@ -1,0 +1,56 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>MessageBox control</Title>
+  <Properties />
+  <DisplayName>MessageBox</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use MessageBox control</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>MessageBox</Keyword>
+    <Keyword>Message</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Feature">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/MessageBox.Lobby.png'/&gt;
+&lt;div&gt;The &lt;span style="color:#00ccff"&gt;MessageBox&lt;/span&gt; control is functionally equivalent  to the Windows Forms MessageBox control.&lt;/div&gt;
+&lt;div&gt;Displays a message in a Dialog Form that can contain text, buttons and symbols that inform and instruct the user.&lt;/div&gt;
+&lt;div&gt;In Visual WebGui, MessageBox is implemented as a Dialog form, and behaves exactly like one. This means that using MessageBox in Visual WebGui is fundamentally different from its usage in Windows Forms, because of the fact that in Visual WebGui, dialog forms are only modal on the client, and your code does not wait on user's input. See Form Concepts for more on dialog forms.&lt;/div&gt;
+&lt;div&gt;Using MessageBox for showing information, without requiring any user input, is exactly the same as for the Windows Forms control, except for the fact that your server side code (code behind) will not stop and wait for the user to close the dialog (click the OK button).&lt;/div&gt;
+&lt;div&gt;When user input is required (like either clicking Ok or Cancel button), you will in all cases need to use an overload of MessageBox.Show, that supplies a Closed event handler, which is an event handling procedure that the programmer must supply. In that procedure you check for DialogResult of the MessageBox form (remember it's just a form) and act upon user's input.&lt;/div&gt;
+&lt;div&gt;&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The MessageBox is one of the Out of the Box standard controls, which means it is free and available in all Visual WebGui versions.&lt;/div&gt;
+&lt;div&gt;&lt;span style="color:#00ccff"&gt;The examples below demonstrate how to:&lt;/span&gt;
+- set Text and Caption for MessageBox window
+- set one of various combinations of common MessageBox Buttons
+- set one icon of various icons common in MessageBoxes
+- set one of various options common in MessageBoxes
+- set which of the buttons would be the default button
+- create and use MessageBox window on the Form&lt;/div&gt;
+</PreText>
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Title="Text and Caption" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to set Text and Caption for MessageBox window&lt;/div&gt;" Link="item:CompanionKit.Controls.MessageBox.Functionality.MessageBoxTextCaptionPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="Buttons" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;MessageBoxButtons Enumeration Allows the user to choose one of various combinations of common MessageBox Buttons&lt;/div&gt;" Link="item:CompanionKit.Controls.MessageBox.Functionality.MessageBoxButtonsPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="Icons" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;MessageBoxIcon Enumeration Allows the user to choose one icon of various icons common in MessageBoxes&lt;/div&gt;" Link="item:CompanionKit.Controls.MessageBox.Functionality.MessageBoxIconPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="Options" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;MessageBoxOptions Enumeration Allows the user to choose one of various options common in MessageBoxes&lt;/div&gt;" Link="item:CompanionKit.Controls.MessageBox.Functionality.MessageBoxOptionsPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="Default button" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;MessageBoxDefaultButton Enumeration Allows the user to choose which of the buttons would be the default button&lt;/div&gt;" Link="item:CompanionKit.Controls.MessageBox.Functionality.MessageBoxDefaultButtonPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example application demonstrates how to create and use MessageBox dialogs on the Form.&lt;/div&gt;" Title="MessageBox builder" Section="Section-01" Link="item:CompanionKit.Controls.MessageBox.ApplicationScenario.MessageBoxBuilderPage">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

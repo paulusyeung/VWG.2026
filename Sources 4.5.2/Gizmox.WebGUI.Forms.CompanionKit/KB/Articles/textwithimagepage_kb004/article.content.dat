@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634160186567014908" UpdatedBy="admin" UpdatedOn="634299057182019198">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains the Visual WebGui <em>NavigationTabs</em> with few populated Tabs. <br />Each Tab has a caption text with an image.<br />Switch between tabs to see different content.<br />The <strong>SelectedIndexChanged</strong> event raised each time when tabs clicked.<br />The example application handles the event to redraw right side panel with relevant code snippet.<br />See more details in&nbsp;<em>NavigationTabs_IndexChanged</em> event handler.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[Tab Image]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>NavigationTabs </em>contains <strong>ImageList</strong><em> </em>property that defines list of images for the tabs.<br />To change image and text of a tab the following properties are available:<br /><strong>Text</strong><em>&nbsp;</em>&ndash; defines the text to display on the tab.<br /><strong>Image</strong><em> </em>&ndash; defines the image to display on the tab.<br /><strong>ImageKey &ndash; </strong>defines the key for the image to display on the tab in the associated ImageList. <strong><br />ImageIndex</strong><em> </em>&ndash; defines the index of image to display on the tab&nbsp;in the associated ImageList. [Default is -1].<b><br /></b></p>]]></Paragraph>
+    <Header Code="HeaderElement4" Type="Subtitle" ShowInTOC="1"><![CDATA[Extra tabs]]></Header>
+    <Paragraph Code="ParagraphElement4"><![CDATA[<p>NavigationTabs control shows additional tabs defined as &quot;Extra&quot; in bottom right zone.<br />Such location saves space and separates between required and less important tabs.<br />To define a tab as an extra tab set to true&nbsp;<strong>Extra</strong> boolean property of NavigationTab.<br />Extra tab is fully functioning tab that raises events, the only difference is visual location.</p>]]></Paragraph>
+    <Header Code="HeaderElement3" Type="Subtitle" ShowInTOC="1"><![CDATA[ClientBehavior property]]></Header>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>The NavigationTabs control inherits from TabControl. <br />The inheritance makes available properties of TabControl like ClientBehavior.<br />ClientBehavior property defines the client drawing mode behavior.<br />See TabControl's&nbsp;<strong>DrawingOptimized</strong> and <strong>MemoryOptimized</strong> [Default value] modes for details.</p>]]></Paragraph>
+  </Nodes>
+</Data>

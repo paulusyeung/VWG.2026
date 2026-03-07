@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>TextMaskFormat Property</Title>
+  <Properties />
+  <DisplayName>TextMaskFormat Property</DisplayName>
+  <Description>The example demonstrates how to determine whether literals and prompt characters are included in the formatted string of the Visual WebGui MaskedTextBox.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="TextMaskFormatPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextMaskFormatPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextMaskFormatPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextMaskFormatPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextMaskFormatPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>MaskedTextBox</Keyword>
+    <Keyword>TextBox</Keyword>
+    <Keyword>Mask</Keyword>
+    <Keyword>TextMaskFormat</Keyword>
+    <Keyword>ExcludePromptAndLiterals</Keyword>
+    <Keyword>IncludeLiterals</Keyword>
+    <Keyword>IncludePrompt</Keyword>
+    <Keyword>IncludeLiterals</Keyword>
+    <Keyword>IncludePromptAndLiterals</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.MaskedTextBox.Features.TextMaskFormatPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

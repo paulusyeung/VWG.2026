@@ -1,0 +1,30 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Page">
+  <Title>How to create property grid and select an object for inspecting</Title>
+  <Properties />
+  <DisplayName>Object Inspection</DisplayName>
+  <Description>The example demonstrates how to create property grid and select an object for inspecting.
+If you click a button and you will see that PropertyGrid will be updated with properties of selected control. You can change Title, BorderStyle, BorderWidth, Font and other
+properties and you will see that the selected object updated in run time.
+</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ObjectInspection.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ObjectInspection.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ObjectInspection.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ObjectInspection.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ObjectInspection.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Inspect</Keyword>
+    <Keyword>Object</Keyword>
+    <Keyword>Property</Keyword>
+    <Keyword>Multiple</Keyword>
+    <Keyword>SelectedObject</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.PropertyGrid.Functionality.ObjectInspection, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

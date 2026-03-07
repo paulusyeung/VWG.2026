@@ -1,0 +1,31 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Example of using ClientAPI anchor function</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AnchorPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AnchorPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AnchorPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AnchorPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AnchorPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomAnchorListBox.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomAnchorListBoxSkin.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomAnchorListBox.vb" Order="105" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomAnchorListBoxSkin.vb" Order="106" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomAnchorListBoxSkin.resx" Order="107" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomAnchorListBoxSkin.CustomAnchorListBox.js" Order="108" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomAnchorListBoxSkin.ListBox.css" Order="109" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomAnchorListBoxSkin.ListBox.ie.css" Order="110" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomAnchorListBoxSkin.ListBox.moz.css" Order="111" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomAnchorListBoxSkin.ListBox.xslt" Order="112" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>anchor</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Concepts.ClientAPI.AnchorFolder.AnchorPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

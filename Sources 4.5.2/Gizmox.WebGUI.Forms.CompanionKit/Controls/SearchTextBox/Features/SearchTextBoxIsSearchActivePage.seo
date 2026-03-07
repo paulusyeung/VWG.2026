@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Usign an indication of search status</Title>
+  <Properties />
+  <DisplayName>IsSearchActive Property</DisplayName>
+  <Description>An indicator of the SearchTextBox's status.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="SearchTextBoxIsSearchActivePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SearchTextBoxIsSearchActivePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SearchTextBoxIsSearchActivePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SearchTextBoxIsSearchActivePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SearchTextBoxIsSearchActivePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>SearchTextBox</Keyword>
+    <Keyword>IsSearchActive</Keyword>
+    <Keyword>Indicator</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.SearchTextBox.Features.SearchTextBoxIsSearchActivePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

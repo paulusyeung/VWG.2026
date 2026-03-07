@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Handling Selected Index Changed</Title>
+  <Properties />
+  <DisplayName>Selected Index Changed</DisplayName>
+  <Description>The example demonstrates how to handle selected index change event of the Visual WebGui ListView.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="SelectedIndexChangedPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectedIndexChangedPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectedIndexChangedPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectedIndexChangedPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectedIndexChangedPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListView</Keyword>
+    <Keyword>SelectedIndexChanged</Keyword>
+    <Keyword>Index</Keyword>
+    <Keyword>Select</Keyword>
+    <Keyword>Change</Keyword>
+    <Keyword>SelectedIndex</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListView.Programming.SelectedIndexChangedPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

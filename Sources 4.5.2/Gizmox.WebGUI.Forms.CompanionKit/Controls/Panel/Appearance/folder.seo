@@ -1,0 +1,21 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Appearance</Title>
+  <Properties />
+  <DisplayName>Appearance</DisplayName>
+  <Description>Demonstrates how to add scroll to panel for viewing any controls placed outside of its visible boundaries and to automatically resize panel to fit its contents.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Panel</Keyword>
+    <Keyword>AutoScroll</Keyword>
+    <Keyword>AutoSize</Keyword>
+    <Keyword>Auto</Keyword>
+    <Keyword>Scroll</Keyword>
+    <Keyword>Size</Keyword>
+    <Keyword>Resize</Keyword>
+    <Keyword>Add</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.Panel.Appearance.AutoScrollPage</DefaultPage>
+  <Body />
+</Item>

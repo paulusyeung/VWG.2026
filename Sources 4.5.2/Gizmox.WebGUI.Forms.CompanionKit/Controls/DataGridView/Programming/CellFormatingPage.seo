@@ -1,0 +1,30 @@
+<Item SiteMap="True" Order="100" Status="Draft" Type="Page">
+  <Title>Handling cell style formatting</Title>
+  <Properties />
+  <DisplayName>Cell Formatting</DisplayName>
+  <Description>The example demonstrates how to manipulate cell style formatting in a DataGridView.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CellFormatingPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CellFormatingPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CellFormatingPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CellFormatingPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CellFormatingPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.xsd" Order="103" Lang="All" Title="UserDS.xsd" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.designer.cs" Order="104" Lang="CSharp" Title="UserDS.designer.cs" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.designer.vb" Order="104" Lang="VBNET" Title="UserDS.designer.vb" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.xsc" Order="105" Lang="All" Title="UserDS.xsc" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.xss" Order="106" Lang="All" Title="UserDS.xss" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>Formatting</Keyword>
+    <Keyword>Style</Keyword>
+    <Keyword>Cell</Keyword>
+  </Keywords>
+  <Comment>VWG-7331[15/1] - Closed, QA-ed, works fine - 2010.Dec.12, Alex
+  </Comment>
+  <PageType>CompanionKit.Controls.DataGridView.Programming.CellFormatingPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

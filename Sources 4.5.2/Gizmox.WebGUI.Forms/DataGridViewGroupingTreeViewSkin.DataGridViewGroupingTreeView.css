@@ -1,0 +1,55 @@
+.TreeView-Control
+{
+    [Skin.Padding];
+    [Skin.Foreground];
+	[Skin.Font];
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.TreeView-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.TreeView-SubNodesContainer
+{
+    position: relative;
+}
+
+.DataGridViewGroupingTreeView-Node
+{
+    [Skin.TreeNodeNormalStyle]; 
+    line-height: [Skin.TreeNodeHeight]px;
+    height: [Skin.TreeNodeHeight]px;
+    display: inline-block;    
+}
+
+.DataGridViewGroupingTreeView-TextContainer
+{
+    position: relative; 
+    height: 100%;
+    padding-top: [Skin.TreeNodePaddingTop]px;
+}
+
+.DataGridViewGroupingTreeView-Joint
+{
+    [Skin.TreeNodeJointStyle];
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.DataGridViewGroupingTreeView-CloseButton
+{
+    [Skin.TreeNodeCloseButtonStyle];
+    width: [Skin.TreeNodeCloseButtonWidth]px; 
+    height: [Skin.TreeNodeHeight]px; 
+    display: inline-block; 
+}
+
+.DataGridViewGroupingTreeView-RowContainer
+{
+    height: [Skin.TreeNodeJointImageHeight]px;
+    position: relative;
+}

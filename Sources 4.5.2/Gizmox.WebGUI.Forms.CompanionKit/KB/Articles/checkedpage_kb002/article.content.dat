@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634136033083931574" UpdatedBy="admin" UpdatedOn="634188620064965760">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check one of the <em>RadioButtons </em>and click on the 'Click to check the state of the RadioButton1' button and text of the represented label will be changed to 'RadioButton1 is checked!' or 'RadioButton1 is unchecked!' according to checked state of the 'RadioButton1' <em>RadioButton</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>RadioButton </em>contains the Checked property and CheckedChange event for manipulating with checked indicator. The <em>Checked </em>property indicates whether <em>RadioButton </em>is checked. The <em>CheckedChange</em> event occurs when <em>Checked </em>property are changed.</p>]]></Paragraph>
+  </Nodes>
+</Data>

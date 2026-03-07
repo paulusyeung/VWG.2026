@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Handling Click Once option</Title>
+  <Properties />
+  <DisplayName>Click Once</DisplayName>
+  <Description>Demonstrates how to use ClickOnce property of Button control. The sample app contains the demonstrated Button and the CheckBox to change value of the Button ClickOnce property. If you check the CheckBox and  click two and more times on the Button, the message 'Button has been clicked!' is shown only for the first click. If you uncheck the CheckBox and click two and more times on the Button, the message 'Button has been clicked!' is shown for each click.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ClickOncePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ClickOncePage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ClickOncePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ClickOncePage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ClickOncePage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Button</Keyword>
+    <Keyword>ClickOnce</Keyword>
+    <Keyword>Once</Keyword>
+    <Keyword>Click</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Button.Functionality.ClickOncePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

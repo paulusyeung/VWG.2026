@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="270">
+  <Title>MapAddress property</Title>
+  <Properties />
+  <DisplayName>MapAddress property</DisplayName>
+  <Description>The example demonstrates how to set address to locate for GoogleMap control</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MapAddressPropertyPage.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MapAddressPropertyPage.designer.cs" Order="120" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MapAddressPropertyPage.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MapAddressPropertyPage.designer.vb" Order="120" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MapAddressPropertyPage.resx" Order="130" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>GoogleMap</Keyword>
+    <Keyword>MapAddress</Keyword>
+    <Keyword>Address</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.GoogleMap.Features.MapAddressPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

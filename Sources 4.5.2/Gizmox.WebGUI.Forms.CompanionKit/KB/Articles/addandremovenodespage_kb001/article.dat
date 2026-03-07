@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128191373969157" UpdatedBy="admin" UpdatedOn="634128193538670511" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to add and remove node into/from the Visual WebGui TreeView.</Description>
+  </Properties>
+  <Nodes />
+</Data>

@@ -1,0 +1,22 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Appearance</Title>
+  <Properties />
+  <DisplayName>Appearance</DisplayName>
+  <Description>Contains example that demonstrates how use text and image in a Tab of the Visual WebGui TabControl.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>TabControl</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>Appearance</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo">
+      <Style />
+    </Section>
+  </Sections>
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.TabControl.Appearance.TextWithImagePage</DefaultPage>
+</Item>

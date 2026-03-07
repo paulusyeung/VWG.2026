@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Page">
+  <Title>Check On Click behavior</Title>
+  <Properties />
+  <DisplayName>Check On Click</DisplayName>
+  <Description>Demonstrates how to use 'CheckOnClick' property for CheckedListBox control. 'CheckOnClick' property indicates if the item CheckBox should be toggled with the first click on an item of CheckedListBox. The app contains CheckedListBox, that demonstrates usage of 'CheckOnClick' property, and CheckBox that changes value of 'CheckOnClick' property. If you check the CheckBox and try to click on item of CheckedListBox you will  see that CheckBox of selected Item is checked. And if you unchecked the CheckBox and  try to click on item of CheckedListBox again, you will see that clicked item is selected but its CheckBox is unchecked.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CheckOnClickPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckOnClickPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckOnClickPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckOnClickPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckOnClickPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>CheckedListBox</Keyword>
+    <Keyword>CheckOnClick</Keyword>
+    <Keyword>OnClick</Keyword>
+    <Keyword>Check</Keyword>
+    <Keyword>Click</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CheckedListBox.Functionality.CheckOnClickPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

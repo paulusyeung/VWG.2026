@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634389348771247626" UpdatedBy="admin" UpdatedOn="634398605232199884">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>ASP.NET page contains two DropDownList controls and a Button along with a <em>FormBox </em>control.</p><p>Press '<strong>Pass arguments</strong>' button to pass selected values from DropDownList controls to VWG&nbsp;<em>Form </em>loaded into the <em>FormBox </em>control.</p><p>The selected values will appear inside the hosted Visual WebGui Form.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>Visual WebGui&nbsp;<em>FormBox </em>contains&nbsp;Arguments property that can be used to pass values from&nbsp;ASP.NET page to a hosted Visual WebGUI <em>Form</em>.</p>]]></Paragraph>
+  </Nodes>
+</Data>

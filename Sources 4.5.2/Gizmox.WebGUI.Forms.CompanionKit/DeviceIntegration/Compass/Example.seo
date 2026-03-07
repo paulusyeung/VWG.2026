@@ -1,0 +1,27 @@
+﻿<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Compass in Offline mode</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>Demonstrates how to use Compass in Offline mode.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" PageScript="False" Name="Example.cs" Order="1" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" PageScript="False" Name="Example.designer.cs" Order="2" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" PageScript="False" Name="Example.resx" Order="3" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" PageScript="True" Name="Example.Client.js" Order="4" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Compass.cs" Order="5" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CompassSkin.cs" Order="6" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CompassSkin.Compass.ClientDOM.js" Order="7" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CompassSkin.Panel.xslt" Order="8" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CompassSkin.Panel.css" Order="9" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CompassSkin.resx" Order="10" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CompassSkin.CompassArrow.png" Order="11" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CompassSkin.background.png" Order="12" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Compass</Keyword>
+    <Keyword>Offline</Keyword>    
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.DeviceIntegration.Compass.Example, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

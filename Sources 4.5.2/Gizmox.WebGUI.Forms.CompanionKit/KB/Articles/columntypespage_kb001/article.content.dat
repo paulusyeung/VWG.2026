@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135224944265145" UpdatedBy="admin" UpdatedOn="634135225917715105">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The demonstrated DataGridView represents using different column types. The first and the second columns are TextBox type; the third - LinkColumn; the forth - ButtonColumn; the fifth - CheckBoxColumn; the sixth - ComboBoxColumn; the seventh - CustomComboBoxColumn.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>DataGridView </em>control uses several column types to display its information. The DataGridView allows using column of the following types:<br />- <em>DataGridViewTextBoxColumn </em>- used with text-based values. Generated automatically when binding to numbers and strings.<br />- <em>DataGridViewCheckBoxColumn </em>- used with Boolean and CheckState values. Generated automatically when binding to values of these types.<br />- <em>DataGridViewImageColumn </em>- Used to display images. Generated automatically when binding to byte arrays, Image objects, or Icon objects.<br />- <em>DataGridViewButtonColumn </em>- used to display buttons in cells. Not automatically generated when binding. Typically used as unbound columns.<br />- <em>DataGridViewComboBoxColumn </em>- used to display drop-down lists in cells. Not automatically generated when binding. Typically data-bound manually.<br />- <em>DataGridViewLinkColumn </em>- used to display links in cells. Not automatically generated when binding. Typically data-bound manually.<br />- <em>Custom column type </em>- <em>DataGridView </em>allows to creates custom column class by inheriting the DataGridViewColumn class or any of its derived classes to provide custom appearance, behavior, or hosted controls.</p>]]></Paragraph>
+  </Nodes>
+</Data>

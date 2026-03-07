@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634130885291370479" UpdatedBy="admin" UpdatedOn="634130886085594312">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select an item to see how label text changed to represent information about selected item.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ListVew </em>contains <em>SelectedIndexChanged </em>event that occurs when the selected index changed. To get selected item the <em>ListView </em>contains the following properties:<br /><strong>SeletedIndex </strong>&ndash; defines the currently selected item index;<br /><strong>SelectedIndices</strong>&ndash; defines the currently selected item indices;<br /><strong>SelectedItem </strong>- defines the currently selected item;<br /><strong>SelectedItems </strong>- defines the currently selected items.</p>]]></Paragraph>
+  </Nodes>
+</Data>

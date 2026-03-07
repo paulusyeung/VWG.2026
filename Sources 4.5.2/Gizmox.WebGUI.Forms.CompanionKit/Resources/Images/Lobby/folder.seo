@@ -1,0 +1,74 @@
+<Item SiteMap="True" Order="100" Status="Draft" Type="Folder" HasLobby="True">
+  <Title>Lobby</Title>
+  <Properties />
+  <DisplayName>Lobby</DisplayName>
+  <Description>Images belonging to CK home page</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CK_Lobby3_3.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Lobby1_3.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CK_Lobby2_3.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CK_lobby_top.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MainMenu.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TabControl.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RibbonBar.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ScheduleBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NavigationTabs.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Maskedtextbox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="GroupBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="HelpProvider.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="HeaderedPanel.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingNavigator.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ToolTip.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SearchTextBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ActiveXBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AppletBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Button.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckedListBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ComboBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="OpenFileDialog.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FontDialog.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ColorDialog.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ContextMenu.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DataGridView.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DateTimePicker.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DomainUpDown.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FlashBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FlowLayoutPanel.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ErrorProvider.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Form.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="HtmlBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ListBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ListView.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="NumericUpDown.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MonthCalendar.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Panel.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PictureBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ProgressBar.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PropertyGrid.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RadioButton.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RichTextBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SplitContainer.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Splitter.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="StatusBar.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TableLayoutPanel.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextBox.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Timer.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ToolBar.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TrackBar.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TreeView.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="XamlBox.Lobby.jpg" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Label.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LinkLabel.Lobby.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ToolStrip_Lobby.png" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>
+  </DefaultPage>
+</Item>

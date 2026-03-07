@@ -1,0 +1,31 @@
+<Item SiteMap="True" Order="108" Status="Publish" Type="Page">
+  <Title>Applying different cell selection modes</Title>
+  <Properties />
+  <DisplayName>Selection</DisplayName>
+  <Description>The example demonstrates how to apply different cell selection modes for the DataGridView.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="SelectionPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectionPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectionPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectionPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectionPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.xsd" Order="103" Lang="All" Title="UserDS.xsd" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.designer.cs" Order="104" Lang="CSharp" Title="UserDS.designer.cs" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.designer.vb" Order="104" Lang="VBNET" Title="UserDS.designer.vb" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.xsc" Order="105" Lang="All" Title="UserDS.xsc" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.xss" Order="106" Lang="All" Title="UserDS.xss" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>Selection</Keyword>
+    <Keyword>Mode</Keyword>
+  </Keywords>
+  <Comment>FullColumnSelect(VWG-5408) and ColumnHeaderSelect(VWG-6528) isn't implemented.</Comment>
+  <PageType>CompanionKit.Controls.DataGridView.Features.SelectionPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields>
+      <Field Column="0" Order="0" Type="ComboBox" Label="Current DataGridView SelectionMode" TargetName="dataGridView1" PropertyName="SelectionMode" />
+    </Fields>
+  </Inspector>
+</Item>

@@ -1,0 +1,38 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains the examples that demonstrate how to:
+    use Accept and Cancel buttons with a Form;
+    support dialog's return value in a Form;
+    manipulate with form border styles;
+    manipulate form state;
+    use Multi Document Interface forms;
+    show form through different window type.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Form</Keyword>
+    <Keyword>AcceptButton</Keyword>
+    <Keyword>CancelButton</Keyword>
+    <Keyword>DialogResult</Keyword>
+    <Keyword>Result</Keyword>
+    <Keyword>BorderStyle</Keyword>
+    <Keyword>Style</Keyword>
+    <Keyword>Border</Keyword>
+    <Keyword>MDI</Keyword>
+    <Keyword>Parent</Keyword>
+    <Keyword>Child</Keyword>
+    <Keyword>MDIParent</Keyword>
+    <Keyword>IsMDIContainer</Keyword>
+    <Keyword>IsMDIChild</Keyword>
+    <Keyword>Window</Keyword>
+    <Keyword>Type</Keyword>
+    <Keyword>Modal</Keyword>
+    <Keyword>Modeless</Keyword>
+    <Keyword>Popup</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.Form.Features.AcceptAndCancelButtonsPage</DefaultPage>
+  <Body />
+</Item>

@@ -1,0 +1,23 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use DropDownMenu,ClickOnce, TextImageRelation, ImageAlign and TextAlign properties</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Button</Keyword>
+    <Keyword>ClickOnce</Keyword>
+    <Keyword>DropDownMenu</Keyword>
+    <Keyword>DropDown</Keyword>
+    <Keyword>Menu</Keyword>
+    <Keyword>TextAlign</Keyword>
+    <Keyword>ImageAlign</Keyword>
+    <Keyword>TextImageRelation</Keyword>
+    <Keyword>Alignment</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.Button.Functionality.ClickOncePage</DefaultPage>
+</Item>

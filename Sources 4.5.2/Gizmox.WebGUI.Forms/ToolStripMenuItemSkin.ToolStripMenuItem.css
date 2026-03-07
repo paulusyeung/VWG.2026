@@ -1,0 +1,61 @@
+.ToolStripMenuItem-ItemImage
+{
+	[Skin.MenuItemImageStyle];
+}
+
+.ToolStripMenuItem-Item
+{
+	[Skin.MenuItemStyle];
+}
+
+.ToolStripMenuItem-ItemDisabledText
+{
+	[Skin.DisabledMenuItemTextStyle];
+}
+
+.ToolStripMenuItem-Item_Enter
+{
+	[Skin.MenuItemHoverStyle];
+}
+
+.ToolStripMenuItem-Item_Down
+{
+	[Skin.MenuItemDownStyle];
+}
+
+.ToolStripMenuItem-ItemArrow
+{
+	[Skin.MenuItemArrow];
+}
+
+.ToolStripMenuItem-ItemArrowDisabled
+{
+	[Skin.MenuItemArrowDisabled];
+}
+
+.ToolStripMenuItem-ItemChecked
+{
+	[Skin.MenuItemChecked];
+}
+
+.ToolStripMenuItem-ItemCheckedDisabled
+{
+	[Skin.MenuItemCheckedDisabled];
+}
+
+.ToolStripMenuItem-ItemIndeterminate
+{
+	[Skin.MenuItemIndeterminate];
+}
+
+.ToolStripMenuItem-ItemIndeterminateDisabled
+{
+	[Skin.MenuItemIndeterminateDisabled];
+}
+
+.ToolStripMenuItem-Section
+{
+    height:100%;
+    position:absolute;
+    top:0px;
+}

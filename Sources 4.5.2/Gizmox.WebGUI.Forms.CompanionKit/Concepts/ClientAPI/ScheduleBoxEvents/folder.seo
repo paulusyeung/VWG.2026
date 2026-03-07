@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Demonstration of adding events to ScheduleBox and changing view mode</Title>
+  <Properties />
+  <DisplayName>New events</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgScheduleBox</Keyword>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>view</Keyword>
+    <Keyword>dataSource</Keyword>
+    <Keyword>text</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.ScheduleBoxEvents.Overview</DefaultPage>
+</Item>

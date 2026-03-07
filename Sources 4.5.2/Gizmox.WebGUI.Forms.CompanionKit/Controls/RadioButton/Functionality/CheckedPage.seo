@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Checked</Title>
+  <Properties />
+  <DisplayName>Checked</DisplayName>
+  <Description>The example demonstrates how to use checked property of the Visual WebGui RadioButton. </Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CheckedPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckedPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckedPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckedPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckedPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>RadioButton</Keyword>
+    <Keyword>Checked</Keyword>
+    <Keyword>Check</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.RadioButton.Functionality.CheckedPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields>
+      <Field Column="0" Order="0" Type="CheckBox" Label="Checked" TargetName="radioButton1" PropertyName="Checked" />
+    </Fields>
+  </Inspector>
+</Item>

@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="103" Status="Publish" Type="Page">
+  <Title>Setting the TickStyle</Title>
+  <Properties />
+  <DisplayName>TickStyle</DisplayName>
+  <Description>The example demonstrates how to change tick style of a TrackBar.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="TickStylePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TickStylePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TickStylePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TickStylePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TickStylePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TrackBar</Keyword>
+    <Keyword>TickStyle</Keyword>
+    <Keyword>Tick</Keyword>
+    <Keyword>Mark</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TrackBar.Functionality.TickStylePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

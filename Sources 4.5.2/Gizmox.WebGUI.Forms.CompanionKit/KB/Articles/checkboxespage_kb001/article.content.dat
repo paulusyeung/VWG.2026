@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128194078673967" UpdatedBy="admin" UpdatedOn="634128197041349178">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check the 'CheckBoxes' CheckBox, the <em>TreeView </em>CheckBoxes property value is changed to true and the TreeView nodes are displayed with CheckBox. Uncheck 'CheckBoxes' CheckBox, the TreeView CheckBoxes property value is changed to false and the TreeView nodes are displayed without CheckBox.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>TreeView </em>contains <em>CheckBoxes </em>property. This property indicates whether node should be displayed with or without CheckBox.</p>]]></Paragraph>
+  </Nodes>
+</Data>

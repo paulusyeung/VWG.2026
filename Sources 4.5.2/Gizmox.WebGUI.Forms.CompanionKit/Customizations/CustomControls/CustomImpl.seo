@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Article">
+  <Title>How to implement Visual WebGui custom control</Title>
+  <Properties />
+  <DisplayName>Custom control implementation</DisplayName>
+  <Description>This article shows how to implement a custom control by integration of Aurigma Image Uploader for further usage in Visual WebGui projects. The implementation will be done by demonstrating of key concept of new skin designer introduced in version 6.4.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Aurigma</Keyword>
+    <Keyword>Uploader</Keyword>
+    <Keyword>image</Keyword>
+    <Keyword>upload</Keyword>
+    <Keyword>article</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Code>howcustomuploader_kb001</Code>
+</Item>

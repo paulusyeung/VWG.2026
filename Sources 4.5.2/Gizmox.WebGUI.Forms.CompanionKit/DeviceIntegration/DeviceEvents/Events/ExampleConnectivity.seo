@@ -1,0 +1,18 @@
+﻿<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Connectivity events example</Title>
+  <Properties />
+  <DisplayName>Online and Offline</DisplayName>
+  <Description>Demonstrates how to use Connectivity events.</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ExampleConnectivity.cs" Order="1" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ExampleConnectivity.designer.cs" Order="2" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="ExampleConnectivity.resx" Order="3" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="True" SiteMap="False" Name="ExampleConnectivity.Client.js" Order="4" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Connectivity events</Keyword>    
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.DeviceIntegration.DeviceEvents.Events.ExampleConnectivity, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

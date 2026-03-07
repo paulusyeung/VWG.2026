@@ -1,0 +1,18 @@
+﻿.Label-Control
+{
+	[Skin.Foreground];
+	[Skin.Font];
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.Label-Disabled
+{
+	color:#a9a9a9;	
+}
+
+.Label-ContentContainer
+{
+	[Skin.Padding];
+}

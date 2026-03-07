@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="102" Status="Publish" Type="Page">
+  <Title>Setting Value and Range</Title>
+  <Properties />
+  <DisplayName>Setting Value and Range</DisplayName>
+  <Description>The example demonstrates how to manipulate with a value and a range of a TrackBar.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="SettingValueAndRangePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SettingValueAndRangePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SettingValueAndRangePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SettingValueAndRangePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SettingValueAndRangePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TrackBar</Keyword>
+    <Keyword>Maximum</Keyword>
+    <Keyword>Minimum</Keyword>
+    <Keyword>Value</Keyword>
+    <Keyword>Bounds</Keyword>
+    <Keyword>Range</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TrackBar.Functionality.SettingValueAndRangePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

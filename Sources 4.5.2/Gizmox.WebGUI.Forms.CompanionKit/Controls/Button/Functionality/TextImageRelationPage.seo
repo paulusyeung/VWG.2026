@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="120" Status="Publish" Type="Page">
+  <Title>Text - Image Relation</Title>
+  <Properties />
+  <DisplayName>Text - Image Relation</DisplayName>
+  <Description>Demonstrates how to change text and image alignment and relation between them on the Button. The sample contains the demonstrated Button and three ComboBoxes to change value of TextImageRelation, ImageAlign, TextAlign properties. Select item in ComboBox and text and image alignment and relation between them is changed.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="TextImageRelationPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextImageRelationPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextImageRelationPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextImageRelationPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextImageRelationPage.resx" Order="120" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\24X24\Controls.gif" Order="150" Lang="All" Title="Controls.gif" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>Button</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>Alignment</Keyword>
+    <Keyword>TextAlign</Keyword>
+    <Keyword>ImageAlign</Keyword>
+    <Keyword>TextImageRelation</Keyword>
+    <Keyword>Align</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Button.Functionality.TextImageRelationPage, Gizmox.WebGUI.Forms.CompanionKit, Version=1.0.0.0</PageType>
+</Item>

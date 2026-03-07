@@ -1,0 +1,27 @@
+<Item SiteMap="False" Order="1" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>Flash</Title>
+  <Properties />
+  <DisplayName>Flash</DisplayName>
+  <Description>The folder is a container of Flash resources. Should be always with Status - Draft.
+  </Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="True" Name="FC_2_3_Area2D.swf" Order="103" Lang="All" Type="File" ViewType="NoView" />
+    <Resource Visible="True" SiteMap="True" Name="FC_2_3_Column3D.swf" Order="103" Lang="All" Type="File" ViewType="NoView" />
+    <Resource Visible="True" SiteMap="False" Name="FC_2_3_SSGrid.swf" Order="103" Lang="All" Type="File" ViewType="NoView" />
+    <Resource Visible="True" SiteMap="False" Name="FC_2_3_Pie3D.swf" Order="103" Lang="All" Type="File" ViewType="NoView" />
+    <Resource Visible="True" SiteMap="False" Name="FC_2_3_Pie2D.swf" Order="103" Lang="All" Type="File" ViewType="NoView" />
+    <Resource Visible="True" SiteMap="False" Name="FC_2_3_MSLine_2.swf" Order="103" Lang="All" Type="File" ViewType="NoView" />
+    <Resource Visible="True" SiteMap="False" Name="FC_2_3_MSLine.swf" Order="103" Lang="All" Type="File" ViewType="NoView" />
+    <Resource Visible="True" SiteMap="False" Name="FC_2_3_MSColumnLine_DY_3D.swf" Order="103" Lang="All" Type="File" ViewType="NoView" />
+    <Resource Visible="True" SiteMap="False" Name="FC_2_3_MSColumn3D.swf" Order="103" Lang="All" Type="File" ViewType="NoView" />
+    <Resource Visible="True" SiteMap="False" Name="FC_2_3_Doughnut2D.swf" Order="103" Lang="All" Type="File" ViewType="NoView" />
+    <Resource Visible="True" SiteMap="False" Name="FC_2_3_DATA.xml" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FC_2_3_StckdColumn_MSLine_DY_2D.swf" Order="103" Lang="All" Type="File" ViewType="NoView" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>
+  </DefaultPage>
+  <Body />
+</Item>

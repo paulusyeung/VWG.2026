@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Demonstrates searching functional of SearchTextBox</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>SearchTextBox</Keyword>
+    <Keyword>Search</Keyword>
+    <Keyword>Filtering</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.SearchTextBox.Functionality.SearchingPage</DefaultPage>
+</Item>

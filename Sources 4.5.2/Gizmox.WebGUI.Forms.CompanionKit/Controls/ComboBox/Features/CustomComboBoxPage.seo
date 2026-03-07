@@ -1,0 +1,35 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Page">
+  <Title>How to create a customized ComboBox</Title>
+  <Properties />
+  <DisplayName>Custom ComboBox</DisplayName>
+  <Description>Demonstrates how to make ComboBox with custom DropDown. If you open DropDown for 'Custom TreeView ComboBox' ComboBox, you will see DropDown with TreeView. If you open DropDown for 'Custom Form ComboBox' ComboBox, you will see DropDown with Form.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CustomComboBoxPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomComboBoxPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomComboBoxPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomComboBoxPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomComboBoxPage.resx" Order="120" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormComboBox.cs" Order="130" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FormComboBox.vb" Order="130" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ComboBoxForm.cs" Order="140" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ComboBoxForm.Designer.cs" Order="150" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ComboBoxForm.vb" Order="140" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ComboBoxForm.Designer.vb" Order="150" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ComboBoxForm.resx" Order="160" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TreeViewComboBox.cs" Order="170" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TreeViewComboBox.vb" Order="170" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TreeViewComboBoxForm.cs" Order="180" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TreeViewComboBoxForm.Designer.cs" Order="190" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TreeViewComboBoxForm.vb" Order="180" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TreeViewComboBoxForm.Designer.vb" Order="190" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TreeViewComboBoxForm.resx" Order="200" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ComboBox</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>DropDown</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ComboBox.Features.CustomComboBoxPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

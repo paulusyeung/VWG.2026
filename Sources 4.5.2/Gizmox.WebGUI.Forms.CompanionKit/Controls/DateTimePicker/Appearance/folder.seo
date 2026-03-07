@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Appearance</Title>
+  <Properties />
+  <DisplayName>Appearance</DisplayName>
+  <Description>Contains the examples that demonstrate how to:
+change background color of a Visual WebGui DateTimePicker;
+change font for a DropDown Calendar of a Visual WebGui DateTimePicker;
+change foreground color for a DropDown calendar of a Visual WebGui DateTimePicker;
+change foreground color of a Visual WebGui DateTimePicker;
+</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DateTimePicker</Keyword>
+    <Keyword>BackColor</Keyword>
+    <Keyword>Background</Keyword>
+    <Keyword>Color</Keyword>
+    <Keyword>CalendarFont</Keyword>
+    <Keyword>Calendar</Keyword>
+    <Keyword>Font</Keyword>
+    <Keyword>CalendarForeColor</Keyword>
+    <Keyword>ForeColor</Keyword>
+    <Keyword>Foreground</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.DateTimePicker.Appearance.BackColorPropertyPage</DefaultPage>
+  <Body />
+</Item>

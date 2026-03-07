@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634414293630263472" UpdatedBy="admin" UpdatedOn="634416544910682351">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The <em>Form </em>contains a <em>TextBox </em>control associated with the ErrorProvider.<br />Use the <em>ComboBoxcontrol </em>to set the blinking&nbsp;style&nbsp;of the error icon.<br />Press <strong>'Show Error' </strong>and <strong>'Hide Error'</strong> buttons to show and hide the error respectively.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The error icon flashes in the manner specified by the assigned <em>ErrorBlinkStyle </em>when an error occurs. Setting the <strong>BlinkRate </strong>to zero sets the <strong>BlinkStyle </strong>to 'NeverBlink' value.</p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634076323621582159" UpdatedBy="admin" UpdatedOn="634076324478651804">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the button to open form with registered closed event handler. Click on the 'Close' button of opened form and message about closing the Form will be shown.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>Form </em>contains <em>Closed </em>event for informing about closing <em>Form</em>. This event occurs when when the form is closed.</p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634081739768895156" UpdatedBy="admin" UpdatedOn="634082247569731640">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the 'Open selection file dialog with Visual WebGui Upload Dialog' button and upload file dialog will be opened. Click on the 'Add' button and the <em>OpenFileDialog </em>will be opened with allowed Multi-select.  Select a few files and click 'Open' button. The uploaded file names will be shown in the 'Selected file names of the OpenFileDialog FileNames property' ListView.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>OpenFileDialog </em>dialog box contains <em>FileNames </em>property that returns the names of all selected files in the Visual WebGui <em>OpenFileDialog </em>dialog box.</p>]]></Paragraph>
+  </Nodes>
+</Data>

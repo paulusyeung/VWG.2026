@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>DeviceEvents</Title>
+  <Properties />
+  <DisplayName>Device Events</DisplayName>
+  <Description>
+      Contains sample apps that demonstrate how to use device events
+  </Description>
+  <Resources />
+    <Keywords>
+        <Keyword>Device events</Keyword>
+    </Keywords>
+  <Comment>
+  </Comment>
+    <DefaultPage>item:CompanionKit.DeviceIntegration.DeviceEvents.Events.ExampleBattery</DefaultPage>
+  <Body />
+</Item>

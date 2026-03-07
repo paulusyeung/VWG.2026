@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="100" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>SearchTextBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.SearchTextBox.Features.SearchTextBoxDropDownMenuPropertyPage</DefaultPage>
+</Item>

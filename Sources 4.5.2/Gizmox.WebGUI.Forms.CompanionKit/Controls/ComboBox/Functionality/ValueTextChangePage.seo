@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>The difference between the value and text change events</Title>
+  <Properties />
+  <DisplayName>Value Text Change</DisplayName>
+  <Description>Demonstrates the difference between the value and text change events. If you select item in the ComboBox you will see changed text in both 'Selected Value' and 'Text of ComboBox' TextBoxes. If you enter text in ComboBox and remove focus from ComboBox or press 'Enter' key you will see that the text in 'Text of ComboBox' was changed but text in 'Selected Value' wasn't changed.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ValueTextChangePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValueTextChangePage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValueTextChangePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValueTextChangePage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ValueTextChangePage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ComboBox</Keyword>
+    <Keyword>ValueChanged</Keyword>
+    <Keyword>TextChanged</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>Value</Keyword>
+    <Keyword>SelectedValue</Keyword>
+    <Keyword>Event</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ComboBox.Functionality.ValueTextChangePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+</Item>

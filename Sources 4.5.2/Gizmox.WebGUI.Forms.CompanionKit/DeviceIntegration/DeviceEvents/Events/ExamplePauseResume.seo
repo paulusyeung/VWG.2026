@@ -1,0 +1,17 @@
+﻿<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Pause and Resume events example</Title>
+  <Properties />
+  <DisplayName>Pause and Resume</DisplayName>
+  <Description>Demonstrates how to use Pause and Resume events.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ExamplePauseResume.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExamplePauseResume.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExamplePauseResume.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Pause and Resume events</Keyword>    
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.DeviceIntegration.DeviceEvents.Events.ExamplePauseResume, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

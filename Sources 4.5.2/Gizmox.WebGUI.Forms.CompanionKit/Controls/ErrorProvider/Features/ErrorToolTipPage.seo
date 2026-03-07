@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="100">
+  <Title>Defining a ToolTip</Title>
+  <Properties />
+  <DisplayName>Defining a ToolTip</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ErrorToolTipPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ErrorToolTipPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ErrorToolTipPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ErrorToolTipPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ErrorToolTipPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ErrorProvider</Keyword>
+    <Keyword>ToolTip</Keyword>
+    <Keyword>Message</Keyword>
+    <Keyword>Error</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ErrorProvider.Features.ErrorToolTipPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to change TextBox character casing</Title>
+  <Properties />
+  <DisplayName>Character Casing</DisplayName>
+  <Description>The example demonstrates how to enforce the case of characters in a Visual WebGui TextBox.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CharacterCasingPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CharacterCasingPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CharacterCasingPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CharacterCasingPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CharacterCasingPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TextBox</Keyword>
+    <Keyword>CharacterCasing</Keyword>
+    <Keyword>Transformation</Keyword>
+    <Keyword>Casing</Keyword>
+    <Keyword>Case</Keyword>
+    <Keyword>Uppercase</Keyword>
+    <Keyword>Lowercase</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TextBox.Functionality.CharacterCasingPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+</Item>

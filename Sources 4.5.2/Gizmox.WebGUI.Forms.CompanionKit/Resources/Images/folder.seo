@@ -1,0 +1,25 @@
+<Item SiteMap="False" Order="1" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>Images</Title>
+  <Properties />
+  <DisplayName>Images</DisplayName>
+  <Description>The folder is a container of Images resources. Should be always with Status - Draft.
+  </Description>
+  <Resources>
+    <Resource Visible="False" SiteMap="False" Name="Logo.png" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="AboutVWGLogo.jpg" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="IEONLY.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Photo.PNG" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="View.jpg" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Stone.jpg" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="StatusBarImg.jpg" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Sea.jpg" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="uc.jpg" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>
+  </DefaultPage>
+</Item>

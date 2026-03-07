@@ -1,0 +1,42 @@
+.LoadingAnimation-LoadingAnimationBox
+{
+    display: inline-block;
+    height: 47px;
+    width: 47px;
+    background-image:url(Resources.Gizmox.WebGUI.Forms.Skins.LoadingSkin.LoadingAnimation.png.wgx);
+    background-repeat:no-repeat;
+
+    animation-name: Rotate;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    -webkit-animation-name: Rotate;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@keyframes Rotate
+{
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes Rotate
+{
+    from
+    {
+        -webkit-transform: rotate(0deg);
+    }
+    to
+    {
+        -webkit-transform: rotate(360deg);
+    }
+}

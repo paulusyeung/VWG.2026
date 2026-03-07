@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>WorkspaceTabs control overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>WorkspaceTabs</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="WorkspaceTabs control contains tab pages, which may contain other controls. It is similar to the TabControl." Section="Section-01">
+      <Style bodycss="font-size:Medium" linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

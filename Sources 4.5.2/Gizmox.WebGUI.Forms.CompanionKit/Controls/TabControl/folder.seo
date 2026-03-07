@@ -1,0 +1,52 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>TabControl Overview</Title>
+  <Properties />
+  <DisplayName>TabControl</DisplayName>
+  <Description>Contains examples to demonstrate how to use Visual WebGui TabControl.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>TabControl</Keyword>
+    <Keyword>Tab</Keyword>
+    <Keyword>TabPage</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Feature">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/TabControl.Lobby.png'/&gt;
+&lt;div&gt;The &lt;span style="color:#00ccff"&gt;TabControl&lt;/span&gt; is functionally equivialent to the Windows Forms TabControl. The control is useful for minimizing screen space usage while allowing an application to expose a large amount of data.&lt;/div&gt;
+&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The TabControl is one of the Out of the Box standard controls, which means it is free and available in all Visual WebGui versions.&lt;div style='clear:both'&gt;&lt;/div&gt;&lt;span style="color:#00ccff"&gt;The examples below demonstrate how to:&lt;/span&gt;
+- create TabPages with an image and text in the capiton
+- display TabPages in a single or multiple rows
+- show and use the close button for TabPage
+- apply different client drawing behavior for Memory and Drawing optimization</PreText>
+      <Style concss="margin-top: 20px;&#xD;&#xA;margin-bottom: 20px;&#xD;&#xA;" />
+    </Section>
+    <Section ID="Section-02" style="Demo">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Title="Text with image" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to create TabPages with an image and text in the capiton.&lt;/div&gt;" Link="item:CompanionKit.Controls.TabControl.Appearance.TextWithImagePage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" bodycss="padding-left:15px;" titlecss="padding-left:15px;" />
+    </Element>
+    <Element Title="Single row tabs ordering" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to display TabControl tabs in one row.&lt;/div&gt;" Link="item:CompanionKit.Controls.TabControl.Functionality.ScrollingPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="Multi row tabs ordering" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to display TabControl tabs in multiple rows&lt;/div&gt;" Link="item:CompanionKit.Controls.TabControl.Functionality.MultiRowPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="Close button" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to show and use the close button for a tab page&lt;/div&gt;" Link="item:CompanionKit.Controls.TabControl.Functionality.CloseButtonPage" Section="Section-01">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" bodycss="padding-left:15px;" titlecss="padding-left:15px;" />
+    </Element>
+    <Element Title="DrawingOptimized mode" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to use DrawingOptimized client behavior&lt;/div&gt;" Link="item:CompanionKit.Controls.TabControl.Functionality.DrawingOptimizedPage" Section="Section-01">
+      <Style linktype="InnerItem" titlecss="margin-top:5px;" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="MemoryOptimized mode" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to use MemoryOptimized client behavior&lt;/div&gt;" Link="item:CompanionKit.Controls.TabControl.Functionality.MemoryOptimizedPage" Section="Section-01">
+      <Style linktype="InnerItem" titlecss="margin-top:5px;" concss="border: 1px solid transparent;" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

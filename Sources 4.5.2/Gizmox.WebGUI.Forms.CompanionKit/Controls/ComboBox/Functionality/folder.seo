@@ -1,0 +1,18 @@
+<Item SiteMap="False" Order="120" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>
+    Demonstrates the difference between the value and text change events
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ComboBox</Keyword>
+    <Keyword>ValueChanged</Keyword>
+    <Keyword>TextChanged</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.ComboBox.Functionality.ValueTextChangePage</DefaultPage>
+  <Body />
+</Item>

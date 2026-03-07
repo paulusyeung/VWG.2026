@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>DecimalPlaces Property</Title>
+  <Properties />
+  <DisplayName>DecimalPlaces Property</DisplayName>
+  <Description>The example demonstrates how to support decimal places in the Visual WebGui NumericUpDown control.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="DecimalPlacesPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DecimalPlacesPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DecimalPlacesPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DecimalPlacesPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DecimalPlacesPropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>NumericUpDown</Keyword>
+    <Keyword>DecimalPlaces</Keyword>
+    <Keyword>Decimal</Keyword>
+    <Keyword>Places</Keyword>
+    <Keyword>Place</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.NumericUpDown.Functionality.DecimalPlacesPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

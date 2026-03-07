@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634075634636012966" UpdatedBy="admin" UpdatedOn="634076484761131935">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the 'Open Form with Accept and Cancel form' button and <em>Form </em>with assigned accept and cancel buttons will be opened. The opened Form has assigned <em>AcceptButton </em>as 'Save' button and assigned <em>CancelButton </em>as 'Cancel' button. Fill up forms' fields. If you press on <em>Enter </em>key, Click event of 'Save' button will be fired. As result, the Form will be closed and message with information about saving user will be shown. If you press on <em>Esc </em>key, Click event of the 'Cancel' button will be fired. As result, the Form will be closed and message about of canceling will be shown.<br />&nbsp;</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>Form </em>contains <em>AcceptButton</em> and <em>CancelButton</em> properties. The <em>AcceptButton </em>property defines the button on the form that is clicked when the user presses the <em>ENTER</em> key. The <em>CancelButton</em> property defines the button on the form that is clicked when the user presses the <em>ESC</em> key.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

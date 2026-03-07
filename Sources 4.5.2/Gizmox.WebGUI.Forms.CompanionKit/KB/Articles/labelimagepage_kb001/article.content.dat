@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634433262589095829" UpdatedBy="admin" UpdatedOn="634440743532238000">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Use the&nbsp;<em>ComboBox </em>control to set the&nbsp;alignment for the&nbsp;image inside the <strong><em>Label </em></strong>control.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>Label.ImageAlign</strong> property gets or sets the alignment of an image that is displayed in the control.</p><p>This property enables you to align an image within the boundaries of the <strong><em>Label </em></strong>control to ensure that the image is properly displayed. You can add an image to a <strong><em>Label </em></strong>using the <em>Image </em>property or the <em>ImageList </em>and <em>ImageIndex </em>properties. Images displayed in the control cannot be stretched or shrunk to fill the control if the control is larger or smaller than the image.</p><p>Type: System.Drawing.ContentAlignment<br />Default Value - <strong>MiddleCenter</strong></p>]]></Paragraph>
+  </Nodes>
+</Data>

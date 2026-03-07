@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Text Shadow</Title>
+  <Properties />
+  <DisplayName>Text Shadow</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>VisualEffects</Keyword>
+    <Keyword>TextShadow</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.VisualEffects.TextShadow.Overview</DefaultPage>
+</Item>

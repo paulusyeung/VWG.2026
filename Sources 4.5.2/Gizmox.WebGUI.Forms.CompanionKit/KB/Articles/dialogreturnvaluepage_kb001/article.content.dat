@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634075641716839533" UpdatedBy="admin" UpdatedOn="634076485056506805">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The eaxmple]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the 'Open form with result value' button and form will be opened. The form contains 'Save' and 'Cancel' buttons. If 'Save' button is clicked the Form will be closed with 'OK' result value. If 'Cancelled' button is clicked, the Form will be closed with the 'Cancel' result value. The message will inform about saving user result.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>Form </em>contains the <em>DialogResult </em>property. This property defines the dialog result for the form. It can contain the following values:<br /><strong>None</strong> - nothing is returned from the dialog box. This means that the modal dialog continues running.<br /><strong>Abort </strong>- the dialog box return value is Abort (usually sent from a button labeled Abort).<br /><strong>Cancel </strong>- the dialog box return value is Cancel (usually sent from a button labeled Cancel).<br /><strong>Ignore </strong>- the dialog box return value is Ignore (usually sent from a button labeled Ignore).<br /><strong>No </strong>- the dialog box return value is No (usually sent from a button labeled No).<br /><strong>OK </strong>- the dialog box return value is OK (usually sent from a button labeled OK).<br /><strong>Retry </strong>- the dialog box return value is Retry (usually sent from a button labeled Retry).<br /><strong>Yes </strong>- the dialog box return value is Yes (usually sent from a button labeled Yes).<br /><br />This property can be used in the registered handler of the <em>Form </em>closed event.</p>]]></Paragraph>
+  </Nodes>
+</Data>

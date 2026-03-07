@@ -1,0 +1,32 @@
+<Item SiteMap="True" Order="120" Status="Publish" Type="Page">
+  <Title>How to use the max items in DropDown</Title>
+  <Properties />
+  <DisplayName>Max items in DropDown</DisplayName>
+  <Description>The sample app demonstrates how to use MaxDropDownItems property of ComboBox. You can enter count of items that you can see in DropDown of demonstrated ComboBox. If you open the 'MaxDropDownItems ComboBox', you will see that count of items is equal to entered numder.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MaxItemsInDropDownPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxItemsInDropDownPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxItemsInDropDownPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxItemsInDropDownPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxItemsInDropDownPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ComboBox</Keyword>
+    <Keyword>MaxDropDownItems</Keyword>
+    <Keyword>Number</Keyword>
+    <Keyword>Items</Keyword>
+    <Keyword>DropDown</Keyword>
+    <Keyword>Count</Keyword>
+    <Keyword>Quantity</Keyword>
+    <Keyword>MaxItems</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ComboBox.Features.MaxItemsInDropDownPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields>
+      <Field Column="0" Order="0" Type="TextBox" Label="MaxDropDownItems" TargetName="comboBox1" PropertyName="MaxDropDownItems" />
+    </Fields>
+  </Inspector>
+</Item>

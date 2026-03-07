@@ -1,0 +1,17 @@
+<Item SiteMap="False" Order="102" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Performance</Title>
+  <Properties />
+  <DisplayName>Performance</DisplayName>
+  <Description>Contains the example demonstrates how to use internal paging feature of a DataGridView.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>paging</Keyword>
+    <Keyword>UseInternalPaging</Keyword>
+    <Keyword>ItemsPerPage</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.DataGridView.Performance.PagingPage</DefaultPage>
+  <Body />
+</Item>

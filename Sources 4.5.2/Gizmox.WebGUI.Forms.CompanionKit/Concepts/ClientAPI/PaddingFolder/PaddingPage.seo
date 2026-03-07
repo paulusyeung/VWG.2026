@@ -1,0 +1,29 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Example of using padding ClientAPI function</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="PaddingPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="PaddingPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="PaddingPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="PaddingPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="PaddingPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomPaddingButton.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomPaddingButtonSkin.cs" Order="104" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomPaddingButton.vb" Order="105" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomPaddingButtonSkin.vb" Order="106" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomPaddingButtonSkin.Button.css" Order="107" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomPaddingButtonSkin.Button.js" Order="108" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomPaddingButtonSkin.Button.xslt" Order="109" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="CustomPaddingButtonSkin.resx" Order="110" Lang="All" Type="File" />  
+  </Resources>
+  <Keywords>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>padding</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Concepts.ClientAPI.PaddingFolder.PaddingPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

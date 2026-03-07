@@ -1,0 +1,29 @@
+<Item SiteMap="True" Order="140" Status="Publish" Type="Page">
+  <Title>Sort ComboBox items</Title>
+  <Properties />
+  <DisplayName>Sort ComboBox items</DisplayName>
+  <Description>The sample app demonstrates how to use Sorted property of ComboBox. You check the CheckBox and open DropDown of ComboBox and you will see that all items are sorted in DropDown. If you uncheck the CheckBox and open the DropDown again you will see that its items are not sorted.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="SortedPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SortedPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SortedPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SortedPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SortedPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Sorted</Keyword>
+    <Keyword>Sorting</Keyword>
+    <Keyword>Sort</Keyword>
+    <Keyword>Order</Keyword>
+    <Keyword>Ordering</Keyword>
+  </Keywords>
+  <Comment>``
+  </Comment>
+  <PageType>CompanionKit.Controls.ComboBox.Features.SortedPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields>
+      <Field Column="0" Order="0" Type="CheckBox" Label="Sorted" TargetName="comboBox1" PropertyName="Sorted" />
+    </Fields>
+  </Inspector>
+</Item>

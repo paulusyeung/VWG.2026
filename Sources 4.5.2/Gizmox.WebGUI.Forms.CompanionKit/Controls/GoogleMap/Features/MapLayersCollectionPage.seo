@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>MapLayers collection</Title>
+  <Properties />
+  <DisplayName>MapLayers collection</DisplayName>
+  <Description>The example demonstrates how to populate MapLayers collection with all types of map layers</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MapLayersCollectionPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MapLayersCollectionPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MapLayersCollectionPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MapLayersCollectionPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MapLayersCollectionPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>GoogleMap</Keyword>
+    <Keyword>MapLayers</Keyword>
+    <Keyword>BicyclingLayer</Keyword>
+    <Keyword>KmlLayer</Keyword>
+    <Keyword>TrafficLayer</Keyword>
+    <Keyword>TransitLayer</Keyword>
+    <Keyword>CloudLayer</Keyword>
+    <Keyword>WeatherLayer</Keyword>
+    <Keyword>HeatmapLayer</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.GoogleMap.Features.MapLayersCollectionPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

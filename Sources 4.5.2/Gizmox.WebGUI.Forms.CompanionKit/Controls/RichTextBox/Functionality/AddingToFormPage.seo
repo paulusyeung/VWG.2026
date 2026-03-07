@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to add a RichTextBox to Visual WebGUI form.</Title>
+  <Properties />
+  <DisplayName>Adding to a form</DisplayName>
+  <Description>The example demonstrates how to add a RichTextBox to Visual WebGUI form.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="AddingToFormPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingToFormPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingToFormPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingToFormPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingToFormPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>RichTextBox</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>New</Keyword>
+    <Keyword>Item</Keyword>
+    <Keyword>Adding</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.RichTextBox.Functionality.AddingToFormPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

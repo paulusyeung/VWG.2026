@@ -1,0 +1,22 @@
+.DataGridViewActiveTextBox-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.DataGridViewActiveTextBox-Text
+{
+	[Skin.Font];
+	[Skin.Foreground];
+}
+
+.DataGridViewActiveTextBox-SingleLine
+{
+	[Skin.SingleLineInputStyle];
+}
+
+.DataGridViewActiveTextBox-MultiLine
+{
+	[Skin.MultiLineInputStyle];
+}

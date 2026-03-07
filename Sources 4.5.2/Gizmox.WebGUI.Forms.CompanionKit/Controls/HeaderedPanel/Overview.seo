@@ -1,0 +1,30 @@
+<Item SiteMap="False" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>HeaderedPanel</Keyword>
+    <Keyword>Panel</Keyword>
+    <Keyword>Header</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/HeaderedPanel.Lobby.png'/&gt;
+&lt;div&gt;The Visual WebGui &lt;span style="color:#00ccff"&gt;HeaderedPanel&lt;/span&gt; control is a custom-style &lt;span style="color:#00ccff"&gt;Panel&lt;/span&gt; control which includes a rich header. The header can contain text, image and any contol.
+
+&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The &lt;span style="color:#00ccff"&gt;HeaderedPanel&lt;/span&gt; control is one of the Professional suite Office controls, which means it is free and available in all Visual WebGui versions, while the controls are still in beta. After release, these controls will be packaged in a separate Professional Controls suite package and sold separately. Please visit &lt;span style="color:#00ccff;cursor:pointer;text-decoration:underline;" onclick="window.open('http://www.visualwebgui.com/tabid/683/Default.aspx','_newtab');"&gt;this page&lt;/span&gt; for more details.&lt;/div&gt;</PreText>
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Section="Section-01">
+      <Style linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

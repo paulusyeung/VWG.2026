@@ -1,0 +1,25 @@
+﻿<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Accelerometer in Offline mode</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>Demonstrates how to use Accelerometer in Offline mode.</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Example.cs" Order="1" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Example.designer.cs" Order="2" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Example.resx" Order="3" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="True"  SiteMap="False" Name="Example.Client.js" Order="4" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AccelerationPanel.cs" Order="5" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AccelerationPanelSkin.cs" Order="6" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AccelerationPanelSkin.AccelerationPanel.ClientDOM.js" Order="7" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AccelerationPanelSkin.Panel.xslt" Order="8" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AccelerationPanelSkin.Panel.css" Order="9" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AccelerationPanelSkin.resx" Order="10" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="AccelerationPanelSkin.Ball.png" Order="11" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Accelerometer</Keyword> 
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.DeviceIntegration.Accelerometer.Example, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

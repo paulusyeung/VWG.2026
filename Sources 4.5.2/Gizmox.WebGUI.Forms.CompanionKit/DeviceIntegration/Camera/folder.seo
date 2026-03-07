@@ -1,0 +1,15 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+    <Title>Camera</Title>
+    <Properties />
+    <DisplayName>Camera</DisplayName>
+    <Description>Contains sample apps that demonstrate how to use Camera</Description>
+    <Resources />
+    <Keywords>
+        <Keyword>Camera</Keyword>
+    </Keywords>
+    <Comment>
+    </Comment>
+    <Sections />
+    <Body />
+    <DefaultPage>item:CompanionKit.DeviceIntegration.Camera.Example</DefaultPage>
+</Item>

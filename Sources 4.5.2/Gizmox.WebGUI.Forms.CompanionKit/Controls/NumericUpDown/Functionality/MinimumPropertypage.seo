@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="103" Status="Publish" Type="Page">
+  <Title>Minimum Property</Title>
+  <Properties />
+  <DisplayName>Minimum Property</DisplayName>
+  <Description>The example demonstrates how to limit lower bound of the Visual WebGui NumericUpDown.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MinimumPropertypage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinimumPropertypage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinimumPropertypage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinimumPropertypage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinimumPropertypage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>NumericUpDown</Keyword>
+    <Keyword>Minimum</Keyword>
+    <Keyword>Limit</Keyword>
+    <Keyword>Value</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.NumericUpDown.Functionality.MinimumPropertypage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

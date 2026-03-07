@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128211032844973" UpdatedBy="admin" UpdatedOn="634128211963163427">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains two <em>TreeViews</em>. The 'TreeView with allowed editing of node text' <em>TreeView </em>allows editing label text of the tree nodes. The 'TreeView with unallowed editing of node text' <em>TreeView </em>unallows editing label text of its nodes.<br />Select node on the '<em>TreeView </em>with allowed editing of node text' <em>TreeView </em>and double click on this node and a label of the node will be changed to a TextBox that allows editing the label text. When you move focus from the node. The Textbox disappears and the node will be with entered text.<br />Select node on the 'TreeView with unallowed editing of node text' <em>TreeView </em>and double click on this node and a label of the node will not be changed to TextBox.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>TreeView </em>contains <em>LabelEdit </em>property that indicates whether the label text of the tree nodes can be edited.</p>]]></Paragraph>
+  </Nodes>
+</Data>

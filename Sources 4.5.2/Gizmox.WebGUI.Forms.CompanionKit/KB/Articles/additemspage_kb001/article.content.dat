@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634087594749417598" UpdatedBy="admin" UpdatedOn="634188512294929672">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter a text of the added item in the 'New item text' and click on the 'Add a item to DomainUpDown ' button.&nbsp;<br />A new&nbsp;item with entered&nbsp;text will be added into the <em>DomainUpDown </em>control.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DomainUpDown </em>control allows adding items by calling the <em>Add()</em> or <em>Insert()</em> method of the <em>DomainUpDownItemCollection </em>class. The Add method adds an item to the end of&nbsp;the collection, while the Insert method adds an item at a specified position.</p><p>To add a new item:</p><p>Use the Add method to add an item to the end of the&nbsp;of items list.</p><p><strong>VB.NET<br /></strong><em>DomainUpDown1.Items.Add(&quot;noodles&quot;)</em><br /><br /><strong>C#</strong><br /><em>domainUpDown1.Items.Add(&quot;noodles&quot;);</em></p><p>Use the Insert method to insert an item into the list at a specified position.</p><p><strong>VB.NET<br />'</strong>Inserts an item at the third position in the list<br /><em>DomainUpDown1.Items.Insert(2, &quot;rice&quot;)</em><br /><strong><br />C#<br /></strong>// Inserts an item at the third position in the list<br /><em>domainUpDown1.Items.Insert(2, &quot;rice&quot;);</em><br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

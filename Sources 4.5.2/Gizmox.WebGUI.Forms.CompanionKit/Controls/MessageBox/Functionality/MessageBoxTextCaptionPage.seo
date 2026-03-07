@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="250">
+  <Title>Text and Caption</Title>
+  <Properties />
+  <DisplayName>Text and Caption</DisplayName>
+  <Description>The example demonstrates how to set Text and Caption for MessageBox window</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxTextCaptionPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxTextCaptionPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxTextCaptionPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxTextCaptionPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxTextCaptionPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>MessageBox</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>Caption</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.MessageBoxControl.Functionality.MessageBoxTextCaptionPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

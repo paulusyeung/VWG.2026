@@ -1,0 +1,19 @@
+<Item SiteMap="False" Order="120" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Populating Data</Title>
+  <Properties />
+  <DisplayName>Populating Data</DisplayName>
+  <Description>Demonstrates how tou use Collection and DataBase as DataSources of the CheckedListBox</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>CheckedListBox</Keyword>
+    <Keyword>DataSource</Keyword>
+    <Keyword>Collection</Keyword>
+    <Keyword>Object</Keyword>
+    <Keyword>DataBase</Keyword>
+    <Keyword>DB</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.CheckedListBox.PopulatingData.CollectionDataSourcePage</DefaultPage>
+  <Body />
+</Item>

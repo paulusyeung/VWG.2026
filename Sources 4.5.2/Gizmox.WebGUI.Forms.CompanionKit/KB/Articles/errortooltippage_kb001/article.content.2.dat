@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634414296932353158" UpdatedBy="admin" UpdatedOn="634414313952554331">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The <em>Form </em>contain a <em>TextBox </em>control used for showing the error.<br />Use <em>TextBox </em>to set&nbsp;custom message&nbsp;for the error icon tooltip.<br />Press <strong>'Show Error' </strong>and <strong>'Hide Error' </strong>buttons to show and hide the error respectively</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>ErrorProvider.SetError </em>method sets the error description string for the specified control.</p><p><strong>Parameters</strong><br /><em>objControl</em>: The control to set the error description string for.<br /><em>strValue</em>: The error description string, or null or Empty to remove the error.</p><p>If the length of <em>strValue </em>is greater than zero, then the error icon is displayed, and the ToolTip for the error icon is the error description text. If the length is zero or value is null, the error icon is hidden.</p>]]></Paragraph>
+  </Nodes>
+</Data>

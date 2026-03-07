@@ -1,0 +1,30 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>CheckBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/CheckBox.Lobby.png'/&gt;
+&lt;div&gt;The Visual WebGui &lt;span style="color:#00ccff"&gt;CheckBox&lt;/span&gt; control allows the user to choose from a list of options. &lt;span style="color:#00ccff"&gt;CheckBox&lt;/span&gt; controls let the user pick a combination of options.
+
+The ThreeState property determines whether the control supports two or three states. Use the Checked property to get or set the value of a two-state &lt;span style="color:#00ccff"&gt;CheckBox&lt;/span&gt; control and use the CheckState property to get or set the value of a three-state &lt;span style="color:#00ccff"&gt;CheckBox&lt;/span&gt; control.
+
+&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The &lt;span style="color:#00ccff"&gt;CheckBox&lt;/span&gt; control is one of the Out of the Box standard controls, which means it is free and available in all Visual WebGui versions.&lt;/div&gt;</PreText>
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Section="Section-01">
+      <Style linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

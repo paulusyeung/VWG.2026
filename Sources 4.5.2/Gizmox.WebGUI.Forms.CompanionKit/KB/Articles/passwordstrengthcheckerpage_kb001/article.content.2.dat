@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634403064812235622" UpdatedBy="admin" UpdatedOn="634403088352817198">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter your password into the <em>TextBox </em>and press 'Check' button to ckeck it.<br />The information about password strength will be displayed below.<br />Press 'Help' button to show window with help information about password strength levels.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>UserControl </em>control is functionally equivalent to the Windows Forms <em>UserControl </em>control and can be used on the <em>Form </em>in similar way.</p>]]></Paragraph>
+  </Nodes>
+</Data>

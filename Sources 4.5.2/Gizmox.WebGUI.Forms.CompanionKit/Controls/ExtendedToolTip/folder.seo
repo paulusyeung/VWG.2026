@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ExtendedToolTip</Title>
+  <Properties />
+  <DisplayName>ExtendedToolTip</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ExtendedToolTip</Keyword>
+    <Keyword>tooltip</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.ExtendedToolTip.Overview</DefaultPage>
+</Item>

@@ -1,0 +1,14 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>TreeView</Title>
+  <Properties />
+  <DisplayName>TreeView</DisplayName>
+  <Description>Contains examples that demonstrate how to use TreeView control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>TreeView</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.TreeView.Features.AddAndRemoveNodesPage</DefaultPage>
+  <Body />
+</Item>

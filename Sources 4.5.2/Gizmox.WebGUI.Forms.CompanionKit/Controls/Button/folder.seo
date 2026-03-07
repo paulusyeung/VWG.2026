@@ -1,0 +1,18 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Button control</Title>
+  <Properties />
+  <DisplayName>Button</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use Button control</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Button</Keyword>
+    <Keyword>ClickOnce</Keyword>
+    <Keyword>DropDown</Keyword>
+    <Keyword>Drop</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.Button.Overview</DefaultPage>
+</Item>

@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains the example that demonstrates how to set parameters for a Flash animation.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>FlashBox</Keyword>
+    <Keyword>Flash</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>Parameters</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.FlashBox.Programming.ProvideParametersPage</DefaultPage>
+  <Body />
+</Item>

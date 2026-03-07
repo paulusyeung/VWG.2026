@@ -1,0 +1,15 @@
+<Item SiteMap="True" Order="1" Status="Draft" Type="Article">
+  <Title>ToolStrip Object Model Overview</Title>
+  <Properties />
+  <DisplayName>Object Model Overview</DisplayName>
+  <Description>The article describes API available for ToolStrip control. The overview of object model is essential for understanding how to use the control in an application.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>API</Keyword>
+    <Keyword>Diagram</Keyword>
+    <Keyword>UML</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Code>tsapioverview</Code>
+</Item>

@@ -1,0 +1,20 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>StatusBar</Title>
+  <Properties />
+  <DisplayName>StatusBar</DisplayName>
+  <Description>Contains the examples that demonstrates how to use a StatusBar control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>StatusBar</Keyword>
+    <Keyword>Appearance</Keyword>
+    <Keyword>Font</Keyword>
+    <Keyword>Docking</Keyword>
+    <Keyword>Layouts</Keyword>
+    <Keyword>Status</Keyword>
+    <Keyword>Load</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.StatusBar.Appearance.DifferentAppearancePage</DefaultPage>
+  <Body />
+</Item>

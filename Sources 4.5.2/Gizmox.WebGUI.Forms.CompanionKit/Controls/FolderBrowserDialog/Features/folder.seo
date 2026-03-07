@@ -1,0 +1,26 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains examples that demonstrate how to:
+- Set custom descriptive text to display within the dialog window
+- Show or hide 'New Folder' button of in the dialog window
+- Set the root folder where the browsing starts from
+- Set the path selected by the user</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>FolderBrowserDialog</Keyword>
+    <Keyword>Dialog</Keyword>
+    <Keyword>Folder</Keyword>
+    <Keyword>Directory</Keyword>
+    <Keyword>Description</Keyword>
+    <Keyword>NewFolderButton</Keyword>
+    <Keyword>NewFolder</Keyword>
+    <Keyword>New</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.FolderBrowserDialog.Features.DescriptionPropertyPage</DefaultPage>
+</Item>

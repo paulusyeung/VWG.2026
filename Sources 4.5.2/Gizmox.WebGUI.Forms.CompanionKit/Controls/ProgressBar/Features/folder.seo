@@ -1,0 +1,15 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains example that demonstrate how to change the value displayed by the Visual WebGui ProgressBar Control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ProgressBar</Keyword>
+    <Keyword>Value</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.ProgressBar.Features.SetValuePage</DefaultPage>
+  <Body />
+</Item>

@@ -1,0 +1,18 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Selectable</Title>
+  <Properties />
+  <DisplayName>Selectable</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>client</Keyword>
+    <Keyword>behavior</Keyword>
+    <Keyword>selectable</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ControlBehavior.Selectable.Overview</DefaultPage>
+</Item>

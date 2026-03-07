@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634401131263189287" UpdatedBy="admin" UpdatedOn="634407306406748760" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to use SelectedPath property of the FolderBrowserDialog to set the path selected by the user</Description>
+  </Properties>
+  <Nodes />
+</Data>

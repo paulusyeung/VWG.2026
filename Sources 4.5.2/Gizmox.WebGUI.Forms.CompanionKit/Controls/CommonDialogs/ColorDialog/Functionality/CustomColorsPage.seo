@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Page">
+  <Title>Defining Custom Colors</Title>
+  <Properties />
+  <DisplayName>Custom Colors</DisplayName>
+  <Description>This sample app demostrates how to use CustomColors property of ColorDialog. You can click on button and you will see opened ColorDialog with CustomColors. When you select color and click on Ok button, you will see the dialog is closed and Label BackColor will be changed.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CustomColorsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomColorsPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomColorsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomColorsPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomColorsPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ColorDialog</Keyword>
+    <Keyword>Color</Keyword>
+    <Keyword>CustomColors</Keyword>
+    <Keyword>Custom</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.ColorDialog.Functionality.CustomColorsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

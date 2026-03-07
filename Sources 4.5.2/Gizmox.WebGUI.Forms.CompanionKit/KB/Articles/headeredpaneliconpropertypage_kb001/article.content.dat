@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634441963754100020" UpdatedBy="admin" UpdatedOn="634450593393183642">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check a&nbsp;<em>RadioButton </em>to set / change the icon of the <strong>HeaderedPanel </strong>control</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>HeaderedPanel.Icon</strong> property gets or&nbsp;sets the icon image to display inside the header of <strong>HeaderedPanel </strong>control<br />Property type: Gizmox.WebGUI.Common.Resources.<strong>ResourceHandle</strong></p>]]></Paragraph>
+  </Nodes>
+</Data>

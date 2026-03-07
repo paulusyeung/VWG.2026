@@ -1,0 +1,29 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Page">
+  <Title>How to Modify the Size or Placement of a Picture at Run Time</Title>
+  <Properties />
+  <DisplayName>SizeMode property</DisplayName>
+  <Description>The example demonstrates how to modify the Size or Placement of a Picture at Run Time in the Visual WebGui PictureBox control.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="SizeModePropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SizeModePropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SizeModePropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SizeModePropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SizeModePropertyPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\Stone.jpg" Order="103" Lang="All" Title="Stone.jpg" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\Photo.PNG" Order="103" Lang="All" Title="Photo.PNG" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>PictureBox</Keyword>
+    <Keyword>Size</Keyword>
+    <Keyword>Placement</Keyword>
+    <Keyword>Picture</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>SizeMode</Keyword>
+    <Keyword>Location</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>Mode</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.PictureBox.Functionality.SizeModePropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

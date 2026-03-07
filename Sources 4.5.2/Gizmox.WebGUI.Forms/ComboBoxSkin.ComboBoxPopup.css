@@ -1,0 +1,82 @@
+.ComboBox-PopUpBody
+{
+	[Skin.PopupBodyStyle];
+	
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+.ComboBox-SelectedPopupItem
+{
+	[Skin.SelectedPopupItem];
+}
+
+.ComboBox-PopupItem
+{		
+	white-space:nowrap;
+}
+
+.ComboBox-PopupItem_Enter
+{
+	[Skin.PopupItemEnterStyle];
+}
+
+.ComboBox-PopupItem_Selected
+{
+	[Skin.PopupItemSelectedStyle];
+}
+
+.ComboBox-PopupItem_Down
+{
+	[Skin.PopupItemDownStyle];
+}
+
+.ComboBox-PopupWindow
+{
+	position:absolute;
+}
+
+.ComboBox-PopupWindow .ComboBox-TopLeft
+{
+	[Skin.LeftTopPopupWindowStyle];
+}
+
+.ComboBox-PopupWindow .ComboBox-Left
+{
+	[Skin.LeftPopupWindowStyle];
+}
+
+.ComboBox-PopupWindow .ComboBox-BottomLeft
+{
+	[Skin.LeftBottomPopupWindowStyle]; 
+}
+
+.ComboBox-PopupWindow .ComboBox-Center
+{
+	[Skin.CenterPopupWindowStyle];
+}
+
+.ComboBox-PopupWindow .ComboBox-TopRight
+{
+	[Skin.RightTopPopupWindowStyle]; 
+}
+
+.ComboBox-PopupWindow .ComboBox-Right
+{
+	[Skin.RightPopupWindowStyle]; 
+}
+
+.ComboBox-PopupWindow .ComboBox-BottomRight
+{
+	[Skin.RightBottomPopupWindowStyle];  
+}
+
+.ComboBox-PopupWindow .ComboBox-Top
+{
+	[Skin.TopPopupWindowStyle];
+}
+
+.ComboBox-PopupWindow .ComboBox-Bottom
+{
+	[Skin.BottomPopupWindowStyle];
+}

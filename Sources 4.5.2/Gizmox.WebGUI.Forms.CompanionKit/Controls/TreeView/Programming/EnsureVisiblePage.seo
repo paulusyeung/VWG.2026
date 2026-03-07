@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Ensure visibility of a node</Title>
+  <Properties />
+  <DisplayName>Ensure visible</DisplayName>
+  <Description>The example demonstrates how to jump to invisible tree node in the Visual WebGui TreeView.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="EnsureVisiblePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="EnsureVisiblePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="EnsureVisiblePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="EnsureVisiblePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="EnsureVisiblePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TreeView</Keyword>
+    <Keyword>Navigation</Keyword>
+    <Keyword>Jump</Keyword>
+    <Keyword>Node</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TreeView.Programming.EnsureVisiblePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

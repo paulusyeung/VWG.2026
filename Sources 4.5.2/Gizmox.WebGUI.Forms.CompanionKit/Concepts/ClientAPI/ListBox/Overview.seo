@@ -1,0 +1,33 @@
+<Item SiteMap="True" Order="99" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgListBox</Keyword>
+    <Keyword>ListBox</Keyword>
+    <Keyword>dataSource</Keyword>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>tagName</Keyword>
+    <Keyword>vwgCheckBox</Keyword>
+    <Keyword>checked</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="Click on the &quot;Fill&quot; button to fill a &lt;span style=&quot;color:#00ccff&quot;&gt;ListBox&lt;/span&gt; with the &lt;span style=&quot;color:#00ccff&quot;&gt;tagNames&lt;/span&gt; of the checked &lt;span style=&quot;color:#00ccff&quot;&gt;CheckBoxes&lt;/span&gt;. Click on the &quot;Clear&quot; button to remove all items from the ListBox." Title="Example scenario:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+    <Element Body="vwgListBox: dataSource; vwgControl: tagName; vwgCheckBox: checked" Title="Used ClientAPI functions:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

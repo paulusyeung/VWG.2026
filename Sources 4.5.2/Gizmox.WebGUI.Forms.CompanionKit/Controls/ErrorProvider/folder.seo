@@ -1,0 +1,19 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ErrorProvider</Title>
+  <Properties />
+  <DisplayName>ErrorProvider</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Error</Keyword>
+    <Keyword>Validation</Keyword>
+    <Keyword>Errors</Keyword>
+    <Keyword>Alert</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.ErrorProvider.Overview</DefaultPage>
+</Item>

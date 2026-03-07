@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634152552976486444" UpdatedBy="admin" UpdatedOn="634273298867082797">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The ScheduleBox shows a few Events in Month view mode.<br />Some events cross period of a day.<br />For example the event 'Unplanned free time...' starts on 23 Nov and continues to 25 Nov. <br />This kind of events shown on 23/24/25/26 of November 2010.<br /><strong>Double click</strong> the event to change the Start/End time to see how it presented in the control.<br />Pay attention how the control displays the events when 'First Day of week' changed.</p>]]></Paragraph>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>ScheduleBox defines ContextMenu property. <br />The example defines a ContextMenu to add new events. <br />Right click the control and press 'New' menu item.<br />Fill data fields manually or press 'Fill a test data' to fill automatically and press OK.<br />The new event will be shown.<br /><br /><em>ScheduleBoxEvent</em> class also defines&nbsp;ContextMenu property to assign individual context menu for each event object.</p><p>Right click an event to see assigned context menu.<br />The <strong>Open</strong> menu item shows editing form to change event details.<br />The <strong>New </strong>menu item shows editing form to enter event details.<br />The <strong>Delete</strong> menu item asks for deletion confirmation.<br />The <strong>Re-Create </strong>menu item implements adding of a new event by copying details of clicked one.<br /><br type="_moz" />&nbsp;</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>ScheduleBox </em>has <em>ContexMenu </em>property - a context menu that is shown when user does right click on the control.<br /><br /> The ScheduleBox<em> Event&nbsp; </em>has <em>ContexMenu</em> property - a context menu that is shown when user does right click on the event object.</p>]]></Paragraph>
+  </Nodes>
+</Data>

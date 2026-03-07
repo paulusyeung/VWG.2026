@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634106664898261088" UpdatedBy="admin" UpdatedOn="634305161232783090">
+  <Properties />
+  <Nodes>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains the Visual WebGui <em>RibbonBar </em>control with two pages and two groups on each page:</p><ul><li><strong>View&nbsp;</strong>page<br />- <strong>Bookmarks </strong>group, HasAdvanced:false<br />- <strong>Advanced </strong>group, HasAdvanced:true</li><li>&nbsp;<strong>Edit&nbsp;</strong>page<br />- <strong>Find and Replace</strong> group, HasAdvanced:true<br />- <strong>IntelliSense </strong>group</li></ul><p>The &quot;Advanced&quot; and &quot;Find and Replace&quot; groups defined with <strong>HasAdvanced</strong> property set to true.<br />Pay attention to small, clickable anchor that's shown in the group box right bottom corner.<br />Click the &quot;advanced&quot; group anchors to see the event handler in action.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[RibbonBarGroup]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The RibbonBarGroup (Group) is additional container to organize tool items.<br />To add a group to the Visual WebGui RibbonBar control, follow these steps:</p><ol><li>Drag the RibbonBar control on the Form.</li><li>Select <strong>Pages</strong> property in the Properties Window.</li><li>Click on the '<strong>&hellip;</strong>' button to open RibbonBarPage Collection Editor.</li><li>Select Page object or add a new page object</li><li>Select <strong>Groups</strong>&nbsp;property in the Properties section.</li><li>Click on the '<strong>&hellip;</strong>' Button to open RibbonBarGroup Collection Editor.</li><li>Click on <strong>Add</strong> Button to add the group object.</li><li>Select the added Group to edit the properties.</li></ol>]]></Paragraph>
+    <Header Code="HeaderElement3" Type="Title" ShowInTOC="1"><![CDATA[AdvancedClicked event]]></Header>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>AdvancedClicked event raised when any advanced group anchor clicked.<br />The event handler should be defined for RibbonBar control and handles all groups.<br />RibbonBarGroupArgs object provides information to know what group anchor was clicked.<br />See AdvancedClicked function in the example code.</p>]]></Paragraph>
+    <Header Code="HeaderElement4" Type="Title" ShowInTOC="1"><![CDATA[SelectedIndexChanged event]]></Header>
+    <Paragraph Code="ParagraphElement4"><![CDATA[<p>The event raised when an active page of RibbonBar changed.<br />This event useful to implement application logic on page activation.<br />See SelectedIndexChanged function in the example code.</p>]]></Paragraph>
+  </Nodes>
+</Data>

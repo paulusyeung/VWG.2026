@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="99" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>transform</Keyword>
+    <Keyword>visual</Keyword>
+    <Keyword>effect</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="The &lt;span style=&quot;color:#00ccff&quot;&gt;Transform visual effect&lt;/span&gt; modifies the appearance of a control in the browser by rotation, skewing, translation, or other means" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+    <Element Body="Select type of &lt;span style=&quot;color:#00ccff&quot;&gt;Transform&lt;/span&gt; visual effect by clicking appropriate toggle button." Title="Example scenario:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

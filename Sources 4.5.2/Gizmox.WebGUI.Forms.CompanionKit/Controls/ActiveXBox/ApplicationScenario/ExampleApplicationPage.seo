@@ -1,0 +1,29 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="405">
+  <Title>How to create an application for browsing WMV clips</Title>
+  <Properties />
+  <DisplayName>Example Application</DisplayName>
+  <Description>The example demonstrates how to create an application for browsing WMV clips with ActiveXBox control.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ExampleApplicationPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExampleApplicationPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExampleApplicationPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExampleApplicationPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExampleApplicationPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\IEONLY.gif" Order="103" Lang="All" Title="IEONLY.gif" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\video\Example.wpl" Order="104" Lang="All" Title="Example.wpl" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\video\video0.wmv" Order="105" Lang="All" Title="video0.wmv" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\video\video1.wmv" Order="106" Lang="All" Title="video1.wmv" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\video\video2.wmv" Order="107" Lang="All" Title="video2.wmv" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\video\video3.wmv" Order="108" Lang="All" Title="video3.wmv" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>ActiveXBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ActiveXBox.ApplicationScenario.ExampleApplicationPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

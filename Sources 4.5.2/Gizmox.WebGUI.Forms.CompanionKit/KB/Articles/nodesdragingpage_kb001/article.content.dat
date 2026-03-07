@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128200125587667" UpdatedBy="admin" UpdatedOn="634128201198563284">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The sample app contains <em>TreeView </em>with defined drag target and two ListBoxes with allowed drop and with unallowed drop.  <br />The 'ListBox with allowed drop' ListBox is defined as drag target for TreeView.</p><p>Select a node in the <em>TreeView </em>and press the mouse button on it and move the mouse cursor to the 'ListBox with allowed drop' ListBox. Release the mouse button, when the mouse cursor is on this ListBox. Selected node is added to this ListBox.<br />If you drop the selected node onto the 'ListBox with unallowed drop' ListBox, the node isn't added to this ListBox.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>TreeView </em>contains <em>DragTargets </em>property that defines the valid drag and drop targets when drag starts from this control. The Visual WebGui ListBox contains AllowDrop and DragDrop event for using drag and drop method for it. The AllowDrop property indicates whether this control accepts dropping dragged content to it. The DragDrop event occurs when a drag-and-drop operation is completed.</p>]]></Paragraph>
+  </Nodes>
+</Data>

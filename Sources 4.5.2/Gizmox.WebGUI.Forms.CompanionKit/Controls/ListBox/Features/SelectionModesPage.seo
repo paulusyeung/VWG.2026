@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>ListBox selection modes</Title>
+  <Properties />
+  <DisplayName>Selection modes</DisplayName>
+  <Description>The example demonstrates how to use different selection modes for the Visual WebGui ListBox.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="SelectionModesPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectionModesPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectionModesPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectionModesPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectionModesPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListBox</Keyword>
+    <Keyword>Selection</Keyword>
+    <Keyword>SelectionMode</Keyword>
+    <Keyword>Mode</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListBox.Features.SelectionModesPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

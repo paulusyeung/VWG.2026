@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634151685653383741" UpdatedBy="admin" UpdatedOn="634273300728609555" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates view mode, hours format and other appearance related properties of the Visual WebGui ScheduleBox.</Description>
+  </Properties>
+  <Nodes />
+</Data>

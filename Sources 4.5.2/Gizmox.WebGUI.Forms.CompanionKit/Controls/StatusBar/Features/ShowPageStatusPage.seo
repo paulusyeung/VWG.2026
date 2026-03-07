@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to show the page status</Title>
+  <Properties />
+  <DisplayName>Show page status</DisplayName>
+  <Description>The example demonstrates updating status of load process. The Timer is update text of StatusBar and value of ProgressBar via 500 millisecond.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ShowPageStatusPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ShowPageStatusPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ShowPageStatusPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ShowPageStatusPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ShowPageStatusPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>StatusBar</Keyword>
+    <Keyword>Status</Keyword>
+    <Keyword>Load</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.StatusBar.Features.ShowPageStatusPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

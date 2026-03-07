@@ -1,0 +1,36 @@
+<Item SiteMap="False" Order="101" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Example demonstrates how to:
+support sorting through column headers for the DataGridView;
+allow reordering of columns through Drag and Drop for the DataGridView;
+use different the column types in the DataGridView;
+use different data copying mode in the DataGridView;
+export data from the DataGridView to the Excel sheet;
+use frozen a row or a column in the DataGridView;
+support New line in the DataGridView control;
+support resizing of rows and columns through drag and drop in the DataGridView control;
+apply different cell selection modes for the DataGridView;
+handle CellValidating event for the DataGridView.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>Sort</Keyword>
+    <Keyword>Order</Keyword>
+    <Keyword>Resize</Keyword>
+    <Keyword>Column</Keyword>
+    <Keyword>Row</Keyword>
+    <Keyword>Type</Keyword>
+    <Keyword>Export</Keyword>
+    <Keyword>Excel</Keyword>
+    <Keyword>Frozen</Keyword>
+    <Keyword>New</Keyword>
+    <Keyword>CellValidating</Keyword>
+    <Keyword>SelectionMode</Keyword>
+    <Keyword>Selection</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.DataGridView.Features.BasicSortingPage</DefaultPage>
+</Item>

@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634104817730453703" UpdatedBy="admin" UpdatedOn="634140460994651370">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[Implementation]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The Visual WebGui <em>ObjectBox </em>control is parent class for different Visual WebGui controls<br />To implement owner <em>FlashBox </em>control based on the Visual WebGui <em>ObjectBox </em>conrol, follow these steps:</p><ol><li>Create owner class that is inherited from the Visual WebGui <em>ObjectBox </em>class and implement properties that change value of the protected properties such as <em>ObjectClassId</em>, <em>ObjectCodeBase </em>and <em>ObjectType </em>of the <em>ObjectBox </em>class.</li></ol><p><strong>C#:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement1" Language="csharp"><![CDATA[/// <summary>
+/// This class is used display flash animation.
+/// </summary>
+class CustomObjectBox : Gizmox.WebGUI.Forms.Hosts.ObjectBox
+{
+    public CustomObjectBox()
+        : base()
+    {
+        this.ObjectClassId = "clsid:D27CDB6E-AE6D-11cf-96B8-444553540000";
+        this.ObjectCodeBase = "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0";
+        this.ObjectPluginsPageType = "http://www.macromedia.com/go/getflashplayer";
+        this.ObjectType = "application/x-shockwave-flash";
+    }
+
+    /// <summary>
+    /// Gets or sets Class Id for object box
+    /// </summary>
+    public string ClassId
+    {
+        get
+        {
+            return base.ObjectClassId;
+        }
+
+        set
+        {
+            base.ObjectClassId = value;
+        }
+    }
+
+    /// <summary>
+    /// Gets or sets CodeBase for object box
+    /// </summary>
+    public string CodeBase
+    {
+        get
+        {
+            return base.ObjectCodeBase;
+        }
+
+        set
+        {
+            base.ObjectCodeBase = value;
+        }
+    }
+
+    /// <summary>
+    /// Gets or sets Type for object box
+    /// </summary>
+    public string Type
+    {
+        get
+        {
+            return base.ObjectType;
+        }
+
+        set
+        {
+            base.ObjectType = value;
+        }
+    }
+
+    /// <summary>
+    /// Gets or sets Flash movie
+    /// </summary>
+    public string Movie
+    {
+        get
+        {
+            if (this.Parameters.Contains("src"))
+            {
+                return this.Parameters["src"].ToString();
+            }
+            else
+            {
+                return string.Empty;
+            }
+        }
+        set
+        {
+            this.Parameters["src"] = value;
+        }
+    }
+}]]></Code>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>Visual Basic:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement2" Language="vbnet"><![CDATA[''' <summary>
+''' This class is used display flash animation.
+''' </summary>
+Private Class CustomObjectBox
+    Inherits Gizmox.WebGUI.Forms.Hosts.ObjectBox
+    
+    Public Sub New()
+        MyBase.ObjectClassId = "clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+        MyBase.ObjectCodeBase = "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+        MyBase.ObjectPluginsPageType = "http://www.macromedia.com/go/getflashplayer"
+        MyBase.ObjectType = "application/x-shockwave-flash"
+    End Sub
+    ''' <summary>
+    ''' Gets or sets Class Id for object box
+    ''' </summary>
+    Public Property ClassId() As String
+        Get
+            Return MyBase.ObjectClassId
+        End Get
+        Set(ByVal value As String)
+            MyBase.ObjectClassId = value
+        End Set
+    End Property
+
+    ''' <summary>
+    ''' Gets or sets Code Base for object box
+    ''' </summary>
+    Public Property CodeBase() As String
+        Get
+            Return MyBase.ObjectCodeBase
+        End Get
+        Set(ByVal value As String)
+            MyBase.ObjectCodeBase = value
+        End Set
+    End Property
+
+    ''' <summary>
+    ''' Gets or sets Type for object box
+    ''' </summary>
+    Public Property Type() As String
+        Get
+            Return MyBase.ObjectType
+        End Get
+        Set(ByVal value As String)
+            MyBase.ObjectType = value
+        End Set
+    End Property
+
+    ''' <summary>
+    ''' Gets or sets Flash movie
+    ''' </summary>
+    Public Property Movie() As String
+        Get
+            If MyBase.Parameters.Contains("src") Then
+                Return MyBase.Parameters.Item("src").ToString
+            End If
+            Return String.Empty
+        End Get
+        Set(ByVal value As String)
+            MyBase.Parameters.Item("src") = value
+        End Set
+   End Property
+End Class]]></Code>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<ol start="2"><li>Register <em>Load </em>event for form that created control of the created class, and set necessary properties and add it to form.</li></ol><p><strong>C#</strong>:</p>]]></Paragraph>
+    <Code Code="CodeElement3" Language="csharp"><![CDATA[/// <summary>
+/// Handles Load event of the example' UserControl
+/// </summary>
+private void ProvideParametersPage_Load(object sender, EventArgs e)
+{
+    CustomObjectBox demoObjectBox = new CustomObjectBox();
+
+    demoObjectBox.Anchor = Gizmox.WebGUI.Forms.AnchorStyles.None;
+    demoObjectBox.Dock = Gizmox.WebGUI.Forms.DockStyle.Fill;
+    demoObjectBox.Location = new System.Drawing.Point(0, 0);
+    demoObjectBox.Name = "demoActiveXBox";
+    demoObjectBox.Movie = "../../../../../../Resources/Flash/FC_2_3_Area2D.swf";
+    demoObjectBox.Parameters.Add("FlashVars", "&dataURL=../../../../../../Resources/Flash/FC_2_3_DATA.xml");
+    demoObjectBox.Parameters.Add("quality", "high");
+    demoObjectBox.Size = new System.Drawing.Size(391, 450);
+    demoObjectBox.TabIndex = 0;
+            
+    this.Controls.Add(demoObjectBox);
+}]]></Code>
+    <Paragraph Code="ParagraphElement4"><![CDATA[<p><strong>Visual Basic:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement4" Language="vbnet"><![CDATA[''' <summary>
+''' Handles Load event of the example' UserControl
+''' </summary>
+Private Sub ProvideParametersPage_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+   Dim demoObjectBox As New CustomObjectBox
+   demoObjectBox.Anchor = AnchorStyles.None
+   demoObjectBox.Dock = DockStyle.Fill
+   demoObjectBox.Location = New Drawing.Point(0, 0)
+   demoObjectBox.Name = "demoActiveXBox"
+   demoObjectBox.Movie = "../../../../../../Resources/Flash/FC_2_3_Area2D.swf"
+   demoObjectBox.Parameters.Add("FlashVars", "&dataURL=../../../../../../Resources/Flash/FC_2_3_DATA.xml")
+   demoObjectBox.Parameters.Add("quality", "high")
+   demoObjectBox.Size = New Drawing.Size(&H187, 450)
+   demoObjectBox.TabIndex = 0
+   MyBase.Controls.Add(demoObjectBox)
+End Sub]]></Code>
+  </Nodes>
+</Data>

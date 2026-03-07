@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Page">
+  <Title>Single row tabs ordering</Title>
+  <Properties />
+  <DisplayName>Single row tabs ordering</DisplayName>
+  <Description>The example demonstrates how to display TabControl tabs in one row.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ScrollingPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ScrollingPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ScrollingPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ScrollingPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ScrollingPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TabControl</Keyword>
+    <Keyword>Tab</Keyword>
+    <Keyword>Scrolling</Keyword>
+    <Keyword>MultiLine</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TabControl.Functionality.ScrollingPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

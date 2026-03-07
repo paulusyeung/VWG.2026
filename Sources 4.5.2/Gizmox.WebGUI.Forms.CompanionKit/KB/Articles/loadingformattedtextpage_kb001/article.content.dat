@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634105716792663018" UpdatedBy="admin" UpdatedOn="634105730279018770">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement5"><![CDATA[<p>The example contains the Visual WebGui <em>RichTextBox </em>control. Pay attention the <em>RichTextBox </em>control edits text with HTML tags.</p>]]></Paragraph>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The Visual WebGui <em>RichTextBox </em>control contains formatted text in the <em>Html </em>property contains. When user changes the text in the control, the control raises <em>HtmlChange </em>event.<br /><br />To load formatted text in the Visual WebGui <em>RichTextBox </em>control you can use the following code:<br /><strong>C#:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement1" Language="csharp"><![CDATA[StreamReader strReader = new StreamReader(Context.Server.MapPath("~/Resources/UserData/about.html"));
+this.demoRichTextBox.Html = strReader.ReadToEnd();
+strReader.Close();]]></Code>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p><strong>Visual Basic:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement3" Language="vbnet"><![CDATA[Dim strReader As StreamReader = New StreamReader(Context.Server.MapPath("~/Resources/UserData/about.html"))
+demoRichTextBox.Html = strReader.ReadToEnd()
+strReader.Close()]]></Code>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>or set the HTML text to HTML property directly:<br /><strong>C#:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement2" Language="csharp"><![CDATA[demoRichTextBox.Html = "<HTML><em>Visual WebGui</em> is a platform for rapid development, simple deployment and easy migration of desktop applications & abilities to the web, enabling secure and responsive desktop-like RIAs (<em>Rich Internet Applications</em>).</HTML>";]]></Code>
+    <Paragraph Code="ParagraphElement4"><![CDATA[<p><strong>Visual Basic:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement4" Language="vbnet"><![CDATA[demoRichTextBox.Html = "<HTML><em>Visual WebGui</em> is a platform for rapid development, simple deployment and easy migration of desktop applications & abilities to the web, enabling secure and responsive desktop-like RIAs (<em>Rich Internet Applications</em>).</HTML>"]]></Code>
+  </Nodes>
+</Data>

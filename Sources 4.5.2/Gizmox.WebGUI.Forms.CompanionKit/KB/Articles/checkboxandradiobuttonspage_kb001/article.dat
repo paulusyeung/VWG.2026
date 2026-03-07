@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634127345409457553" UpdatedBy="admin" UpdatedOn="634134208677400829" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to use CheckBox and RadioButton for the Visual WebGui ListBox item. </Description>
+  </Properties>
+  <Nodes />
+</Data>

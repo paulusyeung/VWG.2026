@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634136098312134984" UpdatedBy="admin" UpdatedOn="634136099677924975">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Pass the mouse pointer over the splitter, the cursor changes to indicate that the controls inside the <em>SplitContainer</em> control can be resized. Press on mouse button and move splitter, the splitter will be able moved while panel' size will be more than <em>Panel1MinSize </em>or <em>Panel2MinSize </em>respectively. </p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>SplitContainer </em>contains to manipulate size of its panel the following properties:<br /><em>SplitterDistance </em>- gets or sets the location of the splitter, in pixels, from the left or top edge of the SplitContainer.<br /><em>SplitterIncrement </em>- gets or sets a value representing the increment of splitter movement in pixels. The default for SplitterIncrement is one pixel.<br /><em>Panel1MinSize </em>and <em>Panel2MinSize </em>- defines how close the splitter bar can be moved to the outside edge of a SplitContainer panel. The default minimum size of a panel is 25 pixels.<br /><em>IsSplitterFixed </em>- determines if the splitter is movable by means of the keyboard or mouse.</p>]]></Paragraph>
+  </Nodes>
+</Data>

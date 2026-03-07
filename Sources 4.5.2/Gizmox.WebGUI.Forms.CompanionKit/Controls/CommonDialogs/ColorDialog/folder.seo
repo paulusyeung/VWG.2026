@@ -1,0 +1,14 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ColorDialog</Title>
+  <Properties />
+  <DisplayName>ColorDialog</DisplayName>
+  <Description>Contains sample applications to demonstrate how to use ColorDialog box.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ColorDialog</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.CommonDialogs.ColorDialog.Functionality.AllowFullOpenPage</DefaultPage>
+  <Body />
+</Item>

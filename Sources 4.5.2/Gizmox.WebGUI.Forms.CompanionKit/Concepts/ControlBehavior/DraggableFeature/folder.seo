@@ -1,0 +1,18 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Draggable</Title>
+  <Properties />
+  <DisplayName>Draggable</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Behavior</Keyword>
+    <Keyword>Draggable</Keyword>
+    <Keyword>Features</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ControlBehavior.DraggableFeature.Overview</DefaultPage>
+</Item>

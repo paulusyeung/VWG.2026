@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to embed DAEJA Java applet for browsing and annotation of TIFF images</Title>
+  <Properties />
+  <DisplayName>Example Application</DisplayName>
+  <Description>Contains the example that demonstrates how to embed DAEJA Java applet for browsing and annotation of TIFF images.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ExampleApplicationPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExampleApplicationPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExampleApplicationPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExampleApplicationPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExampleApplicationPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>AppletBox</Keyword>
+    <Keyword>Applet</Keyword>
+    <Keyword>Box</Keyword>
+  </Keywords>
+  <Comment>Received a permission from DAEJA to reference the jar file from the official site.
+DAEJA, Java - trademarks are the property of their respective owners.</Comment>
+  <PageType>CompanionKit.Controls.AppletBox.ApplicationScenario.ExampleApplicationPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

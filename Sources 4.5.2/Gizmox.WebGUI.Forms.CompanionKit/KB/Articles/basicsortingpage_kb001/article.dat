@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135219752167437" UpdatedBy="admin" UpdatedOn="634135222272199693" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to support sorting through column headers for the Visual WebGui DataGridView. </Description>
+  </Properties>
+  <Nodes />
+</Data>

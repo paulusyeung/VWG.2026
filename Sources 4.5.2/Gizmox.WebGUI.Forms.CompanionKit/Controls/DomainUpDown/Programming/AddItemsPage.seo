@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to add items to Visual WebGui DomainUpDown Control Programmatically</Title>
+  <Properties />
+  <DisplayName>Add Items</DisplayName>
+  <Description>The example demonstrates how to add items into a Visual WebGui DomainUpDown control</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="AddItemsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddItemsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddItemsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddItemsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddItemsPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DomainUpDown</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>Items</Keyword>
+    <Keyword>Insert</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DomainUpDown.Programming.AddItemsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

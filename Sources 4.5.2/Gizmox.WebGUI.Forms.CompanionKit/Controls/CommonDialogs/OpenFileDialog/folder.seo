@@ -1,0 +1,14 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>OpenFileDialog</Title>
+  <Properties />
+  <DisplayName>OpenFileDialog</DisplayName>
+  <Description>Contains sample applications that demonstrate how to use OpenFileDialog.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>OpenFileDialog</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.CommonDialogs.OpenFileDialog.ApplicationScenarios.DisplayPicturePage</DefaultPage>
+  <Body />
+</Item>

@@ -1,0 +1,48 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>GroupBox</Title>
+  <Properties />
+  <DisplayName>GroupBox</DisplayName>
+  <Description>Contains examples that demonstrate how to use the GroupBox control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>GroupBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Feature">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/GroupBox.Lobby.png'/&gt;
+&lt;div&gt;The &lt;span style="color:#00ccff"&gt;GroupBox&lt;/span&gt; control is functionally equivialent to the Windows Forms GroupBox control.&lt;/div&gt;&lt;div style='clear:both'&gt;&lt;/div&gt;
+&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The GroupBox is one of the Out of the Box standard controls, which means it is free and available in all Visual WebGui versions.
+
+&lt;span style="color:#00ccff"&gt;The examples below demonstrate how to:&lt;/span&gt;
+- Use background solid or transparent colors
+- Support the ContextMenu in the GroupBox control
+- Use GroupBox Enabled property. Which causes all controls contained within the group box to be enabled or disabled
+- Use GroupBox special behavior. All contained radio buttons will be treated as a group and checking one of them will uncheck the rest. Such way only one radio button checked in the group
+- Handle Click event for the GroupBox control.
+&lt;br/&gt;</PreText>
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to use background solid or transparent colors.&lt;/div&gt;" Title="Background color" Section="Section-01" Link="item:CompanionKit.Controls.GroupBox.Features.BackgroundPage">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to use the ContextMenu for the GroupBox control.&lt;/div&gt;" Title="Context Menu" Section="Section-01" Link="item:CompanionKit.Controls.GroupBox.Features.ContextMenuPage">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how GroupBox Enabled property is implemented. Which causes all controls contained within the group box to be enabled or disabled.&lt;/div&gt;" Title="Enabled property" Section="Section-01" Link="item:CompanionKit.Controls.GroupBox.Features.GroupBoxEnabled">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates GroupBox special behavior. All contained radio buttons will be treated as a group and checking one of them will uncheck the rest. Such way only one radio button checked in the group.&lt;/div&gt;" Title="Radio buttons grouping" Section="Section-01" Link="item:CompanionKit.Controls.GroupBox.Features.RadioButtonsPage">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to handle Click event for the GroupBox control.&lt;/div&gt;" Title="Mouse clicked" Section="Section-01" Link="item:CompanionKit.Controls.GroupBox.Programming.MouseClickedPage">
+      <Style linktype="InnerItem" concss="border: 1px solid transparent;" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

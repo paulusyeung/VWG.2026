@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634081739322326940" UpdatedBy="admin" UpdatedOn="634082247569575392" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to get names of the uploaded files from the Visual WebGui OpenFileDialog dialog box.</Description>
+  </Properties>
+  <Nodes />
+</Data>

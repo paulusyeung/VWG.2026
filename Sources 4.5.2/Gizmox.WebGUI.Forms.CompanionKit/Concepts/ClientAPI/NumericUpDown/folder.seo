@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>NumericUpDown</Title>
+  <Properties />
+  <DisplayName>NumericUpDown</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>NumericUpDown</Keyword>
+    <Keyword>ListBox</Keyword>
+    <Keyword>value</Keyword>
+    <Keyword>selectedIndex</Keyword>
+    <Keyword>vwgListBox</Keyword>
+    <Keyword>vwgNumericUpDown</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.NumericUpDown.Overview</DefaultPage>
+</Item>

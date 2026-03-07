@@ -1,0 +1,69 @@
+.NumericUpDown-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.NumericUpDown-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.NumericUpDown-Input
+{
+	[Skin.Foreground];
+	[Skin.Font];
+}
+
+.NumericUpDown-Input_Disabled
+{
+    [Skin.ControlTextFontDisabled];
+	[Skin.ControlTextForegroundDisabled];
+    [Skin.ControlTextBackgroundDisabled];
+}
+
+.NumericUpDown-UpCell
+{
+	[Skin.UpNormalStyle];
+}
+
+.NumericUpDown-UpCell_Enter
+{
+	[Skin.UpOverStyle];
+}
+
+.NumericUpDown-UpCell_Down
+{
+	[Skin.UpDownStyle];
+}
+
+.NumericUpDown-DownCell
+{
+	[Skin.DownNormalStyle];
+}
+
+.NumericUpDown-DownCell_Enter
+{
+	[Skin.DownOverStyle];
+}
+
+.NumericUpDown-DownCell_Down
+{
+	[Skin.DownDownStyle];
+}
+
+.NumericUpDown-ButtonsContainer
+{
+	[Skin.ButtonsContainerNormalStyle];	
+}
+
+.NumericUpDown-ButtonsContainer_Enter
+{
+	[Skin.ButtonsContainerHoverStyle];	
+}
+
+.NumericUpDown-ButtonsContainer_Down
+{
+	[Skin.ButtonsContainerPressedStyle];	
+}

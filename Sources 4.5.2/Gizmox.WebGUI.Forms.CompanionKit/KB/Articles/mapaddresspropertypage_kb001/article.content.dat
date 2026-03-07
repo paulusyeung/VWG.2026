@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634418577035696449" UpdatedBy="admin" UpdatedOn="634419199430227218">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>There are <strong><em>GoogleMap</em></strong>, <em>TextBox </em>and <em>Button </em>controls on the Form.<br />Enter address text into the <em>TextBox </em>and press the <em>'Set Addess' </em>button<em> </em>to locate it.<br />The location will be searched by the descriptive text entered&nbsp;and shown on the map.</p><p>You can also specify the name of a place. Try <em>'White house</em>' or <em>'dupont circle'</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>GoogleMap.MapAddress</strong> property&nbsp;sets the location for map by descriptive text.<br />Property type: System.String</p>]]></Paragraph>
+  </Nodes>
+</Data>

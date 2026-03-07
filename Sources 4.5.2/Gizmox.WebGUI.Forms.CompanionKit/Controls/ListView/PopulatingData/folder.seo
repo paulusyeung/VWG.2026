@@ -1,0 +1,20 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Populating Data</Title>
+  <Properties />
+  <DisplayName>Populating Data</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use Database and Collection objects as DataSource for ListView</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ListView</Keyword>
+    <Keyword>Bind</Keyword>
+    <Keyword>Binding</Keyword>
+    <Keyword>DataSource</Keyword>
+    <Keyword>DataBinding</Keyword>
+    <Keyword>Populating</Keyword>
+    <Keyword>Collection</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.ListView.PopulatingData.BindingDataCollectionPage</DefaultPage>
+  <Body />
+</Item>

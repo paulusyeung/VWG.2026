@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634441981943430390" UpdatedBy="admin" UpdatedOn="634460021581890824">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Use <em>TextBox </em>control to&nbsp;set header text for <strong>HeadredPanel </strong>control.<br />Press the <em>Button </em>to set header text entered.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>HeaderedPanel.Text</strong> property gets or sets the text to display within the header of the <strong>HeaderedPanel </strong>control.<br />Property type: System.<strong>String</strong></p>]]></Paragraph>
+  </Nodes>
+</Data>

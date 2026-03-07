@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="100">
+  <Title>Description Property</Title>
+  <Properties />
+  <DisplayName>Description Property</DisplayName>
+  <Description>Contains the example that demonstrates how to use Description property to get or set the descriptive text displayed above the tree view control in the dialog box.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="DescriptionPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DescriptionPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DescriptionPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DescriptionPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DescriptionPropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>FolderBrowserDialog</Keyword>
+    <Keyword>Dialog</Keyword>
+    <Keyword>Folder</Keyword>
+    <Keyword>Description</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.FolderBrowserDialog.Features.DescriptionPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

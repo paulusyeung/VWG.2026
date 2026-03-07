@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to populate a combobox from a DataBase</Title>
+  <Properties />
+  <DisplayName>Database DataSource</DisplayName>
+  <Description>Demonstrates how to populate a ComboBox from a DataBase. The ComboBox has DataSource as table 'Customer' of DataBase that contains 'CustomerID' 'ContactName' and other columns.  'CustomerID' property is set such ValueMember and 'ContactName' property is set such DisplayMember for the ComboBox. If you will change selected item of the ComboBox you will see to change Text of 'Selected value' and 'Selected Name' TextBoxes.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="DatabaseDataSourcePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DatabaseDataSourcePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DatabaseDataSourcePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DatabaseDataSourcePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DatabaseDataSourcePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ComboBox</Keyword>
+    <Keyword>DataSource</Keyword>
+    <Keyword>Populate</Keyword>
+    <Keyword>Populating</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ComboBox.PopulatingData.DatabaseDataSourcePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>MonthCalendar</Title>
+  <Properties />
+  <DisplayName>MonthCalendar</DisplayName>
+  <Description>Contains examples that demonstrate how to use a Visual WebGui MonthCalendar.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>MonthCalendar</Keyword>
+    <Keyword>Month</Keyword>
+    <Keyword>Calendar</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.MonthCalendar.ApplicationScenarios.OpenDatePageWikipediaPage</DefaultPage>
+  <Body />
+</Item>

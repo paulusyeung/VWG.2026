@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634166125303374988" UpdatedBy="admin" UpdatedOn="634261962285092440">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the button to open a form with MainMenu.<br />Open 'File' or 'Edit' menu to see menu item with icons.<br />Pay attention to hierarchically ordered menu items also containing icons.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>MenuItem </em>contains <strong><em>Icon</em></strong><em> </em>property that defines icon for the menu item.</p>]]></Paragraph>
+  </Nodes>
+</Data>

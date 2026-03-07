@@ -1,0 +1,20 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Appearance</Title>
+  <Properties />
+  <DisplayName>Appearance</DisplayName>
+  <Description>Contains sample apps that demonstrates how to use ColorMember, ImageMember and DropDownStyle property of ComboBox and how values of the property influence on appearance of ComboBox</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ComboBox</Keyword>
+    <Keyword>ColorMember</Keyword>
+    <Keyword>ImageMember</Keyword>
+    <Keyword>DropDownStyle</Keyword>
+    <Keyword>Color</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>Style</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.ComboBox.Appearance.ComboBoxStylesPage</DefaultPage>
+  <Body />
+</Item>

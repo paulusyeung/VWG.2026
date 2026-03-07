@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634086830975465801" UpdatedBy="admin" UpdatedOn="634267348138889580">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select a date in the upper&nbsp;<em>DateTimePicker &nbsp;</em>to set&nbsp;it as maximum date for the demonstrated - lower one.</p><p>Pay attention, you can't select the date later then maximum date.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DateTimePicker </em>contains <em>MaxDate </em>property that defines the maximum date and time that can be selected in the control.<br />The <strong>default</strong>&nbsp;value of the&nbsp;<em>MaxDate</em> property is <em>12/31/9998 23:59:59</em>.</p>]]></Paragraph>
+  </Nodes>
+</Data>

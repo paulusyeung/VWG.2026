@@ -1,0 +1,20 @@
+<Item SiteMap="False" Order="110" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Chart</Keyword>
+    <Keyword>Graph</Keyword>
+    <Keyword>Theme</Keyword>
+    <Keyword>View3D</Keyword>
+    <Keyword>3D</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.Chart.Features.ThemePropertyPage</DefaultPage>
+</Item>

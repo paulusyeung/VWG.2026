@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634076327222459460" UpdatedBy="admin" UpdatedOn="634076328090283282">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the button to open form with registered Load event handler. After loading opened form, message will be shown.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>Form </em>contains <em>Load </em>event for informing about loading <em>Form</em>. This event occurs when the form is loaded.</p>]]></Paragraph>
+  </Nodes>
+</Data>

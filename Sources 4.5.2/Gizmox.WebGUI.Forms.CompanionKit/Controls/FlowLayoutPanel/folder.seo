@@ -1,0 +1,22 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>FlowLayoutPanel</Title>
+  <Properties />
+  <DisplayName>FlowLayoutPanel</DisplayName>
+  <Description>Contains sample applications to demonstrate how to use FlowLayoutPanel control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>FlowLayoutPanel</Keyword>
+    <Keyword>Flow</Keyword>
+    <Keyword>Layout</Keyword>
+    <Keyword>Panel</Keyword>
+    <Keyword>Wrap</Keyword>
+    <Keyword>Direction</Keyword>
+    <Keyword>FlowDirection</Keyword>
+    <Keyword>WrapContents</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.FlowLayoutPanel.Overview</DefaultPage>
+</Item>

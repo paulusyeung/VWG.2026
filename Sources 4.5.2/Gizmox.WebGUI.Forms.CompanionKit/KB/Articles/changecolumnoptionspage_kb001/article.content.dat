@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634075478378121056" UpdatedBy="admin" UpdatedOn="634075605569573648">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Open ContextMenu for ListView and select 'Column options&hellip;' and you will see open 'Column Options' dialog. The dialog allows to reorder columns, change width of each column, and hide/show columns for the demonstrated ListBox.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>In Visual WebGui we have a ListViewColumnOptions dialog that we can use to enable ListView columns reordering, resizing columns and selection of columns to display in the ListView. This greatly enhances the richness of the ListView functionality with just two extra lines of code. This functionality does not exist in Window Forms.</p>]]></Paragraph>
+    <Image Code="ImageElement1" Resource="ChangeColumnOptions.jpg" Type="Resource" />
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p><strong>Picture 1 - ListViewColumnOptions dialog</strong></p><p>&nbsp;</p>]]></Paragraph>
+    <Header Code="HeaderElement3" Type="Subtitle" ShowInTOC="0"><![CDATA[Sample code]]></Header>
+    <Paragraph Code="ParagraphElement4"><![CDATA[<p>Here is a sample code that allows you to change columns options for ListView:</p>]]></Paragraph>
+    <Code Code="CodeElement1" Language="csharp"><![CDATA[ListView _listView = new ListView();
+
+private void Form1_Load(object sender, EventArgs e)
+{
+    // Create the list view
+    _listView.Location = new Point(10, 10);
+    _listView.Size = new Size(400, 200);
+
+    // Create the list view columns
+    _listView.Columns.Add(new ColumnHeader("name", "Name", 150, ListViewColumnType.Text));
+    _listView.Columns.Add(new ColumnHeader("email", "Email", 150, ListViewColumnType.Text));
+
+    //Fill up ListView
+    for (int i = 1; i < 31;   i)
+    {
+       this._listView.Items.Add(new ListViewItem(new string[] { string.Format("User{0}", i), string.Format("user{0}@gmail.com", i) }));
+     }
+
+     // Create a button and handler for click event to change column options of ListView
+     Button btnChangeColumnOptions = new Button();
+     btnChangeColumnOptions.Location = new Point(10, 220);
+     btnChangeColumnOptions.Text = "Column options...";
+     btnChangeColumnOptions.Click  = new EventHandler(btnChangeColumnOptions_Click);
+
+     this.Controls.Add(_listView);
+     this.Controls.Add(btnChangeColumnOptions);
+}
+
+void btnChangeColumnOptions_Click(object sender, EventArgs e)
+{
+    //Opens dialog to change column options for ListView
+    ListViewColumnOptions objListViewColumnOptions = new ListViewColumnOptions(this._listView);
+    objListViewColumnOptions.ShowDialog();
+}]]></Code>
+  </Nodes>
+</Data>

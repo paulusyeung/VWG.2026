@@ -1,0 +1,135 @@
+.Upload-Body
+{
+	overflow:hidden;
+	[Skin.Background];
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.Upload-Layout
+{
+	table-layout:fixed;
+	width:100%;
+	height:100%;
+}
+
+.Upload-Link
+{
+	position:relative;
+	color:blue;
+	text-decoration:underline;
+	cursor:pointer;	
+}
+
+.Upload-ListFrame
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    [Skin.UploadListFrameStyle];
+}
+
+.Upload-List
+{
+	table-layout:auto;
+	width:100%;
+}
+
+.Upload-List TR
+{
+	height:18px;
+	cursor:pointer;
+}
+
+.Upload-List TD
+{
+	[Skin.Font];
+	padding:0px 3px 0px 3px;
+}
+
+.Upload-Label
+{
+    [Skin.Font];
+    [Skin.ForeColor];
+    [Skin.UploadLabelStyle];
+}
+
+.Upload-List TR.Selected TD
+{
+	color:white;
+	background:highlight;
+}
+
+.Upload-ProgressBarControl
+{
+	background-image: url([Skin.Path]ProgressBarBG.gif.wgx);
+	background-position:top;
+	background-repeat:repeat-x;
+	position:relative;
+	overflow:hidden;
+	height:23px;
+}
+.Upload-ProgressBarBar
+{
+	background-image: url([Skin.Path]ProgressBar.gif.wgx);
+	background-position:left top;
+	background-repeat:repeat-x;
+	height: 100%;
+}
+.Common-FontData
+{
+	[Skin.Font];
+    [Skin.ForeColor];
+}
+
+.UploadPanel
+{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+    [Skin.Background];
+}
+
+.Upload-ButtonNormal
+{
+	background:url([Skin.Path]Button75X92BG.gif.wgx);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	
+}
+
+.Upload-ButtonOver
+{
+	background:url([Skin.Path]Button75X92BG.gif.wgx);
+	background-repeat:no-repeat;
+	background-position:0px -23px;
+}
+
+.Upload-ButtonDown
+{
+	background:url([Skin.Path]Button75X92BG.gif.wgx);
+	background-repeat:no-repeat;
+	background-position:0px -46px;
+
+}
+
+.Upload-Button
+{
+    width: 75px;
+    height: 23px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: text-top;
+    [Skin.Font];
+    [Skin.ForeColor];
+    [Skin.UploadButtonStyle];
+}

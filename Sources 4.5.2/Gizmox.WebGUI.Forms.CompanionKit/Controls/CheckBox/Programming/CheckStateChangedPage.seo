@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Page">
+  <Title>Handling CheckStateChanged event</Title>
+  <Properties />
+  <DisplayName>CheckState Changed</DisplayName>
+  <Description>Demonstrate how to handle CheckStateChanged event.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CheckStateChangedPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckStateChangedPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckStateChangedPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckStateChangedPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckStateChangedPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>CheckBox</Keyword>
+    <Keyword>CheckState</Keyword>
+    <Keyword>CheckStateChanged</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CheckBox.Programming.CheckStateChangedPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

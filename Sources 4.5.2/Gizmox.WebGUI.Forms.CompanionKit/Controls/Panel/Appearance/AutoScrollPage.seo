@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to set scrollbars to the panel</Title>
+  <Properties />
+  <DisplayName>AutoScroll</DisplayName>
+  <Description>Demonstrate how to add scrolling to panel for viewing any controls placed outside of its visible boundaries. The application contains the Panel with enabled AutoScroll property and 'Add Button to Panel' button that adds button to the Panel. When you click on the button you will see that a button will be to the Panel and when added button is place outside of the panel, scroll is appeared on panel.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="AutoScrollPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutoScrollPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutoScrollPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutoScrollPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AutoScrollPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Panel</Keyword>
+    <Keyword>AutoScroll</Keyword>
+    <Keyword>Auto</Keyword>
+    <Keyword>Scroll</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>Content</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.Panel.Appearance.AutoScrollPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

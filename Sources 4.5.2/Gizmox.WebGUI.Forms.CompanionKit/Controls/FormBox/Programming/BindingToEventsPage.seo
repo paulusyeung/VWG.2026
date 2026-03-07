@@ -1,0 +1,43 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="295">
+  <Title>Binding to events</Title>
+  <Properties />
+  <DisplayName>Binding to events</DisplayName>
+  <Description>The example demonstrates how to use both ASP.NET events and Visual WebGui events side by side. And how to link between them.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="BindingToEventsPage.cs" Order="101" Lang="CSharp" Title="Page.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingToEventsPage.designer.cs" Order="101" Lang="CSharp" Title="Page.designer.cs" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingToEventsPage.vb" Order="101" Lang="VBNET" Title="Page.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingToEventsPage.designer.vb" Order="101" Lang="VBNET" Title="Page.designer.vb" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingToEventsPage.resx" Order="101" Lang="All" Title="Page.resx" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="VwgAdapterSkin.VwgAdapter.js" Order="100" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="VwgAdapterSkin.resx" Order="100" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="VwgAdapterSkin.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="VwgAdapter.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="BindingToEventsWebForm.aspx.designer.cs" Order="99" Lang="CSharp" Title="WebForm.aspx.designer.cs" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="BindingToEventsWebForm.aspx.cs" Order="99" Lang="CSharp" Title="WebForm.aspx.cs" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="BindingToEventsWebForm.aspx" Order="99" Lang="CSharp" Title="WebForm.aspx" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="BindingToEventsForm.resx" Order="102" Lang="All" Title="Form.resx" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="BindingToEventsForm.Designer.cs" Order="102" Lang="CSharp" Title="Form.Designer.cs" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="BindingToEventsForm.cs" Order="102" Lang="CSharp" Title="Form.cs" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="VwgAdapterSkin.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="VwgAdapter.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="BindingToEventsWebFormVB.aspx.vb" Order="99" Lang="VBNET" Title="WebFormVB.aspx.vb" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="BindingToEventsWebFormVB.aspx.designer.vb" Order="99" Lang="VBNET" Title="WebFormVB.aspx.designer.vb" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="BindingToEventsWebFormVB.aspx" Order="99" Lang="VBNET" Title="WebFormVB.aspx" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="BindingToEventsForm.vb" Order="102" Lang="VBNET" Title="Form.vb" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="BindingToEventsForm.Designer.vb" Order="102" Lang="VBNET" Title="Form.Designer.vb" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>FormBox</Keyword>
+    <Keyword>event</Keyword>
+    <Keyword>bind</Keyword>
+    <Keyword>ASP</Keyword>
+    <Keyword>custom</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.FormBox.Programming.BindingToEventsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

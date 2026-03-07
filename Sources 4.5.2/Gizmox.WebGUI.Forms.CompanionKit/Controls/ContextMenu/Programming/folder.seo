@@ -1,0 +1,17 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains examples that demonstrate how to handle Popup and Collapse events of the ContextMenu control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ContextMenu</Keyword>
+    <Keyword>Popup</Keyword>
+    <Keyword>Pop-up</Keyword>
+    <Keyword>Collapse</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.ContextMenu.Programming.CollapsePage</DefaultPage>
+  <Body />
+</Item>

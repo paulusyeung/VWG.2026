@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Gizmox.WebGUI.Converters</AssemblyName>
+    <RootNamespace>Gizmox.WebGUI.Converters</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gizmox.WebGUI.Common\Gizmox.WebGUI.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Itenso RTF libraries for format conversion -->
+    <PackageReference Include="Itenso.Rtf" Version="1.4.0" />
+    <PackageReference Include="Itenso.Rtf.Converter.Html" Version="1.4.0" />
+    <PackageReference Include="Itenso.Rtf.Converter.Image" Version="1.4.0" />
+  </ItemGroup>
+
+</Project>

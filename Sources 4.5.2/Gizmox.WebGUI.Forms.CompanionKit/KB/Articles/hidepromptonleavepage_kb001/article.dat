@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634172199544440265" UpdatedBy="admin" UpdatedOn="634256969236012117" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to hide prompt characters in the MaskedTextBox when the control loses focus.</Description>
+  </Properties>
+  <Nodes />
+</Data>

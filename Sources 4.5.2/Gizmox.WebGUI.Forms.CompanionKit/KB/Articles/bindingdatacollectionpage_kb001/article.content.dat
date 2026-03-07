@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634130867096566533" UpdatedBy="admin" UpdatedOn="634130868173135923">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The demonstrated ListView contains DataSource as List of Customer objects that contains 'ID', 'FirstName', 'LastName', 'FullName' 'FavoriteColor' and other public properties.  Relation between object property and column is set by 'Tag' property of ColumnHeader object.  The 'ID' ListView column assigned to 'ID' public property of the object. The 'First Name' ListView column assigned to 'FirstName' public property of the object and so on. </p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ListView </em>contains the following properties for working with data:<br /><strong>DataSource </strong>&ndash; defines the data source that the connector binds to;<br /><strong>DataMember </strong>- specifies the name of the list of data that the data-bound control binds to when the data source contains more than one distinct list of data items.<br /><strong>AutoGenerateColumns </strong>&ndash;indicates whether auto column generation is active when using data binding. If the property is set to true the <em>ListView </em>will automatically generate columns for each public property of a binded object while loading. <br />The <em>ListView </em>column contains <em>Tag </em>property that defines relation between the property of a binded object and the column.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

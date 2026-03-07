@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634092066790147220" UpdatedBy="admin" UpdatedOn="634092067502031332">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains 'Demonstrated ProgressBar(Minimum - 0)' and  'Demonstrated ProgressBar(Minimum - 75)'  <em>ProgressBars</em>. <em>ProgressBar </em>values are limited with the <em>Minimum </em>property 0 and 75 respectively.  Increment of the both <em>ProgressBars </em>is equals. Pay attention on changing displayed value.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ProgressBar </em>contains the <em>Minimum </em>property that represents lower bound for the control. If value is set less than value of the Minimum property, the control throws an <em>ArgumentException </em>exception.</p>]]></Paragraph>
+  </Nodes>
+</Data>

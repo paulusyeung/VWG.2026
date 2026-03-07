@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WGLabelsAbort" xml:space="preserve">
+    <value>中断</value>
+  </data>
+  <data name="WGLabelsAdd" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="WGLabelsApply" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="WGLabelsApril" xml:space="preserve">
+    <value>四月</value>
+  </data>
+  <data name="WGLabelsAprilShort" xml:space="preserve">
+    <value>四</value>
+  </data>
+  <data name="WGLabelsAscending" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="WGLabelsAugust" xml:space="preserve">
+    <value>八月</value>
+  </data>
+  <data name="WGLabelsAugustShort" xml:space="preserve">
+    <value>八</value>
+  </data>
+  <data name="WGLabelsBack" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="WGLabelsCancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="WGLabelsClear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="WGLabelsClose" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="WGLabelsColumns" xml:space="preserve">
+    <value>列集合</value>
+  </data>
+  <data name="WGLabelsDatePicker" xml:space="preserve">
+    <value>日期选择器</value>
+  </data>
+  <data name="WGLabelsDecember" xml:space="preserve">
+    <value>十二月</value>
+  </data>
+  <data name="WGLabelsDecemberShort" xml:space="preserve">
+    <value>十二</value>
+  </data>
+  <data name="WGLabelsDecsending" xml:space="preserve">
+    <value>倒序</value>
+  </data>
+  <data name="WGLabelsFebruary" xml:space="preserve">
+    <value>二月</value>
+  </data>
+  <data name="WGLabelsFebruaryShort" xml:space="preserve">
+    <value>二</value>
+  </data>
+  <data name="WGLabelsFinish" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="WGLabelsFriday" xml:space="preserve">
+    <value>星期五</value>
+  </data>
+  <data name="WGLabelsFridayShort" xml:space="preserve">
+    <value>五</value>
+  </data>
+  <data name="WGLabelsGrouping" xml:space="preserve">
+    <value>分组</value>
+  </data>
+  <data name="WGLabelsHelp" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="WGLabelsHide" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="WGLabelsIgnore" xml:space="preserve">
+    <value>忽略</value>
+  </data>
+  <data name="WGLabelsJanuary" xml:space="preserve">
+    <value>一月</value>
+  </data>
+  <data name="WGLabelsJanuaryShort" xml:space="preserve">
+    <value>一</value>
+  </data>
+  <data name="WGLabelsJuly" xml:space="preserve">
+    <value>七月</value>
+  </data>
+  <data name="WGLabelsJulyShort" xml:space="preserve">
+    <value>七</value>
+  </data>
+  <data name="WGLabelsJune" xml:space="preserve">
+    <value>六月</value>
+  </data>
+  <data name="WGLabelsJuneShort" xml:space="preserve">
+    <value>六</value>
+  </data>
+  <data name="WGLabelsLeft" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="WGLabelsLoading" xml:space="preserve">
+    <value>正在加载</value>
+  </data>
+  <data name="WGLabelsMarch" xml:space="preserve">
+    <value>三月</value>
+  </data>
+  <data name="WGLabelsMarchShort" xml:space="preserve">
+    <value>三</value>
+  </data>
+  <data name="WGLabelsMay" xml:space="preserve">
+    <value>五月</value>
+  </data>
+  <data name="WGLabelsMayShort" xml:space="preserve">
+    <value>五</value>
+  </data>
+  <data name="WGLabelsMonday" xml:space="preserve">
+    <value>星期一</value>
+  </data>
+  <data name="WGLabelsMondayShort" xml:space="preserve">
+    <value>一</value>
+  </data>
+  <data name="WGLabelsMoveDown" xml:space="preserve">
+    <value>下移</value>
+  </data>
+  <data name="WGLabelsMoveUp" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="WGLabelsNext" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="WGLabelsNo" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="WGLabelsNovember" xml:space="preserve">
+    <value>十一月</value>
+  </data>
+  <data name="WGLabelsNovemberShort" xml:space="preserve">
+    <value>十一</value>
+  </data>
+  <data name="WGLabelsOctober" xml:space="preserve">
+    <value>十月</value>
+  </data>
+  <data name="WGLabelsOctoberShort" xml:space="preserve">
+    <value>十</value>
+  </data>
+  <data name="WGLabelsOk" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="WGLabelsOpen" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="WGLabelsPrevious" xml:space="preserve">
+    <value>上一个</value>
+  </data>
+  <data name="WGLabelsRemove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="WGLabelsRetry" xml:space="preserve">
+    <value>重试</value>
+  </data>
+  <data name="WGLabelsRight" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="WGLabelsSaturday" xml:space="preserve">
+    <value>星期六</value>
+  </data>
+  <data name="WGLabelsSaturdayShort" xml:space="preserve">
+    <value>六</value>
+  </data>
+  <data name="WGLabelsSearch" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="WGLabelsSelectFilesToUpload" xml:space="preserve">
+    <value>选择要上传的文件</value>
+  </data>
+  <data name="WGLabelsSeptember" xml:space="preserve">
+    <value>九月</value>
+  </data>
+  <data name="WGLabelsSeptemberShort" xml:space="preserve">
+    <value>九</value>
+  </data>
+  <data name="WGLabelsShow" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="WGLabelsSorting" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="WGLabelsSunday" xml:space="preserve">
+    <value>星期日</value>
+  </data>
+  <data name="WGLabelsSundayShort" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="WGLabelsThursday" xml:space="preserve">
+    <value>星期四</value>
+  </data>
+  <data name="WGLabelsThursdayShort" xml:space="preserve">
+    <value>四</value>
+  </data>
+  <data name="WGLabelsToday" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="WGLabelsTuesday" xml:space="preserve">
+    <value>星期二</value>
+  </data>
+  <data name="WGLabelsTuesdayShort" xml:space="preserve">
+    <value>二</value>
+  </data>
+  <data name="WGLabelsWednesday" xml:space="preserve">
+    <value>星期三</value>
+  </data>
+  <data name="WGLabelsWednesdayShort" xml:space="preserve">
+    <value>三</value>
+  </data>
+  <data name="WGLabelsYes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="WGLablesCancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="WGLablesColumnOptions" xml:space="preserve">
+    <value>列选项</value>
+  </data>
+  <data name="WGLablesColumnsInstructions" xml:space="preserve">
+    <value>选择你要设置为可见的列，使用上移和下移.</value>
+  </data>
+  <data name="WGLablesColumnsStringA" xml:space="preserve">
+    <value>选择的列将被</value>
+  </data>
+  <data name="WGLablesColumnsStringB" xml:space="preserve">
+    <value>横向像素</value>
+  </data>
+  <data name="WGLablesGroupingInstructions" xml:space="preserve">
+    <value>选择你想要分组的列,使用上移和下移按钮重新分组.</value>
+  </data>
+  <data name="WGLablesGroupingOptions" xml:space="preserve">
+    <value>分组选项</value>
+  </data>
+  <data name="WGLablesHide" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="WGLablesMoveDown" xml:space="preserve">
+    <value>下移</value>
+  </data>
+  <data name="WGLablesMoveUp" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="WGLablesShow" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="WGLablesSortingInstructions" xml:space="preserve">
+    <value>选择你要排序的列.</value>
+  </data>
+  <data name="WGLablesSortingOptions" xml:space="preserve">
+    <value>排序选项</value>
+  </data>
+  <data name="WGLablesEmailRequiered" xml:space="preserve">
+    <value>E-mail address is required.</value>
+  </data>
+  <data name="WGLablesFloatRequiered" xml:space="preserve">
+    <value>Float value is required.</value>
+  </data>
+  <data name="WGLablesIntegerRequiered" xml:space="preserve">
+    <value>Integer value is required.</value>
+  </data>
+  <data name="WGLablesFloatRangeRequiered" xml:space="preserve">
+    <value>Float between {0} and {1} is required.</value>
+  </data>
+  <data name="WGLablesIntegerRangeRequiered" xml:space="preserve">
+    <value>Integer between {0} and {1} is required.</value>
+  </data>  
+</root>

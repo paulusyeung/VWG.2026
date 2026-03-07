@@ -1,0 +1,31 @@
+<Item SiteMap="True" Order="99" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>height</Keyword>
+    <Keyword>width</Keyword>
+    <Keyword>vwgTextBox</Keyword>
+    <Keyword>TextBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="Use the &quot;a-w-s-d&quot; keys to increase and decrease the &lt;span style=&quot;color:#00ccff&quot;&gt;width&lt;/span&gt; and &lt;span style=&quot;color:#00ccff&quot;&gt;height&lt;/span&gt; of a textBox." Title="Example secnario:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+    <Element Body="vwgControl: width, height;" Title="Used ClientAPI functions:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

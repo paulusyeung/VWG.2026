@@ -1,0 +1,2731 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Program Files (x86)\Gizmox\Visual WebGUI\SDK 4.5.2\Assemblies\Gizmox.WebGUI.Forms.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA946B86-489B-4993-BBB1-7F3C22B6D882}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Gizmox.WebGUI.Forms</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <ApplicationVersion>4.5.25701.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Gizmox.WebGUI</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gizmox.WebGUI.Common" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Virtualization\Management\ApplicationDOMNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\VirtualStorageNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\PhysicalStorageNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\SessionNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\VirtualRegistryNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\ServerExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\ServerExplorerTree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\ServerExplorerNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\ComponentDoubleClickEventArgs.cs" />
+    <Compile Include="Virtualization\Management\XmlDocumentNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\XmlNodeNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\AdministrationFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MessageType.cs" />
+    <Compile Include="Forms\WizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WizardStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\AdministrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdministrationLogonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdministrationLogonControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DockedContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DockedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DockedHiddenZonesPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DockedHiddenZonesPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\HiddenZoneItemProperties.cs" />
+    <Compile Include="Forms\DockedObjectDescriptor.cs" />
+    <Compile Include="Forms\IDescriptable.cs" />
+    <Compile Include="Forms\IPreventExtraction.cs" />
+    <Compile Include="Forms\DockedFormDescriptor.cs" />
+    <Compile Include="Forms\DockedHiddenZonePanelDescriptor.cs" />
+    <Compile Include="Forms\DockedSplitContainerDescriptor.cs" />
+    <Compile Include="Forms\DockedTabControlDescriptor.cs" />
+    <Compile Include="Forms\DockedWindowDescriptor.cs" />
+    <Compile Include="Forms\DockedWindowPlaceHolderDescriptor.cs" />
+    <Compile Include="Forms\DockedManagerDescriptor.cs" />
+    <Compile Include="Forms\ZoneDescriptor.cs" />
+    <Compile Include="Forms\ZoneType.cs" />
+    <Compile Include="Forms\DockedSplitContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DockedTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DockedTabControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DockedTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DockingManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DockedWindowsCollection.cs" />
+    <Compile Include="Forms\TabbedWindowSelectedEventHandler.cs" />
+    <Compile Include="Forms\TabbedWindowSelectedEventArgs.cs" />
+    <Compile Include="Forms\TabbedWindowClosedEventHandler.cs" />
+    <Compile Include="Forms\DockingWindowLoadedEventHandler.cs" />
+    <Compile Include="Forms\TabbedWindowClosedEventArgs.cs" />
+    <Compile Include="Forms\DockingWindowLoadedEventArgs.cs" />
+    <Compile Include="Forms\DockingWindowEventArgs.cs" />
+    <Compile Include="Forms\WindowsStateChangedEventHandler.cs" />
+    <Compile Include="Forms\WindowsStateChangedEventArgs.cs" />
+    <Compile Include="Forms\DockedManagerHelper.cs" />
+    <Compile Include="Forms\DockingManagerSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DockingWindowName.cs" />
+    <Compile Include="Forms\DockingWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DockState.cs" />
+    <Compile Include="Forms\HiddenZonePopupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Relation.cs" />
+    <Compile Include="Forms\Zone.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ZoneCloseButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ZoneCloseButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ZoneDropDownButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ZoneDropDownButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ZoneHeaderLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ZoneHeaderLabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ZoneHeaderPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ZoneHeaderPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ZonePinCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ZonePinCheckBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ZoneSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\EditValueEditingEventArgs.cs" />
+    <Compile Include="Forms\EmptyExpandableObjectConverter.cs" />
+    <Compile Include="Forms\LoadAssemblyHelper.cs" />
+    <Compile Include="Forms\OpenFileDialogProgressPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MasterPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\MasterPageContent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\OrientationTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\OrientationTabControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\IProxyNavigationControl.cs" />
+    <Compile Include="Forms\ProxyAction.cs" />
+    <Compile Include="Forms\ProxyActivateFormCommand.cs" />
+    <Compile Include="Forms\ProxyCloseActiveFormCommand.cs" />
+    <Compile Include="Forms\GettingPropertyValueEventHandler.cs" />
+    <Compile Include="Forms\SourceComponentFireEventHandler.cs" />
+    <Compile Include="Forms\ProxyComponentChangingEventHandler.cs" />
+    <Compile Include="Forms\FilterPropertiesEventHandler.cs" />
+    <Compile Include="Forms\ProxyComponent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\UiPropertyValueChangedEventHandler.cs" />
+    <Compile Include="Forms\ProxyControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ProxyEvent.cs" />
+    <Compile Include="Forms\ProxyFireEventArgs.cs" />
+    <Compile Include="Forms\ProxyPropertyValueEventArgs.cs" />
+    <Compile Include="Forms\ProxyFilterPropertiesEventArgs.cs" />
+    <Compile Include="Forms\ProxyFlowLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ProxyForm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ProxyListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ProxyMainMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ProxyMasterPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\NavigationCommandTarget.cs" />
+    <Compile Include="Forms\ProxyNavigationCommand.cs" />
+    <Compile Include="Forms\ProxyNavigationCommandPrevious.cs" />
+    <Compile Include="Forms\ProxyNavigationCommandNext.cs" />
+    <Compile Include="Forms\ProxyNavigationCommandFirst.cs" />
+    <Compile Include="Forms\ProxyNavigationCommandLast.cs" />
+    <Compile Include="Forms\ProxyNavigationCommandTo.cs" />
+    <Compile Include="Forms\ProxyOrientationTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\PropertyValueChanging.cs" />
+    <Compile Include="Forms\ProxyPropertyBag.cs" />
+    <Compile Include="Forms\ProxySet.cs" />
+    <Compile Include="Forms\ProxySets.cs" />
+    <Compile Include="Forms\ProxyStatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ProxyTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ProxyTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ProxyTabPageCollection.cs" />
+    <Compile Include="Forms\ProxyTableLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ProxyToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ProxyToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ProxyToolStripControlHost.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ProxyTreeNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ProxyTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\WebThemeEditor.cs" />
+    <Compile Include="Forms\DefaultAdministrationLogonControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\MainContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\RelatedImageListAttribute.cs" />
+    <Compile Include="Forms\SRCategoryAttribute.cs" />
+    <Compile Include="Forms\SRDescriptionAttribute.cs" />
+    <Compile Include="Forms\JQueryUIOptions.cs" />
+    <Compile Include="Forms\SnapMode.cs" />
+    <Compile Include="Forms\RevertMode.cs" />
+    <Compile Include="Forms\SnapTo.cs" />
+    <Compile Include="Forms\DraggableOptions.cs" />
+    <Compile Include="Forms\ContainmentMode.cs" />
+    <Compile Include="Forms\ResizableOptions.cs" />
+    <Compile Include="Forms\DraggableOptionsTypeConverter.cs" />
+    <Compile Include="Forms\ResizableOptionsTypeConverter.cs" />
+    <Compile Include="Forms\JQueryUIOptionsComponentTypeConverter.cs" />
+    <Compile Include="Forms\BorderlessButtonVisualTemplate.cs" />
+    <Compile Include="Forms\BorderlessTextBoxVisualTemplate.cs" />
+    <Compile Include="Forms\BorderlessTextBoxVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\CheckBoxSwitchVisualTemplateSwitchSizing.cs" />
+    <Compile Include="Forms\CheckBoxSwitchVisualTemplate.cs" />
+    <Compile Include="Forms\CheckBoxSwitchVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGridViewMobileVisualTemplate.cs" />
+    <Compile Include="Forms\HeaderLabelVisualTemplate.cs" />
+    <Compile Include="Forms\ListViewVisualTemplateGroupingStyleEnum.cs" />
+    <Compile Include="Forms\ListViewVisualTemplateRowTemplateEnum.cs" />
+    <Compile Include="Forms\ListViewVisualTemplate.cs" />
+    <Compile Include="Forms\NativeComboBoxVisualTemplate.cs" />
+    <Compile Include="Forms\NativeDateTimePickerVisualTemplateFormat.cs" />
+    <Compile Include="Forms\NativeDateTimePickerVisualTemplate.cs" />
+    <Compile Include="Forms\NativeTrackBarVisualTemplate.cs" />
+    <Compile Include="Forms\TabControlLogicalVisualTemplate.cs" />
+    <Compile Include="Forms\TabControlSpreadVisualTemplate.cs" />
+    <Compile Include="Forms\TitleLabelVisualTemplate.cs" />
+    <Compile Include="Forms\TreeViewVisualTemplate.cs" />
+    <Compile Include="Forms\VisualTemplate.cs" />
+    <Compile Include="Forms\VisualTemplatesTypeConverter.cs" />
+    <Compile Include="Forms\BaseCollection.cs" />
+    <Compile Include="Forms\BindingNavigator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\BindingState.cs" />
+    <Compile Include="Forms\BindingCompleteContext.cs" />
+    <Compile Include="Forms\BindingCompleteState.cs" />
+    <Compile Include="Forms\Binding.cs" />
+    <Compile Include="Forms\BindingContext.cs" />
+    <Compile Include="Forms\BindingManagerBase.cs" />
+    <Compile Include="Forms\BindingMemberInfo.cs" />
+    <Compile Include="Forms\BindingsCollection.cs" />
+    <Compile Include="Forms\BindToObject.cs" />
+    <Compile Include="Forms\Formatter.cs" />
+    <Compile Include="Forms\ListBindingConverter.cs" />
+    <Compile Include="Forms\ListBindingHelper.cs" />
+    <Compile Include="Forms\PropertyManager.cs" />
+    <Compile Include="Forms\RelatedCurrencyManager.cs" />
+    <Compile Include="Forms\RelatedPropertyManager.cs" />
+    <Compile Include="Forms\ListManagerBindingsCollection.cs" />
+    <Compile Include="Forms\ControlBindingsCollection.cs" />
+    <Compile Include="Forms\CurrencyManager.cs" />
+    <Compile Include="Forms\IBindableComponent.cs" />
+    <Compile Include="Forms\ICurrencyManagerProvider.cs" />
+    <Compile Include="Forms\BindingManagerDataErrorEventHandler.cs" />
+    <Compile Include="Forms\BindingManagerDataErrorEventArgs.cs" />
+    <Compile Include="Forms\BindingCompleteEventHandler.cs" />
+    <Compile Include="Forms\BindingCompleteEventArgs.cs" />
+    <Compile Include="Forms\ItemChangedEventHandler.cs" />
+    <Compile Include="Forms\ItemChangedEventArgs.cs" />
+    <Compile Include="Forms\ConvertEventArgs.cs" />
+    <Compile Include="Forms\ConvertEventHandler.cs" />
+    <Compile Include="Forms\BindingSource.cs" />
+    <Compile Include="Forms\BorderColor.cs" />
+    <Compile Include="Forms\BorderColorConverter.cs" />
+    <Compile Include="Forms\ButtonStyle.cs" />
+    <Compile Include="Forms\ButtonState.cs" />
+    <Compile Include="Forms\Button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ButtonRenderer.cs" />
+    <Compile Include="Forms\ButtonBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\FlatButtonAppearance.cs" />
+    <Compile Include="Forms\FlatButtonAppearanceConverter.cs" />
+    <Compile Include="Forms\ButtonBaseRenderer.cs" />
+    <Compile Include="Forms\CheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\CheckBoxRenderer.cs" />
+    <Compile Include="Forms\ItemCheckHandler.cs" />
+    <Compile Include="Forms\CheckedListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ItemCheckEventArgs.cs" />
+    <Compile Include="Forms\Clipboard.cs" />
+    <Compile Include="Forms\ColorComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ColorDialog.cs" />
+    <Compile Include="Forms\ColorListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ColumnChooserButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ColumnChooserButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ColumnChooserDialog.cs" />
+    <Compile Include="Forms\ColumnCheckedStatus.cs" />
+    <Compile Include="Forms\ColumnHeaderStyle.cs" />
+    <Compile Include="Forms\SortOrder.cs" />
+    <Compile Include="Forms\ColumnHeaderAutoResizeStyle.cs" />
+    <Compile Include="Forms\ColumnHeader.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ColumnHeaderSortingData.cs" />
+    <Compile Include="Forms\ColumnHeaderGroupingData.cs" />
+    <Compile Include="Forms\ColumnHeaderConverter.cs" />
+    <Compile Include="Forms\ComboBoxStyle.cs" />
+    <Compile Include="Forms\AutoCompleteMode.cs" />
+    <Compile Include="Forms\AutoCompleteSource.cs" />
+    <Compile Include="Forms\ComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ComboBoxRenderer.cs" />
+    <Compile Include="Forms\Component.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DragTargetsTypeConverter.cs" />
+    <Compile Include="Forms\AutoScaleMode.cs" />
+    <Compile Include="Forms\ContainerControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\MethodInvoker.cs" />
+    <Compile Include="Forms\ControlEventHandler.cs" />
+    <Compile Include="Forms\ControlsEventHandler.cs" />
+    <Compile Include="Forms\ControlsEventArgs.cs" />
+    <Compile Include="Forms\ControlEventArgs.cs" />
+    <Compile Include="Forms\Control.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ControlRenderingContext.cs" />
+    <Compile Include="Forms\ControlRenderer.cs" />
+    <Compile Include="Forms\DragDropEffects.cs" />
+    <Compile Include="Forms\SwipeDirection.cs" />
+    <Compile Include="Forms\DragDropEventArgs.cs" />
+    <Compile Include="Forms\DragEventHandler.cs" />
+    <Compile Include="Forms\DragEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewActiveTextBoxCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGridViewFilterComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGridViewFilterComboBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGridViewGroupingHeader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGridViewGroupingTreeViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGridViewHeaderFilterComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGridViewHeaderFilterComboBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ExtendedColumnHeaders.cs" />
+    <Compile Include="Forms\ExtendedHeaderCellType.cs" />
+    <Compile Include="Forms\ExtendedHeaderUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\HeightMode.cs" />
+    <Compile Include="Forms\ExtendedHeaderRowData.cs" />
+    <Compile Include="Forms\ExtendedHeaderRowDataTypeConverter.cs" />
+    <Compile Include="Forms\ExtendedHeaderUserControlTypeConverter.cs" />
+    <Compile Include="Forms\GeographicLocationChangedEventHandler.cs" />
+    <Compile Include="Forms\GeoLocation.cs" />
+    <Compile Include="Forms\GeographicLocationChangedEventArgs.cs" />
+    <Compile Include="Forms\GeoLocationData.cs" />
+    <Compile Include="Forms\GeoLocationDataTypeConverter.cs" />
+    <Compile Include="Forms\GroupingAreaStyleProperties.cs" />
+    <Compile Include="Forms\WatermarkTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ListControlWinFormsCompatibility.cs" />
+    <Compile Include="Forms\ControlWinFormsCompatibility.cs" />
+    <Compile Include="Forms\ListViewWinFormsCompatibility.cs" />
+    <Compile Include="Forms\TextBoxBaseWinFormsCompatibility.cs" />
+    <Compile Include="Forms\TextBoxWinFormsCompatibility.cs" />
+    <Compile Include="Forms\ToolBarWinFormsCompatibility.cs" />
+    <Compile Include="Forms\TreeViewWinFormsCompatibility.cs" />
+    <Compile Include="Forms\WinFormsCompatibility.cs" />
+    <Compile Include="Forms\WinFormsCompatibilityEventArgs.cs" />
+    <Compile Include="Forms\PrintDialog.cs" />
+    <Compile Include="Forms\RowExpandingEventHandler.cs" />
+    <Compile Include="Forms\RowCollapsingEventHandler.cs" />
+    <Compile Include="Forms\RowCollapsingEventArgs.cs" />
+    <Compile Include="Forms\RowExpandingEventArgs.cs" />
+    <Compile Include="Forms\RowExpandedEventHandler.cs" />
+    <Compile Include="Forms\RowCollapsedEventHandler.cs" />
+    <Compile Include="Forms\RowCollapsedEventArgs.cs" />
+    <Compile Include="Forms\RowExpandedEventArgs.cs" />
+    <Compile Include="Forms\HierarchicDataGridViewCreatedEventHandler.cs" />
+    <Compile Include="Forms\HierarchicDataGridViewCreatedEventArgs.cs" />
+    <Compile Include="Forms\HierarchicDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\HierarchicInfo.cs" />
+    <Compile Include="Forms\FilterRelation.cs" />
+    <Compile Include="Forms\PrintDocument.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\PropertyGridToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\SaveFileDialog.cs" />
+    <Compile Include="Forms\ScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\SelectionRange.cs" />
+    <Compile Include="Forms\SelectionRangeConverter.cs" />
+    <Compile Include="Forms\ToolStripContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\FrameControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\LayoutEventArgs.cs" />
+    <Compile Include="Forms\BorderWidth.cs" />
+    <Compile Include="Forms\BorderWidthConverter.cs" />
+    <Compile Include="Forms\CornerRadius.cs" />
+    <Compile Include="Forms\CornerRadiusConverter.cs" />
+    <Compile Include="Forms\Cursor.cs" />
+    <Compile Include="Forms\Cursors.cs" />
+    <Compile Include="Forms\CursorConverter.cs" />
+    <Compile Include="Forms\DataObject.cs" />
+    <Compile Include="Forms\CommonDialog.cs" />
+    <Compile Include="Forms\DomainUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolTipIcon.cs" />
+    <Compile Include="Forms\ScrollerType.cs" />
+    <Compile Include="Forms\TextImageRelation.cs" />
+    <Compile Include="Forms\DataFormats.cs" />
+    <Compile Include="Forms\ControlUpdateMode.cs" />
+    <Compile Include="Forms\ControlStyles.cs" />
+    <Compile Include="Forms\Day.cs" />
+    <Compile Include="Forms\AutoSizeMode.cs" />
+    <Compile Include="Forms\ScrollBars.cs" />
+    <Compile Include="Forms\RightToLeft.cs" />
+    <Compile Include="Forms\HorizontalAlignment.cs" />
+    <Compile Include="Forms\ExtendedHorizontalAlignment.cs" />
+    <Compile Include="Forms\SelectionMode.cs" />
+    <Compile Include="Forms\BorderStyle.cs" />
+    <Compile Include="Forms\FlatStyle.cs" />
+    <Compile Include="Forms\CharacterCasing.cs" />
+    <Compile Include="Forms\TextDataFormat.cs" />
+    <Compile Include="Forms\ImageLayout.cs" />
+    <Compile Include="Forms\BackgroundImageRepeat.cs" />
+    <Compile Include="Forms\BackgroundImagePosition.cs" />
+    <Compile Include="Forms\DataSourceUpdateMode.cs" />
+    <Compile Include="Forms\TextFormatFlags.cs" />
+    <Compile Include="Forms\FormWindowState.cs" />
+    <Compile Include="Forms\FormStartPosition.cs" />
+    <Compile Include="Forms\Shortcut.cs" />
+    <Compile Include="Forms\ValidationConstraints.cs" />
+    <Compile Include="Forms\AutoValidate.cs" />
+    <Compile Include="Forms\Appearance.cs" />
+    <Compile Include="Forms\Border3DStyle.cs" />
+    <Compile Include="Forms\ColorDepth.cs" />
+    <Compile Include="Forms\ImeMode.cs" />
+    <Compile Include="Forms\SizeGripStyle.cs" />
+    <Compile Include="Forms\AccessibleRole.cs" />
+    <Compile Include="Forms\TabSizeMode.cs" />
+    <Compile Include="Forms\ListViewAlignment.cs" />
+    <Compile Include="Forms\ErrorBlinkStyle.cs" />
+    <Compile Include="Forms\ErrorIconAlignment.cs" />
+    <Compile Include="Forms\ErrorProvider.cs" />
+    <Compile Include="Forms\FileDialog.cs" />
+    <Compile Include="Forms\FlowDirection.cs" />
+    <Compile Include="Forms\FlowLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\FolderBrowserDialog.cs" />
+    <Compile Include="Forms\FontDialog.cs" />
+    <Compile Include="Forms\DialogAlignment.cs" />
+    <Compile Include="Forms\FormBorderStyle.cs" />
+    <Compile Include="Forms\FormStyle.cs" />
+    <Compile Include="Forms\CloseReason.cs" />
+    <Compile Include="Forms\Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCollection.cs" />
+    <Compile Include="Forms\FormClosedEventArgs.cs" />
+    <Compile Include="Forms\FormClosingEventArgs.cs" />
+    <Compile Include="Forms\OrientationChangedEventArgs.cs" />
+    <Compile Include="Forms\HelpProvider.cs" />
+    <Compile Include="Forms\HtmlBoxType.cs" />
+    <Compile Include="Forms\HtmlBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\IButtonControl.cs" />
+    <Compile Include="Forms\IContainerControl.cs" />
+    <Compile Include="Forms\ImageList.cs" />
+    <Compile Include="Forms\ImageListStreamer.cs" />
+    <Compile Include="Forms\ListControlConvertEventHandler.cs" />
+    <Compile Include="Forms\ListControlConvertEventArgs.cs" />
+    <Compile Include="Forms\ListControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\MainMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\MdiLayout.cs" />
+    <Compile Include="Forms\MdiClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\MenuMerge.cs" />
+    <Compile Include="Forms\ShortcutsContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\MenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Menu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\MenuItemCollection.cs" />
+    <Compile Include="Forms\MenuCollection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\MenuEventHandler.cs" />
+    <Compile Include="Forms\MenuItemEventArgs.cs" />
+    <Compile Include="Forms\OpenFileDialog.cs" />
+    <Compile Include="Forms\Padding.cs" />
+    <Compile Include="Forms\PaddingConverter.cs" />
+    <Compile Include="Forms\PanelType.cs" />
+    <Compile Include="Forms\Panel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ProfessionalColors.cs" />
+    <Compile Include="Forms\ProfessionalColorTable.cs" />
+    <Compile Include="Forms\Screen.cs" />
+    <Compile Include="Forms\ScrollableControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ScrollableControlRenderer.cs" />
+    <Compile Include="Forms\SecurityUtils.cs" />
+    <Compile Include="Forms\FixedPanel.cs" />
+    <Compile Include="Forms\SplitterEventHandler.cs" />
+    <Compile Include="Forms\SplitterCancelEventHandler.cs" />
+    <Compile Include="Forms\SplitContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\SplitterEventArgs.cs" />
+    <Compile Include="Forms\SplitterCancelEventArgs.cs" />
+    <Compile Include="Forms\SplitterPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\TableLayoutPanelCellBorderStyle.cs" />
+    <Compile Include="Forms\TableLayoutCellPaintEventArgs.cs" />
+    <Compile Include="Forms\TableLayoutPanelCellPosition.cs" />
+    <Compile Include="Forms\TableLayoutPanelCellPositionTypeConverter.cs" />
+    <Compile Include="Forms\Timer.cs" />
+    <Compile Include="Forms\ToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\StatusStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripDropDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripDropDownMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\CreateParams.cs" />
+    <Compile Include="Forms\ContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ScrollProperties.cs" />
+    <Compile Include="Forms\HScrollProperties.cs" />
+    <Compile Include="Forms\VScrollProperties.cs" />
+    <Compile Include="Forms\MenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripContainerSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripDropDownContentPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripDropDownSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripItemDisplayStyle.cs" />
+    <Compile Include="Forms\DragAction.cs" />
+    <Compile Include="Forms\ToolStripItemAlignment.cs" />
+    <Compile Include="Forms\ToolStripItemImageScaling.cs" />
+    <Compile Include="Forms\MergeAction.cs" />
+    <Compile Include="Forms\ToolStripItemOverflow.cs" />
+    <Compile Include="Forms\ToolStripItemPlacement.cs" />
+    <Compile Include="Forms\ToolStripTextDirection.cs" />
+    <Compile Include="Forms\ArrowDirection.cs" />
+    <Compile Include="Forms\ToolStripGripDisplayStyle.cs" />
+    <Compile Include="Forms\ToolStripGripStyle.cs" />
+    <Compile Include="Forms\ToolStripRenderMode.cs" />
+    <Compile Include="Forms\DockingBehavior.cs" />
+    <Compile Include="Forms\ToolStripLayoutStyle.cs" />
+    <Compile Include="Forms\GetChildAtPointSkip.cs" />
+    <Compile Include="Forms\ToolStripDropDownDirection.cs" />
+    <Compile Include="Forms\ToolStripDropDownCloseReason.cs" />
+    <Compile Include="Forms\UICues.cs" />
+    <Compile Include="Forms\ScrollEventType.cs" />
+    <Compile Include="Forms\ScrollOrientation.cs" />
+    <Compile Include="Forms\ProgressBarStyle.cs" />
+    <Compile Include="Forms\ToolStripStatusLabelBorderSides.cs" />
+    <Compile Include="Forms\ToolStripArrowRenderEventArgs.cs" />
+    <Compile Include="Forms\GiveFeedbackEventArgs.cs" />
+    <Compile Include="Forms\QueryContinueDragEventArgs.cs" />
+    <Compile Include="Forms\ToolStripItemRenderEventArgs.cs" />
+    <Compile Include="Forms\ToolStripGripRenderEventArgs.cs" />
+    <Compile Include="Forms\ToolStripRenderEventArgs.cs" />
+    <Compile Include="Forms\ToolStripItemImageRenderEventArgs.cs" />
+    <Compile Include="Forms\ToolStripItemTextRenderEventArgs.cs" />
+    <Compile Include="Forms\ToolStripSeparatorRenderEventArgs.cs" />
+    <Compile Include="Forms\ToolStripContentPanelRenderEventArgs.cs" />
+    <Compile Include="Forms\ToolStripPanelRenderEventArgs.cs" />
+    <Compile Include="Forms\ToolStripItemEventArgs.cs" />
+    <Compile Include="Forms\ToolStripItemClickedEventArgs.cs" />
+    <Compile Include="Forms\ToolStripDropDownClosedEventArgs.cs" />
+    <Compile Include="Forms\ToolStripDropDownClosingEventArgs.cs" />
+    <Compile Include="Forms\UICuesEventArgs.cs" />
+    <Compile Include="Forms\ScrollEventArgs.cs" />
+    <Compile Include="Forms\GiveFeedbackEventHandler.cs" />
+    <Compile Include="Forms\PaintEventHandler.cs" />
+    <Compile Include="Forms\QueryContinueDragEventHandler.cs" />
+    <Compile Include="Forms\ToolStripArrowRenderEventHandler.cs" />
+    <Compile Include="Forms\ToolStripItemRenderEventHandler.cs" />
+    <Compile Include="Forms\ToolStripGripRenderEventHandler.cs" />
+    <Compile Include="Forms\ToolStripRenderEventHandler.cs" />
+    <Compile Include="Forms\ToolStripItemImageRenderEventHandler.cs" />
+    <Compile Include="Forms\ToolStripItemTextRenderEventHandler.cs" />
+    <Compile Include="Forms\ToolStripSeparatorRenderEventHandler.cs" />
+    <Compile Include="Forms\ToolStripContentPanelRenderEventHandler.cs" />
+    <Compile Include="Forms\ToolStripPanelRenderEventHandler.cs" />
+    <Compile Include="Forms\UICuesEventHandler.cs" />
+    <Compile Include="Forms\ToolStripDropDownClosingEventHandler.cs" />
+    <Compile Include="Forms\ScrollEventHandler.cs" />
+    <Compile Include="Forms\ToolStripDropDownClosedEventHandler.cs" />
+    <Compile Include="Forms\ToolStripItemClickedEventHandler.cs" />
+    <Compile Include="Forms\ToolStripItemEventHandler.cs" />
+    <Compile Include="Forms\ToolStripItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripStatusLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripSeparator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripDropDownItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripDropDownButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripOverflowButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripSplitButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripItemCollection.cs" />
+    <Compile Include="Forms\ToolStripControlHost.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\IDropTarget.cs" />
+    <Compile Include="Forms\ToolStripMenuItemSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolTip.cs" />
+    <Compile Include="Forms\ToolTipDescriptor.cs" />
+    <Compile Include="Forms\ToolStripContentPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\AutoCompleteStringCollection.cs" />
+    <Compile Include="Forms\ToolStripPanelRow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolStripRenderer.cs" />
+    <Compile Include="Forms\UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ClientUtils.cs" />
+    <Compile Include="Forms\VirtualDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\NumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\NumericUpDownAccelerationCollection.cs" />
+    <Compile Include="Forms\NumericUpDownAcceleration.cs" />
+    <Compile Include="Forms\DataGridViewCell.cs" />
+    <Compile Include="Forms\DataGridViewTextBoxCell.cs" />
+    <Compile Include="Forms\DataGridViewCheckBoxCell.cs" />
+    <Compile Include="Forms\DataGridViewComboBoxCell.cs" />
+    <Compile Include="Forms\DataGridViewImageCell.cs" />
+    <Compile Include="Forms\DataGridViewButtonCell.cs" />
+    <Compile Include="Forms\DataGridViewLinkCell.cs" />
+    <Compile Include="Forms\DataGridViewColumnHeaderCell.cs" />
+    <Compile Include="Forms\DataGridViewRowHeaderCell.cs" />
+    <Compile Include="Forms\DataGridViewTopLeftHeaderCell.cs" />
+    <Compile Include="Forms\DataGridViewHeaderCell.cs" />
+    <Compile Include="Forms\DataGridViewFilterCell.cs" />
+    <Compile Include="Forms\DataGridViewTextBoxEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGridViewComboBoxEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGridViewCellCollection.cs" />
+    <Compile Include="Forms\DataGridViewColumnCollection.cs" />
+    <Compile Include="Forms\DataGridViewRowCollection.cs" />
+    <Compile Include="Forms\DataGridViewSelectedCellCollection.cs" />
+    <Compile Include="Forms\DataGridViewSelectedColumnCollection.cs" />
+    <Compile Include="Forms\DataGridViewSelectedRowCollection.cs" />
+    <Compile Include="Forms\DataGridViewColumn.cs" />
+    <Compile Include="Forms\DataGridViewComboBoxColumn.cs" />
+    <Compile Include="Forms\DataGridViewImageColumn.cs" />
+    <Compile Include="Forms\DataGridViewTextBoxColumn.cs" />
+    <Compile Include="Forms\DataGridViewButtonColumn.cs" />
+    <Compile Include="Forms\DataGridViewCheckBoxColumn.cs" />
+    <Compile Include="Forms\DataGridViewLinkColumn.cs" />
+    <Compile Include="Forms\DataGridViewCellConverter.cs" />
+    <Compile Include="Forms\DataGridViewColumnConverter.cs" />
+    <Compile Include="Forms\DataGridViewCellStyleConverter.cs" />
+    <Compile Include="Forms\DataGridViewRowConverter.cs" />
+    <Compile Include="Forms\DataGridViewBand.cs" />
+    <Compile Include="Forms\DataGridViewElement.cs" />
+    <Compile Include="Forms\DataGridViewFilterRow.cs" />
+    <Compile Include="Forms\RowExpansionType.cs" />
+    <Compile Include="Forms\DataGridViewRow.cs" />
+    <Compile Include="Forms\DataGridViewCellLinkedList.cs" />
+    <Compile Include="Forms\DataGridViewCellLinkedListElement.cs" />
+    <Compile Include="Forms\DataGridViewCellLinkedListEnumerator.cs" />
+    <Compile Include="Forms\DataGridViewIntLinkedList.cs" />
+    <Compile Include="Forms\DataGridViewIntLinkedListElement.cs" />
+    <Compile Include="Forms\DataGridViewIntLinkedListEnumerator.cs" />
+    <Compile Include="Forms\DataGridViewCellStyle.cs" />
+    <Compile Include="Forms\DataGridViewRowStyle.cs" />
+    <Compile Include="Forms\DataGridViewAdvancedBorderStyle.cs" />
+    <Compile Include="Forms\DataGridViewColumnDesignTimeVisibleAttribute.cs" />
+    <Compile Include="Forms\LinkUtilities.cs" />
+    <Compile Include="Forms\DataGridViewCellPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGridViewFilterButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGridViewGroupingTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGridViewGroupingTreeNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGridViewSystemFilterOption.cs" />
+    <Compile Include="Forms\CustomFilterApplyingEventArgs.cs" />
+    <Compile Include="Forms\CustomFilterApplyingEventHandler.cs" />
+    <Compile Include="Forms\ShowExpansionIndicator.cs" />
+    <Compile Include="Forms\SystemFilterOptions.cs" />
+    <Compile Include="Forms\DataGridViewCustomFilterDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HeaderFilterInfo.cs" />
+    <Compile Include="Forms\HeaderFilterInfoConverter.cs" />
+    <Compile Include="Forms\DateTimePickerFormat.cs" />
+    <Compile Include="Forms\DateTimePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DateTimePickerPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DateTimePickerRenderer.cs" />
+    <Compile Include="Forms\KeyEventHandler.cs" />
+    <Compile Include="Forms\KeyEventArgs.cs" />
+    <Compile Include="Forms\KeyPressEventHandler.cs" />
+    <Compile Include="Forms\KeyPressEventArgs.cs" />
+    <Compile Include="Forms\MouseEventArgs.cs" />
+    <Compile Include="Forms\MouseEventHandler.cs" />
+    <Compile Include="Forms\HandledMouseEventArgs.cs" />
+    <Compile Include="Forms\GroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\GroupBoxRenderer.cs" />
+    <Compile Include="Forms\HelpNavigator.cs" />
+    <Compile Include="Forms\Help.cs" />
+    <Compile Include="Forms\HelpEventHandler.cs" />
+    <Compile Include="Forms\HelpEventArgs.cs" />
+    <Compile Include="Forms\FilterComparisonOperator.cs" />
+    <Compile Include="Forms\HierarchicInfoSelector.cs" />
+    <Compile Include="Forms\DataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGridViewGroupingAction.cs" />
+    <Compile Include="Forms\DataGridViewHitTestTypeCloseEdge.cs" />
+    <Compile Include="Forms\DataGridViewHeaderBorderStyle.cs" />
+    <Compile Include="Forms\DataGridViewCellBorderStyle.cs" />
+    <Compile Include="Forms\DataGridViewColumnHeadersHeightSizeMode.cs" />
+    <Compile Include="Forms\DataGridViewFreeDimension.cs" />
+    <Compile Include="Forms\DataGridViewAutoSizeColumnCriteriaInternal.cs" />
+    <Compile Include="Forms\DataGridViewAutoSizeRowCriteriaInternal.cs" />
+    <Compile Include="Forms\DataGridViewAutoSizeRowsModeInternal.cs" />
+    <Compile Include="Forms\DataGridViewAdvancedCellBorderStyle.cs" />
+    <Compile Include="Forms\DataGridViewRowHeadersWidthSizeMode.cs" />
+    <Compile Include="Forms\DataGridViewTriState.cs" />
+    <Compile Include="Forms\DataGridViewSelectionMode.cs" />
+    <Compile Include="Forms\DataGridViewPaintParts.cs" />
+    <Compile Include="Forms\DataGridViewCellStyleDifferences.cs" />
+    <Compile Include="Forms\DataGridViewContentAlignment.cs" />
+    <Compile Include="Forms\DataGridViewImageCellLayout.cs" />
+    <Compile Include="Forms\DataGridViewHitTestType.cs" />
+    <Compile Include="Forms\DataGridViewAutoSizeRowMode.cs" />
+    <Compile Include="Forms\DataGridViewAutoSizeRowsMode.cs" />
+    <Compile Include="Forms\DataGridViewCellStyleScopes.cs" />
+    <Compile Include="Forms\DataGridViewClipboardCopyMode.cs" />
+    <Compile Include="Forms\DataGridViewColumnSortMode.cs" />
+    <Compile Include="Forms\DataGridViewComboBoxDisplayStyle.cs" />
+    <Compile Include="Forms\DataGridViewDataErrorContexts.cs" />
+    <Compile Include="Forms\DataGridViewElementStates.cs" />
+    <Compile Include="Forms\DataGridViewElementClientStates.cs" />
+    <Compile Include="Forms\DataGridViewEditMode.cs" />
+    <Compile Include="Forms\DataGridViewAutoSizeColumnMode.cs" />
+    <Compile Include="Forms\DataGridViewAutoSizeColumnsMode.cs" />
+    <Compile Include="Forms\NavigationKeyFilter.cs" />
+    <Compile Include="Forms\GroupingChangedEventHandler.cs" />
+    <Compile Include="Forms\GroupingChangedEventArgs.cs" />
+    <Compile Include="Forms\GroupHeaderFormattingEventHandler.cs" />
+    <Compile Include="Forms\GroupHeaderFormattingEventArgs.cs" />
+    <Compile Include="Forms\QuestionEventHandler.cs" />
+    <Compile Include="Forms\QuestionEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewCellStyleChangedEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewRowHeightInfoPushedEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewRowHeightInfoPushedEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewRowHeightInfoNeededEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewRowHeightInfoNeededEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewRowErrorTextNeededEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewRowErrorTextNeededEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewRowDividerDoubleClickEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewRowDividerDoubleClickEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewRowsAddedEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewRowsAddedEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewRowsRemovedEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewRowsRemovedEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewRowStateChangedEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewRowStateChangedEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewSortCompareEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewSortCompareEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewCellToolTipTextNeededEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewCellToolTipTextNeededEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewCellErrorTextNeededEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewCellErrorTextNeededEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewCellValueEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewCellValueEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewCellEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewCellEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewCellContextMenuStripNeededEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewCellContextMenuStripNeededEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewCellContextMenuNeededEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewCellContextMenuNeededEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewCellParsingEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewCellParsingEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewCellValidatingEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewCellValidatingEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewCellFormattingEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewCellFormattingEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewCellCancelEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewCellCancelEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewAutoSizeModeEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewAutoSizeModeEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewCellMouseEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewCellMouseEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewColumnStateChangedEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewColumnStateChangedEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewRowContextMenuNeededEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewRowContextMenuNeededEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewRowContextMenuStripNeededEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewRowContextMenuStripNeededEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewRowCancelEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewRowCancelEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewEditingControlShowingEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewEditingControlShowingEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewRowEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewRowEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewDataErrorEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewDataErrorEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewColumnEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewColumnEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewColumnDividerDoubleClickEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewColumnDividerDoubleClickEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewCellStyleContentChangedEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewCellStyleContentChangedEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewCellStateChangedEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewCellStateChangedEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewAutoSizeColumnsModeEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewAutoSizeColumnsModeEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewAutoSizeColumnModeEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewAutoSizeColumnModeEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewBindingCompleteEventHandler.cs" />
+    <Compile Include="Forms\DataGridViewBindingCompleteEventArgs.cs" />
+    <Compile Include="Forms\ColumnChooserColumnsVisibilityChangedHandler.cs" />
+    <Compile Include="Forms\ColumnChooserColumnsVisibilityChangedEventArgs.cs" />
+    <Compile Include="Forms\DataGridViewUtilities.cs" />
+    <Compile Include="Forms\IDataGridViewEditingCell.cs" />
+    <Compile Include="Forms\IDataGridViewEditingControl.cs" />
+    <Compile Include="Forms\GridItem.cs" />
+    <Compile Include="Forms\GridItemCollection.cs" />
+    <Compile Include="Forms\GridItemType.cs" />
+    <Compile Include="Forms\PropertySort.cs" />
+    <Compile Include="Forms\GridEntryRecreateChildrenEventHandler.cs" />
+    <Compile Include="Forms\GridEntryRecreateChildrenEventArgs.cs" />
+    <Compile Include="Forms\SelectedGridItemChangedEventHandler.cs" />
+    <Compile Include="Forms\SelectedGridItemChangedEventArgs.cs" />
+    <Compile Include="Forms\PropertyValueChangedEventHandler.cs" />
+    <Compile Include="Forms\PropertyValueChangedEventArgs.cs" />
+    <Compile Include="Forms\PropertyValueChangingEventHandler.cs" />
+    <Compile Include="Forms\PropertyValueChangingEventArgs.cs" />
+    <Compile Include="Forms\PropertyTabChangedEventHandler.cs" />
+    <Compile Include="Forms\PropertyTabChangedEventArgs.cs" />
+    <Compile Include="Forms\ShowingTypeEditorEventHandler.cs" />
+    <Compile Include="Forms\ShowingTypeEditorEventArgs.cs" />
+    <Compile Include="Forms\PropertyGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\StringSorter.cs" />
+    <Compile Include="Forms\Label.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\LabelRenderer.cs" />
+    <Compile Include="Forms\LinkState.cs" />
+    <Compile Include="Forms\LinkBehavior.cs" />
+    <Compile Include="Forms\LinkLabelLinkClickedEventHandler.cs" />
+    <Compile Include="Forms\LinkLabelLinkClickedEventArgs.cs" />
+    <Compile Include="Forms\LinkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Link.cs" />
+    <Compile Include="Forms\LinkParameters.cs" />
+    <Compile Include="Forms\FormReference.cs" />
+    <Compile Include="Forms\ListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ListViewItemEventHandler.cs" />
+    <Compile Include="Forms\View.cs" />
+    <Compile Include="Forms\ListViewColumnType.cs" />
+    <Compile Include="Forms\ItemActivation.cs" />
+    <Compile Include="Forms\SearchDirectionHint.cs" />
+    <Compile Include="Forms\ListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ListViewItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ListViewPanelItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ListViewItemEventArgs.cs" />
+    <Compile Include="Forms\ColumnClickEventHandler.cs" />
+    <Compile Include="Forms\ColumnClickEventArgs.cs" />
+    <Compile Include="Forms\ColumnWidthChangedEventHandler.cs" />
+    <Compile Include="Forms\ColumnWidthChangedEventArgs.cs" />
+    <Compile Include="Forms\ListViewGroup.cs" />
+    <Compile Include="Forms\ListViewGroupCollection.cs" />
+    <Compile Include="Forms\ListViewGroupConverter.cs" />
+    <Compile Include="Forms\ListViewItemBindingEventHandler.cs" />
+    <Compile Include="Forms\ListViewItemBindingEventArgs.cs" />
+    <Compile Include="Forms\ListViewItemFormattingEventHandler.cs" />
+    <Compile Include="Forms\ListViewItemFormattingEventArgs.cs" />
+    <Compile Include="Forms\ListViewBindingCompleteEventHandler.cs" />
+    <Compile Include="Forms\ListViewBindingCompleteEventArgs.cs" />
+    <Compile Include="Forms\ColumnReorderedEventHandler.cs" />
+    <Compile Include="Forms\ColumnReorderedEventArgs.cs" />
+    <Compile Include="Forms\ListViewRenderer.cs" />
+    <Compile Include="Forms\LabelEditEventArgs.cs" />
+    <Compile Include="Forms\LabelEditEventHandler.cs" />
+    <Compile Include="Forms\ListViewItemConverter.cs" />
+    <Compile Include="Forms\ListViewItemSorter.cs" />
+    <Compile Include="Forms\ListViewSubItemConverter.cs" />
+    <Compile Include="Forms\MaskFormat.cs" />
+    <Compile Include="Forms\MaskedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\MessageBoxButtons.cs" />
+    <Compile Include="Forms\MessageBoxDefaultButton.cs" />
+    <Compile Include="Forms\MessageBoxIcon.cs" />
+    <Compile Include="Forms\MessageBoxOptions.cs" />
+    <Compile Include="Forms\MessageBox.cs" />
+    <Compile Include="Forms\MessageBoxWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MonthCalendar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\CalendarUtils.cs" />
+    <Compile Include="Forms\PictureBoxSizeMode.cs" />
+    <Compile Include="Forms\PictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\PictureBoxRenderer.cs" />
+    <Compile Include="Forms\ProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\RadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\RadioButtonRenderer.cs" />
+    <Compile Include="Forms\RichTextBoxStreamType.cs" />
+    <Compile Include="Forms\RichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Splitter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\SR.cs" />
+    <Compile Include="Forms\WGInternalLabels.cs" />
+    <Compile Include="Forms\StatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\StatusBarPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\StatusBarPanelAutoSize.cs" />
+    <Compile Include="Forms\TabAppearance.cs" />
+    <Compile Include="Forms\TabAlignment.cs" />
+    <Compile Include="Forms\TabControlClientBehavior.cs" />
+    <Compile Include="Forms\TabControlCancelEventHandler.cs" />
+    <Compile Include="Forms\TabControlCancelEventArgs.cs" />
+    <Compile Include="Forms\TabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\TabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\TabPageEventHandler.cs" />
+    <Compile Include="Forms\TabPageEventArgs.cs" />
+    <Compile Include="Forms\TabPageCollection.cs" />
+    <Compile Include="Forms\ContextualTabGroup.cs" />
+    <Compile Include="Forms\ContextualTabGroupCollection.cs" />
+    <Compile Include="Forms\TabControlRenderer.cs" />
+    <Compile Include="Forms\TabPageRenderer.cs" />
+    <Compile Include="Forms\TableLayoutCellPaintEventHandler.cs" />
+    <Compile Include="Forms\TableLayoutPanelGrowStyle.cs" />
+    <Compile Include="Forms\BoundsSpecified.cs" />
+    <Compile Include="Forms\SizeType.cs" />
+    <Compile Include="Forms\TableLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\TableLayoutPanelRenderer.cs" />
+    <Compile Include="Forms\PaintEventArgs.cs" />
+    <Compile Include="Forms\TableLayoutRowStyleCollection.cs" />
+    <Compile Include="Forms\RowStyle.cs" />
+    <Compile Include="Forms\TableLayoutStyleCollection.cs" />
+    <Compile Include="Forms\TableLayoutStyle.cs" />
+    <Compile Include="Forms\TableLayoutSettings.cs" />
+    <Compile Include="Forms\TableLayoutColumnStyleCollection.cs" />
+    <Compile Include="Forms\ColumnStyle.cs" />
+    <Compile Include="Forms\LayoutEngine.cs" />
+    <Compile Include="Forms\TableLayoutControlCollection.cs" />
+    <Compile Include="Forms\LayoutSettings.cs" />
+    <Compile Include="Forms\TableLayoutSettingsTypeConverter.cs" />
+    <Compile Include="Forms\TableLayoutControlPosition.cs" />
+    <Compile Include="Forms\TableLayoutPanelCellStyle.cs" />
+    <Compile Include="Forms\TextBoxValidation.cs" />
+    <Compile Include="Forms\TextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\TextBoxChangedEventArgs.cs" />
+    <Compile Include="Forms\TextBoxRenderer.cs" />
+    <Compile Include="Forms\TextBoxEventTypes.cs" />
+    <Compile Include="Forms\TextBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolBarButtonStyle.cs" />
+    <Compile Include="Forms\ToolBarAppearance.cs" />
+    <Compile Include="Forms\ToolBarTextAlign.cs" />
+    <Compile Include="Forms\ToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolBarCollection.cs" />
+    <Compile Include="Forms\ToolBarButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolBarItemCollection.cs" />
+    <Compile Include="Forms\ToolBarButtonClickEventHandler.cs" />
+    <Compile Include="Forms\ToolBarButtonClickEventArgs.cs" />
+    <Compile Include="Forms\TickStyle.cs" />
+    <Compile Include="Forms\TrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\TreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\CheckBoxVisibility.cs" />
+    <Compile Include="Forms\SelectOnRightClickBehvior.cs" />
+    <Compile Include="Forms\TreeNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\TreeNodeCollection.cs" />
+    <Compile Include="Forms\NodeLabelEditEventArgs.cs" />
+    <Compile Include="Forms\NodeLabelEditEventHandler.cs" />
+    <Compile Include="Forms\TreeViewAction.cs" />
+    <Compile Include="Forms\TreeViewEventHandler.cs" />
+    <Compile Include="Forms\TreeViewEventArgs.cs" />
+    <Compile Include="Forms\TreeViewCancelEventHandler.cs" />
+    <Compile Include="Forms\TreeViewCancelEventArgs.cs" />
+    <Compile Include="Forms\TreeNodeMouseClickEventHandler.cs" />
+    <Compile Include="Forms\TreeNodeMouseClickEventArgs.cs" />
+    <Compile Include="Forms\ItemDragEventHandler.cs" />
+    <Compile Include="Forms\ItemDragEventArgs.cs" />
+    <Compile Include="Forms\TreeViewRenderer.cs" />
+    <Compile Include="Forms\LeftRightAlignment.cs" />
+    <Compile Include="Forms\UpDownBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\UpDownEventArgs.cs" />
+    <Compile Include="Forms\UpDownBaseRenderer.cs" />
+    <Compile Include="Forms\Design\ResourceHandleEditor.cs" />
+    <Compile Include="Forms\Design\ServerOpenFileDialog.cs" />
+    <Compile Include="Forms\Design\AnchorPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Design\AnchorPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Design\DockButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Design\DockButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Design\WebCollectionEditorItemTypeNameAttribute.cs" />
+    <Compile Include="Forms\Design\VisualTemplateEditor.cs" />
+    <Compile Include="Forms\Design\VisualTemplateControlDialog.cs" />
+    <Compile Include="Forms\Design\ContextualTabGroupCollectionEditor.cs" />
+    <Compile Include="Forms\Design\ListViewGroupCollectionEditor.cs" />
+    <Compile Include="Forms\Design\ShortcutKeysEditor.cs" />
+    <Compile Include="Forms\Design\LimitedTrustBrowsableAttribute.cs" />
+    <Compile Include="Forms\Design\BorderColorEditor.cs" />
+    <Compile Include="Forms\Design\AnchorEditor.cs" />
+    <Compile Include="Forms\Design\CollectionEditor.cs" />
+    <Compile Include="Forms\Design\DateTimeEditor.cs" />
+    <Compile Include="Forms\Design\DockEditor.cs" />
+    <Compile Include="Forms\Design\StandardValuesEditor.cs" />
+    <Compile Include="Forms\Design\ColorEditor.cs" />
+    <Compile Include="Forms\Design\ColorEditorDropDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Design\EventsTab.cs" />
+    <Compile Include="Forms\Design\FontEditor.cs" />
+    <Compile Include="Forms\Design\IWebUIEditorService.cs" />
+    <Compile Include="Forms\Design\PropertyTab.cs" />
+    <Compile Include="Forms\Design\WebEditorAttribute.cs" />
+    <Compile Include="Forms\Design\WebUITypeEditorHandler.cs" />
+    <Compile Include="Forms\Design\WebUITypeEditor.cs" />
+    <Compile Include="Forms\Design\Editors\VisualTemplateListViewColumnOrderEditor.cs" />
+    <Compile Include="Forms\Design\Editors\VisualTemplateListViewColumnControlDialog.cs" />
+    <Compile Include="Forms\Skins\MasterPageContentSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\MasterPageSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\BorderlessButtonVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\DataGridViewMobileVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\HeaderLabelVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ListViewVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\NativeComboBoxVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\NativeDateTimePickerVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\NativeTrackBarVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\TabControlLogicalVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\TabControlSpreadVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\TitleLabelVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\TreeViewVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\SelectedIndicatorStyleValue.cs" />
+    <Compile Include="Forms\Skins\SelectedIndicatorStyleValueConverter.cs" />
+    <Compile Include="Forms\Skins\SelectedIndicatorSizeValue.cs" />
+    <Compile Include="Forms\Skins\SelectedIndicatorSizeValueConverter.cs" />
+    <Compile Include="Forms\Skins\BindingNavigatorSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ButtonBaseSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\CheckBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\CheckedListBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ColorComboBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ColorDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ColorListBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ComboBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\CommonDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\CommonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ContainerControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\DataGridViewCellPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\DataGridViewFilterButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\DataGridViewFilterComboBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\WatermarkTextBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\MenuStripSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\PropertyGridToolStripSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\StatusStripSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\TaskBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\FlatToolBarButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\FlatToolBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\LoadingSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\LoadingMessageStyle.cs" />
+    <Compile Include="Forms\Skins\MenuItemSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\PopupsSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\VerticalAlignment.cs" />
+    <Compile Include="Forms\Skins\HorizontalAlignment.cs" />
+    <Compile Include="Forms\Skins\BorderValue.cs" />
+    <Compile Include="Forms\Skins\PaddingValue.cs" />
+    <Compile Include="Forms\Skins\MarginValueConverter.cs" />
+    <Compile Include="Forms\Skins\PaddingValueConverter.cs" />
+    <Compile Include="Forms\Skins\MarginValue.cs" />
+    <Compile Include="Forms\Skins\BackgroundValue.cs" />
+    <Compile Include="Forms\Skins\ForegroundValue.cs" />
+    <Compile Include="Forms\Skins\StyleValue.cs" />
+    <Compile Include="Forms\Skins\StyleValueConverter.cs" />
+    <Compile Include="Forms\Skins\FramePartStyleValue.cs" />
+    <Compile Include="Forms\Skins\FrameOverlayStyleValue.cs" />
+    <Compile Include="Forms\Skins\FrameStyleValue.cs" />
+    <Compile Include="Forms\Skins\FrameStyleValueConverter.cs" />
+    <Compile Include="Forms\Skins\OverlayedFrameStyleValue.cs" />
+    <Compile Include="Forms\Skins\OverlayedFrameStyleValueConverter.cs" />
+    <Compile Include="Forms\Skins\SimpleFrameStyleValue.cs" />
+    <Compile Include="Forms\Skins\SimpleFrameStyleValueConverter.cs" />
+    <Compile Include="Forms\Skins\HeaderedFrameStyleValue.cs" />
+    <Compile Include="Forms\Skins\HeaderedFrameStyleValueConverter.cs" />
+    <Compile Include="Forms\Skins\OpacityValue.cs" />
+    <Compile Include="Forms\Skins\OpacityValueConverter.cs" />
+    <Compile Include="Forms\Skins\VerticalAlignmentValue.cs" />
+    <Compile Include="Forms\Skins\VerticalAlignmentValueConverter.cs" />
+    <Compile Include="Forms\Skins\HorizontalAlignmentValue.cs" />
+    <Compile Include="Forms\Skins\HorizontalAlignmentValueConverter.cs" />
+    <Compile Include="Forms\Skins\BackgroundStyleValue.cs" />
+    <Compile Include="Forms\Skins\BackgroundStyleValueConverter.cs" />
+    <Compile Include="Forms\Skins\TripleCellFrameStyleValue.cs" />
+    <Compile Include="Forms\Skins\TripleCellFrameStyleValueConverter.cs" />
+    <Compile Include="Forms\Skins\DataGridViewButtonCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\DataGridViewCheckBoxCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\DataGridViewComboBoxCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\DataGridViewImageCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\DataGridViewLinkCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\DataGridViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\DataGridViewTextBoxCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\DateTimePickerPopupSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\DateTimePickerSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\DomainUpDownSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\FileDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\FlowLayoutPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\FolderBrowserDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\FontDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\FormSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\FrameControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\GroupBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\HtmlBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\LabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\LinkLabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ListBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ListViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\MainMenuSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\MaskedTextBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\MdiClientSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\MenuSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\MessageBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\MonthCalendarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\NumericUpDownSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\OpenFileDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\PanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\PictureBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ProgressBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\PropertyGridSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\RadioButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\RichTextBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ScrollableControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\SplitContainerSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\SplitterPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\SplitterSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\StatusBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\TabControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\TableLayoutPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\TabPageSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\TextBoxBaseSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\TextBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ToolBarButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ToolBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ToolStripButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ToolStripControlHostSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ToolStripDropDownButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ToolStripLabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ToolStripSeparatorSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ToolStripSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ToolStripSplitButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ToolStripStatusLabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\ToolTipSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\TrackBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\TreeViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\UpDownBaseSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\UserControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Skins\VirtualDataGridViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\PropertyGridInternal\PropertyGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\PropertyGridInternal\GridEntry.cs" />
+    <Compile Include="Forms\PropertyGridInternal\GridEntryCollection.cs" />
+    <Compile Include="Forms\PropertyGridInternal\ArrayElementGridEntry.cs" />
+    <Compile Include="Forms\PropertyGridInternal\ImmutablePropertyDescriptorGridEntry.cs" />
+    <Compile Include="Forms\PropertyGridInternal\MergePropertyDescriptor.cs" />
+    <Compile Include="Forms\PropertyGridInternal\MultiPropertyDescriptorGridEntry.cs" />
+    <Compile Include="Forms\PropertyGridInternal\MultiSelectRootGridEntry.cs" />
+    <Compile Include="Forms\PropertyGridInternal\PropertyDescriptorGridEntry.cs" />
+    <Compile Include="Forms\PropertyGridInternal\SingleSelectRootGridEntry.cs" />
+    <Compile Include="Forms\PropertyGridInternal\CategoryGridEntry.cs" />
+    <Compile Include="Forms\PropertyGridInternal\IRootGridEntry.cs" />
+    <Compile Include="Forms\PropertyGridInternal\AttributeTypeSorter.cs" />
+    <Compile Include="Forms\PropertyGridInternal\PropertiesTab.cs" />
+    <Compile Include="Forms\Dialogs\ListViewColumnOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\ListViewGroupingOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\ListViewSortingOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Layout\ArrangedElementCollection.cs" />
+    <Compile Include="Forms\Layout\IArrangedElement.cs" />
+    <Compile Include="Forms\Layout\LayoutUtils.cs" />
+    <Compile Include="Forms\Layout\PropertyNames.cs" />
+    <Compile Include="Forms\Layout\TableLayout.cs" />
+    <Compile Include="Forms\Extenders\UniqueIdExtender.cs" />
+    <Compile Include="Forms\Controls\ItemChooser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Authentication\LogonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Hosts\AspSubmitHandler.cs" />
+    <Compile Include="Forms\Hosts\AspSubmitArgs.cs" />
+    <Compile Include="Forms\Hosts\AspControlBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Hosts\ActiveXBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Hosts\AspPageEventHandler.cs" />
+    <Compile Include="Forms\Hosts\AspPageEventArgs.cs" />
+    <Compile Include="Forms\Hosts\AspControlEventHandler.cs" />
+    <Compile Include="Forms\Hosts\AspControlEventArgs.cs" />
+    <Compile Include="Forms\Hosts\AspPageBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Hosts\AspPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Hosts\AspPipeLinePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Hosts\FlashBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Hosts\FlashBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Hosts\FormBox.cs" />
+    <Compile Include="Forms\Hosts\ObjectBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Hosts\XamlBoxType.cs" />
+    <Compile Include="Forms\Hosts\XamlBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Hosts\AppletBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Hosts\AppletBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Hosts\Skins\AspControlBoxBaseSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Hosts\Skins\XamlBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Hosts\Skins\AspPageBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Hosts\Skins\ObjectBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\Accelerometer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\Camera.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\Capture.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\Compass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\Connection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\Contacts.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\DeviceEvents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\DeviceInfo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\DeviceIntegrator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\DeviceIntegratorSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\DeviceMedia.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\FileManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\Geolocation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\Globalization.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\LocalStorage.cs" />
+    <Compile Include="Forms\DeviceIntegration\Notifications.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\Splashscreen.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\Storage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\StorageComponents\Database.cs" />
+    <Compile Include="Forms\DeviceIntegration\StorageComponents\SQLResultSet.cs" />
+    <Compile Include="Forms\DeviceIntegration\StorageComponents\SQLTransaction.cs" />
+    <Compile Include="Forms\DeviceIntegration\MediaComponents\Media.cs" />
+    <Compile Include="Forms\DeviceIntegration\FileManagement\DeviceFile.cs" />
+    <Compile Include="Forms\DeviceIntegration\FileManagement\DirectoryEntry.cs" />
+    <Compile Include="Forms\DeviceIntegration\FileManagement\DirectoryReader.cs" />
+    <Compile Include="Forms\DeviceIntegration\FileManagement\Entry.cs" />
+    <Compile Include="Forms\DeviceIntegration\FileManagement\EntryMetadata.cs" />
+    <Compile Include="Forms\DeviceIntegration\FileManagement\FileEntry.cs" />
+    <Compile Include="Forms\DeviceIntegration\FileManagement\FileReader.cs" />
+    <Compile Include="Forms\DeviceIntegration\FileManagement\FileSystem.cs" />
+    <Compile Include="Forms\DeviceIntegration\FileManagement\FileTransfer.cs" />
+    <Compile Include="Forms\DeviceIntegration\FileManagement\FileTransferError.cs" />
+    <Compile Include="Forms\DeviceIntegration\FileManagement\FileWriter.cs" />
+    <Compile Include="Forms\DeviceIntegration\FileManagement\PhonegapFileDownloadEventArgs.cs" />
+    <Compile Include="Forms\DeviceIntegration\FileManagement\PhonegapFileUploadEventArgs.cs" />
+    <Compile Include="Forms\DeviceIntegration\DeviceCommon\JsonUtils.cs" />
+    <Compile Include="Forms\DeviceIntegration\ContactsData\Contact.cs" />
+    <Compile Include="Forms\DeviceIntegration\CaptureComponents\MediaFile.cs" />
+    <Compile Include="Forms\DeviceIntegration\CaptureComponents\MediaFileData.cs" />
+    <Compile Include="Forms\DeviceIntegration\Abstract\DeviceComponent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DeviceIntegration\Abstract\MultipleCallMethodStore`1.cs" />
+    <Compile Include="Forms\DeviceIntegration\Abstract\SingleCallMethodStore`1.cs" />
+    <Compile Include="Forms\DeviceIntegration\Abstract\WatchedDeviceComponent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ContextualToolbar\ProxyControlContextualToolbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ContextualToolbar\ProxyControlContextualToolbarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ContextualToolbar\ContextualToolbarPropertyValueChangedEventHandler.cs" />
+    <Compile Include="Forms\ContextualToolbar\ContextualToolbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ContextualToolbar\ContextualToolbarPropertyValueEventArgs.cs" />
+    <Compile Include="Forms\ContextualToolbar\ContextualToolbarAttribute.cs" />
+    <Compile Include="Forms\ContextualToolbar\ContextualToolbarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Administration\ContentProperties.cs" />
+    <Compile Include="Forms\Administration\AdministrationContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Administration\CustomComponents\AdministrationButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Administration\CustomComponents\AdministrationButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Administration\CustomComponents\AdministrationHeaderLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Administration\CustomComponents\AdministrationHeaderLabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Administration\CustomComponents\AdministrationTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Administration\CustomComponents\AdministrationTabs.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Administration\CustomComponents\AdministrationTabsSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Administration\CustomComponents\AdministrationWatermarkTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Administration\CustomComponents\AdministrationWatermarkTextBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Administration\CustomComponents\AdministrationFooterPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Administration\Abstract\StatusData.cs" />
+    <Compile Include="Forms\Administration\Abstract\ContentChangeNotifierUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Administration\Abstract\IContentUpdateable.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationButtonSkin_003AButton.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationButtonSkin_003AButton.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationButtonSkin_003AButton\BI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationButtonSkin_003AButton\BI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationButtonSkin_003AButton\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationButtonSkin_003AButton\NBI.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationButtonSkin_003AButton\NBI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationButtonSkin_003AButton\NBI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationHeaderLabelSkin_003ALabel.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationHeaderLabelSkin_003ALabel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationHeaderLabelSkin_003ALabel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationTabsSkin_003ATabControl.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationTabsSkin_003ATabControl.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationTabsSkin_003ATabControl\grd.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationTabsSkin_003ATabControl\ie.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationTabsSkin_003ATabControl\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationTabsSkin_003ATabControl\ngrd.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationWatermarkTextBoxSkin_003ATextBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationWatermarkTextBoxSkin_003ATextBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationWatermarkTextBoxSkin_003ATextBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\BorderlessTextBoxVisualTemplateSkin_003ATextBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\BorderlessTextBoxVisualTemplateSkin_003ATextBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\BorderlessTextBoxVisualTemplateSkin_003ATextBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\BorderlessTextBoxVisualTemplateSkin_003ATextBoxBorderLess.png_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\CheckBoxSwitchVisualTemplateSkin_003ACheckBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\CheckBoxSwitchVisualTemplateSkin_003ACheckBox.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\CheckBoxSwitchVisualTemplateSkin_003ACheckBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\CheckBoxSwitchVisualTemplateSkin_003ACheckBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\CheckBoxSwitchVisualTemplateSkin_003ACheckBoxSwitch.png_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ColumnChooserButtonSkin_003AColumnChooserButton.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ColumnChooserButtonSkin_003AColumnChooserButton\BI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ColumnChooserButtonSkin_003AColumnChooserButton\BI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ColumnChooserButtonSkin_003AColumnChooserButton\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ColumnChooserButtonSkin_003AColumnChooserButton\NBI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ColumnChooserButtonSkin_003AColumnChooserButton\NBI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ContextualToolbar\ContextualToolbarSkin_003AContextualToolbar.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ContextualToolbar\ContextualToolbarSkin_003AContextualToolbar.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ContextualToolbar\ContextualToolbarSkin_003AContextualToolbar.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ContextualToolbar\ContextualToolbarSkin_003AContextualToolbar\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ContextualToolbar\ProxyControlContextualToolbarSkin_003AProxyControlContextualToolbar.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DataGridViewActiveTextBoxCellSkin_003ADataGridViewActiveTextBoxCell.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DataGridViewActiveTextBoxCellSkin_003ADataGridViewActiveTextBoxCellSkin.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DataGridViewActiveTextBoxCellSkin_003ADataGridViewActiveTextBoxCellSkin\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DataGridViewGroupingTreeViewSkin_003ADataGridViewGroupingTreeView.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DataGridViewGroupingTreeViewSkin_003ADataGridViewGroupingTreeView.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DataGridViewGroupingTreeViewSkin_003ADataGridViewGroupingTreeView.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DataGridViewGroupingTreeViewSkin_003ADataGridViewGroupingTreeView\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DataGridViewHeaderFilterComboBoxSkin_003ADataGridViewHeaderFilterComboBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DataGridViewHeaderFilterComboBoxSkin_003ADataGridViewHeaderFilterComboBox.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DataGridViewHeaderFilterComboBoxSkin_003ADataGridViewHeaderFilterComboBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DataGridViewHeaderFilterComboBoxSkin_003ADataGridViewHeaderFilterComboBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Design\AnchorPanelSkin_003APanel.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Design\AnchorPanelSkin_003APanel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Design\AnchorPanelSkin_003APanel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Design\DockButtonSkin_003AButton.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Design\DockButtonSkin_003AButton.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Design\DockButtonSkin_003AButton\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DockedHiddenZonesPanelSkin_003ADockedHiddenZonesPanel.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DockedHiddenZonesPanelSkin_003APanel.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DockedHiddenZonesPanelSkin_003APanel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DockedHiddenZonesPanelSkin_003APanel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DockedTabControlSkin_003ADockedTabControl.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DockedTabControlSkin_003ATabControl.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DockedTabControlSkin_003ATabControl.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DockedTabControlSkin_003ATabControl\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DockingManagerSkin\DockingManager.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DockingManagerSkin_003ADockingManagerSkin\DockingManager.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\DockingManagerSkin_003ADockingManagerSkin\DockingManager\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Hosts\Skins\AspControlBoxBaseSkin_003AAspControlBoxBase.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Hosts\Skins\ObjectBoxSkin_003AObjectBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Hosts\Skins\ObjectBoxSkin_003AObjectBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Hosts\Skins\ObjectBoxSkin_003AXamlBox.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\OrientationTabControlSkin_003ATabControl.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\BorderlessButtonVisualTemplateSkin_003ABTNBorderLess.png_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\BorderlessButtonVisualTemplateSkin_003AButton.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\BorderlessButtonVisualTemplateSkin_003AButton.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\BorderlessButtonVisualTemplateSkin_003AButton\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ButtonBaseSkin_003AButtonBase.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ButtonBaseSkin_003AButtonBase.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ButtonBaseSkin_003AButtonBase.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ButtonBaseSkin_003AButtonBase\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ButtonSkin_003AButton.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ButtonSkin_003AButton.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ButtonSkin_003AButton.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ButtonSkin_003AButton\BI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ButtonSkin_003AButton\BI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ButtonSkin_003AButton\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ButtonSkin_003AButton\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ButtonSkin_003AButton\NBI.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ButtonSkin_003AButton\NBI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ButtonSkin_003AButton\NBI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CheckBoxSkin_003ACheckBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CheckBoxSkin_003ACheckBox.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CheckBoxSkin_003ACheckBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CheckBoxSkin_003ACheckBox\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CheckBoxSkin_003ACheckBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ColorDialogSkin_003AColorDialog.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ColorDialogSkin_003AColorDialog.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ColorDialogSkin_003AColorDialog.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ComboBoxSkin_003AComboBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ComboBoxSkin_003AComboBox.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ComboBoxSkin_003AComboBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ComboBoxSkin_003AComboBox\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ComboBoxSkin_003AComboBox\ie.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ComboBoxSkin_003AComboBox\ie.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ComboBoxSkin_003AComboBox\ie\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ComboBoxSkin_003AComboBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ComboBoxSkin_003AComboBox\moz.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ComboBoxSkin_003AComboBox\moz.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ComboBoxSkin_003AComboBox\moz\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ComboBoxSkin_003AComboBoxPopup.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\About\Blank.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\ArrowScrollers.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\ArrowScrollers.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Aux_.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Bookmarks.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Bookmarks.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Client.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\ClientStorage.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\ControlEdit\Client.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Controls.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Controls\ie.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Controls\moz.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Data.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Data\JQTSplit.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Data\JQTSplit\jqv.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Debug.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Debug\JQTSplit.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\DragNDrop.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\DragNDrop.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\DragNDrop\ie.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\DragNDrop\ie.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\DragNDrop\ie\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\DragNDrop\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\DragNDrop\moz.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\DragNDrop\moz.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\DragNDrop\moz\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Events.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Events\Raise.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Focus.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Forms.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Forms\ie.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Forms\moz.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Gestures\JQTSplit.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Gestures\JQTSplit\jqv.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\JQTSplit.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\JQTSplit\jqv.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\LabelEditor.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\LabelEditor\ie.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\LabelEditor\moz.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Layout.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Layout.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Layout.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Layout\ie.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Layout\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Layout\moz.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Logon.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Logon\Listener.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\MediaQueries.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\moz.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Popups.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Remoting.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Trace.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\VirtualList.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\VisualEffects.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\VisualTemplates.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Web.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Web\ie.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Web\JQTSplit.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Web\JQTSplit\jqv.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Web\JQTSplit\moz.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Web\JQTSplit\moz\jqv.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Web\moz.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Web\SetStyle.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Xml.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Xml\ie.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Xml\JQTSplit.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Xml\JQTSplit\ie.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Xml\JQTSplit\ie\jqv.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Xml\JQTSplit\jqv.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Xml\JQTSplit\moz.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Xml\JQTSplit\moz\jqv.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommon\Xml\moz.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommons\Debug\Main.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommons\Debug\Main.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommons\Debug\Main.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommons\Debug\Main\jqv.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommons\Debug\Preload.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommons\Debug\Preload.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommons\Dialogs\Dialog.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommons\Dialogs\Dialog.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommons\Dialogs\Main.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommons\Messages\Timeout.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommons\Messages\Unauthorized.html_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ACommons\Messages\Unsupported.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003ADeviceIntegrator.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003AHtmlBoxFrame.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003AInterfaces.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003AListServices.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003AListServices.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003AMashup.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003Amodernizr-custom.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003AModernizrHelper.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003APipeLine.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003APreload.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\CommonSkin_003APreload.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ControlSkin_003AVisualTemplate_None.png_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewButtonCellSkin_003ADataGridViewButtonCell.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewButtonCellSkin_003ADataGridViewButtonCell\BI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewButtonCellSkin_003ADataGridViewButtonCell\BI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewButtonCellSkin_003ADataGridViewButtonCell\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewButtonCellSkin_003ADataGridViewButtonCell\NBI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewButtonCellSkin_003ADataGridViewButtonCell\NBI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewCellPanelSkin_003APanel.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewCellPanelSkin_003APanel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewCellPanelSkin_003APanel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewCheckBoxCellSkin_003ADataGridViewCheckBoxCell.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewCheckBoxCellSkin_003ADataGridViewCheckBoxCell.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewCheckBoxCellSkin_003ADataGridViewCheckBoxCell\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewComboBoxCellSkin_003ADataGridViewComboBoxCell.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewComboBoxCellSkin_003ADataGridViewComboBoxCell.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewComboBoxCellSkin_003ADataGridViewComboBoxCell\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewFilterButtonSkin_003AButton.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewFilterButtonSkin_003AButton.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewFilterButtonSkin_003AButton\BI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewFilterButtonSkin_003AButton\BI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewFilterButtonSkin_003AButton\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewFilterButtonSkin_003AButton\NBI.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewFilterButtonSkin_003AButton\NBI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewFilterButtonSkin_003AButton\NBI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewFilterComboBoxSkin_003AComboBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewFilterComboBoxSkin_003AComboBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewFilterComboBoxSkin_003AComboBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewImageCellSkin_003ADataGridViewImageCell.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewImageCellSkin_003ADataGridViewImageCell\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewLinkCellSkin_003ADataGridViewLinkCell.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewLinkCellSkin_003ADataGridViewLinkCell.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewLinkCellSkin_003ADataGridViewLinkCell\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewMobileVisualTemplateSkin_003ADataGridView.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewMobileVisualTemplateSkin_003ADataGridView.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewMobileVisualTemplateSkin_003ADataGridView\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewMobileVisualTemplateSkin_003ADataGridViewMobile.png_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewMobileVisualTemplateSkin_003ADataGridViewVisualTemplateMobile.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewSkin_003ADataGridView.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewSkin_003ADataGridView.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewSkin_003ADataGridView.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewSkin_003ADataGridView\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewSkin_003ADataGridView\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewSkin_003ADataGridViewComboBoxPopup.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewTextBoxCellSkin_003ADataGridViewTextBoxCell.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewTextBoxCellSkin_003ADataGridViewTextBoxCell.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DataGridViewTextBoxCellSkin_003ADataGridViewTextBoxCell\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DateTimePickerSkin_003ADateTimePicker.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DateTimePickerSkin_003ADateTimePicker.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DateTimePickerSkin_003ADateTimePicker.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DateTimePickerSkin_003ADateTimePicker\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DateTimePickerSkin_003ADateTimePicker\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DomainUpDownSkin_003ADomainUpDown.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DomainUpDownSkin_003ADomainUpDown.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DomainUpDownSkin_003ADomainUpDown.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DomainUpDownSkin_003ADomainUpDown\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\DomainUpDownSkin_003ADomainUpDown\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FlatToolBarButtonSkin_003AFlatToolBarButton.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FlatToolBarButtonSkin_003AFlatToolBarButton\BI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FlatToolBarButtonSkin_003AFlatToolBarButton\BI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FlatToolBarButtonSkin_003AFlatToolBarButton\NBI.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FlatToolBarButtonSkin_003AFlatToolBarButton\NBI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FlatToolBarButtonSkin_003AFlatToolBarButton\NBI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FlatToolBarSkin_003AFlatToolBar.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FlatToolBarSkin_003AFlatToolBar.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FlatToolBarSkin_003AFlatToolBar\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FlowLayoutPanelSkin_003AFlowLayoutPanel.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FlowLayoutPanelSkin_003AFlowLayoutPanel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FlowLayoutPanelSkin_003AFlowLayoutPanel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FormSkin_003AForm.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FormSkin_003AForm.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FormSkin_003AForm.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FormSkin_003AForm\ie.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FormSkin_003AForm\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FormSkin_003AForm\moz.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FrameControlSkin_003AFrameControl.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FrameControlSkin_003AFrameControl.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FrameControlSkin_003AFrameControl.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FrameControlSkin_003AFrameControl\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\FrameControlSkin_003AFrameControl\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\GroupBoxSkin_003AGroupBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\GroupBoxSkin_003AGroupBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\GroupBoxSkin_003AGroupBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\HeaderLabelVisualTemplateSkin_003ALabel.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\HeaderLabelVisualTemplateSkin_003ALabel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\HeaderLabelVisualTemplateSkin_003ALabel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\HeaderLabelVisualTemplateSkin_003ALableHeaderTemplate.png_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\LabelSkin_003ALabel.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\LabelSkin_003ALabel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\LabelSkin_003ALabel\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\LabelSkin_003ALabel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\LinkLabelSkin_003ALinkLabel.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\LinkLabelSkin_003ALinkLabel.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\LinkLabelSkin_003ALinkLabel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\LinkLabelSkin_003ALinkLabel\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\LinkLabelSkin_003ALinkLabel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListBoxSkin_003AListBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListBoxSkin_003AListBox.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListBoxSkin_003AListBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListBoxSkin_003AListBox\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListBoxSkin_003AListBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewSkin_003AListView.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewSkin_003AListView.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewSkin_003AListView.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewSkin_003AListView\ClientDom.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewSkin_003AListView\ie.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewSkin_003AListView\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewSkin_003AListView\moz.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewSkin_003AListViewVisualTemplateBase.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewSkin_003AListViewVisualTemplateBase\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewSkin_003ARowDetails\moz.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewSkin_003ARowDetails\moz\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewSkin_003ARowDetails\WebKit.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewSkin_003ARowDetails\WebKit\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewVisualTemplateSkin_003AContactListWithGrouping.png_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewVisualTemplateSkin_003AListViewVisualTemplate.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewVisualTemplateSkin_003AListViewVisualTemplate.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ListViewVisualTemplateSkin_003AListViewVisualTemplate\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\LoadingSkin_003ALoading.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\LoadingSkin_003ALoading.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\LoadingSkin_003ALoadingAnimation.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\LoadingSkin_003ALoadingAnimation.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MainMenuSkin_003AMainMenu.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MainMenuSkin_003AMainMenu.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MainMenuSkin_003AMainMenu.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MainMenuSkin_003AMainMenu\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MaskedTextBoxSkin_003AMaskedTextBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MaskedTextBoxSkin_003AMaskedTextBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MaskedTextBoxSkin_003AMaskedTextBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MasterPageContentSkin_003AMasterPageContent.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MasterPageContentSkin_003AMasterPageContent.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MasterPageContentSkin_003AMasterPageContent\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MasterPageSkin_003AMasterPage.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MasterPageSkin_003AMasterPage.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MasterPageSkin_003AMasterPage\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MdiClientSkin_003AMdiClient.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MdiClientSkin_003AMdiClient.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MdiClientSkin_003AMdiClient.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MdiClientSkin_003AMdiClient\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MenuItemSkin_003AMenuItem.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MenuItemSkin_003AMenuItem.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MenuItemSkin_003AMenuItem.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MenuItemSkin_003AMenuItem\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MenuSkin_003AMenu.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MenuSkin_003AMenu.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MenuSkin_003AMenu\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MenuStripSkin_003AMenuStrip.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MenuStripSkin_003AMenuStrip.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MenuStripSkin_003AMenuStrip\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MonthCalendarSkin_003AMonthCalendar.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MonthCalendarSkin_003AMonthCalendar.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MonthCalendarSkin_003AMonthCalendar.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\MonthCalendarSkin_003AMonthCalendar\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NativeComboBoxVisualTemplateSkin_003AComboBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NativeComboBoxVisualTemplateSkin_003AComboBox.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NativeComboBoxVisualTemplateSkin_003AComboBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NativeComboBoxVisualTemplateSkin_003AComboBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NativeComboBoxVisualTemplateSkin_003ANativeCombo.png_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NativeDateTimePickerVisualTemplateSkin_003ADateTimePicker.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NativeDateTimePickerVisualTemplateSkin_003ADateTimePicker.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NativeDateTimePickerVisualTemplateSkin_003ADateTimePicker.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NativeDateTimePickerVisualTemplateSkin_003ADateTimePicker\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NativeDateTimePickerVisualTemplateSkin_003ANativeDateTimePicker.png_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NativeTrackBarVisualTemplateSkin_003ANativeTrackBar.png_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NativeTrackBarVisualTemplateSkin_003ATrackBar.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NativeTrackBarVisualTemplateSkin_003ATrackBar.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NativeTrackBarVisualTemplateSkin_003ATrackBar.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NativeTrackBarVisualTemplateSkin_003ATrackBar\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NumericUpDownSkin_003ANumericUpDown.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NumericUpDownSkin_003ANumericUpDown.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NumericUpDownSkin_003ANumericUpDown.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NumericUpDownSkin_003ANumericUpDown\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\NumericUpDownSkin_003ANumericUpDown\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\OpenFileDialogSkin_003ACommon\About\Blank.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\OpenFileDialogSkin_003AOpenFileDialog.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\OpenFileDialogSkin_003AOpenFileDialog.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\OpenFileDialogSkin_003AOpenFileDialog.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\OpenFileDialogSkin_003AOpenFileDialog\moz.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\OpenFileDialogSkin_003AOpenFileDialog\Plugins.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\OpenFileDialogSkin_003AOpenFileDialog\SWFUpload.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\OpenFileDialogSkin_003AOpenFileDialog-Link.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PanelSkin_003APanel.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PanelSkin_003APanel.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PanelSkin_003APanel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PanelSkin_003APanel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PictureBoxSkin_003APictureBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PictureBoxSkin_003APictureBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PictureBoxSkin_003APictureBox\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PictureBoxSkin_003APictureBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ProgressBarSkin_003AProgressBar.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ProgressBarSkin_003AProgressBar.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ProgressBarSkin_003AProgressBar\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ProgressBarSkin_003AProgressBar\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PropertyGridSkin_003AGridEntry.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PropertyGridSkin_003AGridEntry\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PropertyGridSkin_003AGridEntry\WebKit.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PropertyGridSkin_003AGridEntry\WebKit\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PropertyGridSkin_003APropertyGrid.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PropertyGridSkin_003APropertyGrid.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PropertyGridSkin_003APropertyGrid.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PropertyGridSkin_003APropertyGrid\ie.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PropertyGridSkin_003APropertyGrid\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PropertyGridSkin_003APropertyGrid\moz.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PropertyGridToolStripSkin_003APropertyGridToolStrip.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PropertyGridToolStripSkin_003APropertyGridToolStrip.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\PropertyGridToolStripSkin_003APropertyGridToolStrip\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\RadioButtonSkin_003ARadioButton.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\RadioButtonSkin_003ARadioButton.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\RadioButtonSkin_003ARadioButton.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\RadioButtonSkin_003ARadioButton\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\RadioButtonSkin_003ARadioButton\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\RichTextBoxSkin_003ARichTextBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\RichTextBoxSkin_003ARichTextBox.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\RichTextBoxSkin_003ARichTextBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\RichTextBoxSkin_003ARichTextBox\Client.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\RichTextBoxSkin_003ARichTextBox\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\RichTextBoxSkin_003ARichTextBox\Frame.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\RichTextBoxSkin_003ARichTextBox\Frame.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\RichTextBoxSkin_003ARichTextBox\Frame.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\RichTextBoxSkin_003ARichTextBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\SplitterSkin_003ASplitter.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\SplitterSkin_003ASplitter.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\SplitterSkin_003ASplitter.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\SplitterSkin_003ASplitter\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\StatusBarSkin_003AStatusBar.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\StatusBarSkin_003AStatusBar.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\StatusBarSkin_003AStatusBar\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\StatusStripSkin_003AStatusStrip.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\StatusStripSkin_003AStatusStrip.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\StatusStripSkin_003AStatusStrip\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlLogicalVisualTemplateSkin_003ATabControl.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlLogicalVisualTemplateSkin_003ATabControl.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlLogicalVisualTemplateSkin_003ATabControl\grd.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlLogicalVisualTemplateSkin_003ATabControl\ie.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlLogicalVisualTemplateSkin_003ATabControl\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlLogicalVisualTemplateSkin_003ATabControl\ngrd.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlLogicalVisualTemplateSkin_003ATabControlLogical.png_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSkin_003ATabControl.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSkin_003ATabControl.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSkin_003ATabControl.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSkin_003ATabControl\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSkin_003ATabControl\grd.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSkin_003ATabControl\ie.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSkin_003ATabControl\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSkin_003ATabControl\moz.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSkin_003ATabControl\ngrd.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSpreadVisualTemplateSkin_003ATabControl.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSpreadVisualTemplateSkin_003ATabControl.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSpreadVisualTemplateSkin_003ATabControl\grd.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSpreadVisualTemplateSkin_003ATabControl\ie.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSpreadVisualTemplateSkin_003ATabControl\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSpreadVisualTemplateSkin_003ATabControl\ngrd.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabControlSpreadVisualTemplateSkin_003ATabControlSpread.png_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TableLayoutPanelSkin_003ATableLayoutPanel.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TableLayoutPanelSkin_003ATableLayoutPanel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TableLayoutPanelSkin_003ATableLayoutPanel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabPageSkin_003ATabPage.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabPageSkin_003ATabPage.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabPageSkin_003ATabPage\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TabPageSkin_003ATabPage\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TaskBarSkin_003ATaskBar.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TaskBarSkin_003ATaskBarItemTemplate.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TaskBarSkin_003ATaskBarTemplate.htm_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TextBoxSkin_003ATextBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TextBoxSkin_003ATextBox.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TextBoxSkin_003ATextBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TextBoxSkin_003ATextBox\ie.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TextBoxSkin_003ATextBox\ie.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TextBoxSkin_003ATextBox\ie.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TextBoxSkin_003ATextBox\ie\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TextBoxSkin_003ATextBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TextBoxSkin_003ATextBox\moz.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TextBoxSkin_003ATextBox\moz.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TextBoxSkin_003ATextBox\moz.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TextBoxSkin_003ATextBox\moz\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TitleLabelVisualTemplateSkin_003ALabel.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TitleLabelVisualTemplateSkin_003ALabel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TitleLabelVisualTemplateSkin_003ALabel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TitleLabelVisualTemplateSkin_003ALabelTitleTemplate.png_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolBarButtonSkin_003AToolBarButton.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolBarButtonSkin_003AToolBarButton.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolBarButtonSkin_003AToolBarButton\BI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolBarButtonSkin_003AToolBarButton\BI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolBarButtonSkin_003AToolBarButton\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolBarButtonSkin_003AToolBarButton\NBI.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolBarButtonSkin_003AToolBarButton\NBI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolBarButtonSkin_003AToolBarButton\NBI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolBarSkin_003AToolBar.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolBarSkin_003AToolBar.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolBarSkin_003AToolBar\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripButtonSkin_003AToolStripButton.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripButtonSkin_003AToolStripButton.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripButtonSkin_003AToolStripButton.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripButtonSkin_003AToolStripButton\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripControlHostSkin_003AToolStripControlHost.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripControlHostSkin_003AToolStripControlHost\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripDropDownButtonSkin_003AToolStripDropDownButton.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripDropDownButtonSkin_003AToolStripDropDownButton.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripDropDownButtonSkin_003AToolStripDropDownButton\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripLabelSkin_003AToolStripLabel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripLabelSkin_003AToolStripLabel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripLabelSkin_003AToolStripLabelSkin.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripSeparatorSkin_003AToolStripSeparator.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripSeparatorSkin_003AToolStripSeparator.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripSeparatorSkin_003AToolStripSeparator\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripSkin_003AToolStrip.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripSkin_003AToolStrip.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripSkin_003AToolStrip.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripSkin_003AToolStrip\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripSplitButtonSkin_003AToolStripSplitButton.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripSplitButtonSkin_003AToolStripSplitButton.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripSplitButtonSkin_003AToolStripSplitButton.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripSplitButtonSkin_003AToolStripSplitButton\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripStatusLabelSkin_003AToolStripStatusLabel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolStripStatusLabelSkin_003AToolStripStatusLabel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolTipSkin_003AToolTip.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolTipSkin_003AToolTip.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\ToolTipSkin_003AToolTip\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TrackBarSkin_003ATrackBar.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TrackBarSkin_003ATrackBar.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TrackBarSkin_003ATrackBar.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TrackBarSkin_003ATrackBar\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TreeViewSkin_003ATreeView.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TreeViewSkin_003ATreeView.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TreeViewSkin_003ATreeView.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TreeViewSkin_003ATreeView\ClientDOM.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TreeViewSkin_003ATreeView\ie.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TreeViewSkin_003ATreeView\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TreeViewSkin_003ATreeView\moz.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TreeViewVisualTemplateSkin_003ATreeViewVisualTemplate.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TreeViewVisualTemplateSkin_003ATreeViewVisualTemplate.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TreeViewVisualTemplateSkin_003ATreeViewVisualTemplate.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TreeViewVisualTemplateSkin_003ATreeViewVisualTemplate\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\TreeViewVisualTemplateSkin_003ATreeViewVisualTemplate_Paging.png_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\UpDownBaseSkin_003AUpDownBase.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\UpDownBaseSkin_003AUpDownBase.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\UpDownBaseSkin_003AUpDownBase.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\UpDownBaseSkin_003AUpDownBase\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\UserControlSkin_003AUserControl.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\UserControlSkin_003AUserControl\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\VirtualDataGridViewSkin_003AVirtualDataGridView.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\VirtualDataGridViewSkin_003AVirtualDataGridView.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\VirtualDataGridViewSkin_003AVirtualDataGridView.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\VirtualDataGridViewSkin_003AVirtualDataGridView\ie.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\VirtualDataGridViewSkin_003AVirtualDataGridView\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\VirtualDataGridViewSkin_003AVirtualDataGridView\moz.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\WatermarkTextBoxSkin_003AWatermarkTextBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\WatermarkTextBoxSkin_003AWatermarkTextBox.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\WatermarkTextBoxSkin_003AWatermarkTextBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\Skins\WatermarkTextBoxSkin_003AWatermarkTextBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripContainerSkin_003AToolStripContainer.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripContainerSkin_003AToolStripContainer.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripContainerSkin_003AToolStripContainer\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripDropDownContentPanelSkin_003APanel.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripDropDownContentPanelSkin_003APanel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripDropDownContentPanelSkin_003APanel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripDropDownSkin_003AToolStripDropDown.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripDropDownSkin_003AToolStripDropDown.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripDropDownSkin_003AToolStripDropDown\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripMenuItemSkin_003AToolStripMenuItem.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripMenuItemSkin_003AToolStripMenuItem.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripMenuItemSkin_003AToolStripMenuItem.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripMenuItemSkin_003AToolStripMenuItem\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripPanelSkin_003AToolStripPanel.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripPanelSkin_003AToolStripPanel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ToolStripPanelSkin_003AToolStripPanel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneCloseButtonSkin_003AZoneCloseButton.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneCloseButtonSkin_003AZoneCloseButton.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneCloseButtonSkin_003AZoneCloseButton\BI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneCloseButtonSkin_003AZoneCloseButton\BI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneCloseButtonSkin_003AZoneCloseButton\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneCloseButtonSkin_003AZoneCloseButton\NBI.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneCloseButtonSkin_003AZoneCloseButton\NBI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneCloseButtonSkin_003AZoneCloseButton\NBI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneDropDownButtonSkin_003AZoneDropDownButton.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneDropDownButtonSkin_003AZoneDropDownButton.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneDropDownButtonSkin_003AZoneDropDownButton\BI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneDropDownButtonSkin_003AZoneDropDownButton\BI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneDropDownButtonSkin_003AZoneDropDownButton\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneDropDownButtonSkin_003AZoneDropDownButton\NBI.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneDropDownButtonSkin_003AZoneDropDownButton\NBI.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneDropDownButtonSkin_003AZoneDropDownButton\NBI\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneHeaderLabelSkin_003ALabel.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneHeaderLabelSkin_003ALabel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneHeaderLabelSkin_003ALabel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneHeaderPanelSkin_003APanel.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneHeaderPanelSkin_003APanel.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneHeaderPanelSkin_003APanel\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZonePinCheckBoxSkin_003ACheckBox.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZonePinCheckBoxSkin_003ACheckBox.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZonePinCheckBoxSkin_003ACheckBox\jqt.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneSkin_003AZone.css_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneSkin_003AZone.js_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneSkin_003AZone.xslt_003AContent" />
+    <Resource Include="Skin_003AGizmox\WebGUI\Forms\ZoneSkin_003AZone\jqt.js_003AContent" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\Administration\CustomComponents\AdministrationButtonSkin.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Administration\CustomComponents\AdministrationHeaderLabelSkin.resx" />
+    <EmbeddedResource Include="Forms\Administration\CustomComponents\AdministrationTabsSkin.resx" />
+    <EmbeddedResource Include="Forms\Administration\CustomComponents\AdministrationWatermarkTextBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\BindingNavigator_45.bmp" />
+    <EmbeddedResource Include="Forms\BindingSource_45.bmp" />
+    <EmbeddedResource Include="Forms\BorderlessTextBoxVisualTemplateSkin.resx" />
+    <EmbeddedResource Include="Forms\Button.resx" />
+    <EmbeddedResource Include="Forms\Button_45.bmp" />
+    <EmbeddedResource Include="Forms\CheckBox.resx" />
+    <EmbeddedResource Include="Forms\CheckBox_45.bmp" />
+    <EmbeddedResource Include="Forms\CheckBoxSwitchVisualTemplateSkin.resx" />
+    <EmbeddedResource Include="Forms\CheckedListBox.resx" />
+    <EmbeddedResource Include="Forms\CheckedListBox_45.bmp" />
+    <EmbeddedResource Include="Forms\ColorDialog_45.bmp" />
+    <EmbeddedResource Include="Forms\ColorListBox.bmp" />
+    <EmbeddedResource Include="Forms\ColumnChooserButtonSkin.resx" />
+    <EmbeddedResource Include="Forms\ColumnHeader.resx" />
+    <EmbeddedResource Include="Forms\ComboBox.resx" />
+    <EmbeddedResource Include="Forms\Component.resx" />
+    <EmbeddedResource Include="Forms\ContainerControl.resx" />
+    <EmbeddedResource Include="Forms\ContextualToolbar\ContextualToolbarSkin.resx" />
+    <EmbeddedResource Include="Forms\ContextualToolbar\ProxyControlContextualToolbarSkin.resx" />
+    <EmbeddedResource Include="Forms\Controls\ItemChooser.resx" />
+    <EmbeddedResource Include="Forms\ControlsEventArgs.resx" />
+    <EmbeddedResource Include="Forms\DataGridView.resx" />
+    <EmbeddedResource Include="Forms\DataGridView_45.bmp" />
+    <EmbeddedResource Include="Forms\DataGridViewActiveTextBoxCellSkin.resx" />
+    <EmbeddedResource Include="Forms\DataGridViewComboBoxPopup.css" />
+    <EmbeddedResource Include="Forms\DataGridViewGroupingHeader.resx" />
+    <EmbeddedResource Include="Forms\DataGridViewGroupingTreeViewSkin.resx" />
+    <EmbeddedResource Include="Forms\DataGridViewHeaderFilterComboBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\DateTimePicker_45.bmp" />
+    <EmbeddedResource Include="Forms\Design\AnchorPanelSkin.resx" />
+    <EmbeddedResource Include="Forms\Design\DockButtonSkin.resx" />
+    <EmbeddedResource Include="Forms\DeviceIntegration\DeviceIntegratorSkin.resx" />
+    <EmbeddedResource Include="Forms\DockedHiddenZonesPanelSkin.resx" />
+    <EmbeddedResource Include="Forms\DockedTabControlSkin.resx" />
+    <EmbeddedResource Include="Forms\DockingManagerSkin.resx" />
+    <EmbeddedResource Include="Forms\DockingWindowName.resx" />
+    <EmbeddedResource Include="Forms\DomainUpDown_45.bmp" />
+    <EmbeddedResource Include="Forms\ErrorProvider_45.bmp" />
+    <EmbeddedResource Include="Forms\FileDialog.bmp" />
+    <EmbeddedResource Include="Forms\FlowLayoutPanel_45.bmp" />
+    <EmbeddedResource Include="Forms\FolderBrowserDialog_45.bmp" />
+    <EmbeddedResource Include="Forms\FontDialog_45.bmp" />
+    <EmbeddedResource Include="Forms\Form.bmp" />
+    <EmbeddedResource Include="Forms\Form.resx" />
+    <EmbeddedResource Include="Forms\GroupBox_45.bmp" />
+    <EmbeddedResource Include="Forms\HelpProvider_45.bmp" />
+    <EmbeddedResource Include="Forms\Hosts\ActiveXBox_45.png" />
+    <EmbeddedResource Include="Forms\Hosts\AppletBox_45.png" />
+    <EmbeddedResource Include="Forms\Hosts\AspControlBoxBase.bmp" />
+    <EmbeddedResource Include="Forms\Hosts\AspPageBox_45.png" />
+    <EmbeddedResource Include="Forms\Hosts\FlashBox_45.png" />
+    <EmbeddedResource Include="Forms\Hosts\FormBox_45.png" />
+    <EmbeddedResource Include="Forms\Hosts\Skins\AspControlBoxBaseSkin.resx" />
+    <EmbeddedResource Include="Forms\Hosts\Skins\AspPageBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Hosts\Skins\ObjectBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Hosts\Skins\XamlBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Hosts\XamlBox_45.png" />
+    <EmbeddedResource Include="Forms\HtmlBox_45.bmp" />
+    <EmbeddedResource Include="Forms\ImageList_45.bmp" />
+    <EmbeddedResource Include="Forms\Label_45.bmp" />
+    <EmbeddedResource Include="Forms\LinkLabel_45.bmp" />
+    <EmbeddedResource Include="Forms\ListBox_45.bmp" />
+    <EmbeddedResource Include="Forms\ListView.resx" />
+    <EmbeddedResource Include="Forms\ListView_45.bmp" />
+    <EmbeddedResource Include="Forms\MainMenu_45.bmp" />
+    <EmbeddedResource Include="Forms\MaskedTextBox_45.bmp" />
+    <EmbeddedResource Include="Forms\MdiClient.bmp" />
+    <EmbeddedResource Include="Forms\MenuStrip_45.bmp" />
+    <EmbeddedResource Include="Forms\MessageBoxWindow.bmp" />
+    <EmbeddedResource Include="Forms\MonthCalendar.resx" />
+    <EmbeddedResource Include="Forms\MonthCalendar_45.bmp" />
+    <EmbeddedResource Include="Forms\NumericUpDown_45.bmp" />
+    <EmbeddedResource Include="Forms\OpenFileDialog_45.bmp" />
+    <EmbeddedResource Include="Forms\OrientationTabControlSkin.resx" />
+    <EmbeddedResource Include="Forms\Panel_45.bmp" />
+    <EmbeddedResource Include="Forms\PictureBox_45.bmp" />
+    <EmbeddedResource Include="Forms\PrintDialog_45.bmp" />
+    <EmbeddedResource Include="Forms\ProgressBar.resx" />
+    <EmbeddedResource Include="Forms\ProgressBar_45.bmp" />
+    <EmbeddedResource Include="Forms\PropertyGrid_45.bmp" />
+    <EmbeddedResource Include="Forms\RadioButton_45.bmp" />
+    <EmbeddedResource Include="Forms\Resources\AdminLogo.png" />
+    <EmbeddedResource Include="Forms\Resources\IconForm.png" />
+    <EmbeddedResource Include="Forms\Resources\LogoBottom.png" />
+    <EmbeddedResource Include="Forms\Resources\LogoTop.png" />
+    <EmbeddedResource Include="Forms\Resources\null-set-icon.gif" />
+    <EmbeddedResource Include="Forms\Resources\Resources.xml" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\iscroll-probe.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\iScroll-probe\min.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQuery.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQuery\min.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jquery\mousewheel.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jquery\mousewheel\min.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQueryFormat.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQueryFormat\min.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQueryTemplates.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQueryTemplates\min.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQueryTemplatesTest.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQueryTemplatesTest\min.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQuery-UI.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQuery-UI\min.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQuery-UI-Touch-Punch.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQuery-UI-Touch-Punch\min.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQuery-VWGExtentions.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQuery-VWGExtentions\min.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQueryXPath.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQueryXPath\min.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQueryXPathEngine.js" />
+    <EmbeddedResource Include="Forms\Resources\Scripts\jQueryXPathEngine\min.js" />
+    <EmbeddedResource Include="Forms\Resources\StyleSheets\jQuery-UI.css" />
+    <EmbeddedResource Include="Forms\Resources\StyleSheets\jQuery-UI\min.css" />
+    <EmbeddedResource Include="Forms\RichTextBox_45.bmp" />
+    <EmbeddedResource Include="Forms\SaveFileDialog_45.bmp" />
+    <EmbeddedResource Include="Forms\ScrollableControl.resx" />
+    <EmbeddedResource Include="Forms\ScrollablePanel.cs" />
+    <EmbeddedResource Include="Forms\ScrollablePanel.css" />
+    <EmbeddedResource Include="Forms\ScrollablePanel.xslt" />
+    <EmbeddedResource Include="Forms\ShortcutsContainer.resx" />
+    <EmbeddedResource Include="Forms\Skins\BindingNavigatorSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\BorderlessButtonVisualTemplateSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ButtonBaseSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ButtonSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\CheckBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\CheckedListBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ColorComboBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ColorDialogSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ColorListBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ComboBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\CommonDialogSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\CommonSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ContainerControlSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ControlSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\DataGridViewButtonCellSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\DataGridViewCellPanelSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\DataGridViewCheckBoxCellSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\DataGridViewComboBoxCellSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\DataGridViewFilterButtonSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\DataGridViewFilterComboBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\DataGridViewImageCellSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\DataGridViewLinkCellSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\DataGridViewMobileVisualTemplateSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\DataGridViewSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\DataGridViewTextBoxCellSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\DateTimePickerPopupSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\DateTimePickerSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\DomainUpDownSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\FileDialogSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\FlatToolBarButtonSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\FlatToolBarSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\FlowLayoutPanelSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\FolderBrowserDialogSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\FontDialogSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\FormSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\FrameControlSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\GroupBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\HeaderLabelVisualTemplateSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\HtmlBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\LabelSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\LinkLabelSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ListBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ListViewSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ListViewVisualTemplateSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\LoadingSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\MainMenuSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\MaskedTextBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\MasterPageContentSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\MasterPageSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\MdiClientSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\MenuItemSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\MenuSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\MenuStripSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\MessageBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\MonthCalendarSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\NativeComboBoxVisualTemplateSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\NativeDateTimePickerVisualTemplateSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\NativeTrackBarVisualTemplateSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\NumericUpDownSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\OpenFileDialogSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\PanelSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\PictureBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\PopupsSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ProgressBarSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\PropertyGridSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\PropertyGridToolStripSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\RadioButtonSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\RichTextBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ScrollableControlSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\SplitContainerSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\SplitterPanelSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\SplitterSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\StatusBarSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\StatusStripSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\TabControlLogicalVisualTemplateSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\TabControlSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\TabControlSpreadVisualTemplateSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\TableLayoutPanelSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\TabPageSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\TaskBarSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\TextBoxBaseSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\TextBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\TitleLabelVisualTemplateSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ToolBarButtonSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ToolBarSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ToolStripButtonSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ToolStripControlHostSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ToolStripDropDownButtonSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ToolStripLabelSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ToolStripSeparatorSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ToolStripSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ToolStripSplitButtonSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ToolStripStatusLabelSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\ToolTipSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\TrackBarSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\TreeViewSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\TreeViewVisualTemplateSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\UpDownBaseSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\UserControlSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\VirtualDataGridViewSkin.resx" />
+    <EmbeddedResource Include="Forms\Skins\WatermarkTextBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\SplitContainer_45.bmp" />
+    <EmbeddedResource Include="Forms\Splitter_45.bmp" />
+    <EmbeddedResource Include="Forms\SR.resx" />
+    <EmbeddedResource Include="Forms\StatusBar.resx" />
+    <EmbeddedResource Include="Forms\StatusBar_45.bmp" />
+    <EmbeddedResource Include="Forms\TabControl_45.bmp" />
+    <EmbeddedResource Include="Forms\TabControlCancelEventArgs.resx" />
+    <EmbeddedResource Include="Forms\TableLayoutPanel_45.bmp" />
+    <EmbeddedResource Include="Forms\TabPage.bmp" />
+    <EmbeddedResource Include="Forms\TextBox_45.bmp" />
+    <EmbeddedResource Include="Forms\Timer.resx" />
+    <EmbeddedResource Include="Forms\Timer_45.bmp" />
+    <EmbeddedResource Include="Forms\ToolBar.resx" />
+    <EmbeddedResource Include="Forms\ToolStrip.bmp" />
+    <EmbeddedResource Include="Forms\ToolStrip_45.bmp" />
+    <EmbeddedResource Include="Forms\ToolStripContainer_45.bmp" />
+    <EmbeddedResource Include="Forms\ToolStripContainerSkin.resx" />
+    <EmbeddedResource Include="Forms\ToolStripDropDown.bmp" />
+    <EmbeddedResource Include="Forms\ToolStripDropDownContentPanelSkin.resx" />
+    <EmbeddedResource Include="Forms\ToolStripDropDownMenu.bmp" />
+    <EmbeddedResource Include="Forms\ToolStripDropDownSkin.resx" />
+    <EmbeddedResource Include="Forms\ToolStripMenuItemSkin.resx" />
+    <EmbeddedResource Include="Forms\ToolStripPanel_standalone.bmp" />
+    <EmbeddedResource Include="Forms\ToolStripPanelSkin.resx" />
+    <EmbeddedResource Include="Forms\ToolTip.resx" />
+    <EmbeddedResource Include="Forms\ToolTip_45.bmp" />
+    <EmbeddedResource Include="Forms\TreeView.resx" />
+    <EmbeddedResource Include="Forms\TreeView_45.bmp" />
+    <EmbeddedResource Include="Forms\UserControl.bmp" />
+    <EmbeddedResource Include="Forms\VirtualDataGridView_45.png" />
+    <EmbeddedResource Include="Forms\ZoneCloseButtonSkin.resx" />
+    <EmbeddedResource Include="Forms\ZoneDropDownButtonSkin.resx" />
+    <EmbeddedResource Include="Forms\ZoneHeaderLabelSkin.resx" />
+    <EmbeddedResource Include="Forms\ZoneHeaderPanelSkin.resx" />
+    <EmbeddedResource Include="Forms\ZonePinCheckBoxSkin.resx" />
+    <EmbeddedResource Include="Forms\ZoneSkin.resx" />
+    <EmbeddedResource Include="Virtualization\Management\XmlDocumentNode.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

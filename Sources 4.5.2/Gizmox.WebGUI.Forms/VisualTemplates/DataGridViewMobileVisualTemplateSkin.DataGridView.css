@@ -1,0 +1,592 @@
+.DataGridView-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.Foreground];
+	[Skin.VisualEffect]
+}
+
+.DataGridView-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.DataGridView-Control_Disabled .DataGridView-ColumnHeader
+{
+    [Skin.ControlTextForegroundDisabled];
+    [Skin.ControlTextBackgroundDisabled];
+}
+
+.DataGridView-RowHeader
+{
+	[Skin.RowHeaderNormalStyle];
+	box-sizing:border-box;		
+}
+
+.DataGridView-RowHeader_Selected
+{
+	[Skin.SelectedRowHeaderOpacity];
+}
+
+.DataGridView-ColumnHeader
+{
+	[Skin.ColumnHeaderNormalStyle];
+	cursor:pointer;
+	box-sizing:border-box;	
+}
+
+.DataGridView-TopHeader
+{
+	[Skin.LeftTopHeaderNormalStyle];		
+}
+
+.DataGridView-Cell
+{
+	[Skin.CellNormalStyle];
+	overflow:hidden;
+	box-sizing:border-box;		
+}
+
+.DataGridView-Cell_Selected
+{
+	[Skin.CellSelectedStyle];
+	overflow:hidden;
+	box-sizing:border-box;		
+}
+
+.DataGridView-RowHeaderCellBorderStyle
+{
+	[Skin.GridLines];
+	border-left:none;
+	border-top:none;		
+}
+
+.DataGridView-Cells 
+{
+	overflow:hidden;
+}
+
+.DataGridView-RowHeaderSplitter
+{
+	cursor:n-resize;
+	overflow:hidden;
+	height:3px;
+}
+
+
+.DataGridView-Space
+{
+	background:transparent;
+	border:none;
+}
+
+.DataGridView-PagingPanelHeight
+{
+	height:[Skin.PagingPanelHeight]px;
+}
+
+.DataGridView-ColumnChooser
+{
+	[Skin.ColumnChooserStyle];	
+	cursor:pointer;
+}
+
+.DataGridView-ExpandCollapseColumn
+{
+	width:[Skin.ExpandCollapseColumnWidth]px;
+}
+
+.DataGridView-ExpandButton
+{
+	cursor:pointer;
+	[Skin.ExpandButtonImageStyle];
+}
+.DataGridView-CollapseButton
+{
+	cursor:pointer;
+	[Skin.CollapseButtonImageStyle];
+}
+
+.DataGridView-ExpandButtonRowHeader
+{
+	[Skin.ExpandedRowHeaderStyle];
+	
+}
+
+.DataGridView-EmptyExpandCollapse
+{
+	[Skin.EmptyExpandCollapseImageStyle];	
+}
+
+.DataGridView-PagingPanelStyle
+{
+	[Skin.PagingPanelStyle];
+}
+
+.DataGridView-PagingFirstImageWidth
+{
+	width:[Skin.PagingFirstButtonWidth]px;
+}
+
+.DataGridView-PagingLastImageWidth
+{
+	width:[Skin.PagingLastButtonWidth]px;
+}
+
+.DataGridView-PagingPreviousImageWidth
+{
+	width:[Skin.PagingPreviousButtonWidth]px;
+}
+
+.DataGridView-PagingNextImageWidth
+{
+	width:[Skin.PagingNextButtonWidth]px;
+}
+
+.DataGridView-PagingGotoBox
+{
+	[Skin.PagingGotoBoxStyle];
+	text-align:center;
+}
+
+.DataGridView-PagingLastButtonStyle
+{
+	[Skin.BidirectionalPagingLastButtonStyle];
+	height:100%;
+}
+
+.DataGridView-PagingFirstButtonStyle
+{
+	[Skin.BidirectionalPagingFirstButtonStyle];
+	height:100%;
+}
+
+.DataGridView-PagingNextButtonStyle
+{
+	[Skin.BidirectionalPagingNextButtonStyle];
+	height:100%;
+}
+
+.DataGridView-PagingPrevButtonStyle
+{
+	[Skin.BidirectionalPagingPrevButtonStyle];
+	height:100%;
+}
+
+.DataGridView-RowHeaderText
+{
+	white-space:nowrap;
+}
+
+.DataGridView-Caption
+{
+    [Skin.CaptionStyle];
+    padding:0;
+}
+
+.DataGridView-ClearAllFiltersButton
+{
+    [Skin.FilterRowClearButtonStyle];
+    width: [Skin.FilterClearButtonImageWidth]px; 
+    height:[Skin.FilterClearButtonImageHeight]px;   
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.DataGridView-GroupingDropArea
+{
+    [Skin.GroupingDropAreaStyle];
+}
+
+td.DataGridView-GroupingDropAreaEmptyMessage
+{
+    [Skin.GroupingDropAreaEmptyMessageStyle];
+}
+
+.DataGridView-DropIndicator
+{
+    [Skin.DropIndicatorStyle];
+    width:[Skin.DropIndicatorDownArrowImageWidth]px;
+    height:[Skin.DropIndicatorDownArrowImageHeight]px;
+}
+
+.DataGridView-ColumnHeaderSplitter
+{
+	cursor:e-resize;
+	overflow:hidden;
+}
+
+.DataGridView-RowHeaderIconFirstContainer
+{
+	display:table;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+.DataGridView-RowHeaderIconSecondContainer
+{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.DataGridView-ExtendedColumnsNonFrozen
+{
+    [Skin.ExtendedColumnsNonFrozenStyle];    
+}
+
+.DataGridView-ExtendedColumnsFrozen
+{
+    [Skin.ExtendedColumnsFrozenStyle];    
+}
+
+.DataGridView-ExtendedColumnsCorner
+{
+    [Skin.ExtendedColumnsCornerStyle];    
+}
+
+
+.DataGridView-OptionsCaption
+{
+    height:100%;
+    vertical-align:middle;
+    left:0px;
+    background-image:url([Skin.DataGridViewVisualTemplatePropertiesImage]);
+}
+
+.DataGridView-NewRowCaption
+{
+    height:100%;
+    vertical-align:middle;
+    right:0px;
+    background-image:url([Skin.DataGridViewVisualTemplateAddNewRowImage]);
+}
+
+.DataGridView-GenericButton
+{
+    height:100%;
+    vertical-align:middle;    
+    display:inline-block;
+    /*background-color:red;*/
+	color:blue;
+    [Skin.CaptionMenuButtonStyle];
+}
+
+.DataGridView-GenericButton_Selected
+{
+    height:100%;
+    vertical-align:middle;    
+    display:inline-block;
+    background-color:blue;
+    [Skin.CaptionMenuButtonSelectedStyle];
+}
+
+.DataGridView-CaptionText
+{
+    vertical-align:middle;
+}
+
+.DataGridView-CaptionMenuButton
+{
+    position:absolute;
+    display:inline-block;
+    background-color:red;
+    [Skin.CaptionMenuButtonStyle];
+    width:[Skin.CaptionMenuButtonWidth]px;
+    height:[Skin.CaptionMenuButtonHeight]px;
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+}
+
+.DataGridView-BottomMenu
+{
+    [Skin.BottomMenuStyle];
+}
+
+.DataGridView-BottomMenuButton
+{
+    position:absolute;
+    display:inline-block;
+    background-color:red;
+    [Skin.BottomMenuButtonStyle];
+    width:[Skin.BottomMenuButtonWidth]px;
+    height:[Skin.BottomMenuButtonHeight]px;
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+}
+
+.DataGridView-ViewBottomMenuButton
+{
+    background-image:url([Skin.DataGridViewVisualTemplateViewConfigurationImage]);
+}
+
+.DataGridView-SortBottomMenuButton
+{
+    background-image:url([Skin.DataGridViewVisualTemplateSortImage]);
+}
+
+.DataGridView-FilterBottomMenuButton
+{
+    background-image:url([Skin.DataGridViewVisualTemplateFilterImage]);
+}
+
+.DataGridView-ViewContainer
+{
+    position:absolute;
+    top:0px;
+    height:100%;
+    width:100%;
+    background-color:lightgray;
+    overflow-x:auto;
+	z-index:1;
+}
+
+.DataGridView-ViewContainer_Hidden
+{
+    left:-100%;
+}
+
+.DataGridView-SortContainer
+{
+    position:absolute;
+    top:0px;
+    height:100%;
+    width:100%;
+    background-color:red;
+	z-index:1;
+}
+
+.DataGridView-SortContainer_Hidden
+{
+    left:-100%;
+}
+
+.DataGridView-FilterContainer
+{
+    position:absolute;
+    top:0px;
+    height:100%;
+    width:100%;
+    background-color:lightblue;
+    overflow-x:auto;
+	z-index:1;
+}
+
+.DataGridView-FilterContainer_Hidden
+{
+    left:-100%;
+}
+
+.DataGridView-DisplayOrderColumnRow
+{
+    [Skin.DisplayOrderColumnRowStyle];
+    width:100%;
+}
+
+.DataGridView-ViewSubTitle
+{
+	[Skin.ViewSubTitleStyle];
+}
+
+.DataGridView-ViewColumnRow
+{
+    [Skin.ViewColumnRowStyle];
+    width:100%;
+}
+
+.DataGridView-ViewCategoryTitleColumnRow
+{
+    [Skin.ViewCategoryTitleColumnRowStyle];
+    width:100%;
+}
+
+.DataGridView-AddGroupColumnRow
+{
+    [Skin.AddGroupColumnRowStyle];
+    width:100%;
+}
+
+.DataGridView-GroupColumnRow
+{
+    [Skin.GroupColumnRowStyle];
+    width:100%;
+}
+
+.DataGridView-ViewColumnText
+{
+    [Skin.ViewColumnTextStyle];
+    height:100%;
+    vertical-align:middle;    
+    display:inline;
+}
+
+.DataGridView-ViewColumnData
+{
+    [Skin.ViewColumnDataStyle];
+    height:100%;
+    vertical-align:middle;    
+    display:inline;
+}
+
+.DataGridView-ViewColumnNext
+{
+    background-image:url([Skin.DataGridViewVisualTemplateFilterColumnNextImage]);
+    width:[Skin.DataGridViewVisualTemplateFilterColumnNextWidth]px;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    display:inline;
+}
+
+.DataGridView-ViewListLayoutButton
+{
+    background-image:url([Skin.DataGridViewVisualTemplateListEnabledImage]);
+	width:[Skin.DataGridViewVisualTemplateListEnabledWidth]px;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    display:inline;
+}
+
+.DataGridView-ViewListLayoutButton_Disabled
+{
+    background-image:url([Skin.DataGridViewVisualTemplateListDisabledImage]);
+	width:[Skin.DataGridViewVisualTemplateListDisabledWidth]px;
+    height:100%;
+    background-repeat:no-repeat;
+	background-position:center;
+    display:inline;
+}
+
+.DataGridView-ViewTableLayoutButton
+{
+    background-image:url([Skin.DataGridViewVisualTemplateTableEnabledImage]);
+	width:[Skin.DataGridViewVisualTemplateTableEnabledWidth]px;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    display:inline;
+}
+
+.DataGridView-ViewTableLayoutButton_Disabled
+{
+    background-image:url([Skin.DataGridViewVisualTemplateTableDisabledImage]);
+	width:[Skin.DataGridViewVisualTemplateTableDisabledWidth]px;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    display:inline;
+}
+
+.DataGridView-ViewByGroupsButton
+{
+    background-image:url([Skin.DataGridViewVisualTemplateViewByGroupsEnabledImage]);
+	width:[Skin.DataGridViewVisualTemplateViewByGroupsEnabledWidth]px;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    display:inline;
+}
+
+.DataGridView-ViewByGroupsButton_Disabled
+{
+    background-image:url([Skin.DataGridViewVisualTemplateViewByGroupsDisabledImage]);
+	width:[Skin.DataGridViewVisualTemplateViewByGroupsDisabledWidth]px;
+	height:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    display:inline;
+}
+
+.DataGridView-AddGroupButton
+{
+    background-image:url([Skin.DataGridViewVisualTemplateAddGroupImage]);
+	width:[Skin.DataGridViewVisualTemplateAddGroupWidth]px;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    display:inline;
+}
+
+.DataGridView-GroupOrderContainer
+{
+    width:100%;
+}
+
+.DataGridView-GroupOrderContainer_Hidden
+{
+    display:none;
+}
+
+.DataGridView-SortColumnRow
+{
+    [Skin.SortColumnRowStyle];
+    width:100%;
+}
+
+.DataGridView-SortColumnText
+{
+    [Skin.SortColumnTextStyle];
+    height:100%;
+    vertical-align:middle;    
+    display:inline;
+}
+
+.DataGridView-SortColumnCheck
+{
+    background-image:url([Skin.DataGridViewVisualTemplateSortColumnCheckImage]);
+    width:[Skin.DataGridViewVisualTemplateSortColumnCheckWidth]px;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    display:inline;
+    position:absolute;
+}
+
+.DataGridView-FilterColumnRow
+{
+    [Skin.SortColumnRowStyle];
+    width:100%;
+}
+
+
+.DataGridView-FilterColumnText
+{
+    [Skin.FilterColumnTextStyle];
+    height:100%;
+    vertical-align:middle;    
+    display:inline;
+}
+
+.DataGridView-FilterColumnData
+{
+    [Skin.FilterColumnDataStyle];
+    height:100%;
+    vertical-align:middle;    
+    display:inline;
+}
+
+.DataGridView-FilterColumnNext
+{
+    background-image:url([Skin.DataGridViewVisualTemplateFilterColumnNextImage]);
+    width:[Skin.DataGridViewVisualTemplateFilterColumnNextWidth]px;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    display:inline;
+}
+
+.DataGridView-FilterColumnNextOperatorImage
+{
+    background-position:50% 50%;
+}
+
+.DataGridView-FilterColumnCheck
+{
+    background-image:url([Skin.DataGridViewVisualTemplateSortColumnCheckImage]);
+    width:[Skin.DataGridViewVisualTemplateSortColumnCheckWidth]px;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    display:inline;
+}

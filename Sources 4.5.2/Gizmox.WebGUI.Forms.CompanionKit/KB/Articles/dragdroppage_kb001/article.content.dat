@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634127371906460378" UpdatedBy="admin" UpdatedOn="634127373637877709">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains two <em>ListBoxes </em>with defined drag target and with allowed drop item. The <em>AllowDrop </em>property value is true for the 'ListBox with allowed drop' <em>ListBox </em>that is set as item of the <em>DragTargets </em>array for the 'ListBox with defined drag target' <em>ListBox</em>. Select item of the 'ListBox with defined drag target' <em>ListBox </em>and press mouse button on it and move the mouse cursor to the 'ListBox with allowed drop' <em>ListBox</em>. Release mouse button, when mouse cursor is on this <em>ListBox</em>. Selected node is added to the 'ListBox with allowed drop' <em>ListBox</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ListBox </em>contains <em>AllowDrop </em>and <em>DragTargets </em>properties and <em>DragDrop </em>event for using drag and drop method for it. The <em>AllowDrop </em>property indicates whether this control accepts dropping dragged content to it. The <em>DragTargets </em>property defines the valid drag and drop targets when drag starts from this control. The <em>DragDrop </em>event occurs when a drag-and-drop operation is completed.</p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634075658374742991" UpdatedBy="admin" UpdatedOn="634076485869466491">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check/Uncheck 'Maximize button' and 'Minimize button' CheckBoxes and select form state in the 'Form state' ComboBox. Click on the 'Open form with selected window state' button. The form will be opened with Enable or Disable Maximize Box and Maximize Box according to checked state of the 'Maximize button' and 'Minimize button' <em>CheckBoxes </em>respectively. And the <em>Form </em>will be opened in the state according to selected state in 'Form state' <em>ComboBox</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2" />
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>The <em>Form </em>contains the following property for manipulating its state:<br /><strong>MaximizeBox </strong>&ndash; indicates whether window maximize button is enabled;<br /><strong>MinimizeBox </strong>- indicates whether window minimize button is enabled;<br /><strong>WindowState </strong>&ndash; defines current the state of the form.<br /><br />The <em>Form </em>can be in the following states:<br /><strong>Normal </strong>- a default sized form;<br /><strong>Minimized </strong>- a minimized form;<br /><strong>Maximized </strong>- a maximized form.</p>]]></Paragraph>
+  </Nodes>
+</Data>

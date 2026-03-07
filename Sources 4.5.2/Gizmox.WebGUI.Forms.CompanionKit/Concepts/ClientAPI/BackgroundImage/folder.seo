@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>BackgroundImage demonstration</Title>
+  <Properties />
+  <DisplayName>BackgroundImage</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgControl</Keyword>
+    <Keyword>Control</Keyword>
+    <Keyword>backgroundImageUrl</Keyword>
+    <Keyword>Panel</Keyword>
+    <Keyword>custom</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.BackgroundImage.Overview</DefaultPage>
+</Item>

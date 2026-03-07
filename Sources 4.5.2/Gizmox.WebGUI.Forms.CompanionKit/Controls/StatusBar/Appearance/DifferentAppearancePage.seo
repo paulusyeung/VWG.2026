@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to set a different appearance</Title>
+  <Properties />
+  <DisplayName>Set a different appearance</DisplayName>
+  <Description>The example demonstrates how to change appearance of a StatusBar control.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="DifferentAppearancePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DifferentAppearancePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DifferentAppearancePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DifferentAppearancePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DifferentAppearancePage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\StatusBarImg.jpg" Order="103" Lang="All" Type="Link" Title="StatusBarImg.jpg" />
+  </Resources>
+  <Keywords>
+    <Keyword>StatusBar</Keyword>
+    <Keyword>Appearance</Keyword>
+    <Keyword>Font</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.StatusBar.Appearance.DifferentAppearancePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

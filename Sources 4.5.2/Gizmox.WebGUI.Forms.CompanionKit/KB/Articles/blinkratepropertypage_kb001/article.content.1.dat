@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634414281244153098" UpdatedBy="admin" UpdatedOn="634414292702132130">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The <em>Form </em>contain a <em>TextBox </em>control used for showing the error.<br />Use <em>NumericUpDown </em>control to set the blinking rate of the error icon.<br />Press <strong>'Show Error'</strong>&nbsp;and <strong>'Hide Error'</strong> buttons to show and hide&nbsp;the error respectively</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>BlinkRate</strong> property of the <em>ErrorProvider </em>control gets or sets the rate at which the error icon flashes.</p>]]></Paragraph>
+  </Nodes>
+</Data>

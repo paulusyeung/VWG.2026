@@ -1,0 +1,162 @@
+.TaskBar-Box
+{
+	position:relative;
+	display:none;
+	left:0px;
+	bottom:0px;
+	z-index:400;
+	overflow:hidden;
+	width:100%;
+	border:1px solid transparent;
+}
+
+.TaskBar-Item
+{
+	[Skin.ItemStyle];
+	width:[Skin.ItemWidth]px;
+	height:[Skin.ItemHeight]px;
+	overflow:hidden;
+	position:relative;
+}
+
+.TaskBar-ItemLabel
+{
+	[Skin.ItemLabelStyle];
+	cursor:default;
+	overflow:hidden;
+	vertical-align:text-top;
+}
+
+.TaskBar-ItemImage
+{
+	[Skin.ItemImageStyle];
+	width:[Skin.ItemImageWidth]px;
+	height:[Skin.ItemImageHeight]px;
+}
+
+.TaskBar-ItemContent
+{
+	[Skin.ItemContentStyle];
+	display:block;
+	overflow:hidden;
+	height:100%;
+	width:[Skin.ItemContentWidth]px;
+	position:relative;
+}
+
+.TaskBar-Frame
+{
+	width:100%;
+	height:100%;
+	table-layout:fixed;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.TaskBar-Items
+{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+
+.TaskBar-TopLeftFrame
+{
+	[Skin.LeftTopFrameStyle];
+}
+
+.TaskBar-LeftFrame
+{
+	[Skin.LeftFrameStyle];
+}
+
+.TaskBar-BottomLeftFrame
+{
+	[Skin.LeftBottomFrameStyle]; 
+}
+
+.TaskBar-CenterFrame
+{
+	[Skin.CenterFrameStyle];
+}
+
+.TaskBar-TopRightFrame
+{
+	[Skin.RightTopFrameStyle]; 
+}
+
+.TaskBar-RightFrame
+{
+	[Skin.RightFrameStyle]; 
+}
+
+.TaskBar-BottomRightFrame
+{
+	[Skin.RightBottomFrameStyle];  
+}
+
+.TaskBar-TopFrame
+{
+	[Skin.TopFrameStyle];
+}
+
+.TaskBar-BottomFrame
+{
+	[Skin.BottomFrameStyle];
+}
+
+.TaskBar-ItemFrame
+{
+	width:100%;
+	height:100%;
+	position:absolute!important;
+	table-layout:fixed;
+	top:0px;
+	left:0px;
+}
+
+.TaskBar-Item .TaskBar-ItemLeftFrame
+{
+	[Skin.ItemLeftFrameNormalStyle];
+}
+
+.TaskBar-Item .TaskBar-ItemCenterFrame
+{
+	[Skin.ItemCenterFrameNormalStyle];
+}
+
+.TaskBar-Item .TaskBar-ItemRightFrame
+{
+	[Skin.ItemRightFrameNormalStyle]; 
+}
+
+.TaskBar-Item_Enter .TaskBar-ItemLeftFrame
+{
+	[Skin.ItemLeftFrameOverStyle];
+}
+
+.TaskBar-Item_Enter .TaskBar-ItemCenterFrame
+{
+	[Skin.ItemCenterFrameOverStyle];
+}
+
+.TaskBar-Item_Enter .TaskBar-ItemRightFrame
+{
+	[Skin.ItemRightFrameOverStyle]; 
+}
+
+.TaskBar-Item_Down .TaskBar-ItemLeftFrame
+{
+	[Skin.ItemLeftFrameDownStyle];
+}
+
+.TaskBar-Item_Down .TaskBar-ItemCenterFrame
+{
+	[Skin.ItemCenterFrameDownStyle];
+}
+
+.TaskBar-Item_Down .TaskBar-ItemRightFrame
+{
+	[Skin.ItemRightFrameDownStyle]; 
+}

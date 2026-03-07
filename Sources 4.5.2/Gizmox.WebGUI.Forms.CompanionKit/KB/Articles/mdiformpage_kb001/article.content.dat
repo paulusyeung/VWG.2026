@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634076273919804132" UpdatedBy="admin" UpdatedOn="634076277703217418">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on 'Open MDI parent form' button, MDI Parent Form will be opened. The form contains 'Form' menu that allows the following action with working with MDI Child Form:<br /><strong>Open MDI Child Form </strong>&ndash; opens MDI Child Form;<br /><strong>Close Active MDI Child Form</strong> &ndash; closes active MDI Child Form;<br /><strong>Close All MDI Child Forms</strong> &ndash; closes all MDI Child Form.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The form contains the following properties for working as Multi Document Interface:<br /><strong>IsMdiContainer</strong> &ndash; indicates whether the form is a container for MDI child forms.<br /><strong>IsMdiChild </strong>&ndash; indicates whether the form is a MDI child form;<br /><strong>MdiParent</strong> &ndash; defines the current MDI parent form of this form.</p><p>The<em> IsMdiContainer </em>property of main Form should be set to true and of child form to false. MDI child form should contain defined <em>MDIParent </em>property as form with <em>IsMdiContainer </em>property as <em>true</em>.</p>]]></Paragraph>
+  </Nodes>
+</Data>

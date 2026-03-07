@@ -1,0 +1,15 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains the example that demonstrates how to set a date in the Visual WebGui MonthCalendar programmatically.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>MonthCalendar</Keyword>
+    <Keyword>Value</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.MonthCalendar.Programming.SettingValuePage</DefaultPage>
+  <Body />
+</Item>

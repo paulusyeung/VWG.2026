@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135222771581085" UpdatedBy="admin" UpdatedOn="634135223781125257">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check the 'AllowUserToOrderColumns' CheckBox, press on the column header with mouse button and drag the column into another position for this <em>DataGridView</em>. Uncheck the 'AllowUserToOrderColumns' CheckBox, you will be unable to reorder the column position.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DataGridView </em>contains <em>AllowUserToOrderColumns </em>property that indicates whether manual column repositioning is enabled.</p>]]></Paragraph>
+  </Nodes>
+</Data>

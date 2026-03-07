@@ -1,0 +1,16 @@
+<Item SiteMap="True" Order="104" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains the example that demonstrates how to handle ValueChanged event of the Visual WebGui DateTimePicker.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DateTimePicker</Keyword>
+    <Keyword>Value</Keyword>
+    <Keyword>ValueChanged</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.DateTimePicker.Programming.ValueChangedEventPage</DefaultPage>
+  <Body />
+</Item>

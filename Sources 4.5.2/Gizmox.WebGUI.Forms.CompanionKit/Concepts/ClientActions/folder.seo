@@ -1,0 +1,14 @@
+<Item SiteMap="False" Order="2" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>Client Actions</Title>
+  <Properties />
+  <DisplayName>Client Actions</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientActions.Events.WikipediaIntegration</DefaultPage>
+</Item>

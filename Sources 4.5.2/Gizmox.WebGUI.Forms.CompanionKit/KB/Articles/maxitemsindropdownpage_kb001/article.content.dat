@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110951152484115" UpdatedBy="admin" UpdatedOn="634118522097004700">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Define quantity of items in 'Current MaxDropDownItems' <em>TextBox </em>to display in <em>DropDown </em>of demonstrated <em>ComboBox</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui ComboBox contains MaxDropDownItems property that defines max number items that will be displayed in the ComboBox DropDown menu.</p>]]></Paragraph>
+  </Nodes>
+</Data>

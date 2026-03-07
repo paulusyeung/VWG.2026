@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634424738209048770" UpdatedBy="admin" UpdatedOn="634426079145870875">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>There are <em>TextBox</em>, <em>ComboBox </em>and <em>ListBox </em>controls on the <em>Form</em>.<br />Set focus on any of the controls (or tab between) and press F1 key to open help file with information relevant&nbsp;for the control focused.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>Each instance of <strong>HelpProvider</strong> maintains a collection of references to controls associated with it.</p><p>Use <em>ShowHelp</em> method of the <em>Help </em>class to show help dialog for the control</p><p><strong>Note:</strong> <br /><em>Gizmox.WebGUI.Forms.Help</em> assembly has to be referenced<br /><em>Gizmox.WebGUI.Forms.HelpDialog control </em>has to be registered</p>]]></Paragraph>
+  </Nodes>
+</Data>

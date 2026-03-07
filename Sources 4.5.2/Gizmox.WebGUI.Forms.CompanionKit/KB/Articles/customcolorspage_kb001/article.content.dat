@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634112604571608621" UpdatedBy="admin" UpdatedOn="634139510560689786">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on <em>Button </em>and you will see opened <em>ColorDialog </em>with <em>CustomColors</em>.&nbsp;Select color and click on Ok button and the dialog will closed and <em>Label BackColor</em> will be changed.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ColorDialog </em>dialog box contains <em>CustomColors </em>property that defines the set of custom colors shown in the dialog box.</p>]]></Paragraph>
+  </Nodes>
+</Data>

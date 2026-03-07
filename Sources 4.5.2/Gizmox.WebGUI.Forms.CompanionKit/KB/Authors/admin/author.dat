@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="" CreatedOn="634001865199134870" UpdatedBy="" UpdatedOn="634001881746397080">
+  <Properties>
+    <DisplayName>admin</DisplayName>
+  </Properties>
+  <Nodes>
+    <Group Code="everyone" />
+	<Group Code="editors" />
+  </Nodes>
+</Data>

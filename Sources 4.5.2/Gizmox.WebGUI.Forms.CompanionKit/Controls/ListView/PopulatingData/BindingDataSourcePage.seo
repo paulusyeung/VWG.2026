@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to populate data through binded data source</Title>
+  <Properties />
+  <DisplayName>Binding Data Source</DisplayName>
+  <Description>The example demonstrates how to populate a Visual WebGui ListView with Database table data.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="BindingDataSourcePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingDataSourcePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingDataSourcePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingDataSourcePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingDataSourcePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListView</Keyword>
+    <Keyword>DataSource</Keyword>
+    <Keyword>DataBase</Keyword>
+    <Keyword>Table</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListView.PopulatingData.BindingDataSourcePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

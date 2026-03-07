@@ -1,0 +1,19 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Demonstration of using performClientEvent and eventArgs client functions</Title>
+  <Properties />
+  <DisplayName>Event functions</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgContext</Keyword>
+    <Keyword>performClientEvent</Keyword>
+    <Keyword>eventArgs</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.APIEvent.Overview</DefaultPage>
+</Item>

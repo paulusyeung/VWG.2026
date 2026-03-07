@@ -1,0 +1,13 @@
+<Item SiteMap="False" Order="1" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+    <DefaultPage>item:CompanionKit.DeviceIntegration.Storage.Functionality.LocalStorageExample</DefaultPage>
+  <Body />
+</Item>

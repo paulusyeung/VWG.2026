@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634094553697801183" UpdatedBy="admin" UpdatedOn="634094553892647427" Status="Draft" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to display read-only property in the Visual WebGui PropertyGrid.</Description>
+  </Properties>
+  <Nodes />
+</Data>

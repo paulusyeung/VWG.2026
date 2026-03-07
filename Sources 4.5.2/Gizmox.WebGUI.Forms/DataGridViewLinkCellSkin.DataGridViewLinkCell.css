@@ -1,0 +1,32 @@
+.LinkLabel-Control
+{
+	[Skin.Font];
+	[Skin.LinkColor];
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+	outline-style:none;
+}
+
+
+.LinkLabel-Disabled
+{		
+	[Skin.Font];
+	[Skin.LinkColorDisabled];		
+	cursor:default;
+}
+
+.LinkLabel-Control .LinkLabel-ContentContainer
+{
+	[Skin.ContentStyle];
+}
+
+.LinkLabel-Control_Focus .LinkLabel-ContentContainer
+{
+	[Skin.FocusedStyle];
+}
+
+.LinkLabel-Disabled .LinkLabel-ContentContainer
+{
+    [Skin.LinkColorDisabled];
+}

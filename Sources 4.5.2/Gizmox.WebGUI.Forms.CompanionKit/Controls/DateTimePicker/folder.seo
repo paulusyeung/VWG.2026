@@ -1,0 +1,15 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>DateTimePicker</Title>
+  <Properties />
+  <DisplayName>DateTimePicker</DisplayName>
+  <Description>Contains examples that demonstrate how to use a Visual WebGui DateTimePicker.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DateTimePicker</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.DateTimePicker.Overview</DefaultPage>
+</Item>

@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>DropDownMenu Property</Title>
+  <Properties />
+  <DisplayName>DropDownMenu Property</DisplayName>
+  <Description>The example demonstrates how to set dropdown menu for SearchTextBox control</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="SearchTextBoxDropDownMenuPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SearchTextBoxDropDownMenuPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SearchTextBoxDropDownMenuPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SearchTextBoxDropDownMenuPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SearchTextBoxDropDownMenuPropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>SearchTextBox</Keyword>
+    <Keyword>DropDownMenu</Keyword>
+    <Keyword>DropDown</Keyword>
+    <Keyword>Menu</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.SearchTextBox.Features.SearchTextBoxDropDownMenuPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

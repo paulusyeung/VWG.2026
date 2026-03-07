@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634460942142544480" UpdatedBy="admin" UpdatedOn="634461009952515436">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>There are <strong>SearchTextBox </strong>and <em>Button </em>controls on the <em>Form</em>.<br />Enter text to search into the <strong>SearchTextBox </strong>and press&nbsp;'magnifier' button to start searching. While searching&nbsp;you can press&nbsp;'x' button to stop the process.<br />Press the 'Check status' button to show search status as tooltip for the <strong>SearchTextBox </strong>control.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>IsSearchActive property indicates whether the searching is in progress or not.</p><p>Property type: System.Boolean<br />Default value - <strong>False</strong></p>]]></Paragraph>
+  </Nodes>
+</Data>

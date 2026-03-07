@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="101" Status="Draft" Type="Page">
+  <Title>How to set additional  properties</Title>
+  <Properties />
+  <DisplayName>Control Properties</DisplayName>
+  <Description>The example demonstrates how to set additional properties.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="True" Name="ControlPropertiesPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="ControlPropertiesPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="ControlPropertiesPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="ControlPropertiesPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="ControlPropertiesPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>RichTextBox</Keyword>
+    <Keyword>Properties</Keyword>
+    <Keyword>Propery</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.RichTextBox.Functionality.ControlPropertiesPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

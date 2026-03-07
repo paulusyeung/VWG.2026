@@ -1,0 +1,19 @@
+<Item SiteMap="False" Order="1" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>24x24</Title>
+  <Properties />
+  <DisplayName>24x24</DisplayName>
+  <Description>The folder is a container of 24x24 resources. Should be always with Status - Draft.
+  </Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="True" Name="Controls.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="Behaviors.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="True" Name="Folders.gif" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>
+  </DefaultPage>
+</Item>

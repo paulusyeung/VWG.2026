@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128201873255102" UpdatedBy="admin" UpdatedOn="634128202948730735">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select some node and the tree node image will be changed.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>TreeView </em>contains for working with images the following properties:<br /><em>ImageList  </em>- contains the Image  objects that are used by the tree nodes;<br /><em>ImageIndex</em>- gets or sets the image-list index value of the default image that is displayed by the tree nodes;<br /><em>SelectedImageIndex </em>- gets or sets the image list index value of the image that is displayed when a tree node is selected.</p><p>If the <em>ImageList </em>property value is anything other than <em>nullptr</em>, all the tree nodes display the first Image stored in the <em>ImageList </em>. You can specify which images from the list are displayed for selected and unselected nodes by setting the ImageIndex and SelectedImageIndex properties. Individual TreeNode objects can specify which image is displayed by setting their ImageIndex and <em>SelectedImageIndex </em>properties. These individual settings will override the settings in the corresponding <em>TreeView </em>properties.</p>]]></Paragraph>
+  </Nodes>
+</Data>

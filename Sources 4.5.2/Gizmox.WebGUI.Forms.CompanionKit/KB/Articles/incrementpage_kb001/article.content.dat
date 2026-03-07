@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634092063986048828" UpdatedBy="admin" UpdatedOn="634092065247158720">
+  <Properties />
+  <Nodes>
+    <Paragraph Code="ParagraphElement1" />
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>Change value of the 'Step of the ProgressBar' <em>NumericUpDown </em>and click on the 'Increment value' Button. Displayed value of the <em>ProgressBar </em>will be change according to value of the <em>NumericUpDown</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Title" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>The Visual WebGui <em>ProgressBar </em>control allows increasing the displayed value by a value that varies by calling <em>Increment </em>method that advances the current position of the progress bar by the specified amount. This method is useful when you need to change the displayed value a number of times in different amounts. An example would be showing the amount of hard-disk space being consumed while writing a series of files to the disk.</p>]]></Paragraph>
+  </Nodes>
+</Data>

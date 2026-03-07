@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634080639851797872" UpdatedBy="admin" UpdatedOn="634080640831807730">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check/Uncheck the 'Enable to open file as Read-Only' CheckBox and click on the 'Open file dialog with/without Read-Only CheckBox' button and upload file dialog will be opened. Click on the 'Add' button and <em>OpenFileDialog </em>will be opened. If you check the CheckBox, the <em>OpenFileDialog </em>dialog box will contain 'Open as read-only' CheckBox. If you uncheck the CheckBox, the <em>OpenFileDialog </em>dialog box will not contain 'Open as read-only' CheckBox.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>OpenFileDialog </em>dialog box contains <em>ShowReadOnly </em>property that indicates whether the dialog box contains a read-only check box.</p>]]></Paragraph>
+  </Nodes>
+</Data>

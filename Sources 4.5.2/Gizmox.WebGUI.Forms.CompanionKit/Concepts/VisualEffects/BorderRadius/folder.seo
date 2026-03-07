@@ -1,0 +1,19 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Border Radius</Title>
+  <Properties />
+  <DisplayName>Border Radius</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>border</Keyword>
+    <Keyword>radius</Keyword>
+    <Keyword>visual</Keyword>
+    <Keyword>effect</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.VisualEffects.BorderRadius.Overview</DefaultPage>
+</Item>

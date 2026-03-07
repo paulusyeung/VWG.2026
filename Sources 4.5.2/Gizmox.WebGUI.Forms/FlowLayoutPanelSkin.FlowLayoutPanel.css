@@ -1,0 +1,144 @@
+﻿.FlowLayoutPanel-Control
+{
+  [Skin.VisualEffect]
+}
+
+.FlowLayoutPanel-ArrowsClass_top
+{
+	[Skin.ArrowScrollerTopNormalStyle]
+}
+
+.FlowLayoutPanel-ArrowsClass_top_Enter
+{
+    [Skin.ArrowScrollerTopHoverStyle]
+}
+
+.FlowLayoutPanel-ArrowsClass_top_Down
+{
+    [Skin.ArrowScrollerTopPressedStyle]
+}
+
+.FlowLayoutPanel-ArrowsClass_top_Disabled
+{
+    [Skin.ArrowScrollerTopDisabledStyle]
+}
+
+.FlowLayoutPanel-ArrowsClass_right
+{
+	[Skin.ArrowScrollerRightNormalStyle]
+}
+
+.FlowLayoutPanel-ArrowsClass_right_Enter
+{
+    [Skin.ArrowScrollerRightHoverStyle]
+}
+
+.FlowLayoutPanel-ArrowsClass_right_Down
+{
+    [Skin.ArrowScrollerRightPressedStyle]
+}
+
+.FlowLayoutPanel-ArrowsClass_right_Disabled
+{
+    [Skin.ArrowScrollerRightDisabledStyle]
+}
+
+.FlowLayoutPanel-ArrowsClass_bottom
+{
+	[Skin.ArrowScrollerBottomNormalStyle]
+}
+
+.FlowLayoutPanel-ArrowsClass_bottom_Enter
+{
+    [Skin.ArrowScrollerBottomHoverStyle]
+}
+
+.FlowLayoutPanel-ArrowsClass_bottom_Down
+{
+    [Skin.ArrowScrollerBottomPressedStyle]
+}
+
+.FlowLayoutPanel-ArrowsClass_bottom_Disabled
+{
+    [Skin.ArrowScrollerBottomDisabledStyle]
+}
+
+.FlowLayoutPanel-ArrowsClass_left
+{
+	[Skin.ArrowScrollerLeftNormalStyle]
+}
+
+.FlowLayoutPanel-ArrowsClass_left_Enter
+{
+    [Skin.ArrowScrollerLeftHoverStyle]
+}
+
+.FlowLayoutPanel-ArrowsClass_left_Down
+{
+    [Skin.ArrowScrollerLeftPressedStyle]
+}
+
+.FlowLayoutPanel-ArrowsClass_left_Disabled
+{
+    [Skin.ArrowScrollerLeftDisabledStyle]
+}
+.FlowLayoutPanel-ControlContainer
+{
+    position:relative;
+    overflow:hidden;
+}
+.FlowLayoutPanel-ControlContainer > div
+{
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+
+.FlowLayoutPanel_flexColumnStart
+{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    -webkit-align-content: flex-start;
+
+    -ms-flex-direction: column;
+    -ms-align-content: flex-start;
+
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.FlowLayoutPanel_flexColumnEnd
+{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column-reverse;
+    -webkit-align-content: flex-start;
+
+    -ms-flex-direction: column-reverse;
+    -ms-align-content: flex-start;
+
+    flex-direction: column-reverse;
+    align-content: flex-start;
+}
+
+.FlowLayoutPanel_flexWrap {
+    height:100%;
+    width:100%;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.FlowLayoutPanel_flexNoWrap {
+    width:100%;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+}

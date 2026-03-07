@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634082503098040062" UpdatedBy="admin" UpdatedOn="634082503877127492">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check/uncheck the 'Enable panel with effects in the FontDialog' CheckBox and click on the ''Open FontDialog to change font of the label' button and the <em>FontDialog </em>will be opened with effects panel. Check some effects and click on the 'Ok' button. Font of the represented label will be changed appropriately.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>FontDialog </em>dialog box contains the <em>ShowEffects </em>property that indicates whether the dialog box contains controls that allow the user to specify strikethrough, underline and text color options.</p>]]></Paragraph>
+  </Nodes>
+</Data>

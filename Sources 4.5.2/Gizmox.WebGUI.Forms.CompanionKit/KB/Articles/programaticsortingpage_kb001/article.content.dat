@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634088429471138021" UpdatedBy="admin" UpdatedOn="634090112994253566">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on a column header of the <em>ListView</em> to sort items in descending or ascending order.<br />Pay attention to kind of sort applied to &quot;User Name&quot; and &quot;Phone&quot; columns.&nbsp;Both columns&nbsp;sorted alphabetically in case insensitive manner. The &quot;ID&quot; column sorted numerically.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WeGui <em>ListView </em>contains <em>ListViewItemSorter </em>property that defines sorter of the <em>ListView </em>items.&nbsp;<br />An object assigned to the property should implement <em>IComparer </em>interface. <br />The assigned sorter will be used for sorting of items when <em>Sort()</em> method called.</p>]]></Paragraph>
+    <Header Code="HeaderElement3" Type="Subtitle" ShowInTOC="0"><![CDATA[Implementation]]></Header>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>The ProgramaticSortingPage user control defines the Comparers array with ListViewComparer objects.<br />Each ListViewComparer object responsible for sorting of ListView items in according to column and order and implements System.Collections.IComparer interface.</p><p>The ColumnClick event handler picks the associated ListViewComparer and changes the sort order to opposite one. After changing the sort order the comparer set to the ListView and <em>Sort() </em>method called to perform sorting programmatically.</p>]]></Paragraph>
+  </Nodes>
+</Data>

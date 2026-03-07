@@ -1,0 +1,27 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>TrackBar</Title>
+  <Properties />
+  <DisplayName>TrackBar</DisplayName>
+  <Description>Contains example that demonstrate how to use a TrackBar control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>TrackBar</Keyword>
+    <Keyword>Functionality</Keyword>
+    <Keyword>Bounds</Keyword>
+    <Keyword>Range</Keyword>
+    <Keyword>Orientation</Keyword>
+    <Keyword>Vertical</Keyword>
+    <Keyword>Horizontal</Keyword>
+    <Keyword>Maximum</Keyword>
+    <Keyword>Minimum</Keyword>
+    <Keyword>Value</Keyword>
+    <Keyword>TickStyle</Keyword>
+    <Keyword>Tick</Keyword>
+    <Keyword>Mark</Keyword>
+    <Keyword>ValueChanged</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.TrackBar.Functionality.BoundsPage</DefaultPage>
+  <Body />
+</Item>

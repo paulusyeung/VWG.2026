@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Offline Mode</Title>
+  <Properties />
+  <DisplayName>Offline Mode</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>offline</Keyword>
+    <Keyword>mode</Keyword>
+    <Keyword>preload</Keyword>
+    <Keyword>OfflineInitializing</Keyword>
+    <Keyword>OfflineConfirming</Keyword>
+    <Keyword>ClientPreload</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.OfflineMode.Overview</DefaultPage>
+</Item>

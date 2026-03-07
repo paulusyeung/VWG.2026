@@ -1,0 +1,77 @@
+.ToolStrip-TopLeft
+{
+	[Skin.LeftTopStyle];
+}
+
+.ToolStrip-Left
+{
+	[Skin.LeftStyle];
+}
+
+.ToolStrip-BottomLeft
+{
+	[Skin.LeftBottomStyle]; 
+}
+
+.ToolStrip-Center
+{
+	[Skin.CenterStyle];
+}
+
+.ToolStrip-TopRight
+{
+	[Skin.RightTopStyle]; 
+}
+
+.ToolStrip-Right
+{
+	[Skin.RightStyle]; 
+}
+
+.ToolStrip-BottomRight
+{
+	[Skin.RightBottomStyle];  
+}
+
+.ToolStrip-Top
+{
+	[Skin.TopStyle];
+}
+
+.ToolStrip-Bottom
+{
+	[Skin.BottomStyle];
+}
+
+.ToolStrip-Content
+{
+}
+
+.TooStrip-VerticalDropDownButton
+{
+	[Skin.VerticalDropDownButtonStyle];
+	height:[Skin.VerticalDropDownButtonHeight]px;
+}
+
+.TooStrip-HorizontalDropDownButton
+{
+	[Skin.HorizontalDropDownButtonStyle];
+	width:[Skin.HorizontalDropDownButtonWidth]px;
+}
+
+.TooStrip-HorizontalGrip
+{
+	[Skin.HorizontalGripStyle];
+	width:[Skin.HorizontalGripWidth]px;
+	height:100%;
+}
+
+.TooStrip-VerticalGrip
+{
+	[Skin.VerticalGripStyle];
+	height:[Skin.VerticalGripHeight]px;
+	width:100%;
+}
+.ToolStrip-ButtonWrap table.Common-CellSpacing0 {
+    border-spacing: 1px;
+}

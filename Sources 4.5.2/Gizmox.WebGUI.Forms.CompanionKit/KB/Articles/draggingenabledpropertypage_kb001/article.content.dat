@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634418558084470703" UpdatedBy="admin" UpdatedOn="634419995205415868">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>There are <strong><em>GoogleMap </em></strong>and <em>CheckBox </em>controls on the <em>Form</em>.<br />Change&nbsp;<em>CheckBox&nbsp;</em>to enable/disable map dragging&nbsp;in the <strong><em>GoogleMap </em></strong>control.<br />Try to&nbsp;move the map by dragging it using mouse - you wilil see the cursor grab the map and drag it.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p><strong>GoogleMap.DraggingEnabled</strong> property indicates whether the map can be&nbsp;navigated by dragging.<br />Property Type: System.Boolean.<br />DefaultValue - true.</p>]]></Paragraph>
+    <Paragraph Code="ParagraphElement2" />
+  </Nodes>
+</Data>

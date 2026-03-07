@@ -1,0 +1,14 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains example that demonstrates how to implement FlashBox with the ObjectBox.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ObjectBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.ObjectBox.Programming.ProvideParametersPage</DefaultPage>
+  <Body />
+</Item>

@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>PictureBox</Title>
+  <Properties />
+  <DisplayName>PictureBox</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>vwgListBox</Keyword>
+    <Keyword>vwgPictureBox</Keyword>
+    <Keyword>ListBox</Keyword>
+    <Keyword>PictureBox</Keyword>
+    <Keyword>selectedIndex</Keyword>
+    <Keyword>dataSource</Keyword>
+    <Keyword>imageUrl</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.PictureBox.Overview</DefaultPage>
+</Item>

@@ -1,0 +1,159 @@
+.MenuItem-Control
+{
+	[Skin.MenuItemBackground];
+}
+
+.MenuItem-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.MenuItem-Cell
+{
+	height:100%;
+}
+.MenuItem-Control .MenuItem-Icon
+{	
+	[Skin.MenuItemIconPadding];
+}
+
+.MenuItem-Control .MenuItem-Label
+{
+	[Skin.MenuItemLabelNormalStyle];
+}
+
+.MenuItem-Control_Enter .MenuItem-Label
+{
+	[Skin.MenuItemLabelHoverStyle];
+}
+
+.MenuItem-Control_Down .MenuItem-Label
+{
+	[Skin.MenuItemLabelDownStyle];
+}
+
+.MenuItem-Control .MenuItem-Label_Disabled
+{
+	[Skin.MenuItemLabelDisableStyle];
+}
+
+.MenuItem-Control .MenuItem-Arrow
+{
+	[Skin.MenuItemArrowPadding];
+}
+
+.MenuItem-Control .MenuItem-Shortcut
+{
+	[Skin.MenuItemShortcutNormalStyle];
+}
+
+.MenuItem-Shortcut-Font
+{
+	[Skin.MenuItemShortcutNormalStyle];
+	padding:0;
+	margin:0;
+	background-repeat:no-repeat;
+	border-style:none;
+}
+.MenuItem-Control_Enter .MenuItem-Shortcut
+{
+	[Skin.MenuItemShortcutHoverStyle];
+}
+
+.MenuItem-Control_Down .MenuItem-Shortcut
+{
+	[Skin.MenuItemShortcutDownStyle];
+}
+
+.MenuItem-Shortcut_Disable
+{
+	[Skin.MenuItemShortcutDisableStyle];
+}
+
+.MenuItem-CellContainer
+{
+	overflow:hidden;
+	height: 100%;
+	width:100%;
+	position:absolute;
+	white-space:nowrap;
+}
+
+.MenuItem-Control .MenuItem-Left
+{	
+	[Skin.MenuItemNormalLeft];
+	padding:0;
+}
+
+.MenuItem-Control_Enter .MenuItem-Left
+{
+	[Skin.MenuItemHoverLeft];	
+}
+
+.MenuItem-Control_Down .MenuItem-Left
+{
+	[Skin.MenuItemDownLeft];	
+}
+
+.MenuItem-Control_Disabled .MenuItem-Left
+{
+	[Skin.MenuItemDisableLeft];	
+}
+
+.MenuItem-Control .MenuItem-Right
+{	
+	[Skin.MenuItemNormalRight];
+}
+
+.MenuItem-Control_Enter .MenuItem-Right
+{
+	[Skin.MenuItemHoverRight];	
+}
+
+.MenuItem-Control_Down .MenuItem-Right
+{
+	[Skin.MenuItemDownRight];	
+}
+
+.MenuItem-Control_Disabled .MenuItem-Right
+{
+	[Skin.MenuItemDisableRight];
+}
+
+.MenuItem-Control .MenuItem-Center
+{	
+	[Skin.MenuItemNormalCenter];
+	height:100%;
+	padding:0;
+}
+
+.MenuItem-Control_Enter .MenuItem-Center
+{
+	[Skin.MenuItemHoverCenter];	
+	height:100%;
+}
+.MenuItem-Control_Down .MenuItem-Center
+{
+	[Skin.MenuItemDownCenter];	
+	height:100%;
+}
+
+.MenuItem-Control_Disabled .MenuItem-Center
+{
+	[Skin.MenuItemDisableCenter];
+    height:100%;
+}
+
+.MenuItem-Seperator
+{	[Skin.MenuItemSeperator];
+	width:100%;	
+	overflow:hidden;
+	position:absolute;
+}
+.MenuItem-SeperatorIconColumn
+{
+	[Skin.SeperatorIconColumn];
+	width:[Skin.MenuItemIconsColumnWidth]px;	
+	overflow:hidden;
+	position:absolute;		
+}

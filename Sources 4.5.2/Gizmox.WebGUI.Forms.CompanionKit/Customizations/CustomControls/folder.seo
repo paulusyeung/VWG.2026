@@ -1,0 +1,13 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Custom Controls</Title>
+  <Properties />
+  <DisplayName>Custom Controls</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Customizations.CustomControls.CustomImpl</DefaultPage>
+  <Body />
+</Item>

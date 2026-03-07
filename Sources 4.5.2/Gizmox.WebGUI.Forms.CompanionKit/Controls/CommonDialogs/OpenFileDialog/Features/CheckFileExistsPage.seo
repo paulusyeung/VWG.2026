@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="101" Status="Draft" Type="Page">
+  <Title>CheckFileExists Property</Title>
+  <Properties />
+  <DisplayName>CheckFileExists</DisplayName>
+  <Description>The example demonstrates how to use CheckFileExists property in OpenFileDialog.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CheckFileExistsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckFileExistsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckFileExistsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckFileExistsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckFileExistsPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>OpenFileDialog</Keyword>
+    <Keyword>CheckFileExists</Keyword>
+  </Keywords>
+  <Comment>This example has Draft status b/c the OpenFileDialog CheckFileExists property doesn't work correct (VWG-6703)</Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.OpenFileDialog.Features.CheckFileExistsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

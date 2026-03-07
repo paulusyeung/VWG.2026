@@ -1,0 +1,20 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use CharacterCasing, PasswordChar and Validator properties.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>TextBox</Keyword>
+    <Keyword>Character</Keyword>
+    <Keyword>Case</Keyword>
+    <Keyword>PasswordChar</Keyword>
+    <Keyword>Password</Keyword>
+    <Keyword>Validator</Keyword>
+    <Keyword>Validation</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.TextBox.Functionality.CharacterCasingPage</DefaultPage>
+  <Body />
+</Item>

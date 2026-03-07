@@ -1,0 +1,30 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Adding controls as sub items in ListView</Title>
+  <Properties />
+  <DisplayName>Custom ListView</DisplayName>
+  <Description>The example demonstrates how to use custom control as sub-item control.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CustomListViewPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomListViewPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomListViewPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomListViewPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CustomListViewPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Icons\Photo.png" Order="103" Lang="All" Title="Photo.png" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListView</Keyword>
+    <Keyword>Custom</Keyword>
+    <Keyword>Subitem</Keyword>
+    <Keyword>Sub-Item</Keyword>
+    <Keyword>New</Keyword>
+    <Keyword>Item</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>Type</Keyword>
+    <Keyword>Icon</Keyword>
+    <Keyword>Date</Keyword>
+    <Keyword>Number</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListView.Features.CustomListViewPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

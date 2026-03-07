@@ -1,0 +1,20 @@
+<Item SiteMap="False" Order="1" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>Icons</Title>
+  <Properties />
+  <DisplayName>Icons</DisplayName>
+  <Description>The folder is a container of Icons resources. Should be always with Status - Draft.
+  </Description>
+  <Resources>
+    <Resource Visible="False" SiteMap="False" Name="ClosedMail.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="AttachedMail.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="OpenedMail.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="ImportantMail.gif" Order="103" Lang="All" Type="File" />
+    <Resource Visible="False" SiteMap="False" Name="Photo.png" Order="103" Lang="All" Type="File" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>
+  </DefaultPage>
+  <Body />
+</Item>

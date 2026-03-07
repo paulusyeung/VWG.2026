@@ -1,0 +1,12 @@
+BODY
+{
+	margin: 0px;
+	overflow: hidden;
+    border:none;
+}
+
+TABLE
+{
+	table-layout: fixed;
+}
+

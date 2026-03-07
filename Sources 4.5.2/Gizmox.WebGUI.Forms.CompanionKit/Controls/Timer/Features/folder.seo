@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains the example that demonstrates how to create an interval action with Timer control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Timer</Keyword>
+    <Keyword>Tick</Keyword>
+    <Keyword>Interval</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.Timer.Features.IntervalActionPage</DefaultPage>
+  <Body />
+</Item>

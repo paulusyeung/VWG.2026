@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>MapZoomLevel property</Title>
+  <Properties />
+  <DisplayName>MapZoomLevel property</DisplayName>
+  <Description>The example demonstrates how to use MapZoomLevel and MapDoubleClickZooms properties</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MapZoomLevelPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MapZoomLevelPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MapZoomLevelPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MapZoomLevelPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="MapZoomLevelPropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>GoogleMap</Keyword>
+    <Keyword>MapZoomLevel</Keyword>
+    <Keyword>MapDoubleClickZooms</Keyword>
+    <Keyword>Zooming</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.GoogleMap.Features.MapZoomLevelPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

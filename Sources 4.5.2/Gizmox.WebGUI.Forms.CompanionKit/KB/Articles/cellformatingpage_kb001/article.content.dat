@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135248902326705" UpdatedBy="admin" UpdatedOn="634135250754069157">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select <em>DataGridView </em>cells and change their foreground or background color with appropriate ComboBox and text of the inform label will be updated with names of new colors.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DataGridView </em>contains <em>CellFormatting </em>event that occurs the event when the contents of a cell need to be formatted for display.</p>]]></Paragraph>
+  </Nodes>
+</Data>

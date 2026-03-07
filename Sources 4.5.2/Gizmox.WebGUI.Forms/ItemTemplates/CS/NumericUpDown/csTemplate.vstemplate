@@ -1,0 +1,18 @@
+﻿<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>MyNumericUpDown.cs</DefaultName>
+    <Name>Visual WebGui Skinable NumericUpDown</Name>
+    <Description>An item template for creating a Visual WebGui skinable NumericUpDown.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>NumericUpDown.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">NumericUpDown1.cs</ProjectItem>
+    <ProjectItem SubType="Component" TargetFileName="$fileinputname$Skin.cs" ReplaceParameters="true">NumericUpDownSkin1.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.NumericUpDown.xslt" ReplaceParameters="true">NumericUpDownSkin1.NumericUpDown.xslt</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Skin.cs\$fileinputname$Skin.NumericUpDown.css" ReplaceParameters="true">NumericUpDownSkin1.NumericUpDown.css</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$Skin.resx" ReplaceParameters="true">NumericUpDownSkin1.resx</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

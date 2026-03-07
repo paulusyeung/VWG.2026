@@ -1,0 +1,16 @@
+﻿<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use Contacts.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Contacts</Keyword>
+    <Keyword>Functionality</Keyword>    
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.DeviceIntegration.Contacts.Functionality.ExampleSearch</DefaultPage>
+</Item>

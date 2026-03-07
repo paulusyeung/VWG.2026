@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>CheckState Changed</Title>
+  <Properties />
+  <DisplayName>CheckState Changed</DisplayName>
+  <Description>The example demonstrates how to handle the CheckedChanged event of the Visual WebGui RadioButton.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CheckStateChangedPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckStateChangedPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckStateChangedPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckStateChangedPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckStateChangedPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Event</Keyword>
+    <Keyword>Check</Keyword>
+    <Keyword>State</Keyword>
+    <Keyword>CheckState</Keyword>
+    <Keyword>CheckedChanged</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.RadioButton.Programming.CheckStateChangedPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+</Item>

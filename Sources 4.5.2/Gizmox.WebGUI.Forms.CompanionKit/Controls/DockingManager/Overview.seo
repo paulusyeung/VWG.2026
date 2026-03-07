@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DockingManager</Keyword>
+    <Keyword>Window</Keyword>
+    <Keyword>Pin</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="The  &lt;span style=&quot;color:#00ccff&quot;&gt;docking manager&lt;/span&gt; provides docked container support to your application. Dock windows can be docked, floated, auto-hidden, and more. Users can interact with it in a very intuitive fashion. The layout can be set up easily in code or in the designer." Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

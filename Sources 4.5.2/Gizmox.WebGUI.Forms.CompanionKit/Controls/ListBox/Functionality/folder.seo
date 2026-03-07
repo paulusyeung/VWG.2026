@@ -1,0 +1,21 @@
+<Item SiteMap="False" Order="120" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains sample apps that represents how to add new item to ListBox, how to release Drag and Drop and transfer items between two ListBoxes.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ListBox</Keyword>
+    <Keyword>AllowDrop</Keyword>
+    <Keyword>Drag</Keyword>
+    <Keyword>Drop</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>New</Keyword>
+    <Keyword>Item</Keyword>
+    <Keyword>Transfer</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.ListBox.Functionality.AddItemPage</DefaultPage>
+  <Body />
+</Item>

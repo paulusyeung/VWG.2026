@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="Context.Language">
+<head>
+    <title>Color</title>
+    <script src="[Skin.CommonPath]HtmlBoxFrame.js.swgx"></script>
+    <script src="[Skin.Path]ColorDialog.js.swgx"></script>
+    <script src="Resources.Includes.js.wgx"></script>
+    <link href="[Skin.Path]ColorDialog.css.swgx" type="text/css" rel="stylesheet" />
+</head>
+<body dir="Labels.DirAttribute" onload="ColorDialog_Init();"
+    onselectstart   = "mobjApp.Web_OnSelectStart(event,window);"
+    oncontextmenu   = "mobjApp.Web_OnRightClick(event,window);">
+
+    <table class="ColorDialog-CellSpacing0 ColorDialog-CellPadding0" >
+        <tr class="ColorDialog-VAlignTop">
+            <td>
+                <table class="ColorDialog-CellSpacing0 ColorDialog-CellPadding0">
+                    <tr>
+                        <td>Labels.BasicColors</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="ColorDialog-CellSpacing6 ColorDialog-CellPadding0" >
+                                <tr>
+                                    <td bgcolor="#ff0000" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('ff0000')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#400000" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('400000')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#800000" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('800000')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#c00000" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('c00000')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#ff4040" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('ff4040')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#ff8080" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('ff8080')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#ffc0c0" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('ffc0c0')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#000000" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('000000')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#ffff00" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('ffff00')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#404000" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('404000')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#808000" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('808000')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#c0c000" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('c0c000')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#ffff40" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('ffff40')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#ffff80" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('ffff80')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#ffffc0" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('ffffc0')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#202020" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('202020')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#00ff00" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('00ff00')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#004000" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('004000')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#008000" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('008000')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#00c000" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('00c000')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#40ff40" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('40ff40')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#80ff80" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('80ff80')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#c0ffc0" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('c0ffc0')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#404040" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('404040')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#00ffff" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('00ffff')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#004040" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('004040')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#008080" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('008080')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#00c0c0" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('00c0c0')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#40ffff" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('40ffff')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#80ffff" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('80ffff')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#c0ffff" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('c0ffff')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#808080" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('808080')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#0000ff" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('0000ff')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#000040" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('000040')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#000080" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('000080')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#0000c0" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('0000c0')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#4040ff" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('4040ff')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#8080ff" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('8080ff')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#c0c0ff" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('c0c0ff')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#c0c0c0" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('c0c0c0')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#ff00ff" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('ff00ff')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#400040" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('400040')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#800080" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('800080')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#c000c0" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('c000c0')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#ff40ff" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('ff40ff')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#ff80ff" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('ff80ff')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#ffc0ff" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('ffc0ff')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                    <td bgcolor="#ffffff" style="width: 19px; height: 16px">
+                                        <a href="javascript:ColorDialog_SetColor('ffffff')">
+                                            <img style="width: 19px; height: 16px" src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""/></a></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>Labels.CustomColors</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="ColorDialog-CellSpacing6 ColorDialog-CellPadding0" >
+                              <tr>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL1" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(1)">
+                                        <img style="width: 19px; height: 16px" id="preimg1"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL2" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(2)">
+                                        <img style="width: 19px; height: 16px" id="preimg2"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL3" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(3)">
+                                        <img style="width: 19px; height: 16px" id="preimg3"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL4" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(4)">
+                                        <img style="width: 19px; height: 16px" id="preimg4"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL5" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(5)">
+                                        <img style="width: 19px; height: 16px" id="preimg5"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL6" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(6)">
+                                        <img style="width: 19px; height: 16px" id="preimg6"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL7" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(7)">
+                                        <img style="width: 19px; height: 16px" id="preimg7"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL8" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(8)">
+                                        <img style="width: 19px; height: 16px" id="preimg8"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL9" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(9)">
+                                        <img style="width: 19px; height: 16px" id="preimg9"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL10" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(10)">
+                                        <img style="width: 19px; height: 16px" id="preimg10"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL11" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(11)">
+                                        <img style="width: 19px; height: 16px" id="preimg11"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL12" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(12)">
+                                        <img style="width: 19px; height: 16px" id="preimg12"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL13" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(13)">
+                                        <img style="width: 19px; height: 16px" id="preimg13"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL14" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(14)">
+                                        <img style="width: 19px; height: 16px" id="preimg14"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL15" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(15)">
+                                        <img style="width: 19px; height: 16px" id="preimg15"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                                <td style="width: 19px; height: 16px" id="VWG_PRECELL16" bgcolor="#ffffff" >
+                                    <a href="javascript:ColorDialog_Preset(16)">
+                                        <img style="width: 19px; height: 16px" id="preimg16"  src="[Skin.CommonPath]Empty.gif.swgx"  alt="" border=""></a></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height:5px"></td>
+                    </tr>
+                </table>
+            </td>
+            <td id="tdSeperator" style="display:none;"><div style="width:20px;">&#160;</div></td>
+            <td id="tdCustomColors" style="width:20px;display:none" class="ColorDialog-VAlignTop">
+                <table class="ColorDialog-CellSpacing4 ColorDialog-CellPadding0">
+                    <tr>
+                        <td>
+                            <img    onmousedown="ColorDialog_SetFromImage(event);" id="VWG_COLORSPIC" ondragover="ColorDialog_SetFromImage(event);"
+                                onclick="ColorDialog_SetFromImage(event);" style="height:192px;width:192px;" src="[Skin.Path]ColorDialogPallete.jpg.swgx"
+                                alt="Color Dialog Pallete"/>
+                        </td>
+                        <td>
+                            <table onmousedown="ColorDialog_SetFromSlider(event);" id="VWG_SLIDER" ondragover="ColorDialog_SetFromSlider(event);"
+                                onclick="ColorDialog_SetFromSlider(event);" class="ColorDialog-CellSpacing0 ColorDialog-CellPadding0" style="width:24px;height:192px" >
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 15px">
+                                            <table class="ColorDialog-CellSpacing0 ColorDialog-CellPadding0" style="width:14px;height:192px" >
+                                                <script>
+		                                            for (i=0;i<192;i++) 
+		                                            {
+		                                                document.write("<tr><td id=\"VWG_SC"+(i+1)+"\" height=1 width=14></td></tr>");
+		                                            }
+                                                </script>
+
+                                                <tbody>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="ColorDialog-VAlignMiddle" style="height:100%">
+                            <table  class="ColorDialog-CellSpacing0 ColorDialog-CellPadding0" style="height:100%" >
+                                <tr>
+                                    <td>
+                                        <div id="VWG_CURRENTCOLOR" style="width: 58px; height: 40px">
+                                            <img src="[Skin.CommonPath]Empty.gif.swgx" style="width: 58px; height: 40px" alt=""/>
+                                        </div>
+                                        Labels.ColorSolid
+                                    </td>
+                                    <!-- ************** HSV INPUT ******************** -->
+                                     <td class="ColorDialog-AlignRight ColorDialog-VAlignTop">
+                                        <table class="ColorDialog-CellSpacing0 ColorDialog-CellPadding0" >
+                                            <tr>
+                                                <td class="ColorDialog-AlignRight">Labels.Hue</td>
+                                                <td class="ColorDialog-AlignRight"><input id="VWG_HSL_h" data-vwgeditable="1" maxlength="3" onkeydown="ColorDialog_OnKeyDown(event);" onchange="ColorDialog_SetFromHSL()" value="0" style="width: 32px"  data-accessiblename="Hue"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ColorDialog-AlignRight">Labels.Sat</td>
+                                                <td class="ColorDialog-AlignRight"><input id="VWG_HSL_s" data-vwgeditable="1" maxlength="3" onkeydown="ColorDialog_OnKeyDown(event);" onchange="ColorDialog_SetFromHSL()" value="0" style="width: 32px"  data-accessiblename="Sat"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ColorDialog-AlignRight">Labels.Lum</td>
+                                                <td class="ColorDialog-AlignRight"><input id="VWG_HSL_l" data-vwgeditable="1" maxlength="3" onkeydown="ColorDialog_OnKeyDown(event);" onchange="ColorDialog_SetFromHSL()" value="255" style="width: 32px" data-accessiblename="Lum"/></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <!-- ************** RGB INPUT ******************** -->
+                                    <td class="ColorDialog-AlignRight ColorDialog-VAlignTop" style="padding-left:2px;">
+                                        <table class="ColorDialog-CellSpacing0 ColorDialog-CellPadding0" >
+                                            <tr>
+                                                <td class="ColorDialog-AlignRight">Labels.Red</td>
+                                                <td class="ColorDialog-AlignRight"><input id="VWG_RGB_r" data-vwgeditable="1" maxlength="3" onkeydown="ColorDialog_OnKeyDown(event);" onchange="ColorDialog_SetFromRGB()" value="255" style="width: 32px"  data-accessiblename="Red"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ColorDialog-AlignRight">Labels.Green</td>
+                                                <td class="ColorDialog-AlignRight"><input id="VWG_RGB_g" data-vwgeditable="1" maxlength="3"  onkeydown="ColorDialog_OnKeyDown(event);" onchange="ColorDialog_SetFromRGB()" value="255" style="width: 32px" data-accessiblename="Green"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ColorDialog-AlignRight">Labels.Blue</td>
+                                                <td class="ColorDialog-AlignRight"><input id="VWG_RGB_b" data-vwgeditable="1" maxlength="3" onkeydown="ColorDialog_OnKeyDown(event);" onchange="ColorDialog_SetFromRGB()" value="255" style="width: 32px" data-accessiblename="Blue"/></td>
+                                            <tr>
+                                        </table>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="ColorDialog-AlignRight" colspan="2"><span>Labels.HTMLCode</span><input id="VWG_HTMLCOLOR" data-vwgeditable="1" maxlength="6" onchange="ColorDialog_SetFromHTML()" size="8"  data-accessiblename="Html Code"
+                                            value="FFFFFF"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <img id="VWG_CROSS" style="left: 0px; position: absolute; top: 0px;display:none; -webkit-user-select:none; -moz-user-select:-moz-none;" class="Common-Unselectable" src="[Skin.Path]ColorDialogCross.gif.swgx" alt="">
+    <img id="VWG_SLIDEARROW" style="left: 0px; position: absolute; top: 0px;display:none; -webkit-user-select:none; -moz-user-select:-moz-none;" src="[Skin.Path]ColorDialogArrow.gif.swgx" alt="">
+</body>
+</html>

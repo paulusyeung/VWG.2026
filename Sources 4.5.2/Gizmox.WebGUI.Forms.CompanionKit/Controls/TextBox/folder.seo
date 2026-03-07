@@ -1,0 +1,22 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>TextBox</Title>
+  <Properties />
+  <DisplayName>TextBox</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use TextBox control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>TextBox</Keyword>
+    <Keyword>CharacterCasing</Keyword>
+    <Keyword>PasswordChar</Keyword>
+    <Keyword>Validator</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>Password</Keyword>
+    <Keyword>Char</Keyword>
+    <Keyword>Character</Keyword>
+    <Keyword>Casing</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.TextBox.Functionality.CharacterCasingPage</DefaultPage>
+  <Body />
+</Item>

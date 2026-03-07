@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634381543907641078" UpdatedBy="admin" UpdatedOn="634381570723722740">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Set <em>MessageBox </em>caption and message text using appropriate <em>TextBox </em>controls. Choose buttons for <em>MessageBox </em>window&nbsp;among the &quot;Buttons&quot; <em>ComboBox </em>items collection. Choose the icon for <em>MessageBox </em>window using &quot;Icon&quot; <em>ComboBox </em>in the same way. Press &quot;Show&quot; Button to Show <em>MessageBox</em>. After <em>MessageBox </em>closed another instance of <em>MessageBox </em>will be shown to display the value of&nbsp;button pressed.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>To show&nbsp;<em>MessageBox </em>window&nbsp;on the <em>Form </em>use&nbsp;<em>MessageBox </em>constructor and pass the parameters needed to it.</p><p><em>MessageBox </em>constructor parameters:</p><p><strong>strText:</strong> text to display in the MessageBox;<br /><strong>strCaption:</strong> text to display in the title bar of the MessageBox;<br /><strong>enmButtons:</strong> specifies constants defining which buttons to display on a MessageBox window;<br /><strong>enmIcon:</strong> specifies constants defining which icon to display on a MessageBox window;<br /><strong>blnShowModalMask:</strong> determines whether a form has a modal mask when modal;<br /><strong>objEventHandler:</strong> an System.EventHandler function that is called when MessageBox window is closed.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

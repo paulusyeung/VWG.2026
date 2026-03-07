@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634433232020123787" UpdatedBy="admin" UpdatedOn="634440744345328000">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Use the <em>ComboBox </em>controls to set the text alignment for the <em><strong>Label </strong></em>controls</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>Label.TextAlign</strong> property gets or sets the alignment of text in the label.</p><p>You can use this property to align the text within a label to match the layout of controls on your form. For example, if your controls are located to the right edge of the labels, you can set the <strong>TextAlign </strong>property to one of the right-aligned horizontal alignments (TopRight, MiddleRight, BottomRight) and the text will be aligned with the right edge of the labels to align with your controls.</p><p>Type: System.Drawing.ContentAlignment<br />DefaultValue - <strong>TopLeft</strong></p>]]></Paragraph>
+  </Nodes>
+</Data>

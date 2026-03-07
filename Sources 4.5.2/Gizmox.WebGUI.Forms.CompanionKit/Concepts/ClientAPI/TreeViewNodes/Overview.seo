@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="On a button click, a textBox is filled with information about each root-node: child existence (true/false), child count (if any). " Title="Example scenario:" Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+    <Element Body="vwgTreeView: nodes;&#xD;&#xA;vwgTreeViewNode: nodes." Title="Used ClientAPI functions:" Section="Section-01">
+      <Style linktype="NoLink" bodycss="font-size:medium" />
+    </Element>
+  </Body>
+</Item>

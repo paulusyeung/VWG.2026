@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634158364334847306" UpdatedBy="admin" UpdatedOn="634297399442666604">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example demonstrates a TabControl memory optimized client behavior.<br />Pay attention that the TabControl <strong>redraws the content </strong>when the tab is clicked. That is why<br />the HTMLBox Tab shows initial search results when the Tab clicked, ever if some other link browsed<br />and the DataGridView Tab shows the grid with small delay, required to redraw the grid content.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui TabControl contains the <strong>ClientBehavior</strong> property that defines the client drawing mode behavior.</p><p>The property can be set to the following values:<strong><br /><br />DrawingOptimized</strong> - defines drawing mode that TabControl does not redraw its tabs when switching between tabs.&nbsp;This mode is optimized for resonable tab page content and provides an advantage for working with browser navigation inside the tab pages.<br /><br /><strong>MemoryOptimized</strong>&nbsp;[Default value]&ndash; defines drawing mode that TabControl draws only one tab at a time.<br />This mode is optimized for tab pages with large amount of content. <br />When loading a lot of controls or data intensive controls in multiple tabs, this mode avoids browser from dealing with large amount of DOM elements.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

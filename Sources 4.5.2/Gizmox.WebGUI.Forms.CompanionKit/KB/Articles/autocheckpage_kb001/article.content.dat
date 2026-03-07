@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110077963211786" UpdatedBy="admin" UpdatedOn="634118458468070470">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>To approve a &quot;loan&quot; for a &quot;client&quot; the credit history score should be greater than minimal score.<br />The approval CheckBox is unchangeable. Change the minimal score to be equal or <br />less than the credit history score and click the CheckBox to allow the loan approval.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2" />
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>The Visual WebGui <em>CheckBox </em>contains <em>AutoCheck </em>property, that indicates whether the <em>Checked </em>or <em>CheckState</em> values and the <em>CheckBox</em>'s appearance are automatically changed when the <em>CheckBox </em>is clicked. If <em>AutoCheck</em> is set to false, you will need to add code to update the <em>Checked </em>or <em>CheckState </em>values in the <em>Click </em>event handler. If <em>AutoCheck </em>is set to true (default) - the control AUTOmatically changing the appearance on each click. This behavior is by default and conforms to behavior of Windows Forms <em>CheckBox </em>control.</p>]]></Paragraph>
+  </Nodes>
+</Data>

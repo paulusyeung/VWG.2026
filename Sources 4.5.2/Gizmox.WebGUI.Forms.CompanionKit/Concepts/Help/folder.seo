@@ -1,0 +1,12 @@
+<Item Order="100" Status="Draft" Type="Folder">
+  <Title>Help</Title>
+  <Properties />
+  <DisplayName>Help</DisplayName>
+  <Description>Integrating CHM help files to be accessible through Visual WebGui.</Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

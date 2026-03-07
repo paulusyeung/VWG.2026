@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634112584589712780" UpdatedBy="admin" UpdatedOn="634141976264678626">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click&nbsp; on the buttons&nbsp; and <em>ColorDialog </em>will be opened with full color pallet to change background or foreground color of&nbsp; the 'The label demonstrates&nbsp;selected colors'&nbsp;label.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ColorDialog </em>dialog box contains <em>AllowFullOpen </em>property that indicates whether the user can use the dialog box to define custom colors.</p>]]></Paragraph>
+  </Nodes>
+</Data>

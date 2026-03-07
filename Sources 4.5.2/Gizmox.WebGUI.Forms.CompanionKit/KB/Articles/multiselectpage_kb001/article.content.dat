@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634080637027561047" UpdatedBy="admin" UpdatedOn="634081635137411668">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check/Uncheck the 'Enable multi-select in the OpenFileDialog' CheckBox and click on the 'Open file dialog with enable/disable multiselect' button and upload file dialog will be opened. If you check the CheckBox, the <em>OpenFileDialog </em>dialog box will allow multiple files to be selected. If you uncheck the CheckBox, the <em>OpenFileDialog</em> dialog box will not allow multiple files to be selected.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>OpenFileDialog </em>dialog box contains <em>Multiselect </em>property that indicates whether the dialog box allows to select multiple files.</p>]]></Paragraph>
+  </Nodes>
+</Data>

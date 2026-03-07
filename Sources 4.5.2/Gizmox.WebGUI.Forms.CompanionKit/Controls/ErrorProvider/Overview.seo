@@ -1,0 +1,40 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Error</Keyword>
+    <Keyword>Validation</Keyword>
+    <Keyword>Errors</Keyword>
+    <Keyword>Alert</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px; border: 1px solid #BBB; border-radius:3px; -moz-border-radius:3px;' src='/Resources/Images/Lobby/ErrorProvider.Lobby.png'/&gt;
+&lt;div&gt;The &lt;span style="color:#00ccff"&gt;ErrorProvider&lt;/span&gt; provides a user interface for indicating that a control on a form has an error associated with it. This by showing an error icon with a possible tooltip.
+
+&lt;span style="color:#00ccff"&gt;ErrorProvider&lt;/span&gt; presents a simple mechanism for indicating to the end user that a control on a form has an error associated with it. If an error description string is specified for the control, an icon appears next to the control. When the mouse hovers over the icon, a ToolTip appears showing the error description string.&lt;/div&gt;
+ 
+The &lt;span style="color:#00ccff"&gt;ErrorProvider&lt;/span&gt; can be used in three flavors, so to speak:
+&lt;img style='float:left; padding: 3px;margin:5px;' src='/Resources/Images/BullPoint.png'/&gt; One &lt;span style="color:#00ccff"&gt;ErrorProvider&lt;/span&gt; control on the whole form
+&lt;img style='float:left; padding: 3px;margin:5px;' src='/Resources/Images/BullPoint.png'/&gt; One &lt;span style="color:#00ccff"&gt;ErrorProvider&lt;/span&gt; control for each control on the form
+&lt;img style='float:left; padding: 3px;margin:5px;' src='/Resources/Images/BullPoint.png'/&gt; Watching for errors on a Datasource implementing the IList interface
+
+The &lt;span style="color:#00ccff"&gt;ErrorProvider&lt;/span&gt; does not come with any UI component itself, so you do not add the control to the Form's Controls container.
+
+&lt;span style="color:#00ccff"&gt;Availability:&lt;/span&gt;
+The &lt;span style="color:#00ccff"&gt;ErrorProvider&lt;/span&gt; is one of the Out of the Box standard controls, which means it is free and available in all Visual WebGui versions.</PreText>
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Section="Section-01">
+      <Style linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

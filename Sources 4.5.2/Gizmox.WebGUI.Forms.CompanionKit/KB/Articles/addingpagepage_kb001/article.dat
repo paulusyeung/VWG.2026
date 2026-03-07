@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634106542395617982" UpdatedBy="admin" UpdatedOn="634302778092282735" Status="Publish" License="None">
+  <Properties>
+    <Title>How to add pages to the RibbonBar control</Title>
+    <Description>The example demonstrates how to add Pages to the Visual WebGui RibbonBar control.
+It also demonstrates how to handle SelectedIndexChanged event.</Description>
+  </Properties>
+  <Nodes />
+</Data>

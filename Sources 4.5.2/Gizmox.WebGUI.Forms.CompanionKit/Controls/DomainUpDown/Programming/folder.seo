@@ -1,0 +1,19 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains the examples that demonstrate how to add/remove items into/from the Visual WebGui DomainUpDown control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DomainUpDown</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>Insert</Keyword>
+    <Keyword>Item</Keyword>
+    <Keyword>Remove</Keyword>
+    <Keyword>Delete</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.DomainUpDown.Programming.AddItemsPage</DefaultPage>
+  <Body />
+</Item>

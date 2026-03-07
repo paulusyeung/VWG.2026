@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634092065596225688" UpdatedBy="admin" UpdatedOn="634092066402486008">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains 'Demonstrated ProgressBar(Maximum - 100)' and  'Demonstrated ProgressBar(Maximum - 25)' <em> ProgressBars</em>. <em>ProgressBar </em>values are limited with the <em>Maximum </em>property 100 and 25 respectively.  Increment of the both <em>ProgressBars </em>is equals. Pay attention on changing displayed value.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ProgressBar </em>contains the <em>Maximum </em>property that represents upper bound for the control. If value is set more than value of the Maximum property, the control throws an <em>ArgumentException </em>exception.</p>]]></Paragraph>
+  </Nodes>
+</Data>

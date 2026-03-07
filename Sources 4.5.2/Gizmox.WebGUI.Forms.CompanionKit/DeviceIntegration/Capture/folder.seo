@@ -1,0 +1,13 @@
+<Item SiteMap="False" Order="1" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Capture</Title>
+  <Properties />
+  <DisplayName>Capture</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.DeviceIntegration.Capture.AudioExample</DefaultPage>
+  <Body />
+</Item>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634105713100989484" UpdatedBy="admin" UpdatedOn="634105713875672026">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains two Visual WebGui <em>RichTextBox </em>controls. Change text of the top <em>RichTextBox </em>and click on the 'Send text!' Button for sending changed text to the server. The server side handler will update text of the bottom RichTextBox receiving updated text.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>RichTextBox </em>control contains formatted text in the <em>Html </em>property. When user changes the text in the control, the control raises <em>HtmlChange </em>event. The event is always raised on the server side, not on the client side.</p>]]></Paragraph>
+  </Nodes>
+</Data>

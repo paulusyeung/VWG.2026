@@ -1,0 +1,15 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>StackPanel</Title>
+  <Properties />
+  <DisplayName>StackPanel</DisplayName>
+  <Description>Contains examples that demonstrate how to use StackPanel control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>StackPanel</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.StackPanel.Overview</DefaultPage>
+</Item>

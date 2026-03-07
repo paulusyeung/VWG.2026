@@ -1,0 +1,17 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>SearchTextBox</Title>
+  <Properties />
+  <DisplayName>SearchTextBox</DisplayName>
+  <Description>Contains sample applications that demonstrates how to use SearchTextBox control</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>SearchTextBox</Keyword>
+    <Keyword>TextBox</Keyword>
+    <Keyword>Search</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.SearchTextBox.Overview</DefaultPage>
+</Item>

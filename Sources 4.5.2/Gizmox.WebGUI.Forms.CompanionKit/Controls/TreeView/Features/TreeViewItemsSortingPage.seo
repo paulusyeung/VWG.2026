@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>TreeViewItems sorting</Title>
+  <Properties />
+  <DisplayName>TreeViewItems sorting</DisplayName>
+  <Description>The example demonstrates how to sort items of the Visual WebGui TreeView. </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TreeViewItemsSortingPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TreeViewItemsSortingPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TreeViewItemsSortingPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TreeViewItemsSortingPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="TreeViewItemsSortingPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>TreeView</Keyword>
+    <Keyword>TreeViewItems</Keyword>
+    <Keyword>Sort</Keyword>
+    <Keyword>Sorting</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.TreeView.Features.TreeViewItemsSortingPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

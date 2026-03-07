@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634454792516278190" UpdatedBy="admin" UpdatedOn="634461005151803752">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Use <em>TextBox </em>control to enter&nbsp;watermark text for&nbsp;<strong>SearchTextBox </strong>control.<br />Press the <em>Button </em>to set the&nbsp;watermark text of the <strong>SearchTextBox </strong>control.<br />&nbsp;</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>WatermarkText </strong>property gets or sets text that will be displayed as watermark inside the <strong>SearchTextBox </strong>control.</p><p>Property type: System.<strong>String</strong></p>]]></Paragraph>
+  </Nodes>
+</Data>

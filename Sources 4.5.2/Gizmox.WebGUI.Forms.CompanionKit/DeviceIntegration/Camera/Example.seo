@@ -1,0 +1,18 @@
+﻿<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Camera</Title>
+  <Properties />
+  <DisplayName>Example</DisplayName>
+  <Description>Demonstrates how to use Camera.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="Example.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Example.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Example.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Camera</Keyword>
+    <Keyword>Example</Keyword>   
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.DeviceIntegration.Camera.Example, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

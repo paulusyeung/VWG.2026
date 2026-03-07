@@ -1,0 +1,14 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ComponentOne LineChart</Title>
+  <Properties />
+  <DisplayName>ComponentOne LineChart</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.AspNetWrappers.C1LineChart.C1LineChartPage</DefaultPage>
+</Item>

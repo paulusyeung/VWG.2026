@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634130859157453223" UpdatedBy="admin" UpdatedOn="634130859944177008" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to group items in the Visual WebGui ListView.</Description>
+  </Properties>
+  <Nodes />
+</Data>

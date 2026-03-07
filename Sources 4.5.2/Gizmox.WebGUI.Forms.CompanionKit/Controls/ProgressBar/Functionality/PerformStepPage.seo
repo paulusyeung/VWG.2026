@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="103" Status="Publish" Type="Page">
+  <Title>PerformStep Method</Title>
+  <Properties />
+  <DisplayName>PerformStep </DisplayName>
+  <Description>The example demonstrates how to increase the Visual WebGui ProgressBar display by a fixed value.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="PerformStepPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PerformStepPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PerformStepPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PerformStepPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="PerformStepPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>Progressbar</Keyword>
+    <Keyword>Step</Keyword>
+    <Keyword>Increment</Keyword>
+    <Keyword>PerformStep</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ProgressBar.Functionality.PerformStepPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

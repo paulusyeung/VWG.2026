@@ -1,0 +1,36 @@
+<Item SiteMap="True" Order="107" Status="Publish" Type="Page">
+  <Title>Resizing rows and columns through drag and drop</Title>
+  <Properties />
+  <DisplayName>Resizing</DisplayName>
+  <Description>The example demonstrates how to support resizing of rows and columns through drag and drop in the DataGridView control.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ResizingPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ResizingPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ResizingPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ResizingPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ResizingPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.xsd" Order="103" Lang="All" Type="Link" Title="UserDS.xsd" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.designer.cs" Order="104" Lang="CSharp" Type="Link" Title="UserDS.designer.cs" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.designer.vb" Order="104" Lang="VBNET" Type="Link" Title="UserDS.designer.vb" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.xsc" Order="105" Lang="All" Type="Link" Title="UserDS.xsc" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.xss" Order="106" Lang="All" Type="Link" Title="UserDS.xss" />
+  </Resources>
+  <Keywords>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>AllowUserToResizeColumns</Keyword>
+    <Keyword>AllowUserToResizeRows</Keyword>
+    <Keyword>Resize</Keyword>
+    <Keyword>Columns</Keyword>
+    <Keyword>Rows</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DataGridView.Features.ResizingPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="0,200" Docking="Bottom">
+    <Fields>
+      <Field Column="0" Order="0" Type="CheckBox" Label="AllowUserToResizeRows" TargetName="dataGridView1" PropertyName="AllowUserToResizeRows" />
+      <Field Column="0" Order="0" Type="CheckBox" Label="AllowUserToResizeColumns" TargetName="dataGridView1" PropertyName="AllowUserToResizeColumns" />
+    </Fields>
+  </Inspector>
+</Item>

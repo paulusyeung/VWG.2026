@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Page" Height="150">
+  <Title>MessageBox Buttons Enumeration</Title>
+  <Properties />
+  <DisplayName>Buttons</DisplayName>
+  <Description>MessageBoxButtons Enumeration Allows the user to choose one of various combinations of common MessageBox Buttons</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxButtonsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxButtonsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxButtonsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxButtonsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxButtonsPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>MessageBoxButtons</Keyword>
+    <Keyword>MessageBox</Keyword>
+    <Keyword>Buttons</Keyword>
+    <Keyword>Button</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.MessageBoxControl.Functionality.MessageBoxButtonsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

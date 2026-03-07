@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634106675457550720" UpdatedBy="admin" UpdatedOn="634302778092282735">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example demonstrates how to add three pages to the RibbonBar:</p><ul><li>Clipboard</li><li>Formatting</li><li>Tools</li></ul><p>Switch between pages, the label will be changed to display the name of active page.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[RibbonBarPage]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>A RibbonBar Page is top level container indented to separate and organize groups of items. <br />A page added to a RibbonBar will be shown as tab page similar to tab of TabControl.<br />To add Pages onto the Visual WebGui RibbonBar control, follow these steps:</p><ol><li>Drag the RibbonBar control on the Form.</li><li>Select <strong>Pages</strong> property in the Properties Window.</li><li>Click on '<strong>&hellip;</strong>' button to open RibbonBarPage Collection Editor.</li><li>Click on '<strong>Add</strong>' Button to add a new Page.</li><li>Select the added page to access properties.&nbsp;</li></ol>]]></Paragraph>
+    <Header Code="HeaderElement3" Type="Subtitle" ShowInTOC="1"><![CDATA[SelectedIndexChanged]]></Header>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>The event raised when an active page of RibbonBar changed.<br />This event useful to implement application logic on page activation.<br />See SelectedIndexChanged function in the example code.</p>]]></Paragraph>
+  </Nodes>
+</Data>

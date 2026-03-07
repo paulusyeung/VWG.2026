@@ -1,0 +1,28 @@
+.TableLayoutPanel-Control
+{
+	[Skin.Background];	
+	[Skin.Border];
+	[Skin.VisualEffect];
+}
+
+.TableLayoutPanel-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.TableLayoutPanel-Table
+{
+    display: table;
+}
+
+.TableLayoutPanel-Row
+{
+    display: table-row;
+}
+
+.TableLayoutPanel-Cell
+{
+    display: table-cell;
+    position:absolute;
+    overflow:hidden;
+}

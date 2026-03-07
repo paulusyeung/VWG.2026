@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="120" Status="Publish" Type="Page">
+  <Title>How to populate a ListBox item with image </Title>
+  <Properties />
+  <DisplayName>Text with Image</DisplayName>
+  <Description>The example demonstrates how to populate a Visual WebGui ListBox item with image.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="TextWithImagePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextWithImagePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextWithImagePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextWithImagePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="TextWithImagePage.resx" Order="103" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\32x32\Photo.png" Order="110" Lang="All" Title="Photo.png" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\Customer.cs" Order="108" Lang="CSharp" Title="Customer.cs" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\Customer.vb" Order="108" Lang="VBNET" Title="Customer.vb" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\CustomerData.cs" Order="109" Lang="CSharp" Title="CustomerData.cs" Type="Link" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\Util\CustomerData.vb" Order="109" Lang="VBNET" Title="CustomerData.vb" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListBox</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>Collection</Keyword>
+    <Keyword>DataSource</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListBox.Appearance.TextWithImagePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

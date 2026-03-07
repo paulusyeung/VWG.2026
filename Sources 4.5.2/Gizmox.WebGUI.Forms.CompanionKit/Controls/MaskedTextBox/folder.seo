@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>MaskedTextBox</Title>
+  <Properties />
+  <DisplayName>MaskedTextBox</DisplayName>
+  <Description>Contains the examples that demonstrate how to use the Visual WebGui MaskedTextBox.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>MaskedTextBox</Keyword>
+    <Keyword>Masked</Keyword>
+    <Keyword>TextBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.MaskedTextBox.Features</DefaultPage>
+</Item>

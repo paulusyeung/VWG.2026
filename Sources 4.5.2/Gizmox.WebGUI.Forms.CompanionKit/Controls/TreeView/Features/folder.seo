@@ -1,0 +1,39 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>
+    Contains examples that demonstrate how:
+    to add node into TreeView;
+    to use TreeView node with CheckBox;
+    to use ContextMenu for TreeView;
+    to support keyboard in the TreeView;
+    to support Drag and Drop in the TreeView;
+    to use selected image for node in the TreeView;
+    to use different images for normal and selected state of node in the TreeView;
+    to handle node text editing in the TreeView.
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>TreeView</Keyword>
+    <Keyword>Add</Keyword>
+    <Keyword>Node</Keyword>
+    <Keyword>Tree</Keyword>
+    <Keyword>TreeNode</Keyword>
+    <Keyword>CheckBox</Keyword>
+    <Keyword>ContextMenu</Keyword>
+    <Keyword>keyboard</Keyword>
+    <Keyword>Drag</Keyword>
+    <Keyword>Drop</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>Selected</Keyword>
+    <Keyword>State</Keyword>
+    <Keyword>Test</Keyword>
+    <Keyword>Edit</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.TreeView.Features.AddAndRemoveNodesPage</DefaultPage>
+</Item>

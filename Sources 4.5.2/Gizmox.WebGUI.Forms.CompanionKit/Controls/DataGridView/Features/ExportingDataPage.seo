@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="104" Status="Publish" Type="Page">
+  <Title>How to export data</Title>
+  <Properties />
+  <DisplayName>Exporting Data</DisplayName>
+  <Description>The example demonstrates how to export data from the DataGridView to the Excel sheet.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ExportingDataPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExportingDataPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExportingDataPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExportingDataPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ExportingDataPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FileDownloadGateway.cs" Order="103" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FileDownloadGateway.vb" Order="103" Lang="VBNET" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>Export</Keyword>
+    <Keyword>Data</Keyword>
+    <Keyword>Exporting</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DataGridView.Features.ExportingDataPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

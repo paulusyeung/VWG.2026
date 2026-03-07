@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="103" Status="Publish" Type="Page" Height="165">
+  <Title>MaxDate Property</Title>
+  <Properties />
+  <DisplayName>MaxDate Property</DisplayName>
+  <Description>The example demonstrates how to define an upper bound for the dates selected/displayed in the Visual WebGui DateTimePicker.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MaxDatePropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxDatePropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxDatePropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxDatePropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MaxDatePropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DateTimePicker</Keyword>
+    <Keyword>Maximum</Keyword>
+    <Keyword>Limit</Keyword>
+    <Keyword>Date</Keyword>
+    <Keyword>MaxDate</Keyword>
+    <Keyword>Max</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DateTimePicker.Features.MaxDatePropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

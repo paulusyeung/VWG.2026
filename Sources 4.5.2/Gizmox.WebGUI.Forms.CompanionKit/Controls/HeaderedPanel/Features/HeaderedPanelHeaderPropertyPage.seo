@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Draft" Type="Page">
+  <Title>Header Property</Title>
+  <Properties />
+  <DisplayName>Header Property</DisplayName>
+  <Description>The example demonstrates how to set header for HeaderedPanel control</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderedPanelHeaderPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderedPanelHeaderPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderedPanelHeaderPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderedPanelHeaderPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderedPanelHeaderPropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>HeaderedPanel</Keyword>
+    <Keyword>Header</Keyword>
+    <Keyword>Panel</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.HeaderedPanel.Features.HeaderedPanelHeaderPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

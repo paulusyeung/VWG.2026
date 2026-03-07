@@ -1,0 +1,40 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Gizmox.WebGUI.Forms.ErrorIconAlignment
+// Assembly: Gizmox.WebGUI.Forms, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=c508b41386c60f1d
+// MVID: D9031956-0D2D-4DB7-BDA0-E996D0722B6C
+// Assembly location: C:\Program Files (x86)\Gizmox\Visual WebGUI\SDK 4.5.2\Assemblies\Gizmox.WebGUI.Forms.dll
+// XML documentation location: C:\Program Files (x86)\Gizmox\Visual WebGUI\SDK 4.5.2\Assemblies\Gizmox.WebGUI.Forms.xml
+
+namespace Gizmox.WebGUI.Forms
+{
+  /// <summary>
+  /// Specifies constants indicating the locations that an error icon can appear in relation to the control with an error.
+  /// </summary>
+  public enum ErrorIconAlignment
+  {
+    /// <summary>
+    /// The icon appears aligned with the top of the control and to the left of the control.
+    /// </summary>
+    TopLeft,
+    /// <summary>
+    /// The icon appears aligned with the top of the control and to the right of the control.
+    /// </summary>
+    TopRight,
+    /// <summary>
+    /// The icon appears aligned with the middle of the control and the left of the control.
+    /// </summary>
+    MiddleLeft,
+    /// <summary>
+    /// The icon appears aligned with the middle of the control and the right of the control.
+    /// </summary>
+    MiddleRight,
+    /// <summary>
+    /// The icon appears aligned with the bottom of the control and the left of the control.
+    /// </summary>
+    BottomLeft,
+    /// <summary>
+    /// The icon appears aligned with the bottom of the control and the right of the control.
+    /// </summary>
+    BottomRight,
+  }
+}

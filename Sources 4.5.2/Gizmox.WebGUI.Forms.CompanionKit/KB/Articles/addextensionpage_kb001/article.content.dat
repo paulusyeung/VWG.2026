@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634082274998505411" UpdatedBy="admin" UpdatedOn="634082276277452586">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check/Uncheck the 'Enable AddExtension for OpenFileDialog' CheckBox and click on the 'Open OpenFileDialog with enable/disable AddExtension property' button and upload file dialog will be opened. Click on the 'Add' button and the <em>OpenFileDialog </em>will be opened. Enter file name without extension and click on the 'Open' button. If the main CheckBox is checked the dialog adds to a file name depends on the currently selected file filter. Otherwise, the opened dialog will not be able to add extension automatically and you must enter Full name file with extension.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui OpenFileDialog dialog box contains AddExtension property that indicates whether the dialog box automatically adds an extension to a file name if the user omits the extension.  </p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634377047956835404" UpdatedBy="admin" UpdatedOn="634381571883462965">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Choose one of the&nbsp;<em>ComboBox </em>items which represents buttons that will be shown within the <em>MessageBox </em>window and&nbsp;press&nbsp;<em>Button </em>to show <em>MessageBox </em>window. <em>MessageBox&nbsp;</em>window modal mask can be turned On/Off by switching the 'Show Modal Mask'&nbsp;<em>CheckBox</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><em>MessageBox</em> buttons&nbsp;for <em>MessageBox</em> window can be simply set by respectively passing parameters to suitable <em>MessageBox </em>constructor called.</p><p><em>MessageBox </em>constructor parameters:</p><p><strong>enmButtons:</strong> specifies constants defining which buttons to display on a <em>MessageBox</em> window;<br /><strong>blnShowModalMask:</strong> determines whether a form has a modal mask when modal;<br /><strong>objEventHandler:</strong> an System.EventHandler function that is called when MessageBox window is closed.</p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634097133690593196" UpdatedBy="admin" UpdatedOn="634123702385787341" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to create an application for browsing Flash animation with the Visual WebGui AciveXBox control</Description>
+  </Properties>
+  <Nodes>
+    <Resource Code="CodeBaseActiveXBox.png" />
+    <Resource Code="DragActiveXBox.png" />
+    <Resource Code="SizeActiveXBox.png" />
+    <Resource Code="ClassIdActiveXBox.png" />
+    <Resource Code="ParametersActiveXBox.png" />
+    <Resource Code="ParametersEditor.png" />
+    <Resource Code="AddParameterInEditor.png" />
+    <Resource Code="SetNameAndValueParameters.png" />
+    <Resource Code="RemoveParameter.png" />
+    <Resource Code="AddParameterMethod.png" />
+    <Resource Code="AddMethodOfParameters.png" />
+    <Resource Code="AppWithWMPActiveXBox.png" />
+  </Nodes>
+</Data>

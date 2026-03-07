@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634418659863039102" UpdatedBy="admin" UpdatedOn="634420003589970279">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Enter longitude and latitude values of the desired location and press the <em>Button</em>.<br />Location will be searched by coordinates entered and shown on the map.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>GoogleMap.MapLocation</strong> property sets the location in the map using longitude and latitude values.<br />Property type: Gizmox.WebGUI.Forms.Google.GoogleMapLocation</p>]]></Paragraph>
+  </Nodes>
+</Data>

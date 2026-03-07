@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to use Header of HeaderedPanel control</Title>
+  <Properties />
+  <DisplayName>Header demonstration</DisplayName>
+  <Description>
+  </Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderDemonstrationPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderDemonstrationPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderDemonstrationPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderDemonstrationPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderDemonstrationPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="Categorize.png" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>HeaderedPane</Keyword>
+    <Keyword>Header</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.HeaderedPanel.Features.HeaderDemonstrationPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

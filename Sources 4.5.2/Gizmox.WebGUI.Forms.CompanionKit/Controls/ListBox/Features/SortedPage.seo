@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="110" Status="Publish" Type="Page">
+  <Title>Sort ListBox items</Title>
+  <Properties />
+  <DisplayName>Sort ListBox items</DisplayName>
+  <Description>The example demonstrates how to automatically sort items of the Visual WebGui ListBox. </Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="SortedPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SortedPage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SortedPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SortedPage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SortedPage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListBox</Keyword>
+    <Keyword>Sorted</Keyword>
+    <Keyword>Sort</Keyword>
+    <Keyword>Order</Keyword>
+    <Keyword>Ordering</Keyword>
+    <Keyword>Sorting</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListBox.Features.SortedPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

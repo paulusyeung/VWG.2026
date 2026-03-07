@@ -1,0 +1,4017 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9F0416FE-04C3-4F2A-98CC-B39B6F1022CC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gizmox.WebGUI.Forms</RootNamespace>
+    <AssemblyName>Gizmox.WebGUI.Forms</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Keys\Gizmox.WebGUI.Forms.snk</AssemblyOriginatorKeyFile>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/Gizmox.WebGUI.Forms/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WG_NET452</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Docs2\Gizmox.WebGUI.Forms.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Gizmox.WebGUI.Forms.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Deployment|AnyCPU' ">
+    <OutputPath>bin\Deployment\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <DocumentationFile>bin\Deployment\Gizmox.WebGUI.Forms.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Documentation|AnyCPU' ">
+    <OutputPath>bin\Documentation\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <DocumentationFile>bin\Release\Gizmox.WebGUI.Forms.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Nightly|AnyCPU' ">
+    <OutputPath>bin\Nightly\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <DocumentationFile>bin\Release\Gizmox.WebGUI.Forms.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Commercial Deployment|AnyCPU' ">
+    <OutputPath>bin\Commercial Deployment\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <DocumentationFile>bin\Commercial Deployment\Gizmox.WebGUI.Forms.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Express|AnyCPU' ">
+    <OutputPath>bin\Express\</OutputPath>
+    <DefineConstants>TRACE;WG_NET452</DefineConstants>
+    <DocumentationFile>bin\Express\Gizmox.WebGUI.Forms.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Design|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Design\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WG_NET452</DefineConstants>
+    <DocumentationFile>Docs2\Gizmox.WebGUI.Forms.XML</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gizmox.WebGUI.Common, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=263fa4ef694acff6, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Common.Design.Skins, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=82814e180535b402, processorArchitecture=MSIL">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>..\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Common.Design.Skins.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Gizmox.WebGUI.3rdParty.Assemblies\Newtonsoft.Json\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administration\Abstract\AdministrationContent.cs" />
+    <Compile Include="Administration\Abstract\AdministrationFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Abstract\AdministrationFormBase.Designer.cs">
+      <DependentUpon>AdministrationFormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Abstract\ContentChangeNotifierUserControl.cs" />
+    <Compile Include="Administration\Abstract\IContentUpdateable.cs" />
+    <Compile Include="Administration\Abstract\MessageType.cs" />
+    <Compile Include="Administration\Abstract\WizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Abstract\WizardStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Administration\AdministrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\AdministrationForm.Designer.cs">
+      <DependentUpon>AdministrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\AdministrationLogonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Abstract\AdministrationLogonControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Administration\CustomComponents\AdministrationButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Administration\CustomComponents\AdministrationButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Administration\CustomComponents\AdministrationHeaderLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Administration\CustomComponents\AdministrationHeaderLabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Administration\CustomComponents\AdministrationTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Administration\CustomComponents\AdministrationTabs.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Administration\CustomComponents\AdministrationTabsSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Administration\CustomComponents\AdministrationWatermarkTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Administration\CustomComponents\AdministrationWatermarkTextBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Administration\CustomComponents\AdministrationFooterPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ContextualToolbar\ProxyControlContextualToolbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContextualToolbar\ProxyControlContextualToolbarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\ResourceHandleEditor.cs" />
+    <Compile Include="DeviceIntegration\Abstract\DeviceComponent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\Abstract\MultipleCallMethodStore.cs" />
+    <Compile Include="DeviceIntegration\Abstract\SingleCallMethodStore.cs" />
+    <Compile Include="DeviceIntegration\Abstract\WatchedDeviceComponent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\Accelerometer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\Camera.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\Capture.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\CaptureComponents\MediaFile.cs" />
+    <Compile Include="DeviceIntegration\CaptureComponents\MediaFileData.cs" />
+    <Compile Include="DeviceIntegration\Compass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\Connection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\Contacts.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\ContactsData\Contact.cs" />
+    <Compile Include="DeviceIntegration\DeviceCommon\JsonUtils.cs" />
+    <Compile Include="DeviceIntegration\DeviceEvents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\DeviceInfo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\DeviceIntegrator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\DeviceIntegratorSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\DeviceMedia.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\FileManagement\DeviceFile.cs" />
+    <Compile Include="DeviceIntegration\FileManagement\DirectoryEntry.cs" />
+    <Compile Include="DeviceIntegration\FileManagement\DirectoryReader.cs" />
+    <Compile Include="DeviceIntegration\FileManagement\Entry.cs" />
+    <Compile Include="DeviceIntegration\FileManagement\EntryMetadata.cs" />
+    <Compile Include="DeviceIntegration\FileManagement\FileEntry.cs" />
+    <Compile Include="DeviceIntegration\FileManagement\FileReader.cs" />
+    <Compile Include="DeviceIntegration\FileManagement\FileSystem.cs" />
+    <Compile Include="DeviceIntegration\FileManagement\FileTransfer.cs" />
+    <Compile Include="DeviceIntegration\FileManagement\FileTransferError.cs" />
+    <Compile Include="DeviceIntegration\FileManagement\FileWriter.cs" />
+    <Compile Include="DeviceIntegration\FileManagement\PhonegapFileDownloadEventArgs.cs" />
+    <Compile Include="DeviceIntegration\FileManagement\PhonegapFileUploadEventArgs.cs" />
+    <Compile Include="DeviceIntegration\FileManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\Geolocation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\Globalization.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\LocalStorage.cs" />
+    <Compile Include="DeviceIntegration\MediaComponents\Media.cs" />
+    <Compile Include="DeviceIntegration\Notifications.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\Splashscreen.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\Storage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeviceIntegration\StorageComponents\Database.cs" />
+    <Compile Include="DeviceIntegration\StorageComponents\SQLResultSet.cs" />
+    <Compile Include="DeviceIntegration\StorageComponents\SQLTransaction.cs" />
+    <Compile Include="DockingManager\DockedContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\DockedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DockingManager\DockedHiddenZonesPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\DockedHiddenZonesPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\DockedObjectDescriptors\Abstract\DockedObjectDescriptor.cs" />
+    <Compile Include="DockingManager\DockedObjectDescriptors\Abstract\IDescriptable.cs" />
+    <Compile Include="DockingManager\DockedObjectDescriptors\Abstract\IPreventExtraction.cs" />
+    <Compile Include="DockingManager\DockedObjectDescriptors\DockedFormDescriptor.cs" />
+    <Compile Include="DockingManager\DockedObjectDescriptors\DockedHiddenZonePanelDescriptor.cs" />
+    <Compile Include="DockingManager\DockedObjectDescriptors\DockedSplitContainerDescriptor.cs" />
+    <Compile Include="DockingManager\DockedObjectDescriptors\DockedTabControlDescriptor.cs" />
+    <Compile Include="DockingManager\DockedObjectDescriptors\DockedWindowDescriptor.cs" />
+    <Compile Include="DockingManager\DockedObjectDescriptors\DockedWindowPlaceHolderDescriptor.cs" />
+    <Compile Include="DockingManager\DockedObjectDescriptors\DockingManagerDescriptor.cs" />
+    <Compile Include="DockingManager\DockedObjectDescriptors\ZoneDescriptor.cs" />
+    <Compile Include="DockingManager\DockedObjectDescriptors\ZoneType.cs" />
+    <Compile Include="DockingManager\DockedSplitContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\DockedTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\DockedTabControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\DockedTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\DockingManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\DockingManagerHelper.cs" />
+    <Compile Include="DockingManager\DockingManagerSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\DockingWindow.cs" />
+    <Compile Include="DockingManager\DockState.cs" />
+    <Compile Include="DockingManager\HiddenZonePopupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DockingManager\Relation.cs" />
+    <Compile Include="DockingManager\Zone.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\ZoneCloseButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\ZoneCloseButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\ZoneDropDownButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\ZoneDropDownButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\ZoneHeaderLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\ZoneHeaderLabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\ZoneHeaderPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\ZoneHeaderPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\ZonePinCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\ZonePinCheckBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockingManager\ZoneSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ContextualToolbar\ContextualToolbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContextualToolbar\ContextualToolbarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditValueEditingEventArgs.cs" />
+    <Compile Include="EmptyExpandableObjectConverter.cs" />
+    <Compile Include="Hosts\AspControlBoxBase.cs" />
+    <Compile Include="Hosts\AspControlBoxBaseSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LoadAssemblyHelper.cs" />
+    <Compile Include="OpenFileDialogProgressPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proxy\Controls\MasterPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\Controls\MasterPageContent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\Controls\MasterPageContentSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\Controls\MasterPageSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\Controls\OrientationTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\Controls\OrientationTabControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\IProxyNavigationControl.cs" />
+    <Compile Include="Proxy\ProxyAction.cs" />
+    <Compile Include="Proxy\ProxyActivateFormCommand.cs" />
+    <Compile Include="Proxy\ProxyCloseActiveFormCommand.cs" />
+    <Compile Include="Proxy\ProxyComponent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyEvent.cs" />
+    <Compile Include="Proxy\ProxyEventArgs.cs" />
+    <Compile Include="Proxy\ProxyFlowLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyForm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyMainMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyMasterPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyNavigationCommands.cs" />
+    <Compile Include="Proxy\ProxyOrientationTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyPropertyBag.cs" />
+    <Compile Include="Proxy\ProxySet.cs" />
+    <Compile Include="Proxy\ProxySets.cs" />
+    <Compile Include="Proxy\ProxyStatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyTableLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyToolStripControlHost.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyTreeNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Proxy\ProxyTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\WebThemeEditor.cs" />
+    <Compile Include="Administration\DefaultAdministrationLogonControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Administration\MainContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Attributes\RelatedImageListAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Attributes\SRCategoryAttribute.cs" />
+    <Compile Include="Attributes\SRDescriptionAttribute.cs" />
+    <Compile Include="Authentication\LogonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\AnchorPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\AnchorPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\DockButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\DockButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\WebCollectionEditorItemTypeNameAttribute.cs" />
+    <Compile Include="Design\Editors\VisualTemplateListViewColumnOrderEditor.cs" />
+    <Compile Include="Design\Editors\VisualTemplateEditor.cs" />
+    <Compile Include="JQueryUIOptions.cs" />
+    <Compile Include="Hosts\XamlBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VisualTemplates\BorderlessButtonVisualTemplate.cs" />
+    <Compile Include="VisualTemplates\BorderlessButtonVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VisualTemplates\BorderlessTextBoxVisualTemplate.cs" />
+    <Compile Include="VisualTemplates\BorderlessTextBoxVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VisualTemplates\CheckBoxSwitchVisualTemplate.cs" />
+    <Compile Include="VisualTemplates\CheckBoxSwitchVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VisualTemplates\DataGridViewMobileVisualTemplate.cs" />
+    <Compile Include="VisualTemplates\DataGridViewMobileVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VisualTemplates\HeaderLabelVisualTemplate.cs" />
+    <Compile Include="VisualTemplates\HeaderLabelVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VisualTemplates\ListViewVisualTemplate.cs" />
+    <Compile Include="VisualTemplates\ListViewVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VisualTemplates\NativeComboBoxVisualTemplate.cs" />
+    <Compile Include="VisualTemplates\NativeComboBoxVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VisualTemplates\NativeDateTimePickerVisualTemplate.cs" />
+    <Compile Include="VisualTemplates\NativeDateTimePickerVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VisualTemplates\NativeTrackBarVisualTemplate.cs" />
+    <Compile Include="VisualTemplates\NativeTrackBarVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VisualTemplates\TabControlLogicalVisualTemplate.cs" />
+    <Compile Include="VisualTemplates\TabControlLogicalVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VisualTemplates\TabControlSpreadVisualTemplate.cs" />
+    <Compile Include="VisualTemplates\TabControlSpreadVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VisualTemplates\TitleLabelVisualTemplate.cs" />
+    <Compile Include="VisualTemplates\TitleLabelVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VisualTemplates\TreeViewVisualTemplate.cs" />
+    <Compile Include="VisualTemplates\TreeViewVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VisualTemplates\VisualTemplate.cs" />
+    <Compile Include="SelectedIndicator.cs" />
+    <Compile Include="BaseCollection.cs" />
+    <Compile Include="BindingNavigator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BindingNavigatorSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Bindings.cs" />
+    <Compile Include="BindingSource.cs">
+    </Compile>
+    <Compile Include="BorderColor.cs" />
+    <Compile Include="Button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonBaseSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CheckBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CheckedListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CheckedListBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Clipboard.cs" />
+    <Compile Include="ColorComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ColorComboBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ColorDialog.cs">
+    </Compile>
+    <Compile Include="ColorDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ColorListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ColorListBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ColumnChooserButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ColumnChooserButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ColumnChooserDialog.cs" />
+    <Compile Include="ColumnHeader.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComboBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CommonDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CommonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ContainerControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ContainerControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control.cs" />
+    <Compile Include="ControlEventArgs.cs" />
+    <Compile Include="ControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ItemChooser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataGridViewActiveTextBoxCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewCellPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewFilterButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewFilterComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewFilterComboBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewFilterComboBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewGroupingHeader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataGridViewGroupingHeader.Designer.cs">
+      <DependentUpon>DataGridViewGroupingHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridViewGroupingTreeViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewHeaderFilterComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewHeaderFilterComboBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\ContextualTabGroupCollectionEditor.cs" />
+    <Compile Include="Design\Editors\ListViewGroupCollectionEditor.cs" />
+    <Compile Include="Design\Editors\ShortcutKeysEditor.cs" />
+    <Compile Include="Design\LimitedTrustBrowsableAttribute.cs" />
+    <Compile Include="ExtendedColumnHeaders.cs" />
+    <Compile Include="ExtendedHeaderUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExtendedHeaderRowData.cs" />
+    <Compile Include="ExtendedHeaderRowDataTypeConverter.cs" />
+    <Compile Include="ExtendedHeaderUserControlTypeConverter.cs" />
+    <Compile Include="GeoLocation.cs" />
+    <Compile Include="GroupingAreaStyleProperties.cs" />
+    <Compile Include="WatermarkTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WatermarkTextBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinFormsCompatibility\ListControlWinFormsCompatibility.cs" />
+    <Compile Include="WinFormsCompatibility\ControlWinFormsCompatibility.cs" />
+    <Compile Include="WinFormsCompatibility\ListViewWinFormsCompatibility.cs" />
+    <Compile Include="WinFormsCompatibility\TextBoxBaseWinFormsCompatibility.cs" />
+    <Compile Include="WinFormsCompatibility\TextBoxWinFormsCompatibility.cs" />
+    <Compile Include="WinFormsCompatibility\ToolBarWinFormsCompatibility.cs" />
+    <Compile Include="WinFormsCompatibility\TreeViewWinFormsCompatibility.cs" />
+    <Compile Include="WinFormsCompatibility\WinFormsCompatibility.cs" />
+    <Content Include="Administration\CustomComponents\AdministrationButtonSkin.Button.BI.xslt">
+      <DependentUpon>AdministrationButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Administration\CustomComponents\AdministrationButtonSkin.Button.css">
+      <DependentUpon>AdministrationButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Administration\CustomComponents\AdministrationButtonSkin.Button.NBI.css">
+      <DependentUpon>AdministrationButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Administration\CustomComponents\AdministrationButtonSkin.Button.NBI.xslt">
+      <DependentUpon>AdministrationButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Administration\CustomComponents\AdministrationButtonSkin.Button.xslt">
+      <DependentUpon>AdministrationButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Administration\CustomComponents\AdministrationHeaderLabelSkin.Label.css">
+      <DependentUpon>AdministrationHeaderLabelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Administration\CustomComponents\AdministrationHeaderLabelSkin.Label.xslt">
+      <DependentUpon>AdministrationHeaderLabelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Administration\CustomComponents\AdministrationTabsSkin.TabControl.css">
+      <DependentUpon>AdministrationTabsSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Administration\CustomComponents\AdministrationTabsSkin.TabControl.grd.css">
+      <DependentUpon>AdministrationTabsSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Administration\CustomComponents\AdministrationTabsSkin.TabControl.ie.css">
+      <DependentUpon>AdministrationTabsSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Administration\CustomComponents\AdministrationTabsSkin.TabControl.ngrd.css">
+      <DependentUpon>AdministrationTabsSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Administration\CustomComponents\AdministrationTabsSkin.TabControl.xslt">
+      <DependentUpon>AdministrationTabsSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Administration\CustomComponents\AdministrationWatermarkTextBoxSkin.TextBox.css">
+      <DependentUpon>AdministrationWatermarkTextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Administration\CustomComponents\AdministrationWatermarkTextBoxSkin.TextBox.xslt">
+      <DependentUpon>AdministrationWatermarkTextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.ControlEdit.Client.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.VisualTemplates.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Commons.Messages.Unauthorized.html">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ContextualToolbar\ProxyControlContextualToolbarSkin.ProxyControlContextualToolbar.css">
+      <DependentUpon>ProxyControlContextualToolbarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DeviceIntegration\DeviceIntegratorSkin.DeviceIntergration.xslt">
+      <DependentUpon>DeviceIntegratorSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DeviceIntegration\DeviceIntergration.xslt" />
+    <Content Include="DockingManager\DockedHiddenZonesPanelSkin.DockedHiddenZonesPanel.js" />
+    <Content Include="DockingManager\DockedHiddenZonesPanelSkin.Panel.css" />
+    <Content Include="DockingManager\DockedHiddenZonesPanelSkin.Panel.xslt" />
+    <Content Include="DockingManager\DockedTabControlSkin.DockedTabControl.js" />
+    <Content Include="DockingManager\DockedTabControlSkin.TabControl.css" />
+    <Content Include="DockingManager\DockedTabControlSkin.TabControl.xslt" />
+    <Content Include="DockingManager\DockingManager.bmp" />
+    <Content Include="DockingManager\DockingManagerSkin.DockingManager.css" />
+    <Content Include="DockingManager\DockingManagerSkin.DockingManagerSkin.DockingManager.xslt" />
+    <Content Include="DockingManager\DockingManager_45.png" />
+    <Content Include="DockingManager\ZoneCloseButtonSkin.ZoneCloseButton.BI.xslt" />
+    <Content Include="DockingManager\ZoneCloseButtonSkin.ZoneCloseButton.css" />
+    <Content Include="DockingManager\ZoneCloseButtonSkin.ZoneCloseButton.NBI.css" />
+    <Content Include="DockingManager\ZoneCloseButtonSkin.ZoneCloseButton.NBI.xslt" />
+    <Content Include="DockingManager\ZoneCloseButtonSkin.ZoneCloseButton.xslt" />
+    <Content Include="DockingManager\ZoneDropDownButtonSkin.ZoneDropDownButton.BI.xslt" />
+    <Content Include="DockingManager\ZoneDropDownButtonSkin.ZoneDropDownButton.css" />
+    <Content Include="DockingManager\ZoneDropDownButtonSkin.ZoneDropDownButton.NBI.css" />
+    <Content Include="DockingManager\ZoneDropDownButtonSkin.ZoneDropDownButton.NBI.xslt" />
+    <Content Include="DockingManager\ZoneDropDownButtonSkin.ZoneDropDownButton.xslt" />
+    <Content Include="DockingManager\ZoneHeaderLabelSkin.Label.css" />
+    <Content Include="DockingManager\ZoneHeaderLabelSkin.Label.xslt" />
+    <Content Include="DockingManager\ZoneHeaderPanelSkin.Panel.css" />
+    <Content Include="DockingManager\ZoneHeaderPanelSkin.Panel.xslt" />
+    <Content Include="DockingManager\ZonePinCheckBoxSkin.CheckBox.css" />
+    <Content Include="DockingManager\ZonePinCheckBoxSkin.CheckBox.xslt" />
+    <Content Include="DockingManager\ZoneSkin.Zone.css" />
+    <Content Include="DockingManager\ZoneSkin.Zone.js" />
+    <Content Include="DockingManager\ZoneSkin.Zone.xslt" />
+    <Content Include="ContextualToolbar\ContextualToolbarSkin.ContextualToolbar.css">
+      <DependentUpon>ContextualToolbarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ContextualToolbar\ContextualToolbarSkin.ContextualToolbar.js">
+      <DependentUpon>ContextualToolbarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ContextualToolbar\ContextualToolbarSkin.ContextualToolbar.xslt">
+      <DependentUpon>ContextualToolbarSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Hosts\AspControlBoxBaseSkin.AspControlBoxBase.js">
+      <DependentUpon>AspControlBoxBaseSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ItemTemplates\CS\ListView\ListViewSkin1.ListViewVisualTemplate.css">
+      <DependentUpon>ListViewSkin1.cs</DependentUpon>
+    </Content>
+    <Content Include="ItemTemplates\CS\ListView\ListViewSkin1.ListViewVisualTemplate.xslt">
+      <DependentUpon>ListViewSkin1.cs</DependentUpon>
+    </Content>
+    <Content Include="ItemTemplates\VB\ListView\ListViewSkin1.ListViewVisualTemplate.css">
+      <DependentUpon>ListViewSkin1.vb</DependentUpon>
+    </Content>
+    <Content Include="ItemTemplates\VB\ListView\ListViewSkin1.ListViewVisualTemplate.xslt">
+      <DependentUpon>ListViewSkin1.vb</DependentUpon>
+    </Content>
+    <Content Include="ListViewSkin.ListViewVisualTemplateBase.xslt">
+      <DependentUpon>ListViewSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="Hosts\AspControlBoxBaseSkin.resx">
+      <DependentUpon>AspControlBoxBaseSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proxy\Controls\OrientationTabControlSkin.resx">
+      <DependentUpon>OrientationTabControlSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Scripts\iscroll-probe.js" />
+    <EmbeddedResource Include="Resources\Scripts\iScroll-probe.min.js" />
+    <Content Include="LoadingSkin.LoadingAnimation.css">
+      <DependentUpon>LoadingSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="LoadingSkin.LoadingAnimation.htm">
+      <DependentUpon>LoadingSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="OpenFileDialogSkin.OpenFileDialog-Link.js">
+      <DependentUpon>OpenFileDialogSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Proxy\Controls\OrientationTabControlSkin.TabControl.js">
+      <DependentUpon>OrientationTabControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\BorderlessButtonVisualTemplateSkin.BTNBorderLess.png">
+      <DependentUpon>BorderlessButtonVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\BorderlessButtonVisualTemplateSkin.Button.css">
+      <DependentUpon>BorderlessButtonVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\BorderlessButtonVisualTemplateSkin.Button.xslt">
+      <DependentUpon>BorderlessButtonVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\BorderlessTextBoxVisualTemplateSkin.TextBox.css">
+      <DependentUpon>BorderlessTextBoxVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\BorderlessTextBoxVisualTemplateSkin.TextBox.xslt">
+      <DependentUpon>BorderlessTextBoxVisualTemplateSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="VisualTemplates\BorderlessTextBoxVisualTemplateSkin.TextBoxBorderLess.png">
+      <DependentUpon>BorderlessTextBoxVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\CheckBoxSwitchVisualTemplateSkin.CheckBox.css">
+      <DependentUpon>CheckBoxSwitchVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\CheckBoxSwitchVisualTemplateSkin.CheckBox.js">
+      <DependentUpon>CheckBoxSwitchVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\CheckBoxSwitchVisualTemplateSkin.CheckBox.xslt">
+      <DependentUpon>CheckBoxSwitchVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\CheckBoxSwitchVisualTemplateSkin.CheckBoxSwitch.png">
+      <DependentUpon>CheckBoxSwitchVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\DataGridViewMobileVisualTemplateSkin.DataGridView.css">
+      <DependentUpon>DataGridViewMobileVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\DataGridViewMobileVisualTemplateSkin.DataGridView.xslt">
+      <DependentUpon>DataGridViewMobileVisualTemplateSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="VisualTemplates\DataGridViewMobileVisualTemplateSkin.DataGridViewMobile.png">
+      <DependentUpon>DataGridViewMobileVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\DataGridViewMobileVisualTemplateSkin.DataGridViewVisualTemplateMobile.js">
+      <DependentUpon>DataGridViewMobileVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\HeaderLabelVisualTemplateSkin.Label.css">
+      <DependentUpon>HeaderLabelVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\HeaderLabelVisualTemplateSkin.Label.xslt">
+      <DependentUpon>HeaderLabelVisualTemplateSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="VisualTemplates\HeaderLabelVisualTemplateSkin.LableHeaderTemplate.png">
+      <DependentUpon>HeaderLabelVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\ListViewVisualTemplate.bmp">
+      <DependentUpon>ListViewVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\ListViewVisualTemplateSkin.ContactListWithGrouping.png">
+      <DependentUpon>ListViewVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\ListViewVisualTemplateSkin.ListViewVisualTemplate.css">
+      <DependentUpon>ListViewVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\ListViewVisualTemplateSkin.ListViewVisualTemplate.xslt">
+      <DependentUpon>ListViewVisualTemplateSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="VisualTemplates\NativeComboBoxVisualTemplateSkin.ComboBox.css">
+      <DependentUpon>NativeComboBoxVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\NativeComboBoxVisualTemplateSkin.ComboBox.js">
+      <DependentUpon>NativeComboBoxVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\NativeComboBoxVisualTemplateSkin.ComboBox.xslt">
+      <DependentUpon>NativeComboBoxVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\NativeComboBoxVisualTemplateSkin.NativeCombo.png">
+      <DependentUpon>NativeComboBoxVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\NativeDateTimePickerVisualTemplateSkin.DateTimePicker.css">
+      <DependentUpon>NativeDateTimePickerVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\NativeDateTimePickerVisualTemplateSkin.DateTimePicker.js">
+      <DependentUpon>NativeDateTimePickerVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\NativeDateTimePickerVisualTemplateSkin.DateTimePicker.xslt">
+      <DependentUpon>NativeDateTimePickerVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\NativeDateTimePickerVisualTemplateSkin.NativeDateTimePicker.png">
+      <DependentUpon>NativeDateTimePickerVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\NativeTrackBarVisualTemplateSkin.NativeTrackBar.png">
+      <DependentUpon>NativeTrackBarVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\NativeTrackBarVisualTemplateSkin.TrackBar.css">
+      <DependentUpon>NativeTrackBarVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\NativeTrackBarVisualTemplateSkin.TrackBar.js">
+      <DependentUpon>NativeTrackBarVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\NativeTrackBarVisualTemplateSkin.TrackBar.xslt">
+      <DependentUpon>NativeTrackBarVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TabControlLogicalVisualTemplateSkin.TabControl.css">
+      <DependentUpon>TabControlLogicalVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TabControlLogicalVisualTemplateSkin.TabControl.grd.css">
+      <DependentUpon>TabControlLogicalVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TabControlLogicalVisualTemplateSkin.TabControl.ie.css">
+      <DependentUpon>TabControlLogicalVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TabControlLogicalVisualTemplateSkin.TabControl.ngrd.css">
+      <DependentUpon>TabControlLogicalVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TabControlLogicalVisualTemplateSkin.TabControl.xslt">
+      <DependentUpon>TabControlLogicalVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TabControlLogicalVisualTemplateSkin.TabControlLogical.png">
+      <DependentUpon>TabControlLogicalVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TabControlSpreadVisualTemplateSkin.TabControl.css">
+      <DependentUpon>TabControlSpreadVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TabControlSpreadVisualTemplateSkin.TabControl.grd.css">
+      <DependentUpon>TabControlSpreadVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TabControlSpreadVisualTemplateSkin.TabControl.ie.css">
+      <DependentUpon>TabControlSpreadVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TabControlSpreadVisualTemplateSkin.TabControl.ngrd.css">
+      <DependentUpon>TabControlSpreadVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TabControlSpreadVisualTemplateSkin.TabControl.xslt">
+      <DependentUpon>TabControlSpreadVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TabControlSpreadVisualTemplateSkin.TabControlSpread.png">
+      <DependentUpon>TabControlSpreadVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TitleLabelVisualTemplateSkin.Label.css">
+      <DependentUpon>TitleLabelVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TitleLabelVisualTemplateSkin.Label.xslt">
+      <DependentUpon>TitleLabelVisualTemplateSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="VisualTemplates\TitleLabelVisualTemplateSkin.LabelTitleTemplate.png">
+      <DependentUpon>TitleLabelVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TreeViewVisualTemplateSkin.TreeViewVisualTemplate.css">
+      <DependentUpon>TreeViewVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TreeViewVisualTemplateSkin.TreeViewVisualTemplate.js">
+      <DependentUpon>TreeViewVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VisualTemplates\TreeViewVisualTemplateSkin.TreeViewVisualTemplate.xslt">
+      <DependentUpon>TreeViewVisualTemplateSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="VisualTemplates\TreeViewVisualTemplateSkin.TreeViewVisualTemplate_Paging.png">
+      <DependentUpon>TreeViewVisualTemplateSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="WatermarkTextBox.png" />
+    <Content Include="WatermarkTextBoxSkin.WatermarkTextBox.css">
+      <DependentUpon>WatermarkTextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="WatermarkTextBoxSkin.WatermarkTextBox.js">
+      <DependentUpon>WatermarkTextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="WatermarkTextBoxSkin.WatermarkTextBox.xslt">
+      <DependentUpon>WatermarkTextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="WatermarkTextBox_45.png" />
+    <EmbeddedResource Include="Administration\CustomComponents\AdministrationHeaderLabelSkin.resx">
+      <DependentUpon>AdministrationHeaderLabelSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\CustomComponents\AdministrationWatermarkTextBoxSkin.resx">
+      <DependentUpon>AdministrationWatermarkTextBoxSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContextualToolbar\ProxyControlContextualToolbarSkin.resx">
+      <DependentUpon>ProxyControlContextualToolbarSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeviceIntegration\DeviceIntegratorSkin.resx">
+      <DependentUpon>DeviceIntegratorSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\IconForm.png" />
+    <EmbeddedResource Include="Resources\LogoBottom.png" />
+    <EmbeddedResource Include="Resources\LogoTop.png" />
+    <EmbeddedResource Include="Administration\CustomComponents\AdministrationButtonSkin.resx">
+      <DependentUpon>AdministrationButtonSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\CustomComponents\AdministrationTabsSkin.resx">
+      <DependentUpon>AdministrationTabsSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingManager\DockedHiddenZonesPanelSkin.resx">
+      <DependentUpon>DockedHiddenZonesPanelSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingManager\DockedTabControlSkin.resx">
+      <DependentUpon>DockedTabControlSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingManager\DockingManagerSkin.resx">
+      <DependentUpon>DockingManagerSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingManager\DockingWindow.resx">
+      <DependentUpon>DockingWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingManager\ZoneCloseButtonSkin.resx">
+      <DependentUpon>ZoneCloseButtonSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingManager\ZoneDropDownButtonSkin.resx">
+      <DependentUpon>ZoneDropDownButtonSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingManager\ZoneHeaderLabelSkin.resx">
+      <DependentUpon>ZoneHeaderLabelSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingManager\ZoneHeaderPanelSkin.resx">
+      <DependentUpon>ZoneHeaderPanelSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingManager\ZonePinCheckBoxSkin.resx">
+      <DependentUpon>ZonePinCheckBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingManager\ZoneSkin.resx">
+      <DependentUpon>ZoneSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContextualToolbar\ContextualToolbarSkin.resx">
+      <DependentUpon>ContextualToolbarSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualTemplates\BorderlessButtonVisualTemplateSkin.resx">
+      <DependentUpon>BorderlessButtonVisualTemplateSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualTemplates\BorderlessTextBoxVisualTemplateSkin.resx">
+      <DependentUpon>BorderlessTextBoxVisualTemplateSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualTemplates\CheckBoxSwitchVisualTemplateSkin.resx">
+      <DependentUpon>CheckBoxSwitchVisualTemplateSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proxy\Controls\MasterPageContentSkin.resx">
+      <DependentUpon>MasterPageContentSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proxy\Controls\MasterPageSkin.resx">
+      <DependentUpon>MasterPageSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Editors\AnchorPanelSkin.resx">
+      <DependentUpon>AnchorPanelSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Editors\DockButtonSkin.resx">
+      <DependentUpon>DockButtonSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VirtualDataGridView_45.png" />
+    <EmbeddedResource Include="VisualTemplates\DataGridViewMobileVisualTemplateSkin.resx">
+      <DependentUpon>DataGridViewMobileVisualTemplateSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualTemplates\HeaderLabelVisualTemplateSkin.resx">
+      <DependentUpon>HeaderLabelVisualTemplateSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualTemplates\ListViewVisualTemplateSkin.resx">
+      <DependentUpon>ListViewVisualTemplateSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualTemplates\NativeComboBoxVisualTemplateSkin.resx">
+      <DependentUpon>NativeComboBoxVisualTemplateSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualTemplates\NativeDateTimePickerVisualTemplateSkin.resx">
+      <DependentUpon>NativeDateTimePickerVisualTemplateSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualTemplates\NativeTrackBarVisualTemplateSkin.resx">
+      <DependentUpon>NativeTrackBarVisualTemplateSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualTemplates\TabControlLogicalVisualTemplateSkin.resx">
+      <DependentUpon>TabControlLogicalVisualTemplateSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualTemplates\TabControlSpreadVisualTemplateSkin.resx">
+      <DependentUpon>TabControlSpreadVisualTemplateSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualTemplates\TitleLabelVisualTemplateSkin.resx">
+      <DependentUpon>TitleLabelVisualTemplateSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualTemplates\TreeViewVisualTemplateSkin.resx">
+      <DependentUpon>TreeViewVisualTemplateSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WatermarkTextBoxSkin.resx">
+      <DependentUpon>WatermarkTextBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ItemTemplates\CS\ListView\ListView1.cs" />
+    <None Include="ItemTemplates\CS\ListView\ListViewSkin1.cs" />
+    <None Include="ItemTemplates\CS\ListView\ListView.ico" />
+    <None Include="ItemTemplates\VB\ListView\ListView.ico" />
+    <None Include="ItemTemplates\CS\Button\ButtonSkin1.Button.BI.xslt">
+      <DependentUpon>ButtonSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\Button\ButtonSkin1.Button.NBI.css">
+      <DependentUpon>ButtonSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\Button\ButtonSkin1.Button.NBI.xslt">
+      <DependentUpon>ButtonSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\Button\vbTemplate.vstemplate" />
+    <None Include="ItemTemplates\VB\Button\ButtonSkin1.Button.BI.xslt">
+      <DependentUpon>ButtonSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\Button\ButtonSkin1.Button.NBI.css">
+      <DependentUpon>ButtonSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\Button\ButtonSkin1.Button.NBI.xslt">
+      <DependentUpon>ButtonSkin1.vb</DependentUpon>
+    </None>
+    <EmbeddedResource Include="BindingNavigator_45.bmp" />
+    <EmbeddedResource Include="BindingSource_45.bmp" />
+    <EmbeddedResource Include="Button_45.bmp" />
+    <EmbeddedResource Include="CheckBox_45.bmp" />
+    <EmbeddedResource Include="CheckedListBox_45.bmp" />
+    <EmbeddedResource Include="ColorDialog_45.bmp" />
+    <Content Include="Proxy\Controls\MasterPageContentSkin.MasterPageContent.css" />
+    <Content Include="Proxy\Controls\MasterPageContentSkin.MasterPageContent.xslt" />
+    <Content Include="Proxy\Controls\MasterPageSkin.MasterPage.css" />
+    <Content Include="Proxy\Controls\MasterPageSkin.MasterPage.xslt" />
+    <Content Include="ColumnChooserButtonSkin.ColumnChooserButton.BI.xslt">
+      <DependentUpon>ColumnChooserButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ColumnChooserButtonSkin.ColumnChooserButton.NBI.xslt">
+      <DependentUpon>ColumnChooserButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ColumnChooserButtonSkin.ColumnChooserButton.xslt">
+      <DependentUpon>ColumnChooserButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.ArrowScrollers.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.DeviceIntegrator.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ControlSkin.VisualTemplate_None.png">
+      <DependentUpon>ControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewButtonCellSkin.DataGridViewButtonCell.BI.xslt">
+      <DependentUpon>DataGridViewButtonCellSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewButtonCellSkin.DataGridViewButtonCell.NBI.xslt">
+      <DependentUpon>DataGridViewButtonCellSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewButtonCellSkin.DataGridViewButtonCell.xslt">
+      <DependentUpon>DataGridViewButtonCellSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewCellPanelSkin.Panel.css">
+      <DependentUpon>DataGridViewCellPanelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewCellPanelSkin.Panel.xslt">
+      <DependentUpon>DataGridViewCellPanelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewFilterButtonSkin.Button.BI.xslt">
+      <DependentUpon>DataGridViewFilterButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewFilterButtonSkin.Button.css">
+      <DependentUpon>DataGridViewFilterButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewFilterButtonSkin.Button.NBI.css">
+      <DependentUpon>DataGridViewFilterButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewFilterButtonSkin.Button.NBI.xslt">
+      <DependentUpon>DataGridViewFilterButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewFilterButtonSkin.Button.xslt">
+      <DependentUpon>DataGridViewFilterButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewFilterComboBoxSkin.ComboBox.css">
+      <DependentUpon>DataGridViewFilterComboBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewFilterComboBoxSkin.ComboBox.xslt">
+      <DependentUpon>DataGridViewFilterComboBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewHeaderFilterComboBoxSkin.DataGridViewHeaderFilterComboBox.css">
+      <DependentUpon>DataGridViewHeaderFilterComboBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewHeaderFilterComboBoxSkin.DataGridViewHeaderFilterComboBox.js">
+      <DependentUpon>DataGridViewHeaderFilterComboBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewHeaderFilterComboBoxSkin.DataGridViewHeaderFilterComboBox.xslt">
+      <DependentUpon>DataGridViewHeaderFilterComboBoxSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="DataGridView_45.bmp" />
+    <EmbeddedResource Include="DateTimePicker_45.bmp" />
+    <EmbeddedResource Include="DomainUpDown_45.bmp" />
+    <EmbeddedResource Include="ErrorProvider_45.bmp" />
+    <Content Include="Design\Editors\AnchorPanelSkin.Panel.css">
+      <DependentUpon>AnchorPanelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Design\Editors\AnchorPanelSkin.Panel.xslt">
+      <DependentUpon>AnchorPanelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Design\Editors\DockButtonSkin.Button.css">
+      <DependentUpon>DockButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Design\Editors\DockButtonSkin.Button.xslt">
+      <DependentUpon>DockButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Hosts\ObjectBoxSkin.ObjectBox.xslt">
+      <DependentUpon>ObjectBoxSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="FlatToolBarButtonSkin.FlatToolBarButton.BI.xslt">
+      <DependentUpon>FlatToolBarButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="FlatToolBarButtonSkin.FlatToolBarButton.NBI.css">
+      <DependentUpon>FlatToolBarButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="FlatToolBarButtonSkin.FlatToolBarButton.NBI.xslt">
+      <DependentUpon>FlatToolBarButtonSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="FlowLayoutPanel_45.bmp" />
+    <EmbeddedResource Include="FolderBrowserDialog_45.bmp" />
+    <EmbeddedResource Include="FontDialog_45.bmp" />
+    <EmbeddedResource Include="GroupBox_45.bmp" />
+    <EmbeddedResource Include="HelpProvider_45.bmp" />
+    <EmbeddedResource Include="ImageList_45.bmp" />
+    <EmbeddedResource Include="HtmlBox_45.bmp" />
+    <EmbeddedResource Include="Hosts\AspPageBox_45.png" />
+    <EmbeddedResource Include="Hosts\ActiveXBox_45.png" />
+    <EmbeddedResource Include="Hosts\AppletBox_45.png" />
+    <EmbeddedResource Include="Hosts\FlashBox_45.png" />
+    <EmbeddedResource Include="Hosts\FormBox_45.png" />
+    <EmbeddedResource Include="Hosts\XamlBox_45.png" />
+    <Content Include="ItemTemplates\CS\ListView\ListViewSkin1.RowDetails.moz.xslt">
+      <DependentUpon>ListViewSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ItemTemplates\CS\ListView\ListViewSkin1.RowDetails.WebKit.xslt">
+      <DependentUpon>ListViewSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ItemTemplates\CS\TabControl\TabControlSkin1.TabControl.grd.css">
+      <DependentUpon>TabControlSkin1.cs</DependentUpon>
+    </Content>
+    <Content Include="ItemTemplates\CS\TabControl\TabControlSkin1.TabControl.ie.css">
+      <DependentUpon>TabControlSkin1.cs</DependentUpon>
+    </Content>
+    <Content Include="ItemTemplates\CS\TabControl\TabControlSkin1.TabControl.ngrd.css">
+      <DependentUpon>TabControlSkin1.cs</DependentUpon>
+    </Content>
+    <None Include="ItemTemplates\CS\ToolTip\csTemplate.vstemplate" />
+    <None Include="ItemTemplates\CS\ToolTip\ToolTip.ico" />
+    <None Include="ItemTemplates\CS\ToolTip\ToolTipSkin1.ToolTip.xslt">
+      <DependentUpon>ToolTipSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="ItemTemplates\VB\ListView\ListViewSkin1.RowDetails.moz.xslt">
+      <DependentUpon>ListViewSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ItemTemplates\VB\ListView\ListViewSkin1.RowDetails.WebKit.xslt">
+      <DependentUpon>ListViewSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ItemTemplates\VB\ListView\ListViewSkin1.vb" />
+    <Content Include="ItemTemplates\VB\Button\ButtonSkin1.vb" />
+    <None Include="ItemTemplates\CS\ToolTip\ToolTip1.cs" />
+    <None Include="ItemTemplates\CS\ToolTip\ToolTipSkin1.cs" />
+    <Compile Include="MenuStripSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintDialog.cs" />
+    <Compile Include="HierarchicDataGridView.cs" />
+    <Compile Include="HierarchicInfo.cs" />
+    <Compile Include="PrintDocument.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PropertyGridToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PropertyGridToolStripSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SaveFileDialog.cs" />
+    <Compile Include="ScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SelectionRange.cs" />
+    <Compile Include="SelectionRangeConverter.cs" />
+    <Compile Include="ToolStripContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FrameControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <None Include="ItemTemplates\CS\Button\Button1.cs" />
+    <None Include="ItemTemplates\CS\Button\ButtonSkin1.cs" />
+    <None Include="ItemTemplates\CS\Button\ButtonSkin1.resx">
+      <DependentUpon>ButtonSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\Button\Button.ico" />
+    <None Include="ItemTemplates\CS\Button\ButtonSkin1.Button.css">
+      <DependentUpon>ButtonSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\Button\ButtonSkin1.Button.xslt">
+      <DependentUpon>ButtonSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\Button\csTemplate.vstemplate" />
+    <None Include="ItemTemplates\CS\CheckBox\CheckBox1.cs" />
+    <None Include="ItemTemplates\CS\CheckBox\CheckBoxSkin1.cs" />
+    <None Include="ItemTemplates\CS\CheckBox\CheckBoxSkin1.resx">
+      <DependentUpon>CheckBoxSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\CheckBox\CheckBox.ico" />
+    <None Include="ItemTemplates\CS\CheckBox\CheckBoxSkin1.CheckBox.css">
+      <DependentUpon>CheckBoxSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\CheckBox\CheckBoxSkin1.CheckBox.xslt">
+      <DependentUpon>CheckBoxSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\CheckBox\csTemplate.vstemplate" />
+    <None Include="ItemTemplates\CS\NumericUpDown\NumericUpDown1.cs" />
+    <None Include="ItemTemplates\CS\NumericUpDown\NumericUpDownSkin1.cs" />
+    <None Include="ItemTemplates\CS\NumericUpDown\NumericUpDownSkin1.resx">
+      <DependentUpon>NumericUpDownSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\NumericUpDown\NumericUpDown.ico" />
+    <None Include="ItemTemplates\CS\NumericUpDown\NumericUpDownSkin1.NumericUpDown.css">
+      <DependentUpon>NumericUpDownSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\NumericUpDown\NumericUpDownSkin1.NumericUpDown.xslt">
+      <DependentUpon>NumericUpDownSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\NumericUpDown\csTemplate.vstemplate" />
+    <None Include="ItemTemplates\CS\DomainUpDown\DomainUpDown1.cs" />
+    <None Include="ItemTemplates\CS\DomainUpDown\DomainUpDownSkin1.cs" />
+    <None Include="ItemTemplates\CS\DomainUpDown\DomainUpDownSkin1.resx">
+      <DependentUpon>DomainUpDownSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\DomainUpDown\DomainUpDown.ico" />
+    <None Include="ItemTemplates\CS\DomainUpDown\DomainUpDownSkin1.DomainUpDown.css">
+      <DependentUpon>DomainUpDownSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\DomainUpDown\DomainUpDownSkin1.DomainUpDown.xslt">
+      <DependentUpon>DomainUpDownSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\DomainUpDown\csTemplate.vstemplate" />
+    <None Include="ItemTemplates\CS\RadioButton\RadioButton1.cs" />
+    <None Include="ItemTemplates\CS\RadioButton\RadioButtonSkin1.cs" />
+    <None Include="ItemTemplates\CS\RadioButton\RadioButtonSkin1.resx">
+      <DependentUpon>RadioButtonSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\RadioButton\RadioButton.ico" />
+    <None Include="ItemTemplates\CS\RadioButton\RadioButtonSkin1.RadioButton.css">
+      <DependentUpon>RadioButtonSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\RadioButton\RadioButtonSkin1.RadioButton.xslt">
+      <DependentUpon>RadioButtonSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\RadioButton\csTemplate.vstemplate" />
+    <None Include="ItemTemplates\CS\TabControl\TabControl1.cs" />
+    <None Include="ItemTemplates\CS\TabControl\TabControlSkin1.cs" />
+    <None Include="ItemTemplates\CS\TabControl\TabControlSkin1.resx">
+      <DependentUpon>TabControlSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\TabControl\TabControl.ico" />
+    <None Include="ItemTemplates\CS\TabControl\TabControlSkin1.TabControl.css">
+      <DependentUpon>TabControlSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\TabControl\TabControlSkin1.TabControl.xslt">
+      <DependentUpon>TabControlSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\TabControl\csTemplate.vstemplate" />
+    <None Include="ItemTemplates\CS\Label\Label1.cs" />
+    <None Include="ItemTemplates\CS\Label\LabelSkin1.cs" />
+    <None Include="ItemTemplates\CS\Label\LabelSkin1.resx">
+      <DependentUpon>LabelSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\Label\Label.ico" />
+    <None Include="ItemTemplates\CS\Label\LabelSkin1.Label.css">
+      <DependentUpon>LabelSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\Label\LabelSkin1.Label.xslt">
+      <DependentUpon>LabelSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\Label\csTemplate.vstemplate" />
+    <None Include="ItemTemplates\CS\LinkLabel\LinkLabel1.cs" />
+    <None Include="ItemTemplates\CS\LinkLabel\LinkLabelSkin1.cs" />
+    <None Include="ItemTemplates\CS\LinkLabel\LinkLabelSkin1.resx">
+      <DependentUpon>LinkLabelSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\LinkLabel\LinkLabel.ico" />
+    <None Include="ItemTemplates\CS\LinkLabel\LinkLabelSkin1.LinkLabel.css">
+      <DependentUpon>LinkLabelSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\LinkLabel\LinkLabelSkin1.LinkLabel.xslt">
+      <DependentUpon>LinkLabelSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\LinkLabel\csTemplate.vstemplate" />
+    <None Include="ItemTemplates\CS\GroupBox\GroupBox1.cs" />
+    <None Include="ItemTemplates\CS\GroupBox\GroupBoxSkin1.cs" />
+    <None Include="ItemTemplates\CS\GroupBox\GroupBoxSkin1.resx">
+      <DependentUpon>GroupBoxSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\GroupBox\GroupBox.ico" />
+    <None Include="ItemTemplates\CS\GroupBox\GroupBoxSkin1.GroupBox.css">
+      <DependentUpon>GroupBoxSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\GroupBox\GroupBoxSkin1.GroupBox.xslt">
+      <DependentUpon>GroupBoxSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\GroupBox\csTemplate.vstemplate" />
+    <None Include="ItemTemplates\CS\Panel\Panel1.cs" />
+    <None Include="ItemTemplates\CS\Panel\PanelSkin1.cs" />
+    <None Include="ItemTemplates\CS\Panel\PanelSkin1.resx">
+      <DependentUpon>PanelSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\Panel\Panel.ico" />
+    <None Include="ItemTemplates\CS\Panel\PanelSkin1.Panel.css">
+      <DependentUpon>PanelSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\Panel\PanelSkin1.Panel.xslt">
+      <DependentUpon>PanelSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\Panel\csTemplate.vstemplate" />
+    <None Include="ItemTemplates\CS\TextBox\TextBox1.cs" />
+    <None Include="ItemTemplates\CS\TextBox\TextBoxSkin1.cs" />
+    <None Include="ItemTemplates\CS\TextBox\TextBoxSkin1.resx">
+      <DependentUpon>TextBoxSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\TextBox\TextBox.ico" />
+    <None Include="ItemTemplates\CS\TextBox\TextBoxSkin1.TextBox.css">
+      <DependentUpon>TextBoxSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\TextBox\TextBoxSkin1.TextBox.xslt">
+      <DependentUpon>TextBoxSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\TextBox\csTemplate.vstemplate" />
+    <None Include="ItemTemplates\VB\Button\Button1.vb" />
+    <None Include="ItemTemplates\VB\Button\ButtonSkin1.resx">
+      <DependentUpon>ButtonSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\Button\Button.ico" />
+    <None Include="ItemTemplates\VB\Button\ButtonSkin1.Button.css">
+      <DependentUpon>ButtonSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\Button\ButtonSkin1.Button.xslt">
+      <DependentUpon>ButtonSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\CheckBox\CheckBox1.vb" />
+    <None Include="ItemTemplates\VB\CheckBox\CheckBoxSkin1.vb" />
+    <None Include="ItemTemplates\VB\CheckBox\CheckBoxSkin1.resx">
+      <DependentUpon>CheckBoxSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\CheckBox\CheckBox.ico" />
+    <None Include="ItemTemplates\VB\CheckBox\CheckBoxSkin1.CheckBox.css">
+      <DependentUpon>CheckBoxSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\CheckBox\CheckBoxSkin1.CheckBox.xslt">
+      <DependentUpon>CheckBoxSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\CheckBox\vbTemplate.vstemplate" />
+    <None Include="ItemTemplates\VB\NumericUpDown\NumericUpDown1.vb" />
+    <None Include="ItemTemplates\VB\NumericUpDown\NumericUpDownSkin1.vb" />
+    <None Include="ItemTemplates\VB\NumericUpDown\NumericUpDownSkin1.resx">
+      <DependentUpon>NumericUpDownSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\NumericUpDown\NumericUpDown.ico" />
+    <None Include="ItemTemplates\VB\NumericUpDown\NumericUpDownSkin1.NumericUpDown.css">
+      <DependentUpon>NumericUpDownSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\NumericUpDown\NumericUpDownSkin1.NumericUpDown.xslt">
+      <DependentUpon>NumericUpDownSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\NumericUpDown\vbTemplate.vstemplate" />
+    <None Include="ItemTemplates\VB\DomainUpDown\DomainUpDown1.vb" />
+    <None Include="ItemTemplates\VB\DomainUpDown\DomainUpDownSkin1.vb" />
+    <None Include="ItemTemplates\VB\DomainUpDown\DomainUpDownSkin1.resx">
+      <DependentUpon>DomainUpDownSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\DomainUpDown\DomainUpDown.ico" />
+    <None Include="ItemTemplates\VB\DomainUpDown\DomainUpDownSkin1.DomainUpDown.css">
+      <DependentUpon>DomainUpDownSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\DomainUpDown\DomainUpDownSkin1.DomainUpDown.xslt">
+      <DependentUpon>DomainUpDownSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\DomainUpDown\vbTemplate.vstemplate" />
+    <None Include="ItemTemplates\VB\RadioButton\RadioButton1.vb" />
+    <None Include="ItemTemplates\VB\RadioButton\RadioButtonSkin1.vb" />
+    <None Include="ItemTemplates\VB\RadioButton\RadioButtonSkin1.resx">
+      <DependentUpon>RadioButtonSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\RadioButton\RadioButton.ico" />
+    <None Include="ItemTemplates\VB\RadioButton\RadioButtonSkin1.RadioButton.css">
+      <DependentUpon>RadioButtonSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\RadioButton\RadioButtonSkin1.RadioButton.xslt">
+      <DependentUpon>RadioButtonSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\RadioButton\vbTemplate.vstemplate" />
+    <None Include="ItemTemplates\VB\TabControl\TabControl1.vb" />
+    <None Include="ItemTemplates\VB\TabControl\TabControlSkin1.vb" />
+    <None Include="ItemTemplates\VB\TabControl\TabControlSkin1.resx">
+      <DependentUpon>TabControlSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\TabControl\TabControl.ico" />
+    <None Include="ItemTemplates\VB\TabControl\TabControlSkin1.TabControl.css">
+      <DependentUpon>TabControlSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\TabControl\TabControlSkin1.TabControl.xslt">
+      <DependentUpon>TabControlSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\TabControl\vbTemplate.vstemplate" />
+    <None Include="ItemTemplates\VB\Label\Label1.vb" />
+    <None Include="ItemTemplates\VB\Label\LabelSkin1.vb" />
+    <None Include="ItemTemplates\VB\Label\LabelSkin1.resx">
+      <DependentUpon>LabelSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\Label\Label.ico" />
+    <None Include="ItemTemplates\VB\Label\LabelSkin1.Label.css">
+      <DependentUpon>LabelSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\Label\LabelSkin1.Label.xslt">
+      <DependentUpon>LabelSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\Label\vbTemplate.vstemplate" />
+    <None Include="ItemTemplates\VB\LinkLabel\LinkLabel1.vb" />
+    <None Include="ItemTemplates\VB\LinkLabel\LinkLabelSkin1.vb" />
+    <None Include="ItemTemplates\VB\LinkLabel\LinkLabelSkin1.resx">
+      <DependentUpon>LinkLabelSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\LinkLabel\LinkLabel.ico" />
+    <None Include="ItemTemplates\VB\LinkLabel\LinkLabelSkin1.LinkLabel.css">
+      <DependentUpon>LinkLabelSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\LinkLabel\LinkLabelSkin1.LinkLabel.xslt">
+      <DependentUpon>LinkLabelSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\LinkLabel\vbTemplate.vstemplate" />
+    <None Include="ItemTemplates\VB\GroupBox\GroupBox1.vb" />
+    <None Include="ItemTemplates\VB\GroupBox\GroupBoxSkin1.vb" />
+    <None Include="ItemTemplates\VB\GroupBox\GroupBoxSkin1.resx">
+      <DependentUpon>GroupBoxSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\GroupBox\GroupBox.ico" />
+    <None Include="ItemTemplates\VB\GroupBox\GroupBoxSkin1.GroupBox.css">
+      <DependentUpon>GroupBoxSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\GroupBox\GroupBoxSkin1.GroupBox.xslt">
+      <DependentUpon>GroupBoxSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\GroupBox\vbTemplate.vstemplate" />
+    <None Include="ItemTemplates\VB\Panel\Panel1.vb" />
+    <None Include="ItemTemplates\VB\Panel\PanelSkin1.vb" />
+    <None Include="ItemTemplates\VB\Panel\PanelSkin1.resx">
+      <DependentUpon>PanelSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\Panel\Panel.ico" />
+    <None Include="ItemTemplates\VB\Panel\PanelSkin1.Panel.css">
+      <DependentUpon>PanelSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\Panel\PanelSkin1.Panel.xslt">
+      <DependentUpon>PanelSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\Panel\vbTemplate.vstemplate" />
+    <None Include="ItemTemplates\VB\TextBox\TextBox1.vb" />
+    <None Include="ItemTemplates\VB\TextBox\TextBoxSkin1.vb" />
+    <None Include="ItemTemplates\VB\TextBox\TextBoxSkin1.resx">
+      <DependentUpon>TextBoxSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\TextBox\TextBox.ico" />
+    <None Include="ItemTemplates\VB\TextBox\TextBoxSkin1.TextBox.css">
+      <DependentUpon>TextBoxSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\TextBox\TextBoxSkin1.TextBox.xslt">
+      <DependentUpon>TextBoxSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\TextBox\vbTemplate.vstemplate" />
+    <None Include="ItemTemplates\CS\CheckedListBox\CheckedListBox1.cs" />
+    <None Include="ItemTemplates\CS\CheckedListBox\CheckedListBoxSkin1.cs" />
+    <None Include="ItemTemplates\CS\ListBox\ListBox1.cs" />
+    <None Include="ItemTemplates\CS\ListBox\ListBoxSkin1.cs" />
+    <None Include="ItemTemplates\VB\CheckedListBox\CheckedListBox1.vb" />
+    <None Include="ItemTemplates\VB\CheckedListBox\CheckedListBoxSkin1.vb" />
+    <None Include="ItemTemplates\VB\ListBox\ListBox1.vb" />
+    <None Include="ItemTemplates\VB\ListBox\ListBoxSkin1.vb" />
+    <None Include="ItemTemplates\CS\DateTimePicker\DateTimePicker1.cs" />
+    <None Include="ItemTemplates\CS\DateTimePicker\DateTimePickerSkin1.cs" />
+    <None Include="ItemTemplates\VB\DateTimePicker\DateTimePicker1.vb" />
+    <None Include="ItemTemplates\VB\DateTimePicker\DateTimePickerSkin1.vb" />
+    <None Include="ItemTemplates\CS\ComboBox\ComboBox1.cs" />
+    <None Include="ItemTemplates\CS\ComboBox\ComboBoxSkin1.cs" />
+    <None Include="ItemTemplates\VB\ComboBox\ComboBox1.vb" />
+    <None Include="ItemTemplates\VB\ComboBox\ComboBoxSkin1.vb" />
+    <Compile Include="LayoutEventArgs.cs" />
+    <Compile Include="StatusStripSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TaskBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\BorderColorEditor.cs" />
+    <Compile Include="FlatToolBarButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatToolBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Hosts\ActiveXBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LoadingSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MenuItemSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PopupsSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SkinValues.cs">
+    </Compile>
+    <Compile Include="BorderWidth.cs" />
+    <Compile Include="CornerRadius.cs" />
+    <Compile Include="Cursors.cs" />
+    <Compile Include="DataGridViewButtonCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewCheckBoxCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewComboBoxCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewImageCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewLinkCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewTextBoxCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataObject.cs" />
+    <Compile Include="DateTimePickerPopupSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DateTimePickerSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\AnchorEditor.cs" />
+    <Compile Include="Design\Editors\CollectionEditor.cs" />
+    <Compile Include="Design\Editors\DateTimeEditor.cs" />
+    <Compile Include="Design\Editors\DockEditor.cs" />
+    <Compile Include="Design\Editors\StandardValuesEditor.cs" />
+    <Compile Include="CommonDialog.cs">
+    </Compile>
+    <Compile Include="DomainUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DomainUpDownSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Enums.cs" />
+    <Compile Include="ErrorProvider.cs">
+    </Compile>
+    <Compile Include="Extenders\UniqueIdExtender.cs" />
+    <Compile Include="FileDialog.cs">
+    </Compile>
+    <Compile Include="FileDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlowLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlowLayoutPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FolderBrowserDialog.cs">
+    </Compile>
+    <Compile Include="FolderBrowserDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FontDialog.cs">
+    </Compile>
+    <Compile Include="FontDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FrameControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GroupBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HelpProvider.cs">
+    </Compile>
+    <Compile Include="Hosts\AspEvents.cs" />
+    <Compile Include="Hosts\AspPageBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Hosts\AspPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hosts\AspPageBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Hosts\AspPipeLinePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hosts\FlashBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Hosts\FlashBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Hosts\FormBox.cs" />
+    <Compile Include="Hosts\ObjectBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Hosts\ObjectBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HtmlBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HtmlBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IButton.cs" />
+    <Compile Include="IContainerControl.cs" />
+    <Compile Include="ImageList.cs">
+    </Compile>
+    <Compile Include="LabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Layout\ArrangedElementCollection.cs" />
+    <Compile Include="Layout\IArrangedElement.cs" />
+    <Compile Include="Layout\LayoutUtils.cs" />
+    <Compile Include="Layout\PropertyNames.cs" />
+    <Compile Include="Layout\TableLayout.cs">
+    </Compile>
+    <Compile Include="LinkLabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListControl.cs" />
+    <Compile Include="ListViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainMenuSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaskedTextBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MdiClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MdiClientSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MenuSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MessageBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonthCalendarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NumericUpDownSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OpenFileDialog.cs">
+    </Compile>
+    <Compile Include="OpenFileDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Padding.cs" />
+    <Compile Include="Panel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PictureBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProfessionalColors.cs" />
+    <Compile Include="ProfessionalColorTable.cs" />
+    <Compile Include="ProgressBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PropertyGridSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RadioButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RichTextBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Screen.cs" />
+    <Compile Include="ScrollableControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ScrollableControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SecurityUtils.cs" />
+    <Compile Include="SplitContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SplitContainerSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SplitterPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SplitterPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SplitterSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StatusBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TableLayoutPanelCell.cs" />
+    <Compile Include="TableLayoutPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabPageSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBoxBaseSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Timer.cs">
+    </Compile>
+    <Compile Include="ToolBarButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripContainerSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripControlHostSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripDropDownButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripDropDownContentPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripDropDownSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripEnums.cs" />
+    <Compile Include="ToolStripEvents.cs" />
+    <Compile Include="ToolStripItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripLabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripMenuItemSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripSeparatorSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripSplitButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripStatusLabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolTip.cs">
+    </Compile>
+    <Compile Include="ToolStripMiscellaneous.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolTipSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TrackBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UpDownBaseSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ClientUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VirtualDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VirtualDataGridViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\ApplicationNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\VirtualStorageNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\PhysicalStorageNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\SessionNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="ColumnChooserButtonSkin.resx">
+      <DependentUpon>ColumnChooserButtonSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGridViewCellPanelSkin.resx">
+      <DependentUpon>DataGridViewCellPanelSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGridViewFilterButtonSkin.resx">
+      <DependentUpon>DataGridViewFilterButtonSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGridViewFilterComboBoxSkin.resx">
+      <DependentUpon>DataGridViewFilterComboBoxSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGridViewGroupingHeader.resx">
+      <DependentUpon>DataGridViewGroupingHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGridViewGroupingTreeViewSkin.resx">
+      <DependentUpon>DataGridViewGroupingTreeViewSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="ItemTemplates\CS\ListView\ListViewSkin1.resx">
+      <DependentUpon>ListViewSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\ListView\ListViewSkin1.resx">
+      <DependentUpon>ListViewSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="DataGridViewHeaderFilterComboBoxSkin.resx">
+      <DependentUpon>DataGridViewHeaderFilterComboBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ItemTemplates\CS\ToolTip\ToolTipSkin1.resx">
+      <DependentUpon>ToolTipSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\ToolTip\ToolTipSkin1.resx" />
+    <EmbeddedResource Include="Hosts\XamlBoxSkin.resx">
+      <DependentUpon>XamlBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolStripDropDownContentPanelSkin.resx">
+      <DependentUpon>ToolStripDropDownContentPanelSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolTipSkin.resx">
+      <DependentUpon>ToolTipSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Virtualization\Management\XmlNode.resx">
+      <DependentUpon>XmlNode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Hosts\XamlBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewCells.cs" />
+    <Compile Include="DataGridViewCollections.cs" />
+    <Compile Include="DataGridViewColumns.cs" />
+    <Compile Include="DataGridViewConvertors.cs" />
+    <Compile Include="DataGridViewObjects.cs" />
+    <Compile Include="DateTimePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\Editors\ColorEditor.cs" />
+    <Compile Include="Design\EventsTab.cs" />
+    <Compile Include="Design\Editors\FontEditor.cs" />
+    <Compile Include="Design\IWebUIEditorService.cs" />
+    <Compile Include="Design\PropertyTab.cs" />
+    <Compile Include="Design\WebEditorAttribute.cs" />
+    <Compile Include="Design\Editors\WebUITypeEditor.cs" />
+    <Compile Include="Dialogs\ListViewColumnOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ListViewGroupingOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ListViewSortingOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\VirtualRegistryNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\ServerExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Virtualization\Management\XmlNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Events.cs" />
+    <Compile Include="GroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Help.cs" />
+    <Compile Include="Hosts\AppletBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Hosts\AppletBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewEnums.cs" />
+    <Compile Include="DataGridViewEvents.cs" />
+    <Compile Include="DataGridViewUtilities.cs" />
+    <Compile Include="IDataGridViewEditingCell.cs" />
+    <Compile Include="IDataGridViewEditingControl.cs" />
+    <Compile Include="PropertyGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GridItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GridItemCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PropertyGridInternals.cs" />
+    <Compile Include="PropertyGridEnums.cs" />
+    <Compile Include="PropertyGridEvents.cs" />
+    <Compile Include="PropertyGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StringSorter.cs" />
+    <Compile Include="Label.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LinkLabel.cs" />
+    <Compile Include="ListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListViewItemConverter.cs" />
+    <Compile Include="ListViewItemSorter.cs" />
+    <Compile Include="ListViewSubItemConverter.cs" />
+    <Compile Include="MaskedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MessageBox.cs" />
+    <Compile Include="MessageBoxWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonthCalendar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\ProductInfo.cs" />
+    <Compile Include="RadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="ScrollablePanel.cs">
+      <SubType>Component</SubType>
+    </EmbeddedResource>
+    <Compile Include="Splitter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SR.cs" />
+    <Compile Include="StatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabControl.cs" />
+    <Compile Include="TableLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBox.cs" />
+    <Compile Include="TextBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UpDownBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Resources.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScrollablePanel.css" />
+    <EmbeddedResource Include="ScrollablePanel.xslt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Button.resx">
+      <DependentUpon>Button.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckBox.resx">
+      <DependentUpon>CheckBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckedListBox.resx">
+      <DependentUpon>CheckedListBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColumnHeader.resx">
+      <DependentUpon>ColumnHeader.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComboBox.resx">
+      <DependentUpon>ComboBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ItemChooser.resx">
+      <DependentUpon>ItemChooser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListView.resx">
+      <DependentUpon>ListView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonthCalendar.resx">
+      <DependentUpon>MonthCalendar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBar.resx">
+      <DependentUpon>ProgressBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR.he-IL.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControl.resx">
+      <DependentUpon>TabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBar.resx">
+      <DependentUpon>ToolBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreeView.resx">
+      <DependentUpon>TreeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CommonSkin.Pipeline.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </None>
+    <None Include="Keys\Gizmox.WebGUI.Forms.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BindingNavigatorSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BindingNavigatorSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonBaseSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonBaseSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckBoxSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CheckBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckedListBoxSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CheckedListBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorComboBoxSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColorComboBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorDialogSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColorDialogSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorListBoxSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColorListBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComboBoxSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ComboBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonDialogSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CommonDialogSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component.resx">
+      <DependentUpon>Component.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContainerControl.resx">
+      <DependentUpon>ContainerControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContainerControlSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ContainerControlSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control.resx">
+      <DependentUpon>Control.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSkin.resx">
+      <DependentUpon>ControlSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGridView.resx">
+      <DependentUpon>DataGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGridViewActiveTextBoxCellSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DataGridViewActiveTextBoxCellSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ItemTemplates\CS\CheckedListBox\CheckedListBoxSkin1.resx">
+      <DependentUpon>CheckedListBoxSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\ListBox\ListBoxSkin1.resx">
+      <DependentUpon>ListBoxSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\CheckedListBox\CheckedListBoxSkin1.resx">
+      <DependentUpon>CheckedListBoxSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\ListBox\ListBoxSkin1.resx">
+      <DependentUpon>ListBoxSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\DateTimePicker\DateTimePickerSkin1.resx">
+      <DependentUpon>DateTimePickerSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\DateTimePicker\DateTimePickerSkin1.resx">
+      <DependentUpon>DateTimePickerSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\CS\ComboBox\ComboBoxSkin1.resx">
+      <DependentUpon>ComboBoxSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\ComboBox\ComboBoxSkin1.resx">
+      <DependentUpon>ComboBoxSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="MenuStripSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MenuStripSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertyGridToolStripSkin.resx">
+      <DependentUpon>PropertyGridToolStripSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR.de-AT.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR.fa-IR.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR.ja-JP.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR.nl-NL.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusBar.resx">
+      <DependentUpon>StatusBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusStripSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StatusStripSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskBarSkin.resx">
+      <DependentUpon>TaskBarSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGridViewButtonCellSkin.resx">
+      <DependentUpon>DataGridViewButtonCellSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGridViewCheckBoxCellSkin.resx">
+      <DependentUpon>DataGridViewCheckBoxCellSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGridViewComboBoxCellSkin.resx">
+      <DependentUpon>DataGridViewComboBoxCellSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGridViewImageCellSkin.resx">
+      <DependentUpon>DataGridViewImageCellSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGridViewLinkCellSkin.resx">
+      <DependentUpon>DataGridViewLinkCellSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGridViewSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DataGridViewSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGridViewTextBoxCellSkin.resx">
+      <DependentUpon>DataGridViewTextBoxCellSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateTimePickerPopupSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DateTimePickerPopupSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateTimePickerSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DateTimePickerSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DomainUpDownSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DomainUpDownSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileDialogSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FileDialogSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlatToolBarButtonSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FlatToolBarButtonSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlatToolBarSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FlatToolBarSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlowLayoutPanelSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FlowLayoutPanelSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FolderBrowserDialogSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FolderBrowserDialogSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FontDialogSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FontDialogSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form.resx">
+      <DependentUpon>Form.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrameControlSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrameControlSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupBoxSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GroupBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hosts\AspPageBoxSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AspPageBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hosts\ObjectBoxSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ObjectBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HtmlBoxSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HtmlBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabelSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LabelSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinkLabelSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LinkLabelSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListBoxSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ListBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListViewSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ListViewSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LoadingSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainMenuSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaskedTextBoxSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MaskedTextBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MdiClientSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MdiClientSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuItemSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MenuItemSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MenuSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBoxSkin.resx">
+      <DependentUpon>MessageBoxSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonthCalendarSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonthCalendarSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumericUpDownSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NumericUpDownSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenFileDialogSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OpenFileDialogSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PanelSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PictureBoxSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PictureBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopupsSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PopupsSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBarSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProgressBarSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorListBox.bmp" />
+    <EmbeddedResource Include="PropertyGridSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PropertyGridSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioButtonSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RadioButtonSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichTextBoxSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RichTextBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScrollableControl.resx">
+      <DependentUpon>ScrollableControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScrollableControlSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ScrollableControlSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplitContainerSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplitContainerSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplitterPanelSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplitterPanelSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplitterSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplitterSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR.de-DE.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR.es-GT.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR.fr-CA.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR.is-IS.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR.pl-PL.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR.pt-BR.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR.pt-PT.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR.tr-TR.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusBarSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StatusBarSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControlSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TabControlSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableLayoutPanelSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableLayoutPanelSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPageSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TabPageSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextBoxBaseSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TextBoxBaseSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextBoxSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TextBoxSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Timer.resx">
+      <DependentUpon>Timer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBarButtonSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToolBarButtonSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBarSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToolBarSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolStripButtonSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToolStripButtonSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolStripContainerSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToolStripContainerSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolStripControlHostSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToolStripControlHostSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolStripDropDownButtonSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToolStripDropDownButtonSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolStripDropDownSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToolStripDropDownSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolStripLabelSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToolStripLabelSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolStripMenuItemSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToolStripMenuItemSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolStripPanelSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToolStripPanelSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolStripSeparatorSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToolStripSeparatorSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolStripSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToolStripSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolStripSplitButtonSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToolStripSplitButtonSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolStripStatusLabelSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToolStripStatusLabelSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolTip.resx">
+      <DependentUpon>ToolTip.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrackBarSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TrackBarSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreeViewSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TreeViewSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpDownBaseSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UpDownBaseSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UserControlSkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="ButtonBaseSkin.ButtonBase.css">
+      <DependentUpon>ButtonBaseSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ButtonBaseSkin.ButtonBase.js">
+      <DependentUpon>ButtonBaseSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ButtonBaseSkin.ButtonBase.xslt">
+      <DependentUpon>ButtonBaseSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ButtonSkin.Button.ClientDOM.js">
+      <DependentUpon>ButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ButtonSkin.Button.NBI.css">
+      <DependentUpon>ButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ButtonSkin.Button.NBI.xslt">
+      <DependentUpon>ButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ButtonSkin.Button.BI.xslt">
+      <DependentUpon>ButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CheckBoxSkin.CheckBox.ClientDOM.js">
+      <DependentUpon>CheckBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ComboBoxSkin.ComboBox.ClientDOM.js">
+      <DependentUpon>ComboBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ComboBoxSkin.ComboBox.ie.xslt">
+      <DependentUpon>ComboBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ComboBoxSkin.ComboBox.moz.xslt">
+      <DependentUpon>ComboBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Data.JQTSplit.jqv.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.ClientDOM.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Data.JQTSplit.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Debug.JQTSplit.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Gestures.JQTSplit.css">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Gestures.JQTSplit.jqv.css">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.JQTSplit.jqv.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.JQTSplit.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.MediaQueries.css">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.VisualEffects.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Web.ie.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Web.JQTSplit.jqv.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Client.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.ClientStorage.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Web.JQTSplit.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Web.JQTSplit.moz.jqv.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Web.JQTSplit.moz.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Web.moz.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Web.SetStyle.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Xml.JQTSplit.ie.jqv.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Xml.JQTSplit.ie.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Xml.JQTSplit.jqv.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Xml.JQTSplit.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Xml.JQTSplit.moz.jqv.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Xml.JQTSplit.moz.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Commons.Debug.Main.jqv.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Commons.Messages.Unsupported.htm">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.modernizr-custom.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.ModernizrHelper.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Preload.htm">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Preload.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewActiveTextBoxCellSkin.DataGridViewActiveTextBoxCell.css">
+      <DependentUpon>DataGridViewActiveTextBoxCellSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewActiveTextBoxCellSkin.DataGridViewActiveTextBoxCellSkin.xslt">
+      <DependentUpon>DataGridViewActiveTextBoxCellSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewCheckBoxCellSkin.DataGridViewCheckBoxCell.css">
+      <DependentUpon>DataGridViewCheckBoxCellSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewComboBoxCellSkin.DataGridViewComboBoxCell.css">
+      <DependentUpon>DataGridViewComboBoxCellSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewGroupingTreeViewSkin.DataGridViewGroupingTreeView.css">
+      <DependentUpon>DataGridViewGroupingTreeViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewGroupingTreeViewSkin.DataGridViewGroupingTreeView.js">
+      <DependentUpon>DataGridViewGroupingTreeViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewGroupingTreeViewSkin.DataGridViewGroupingTreeView.xslt">
+      <DependentUpon>DataGridViewGroupingTreeViewSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DataGridViewLinkCellSkin.DataGridViewLinkCell.css">
+      <DependentUpon>DataGridViewLinkCellSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewSkin.DataGridView.ClientDOM.js">
+      <DependentUpon>DataGridViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewTextBoxCellSkin.DataGridViewTextBoxCell.css">
+      <DependentUpon>DataGridViewTextBoxCellSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DateTimePickerSkin.DateTimePicker.ClientDOM.js">
+      <DependentUpon>DateTimePickerSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DomainUpDownSkin.DomainUpDown.ClientDOM.js">
+      <DependentUpon>DomainUpDownSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DomainUpDownSkin.DomainUpDown.css">
+      <DependentUpon>DomainUpDownSkin.cs</DependentUpon>
+    </Content>
+    <None Include="ItemTemplates\CS\CheckedListBox\CheckedListBox.ico" />
+    <None Include="ItemTemplates\CS\CheckedListBox\CheckedListBoxSkin1.CheckedListBox.css">
+      <DependentUpon>CheckedListBoxSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\CheckedListBox\CheckedListBoxSkin1.CheckedListBox.ie.css">
+      <DependentUpon>CheckedListBoxSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\CheckedListBox\CheckedListBoxSkin1.CheckedListBox.moz.css">
+      <DependentUpon>CheckedListBoxSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\CheckedListBox\CheckedListBoxSkin1.CheckedListBox.xslt">
+      <DependentUpon>CheckedListBoxSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\CheckedListBox\MyTemplate.vstemplate" />
+    <None Include="ItemTemplates\CS\ListBox\ListBox.ico" />
+    <None Include="ItemTemplates\CS\ListBox\ListBoxSkin1.ListBox.css">
+      <DependentUpon>ListBoxSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\ListBox\ListBoxSkin1.ListBox.xslt">
+      <DependentUpon>ListBoxSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\ListBox\MyTemplate.vstemplate" />
+    <None Include="ItemTemplates\VB\CheckedListBox\CheckedListBox.ico" />
+    <None Include="ItemTemplates\VB\CheckedListBox\CheckedListBoxSkin1.CheckedListBox.css">
+      <DependentUpon>CheckedListBoxSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\CheckedListBox\CheckedListBoxSkin1.CheckedListBox.ie.css">
+      <DependentUpon>CheckedListBoxSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\CheckedListBox\CheckedListBoxSkin1.CheckedListBox.moz.css">
+      <DependentUpon>CheckedListBoxSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\CheckedListBox\CheckedListBoxSkin1.CheckedListBox.xslt">
+      <DependentUpon>CheckedListBoxSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\CheckedListBox\vbTemplate.vstemplate" />
+    <None Include="ItemTemplates\VB\ListBox\ListBox.ico" />
+    <None Include="ItemTemplates\VB\ListBox\ListBoxSkin1.ListBox.css">
+      <DependentUpon>ListBoxSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\ListBox\ListBoxSkin1.ListBox.xslt">
+      <DependentUpon>ListBoxSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\ListBox\vbTemplate.vstemplate" />
+    <None Include="ItemTemplates\CS\DateTimePicker\DateTimePicker.ico" />
+    <None Include="ItemTemplates\CS\DateTimePicker\DateTimePickerSkin1.DateTimePicker.css">
+      <DependentUpon>DateTimePickerSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\DateTimePicker\DateTimePickerSkin1.DateTimePicker.xslt">
+      <DependentUpon>DateTimePickerSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\DateTimePicker\csTemplate.vstemplate" />
+    <None Include="ItemTemplates\VB\DateTimePicker\DateTimePicker.ico" />
+    <None Include="ItemTemplates\VB\DateTimePicker\DateTimePickerSkin1.DateTimePicker.css">
+      <DependentUpon>DateTimePickerSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\DateTimePicker\DateTimePickerSkin1.DateTimePicker.xslt">
+      <DependentUpon>DateTimePickerSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\DateTimePicker\vbTemplate.vstemplate" />
+    <None Include="ItemTemplates\CS\ComboBox\ComboBox.ico" />
+    <None Include="ItemTemplates\CS\ComboBox\ComboBoxSkin1.ComboBox.css">
+      <DependentUpon>ComboBoxSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\ComboBox\ComboBoxSkin1.ComboBox.xslt">
+      <DependentUpon>ComboBoxSkin1.cs</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\CS\ComboBox\csTemplate.vstemplate" />
+    <None Include="ItemTemplates\VB\ComboBox\ComboBox.ico" />
+    <None Include="ItemTemplates\VB\ComboBox\ComboBoxSkin1.ComboBox.css">
+      <DependentUpon>ComboBoxSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\ComboBox\ComboBoxSkin1.ComboBox.xslt">
+      <DependentUpon>ComboBoxSkin1.vb</DependentUpon>
+    </None>
+    <None Include="ItemTemplates\VB\ComboBox\vbTemplate.vstemplate" />
+    <Content Include="FrameControlSkin.FrameControl.ClientDOM.js">
+      <DependentUpon>FrameControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ItemTemplates\CS\ListView\ListViewSkin1.ListView.css">
+      <DependentUpon>ListViewSkin1.cs</DependentUpon>
+    </Content>
+    <Content Include="ItemTemplates\CS\ListView\ListViewSkin1.ListView.xslt">
+      <DependentUpon>ListViewSkin1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="ItemTemplates\CS\ListView\ListView1.vstemplate">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ItemTemplates\VB\ListView\ListView1.vb" />
+    <None Include="ItemTemplates\VB\ListView\ListView1.vstemplate" />
+    <Content Include="ItemTemplates\VB\ListView\ListViewSkin1.ListView.css">
+      <DependentUpon>ListViewSkin1.vb</DependentUpon>
+    </Content>
+    <Content Include="ItemTemplates\VB\ListView\ListViewSkin1.ListView.xslt">
+      <DependentUpon>ListViewSkin1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ItemTemplates\VB\TabControl\TabControlSkin1.TabControl.grd.css">
+      <DependentUpon>TabControlSkin1.vb</DependentUpon>
+    </Content>
+    <Content Include="ItemTemplates\VB\TabControl\TabControlSkin1.TabControl.ie.css">
+      <DependentUpon>TabControlSkin1.vb</DependentUpon>
+    </Content>
+    <Content Include="ItemTemplates\VB\TabControl\TabControlSkin1.TabControl.ngrd.css">
+      <DependentUpon>TabControlSkin1.vb</DependentUpon>
+    </Content>
+    <None Include="ItemTemplates\VB\ToolTip\ToolTip.ico" />
+    <None Include="ItemTemplates\VB\ToolTip\ToolTip1.vb" />
+    <None Include="ItemTemplates\VB\ToolTip\ToolTipSkin1.ToolTip.xslt" />
+    <None Include="ItemTemplates\VB\ToolTip\ToolTipSkin1.vb" />
+    <None Include="ItemTemplates\VB\ToolTip\vbTemplate.vstemplate" />
+    <Content Include="LabelSkin.Label.ClientDOM.js">
+      <DependentUpon>LabelSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="Label_45.bmp" />
+    <Content Include="LinkLabelSkin.LinkLabel.ClientDOM.js">
+      <DependentUpon>LinkLabelSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="LinkLabel_45.bmp" />
+    <Content Include="ListBoxSkin.ListBox.ClientDOM.js">
+      <DependentUpon>ListBoxSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="ListBox_45.bmp" />
+    <Content Include="ListViewSkin.ListView.ClientDom.js">
+      <DependentUpon>ListViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ListViewSkin.RowDetails.moz.xslt">
+      <DependentUpon>ListViewSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ListViewSkin.RowDetails.WebKit.xslt">
+      <DependentUpon>ListViewSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="ListView_45.bmp" />
+    <EmbeddedResource Include="MainMenu_45.bmp" />
+    <Content Include="MaskedTextBoxSkin.MaskedTextBox.css">
+      <DependentUpon>MaskedTextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="MaskedTextBoxSkin.MaskedTextBox.xslt">
+      <DependentUpon>MaskedTextBoxSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="MaskedTextBox_45.bmp" />
+    <Content Include="MdiClientSkin.MdiClient.js">
+      <DependentUpon>MdiClientSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="Resources\Scripts\jQuery.js" />
+    <Content Include="MenuStripSkin.MenuStrip.css">
+      <DependentUpon>MenuStripSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="MenuStripSkin.MenuStrip.xslt">
+      <DependentUpon>MenuStripSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="MenuStrip_45.bmp" />
+    <EmbeddedResource Include="MonthCalendar_45.bmp" />
+    <Content Include="NumericUpDownSkin.NumericUpDown.ClientDOM.js">
+      <DependentUpon>NumericUpDownSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="NumericUpDownSkin.NumericUpDown.css">
+      <DependentUpon>NumericUpDownSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="NumericUpDown_45.bmp" />
+    <EmbeddedResource Include="OpenFileDialog_45.bmp" />
+    <EmbeddedResource Include="Panel_45.bmp" />
+    <Content Include="PictureBoxSkin.PictureBox.ClientDOM.js">
+      <DependentUpon>PictureBoxSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="PictureBox_45.bmp" />
+    <EmbeddedResource Include="PrintDialog_45.bmp" />
+    <Content Include="PictureBoxSkin.PictureBox.css">
+      <DependentUpon>PictureBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ProgressBarSkin.ProgressBar.ClientDOM.js">
+      <DependentUpon>ProgressBarSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="ProgressBar_45.bmp" />
+    <Content Include="PropertyGridSkin.GridEntry.WebKit.xslt">
+      <DependentUpon>PropertyGridSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="PropertyGridSkin.GridEntry.xslt">
+      <DependentUpon>PropertyGridSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="Resources\Scripts\jQuery.min.js" />
+    <Content Include="PropertyGridToolStripSkin.PropertyGridToolStrip.css">
+      <DependentUpon>PropertyGridToolStripSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="PropertyGridToolStripSkin.PropertyGridToolStrip.xslt">
+      <DependentUpon>PropertyGridToolStripSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="RadioButtonSkin.RadioButton.ClientDOM.js">
+      <DependentUpon>RadioButtonSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="PropertyGrid_45.bmp" />
+    <EmbeddedResource Include="RadioButton_45.bmp" />
+    <EmbeddedResource Include="Resources\Scripts\jQuery-UI.js" />
+    <EmbeddedResource Include="Resources\Scripts\jQuery-UI.min.js" />
+    <EmbeddedResource Include="Resources\StyleSheets\jQuery-UI.css" />
+    <EmbeddedResource Include="Resources\StyleSheets\jQuery-UI.min.css" />
+    <EmbeddedResource Include="Resources\Scripts\jQuery-UI-Touch-Punch.js" />
+    <EmbeddedResource Include="Resources\Scripts\jQuery-UI-Touch-Punch.min.js" />
+    <EmbeddedResource Include="Resources\AdminLogo.png" />
+    <EmbeddedResource Include="Resources\Scripts\jQuery-VWGExtentions.js" />
+    <EmbeddedResource Include="Resources\Scripts\jQuery-VWGExtentions.min.js" />
+    <EmbeddedResource Include="Resources\null-set-icon.gif" />
+    <Content Include="Resources\Scripts\jQuery.txt" />
+    <Content Include="Resources\Scripts\jQueryCompare.UnitTests.htm" />
+    <EmbeddedResource Include="Resources\Scripts\jQueryTemplates.js" />
+    <EmbeddedResource Include="Resources\Scripts\jQueryTemplates.min.js" />
+    <EmbeddedResource Include="Resources\Scripts\jQueryFormat.js" />
+    <EmbeddedResource Include="Resources\Scripts\jQueryFormat.min.js" />
+    <EmbeddedResource Include="Resources\Scripts\jQueryXPath.js" />
+    <EmbeddedResource Include="Resources\Scripts\jQueryXPath.min.js" />
+    <EmbeddedResource Include="Resources\Scripts\jQueryXPathEngine.js" />
+    <EmbeddedResource Include="Resources\Scripts\jQueryXPathEngine.min.js" />
+    <EmbeddedResource Include="Resources\Scripts\jQueryTemplatesTest.js" />
+    <EmbeddedResource Include="Resources\Scripts\jQueryTemplatesTest.min.js" />
+    <EmbeddedResource Include="Resources\Scripts\jquery.mousewheel.js" />
+    <EmbeddedResource Include="Resources\Scripts\jquery.mousewheel.min.js" />
+    <Content Include="Resources\Scripts\jQueryXPathEngine.txt" />
+    <Content Include="RichTextBoxSkin.RichTextBox.ClientDOM.js">
+      <DependentUpon>RichTextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="RichTextBoxSkin.RichTextBox.Client.js">
+      <DependentUpon>RichTextBoxSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="RichTextBox_45.bmp" />
+    <EmbeddedResource Include="SplitContainer_45.bmp" />
+    <EmbeddedResource Include="Splitter_45.bmp" />
+    <EmbeddedResource Include="StatusBar_45.bmp" />
+    <EmbeddedResource Include="SaveFileDialog_45.bmp" />
+    <Content Include="StatusStripSkin.StatusStrip.css">
+      <DependentUpon>StatusStripSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="StatusStripSkin.StatusStrip.xslt">
+      <DependentUpon>StatusStripSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TabControlSkin.TabControl.ClientDOM.js">
+      <DependentUpon>TabControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TabControlSkin.TabControl.grd.css">
+      <DependentUpon>TabControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TabControlSkin.TabControl.ngrd.css">
+      <DependentUpon>TabControlSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="TabControl_45.bmp" />
+    <EmbeddedResource Include="TableLayoutPanel_45.bmp" />
+    <Content Include="TabPageSkin.TabPage.ClientDOM.js">
+      <DependentUpon>TabPageSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TabPageSkin.TabPage.css">
+      <DependentUpon>TabPageSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TabPageSkin.TabPage.xslt">
+      <DependentUpon>TabPageSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TaskBarSkin.TaskBarItemTemplate.htm">
+      <DependentUpon>TaskBarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TaskBarSkin.TaskBarTemplate.htm">
+      <DependentUpon>TaskBarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TaskBarSkin.TaskBar.css">
+      <DependentUpon>TaskBarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="FormSkin.Forms.ie.css">
+      <DependentUpon>FormSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="Hosts\ObjectBoxSkin.XamlBox.js">
+      <DependentUpon>ObjectBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="MenuItemSkin.MenuItem.css">
+      <DependentUpon>MenuItemSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="MenuItemSkin.MenuItem.js">
+      <DependentUpon>MenuItemSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="MenuItemSkin.MenuItem.xslt">
+      <DependentUpon>MenuItemSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="MenuSkin.Menu.xslt">
+      <DependentUpon>MenuSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ButtonSkin.Button.css">
+      <DependentUpon>ButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ButtonSkin.Button.js">
+      <DependentUpon>ButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ButtonSkin.Button.xslt">
+      <DependentUpon>ButtonSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="CheckBoxSkin.CheckBox.css">
+      <DependentUpon>CheckBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CheckBoxSkin.CheckBox.js">
+      <DependentUpon>CheckBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CheckBoxSkin.CheckBox.xslt">
+      <DependentUpon>CheckBoxSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ColorDialogSkin.ColorDialog.css">
+      <DependentUpon>ColorDialogSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ColorDialogSkin.ColorDialog.htm">
+      <DependentUpon>ColorDialogSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ColorDialogSkin.ColorDialog.js">
+      <DependentUpon>ColorDialogSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ComboBoxSkin.ComboBox.css">
+      <DependentUpon>ComboBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ComboBoxSkin.ComboBox.ie.js">
+      <DependentUpon>ComboBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ComboBoxSkin.ComboBox.js">
+      <DependentUpon>ComboBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ComboBoxSkin.ComboBox.moz.js">
+      <DependentUpon>ComboBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ComboBoxSkin.ComboBox.xslt">
+      <DependentUpon>ComboBoxSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ComboBoxSkin.ComboBoxPopup.css">
+      <DependentUpon>ComboBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonDialog.bmp" />
+    <Content Include="CommonSkin.Common.About.Blank.htm">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Aux.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Bookmarks.htm">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Bookmarks.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Controls.ie.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Controls.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Controls.moz.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.css">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Data.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Debug.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.DragNDrop.ie.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.DragNDrop.ie.xslt">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.DragNDrop.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.DragNDrop.moz.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.DragNDrop.moz.xslt">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.DragNDrop.xslt">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="CommonSkin.Common.Events.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Events.Raise.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Focus.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Forms.ie.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Forms.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Forms.moz.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.LabelEditor.ie.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.LabelEditor.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.LabelEditor.moz.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Layout.css">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.ArrowScrollers.css">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Layout.ie.css">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Layout.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Layout.moz.css">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Layout.xslt">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="CommonSkin.Common.Logon.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Logon.Listener.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.moz.css">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Popups.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Remoting.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Trace.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.VirtualList.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Web.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Xml.ie.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Xml.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.Xml.moz.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Common.xslt">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="CommonSkin.Commons.Debug.Main.css">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Commons.Debug.Main.htm">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Commons.Debug.Main.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Commons.Debug.Preload.htm">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Commons.Debug.Preload.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Commons.Dialogs.Dialog.htm">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Commons.Dialogs.Dialog.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Commons.Dialogs.Main.htm">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Commons.Messages.Timeout.htm">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.HtmlBoxFrame.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Interfaces.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.ListServices.css">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.ListServices.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="CommonSkin.Mashup.js">
+      <DependentUpon>CommonSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="DataGridViewComboBoxPopup.css" />
+    <Content Include="DataGridViewCheckBoxCellSkin.DataGridViewCheckBoxCell.xslt">
+      <DependentUpon>DataGridViewCheckBoxCellSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewComboBoxCellSkin.DataGridViewComboBoxCell.xslt">
+      <DependentUpon>DataGridViewComboBoxCellSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewImageCellSkin.DataGridViewImageCell.xslt">
+      <DependentUpon>DataGridViewImageCellSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewLinkCellSkin.DataGridViewLinkCell.xslt">
+      <DependentUpon>DataGridViewLinkCellSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewSkin.DataGridView.css">
+      <DependentUpon>DataGridViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewSkin.DataGridView.js">
+      <DependentUpon>DataGridViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewSkin.DataGridView.xslt">
+      <DependentUpon>DataGridViewSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DataGridViewSkin.DataGridViewComboBoxPopup.css">
+      <DependentUpon>DataGridViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DataGridViewTextBoxCellSkin.DataGridViewTextBoxCell.xslt">
+      <DependentUpon>DataGridViewTextBoxCellSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DateTimePickerSkin.DateTimePicker.css">
+      <DependentUpon>DateTimePickerSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DateTimePickerSkin.DateTimePicker.js">
+      <DependentUpon>DateTimePickerSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DateTimePickerSkin.DateTimePicker.xslt">
+      <DependentUpon>DateTimePickerSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DomainUpDownSkin.DomainUpDown.js">
+      <DependentUpon>DomainUpDownSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="DomainUpDownSkin.DomainUpDown.xslt">
+      <DependentUpon>DomainUpDownSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="FileDialog.bmp" />
+    <Content Include="FlatToolBarButtonSkin.FlatToolBarButton.css">
+      <DependentUpon>FlatToolBarButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="FlatToolBarSkin.FlatToolBar.css">
+      <DependentUpon>FlatToolBarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="FlatToolBarSkin.FlatToolBar.xslt">
+      <DependentUpon>FlatToolBarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="FlowLayoutPanelSkin.FlowLayoutPanel.xslt">
+      <DependentUpon>FlowLayoutPanelSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="FlowLayoutPanelSkin.FlowLayoutPanel.css">
+      <DependentUpon>FlowLayoutPanelSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="Form.bmp" />
+    <Content Include="FormSkin.Form.css">
+      <DependentUpon>FormSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="FormSkin.Form.ie.css">
+      <DependentUpon>FormSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="FormSkin.Form.js">
+      <DependentUpon>FormSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="FormSkin.Form.moz.css">
+      <DependentUpon>FormSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="FormSkin.Form.xslt">
+      <DependentUpon>FormSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="GroupBoxSkin.GroupBox.css">
+      <DependentUpon>GroupBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="GroupBoxSkin.GroupBox.xslt">
+      <DependentUpon>GroupBoxSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="FrameControlSkin.FrameControl.css">
+      <DependentUpon>FrameControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="FrameControlSkin.FrameControl.js">
+      <DependentUpon>FrameControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="FrameControlSkin.FrameControl.xslt">
+      <DependentUpon>FrameControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="LabelSkin.Label.css">
+      <DependentUpon>LabelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="LabelSkin.Label.xslt">
+      <DependentUpon>LabelSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="LinkLabelSkin.LinkLabel.css">
+      <DependentUpon>LinkLabelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="LinkLabelSkin.LinkLabel.js">
+      <DependentUpon>LinkLabelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="LinkLabelSkin.LinkLabel.xslt">
+      <DependentUpon>LinkLabelSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ListBoxSkin.ListBox.css">
+      <DependentUpon>ListBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ListBoxSkin.ListBox.js">
+      <DependentUpon>ListBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ListBoxSkin.ListBox.xslt">
+      <DependentUpon>ListBoxSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ListViewSkin.ListView.css">
+      <DependentUpon>ListViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ListViewSkin.ListView.ie.css">
+      <DependentUpon>ListViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ListViewSkin.ListView.js">
+      <DependentUpon>ListViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ListViewSkin.ListView.moz.css">
+      <DependentUpon>ListViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ListViewSkin.ListView.xslt">
+      <DependentUpon>ListViewSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="LoadingSkin.Loading.css">
+      <DependentUpon>LoadingSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="LoadingSkin.Loading.htm">
+      <DependentUpon>LoadingSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="MainMenuSkin.MainMenu.css">
+      <DependentUpon>MainMenuSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="MainMenuSkin.MainMenu.js">
+      <DependentUpon>MainMenuSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="MainMenuSkin.MainMenu.xslt">
+      <DependentUpon>MainMenuSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="MdiClient.bmp" />
+    <Content Include="MdiClientSkin.MdiClient.css">
+      <DependentUpon>MdiClientSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="MdiClientSkin.MdiClient.xslt">
+      <DependentUpon>MdiClientSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="MenuSkin.Menu.css">
+      <DependentUpon>MenuSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="MessageBoxWindow.bmp" />
+    <Content Include="MonthCalendarSkin.MonthCalendar.css">
+      <DependentUpon>MonthCalendarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="MonthCalendarSkin.MonthCalendar.js">
+      <DependentUpon>MonthCalendarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="MonthCalendarSkin.MonthCalendar.xslt">
+      <DependentUpon>MonthCalendarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="NumericUpDownSkin.NumericUpDown.js">
+      <DependentUpon>NumericUpDownSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="NumericUpDownSkin.NumericUpDown.xslt">
+      <DependentUpon>NumericUpDownSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="OpenFileDialogSkin.Common.About.Blank.htm">
+      <DependentUpon>OpenFileDialogSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="OpenFileDialogSkin.OpenFileDialog.Plugins.js">
+      <DependentUpon>OpenFileDialogSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="OpenFileDialogSkin.OpenFileDialog.css">
+      <DependentUpon>OpenFileDialogSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="OpenFileDialogSkin.OpenFileDialog.htm">
+      <DependentUpon>OpenFileDialogSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="OpenFileDialogSkin.OpenFileDialog.js">
+      <DependentUpon>OpenFileDialogSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="OpenFileDialogSkin.OpenFileDialog.moz.css">
+      <DependentUpon>OpenFileDialogSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="OpenFileDialogSkin.OpenFileDialog.SWFUpload.js">
+      <DependentUpon>OpenFileDialogSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="PanelSkin.Panel.css">
+      <DependentUpon>PanelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="PanelSkin.Panel.js">
+      <DependentUpon>PanelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="PanelSkin.Panel.xslt">
+      <DependentUpon>PanelSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="PictureBoxSkin.PictureBox.xslt">
+      <DependentUpon>PictureBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ProgressBarSkin.ProgressBar.css">
+      <DependentUpon>ProgressBarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ProgressBarSkin.ProgressBar.xslt">
+      <DependentUpon>ProgressBarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="PropertyGridSkin.PropertyGrid.css">
+      <DependentUpon>PropertyGridSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="PropertyGridSkin.PropertyGrid.ie.css">
+      <DependentUpon>PropertyGridSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="PropertyGridSkin.PropertyGrid.js">
+      <DependentUpon>PropertyGridSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="PropertyGridSkin.PropertyGrid.moz.css">
+      <DependentUpon>PropertyGridSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="PropertyGridSkin.PropertyGrid.xslt">
+      <DependentUpon>PropertyGridSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RadioButtonSkin.RadioButton.css">
+      <DependentUpon>RadioButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="RadioButtonSkin.RadioButton.js">
+      <DependentUpon>RadioButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="RadioButtonSkin.RadioButton.xslt">
+      <DependentUpon>RadioButtonSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RichTextBoxSkin.RichTextBox.css">
+      <DependentUpon>RichTextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="RichTextBoxSkin.RichTextBox.Frame.css">
+      <DependentUpon>RichTextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="RichTextBoxSkin.RichTextBox.Frame.htm">
+      <DependentUpon>RichTextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="RichTextBoxSkin.RichTextBox.Frame.js">
+      <DependentUpon>RichTextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="RichTextBoxSkin.RichTextBox.js">
+      <DependentUpon>RichTextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="RichTextBoxSkin.RichTextBox.xslt">
+      <DependentUpon>RichTextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="SplitterSkin.Splitter.css">
+      <DependentUpon>SplitterSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="SplitterSkin.Splitter.js">
+      <DependentUpon>SplitterSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="SplitterSkin.Splitter.xslt">
+      <DependentUpon>SplitterSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="StatusBarSkin.StatusBar.css">
+      <DependentUpon>StatusBarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="StatusBarSkin.StatusBar.xslt">
+      <DependentUpon>StatusBarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TabControlSkin.TabControl.css">
+      <DependentUpon>TabControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TabControlSkin.TabControl.ie.css">
+      <DependentUpon>TabControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TabControlSkin.TabControl.js">
+      <DependentUpon>TabControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TabControlSkin.TabControl.moz.css">
+      <DependentUpon>TabControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TabControlSkin.TabControl.xslt">
+      <DependentUpon>TabControlSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="TableLayoutPanelSkin.TableLayoutPanel.css">
+      <DependentUpon>TableLayoutPanelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TableLayoutPanelSkin.TableLayoutPanel.xslt">
+      <DependentUpon>TableLayoutPanelSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="TabPage.bmp" />
+    <Content Include="TextBoxSkin.TextBox.css">
+      <DependentUpon>TextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TextBoxSkin.TextBox.ie.css">
+      <DependentUpon>TextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TextBoxSkin.TextBox.ie.js">
+      <DependentUpon>TextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TextBoxSkin.TextBox.ie.xslt">
+      <DependentUpon>TextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TextBoxSkin.TextBox.js">
+      <DependentUpon>TextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TextBoxSkin.TextBox.moz.css">
+      <DependentUpon>TextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TextBoxSkin.TextBox.moz.js">
+      <DependentUpon>TextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TextBoxSkin.TextBox.moz.xslt">
+      <DependentUpon>TextBoxSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TextBoxSkin.TextBox.xslt">
+      <DependentUpon>TextBoxSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="TextBox_45.bmp" />
+    <EmbeddedResource Include="Timer_45.bmp" />
+    <Content Include="ToolBarButtonSkin.ToolBarButton.BI.xslt">
+      <DependentUpon>ToolBarButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolBarButtonSkin.ToolBarButton.css">
+      <DependentUpon>ToolBarButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolBarButtonSkin.ToolBarButton.NBI.css">
+      <DependentUpon>ToolBarButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolBarButtonSkin.ToolBarButton.NBI.xslt">
+      <DependentUpon>ToolBarButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolBarButtonSkin.ToolBarButton.xslt">
+      <DependentUpon>ToolBarButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolBarSkin.ToolBar.css">
+      <DependentUpon>ToolBarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolBarSkin.ToolBar.xslt">
+      <DependentUpon>ToolBarSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="ToolStrip.bmp" />
+    <Content Include="ToolStripButtonSkin.ToolStripButton.css">
+      <DependentUpon>ToolStripButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripButtonSkin.ToolStripButton.js">
+      <DependentUpon>ToolStripButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripButtonSkin.ToolStripButton.xslt">
+      <DependentUpon>ToolStripButtonSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ToolStripContainerSkin.ToolStripContainer.css">
+      <DependentUpon>ToolStripContainerSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripContainerSkin.ToolStripContainer.xslt">
+      <DependentUpon>ToolStripContainerSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="ToolStripContainer_45.bmp" />
+    <Content Include="ToolStripControlHostSkin.ToolStripControlHost.xslt">
+      <DependentUpon>ToolStripControlHostSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="ToolStripDropDown.bmp" />
+    <Content Include="ToolStripDropDownButtonSkin.ToolStripDropDownButton.css">
+      <DependentUpon>ToolStripDropDownButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripDropDownButtonSkin.ToolStripDropDownButton.xslt">
+      <DependentUpon>ToolStripDropDownButtonSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="ToolStripDropDownMenu.bmp" />
+    <Content Include="ToolStripDropDownContentPanelSkin.Panel.css">
+      <DependentUpon>ToolStripDropDownContentPanelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripDropDownContentPanelSkin.Panel.xslt">
+      <DependentUpon>ToolStripDropDownContentPanelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripDropDownSkin.ToolStripDropDown.css">
+      <DependentUpon>ToolStripDropDownSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripDropDownSkin.ToolStripDropDown.xslt">
+      <DependentUpon>ToolStripDropDownSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ToolStripLabelSkin.ToolStripLabel.xslt">
+      <DependentUpon>ToolStripLabelSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ToolStripLabelSkin.ToolStripLabelSkin.css">
+      <DependentUpon>ToolStripLabelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripMenuItemSkin.ToolStripMenuItem.css">
+      <DependentUpon>ToolStripMenuItemSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripMenuItemSkin.ToolStripMenuItem.js">
+      <DependentUpon>ToolStripMenuItemSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripMenuItemSkin.ToolStripMenuItem.xslt">
+      <DependentUpon>ToolStripMenuItemSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ToolStripPanelSkin.ToolStripPanel.css">
+      <DependentUpon>ToolStripPanelSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripPanelSkin.ToolStripPanel.xslt">
+      <DependentUpon>ToolStripPanelSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="ToolStripPanel_standalone.bmp" />
+    <Content Include="ToolStripSeparatorSkin.ToolStripSeparator.css">
+      <DependentUpon>ToolStripSeparatorSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripSeparatorSkin.ToolStripSeparator.xslt">
+      <DependentUpon>ToolStripSeparatorSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ToolStripSkin.ToolStrip.css">
+      <DependentUpon>ToolStripSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripSkin.ToolStrip.js">
+      <DependentUpon>ToolStripSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripSkin.ToolStrip.xslt">
+      <DependentUpon>ToolStripSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ToolStripSplitButtonSkin.ToolStripSplitButton.css">
+      <DependentUpon>ToolStripSplitButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripSplitButtonSkin.ToolStripSplitButton.js">
+      <DependentUpon>ToolStripSplitButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripSplitButtonSkin.ToolStripSplitButton.xslt">
+      <DependentUpon>ToolStripSplitButtonSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolStripStatusLabelSkin.ToolStripStatusLabel.xslt">
+      <DependentUpon>ToolStripStatusLabelSkin.cs</DependentUpon>
+    </Content>
+    <EmbeddedResource Include="ToolStrip_45.bmp" />
+    <EmbeddedResource Include="ToolTip_45.bmp" />
+    <Content Include="ToolTipSkin.ToolTip.js">
+      <DependentUpon>ToolTipSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="ToolTipSkin.ToolTip.xslt">
+      <DependentUpon>ToolTipSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="TrackBarSkin.TrackBar.css">
+      <DependentUpon>TrackBarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TrackBarSkin.TrackBar.js">
+      <DependentUpon>TrackBarSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TrackBarSkin.TrackBar.xslt">
+      <DependentUpon>TrackBarSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="TreeViewSkin.TreeView.ClientDOM.js">
+      <DependentUpon>TreeViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TreeViewSkin.TreeView.css">
+      <DependentUpon>TreeViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TreeViewSkin.TreeView.ie.css">
+      <DependentUpon>TreeViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TreeViewSkin.TreeView.js">
+      <DependentUpon>TreeViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TreeViewSkin.TreeView.moz.css">
+      <DependentUpon>TreeViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="TreeViewSkin.TreeView.xslt">
+      <DependentUpon>TreeViewSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="TreeView_45.bmp" />
+    <Content Include="UpDownBaseSkin.UpDownBase.css">
+      <DependentUpon>UpDownBaseSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UpDownBaseSkin.UpDownBase.js">
+      <DependentUpon>UpDownBaseSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="UpDownBaseSkin.UpDownBase.xslt">
+      <DependentUpon>UpDownBaseSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="UserControl.bmp" />
+    <Content Include="UserControlSkin.UserControl.xslt">
+      <DependentUpon>UserControlSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VirtualDataGridViewSkin.VirtualDataGridView.css">
+      <DependentUpon>VirtualDataGridViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VirtualDataGridViewSkin.VirtualDataGridView.ie.css">
+      <DependentUpon>VirtualDataGridViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VirtualDataGridViewSkin.VirtualDataGridView.js">
+      <DependentUpon>VirtualDataGridViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VirtualDataGridViewSkin.VirtualDataGridView.moz.css">
+      <DependentUpon>VirtualDataGridViewSkin.cs</DependentUpon>
+    </Content>
+    <Content Include="VirtualDataGridViewSkin.VirtualDataGridView.xslt">
+      <DependentUpon>VirtualDataGridViewSkin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="Hosts\AspControlBoxBase.bmp" />
+    <EmbeddedResource Include="SR.sv-SE.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SR.zh-CHS.resx">
+      <DependentUpon>SR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VirtualDataGridViewSkin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VirtualDataGridViewSkin.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Design\Silverlight\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!--
+  <Import Condition="" Project="$(MSBuildExtensionsPath)\Gizmox\v14.0\Net4.5.2\Gizmox.VWGCoreLibrary.targets" />
+  -->
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

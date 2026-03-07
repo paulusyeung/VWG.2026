@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634078924556721632" UpdatedBy="admin" UpdatedOn="634078962260414279">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains a <em>ProgressBar </em>and  a StatusBar controls. The <em>ProgressBar </em>represents precisions of the executing load page. The <em>StatusBar </em>indicates current phase.<br />&nbsp;</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>With Visual WebGui <em>StatusBar </em>allow showing the user the application/page status of the page he is in or give page/application messages without interrupting the work flow.<br />The <em>StatusBar </em>contains the Text property that represents text value. The Text property can be represents status of load process.</p>]]></Paragraph>
+  </Nodes>
+</Data>

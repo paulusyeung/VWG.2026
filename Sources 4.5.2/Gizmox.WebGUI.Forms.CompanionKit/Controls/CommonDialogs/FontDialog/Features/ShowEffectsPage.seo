@@ -1,0 +1,26 @@
+<Item SiteMap="True" Order="103" Status="Publish" Type="Page">
+  <Title>Show font effects</Title>
+  <Properties />
+  <DisplayName>Show Effects</DisplayName>
+  <Description>The example demonstrates how to support effects in the Visual WebGui FontDialog dialog box.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ShowEffectsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ShowEffectsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ShowEffectsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ShowEffectsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ShowEffectsPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>FontDialog</Keyword>
+    <Keyword>Effect</Keyword>
+    <Keyword>ShowEffects</Keyword>
+    <Keyword>Effects</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CommonDialogs.FontDialog.Features.ShowEffectsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

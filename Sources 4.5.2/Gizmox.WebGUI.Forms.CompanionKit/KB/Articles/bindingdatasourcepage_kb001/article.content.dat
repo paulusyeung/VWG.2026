@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634130873407231921" UpdatedBy="admin" UpdatedOn="634130877395851198">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The Visual WebGui <em>ListView </em>contains <em>DataSource </em>as Database Customers table that contains data about a customer.  Relation between the column of a database table and the column of ListView is set with 'Tag' property of ColumnHeader object.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ListView </em>contains the following properties for working with data:<br /><strong>DataSource </strong>&ndash; defines the data source that the connector binds to;<br /><strong>DataMember </strong>- specifies the name of the list of data that the data-bound control binds to when the data source contains more than one distinct list of data items.<br /><strong>AutoGenerateColumns </strong>&ndash;indicates whether auto column generation is active when using data binding. If the property is set to true the <em>ListView </em>will automatically generate columns for each column of binded table column.<br />The <em>ListView </em>column contains <em>Tag </em>property that defines relation between the column of a database table and the column.</p>]]></Paragraph>
+  </Nodes>
+</Data>

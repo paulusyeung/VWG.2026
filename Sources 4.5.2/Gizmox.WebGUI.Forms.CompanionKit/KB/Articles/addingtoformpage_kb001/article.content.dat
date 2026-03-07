@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634104085057970353" UpdatedBy="admin" UpdatedOn="634105732463081270">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains the Visual WebGui RichTextBox control. The example represents how to add RichTextBox control on the Form in the Visual Studio Designer.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p>The Visual WebGui <em>RichTextBox </em>control differs from windows form <em>RichTextBox </em>control that the Visual WebGui <em>RichTextBox </em>is edit text with html tag.<br />The Visual WebGui <em>RichTextBox </em>control can be added on the <em>Form </em>by two ways:</p><ol><li>With Visual Studio Designer. Drag <em>RichTextBox </em>from <em>ToolBox </em>on the <em>Form</em>:</li></ol>]]></Paragraph>
+    <Image Code="ImageElement2" Resource="AddRichTextBoxToForm.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement4"><![CDATA[<ol start="2"><li>With code:</li></ol><p><strong>C#:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement1" Language="csharp"><![CDATA[Gizmox.WebGUI.Forms.RichTextBox demoRichTextBox = new Gizmox.WebGUI.Forms.RichTextBox();
+demoRichTextBox.Anchor = Gizmox.WebGUI.Forms.AnchorStyles.None;
+demoRichTextBox.Dock = Gizmox.WebGUI.Forms.DockStyle.Fill;
+demoRichTextBox.Location = new System.Drawing.Point(0, 0);
+demoRichTextBox.Name = "demoRichTextBox";
+demoRichTextBox.Size = new System.Drawing.Size(391, 306);
+demoRichTextBox.TabIndex = 0;
+this.Controls.Add(demoRichTextBox);]]></Code>
+    <Paragraph Code="ParagraphElement5"><![CDATA[<p><strong>Visual Basic:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement2" Language="vbnet"><![CDATA[Dim demoRichTextBox As New Gizmox.WebGUI.Forms.RichTextBox
+demoRichTextBox.Anchor = Gizmox.WebGUI.Forms.AnchorStyles.None
+demoRichTextBox.Dock = Gizmox.WebGUI.Forms.DockStyle.Fill
+demoRichTextBox.Location = New System.Drawing.Point(0, 0)
+demoRichTextBox.Name = "demoRichTextBox"
+demoRichTextBox.Size = New System.Drawing.Size(391, 306)
+demoRichTextBox.TabIndex = 0
+Me.Controls.Add(demoRichTextBox)]]></Code>
+    <Paragraph Code="ParagraphElement2" />
+  </Nodes>
+</Data>

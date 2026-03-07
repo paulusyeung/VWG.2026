@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Load a Picture</Title>
+  <Properties />
+  <DisplayName>Load a Picture</DisplayName>
+  <Description>The example demonstrates how to load a picture using the Visual WebGui Designer.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="LoadPicturePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LoadPicturePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LoadPicturePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LoadPicturePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="LoadPicturePage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\View.jpg" Order="103" Lang="All" Type="Link" Title="View.jpg" />
+  </Resources>
+  <Keywords>
+    <Keyword>PictureBox</Keyword>
+    <Keyword>Load</Keyword>
+    <Keyword>Designer</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>Picture</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.PictureBox.Functionality.LoadPicturePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

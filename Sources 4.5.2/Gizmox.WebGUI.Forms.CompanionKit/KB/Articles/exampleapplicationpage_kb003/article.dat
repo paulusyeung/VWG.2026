@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634097134062785460" UpdatedBy="admin" UpdatedOn="634104048161514453" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to create an application for browsing WMV clips with the Visual WebGui ActiveXBox control.</Description>
+  </Properties>
+  <Nodes>
+    <Resource Code="DragActiveXBox.png" />
+    <Resource Code="DragActiveXBox_2.png" />
+    <Resource Code="SizeActiveXBox.png" />
+    <Resource Code="ClassIdActiveXBox.png" />
+    <Resource Code="ParametersActiveXBox.png" />
+    <Resource Code="ParametersEditor.png" />
+    <Resource Code="AddParameterInEditor.png" />
+    <Resource Code="SetNameAndValueParameters.png" />
+    <Resource Code="RemoveParameter.png" />
+    <Resource Code="AddParameterMethod.png" />
+    <Resource Code="AddMethodOfParameters.png" />
+    <Resource Code="AppWithWMPActiveXBox.png" />
+  </Nodes>
+</Data>

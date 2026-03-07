@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="120" Status="Publish" Type="Page">
+  <Title>ListBox transfer</Title>
+  <Properties />
+  <DisplayName>Transfer</DisplayName>
+  <Description>The example demonstrates how to transfer item from one ListBox to another ListBox.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="Transfer.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Transfer.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Transfer.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Transfer.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Transfer.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>ListBox</Keyword>
+    <Keyword>Transfer</Keyword>
+    <Keyword>Move</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.ListBox.Functionality.Transfer, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634430765205437462" UpdatedBy="admin" UpdatedOn="634437666327024918">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Use the&nbsp;<em>CheckBox </em>to turn On/Off 3D view for the&nbsp;<strong><em>Chart </em></strong>control.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>Chart.View3D</strong> property gets or sets a value indicating whether&nbsp;3D&nbsp;view is on.<br />Property Type: System.Boolean<br />DefaultValue - <strong>False</strong></p>]]></Paragraph>
+  </Nodes>
+</Data>

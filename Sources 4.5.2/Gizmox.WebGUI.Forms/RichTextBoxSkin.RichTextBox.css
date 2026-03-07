@@ -1,0 +1,12 @@
+.RichTextBox-Control
+{
+	border:1px solid #6F9DD9;
+	background:white;
+	[Skin.VisualEffect]
+}
+
+.RichTextBox-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+    [Skin.ControlTextForegroundDisabled];
+}

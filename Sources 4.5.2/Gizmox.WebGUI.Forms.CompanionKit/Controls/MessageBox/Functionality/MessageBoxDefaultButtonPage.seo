@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="105" Status="Publish" Type="Page" Height="150">
+  <Title>MessageBox Default Button  Enumeration</Title>
+  <Properties />
+  <DisplayName>Default Button</DisplayName>
+  <Description>MessageBoxDefaultButton Enumeration Allows the user to choose which of the buttons would be the default button</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxDefaultButtonPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxDefaultButtonPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxDefaultButtonPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxDefaultButtonPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MessageBoxDefaultButtonPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>MessageBoxDefaultButton</Keyword>
+    <Keyword>MessageBox</Keyword>
+    <Keyword>Default</Keyword>
+    <Keyword>Buttons</Keyword>
+    <Keyword>Button</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.MessageBoxControl.Functionality.MessageBoxDefaultButtonPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

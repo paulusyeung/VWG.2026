@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634094556947842783" UpdatedBy="admin" UpdatedOn="634094564837318767">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select property in the 'Selected object properties' <em>ComboBox </em>and check/uncheck 'Show selected property' <em>CheckBox</em>. If the <em>CheckBox </em>is checked, selected property will be shown in the demonstrated <em>PropertyGrid</em>. If the CheckBox is unchecked, selected property will not be shown in the demonstrated <em>PropertyGrid</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>PropertyGrid </em>determinates whether property should be displayed with <em>BrowsableAttribute</em> that indicates whether the property is shown in the grid. This is useful when you want to hide a property from the grid. By default, a public property is always shown in the grid. And you can create owner type converter class that is inherited from the <em>TypeConverter </em>class and override <em>GetPropertiesSupported </em>and <em>GetProperties </em>methods to control whether property should be display in run-time.</p>]]></Paragraph>
+  </Nodes>
+</Data>

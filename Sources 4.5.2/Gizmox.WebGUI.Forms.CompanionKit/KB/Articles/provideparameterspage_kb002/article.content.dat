@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634099599270468515" UpdatedBy="admin" UpdatedOn="634123699590684758">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example contains Visual WebGui <em>XamlBox </em>control with set Xaml component. Path to xaml file is set into <em>Url</em> property. If you are experiencing any problems with the code snippet, check requirements for your specific browser and verify your Silverlight installation on this <a onclick="window.open(this.href,'','resizable=yes,location=yes,menubar=yes,scrollbars=yes,status=yes,toolbar=yes,fullscreen=no,dependent=no,status'); return false" href="http://www.microsoft.com/getsilverlight/Get-Started/Install/Default.aspx">page</a>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The example demonstrates how to set essential parameters for proper embedding a <em>XAML </em>application. The parameters are provided with Visual Studio designer. The <em>XamlBox </em>contains <em>Url </em>property that specifies path to the <em>XAML </em>application.<br /><br />To embed a <em>XAML </em>application and Visual WebGUI application, follow these steps:</p><ol><li>Drag XamlBox control on the Form in the Visual Studio Designer.</li></ol>]]></Paragraph>
+    <Image Code="ImageElement1" Resource="DragXamlBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement3"><![CDATA[<ol start="2"><li>Set location for the control.</li></ol>]]></Paragraph>
+    <Image Code="ImageElement2" Resource="LocationXamlBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement4"><![CDATA[<ol start="3"><li>Set size for the control.</li></ol>]]></Paragraph>
+    <Image Code="ImageElement3" Resource="SizeXamlBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement5"><![CDATA[<ol start="4"><li>Set Url to XAML application.</li></ol>]]></Paragraph>
+    <Image Code="ImageElement4" Resource="UrlXamlBox.png" Type="Resource" />
+  </Nodes>
+</Data>

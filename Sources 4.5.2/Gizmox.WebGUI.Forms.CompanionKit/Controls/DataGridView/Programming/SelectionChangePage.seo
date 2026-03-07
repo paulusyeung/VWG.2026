@@ -1,0 +1,31 @@
+<Item SiteMap="True" Order="102" Status="Publish" Type="Page">
+  <Title>Handling selection change</Title>
+  <Properties />
+  <DisplayName>Selection Change</DisplayName>
+  <Description>The example demonstrates how to handle SelectedChanged event for a DataGridView.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="SelectionChangePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectionChangePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectionChangePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectionChangePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="SelectionChangePage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.xsd" Order="103" Lang="All" Type="Link" Title="UserDS.xsd" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.designer.cs" Order="104" Lang="CSharp" Type="Link" Title="UserDS.designer.cs" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.designer.vb" Order="104" Lang="VBNET" Type="Link" Title="UserDS.designer.vb" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.xsc" Order="105" Lang="All" Type="Link" Title="UserDS.xsc" />
+    <Resource Visible="True" SiteMap="False" Name="Controls\DataGridView\UserDS.xss" Order="106" Lang="All" Type="Link" Title="UserDS.xss" />
+  </Resources>
+  <Keywords>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>Selection</Keyword>
+    <Keyword>SelectedChanged</Keyword>
+    <Keyword>Event</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DataGridView.Programming.SelectionChangePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

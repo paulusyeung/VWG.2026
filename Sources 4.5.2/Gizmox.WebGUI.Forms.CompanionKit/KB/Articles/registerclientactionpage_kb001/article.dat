@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128267033672126" UpdatedBy="admin" UpdatedOn="634128267891958869" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to register custom action for the button of the Visual WebGui ToolBar.</Description>
+  </Properties>
+  <Nodes />
+</Data>

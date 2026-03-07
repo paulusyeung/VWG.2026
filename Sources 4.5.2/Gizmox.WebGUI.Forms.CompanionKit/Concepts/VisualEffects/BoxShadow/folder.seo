@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Box Shadow</Title>
+  <Properties />
+  <DisplayName>Box Shadow</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>VisualEffects</Keyword>
+    <Keyword>BoxShadow</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.VisualEffects.BoxShadow.Overview</DefaultPage>
+</Item>

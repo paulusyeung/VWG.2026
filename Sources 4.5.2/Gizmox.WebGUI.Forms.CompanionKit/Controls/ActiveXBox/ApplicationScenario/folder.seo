@@ -1,0 +1,17 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Application scenario</Title>
+  <Properties />
+  <DisplayName>Application scenario</DisplayName>
+  <Description>Contains example that demonstrate how to create an application for browsing WMV clips.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ActiveXBox</Keyword>
+    <Keyword>ActiveX</Keyword>
+    <Keyword>Box</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.ActiveXBox.ApplicationScenario.ExampleApplicationPage</DefaultPage>
+</Item>

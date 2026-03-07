@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634086834445353965" UpdatedBy="admin" UpdatedOn="634090171314132843">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check/Uncheck the 'Enable CheckBox in the DateTimePicker' CheckBox. If you check the main CheckBox the <em>DateTimePicker </em>will display with the CheckBox. Otherwise the DateTimePicker will display without the CheckBox.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DateTimePicker </em>contains <em>ShowCheckBox </em>property that indicates whether to display a <em>CheckBox </em>in the <em>DateTimePicker</em>. When the <em>CheckBox </em>is shown and unchecked, the <em>DateTimePicker </em>will be disabled.</p>]]></Paragraph>
+  </Nodes>
+</Data>

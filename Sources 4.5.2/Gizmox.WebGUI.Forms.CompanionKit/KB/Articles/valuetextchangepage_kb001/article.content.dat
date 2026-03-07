@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634110970989691434" UpdatedBy="admin" UpdatedOn="634110974928753934">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>&nbsp;Select item in the <em>ComboBox </em>and the text will be&nbsp;changed in both 'Selected Value' and 'Text of ComboBox' <em>TextBoxes</em>. Enter text in ComboBox and remove focus from ComboBox or press 'Enter' key and the text of 'Text of ComboBox' TextBox will be changed but text 'Selected Value' TextBox will be not changed.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The example contains the demonstrated <em>ComboBox </em>and two <em>TextBoxes</em></p>]]></Paragraph>
+  </Nodes>
+</Data>

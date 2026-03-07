@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634301773975091294" UpdatedBy="admin" UpdatedOn="634435812411573159" Status="Publish" License="None">
+  <Properties>
+    <Title>ToolStrip Object Model Overview</Title>
+    <Description>The article describes API available for the ToolStrip control. The overview of object model is essential for understanding how to use the control in an application.</Description>
+  </Properties>
+  <Nodes />
+</Data>

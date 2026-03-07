@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135254061298989" UpdatedBy="admin" UpdatedOn="634135254807246037">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select cells in the <em>DataGridView </em>and text of the informed label will be represents column and row indexes of selected cells the <em>DataGridView</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui DataGridView contains SelectedChanged event that occurs when the current selection changes.</p>]]></Paragraph>
+  </Nodes>
+</Data>

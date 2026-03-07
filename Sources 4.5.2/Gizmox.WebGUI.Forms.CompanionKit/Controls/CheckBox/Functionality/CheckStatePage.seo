@@ -1,0 +1,20 @@
+<Item SiteMap="True" Order="120" Status="Publish" Type="Page">
+  <Title>CheckState property</Title>
+  <Properties />
+  <DisplayName>CheckState</DisplayName>
+  <Description>Demonstrates how to use CheckState property of CheckBox. CheckState property gets or sets the state of the CheckBox. The application contains CheckBox, Button and Label. When you click on button 'Checks State', label represents CheckBox state with message 'CheckBox state is &lt;CheckState property value &gt;.' You can change checked state and define it with 'Checks State' button.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="CheckStatePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckStatePage.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckStatePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckStatePage.designer.vb" Order="110" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="CheckStatePage.resx" Order="120" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>CheckBox</Keyword>
+    <Keyword>CheckState</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.CheckBox.Functionality.CheckStatePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

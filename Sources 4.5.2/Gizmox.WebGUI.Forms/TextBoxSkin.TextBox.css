@@ -1,0 +1,39 @@
+.TextBox-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.TextBox-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.TextBox-Text
+{
+	[Skin.Font];
+	[Skin.Foreground];
+
+}
+
+.TextBox-Input
+{
+	border-width:0px;
+	background-color:Transparent;
+	padding:0px;
+	width:100%;	
+	height:100%;
+	top:0px;
+	resize:none;
+}
+
+.TextBox-SingleLine
+{
+	[Skin.SingleLineInputStyle];
+}
+
+.TextBox-MultiLine
+{
+	[Skin.MultiLineInputStyle];
+}

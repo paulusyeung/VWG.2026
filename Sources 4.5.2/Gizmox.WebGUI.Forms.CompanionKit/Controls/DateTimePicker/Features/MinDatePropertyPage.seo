@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="104" Status="Publish" Type="Page" Height="165">
+  <Title>MinDate Property</Title>
+  <Properties />
+  <DisplayName>MinDate Property</DisplayName>
+  <Description>The example demonstrates how to define a lower bound for the dates selected/displayed in the Visual WebGui DateTimePicker.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MinDatePropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinDatePropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinDatePropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinDatePropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MinDatePropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DateTimePicker</Keyword>
+    <Keyword>Minimum</Keyword>
+    <Keyword>Limit</Keyword>
+    <Keyword>Date</Keyword>
+    <Keyword>MinDate</Keyword>
+    <Keyword>Min</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DateTimePicker.Features.MinDatePropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

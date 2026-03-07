@@ -1,0 +1,79 @@
+/*--------------------------------------------------
+  ul.tabbernav = the tab navigation list
+  li.tabberactive = the active tab
+  --------------------------------------------------*/
+.tabinactive
+{
+	display:none;
+}
+
+ul.tabbernav
+{
+ margin:0;
+ padding: 3px 0;
+ font: bold 12px Verdana, sans-serif;
+}
+
+ul.tabbernav li
+{
+ list-style: none;
+ margin: 0;
+ display: inline;
+}
+
+ul.tabbernav li span
+{
+ color:#4C4C4C;
+ padding: 3px 0.5em;
+ margin-left: 3px;
+ border: 1px solid #BCBCBC;
+ border-bottom: none;
+ text-decoration: none;
+ background: #fff;
+ cursor:pointer;
+}
+
+ul.tabbernav li span:hover
+{
+ color:#4C4C4C;
+ border-color: #91a7b4; 
+ background: #F6F6F2;
+}
+
+ul.tabbernav li.tabberactive span
+{
+ color:#4C4C4C;
+ background-color: #F6F6F2;
+ border-color: #47697E;
+}
+
+ul.tabbernav li.tabberactive span:hover
+{
+ color:#4C4C4C;
+ border-bottom: 1px solid white;
+ background: #F6F6F2;
+}
+
+
+DIV.ZipLink:hover
+{
+	position:absolute;
+	top:2px;
+	left:166px;/*12px;*/
+	height:19px;
+	width:24px;
+	cursor:pointer;
+	background-image:url([Skin.Path]zipRaised.png.wgx);
+}
+DIV.ZipLink
+{
+	position:absolute;
+	top:2px;
+	left:166px;/*12px;*/
+	height:19px;
+	width:24px;
+	cursor:pointer;
+	background-image:url([Skin.Path]zipSinked.png.wgx);
+}
+
+

@@ -1,0 +1,24 @@
+﻿.Panel-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+}
+
+.AccelerationPanel-Control
+{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0;
+}
+
+.AccelerationPanel-Ball
+{
+    width:50px;
+    height:50px;
+    background-image: url('[Skin.Path]Ball.png.wgx');
+    background-repeat:no-repeat;
+    position:absolute;
+    top:50%;
+    left:50%;    
+}

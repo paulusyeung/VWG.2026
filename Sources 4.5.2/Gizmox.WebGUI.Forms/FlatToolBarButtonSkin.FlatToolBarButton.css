@@ -1,0 +1,34 @@
+.FlatToolBarButton-Control .FlatToolBarButton-Center
+{
+	[Skin.CenterNormalStyle];
+}
+
+.FlatToolBarButton-Control_Enter .FlatToolBarButton-Center
+{
+	[Skin.CenterHoverStyle];
+}
+
+.FlatToolBarButton-Control_Down .FlatToolBarButton-Center
+{
+	[Skin.CenterPressedStyle];
+}
+
+.FlatToolBarButton-Control_Focus .FlatToolBarButton-Center
+{
+	[Skin.CenterFocusedStyle]; 
+}
+
+.FlatToolBarButton-Control_Disabled .FlatToolBarButton-Center
+{
+	[Skin.CenterDisabledStyle];
+}
+
+.FlatToolBarButton-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.FlatToolBarButton-Control_Focus
+{
+    [Skin.ControlFocusedStyle];
+}

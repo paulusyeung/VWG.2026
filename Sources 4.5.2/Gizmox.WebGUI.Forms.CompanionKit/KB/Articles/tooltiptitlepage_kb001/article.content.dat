@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634445457030820106" UpdatedBy="admin" UpdatedOn="634457530380898491">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The Example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>There is&nbsp;a set of controls on the <em>Form </em>you can set tooltip text&nbsp;for.<br />Enter text for <strong>ToolTip </strong>into the <em>TextBox </em>and&nbsp;check the <em>CheckBox </em>to set tooltip&nbsp;text for appropriate control.<br />Hover mouse pointer over the&nbsp;control<em> </em>for <strong>ToolTip </strong>to appear.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p><strong>ToolTip.SetToolTip()</strong> method associates ToolTip text with the specified control</p><p>In addition to specifying the ToolTip text to display for a control, you can also use this method to modify the ToolTip text for a control. Calling the SetToolTip method more than once for a given control does not specify multiple ToolTip text to display for a control, but instead changes the current ToolTip text for the control. To determine the ToolTip text that is associated with a control at run time, use the GetToolTip method.</p><p>Parameters<br /><em>objControl </em>- The Control to associate the ToolTip text with<br />Type: Gizmox.WebGui.Forms.<strong>Control</strong></p><p><em>strCaption </em>- The ToolTip text to display when the pointer is on the control<br />Type: System.<strong>String</strong></p>]]></Paragraph>
+  </Nodes>
+</Data>

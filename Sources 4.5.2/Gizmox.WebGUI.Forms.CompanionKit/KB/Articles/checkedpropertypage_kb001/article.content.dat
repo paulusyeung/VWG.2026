@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634086863565825353" UpdatedBy="admin" UpdatedOn="634090171989025512">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Check/uncheck the <em>CheckBox </em>of the 'Demonstrated DateTimePicker' <em>DateTimePicker </em>and text of the label will display checked state of the CheckBox.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DateTimePicker </em>contains the following properties and events for working with its CheckBox:<br /><em>ShowCheckBox </em>&ndash; the property indicates whether a check box is displayed to the left of the selected date;<br /><em>Checked </em>- the property indicates whether CheckBox of the <em>DateTimePicker </em>is checked;<br /><em>CheckedChanged </em>&ndash; the event occurs when the value of the <em>Checked </em>property changes;<br /><em>CheckedChangedQueued </em>&ndash; the event occurs when the value of the <em>Checked </em>property changes (Queued).</p>]]></Paragraph>
+  </Nodes>
+</Data>

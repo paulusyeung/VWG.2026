@@ -1,0 +1,18 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Resizable</Title>
+  <Properties />
+  <DisplayName>Resizable</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>control</Keyword>
+    <Keyword>behavior</Keyword>
+    <Keyword>resizable</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ControlBehavior.Resizable.Overview</DefaultPage>
+</Item>

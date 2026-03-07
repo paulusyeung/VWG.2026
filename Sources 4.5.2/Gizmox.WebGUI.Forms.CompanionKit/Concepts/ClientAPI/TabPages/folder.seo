@@ -1,0 +1,19 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Demonstration of using tabPages client method</Title>
+  <Properties />
+  <DisplayName>TabPages</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>tabPages</Keyword>
+    <Keyword>selectedIndex</Keyword>
+    <Keyword>removeChild</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Concepts.ClientAPI.TabPages.Overview</DefaultPage>
+</Item>

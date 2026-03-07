@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634104148970415434" UpdatedBy="admin" UpdatedOn="634104797297742503">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The example represents how to create an application with embedded DAEJA applet for browsing and annotation of TIFF images. The parameters are provided with Visual Studio designer.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>AppletBox </em>control contains the following properties for settings of the Java Applet:<br /><em>CodeBase </em>&ndash; defines Applet code base;<br /><em>Code </em>&ndash; defines main class of the Applet;<br /><em>Archive </em>- defines *.jar file of the Applet;<br /><em>Parameters </em>&ndash; collection of the parameters for the Applet.<br /><br />To embed a DAEJA Java Applet on the Visual WebGui Form, follow these steps:</p><ol><li>Drag AppletBox control on the Form in the Visual Studio Designer.</li></ol><p>&nbsp;</p>]]></Paragraph>
+    <Image Code="ImageElement1" Resource="DragAppletBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement3"><![CDATA[<ol start="2"><li>Set location for the control.</li></ol>]]></Paragraph>
+    <Image Code="ImageElement2" Resource="LocationAppletBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement4"><![CDATA[<ol start="3"><li>Set size for the control.</li></ol>]]></Paragraph>
+    <Image Code="ImageElement3" Resource="SizeAppletBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement5"><![CDATA[<ol start="4"><li>Set codebase (in example 'Controls/AppletBox/ApplicationScenario/DAEJA/v1files') of the DAEJA applet into the AppletBox.CodeBase property.</li></ol>]]></Paragraph>
+    <Image Code="ImageElement4" Resource="CodeBaseAppletBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement6"><![CDATA[<ol start="5"><li>Set archive 'viewone.jar' file name of the Applet into the AppletBox.Archive property.</li></ol>]]></Paragraph>
+    <Image Code="ImageElement5" Resource="ArchiveAppletBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement7"><![CDATA[<ol start="6"><li>Set main class 'start.jiViewONE.class' of the Applet into the AppletBox.Code property.</li></ol>]]></Paragraph>
+    <Image Code="ImageElement6" Resource="CodeAppletBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement8"><![CDATA[<ol start="7"><li>Set additionally parameters for DAEJA Applet in the AppletBox Control. It can be done with several ways:</li></ol><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a.&nbsp;	With designer :<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp;	Select Parameters property in the Properties Windows<br />&nbsp;</p>]]></Paragraph>
+    <Image Code="ImageElement7" Resource="ParametersAppletBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement9"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -	Click on the '...' button and 'ObjectBoxParameters Collection Editor' will be opened</p>]]></Paragraph>
+    <Image Code="ImageElement8" Resource="ParametersEditorAppletBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement10"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Click on Add button a new parameter will be added a new parameter</p>]]></Paragraph>
+    <Image Code="ImageElement9" Resource="AddParameterInEditor.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement11"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp; Select the parameter in section 'Members' and property Name and Value will be displayed in the '&lt;Parameter name&gt; properties' section. Set the name and value for added parameters</p>]]></Paragraph>
+    <Image Code="ImageElement10" Resource="SetNameAndValueForParameterInEditor.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement12"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp; To remove parameter, select the parameter in the 'Members' section and click on the 'Remove' button in the 'ObjectBoxParameters Collection Editor'</p>]]></Paragraph>
+    <Image Code="ImageElement11" Resource="RemoveAppletBox.png" Type="Resource" />
+    <Paragraph Code="ParagraphElement13"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. &nbsp;	With code:<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp;	Call method AppletBox.AddParameter( &lt;Parameter Name&gt;, &lt;Parameter Value&gt;)</p><p><strong>C#:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement3" Language="csharp"><![CDATA[this.appletBox1.AddParameters("backcolor", "192,192,192");]]></Code>
+    <Paragraph Code="ParagraphElement17"><![CDATA[<p><strong>Visual Basic:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement4" Language="vbnet"><![CDATA[Me.appletBox1.AddParameters("backcolor", "192,192,192")]]></Code>
+    <Paragraph Code="ParagraphElement16"><![CDATA[<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Or call 'Add' method for AppletBox.Parameters collection.</p><p><strong>C#</strong></p>]]></Paragraph>
+    <Code Code="CodeElement1" Language="csharp"><![CDATA[this.appletBox1.Parameters.Add("backcolor", "192,192,192");]]></Code>
+    <Paragraph Code="ParagraphElement14"><![CDATA[<p><strong>Visual Basic:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement2" Language="vbnet"><![CDATA[Me.appletBox1.Parameters.Add("backcolor", "192,192,192")]]></Code>
+    <Paragraph Code="ParagraphElement15" />
+    <Paragraph Code="ParagraphElement18"><![CDATA[<ol start="8"><li>Start application.</li></ol>]]></Paragraph>
+  </Nodes>
+</Data>

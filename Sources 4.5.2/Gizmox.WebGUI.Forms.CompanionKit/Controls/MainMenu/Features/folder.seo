@@ -1,0 +1,50 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="True">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains examples that demonstrate how to:
+    - support shortcut key navigation in the Visual WebGui MainMenu;
+    - support menu item with icons in the Visual WebGui MainMenu;
+    - support menu item check boxes in the Visual WebGui MainMenu;
+    - support menu item radio checks in the Visual WebGui MainMenu.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>MainMenu</Keyword>
+    <Keyword>MenuItem</Keyword>
+    <Keyword>Menu</Keyword>
+    <Keyword>Shortcut</Keyword>
+    <Keyword>Key</Keyword>
+    <Keyword>Navigation</Keyword>
+    <Keyword>Icon</Keyword>
+    <Keyword>CheckBoxes</Keyword>
+    <Keyword>RadioCheck</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Feature" cols="2">
+      <PreText>&lt;img style='float:right; padding: 3px;margin:5px;' src = '/Resources/Images/Lobby/MainMenu.Lobby.png' /&gt;
+&lt;div&gt;The &lt;span style="color:#00ccff"&gt;MainMenu&lt;/span&gt; control is functionally equivialent to the Windows Forms MainMenu control. &lt;/div&gt;
+&lt;span style="color:#00ccff"&gt;Availability&lt;/span&gt;
+The MainMenu is one of the out of the box standard controls, which means it is free and available in all Visual WebGui versions.
+&lt;div style='clear:both'&gt;&lt;/div&gt;</PreText>
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Title="Keyboard support" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to implement shortcut key navigation in the Visual WebGui MainMenu.&lt;/div&gt;" Link="item:CompanionKit.Controls.MainMenu.Features.KeyboardSupportPage" Section="Section-01">
+      <Style linktype="InnerItem" titlecss="padding-left:15px;" bodycss="padding-left:15px;" concss="border: 1px solid transparent;" imgcss="margin-left:15px;" />
+    </Element>
+    <Element Title="Icons" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to implement menu item with icons in the Visual WebGui MainMenu&lt;/div&gt;" Link="item:CompanionKit.Controls.MainMenu.Features.IconsPage" Section="Section-01">
+      <Style linktype="InnerItem" bodycss="padding-right:15px;" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="CheckBoxes" Body="&lt;div onmouseover = &quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to implement menu item check boxes in the Visual WebGui MainMenu&lt;/div&gt;" Link="item:CompanionKit.Controls.MainMenu.Features.CheckBoxesPages" Section="Section-01">
+      <Style linktype="InnerItem" titlecss="padding-left:15px;" bodycss="padding-left:15px;" concss="border: 1px solid transparent;" />
+    </Element>
+    <Element Title="Radio Check" Body="&lt;div onmouseover=&quot;$(this).parent().parent().css('border','1px solid #1c2a3b');&quot; onmouseout=&quot;$(this).parent().parent().css('border','1px solid transparent');&quot;&gt;The example demonstrates how to implement menu item radio checks in the Visual WebGui MainMenu&lt;/div&gt;" Link="item:CompanionKit.Controls.MainMenu.Features.RadioCheckPage" Section="Section-01">
+      <Style linktype="InnerItem" bodycss="padding-right:15px;" concss="border: 1px solid transparent;" />
+    </Element>
+  </Body>
+  <DefaultPage>
+  </DefaultPage>
+</Item>

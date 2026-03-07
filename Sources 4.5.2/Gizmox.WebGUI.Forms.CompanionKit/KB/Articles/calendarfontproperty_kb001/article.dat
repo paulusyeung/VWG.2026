@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634086780270457697" UpdatedBy="admin" UpdatedOn="634090169378951133" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to change font for a DropDown Calendar of a Visual WebGui DateTimePicker.</Description>
+  </Properties>
+  <Nodes />
+</Data>

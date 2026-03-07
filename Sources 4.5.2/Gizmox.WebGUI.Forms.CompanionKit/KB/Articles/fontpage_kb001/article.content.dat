@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634082506022804138" UpdatedBy="admin" UpdatedOn="634082506749068082">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the 'Change font for label with FontDialog' Button and the <em>FontDialog </em>will be opened with selected font of the represented label. Change the font in the <em>FontDialog </em>and click on the 'Ok' button, font of represented label will be changed appropriately.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>FontDialog </em>dialog box contains the <em>Font </em>property that represents the selected font of the dialog box.</p>]]></Paragraph>
+  </Nodes>
+</Data>

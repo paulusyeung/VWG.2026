@@ -1,0 +1,18 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>MainMenu</Title>
+  <Properties />
+  <DisplayName>MainMenu</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>MainMenu</Keyword>
+    <Keyword>Menu</Keyword>
+    <Keyword>MenuStrip</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.MainMenu.Features</DefaultPage>
+</Item>

@@ -1,0 +1,19 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ExpandableGroupBox</Keyword>
+    <Keyword>expand</Keyword>
+    <Keyword>collapse</Keyword>
+    <Keyword>accordion</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.ExpandableGroupBox.Functionality.ExpandCollapsePage</DefaultPage>
+</Item>

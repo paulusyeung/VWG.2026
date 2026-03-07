@@ -1,0 +1,50 @@
+.ToolStripDropDown-DropDown
+{
+	position:absolute;
+	[Skin.Font];
+}
+
+.ToolStripDropDown-DropDown .ToolStripDropDown-DropDownTopLeft
+{
+	[Skin.LeftTopDropDownStyle];
+}
+
+.ToolStripDropDown-DropDown .ToolStripDropDown-DropDownLeft
+{
+	[Skin.LeftDropDownStyle];
+}
+
+.ToolStripDropDown-DropDown .ToolStripDropDown-DropDownBottomLeft
+{
+	[Skin.LeftBottomDropDownStyle]; 
+}
+
+.ToolStripDropDown-DropDown .ToolStripDropDown-DropDownCenter
+{
+	[Skin.CenterDropDownStyle];	
+}
+
+.ToolStripDropDown-DropDown .ToolStripDropDown-DropDownTopRight
+{
+	[Skin.RightTopDropDownStyle]; 
+}
+
+.ToolStripDropDown-DropDown .ToolStripDropDown-DropDownRight
+{
+	[Skin.RightDropDownStyle]; 
+}
+
+.ToolStripDropDown-DropDown .ToolStripDropDown-DropDownBottomRight
+{
+	[Skin.RightBottomDropDownStyle];  
+}
+
+.ToolStripDropDown-DropDown .ToolStripDropDown-DropDownTop
+{
+	[Skin.TopDropDownStyle];
+}
+
+.ToolStripDropDown-DropDown .ToolStripDropDown-DropDownBottom
+{
+	[Skin.BottomDropDownStyle];
+}

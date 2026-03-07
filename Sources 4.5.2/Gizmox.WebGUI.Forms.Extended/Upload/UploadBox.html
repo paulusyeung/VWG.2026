@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="Context.Language">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title></title>
+
+	<script type="text/javascript">
+
+	    // Get applicaion and client API reference
+	    window.mobjApp = parent.mobjApp;
+	    window.vwgContext = parent.vwgContext;
+
+	    // Get control id
+	    var mstrControlId = mobjApp.Web_GetQueryStringParam(document.location.href, "id");
+
+	</script>
+
+	<script type="text/javascript" src="Assemblies.Resources.Scripts.jQuery.min.js.wgx?assembly=Gizmox.WebGUI.Forms"></script>
+	<script type="text/javascript" src="Assemblies.Resources.Scripts.jQuery-UI.min.js.wgx?assembly=Gizmox.WebGUI.Forms"></script>
+
+	<link rel="stylesheet" href="[Skin.Path]UploadControl.Frame.css.wgx" />
+
+	<script type="text/javascript" src="[Skin.Path]jquery.iframe-transport.js.wgx"></script>
+	<script type="text/javascript" src="[Skin.Path]jquery.fileupload.js.wgx"></script>
+	<script type="text/javascript" src="[Skin.Path]UploadControl.Frame.js.wgx"></script>
+
+</head>
+<body class="UploadControl-Body" onload="UploadControl_Initialize(mstrControlId);">
+
+<div class="UploadControl-Container">
+    <table>
+        <tr>
+            <td>
+                <span class="UploadControl-Button">
+                    +
+                    <input id="fileupload" type="file" name="files[]" multiple>
+                </span>
+            </td>
+            <td class="UploadControl-Text">
+                <span id="drop_text">select or drop files here</span>
+            </td>
+         </tr>
+    </table>
+    <div id="progress" class="UploadControl-Progress">
+        <div id="progress-bar" class="UploadControl-ProgressBar"><span id="progress-bar-file" class="UploadControl-ProgressBarFile" /></div>
+    </div>
+</div>
+</body> 
+</html>
+

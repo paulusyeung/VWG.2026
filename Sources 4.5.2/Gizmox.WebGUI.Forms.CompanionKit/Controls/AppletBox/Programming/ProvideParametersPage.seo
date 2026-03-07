@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>How to set parameters and codebase for a Java applet.</Title>
+  <Properties />
+  <DisplayName>Provide parameters</DisplayName>
+  <Description>The example demonstrates how to set parameters and codebase for a Java applet.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="ProvideParametersPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ProvideParametersPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ProvideParametersPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ProvideParametersPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="ProvideParametersPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MoleculeViewer.jar" Order="103" Lang="All" Type="File" ViewType="NoView" />
+    <Resource Visible="True" SiteMap="False" Name="HyaluronicAcid.xyz" Order="104" Lang="All" Type="File" ViewType="NoView" />
+  </Resources>
+  <Keywords>
+    <Keyword>AppletBox</Keyword>
+    <Keyword>Applet</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>Code</Keyword>
+    <Keyword>CodeBase</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.AppletBox.Programming.ProvideParametersPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

@@ -1,0 +1,21 @@
+.Floating
+{
+	position:absolute;
+	width:150px;
+	height:30px;
+	top:-2;
+	left:10; /*496*/
+	background-image: url([Skin.Path]dd_expand_150_30_round_corner.png.wgx);
+	background-repeat:no-repeat;
+}
+.Collapsed
+{
+	height:16;
+	background-image: url([Skin.Path]dd_collapse_150_15_round_corner.png.wgx);
+	background-repeat:no-repeat;
+}
+
+.DDLinkImage
+{
+	cursor:pointer;
+}

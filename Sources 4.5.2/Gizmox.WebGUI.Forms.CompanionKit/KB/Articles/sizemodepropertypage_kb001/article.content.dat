@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634091862950775995" UpdatedBy="admin" UpdatedOn="634091869414525995">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Title" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change SizeMode in the 'Size mode for the PictureBox' ComboBox and pay attention on changing of the size and placement of a Picture on the PictureBox.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>PictureBox </em>control allows change size and placement image on a form by with usage <em>SizeMode </em>property on it to:</p><ul><li>Align the picture's upper left corner with the control's upper left corner</li><li>Center the picture within the control</li><li>Adjust the size of the control to fit the picture it displays</li><li>Stretch any picture it displays to fit the control</li></ul><p>Stretching a picture (especially one in bitmap format) can produce a loss in image quality. Metafiles, which are lists of graphics instructions for drawing images at run time, are better suited for stretching than bitmaps are.</p><p>The SizeMode property can contain the following value: <em>Normal </em>(the default), <em>AutoSize</em>, <em>CenterImage</em>, or <em>StretchImage</em>. <em>Normal </em>means that the image is placed in the control's upper-left corner; if the image is larger than the control, its lower and right edges are clipped. <em>CenterImage </em>means that the image is centered within the control; if the image is larger than the control, the picture's outside edges are clipped. <em>AutoSize </em>means that the size of the control is adjusted to the size of the image. <em>StretchImage </em>is the reverse, and means that the size of the image is adjusted to the size of the control.</p>]]></Paragraph>
+    <Header Code="HeaderElement3" Type="Subtitle" ShowInTOC="0"><![CDATA[Code sample]]></Header>
+    <Paragraph Code="ParagraphElement4"><![CDATA[<p>The code sample represents how to set <em>StretchImage </em>mode and Image for the <em>PictureBox </em>control. The <em>ImageResourceHandle </em>class is used for handling to get image form resources image folder. The parameter is file path relatively to Resources\Images project folder.<br /><strong>Visual Basic:</strong></p>]]></Paragraph>
+    <Code Code="CodeElement1" Language="vbnet"><![CDATA[Private Sub StretchPic()
+   ' Stretch the picture to fit the control.
+   PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+   ' Load the picture into the control.
+   PictureBox1.Image = New Gizmox.WebGUI.Common.Resources.ImageResourceHandle("View.jpg")
+End Sub]]></Code>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p><strong>C#</strong></p>]]></Paragraph>
+    <Code Code="CodeElement2" Language="csharp"><![CDATA[private void StretchPic(){
+   // Stretch the picture to fit the control.
+   PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+   // Load the picture into the control.
+   PictureBox1.Image = new Gizmox.WebGUI.Common.Resources.ImageResourceHandle("View.jpg");
+}]]></Code>
+  </Nodes>
+</Data>

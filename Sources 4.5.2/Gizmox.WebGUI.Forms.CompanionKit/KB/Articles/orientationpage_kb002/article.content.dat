@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634129146061808727" UpdatedBy="admin" UpdatedOn="634144635493109708">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The demonstrated <em>Splitter </em>between the orange and the blue panel has bottom dock value. <br />The <em>Splitter </em>between the orange and the red panel has right dock value.</p><p>Move&nbsp;the mouse pointer over the <em>Splitter </em>control (between panels with different background colors), and the cursor will change to indicate that the controls docked to the <em>Splitter </em>control can be resized. Click on mouse button and&nbsp;drag of the Splitter&nbsp;to increase/decrease the size of the docking controls.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui Splitter orientation is changed with Dock property value. </p>]]></Paragraph>
+  </Nodes>
+</Data>

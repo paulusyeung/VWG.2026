@@ -1,0 +1,23 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>WatermarkTextBox control overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>WatermarkTextBox</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="WatermarkTextBox it is a simple TextBox, which displays watermark text until the user inputs text." Section="Section-01">
+      <Style linktype="NoLink" bodycss="font-size:Medium" />
+    </Element>
+  </Body>
+</Item>

@@ -1,0 +1,9 @@
+.Splitter-Control
+{
+	[Skin.Background];
+}
+
+.Splitter-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}

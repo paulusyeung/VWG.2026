@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Timer</Title>
+  <Properties />
+  <DisplayName>Timer</DisplayName>
+  <Description>Contains the example that demonstrates how to use a Timer control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Timer</Keyword>
+    <Keyword>Tick</Keyword>
+    <Keyword>Interval</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.Timer.Features.IntervalActionPage</DefaultPage>
+  <Body />
+</Item>

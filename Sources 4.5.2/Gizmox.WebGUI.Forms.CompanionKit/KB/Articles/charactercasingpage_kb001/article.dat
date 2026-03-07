@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634128292554829426" UpdatedBy="admin" UpdatedOn="634128293957368168" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to enforce the case of characters in a Visual WebGui TextBox.</Description>
+  </Properties>
+  <Nodes />
+</Data>

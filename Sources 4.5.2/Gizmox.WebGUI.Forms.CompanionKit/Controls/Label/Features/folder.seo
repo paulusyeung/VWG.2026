@@ -1,0 +1,23 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>Label</Keyword>
+    <Keyword>Font</Keyword>
+    <Keyword>Image</Keyword>
+    <Keyword>TextAlign</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>Align</Keyword>
+    <Keyword>UseMnemonic</Keyword>
+    <Keyword>Mnemonic</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.Label.Features.LabelFontPage</DefaultPage>
+</Item>

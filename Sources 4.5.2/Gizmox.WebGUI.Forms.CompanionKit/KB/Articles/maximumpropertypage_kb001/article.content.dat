@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634088386937432850" UpdatedBy="admin" UpdatedOn="634088391740108609">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change value of the 'Maximum value' <em>NumericUpDown </em>and try to enter value more than it into the demonstrated <em>NumericUpDown</em>. And after the change focus or press Enter key value of this <em>NumericUpDown </em>will be changed to entered in the 'Maximum value' <em>NumericUpDown</em>.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>NumericUpDown </em>contains the <em>Maximum </em>that defines the maximum value for the spin box (also known as an up-down control).</p>]]></Paragraph>
+  </Nodes>
+</Data>

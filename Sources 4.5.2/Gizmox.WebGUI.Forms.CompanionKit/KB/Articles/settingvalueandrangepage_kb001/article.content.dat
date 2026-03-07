@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634079065572318433" UpdatedBy="admin" UpdatedOn="634079068304614323">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change minimum and maximum value for a <em>TrackBar </em>with the 'Minimize bound of TrackBar' and 'Maximize bound of TrackBar' NumericUpDown controls, respectively. Move a slider of the <em>TrackBar </em>to the minimum or maximum position and the value of the 'TrackBar Value' NumericUpDown will be changed according to the slider position. And if you change a value of the 'TrackBar Value' NumericUpDown, the slider position will be changed.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>For manipulating with a value and a range, the <em>TrackBar </em>contains the following properties and events:<br /><strong>Maximum </strong>&ndash; the property defines the upper limit of the range this <em>TrackBar </em>is working with. The default is 10.<br /><strong>Minimum </strong>- the property defines the lower limit of the range this <em>TrackBar </em>is working with. The default is 0.<br /><strong>Value </strong>- the property defines a numeric value that represents the current position of the scroll box on the <em>TrackBar</em>.<br /><strong>ValueChanged </strong>&ndash; the event occurs when the <em>Value </em>property of a <em>TrackBar </em>changes, either by movement of the scroll box or by manipulation in code.</p><p>You can set the initial <em>Value </em>of the Visual WebGui<em> TrackBar </em>using the <em>Value </em>property. When the value exceeds the <em>Maximum</em>/<em>Minimum </em>values defined the value will be reset to its bound value - <em>Minimum </em>or <em>Maximum</em> respectively.<br />By default the initial Value of the TrackBar is set to its Minimum value - zero by default.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

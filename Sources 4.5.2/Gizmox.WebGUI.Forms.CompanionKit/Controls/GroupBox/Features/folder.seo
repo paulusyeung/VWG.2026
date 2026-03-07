@@ -1,0 +1,26 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Features</Title>
+  <Properties />
+  <DisplayName>Features</DisplayName>
+  <Description>Contains examples that demonstrate how to use the ContextMenu for the GroupBox control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>GroupBox</Keyword>
+    <Keyword>ContextMenu</Keyword>
+    <Keyword>Menu</Keyword>
+    <Keyword>Grouping</Keyword>
+    <Keyword>Enable</Keyword>
+    <Keyword>Enabling</Keyword>
+    <Keyword>BackgroundColor</Keyword>
+    <Keyword>BackColor</Keyword>
+    <Keyword>Background</Keyword>
+    <Keyword>Color</Keyword>
+    <Keyword>ContextMenu</Keyword>
+    <Keyword>Menu</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.GroupBox.Features.ContextMenuPage</DefaultPage>
+</Item>

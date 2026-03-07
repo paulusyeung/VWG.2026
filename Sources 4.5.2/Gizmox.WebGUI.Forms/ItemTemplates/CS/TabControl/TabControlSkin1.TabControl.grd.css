@@ -1,0 +1,17 @@
+.TabControlSpread-Container
+{
+    [Skin.TabPageHeadersContainerSpreadStyle];
+}
+
+
+.TabControl-Tab_Selected .TabControlSpread-TabTopCenter
+{
+	[Skin.TabTopSelectedSpreadStyle];
+	text-align:center;
+}
+
+.TabControl-Tab_Selected .TabControlSpread-TabBottomCenter
+{
+	[Skin.TabBottomTabSelectedSpreadStyle];
+	text-align:center;
+}

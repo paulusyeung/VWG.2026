@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634092048977065413" UpdatedBy="admin" UpdatedOn="634092056362425179">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>The Visual WebGui gives you several different ways to display a given value within the <em>ProgressBar </em>control. Which approach you choose will depend on the task at hand or the problem you are solving. The following table shows the approaches you can choose.</p><p><strong>Approach  Description</strong><br /><em>Set the value of the ProgressBar control directly.</em><br />This approach is useful for tasks where you know the total of the item measured that will be involved, such as reading records from a data source. Additionally, if you only need to set the value once or twice, this is an easy way to do it. Finally, use this process if you need to decrease the value displayed by the progress bar.<br /><em>Increase the ProgressBar display by a fixed value.</em><br />This approach is useful when you are displaying a simple count between the minimum and maximum, such as elapsed time or the number of files that have been processed out of a known total.<br /><em>Increase the ProgressBar display by a value that varies.</em><br />This approach is useful when you need to change the displayed value a number of times in different amounts. An example would be showing the amount of hard-disk space being consumed while writing a series of files to the disk.<br />The most direct way to set the value displayed by a progress bar is by setting the Value property. This can be done either at design time or at run time.</p><p>To set the <em>ProgressBar </em>value directly</p><p>Set the <em>ProgressBar </em>control's <em>Minimum </em>and <em>Maximum </em>values.</p><p>In code, set the control's <em>Value </em>property to an integer value between the minimum and maximum values you have established.</p><p><strong>Note</strong><br />If you set the <em>Value </em>property outside the boundaries established by the <em>Minimum </em>and <em>Maximum </em>properties, the control throws an <em>ArgumentException </em>exception.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[Code sample]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The following code example illustrates how to set the ProgressBar value directly. The code reads records from a data source and updates the progress bar and label every time a data record is read. This example requires that your form has a <em>Label </em>control, a <em>ProgressBar </em>control, and a data table with a row called CustomerRow with FirstName and Last Name fields.</p><p><strong>Visual Basic</strong></p>]]></Paragraph>
+    <Code Code="CodeElement1" Language="vbnet"><![CDATA[Public Sub CreateNewRecords()
+   ' Sets the progress bar's Maximum property to
+   ' the total number of records to be created.
+   ProgressBar1.Maximum = 20
+
+   ' Creates a new record in the dataset.
+   ' NOTE: The code below will not compile, it merely
+   ' illustrates how the progress bar would be used.
+   Dim anyRow As CustomerRow = DatasetName.ExistingTable.NewRow
+   anyRow.FirstName = "Stephen"
+   anyRow.LastName = "James"
+   ExistingTable.Rows.Add(anyRow)
+
+   ' Increases the value displayed by the progress bar.
+   ProgressBar1.Value  = 1
+   ' Updates the label to show that a record was read.
+   Label1.Text = "Records Read = " & ProgressBar1.Value.ToString()
+End Sub]]></Code>
+    <Paragraph Code="ParagraphElement3"><![CDATA[<p><strong>C#</strong></p>]]></Paragraph>
+    <Code Code="CodeElement2" Language="csharp"><![CDATA[public void createNewRecords()
+{
+   // Sets the progress bar's Maximum property to
+   // the total number of records to be created.
+   progressBar1.Maximum = 20;
+
+   // Creates a new record in the dataset.
+   // NOTE: The code below will not compile, it merely
+   // illustrates how the progress bar would be used.
+   CustomerRow anyRow = DatasetName.ExistingTable.NewRow();
+   anyRow.FirstName = "Stephen";
+   anyRow.LastName = "James";
+   ExistingTable.Rows.Add(anyRow);
+
+   // Increases the value displayed by the progress bar.
+   progressBar1.Value  = 1;
+   // Updates the label to show that a record was read.
+   label1.Text = "Records Read = "   progressBar1.Value.ToString();
+}]]></Code>
+    <Paragraph Code="ParagraphElement4"><![CDATA[<p>If you are displaying progress that proceeds by a fixed interval, you can set the value and then call a method that increases the <em>ProgressBar </em>control's value by that interval. This is useful for timers and other scenarios where you are not measuring progress as a percentage of the whole.</p><p>To increase the progress bar by a fixed value</p><p>Set the <em>ProgressBar </em>control's <em>Minimum </em>and <em>Maximum </em>values.</p><p>Set the control's <em>Step </em>property to an integer representing the amount to increase the progress bar's displayed value.</p><p>Call the <em>PerformStep </em>method to change the value displayed by the amount set in the <em>Step </em>property.</p><p>The following code example illustrates how a progress bar can maintain a count of the files in a copy operation.</p><p>In the following example, as each file is read into memory, the progress bar and label are updated to reflect the total files read. This example requires that your form has a <em>Label </em>control and a <em>ProgressBar </em>control.</p><p><strong>Visual Basic</strong><br />&nbsp;</p>]]></Paragraph>
+    <Code Code="CodeElement3" Language="vbnet"><![CDATA[Public Sub LoadFiles()
+   ' Sets the progress bar's minimum value to a number representing
+   ' no operations complete -- in this case, no files read.
+   ProgressBar1.Minimum = 0
+   ' Sets the progress bar's maximum value to a number representing
+   ' all operations complete -- in this case, all five files read.
+   ProgressBar1.Maximum = 5
+   ' Sets the Step property to amount to increase with each iteration.
+   ' In this case, it will increase by one with every file read.
+   ProgressBar1.Step = 1
+
+   ' Dimensions a counter variable.
+   Dim i As Integer
+   ' Uses a For...Next loop to iterate through the operations to be
+   ' completed. In this case, five files are to be copied into memory,
+   ' so the loop will execute 5 times.
+   For i = 0 To 4
+      ' Insert code to copy a file
+      ProgressBar1.PerformStep()
+      ' Update the label to show that a file was read.
+      Label1.Text = "# of Files Read = " & ProgressBar1.Value.ToString
+   Next i
+End Sub]]></Code>
+    <Paragraph Code="ParagraphElement5"><![CDATA[<p><strong>C#</strong></p>]]></Paragraph>
+    <Code Code="CodeElement4" Language="csharp"><![CDATA[public void loadFiles()
+{
+   // Sets the progress bar's minimum value to a number representing
+   // no operations complete -- in this case, no files read.
+   progressBar1.Minimum = 0;
+   // Sets the progress bar's maximum value to a number representing
+   // all operations complete -- in this case, all five files read.
+   progressBar1.Maximum = 5;
+   // Sets the Step property to amount to increase with each iteration.
+   // In this case, it will increase by one with every file read.
+   progressBar1.Step = 1;
+
+   // Uses a <b>for</b> loop to iterate through the operations to be
+   // completed. In this case, five files are to be copied into memory,
+   // so the loop will execute 5 times.
+   for (int i = 0; i <= 4; i  )
+   {
+      // Inserts code to copy a file
+      progressBar1.PerformStep();
+      // Updates the label to show that a file was read.
+      label1.Text = "# of Files Read = "   progressBar1.Value.ToString();
+   }
+}]]></Code>
+    <Paragraph Code="ParagraphElement6"><![CDATA[<p>Finally, you can increase the value displayed by a progress bar so that each increase is a unique amount. This is useful when you are keeping track of a series of unique operations, such as writing files of different sizes to a hard disk, or measuring progress as a percentage of the whole.</p><p>To increase the progress bar by a dynamic value</p><p>Set the <em>ProgressBar </em>control's <em>Minimum </em>and <em>Maximum </em>values.</p><p>Call the Increment method to change the value displayed by an integer you specify.</p><p>The following code example illustrates how a progress bar can calculate how much disk space has been used during a copy operation.</p><p>In the following example, as each file is written to the hard disk, the progress bar and label are updated to reflect the amount of hard-disk space available. This example requires that your form has a <em>Label </em>control and a <em>ProgressBar </em>control.<br />&nbsp;</p><p><strong>Visual Basic</strong></p>]]></Paragraph>
+    <Code Code="CodeElement5" Language="vbnet"><![CDATA[Visual Basic
+Public Sub ReadFiles()
+   ' Sets the progress bar's minimum value to a number 
+   ' representing the hard disk space before the files are read in.
+   ' You will most likely have to set this using a system call.
+   ' NOTE: The code below is meant to be an example and
+   ' will not compile.
+   ProgressBar1.Minimum = AvailableDiskSpace()
+   ' Sets the progress bar's maximum value to a number 
+   ' representing the total hard disk space.
+   ' You will most likely have to set this using a system call.
+   ' NOTE: The code below is meant to be an example 
+   ' and will not compile.
+   ProgressBar1.Maximum = TotalDiskSpace()
+
+   ' Dimension a counter variable.
+   Dim i As Integer
+   ' Uses a For...Next loop to iterate through the operations to be
+   ' completed. In this case, five files are to be written to the disk,
+   ' so it will execute the loop 5 times.
+   For i = 1 To 5
+      ' Insert code to read a file into memory and update file size.
+      ' Increases the progress bar's value based on the size of 
+      ' >the file currently being written.
+      ProgressBar1.Increment(FileSize)
+      ' Updates the label to show available drive space.
+      Label1.Text = "Current Disk Space Used = " &_ 
+      ProgressBar1.Value.ToString()
+   Next i
+End Sub]]></Code>
+    <Paragraph Code="ParagraphElement7"><![CDATA[<p><strong>C#</strong></p>]]></Paragraph>
+    <Code Code="CodeElement6" Language="csharp"><![CDATA[public void readFiles()
+{
+   // Sets the progress bar's minimum value to a number 
+   // representing the hard disk space before the files are read in.
+   // You will most likely have to set this using a system call.
+   // NOTE: The code below is meant to be an example and 
+   // will not compile.
+   progressBar1.Minimum = AvailableDiskSpace();
+   // Sets the progress bar's maximum value to a number 
+   // representing the total hard disk space.
+   // You will most likely have to set this using a system call.
+   // NOTE: The code below is meant to be an example 
+   // and will not compile.
+   progressBar1.Maximum = TotalDiskSpace();
+
+   // Uses a <b>for</b> loop to iterate through the operations to be
+   // completed. In this case, five files are to be written
+   // to the disk, so it will execute the loop 5 times.
+   for (int i = 1; i<= 5; i  )
+   {
+      // Insert code to read a file into memory and update file size.
+      // Increases the progress bar's value based on the size of 
+      // the file currently being written.
+      progressBar1.Increment(FileSize);
+      // Updates the label to show available drive space.
+      label1.Text = "Current Disk Space Used = "   progressBar1.Value.ToString();
+   }
+}]]></Code>
+  </Nodes>
+</Data>

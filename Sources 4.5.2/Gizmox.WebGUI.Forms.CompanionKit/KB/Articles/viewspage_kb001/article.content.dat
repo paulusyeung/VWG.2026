@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634130860748557156" UpdatedBy="admin" UpdatedOn="634144567894756228">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Select&nbsp;the view type&nbsp;from the ComboBox&nbsp;to change the&nbsp;view mode of the demonstrated ListView.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ListView </em>contains the <em>View </em>property that defines items' view style. <br />The view type could one of the following:<br /><strong>Details </strong>- each item appears on a separate line with further information (sub-items) arranged in columns.<br />The left most column contains a small icon and label, and subsequent columns contain sub-items as specified by the application. A column displays a header which can display a caption for the column. The user can resize each column at runtime.<br /><strong>LargeIcon </strong>- each item appears as a full-sized icon with a label below it.<br /><strong>List </strong>- each item appears as a small icon with a label to its right. Items are arranged in columns with no column headers.<br /><strong>SmallIcon </strong>- each item appears as a small icon with a label to its right.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

@@ -1,0 +1,21 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Application Scenario</Title>
+  <Properties />
+  <DisplayName>Application Scenario</DisplayName>
+  <Description>Contains example that demonstrates how to use the RibbonBar with the Visual WebGui RichTextEditor control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>RibbonBar</Keyword>
+    <Keyword>RichTextEditor</Keyword>
+    <Keyword>Sample</Keyword>
+    <Keyword>Example</Keyword>
+    <Keyword>Rich</Keyword>
+    <Keyword>Text</Keyword>
+    <Keyword>Editor</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.RibbonBar.ApplicationScenario.TextEditingApplicationPage</DefaultPage>
+</Item>

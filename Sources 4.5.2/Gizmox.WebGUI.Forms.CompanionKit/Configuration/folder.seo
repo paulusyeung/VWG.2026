@@ -1,0 +1,13 @@
+<Item SiteMap="False" Order="4" Status="Draft" Type="Folder" HasLobby="True">
+  <Title>Configuration</Title>
+  <Properties />
+  <DisplayName>Configuration</DisplayName>
+  <Description>Configuration</Description>
+  <Resources />
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>
+  </DefaultPage>
+  <Body />
+</Item>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634092068017506680" UpdatedBy="admin" UpdatedOn="634092068672358812">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change value of the 'Step of the ProgressBar' <em>NumericUpDown </em>and displayed value of the <em>ProgressBar </em>will be changed in the 500 milliseconds on a new set step.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ProgressBar </em>allows increasing displayed value by a fixed value with the <em>Step </em>property that represents step of the changing displayed value, and calling <em>PerformStep </em>method, that advances the current position of the progress bar by the amount of the <em>ProgressBar.Step</em> property. This approach is useful when you are displaying a simple count between the minimum and maximum, such as elapsed time or the number of files that have been processed out of a known total.</p>]]></Paragraph>
+  </Nodes>
+</Data>

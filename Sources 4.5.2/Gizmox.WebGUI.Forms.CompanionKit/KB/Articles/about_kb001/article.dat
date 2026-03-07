@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634096312768817434" UpdatedBy="admin" UpdatedOn="634096321285819528" Status="Draft" License="None">
+  <Properties>
+    <Title>About CompanionKit</Title>
+    <Description>A few words about the goals and ideas behind the creation of CompanionKit.</Description>
+  </Properties>
+  <Nodes>
+    <Resource Code="companionkit.banner.PNG" />
+  </Nodes>
+</Data>

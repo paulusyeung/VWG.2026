@@ -1,0 +1,9 @@
+.PictureBox-Control
+{
+    [Skin.VisualEffect]
+}
+
+.PictureBox-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}

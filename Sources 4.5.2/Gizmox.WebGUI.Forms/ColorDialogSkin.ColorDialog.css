@@ -1,0 +1,51 @@
+body
+{
+	background-color: [Skin.Background];
+	border:none;
+	overflow:hidden;
+}
+
+td 
+{
+	[Skin.Foreground];
+	[Skin.Font];
+}
+
+input 
+{
+    box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+    border-width:0px;
+    margin:2px;
+    padding:1px;
+	[Skin.Foreground];
+	[Skin.Font];
+}
+
+.ColorDialog-CellSpacing0, 
+.ColorDialog-CellSpacing4, 
+.ColorDialog-CellSpacing6 {
+    border-collapse:separate;
+}
+.ColorDialog-CellSpacing0 {
+    border-spacing: 0;
+}
+.ColorDialog-CellSpacing4 {
+    border-spacing: 4px;
+}
+.ColorDialog-CellSpacing6 {
+    border-spacing: 6px;
+}
+.ColorDialog-CellPadding0 td {
+    padding:0;
+}
+.ColorDialog-AlignRight {
+    text-align:right;
+}
+.ColorDialog-VAlignTop {
+    vertical-align:top;
+}
+.ColorDialog-VAlignMiddle {
+    vertical-align:middle;
+}

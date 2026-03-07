@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="10" Status="Publish" Type="Page" Height="310">
+  <Title>How to add pages to the RibbonBar control</Title>
+  <Properties />
+  <DisplayName>Adding pages</DisplayName>
+  <Description>The example demonstrates how to add Pages to the Visual WebGui RibbonBar control.
+It also demonstrates how to handle SelectedIndexChanged event. 
+
+</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="AddingPagePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingPagePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingPagePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingPagePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="AddingPagePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>RibbonBar</Keyword>
+    <Keyword>Page</Keyword>
+    <Keyword>tab</Keyword>
+    <Keyword>SelectedIndexChanged</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.RibbonBar.Appearance.AddingPagePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634092056948835182" UpdatedBy="admin" UpdatedOn="634092063308696408">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change a slider position of the 'Change value of the ProgressBar' TrackBar and value of the demonstrated <em>ProgressBar </em>will be changed respectively.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>ProgressBar </em>control allows setting displayed value with <em>Value </em>property that represents a current value of the control. You can change it by using the following methods:</p><ul><li>set the value of the <em>ProgressBar </em>control directly;</li><li>increase the <em>ProgressBar </em>display by a fixed value with <em>PerformStep </em>methods that advances the current position of the progress bar by the amount of the <em>ProgressBar.Step</em> property.</li><li>increase the <em>ProgressBar </em>display by a value that varies with Increment method that advances the current position of the progress bar by the specified amount.</li></ul>]]></Paragraph>
+  </Nodes>
+</Data>

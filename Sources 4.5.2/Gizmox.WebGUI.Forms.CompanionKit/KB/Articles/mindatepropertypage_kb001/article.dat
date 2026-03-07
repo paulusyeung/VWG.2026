@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634086832860646181" UpdatedBy="admin" UpdatedOn="634090171128267933" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to define a lower bound for the dates selected/displayed in the Visual WebGui DateTimePicker.</Description>
+  </Properties>
+  <Nodes />
+</Data>

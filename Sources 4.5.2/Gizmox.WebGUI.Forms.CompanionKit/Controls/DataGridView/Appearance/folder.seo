@@ -1,0 +1,19 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Appearance</Title>
+  <Properties />
+  <DisplayName>Appearance</DisplayName>
+  <Description>Contains examples that demonstrate how to change appearance of the DataGridView cell.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>Cell</Keyword>
+    <Keyword>Style</Keyword>
+    <Keyword>Alternating</Keyword>
+    <Keyword>Odd-Numbered</Keyword>
+    <Keyword>Appearance</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:CompanionKit.Controls.DataGridView.Appearance.AlternatingStylePage</DefaultPage>
+  <Body />
+</Item>

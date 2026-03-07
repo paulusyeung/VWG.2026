@@ -1,0 +1,20 @@
+<Item SiteMap="False" Order="1" Status="Draft" Type="Folder" HasLobby="False">
+  <Title>Video</Title>
+  <Properties />
+  <DisplayName>Video</DisplayName>
+  <Description>The folder is a container of Video file resources. Should be always with Status - Draft.
+  </Description>
+  <Resources>
+    <Resource Visible="False" SiteMap="False" Name="video0.wmv" Order="100" Lang="All" Type="File" ViewType="NoView" />
+    <Resource Visible="False" SiteMap="False" Name="video1.wmv" Order="100" Lang="All" Type="File" ViewType="NoView" />
+    <Resource Visible="False" SiteMap="False" Name="video2.wmv" Order="100" Lang="All" Type="File" ViewType="NoView" />
+    <Resource Visible="False" SiteMap="False" Name="video3.wmv" Order="100" Lang="All" Type="File" ViewType="NoView" />
+    <Resource Visible="False" SiteMap="False" Name="Example.wpl" Order="100" Lang="All" Type="File" ViewType="NoView" />
+  </Resources>
+  <Keywords />
+  <Comment>
+  </Comment>
+  <DefaultPage>
+  </DefaultPage>
+  <Body />
+</Item>

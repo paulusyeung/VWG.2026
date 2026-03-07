@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="120" Status="Publish" Type="Page">
+  <Title>Display raw HTML in the HtmlBox</Title>
+  <Properties />
+  <DisplayName>Display raw HTML</DisplayName>
+  <Description>The example demonstrates how to display a raw HTML content in the Visual WebGui HTMLBox control.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="DisplayRawHTMLPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DisplayRawHTMLPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DisplayRawHTMLPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DisplayRawHTMLPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="DisplayRawHTMLPage.resx" Order="102" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="Resources\Images\AboutVWGLogo.jpg" Order="103" Lang="All" Title="AboutVWGLogo.jpg" Type="Link" />
+  </Resources>
+  <Keywords>
+    <Keyword>HtmlBox</Keyword>
+    <Keyword>Box</Keyword>
+    <Keyword>Raw</Keyword>
+    <Keyword>HTML</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.HtmlBox.Features.DisplayRawHTMLPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Right">
+    <Fields />
+  </Inspector>
+</Item>

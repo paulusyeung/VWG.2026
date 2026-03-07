@@ -1,0 +1,25 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>Root Folder</Title>
+  <Properties />
+  <DisplayName>Root Folder</DisplayName>
+  <Description>The example demonstrates how to set the root folder where the browsing starts from.
+Gets or sets the root folder where the browsing starts from. The property type is System.Environment.SpecialFolder.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="RootFolderButtonPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RootFolderButtonPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RootFolderButtonPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RootFolderButtonPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RootFolderButtonPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>FolderBrowserDialog</Keyword>
+    <Keyword>Dialog</Keyword>
+    <Keyword>Folder</Keyword>
+    <Keyword>Root</Keyword>
+    <Keyword>Folder</Keyword>
+    <Keyword>RootFolder</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.FolderBrowserDialog.Features.RootFolderButtonPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

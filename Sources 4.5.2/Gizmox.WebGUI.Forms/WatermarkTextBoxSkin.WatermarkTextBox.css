@@ -1,0 +1,37 @@
+.WatermarkTextBox-Watermark
+{
+	[Skin.WatermarkStyle!important];
+}
+.WatermarkTextBox-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.WatermarkTextBox-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.WatermarkTextBox-Control_Disabled input
+{
+    [Skin.ControlTextFontDisabled];
+    [Skin.ControlTextForegroundDisabled];
+}
+
+.WatermarkTextBox-Text
+{
+	[Skin.Font];
+	[Skin.Foreground];
+}
+
+.WatermarkTextBox-SingleLine
+{
+	[Skin.SingleLineInputStyle];
+}
+
+.WatermarkTextBox-MultiLine
+{
+	[Skin.MultiLineInputStyle];
+}

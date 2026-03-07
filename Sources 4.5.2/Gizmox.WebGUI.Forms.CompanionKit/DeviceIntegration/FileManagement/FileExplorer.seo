@@ -1,0 +1,23 @@
+﻿<Item SiteMap="True" Order="100" Status="Publish" Type="Page">
+  <Title>File Explorer</Title>
+  <Properties />
+  <DisplayName>File Explorer</DisplayName>
+  <Description></Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="FileExplorer.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FileExplorer.designer.cs" Order="110" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FileExplorer.resx" Order="120" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FileExplorerClipBoard.cs" Order="130" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FoldersControl.cs" Order="140" Lang="All" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="FoldersControl.resx" Order="150" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>File</Keyword>
+    <Keyword>Explorer</Keyword>
+    <Keyword>Management</Keyword>
+    <Keyword>Online</Keyword>   
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.DeviceIntegration.FileManagement.FileExplorer, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

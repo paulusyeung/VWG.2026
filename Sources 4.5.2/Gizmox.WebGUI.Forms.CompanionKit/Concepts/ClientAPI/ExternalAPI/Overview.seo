@@ -1,0 +1,28 @@
+<Item SiteMap="True" Order="90" Status="Publish" Type="Lobby">
+  <Title>Overview</Title>
+  <Properties />
+  <DisplayName>Overview</DisplayName>
+  <Description>
+  </Description>
+  <Resources />
+  <Keywords>
+    <Keyword>External</Keyword>
+    <Keyword>API</Keyword>
+    <Keyword>integration</Keyword>
+    <Keyword>Client</Keyword>
+    <Keyword>ClientAPI</Keyword>
+    <Keyword>wikipedia</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections>
+    <Section ID="Section-01" style="Demo" cols="1">
+      <Style />
+    </Section>
+  </Sections>
+  <Body>
+    <Element Body="This example demonstrates how to integrate with Wikipedia through &lt;span style=&quot;color:#00ccff&quot;&gt;client events&lt;/span&gt;." Section="Section-01">
+      <Style bodycss="font-size:medium" linktype="NoLink" />
+    </Element>
+  </Body>
+</Item>

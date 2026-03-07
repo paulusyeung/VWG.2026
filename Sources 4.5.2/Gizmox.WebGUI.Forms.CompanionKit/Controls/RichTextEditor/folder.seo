@@ -1,0 +1,15 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>RichTextEditor</Title>
+  <Properties />
+  <DisplayName>RichTextEditor</DisplayName>
+  <Description>Contains sample apps that demonstrates how to use RichTextEditor control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>RichTextEditor</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.RichTextEditor.Overview</DefaultPage>
+</Item>

@@ -1,0 +1,16 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>ToolBar</Title>
+  <Properties />
+  <DisplayName>ToolBar</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use ToolBar control.</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ToolBar</Keyword>
+    <Keyword>Tool</Keyword>
+    <Keyword>Bar</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.ToolBar.Appearance.ToolBarButtonStylePage</DefaultPage>
+  <Body />
+</Item>

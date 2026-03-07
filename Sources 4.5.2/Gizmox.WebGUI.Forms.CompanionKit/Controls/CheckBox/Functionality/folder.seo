@@ -1,0 +1,18 @@
+<Item SiteMap="False" Order="110" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Functionality</Title>
+  <Properties />
+  <DisplayName>Functionality</DisplayName>
+  <Description>Contains sample apps that demonstrate how to use AutoCheck, Checked, CheckState and ThreeState properties of CheckBox control</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>CheckBox</Keyword>
+    <Keyword>AutoCheck</Keyword>
+    <Keyword>Checked</Keyword>
+    <Keyword>CheckState</Keyword>
+    <Keyword>ThreeState</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <DefaultPage>item:Controls.CheckBox.Functionality.AutoCheckPage</DefaultPage>
+  <Body />
+</Item>

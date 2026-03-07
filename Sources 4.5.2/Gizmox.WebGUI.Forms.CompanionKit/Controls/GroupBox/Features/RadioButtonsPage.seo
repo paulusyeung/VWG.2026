@@ -1,0 +1,24 @@
+<Item SiteMap="True" Order="70" Status="Publish" Type="Page" Height="250">
+  <Title>Radio buttons grouping</Title>
+  <Properties />
+  <DisplayName>Radio buttons grouping</DisplayName>
+  <Description>The example demonstrates the GroupBox special behavior. All contained radio buttons will be treated as a group and checking one of them will uncheck the rest. Such way only one radio button checked in the group.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="RadioButtonsPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RadioButtonsPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RadioButtonsPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RadioButtonsPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="RadioButtonsPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>GroupBox</Keyword>
+    <Keyword>RadioButton</Keyword>
+    <Keyword>Grouping</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.GroupBox.Features.RadioButtonsPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

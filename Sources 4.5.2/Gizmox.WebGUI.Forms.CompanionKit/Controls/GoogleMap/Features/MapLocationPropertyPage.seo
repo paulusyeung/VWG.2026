@@ -1,0 +1,22 @@
+<Item SiteMap="True" Order="100" Status="Publish" Type="Page" Height="270">
+  <Title>MapLocation property</Title>
+  <Properties />
+  <DisplayName>MapLocation property</DisplayName>
+  <Description>The example demonstrates how to set place coordinate to locate for GoogleMap</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="MapLocationPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MapLocationPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MapLocationPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MapLocationPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="MapLocationPropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>GoogleMap</Keyword>
+    <Keyword>MapLocation</Keyword>
+    <Keyword>Location</Keyword>
+    <Keyword>Coordinates</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.GoogleMap.Features.MapLocationPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

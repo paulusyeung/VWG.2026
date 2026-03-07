@@ -1,0 +1,13 @@
+.FrameControl-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.FrameControl-Frame
+{
+	width:100%;
+	height:100%;
+	border:none;
+}

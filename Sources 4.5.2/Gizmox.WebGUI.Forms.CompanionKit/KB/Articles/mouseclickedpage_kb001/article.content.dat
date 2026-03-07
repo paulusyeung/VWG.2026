@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634112689572007617" UpdatedBy="admin" UpdatedOn="634265526061091113">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click inside the groupbox with right or left mouse button to see how the event is been handled.<br />The label in the groupbox shows&nbsp;which mouse button was clicked.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The <em>GroupBox </em>contains Click event that is fired when user clicks on the <em>GroupBox </em>with the mouse button.</p>]]></Paragraph>
+  </Nodes>
+</Data>

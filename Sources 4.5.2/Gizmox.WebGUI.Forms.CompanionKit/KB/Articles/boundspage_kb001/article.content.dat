@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634079062354118823" UpdatedBy="admin" UpdatedOn="634079063636068023">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Change minimum and maximum value for the <em>TrackBar </em>with the 'Minimize bound of TrackBar' and 'Maximize bound of TrackBar' NumericUpDown controls, respectively. Move a slider of the <em>TrackBar </em>to the minimum or maximum position and the value of the 'TrackBar Value' TextBox will be changed according to the slider position.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>For manipulating with the upper/lower bounds, the <em>TrackBar </em>contains the following properties:<br /><strong>Maximum </strong>&ndash; the upper limit of the range this <em>TrackBar </em>is working with. The default is 10.<br /><strong>Minimum </strong>- the lower limit of the range this <em>TrackBar </em>is working with. The default is 0.<br />&nbsp;</p>]]></Paragraph>
+  </Nodes>
+</Data>

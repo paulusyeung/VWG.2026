@@ -1,0 +1,59 @@
+.Panel-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+}
+
+.ListView-MailListingHeader, 
+.ListView-MailWrapper
+{
+    position: relative;
+}
+
+.ListView-MailSubject
+{
+    margin-right: 20px;
+}
+
+.ListView-MailExcerpt
+{
+    overflow:hidden;
+    height:37px;
+}
+.ListView-More
+{
+    position: absolute;
+    right: 10px;
+    top: 45%;
+    width: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.ListView-MailUnread
+{
+    font-weight: bold;
+}
+.ListView-MailFrom
+{
+    margin-right: 90px;
+    font-weight:bold;
+}
+.ListView-MailDate
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color:Blue;
+}
+.ListView-MailInnerWrapper
+{
+    padding-right:10px;
+    line-height: 18px;
+}
+
+
+.ListView-DataCell
+{
+    padding: 0px 5px 0px 5px;
+    border-bottom: 1px solid #DDD;
+}

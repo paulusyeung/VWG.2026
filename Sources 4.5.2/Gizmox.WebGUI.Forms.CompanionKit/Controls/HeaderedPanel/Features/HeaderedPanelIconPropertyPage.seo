@@ -1,0 +1,20 @@
+<Item SiteMap="True" Order="100" Status="Draft" Type="Page">
+  <Title>Icon Property</Title>
+  <Properties />
+  <DisplayName>Icon Property</DisplayName>
+  <Description>The example demonstrates how to set an icon for HeaderedPanel control</Description>
+  <Resources>
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderedPanelIconPropertyPage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderedPanelIconPropertyPage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderedPanelIconPropertyPage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderedPanelIconPropertyPage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" PageScript="False" SiteMap="False" Name="HeaderedPanelIconPropertyPage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>HeaderedPanel</Keyword>
+    <Keyword>Icon</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.HeaderedPanel.Features.HeaderedPanelIconPropertyPage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+</Item>

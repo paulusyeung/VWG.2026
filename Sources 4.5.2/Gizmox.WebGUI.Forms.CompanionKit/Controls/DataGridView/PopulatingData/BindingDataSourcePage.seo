@@ -1,0 +1,27 @@
+<Item SiteMap="True" Order="101" Status="Publish" Type="Page">
+  <Title>How to populate data through binded data source and enable filters and grouping</Title>
+  <Properties />
+  <DisplayName>Binding Data Source</DisplayName>
+  <Description>The example demonstrates how to populate a DataGridView with Database table data. This makes possible to use filters and rows grouping.</Description>
+  <Resources>
+    <Resource Visible="True" SiteMap="False" Name="BindingDataSourcePage.cs" Order="100" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingDataSourcePage.designer.cs" Order="101" Lang="CSharp" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingDataSourcePage.vb" Order="100" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingDataSourcePage.designer.vb" Order="101" Lang="VBNET" Type="File" />
+    <Resource Visible="True" SiteMap="False" Name="BindingDataSourcePage.resx" Order="102" Lang="All" Type="File" />
+  </Resources>
+  <Keywords>
+    <Keyword>DataGridView</Keyword>
+    <Keyword>DataSource</Keyword>
+    <Keyword>DataBase</Keyword>
+    <Keyword>Table</Keyword>
+    <Keyword>DB</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <PageType>CompanionKit.Controls.DataGridView.PopulatingData.BindingDataSourcePage, Gizmox.WebGUI.Forms.CompanionKit</PageType>
+  <Body />
+  <Inspector IsVisible="False" ShowAdvanced="False" Columns="200,200" Docking="Bottom">
+    <Fields />
+  </Inspector>
+</Item>

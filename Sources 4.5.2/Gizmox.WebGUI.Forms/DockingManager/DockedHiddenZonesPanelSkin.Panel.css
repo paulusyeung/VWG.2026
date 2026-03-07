@@ -1,0 +1,126 @@
+﻿.Panel-Control
+{
+	[Skin.Border];
+	[Skin.Background];
+	[Skin.VisualEffect]
+}
+
+.Panel-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}
+
+.DockedHiddenZonesPanelSkin-HiddenZonePopUp
+{
+	[Skin.HiddenZonePopUpStyle]
+}
+
+.DockedHiddenZonesPanelSkin_ItemContainer 
+{
+    position:relative;
+    display:inline-block;
+}
+
+.DockedHiddenZonesPanelSkin_ItemContainerVertical
+{
+	[Skin.HiddenZoneItemContainerVerticalStyle]
+}
+.DockedHiddenZonesPanelSkin_ItemContainerHorizontal
+{
+	[Skin.HiddenZoneItemContainerHorizontalStyle]
+}
+.DockingZoneHiddenPanel-HiddenZoneItem
+{
+    vertical-align:bottom;
+    display:inline-block;
+	[Skin.HiddenZoneItemStyle]
+}
+.DockingZoneHiddenPanel-HiddenZoneItem_FontData
+{
+	[Skin.FontData]
+}
+.DockingZoneHiddenPanel-HiddenZoneItem_Enter
+{
+	[Skin.HiddenZoneItemHoverStyle]
+}
+.DockedHiddenZonesPanelSkin-ItemsWrapperBase
+{
+	position:absolute;
+	overflow:hidden;
+}
+.DockedHiddenZonesPanelSkin-ItemsWrapperVertical
+{
+	width:100%;
+	left:0px;
+	top:0px;
+	bottom:0px;
+}
+
+.DockedHiddenZonesPanelSkin-ItemsWrapperHorizontal
+{
+	height:100%;
+	left:0px;
+	right:0px;
+}
+
+.DockedHiddenZonesPanelSkin-ItemsWrapperVerticalBase
+{
+    [Skin.LeftRightPanelsPadding]
+}
+
+.DockedHiddenZonesPanelSkin-ItemsWrapperHorizontalBase
+{
+	white-space:nowrap;
+	[Skin.TopBottomPanelsPadding]
+}
+
+.DockedHiddenZonesPanelSkin-ScrollerTop
+{
+	[Skin.HiddenZoneScrollerTopStyle]
+}
+.DockedHiddenZonesPanelSkin-ScrollerRight
+{
+	[Skin.HiddenZoneScrollerRightStyle]
+}
+.DockedHiddenZonesPanelSkin-Scrollerbottom
+{
+	[Skin.HiddenZoneScrollerBottomStyle]
+}
+.DockedHiddenZonesPanelSkin-ScrollerLeft
+{
+	[Skin.HiddenZoneScrollerLeftStyle]
+}
+
+.DockedHiddenZonesPanelSkin-ScrollerTop_Enter
+{
+	[Skin.HiddenZoneScrollerTopHoverStyle]
+}
+.DockedHiddenZonesPanelSkin-ScrollerRight_Enter
+{
+	[Skin.HiddenZoneScrollerRightHoverStyle]
+}
+.DockedHiddenZonesPanelSkin-Scrollerbottom_Enter
+{
+	[Skin.HiddenZoneScrollerBottomHoverStyle]
+}
+.DockedHiddenZonesPanelSkin-ScrollerLeft_Enter
+{
+	[Skin.HiddenZoneScrollerLeftHoverStyle]
+}
+
+.DockedHiddenZonesPanelSkin-ScrollerTop_Down
+{
+	[Skin.HiddenZoneScrollerTopPressedStyle]
+}
+.DockedHiddenZonesPanelSkin-ScrollerRight_Down
+{
+	[Skin.HiddenZoneScrollerRightPressedStyle]
+}
+.DockedHiddenZonesPanelSkin-Scrollerbottom_Down
+{
+	[Skin.HiddenZoneScrollerBottomPressedStyle]
+}
+.DockedHiddenZonesPanelSkin-ScrollerLeft_Down
+{
+	[Skin.HiddenZoneScrollerLeftPressedStyle]
+}

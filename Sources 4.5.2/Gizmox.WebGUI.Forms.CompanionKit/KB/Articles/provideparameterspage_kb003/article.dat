@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634098108446766965" UpdatedBy="admin" UpdatedOn="634099648214438497" Status="Publish" License="None">
+  <Properties>
+    <Title>Code discussion</Title>
+    <Description>The example demonstrates how to set parameters for a Flash animation on the Visual WebGui FlashBox control. </Description>
+  </Properties>
+  <Nodes>
+    <Resource Code="DragFlashBox.png" />
+    <Resource Code="LocationFlashBox.png" />
+    <Resource Code="SizeFlashBox.png" />
+    <Resource Code="AddParameterInEditor.png" />
+    <Resource Code="MovieFlashBox.png" />
+    <Resource Code="ParametersEditor.png" />
+    <Resource Code="SetNameAndValueParameters.png" />
+    <Resource Code="CodeBaseFlashBox.png" />
+    <Resource Code="ParametersFlashBox.png" />
+    <Resource Code="RemoveParameter.png" />
+  </Nodes>
+</Data>

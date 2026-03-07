@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634166148280353240" UpdatedBy="admin" UpdatedOn="634261965317987250">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="1"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Click on the button to open a form with MainMenu.<br />Open 'CheckBox Menu' menu to see menu items with checked mark.<br />Click a menu item to change the checked state. <br />The label on the form will reflect the current checked state of clicked menu item.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="1"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>MenuItem </em>contains <strong>Checked</strong> property that indicates whether menu item is checked. The <strong>Click</strong> event should be implemented to handle changes of the checked state.</p>]]></Paragraph>
+  </Nodes>
+</Data>

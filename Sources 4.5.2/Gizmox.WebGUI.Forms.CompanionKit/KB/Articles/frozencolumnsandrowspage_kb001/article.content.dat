@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data CreatedBy="admin" CreatedOn="634135231578725065" UpdatedBy="admin" UpdatedOn="634135233990474685">
+  <Properties />
+  <Nodes>
+    <Header Code="HeaderElement1" Type="Subtitle" ShowInTOC="0"><![CDATA[The example]]></Header>
+    <Paragraph Code="ParagraphElement1"><![CDATA[<p>Scroll the <em>DataGridView </em>control horizontally, the left column will not be moved. Scroll the <em>DataGridView </em>control vertically, the top row will not be moved.</p>]]></Paragraph>
+    <Header Code="HeaderElement2" Type="Subtitle" ShowInTOC="0"><![CDATA[General Info]]></Header>
+    <Paragraph Code="ParagraphElement2"><![CDATA[<p>The Visual WebGui <em>DataGridView </em>column and row contain the <em>Frozen </em>property that indicates whether a column (row) will move when a user scrolls the DataGridView control horizontally (vertically).</p>]]></Paragraph>
+  </Nodes>
+</Data>

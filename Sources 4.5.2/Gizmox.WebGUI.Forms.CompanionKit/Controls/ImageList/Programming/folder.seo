@@ -1,0 +1,18 @@
+<Item SiteMap="False" Order="100" Status="Publish" Type="Folder" HasLobby="False">
+  <Title>Programming</Title>
+  <Properties />
+  <DisplayName>Programming</DisplayName>
+  <Description>Contains samples that demonstrates how to use ImageList for providing images to ToolBar and TreeView controls</Description>
+  <Resources />
+  <Keywords>
+    <Keyword>ImageList</Keyword>
+    <Keyword>ToolBar</Keyword>
+    <Keyword>TreeView</Keyword>
+    <Keyword>Image</Keyword>
+  </Keywords>
+  <Comment>
+  </Comment>
+  <Sections />
+  <Body />
+  <DefaultPage>item:CompanionKit.Controls.ImageList.Programming.ToolBarImageListPage</DefaultPage>
+</Item>
