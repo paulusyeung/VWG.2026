@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// DateTimePicker and MonthCalendar utils class. Stores culture-specific and default date/time related static values.
 	/// </summary>
 	internal static class CalendarUtils

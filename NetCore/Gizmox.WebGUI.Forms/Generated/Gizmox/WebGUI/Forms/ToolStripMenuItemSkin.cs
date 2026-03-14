@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	public class ToolStripMenuItemSkin : Gizmox.WebGUI.Forms.Skins.ControlSkin
+public class ToolStripMenuItemSkin : Gizmox.WebGUI.Forms.Skins.ControlSkin
 	{
 		/// 
 		/// Gets the tool strip menu item style.

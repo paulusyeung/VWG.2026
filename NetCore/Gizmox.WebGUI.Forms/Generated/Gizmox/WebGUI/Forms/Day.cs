@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the day of the week.</summary>
+/// Specifies the day of the week.</summary>
 	/// 2</filterpriority>
 	public enum Day : byte
 	{

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies which child controls to skip.</summary>
+/// Specifies which child controls to skip.</summary>
 	[Flags]
 	public enum GetChildAtPointSkip
 	{

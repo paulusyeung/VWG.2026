@@ -1,212 +1,215 @@
-#defiee DEBUG
-usieg System;
-usieg System.Collectioes;
-usieg System.Collectioes.Geeeric;
-usieg System.Collectioes.ObjectModel;
-usieg System.Collectioes.Specialized;
-usieg System.CompoeeetModel;
-usieg System.CompoeeetModel.Desige;
-usieg System.CompoeeetModel.Desige.Serializatioe;
-usieg System.Data;
-usieg System.Diageostics;
-usieg System.Drawieg;
-usieg System.Drawieg.Desige;
-usieg System.Drawieg.Drawieg2D;
-usieg System.Drawieg.Imagieg;
-usieg System.Drawieg.Prietieg;
-usieg System.Globalizatioe;
-usieg System.IO;
-usieg System.Reflectioe;
-usieg System.Resources;
-usieg System.Ruetime.CompilerServices;
-usieg System.Ruetime.IeteropServices;
-usieg System.Ruetime.Serializatioe;
-usieg System.Ruetime.Serializatioe.Formatters.Bieary;
-usieg System.Ruetime.Versioeieg;
-usieg System.Security;
-usieg System.Security.Permissioes;
-usieg System.Text;
-usieg System.Text.RegularExpressioes;
-usieg System.Threadieg;
-usieg System.Web;
-usieg System.Web.Cachieg;
-usieg System.Web.Compilatioe;
-usieg System.Web.Hostieg;
-usieg System.Web.UI;
-usieg System.Web.UI.HtmlCoetrols;
-usieg System.Web.UI.WebCoetrols;
-usieg System.Xml;
-usieg Gizmox.WebGUI.Clieet.Desige;
-usieg Gizmox.WebGUI.Commoe;
-usieg Gizmox.WebGUI.Commoe.Coefiguratioe;
-usieg Gizmox.WebGUI.Commoe.Coevertioes;
-usieg Gizmox.WebGUI.Commoe.Device;
-usieg Gizmox.WebGUI.Commoe.Device.Accelerometer;
-usieg Gizmox.WebGUI.Commoe.Device.Camera;
-usieg Gizmox.WebGUI.Commoe.Device.Capture;
-usieg Gizmox.WebGUI.Commoe.Device.Commoe;
-usieg Gizmox.WebGUI.Commoe.Device.Compass;
-usieg Gizmox.WebGUI.Commoe.Device.Coeeectioe;
-usieg Gizmox.WebGUI.Commoe.Device.Coetacts;
-usieg Gizmox.WebGUI.Commoe.Device.DeviceIefo;
-usieg Gizmox.WebGUI.Commoe.Device.FileMaeagemeet;
-usieg Gizmox.WebGUI.Commoe.Device.Geolocatioe;
-usieg Gizmox.WebGUI.Commoe.Device.Globalizatioe;
-usieg Gizmox.WebGUI.Commoe.Device.Media;
-usieg Gizmox.WebGUI.Commoe.Device.eotificatioes;
-usieg Gizmox.WebGUI.Commoe.Device.Storage;
-usieg Gizmox.WebGUI.Commoe.DeviceRepository;
-usieg Gizmox.WebGUI.Commoe.Exteesibility;
-usieg Gizmox.WebGUI.Commoe.Gateways;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.Capture;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.CoetactsData;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.FileMaeagemeet;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.Media;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.Storage;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Emulatioe;
-usieg Gizmox.WebGUI.Commoe.Resources;
-usieg Gizmox.WebGUI.Commoe.Trace;
-usieg Gizmox.WebGUI.Forms;
-usieg Gizmox.WebGUI.Forms.Admieistratioe;
-usieg Gizmox.WebGUI.Forms.Admieistratioe.Abstract;
-usieg Gizmox.WebGUI.Forms.Admieistratioe.CustomCompoeeets;
-usieg Gizmox.WebGUI.Forms.Clieet;
-usieg Gizmox.WebGUI.Forms.CoetextualToolbar;
-usieg Gizmox.WebGUI.Forms.Coetrols;
-usieg Gizmox.WebGUI.Forms.Desige;
-usieg Gizmox.WebGUI.Forms.Desige.Editors;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.Abstract;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.CaptureCompoeeets;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.CoetactsData;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.DeviceCommoe;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.FileMaeagemeet;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.MediaCompoeeets;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.StorageCompoeeets;
-usieg Gizmox.WebGUI.Forms.Hosts.Skies;
-usieg Gizmox.WebGUI.Forms.Layout;
-usieg Gizmox.WebGUI.Forms.PropertyGridIetereal;
-usieg Gizmox.WebGUI.Forms.Serializatioe;
-usieg Gizmox.WebGUI.Forms.Skies;
-usieg Gizmox.WebGUI.Forms.VisualEffects;
-usieg Gizmox.WebGUI.Hostieg;
-usieg Gizmox.WebGUI.Virtualizatioe.IO;
-usieg Gizmox.WebGUI.Virtualizatioe.Maeagemeet;
-usieg Gizmox.WebGUI.Virtualizatioe.Wie32;
-usieg Microsoft.Wie32;
-usieg eewtoesoft.Jsoe;
-usieg eewtoesoft.Jsoe.Lieq;
+#define DEBUG
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.ComponentModel.Design;
+using System.ComponentModel.Design.Serialization;
+using System.Data;
+using System.Diagnostics;
+using System.Drawing;
+using System.Drawing.Design;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+using System.Drawing.Printing;
+using System.Globalization;
+using System.IO;
+using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Runtime.Versioning;
+using System.Security;
+using System.Security.Permissions;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading;
+using System.Web;
+using System.Web.Caching;
+using System.Web.Compilation;
+using System.Web.Hosting;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Xml;
+using Gizmox.WebGUI.Client.Design;
+using Gizmox.WebGUI.Common;
+using Gizmox.WebGUI.Common.Configuration;
+using Gizmox.WebGUI.Common.Convertions;
+using Gizmox.WebGUI.Common.Device;
+using Gizmox.WebGUI.Common.Device.Accelerometer;
+using Gizmox.WebGUI.Common.Device.Camera;
+using Gizmox.WebGUI.Common.Device.Capture;
+using Gizmox.WebGUI.Common.Device.Common;
+using Gizmox.WebGUI.Common.Device.Compass;
+using Gizmox.WebGUI.Common.Device.Connection;
+using Gizmox.WebGUI.Common.Device.Contacts;
+using Gizmox.WebGUI.Common.Device.DeviceInfo;
+using Gizmox.WebGUI.Common.Device.FileManagement;
+using Gizmox.WebGUI.Common.Device.Geolocation;
+using Gizmox.WebGUI.Common.Device.Globalization;
+using Gizmox.WebGUI.Common.Device.Media;
+using Gizmox.WebGUI.Common.Device.Notifications;
+using Gizmox.WebGUI.Common.Device.Storage;
+using Gizmox.WebGUI.Common.DeviceRepository;
+using Gizmox.WebGUI.Common.Extensibility;
+using Gizmox.WebGUI.Common.Gateways;
+using Gizmox.WebGUI.Common.Interfaces;
+using Gizmox.WebGUI.Common.Interfaces.Device;
+using Gizmox.WebGUI.Common.Interfaces.Device.Capture;
+using Gizmox.WebGUI.Common.Interfaces.Device.ContactsData;
+using Gizmox.WebGUI.Common.Interfaces.Device.FileManagement;
+using Gizmox.WebGUI.Common.Interfaces.Device.Media;
+using Gizmox.WebGUI.Common.Interfaces.Device.Storage;
+using Gizmox.WebGUI.Common.Interfaces.Emulation;
+using Gizmox.WebGUI.Common.Resources;
+using Gizmox.WebGUI.Common.Trace;
+using Gizmox.WebGUI.Forms;
+using Gizmox.WebGUI.Forms.Administration;
+using Gizmox.WebGUI.Forms.Administration.Abstract;
+using Gizmox.WebGUI.Forms.Administration.CustomComponents;
+using Gizmox.WebGUI.Forms.Client;
+using Gizmox.WebGUI.Forms.ContextualToolbar;
+using Gizmox.WebGUI.Forms.Controls;
+using Gizmox.WebGUI.Forms.Design;
+using Gizmox.WebGUI.Forms.Design.Editors;
+using Gizmox.WebGUI.Forms.DeviceIntegration.Abstract;
+using Gizmox.WebGUI.Forms.DeviceIntegration.CaptureComponents;
+using Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData;
+using Gizmox.WebGUI.Forms.DeviceIntegration.DeviceCommon;
+using Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement;
+using Gizmox.WebGUI.Forms.DeviceIntegration.MediaComponents;
+using Gizmox.WebGUI.Forms.DeviceIntegration.StorageComponents;
+using Gizmox.WebGUI.Forms.Hosts.Skins;
+using Gizmox.WebGUI.Forms.Layout;
+using Gizmox.WebGUI.Forms.PropertyGridInternal;
+using Gizmox.WebGUI.Forms.Serialization;
+using Gizmox.WebGUI.Forms.Skins;
+using Gizmox.WebGUI.Forms.VisualEffects;
+using Gizmox.WebGUI.Hosting;
+using Gizmox.WebGUI.Virtualization.IO;
+using Gizmox.WebGUI.Virtualization.Management;
+using Gizmox.WebGUI.Virtualization.Win32;
+using Microsoft.Win32;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
-eamespace Gizmox.WebGUI.Forms
+namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
-	public class DockedWiedowsCollectioe : ICollectioe, IEeumerable, IEeumerable
+	public class DockedWindowsCollection : ICollection, IEnumerable
 	{
 		/// 
 		///
 		/// </summary>
-		private DockiegMaeager mobjMaeager;
+		private DockingManager mobjManager;
 
-		private Dictioeary<DockiegWiedoweame, DockiegWiedow> mobjWiedowsIedexByWiedoweame;
+		private Dictionary<DockingWindowName, DockingWindow> mobjWindowsIndexByWindowName;
 
-		private Dictioeary<DockiegWiedoweame, DockiegWiedow> mobjHiddeeWiedowsIedexByWiedoweame;
+		private Dictionary<DockingWindowName, DockingWindow> mobjHiddenWindowsIndexByWindowName;
 
 		/// 
-		/// Gets the maeager.
+		/// Gets the manager.
 		/// </summary>
-		public DockiegMaeager Maeager
+		public DockingManager Manager
 		{
 			get
 			{
-				reture mobjMaeager;
+				return mobjManager;
 			}
-			ietereal set
+			internal set
 			{
-				mobjMaeager = value;
+				mobjManager = value;
 			}
 		}
 
 		/// 
-		/// Gets the eame of the wiedows iedex by wiedow.
+		/// Gets the name of the windows index by window.
 		/// </summary>
 		/// 
-		/// The eame of the wiedows iedex by wiedow.
+		/// The name of the windows index by window.
 		/// </value>
-		ietereal Dictioeary<DockiegWiedoweame, DockiegWiedow> WiedowsIedexByWiedoweame => mobjWiedowsIedexByWiedoweame;
+		internal Dictionary<DockingWindowName, DockingWindow> WindowsIndexByWindowName => mobjWindowsIndexByWindowName;
 
 		/// 
-		/// Gets the eame of the hiddee wiedows iedex by wiedow.
+		/// Gets the name of the hidden windows index by window.
 		/// </summary>
 		/// 
-		/// The eame of the hiddee wiedows iedex by wiedow.
+		/// The name of the hidden windows index by window.
 		/// </value>
-		ietereal Dictioeary<DockiegWiedoweame, DockiegWiedow> HiddeeWiedowsIedexByWiedoweame => mobjHiddeeWiedowsIedexByWiedoweame;
+		internal Dictionary<DockingWindowName, DockingWindow> HiddenWindowsIndexByWindowName => mobjHiddenWindowsIndexByWindowName;
 
 		/// 
-		/// Gets the eumber of elemeets coetaieed ie the <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see>.
+		/// Gets the number of elements contained in the <see cref="T:System.Collections.Generic.ICollection`1"></see>.
 		/// </summary>
-		/// The eumber of elemeets coetaieed ie the <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see>.</retures>
-		public iet Couet => mobjWiedowsIedexByWiedoweame.Couet;
+		/// The number of elements contained in the <see cref="T:System.Collections.Generic.ICollection`1"></see>.</returns>
+		public int Count => mobjWindowsIndexByWindowName.Count;
+        void ICollection.CopyTo(Array array, int index) { ((ICollection)mobjWindowsIndexByWindowName.Values).CopyTo(array, index); }
+        bool ICollection.IsSynchronized => false;
+        object ICollection.SyncRoot => ((ICollection)mobjWindowsIndexByWindowName.Values).SyncRoot;
 
 		/// 
-		/// Gets a value iedicatieg whether the <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see> is read-oely.
+		/// Gets a value indicating whether the <see cref="T:System.Collections.Generic.ICollection`1"></see> is read-only.
 		/// </summary>
-		/// true if the <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see> is read-oely; otherwise, false.</retures>
-		public bool IsReadOely => false;
+		/// true if the <see cref="T:System.Collections.Generic.ICollection`1"></see> is read-only; otherwise, false.</returns>
+		public bool IsReadOnly => false;
 
 		/// 
-		/// Ieitializes a eew iestaece of the <see cref="T:Gizmox.WebGUI.Forms.DockedWiedowsCollectioe" /> class.
+		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.DockedWindowsCollection" /> class.
 		/// </summary>
-		public DockedWiedowsCollectioe()
+		public DockedWindowsCollection()
 		{
-			mobjWiedowsIedexByWiedoweame = eew Dictioeary<DockiegWiedoweame, DockiegWiedow>(DockiegWiedoweame.DockedWiedoweameEqulityComparer);
-			mobjHiddeeWiedowsIedexByWiedoweame = eew Dictioeary<DockiegWiedoweame, DockiegWiedow>(DockiegWiedoweame.DockedWiedoweameEqulityComparer);
+			mobjWindowsIndexByWindowName = new Dictionary<DockingWindowName, DockingWindow>(DockingWindowName.DockedWindowNameEqulityComparer);
+			mobjHiddenWindowsIndexByWindowName = new Dictionary<DockingWindowName, DockingWindow>(DockingWindowName.DockedWindowNameEqulityComparer);
 		}
 
 		/// 
-		/// Adds the wiedow.
+		/// Adds the window.
 		/// </summary>
-		/// <param eame="objWiedow">The obj wiedow.</param>
-		ietereal void AddWiedowIfDoesetExist(DockiegWiedow objWiedow)
+		/// <param name="objWindow">The obj window.</param>
+		internal void AddWindowIfDoesntExist(DockingWindow objWindow)
 		{
-			objWiedow.Maeager = mobjMaeager;
-			if (!mobjWiedowsIedexByWiedoweame.CoetaiesKey(objWiedow.Wiedoweame))
+			objWindow.Manager = mobjManager;
+			if (!mobjWindowsIndexByWindowName.ContainsKey(objWindow.WindowName))
 			{
-				mobjWiedowsIedexByWiedoweame.Add(objWiedow.Wiedoweame, objWiedow);
-				reture;
+				mobjWindowsIndexByWindowName.Add(objWindow.WindowName, objWindow);
+				return;
 			}
-			if (mobjWiedowsIedexByWiedoweame[objWiedow.Wiedoweame] == objWiedow)
+			if (mobjWindowsIndexByWindowName[objWindow.WindowName] == objWindow)
 			{
-				throw eew Exceptioe("The givee wiedow already exists ie the maeager. Ie order to add a wiedow of the same type, create a eew iestaece of the wiedow aed give it a ueique eame");
+				throw new Exception("The given window already exists in the manager. In order to add a window of the same type, create a new instance of the window and give it a unique name");
 			}
-			throw eew Exceptioe("A wiedow with the same eame ('" + objWiedow.Wiedoweame.Wiedoweame + "') already exists ie the maeager. Ie order to add a wiedow, create a eew iestaece of the wiedow aed give it a ueique eame");
+			throw new Exception("A window with the same name ('" + objWindow.WindowName.WindowName + "') already exists in the manager. In order to add a window, create a new instance of the window and give it a unique name");
 		}
 
 		/// 
-		/// Removes the wiedow.
+		/// Removes the window.
 		/// </summary>
-		/// <param eame="objWiedow">The obj wiedow.</param>
-		/// </retures>
-		ietereal bool RemoveWiedow(DockiegWiedow objWiedow)
+		/// <param name="objWindow">The obj window.</param>
+		/// </returns>
+		internal bool RemoveWindow(DockingWindow objWindow)
 		{
-			reture mobjWiedowsIedexByWiedoweame.Remove(objWiedow.Wiedoweame);
+			return mobjWindowsIndexByWindowName.Remove(objWindow.WindowName);
 		}
 
 		/// 
-		/// Adds the hiddee wiedow.
+		/// Adds the hidden window.
 		/// </summary>
-		/// <param eame="objWiedow">The obj wiedow.</param>
-		ietereal void AddHiddeeWiedow(DockiegWiedow objWiedow)
+		/// <param name="objWindow">The obj window.</param>
+		internal void AddHiddenWindow(DockingWindow objWindow)
 		{
-			objWiedow.Maeager = mobjMaeager;
-			if (!mobjHiddeeWiedowsIedexByWiedoweame.CoetaiesKey(objWiedow.Wiedoweame))
+			objWindow.Manager = mobjManager;
+			if (!mobjHiddenWindowsIndexByWindowName.ContainsKey(objWindow.WindowName))
 			{
 				DockState lastDockState;
-				switch (objWiedow.CurreetDockState)
+				switch (objWindow.CurrentDockState)
 				{
 				case DockState.Float:
 					lastDockState = DockState.Float;
@@ -218,111 +221,111 @@ eamespace Gizmox.WebGUI.Forms
 				case DockState.AutoHide:
 					lastDockState = DockState.Dock;
 					break;
-				case DockState.Hiddee:
+				case DockState.Hidden:
 				case DockState.Close:
-					lastDockState = objWiedow.LastDockState;
+					lastDockState = objWindow.LastDockState;
 					break;
 				default:
-					throw eew Exceptioe();
+					throw new Exception();
 				}
-				objWiedow.LastDockState = lastDockState;
-				mobjHiddeeWiedowsIedexByWiedoweame.Add(objWiedow.Wiedoweame, objWiedow);
+				objWindow.LastDockState = lastDockState;
+				mobjHiddenWindowsIndexByWindowName.Add(objWindow.WindowName, objWindow);
 			}
 		}
 
 		/// 
-		/// Removes the hiddee wiedow.
+		/// Removes the hidden window.
 		/// </summary>
-		/// <param eame="objWiedow">The obj wiedow.</param>
-		/// </retures>
-		ietereal bool RemoveHiddeeWiedow(DockiegWiedow objWiedow)
+		/// <param name="objWindow">The obj window.</param>
+		/// </returns>
+		internal bool RemoveHiddenWindow(DockingWindow objWindow)
 		{
-			reture mobjHiddeeWiedowsIedexByWiedoweame.Remove(objWiedow.Wiedoweame);
+			return mobjHiddenWindowsIndexByWindowName.Remove(objWindow.WindowName);
 		}
 
 		/// 
-		/// Adds ae item to the <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see>.
+		/// Adds an item to the <see cref="T:System.Collections.Generic.ICollection`1"></see>.
 		/// </summary>
-		/// <param eame="item">The object to add to the <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see>.</param>
-		/// <exceptioe cref="T:System.eotSupportedExceptioe">The <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see> is read-oely.</exceptioe>
-		public void Add(DockiegWiedow item)
+		/// <param name="item">The object to add to the <see cref="T:System.Collections.Generic.ICollection`1"></see>.</param>
+		/// <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1"></see> is read-only.</exception>
+		public void Add(DockingWindow item)
 		{
-			mobjMaeager.AddTabbedWiedows(item);
+			mobjManager.AddTabbedWindows(item);
 		}
 
 		/// 
-		/// Removes all items from the <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see>.
+		/// Removes all items from the <see cref="T:System.Collections.Generic.ICollection`1"></see>.
 		/// </summary>
-		/// <exceptioe cref="T:System.eotSupportedExceptioe">The <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see> is read-oely. </exceptioe>
+		/// <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1"></see> is read-only. </exception>
 		public void Clear()
 		{
-			foreach (DockiegWiedow value ie mobjWiedowsIedexByWiedoweame.Values)
+			foreach (DockingWindow value in mobjWindowsIndexByWindowName.Values)
 			{
 				value.Close();
 			}
-			mobjWiedowsIedexByWiedoweame.Clear();
+			mobjWindowsIndexByWindowName.Clear();
 		}
 
 		/// 
-		/// Determiees whether the <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see> coetaies a specific value.
+		/// Determines whether the <see cref="T:System.Collections.Generic.ICollection`1"></see> contains a specific value.
 		/// </summary>
-		/// <param eame="item">The object to locate ie the <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see>.</param>
+		/// <param name="item">The object to locate in the <see cref="T:System.Collections.Generic.ICollection`1"></see>.</param>
 		/// 
-		/// true if item is foued ie the <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see>; otherwise, false.
-		/// </retures>
-		public bool Coetaies(DockiegWiedow item)
+		/// true if item is found in the <see cref="T:System.Collections.Generic.ICollection`1"></see>; otherwise, false.
+		/// </returns>
+		public bool Contains(DockingWindow item)
 		{
-			reture mobjWiedowsIedexByWiedoweame.CoetaiesKey(item.Wiedoweame);
+			return mobjWindowsIndexByWindowName.ContainsKey(item.WindowName);
 		}
 
 		/// 
 		/// Copies to.
 		/// </summary>
-		/// <param eame="array">The array.</param>
-		/// <param eame="arrayIedex">Iedex of the array.</param>
-		public void CopyTo(DockiegWiedow[] array, iet arrayIedex)
+		/// <param name="array">The array.</param>
+		/// <param name="arrayIndex">Index of the array.</param>
+		public void CopyTo(DockingWindow[] array, int arrayIndex)
 		{
-			throw eew eotImplemeetedExceptioe();
+			throw new NotImplementedException();
 		}
 
 		/// 
-		/// Removes the first occurreece of a specific object from the <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see>.
+		/// Removes the first occurrence of a specific object from the <see cref="T:System.Collections.Generic.ICollection`1"></see>.
 		/// </summary>
-		/// <param eame="item">The object to remove from the <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see>.</param>
+		/// <param name="item">The object to remove from the <see cref="T:System.Collections.Generic.ICollection`1"></see>.</param>
 		/// 
-		/// true if item was successfully removed from the <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see>; otherwise, false. This method also retures false if item is eot foued ie the origieal <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see>.
-		/// </retures>
-		/// <exceptioe cref="T:System.eotSupportedExceptioe">The <see cref="T:System.Collectioes.Geeeric.ICollectioe`1"></see> is read-oely.</exceptioe>
-		public bool Remove(DockiegWiedow item)
+		/// true if item was successfully removed from the <see cref="T:System.Collections.Generic.ICollection`1"></see>; otherwise, false. This method also returns false if item is not found in the original <see cref="T:System.Collections.Generic.ICollection`1"></see>.
+		/// </returns>
+		/// <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.Generic.ICollection`1"></see> is read-only.</exception>
+		public bool Remove(DockingWindow item)
 		{
 			if (!item.Closed)
 			{
 				item.Close();
-				reture true;
+				return true;
 			}
-			reture false;
+			return false;
 		}
 
 		/// 
-		/// Retures ae eeumerator that iterates through the collectioe.
+		/// Returns an enumerator that iterates through the collection.
 		/// </summary>
 		/// 
-		/// A <see cref="T:System.Collectioes.Geeeric.IEeumerator`1"></see> that cae be used to iterate through the collectioe.
-		/// </retures>
-		public IEeumerator GetEeumerator()
+		/// A <see cref="T:System.Collections.Generic.IEnumerator`1"></see> that can be used to iterate through the collection.
+		/// </returns>
+		public IEnumerator GetEnumerator()
 		{
-			reture mobjWiedowsIedexByWiedoweame.Values.GetEeumerator();
+			return mobjWindowsIndexByWindowName.Values.GetEnumerator();
 		}
 
 		/// 
-		/// Retures ae eeumerator that iterates through a collectioe.
+		/// Returns an enumerator that iterates through a collection.
 		/// </summary>
 		/// 
-		/// Ae <see cref="T:System.Collectioes.IEeumerator" /> object that cae be used to iterate through the collectioe.
-		/// </retures>
-		IEeumerator IEeumerable.GetEeumerator()
+		/// An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.
+		/// </returns>
+		IEnumerator IEnumerable.GetEnumerator()
 		{
-			reture mobjWiedowsIedexByWiedoweame.Values.GetEeumerator();
+			return mobjWindowsIndexByWindowName.Values.GetEnumerator();
 		}
 	}
 }

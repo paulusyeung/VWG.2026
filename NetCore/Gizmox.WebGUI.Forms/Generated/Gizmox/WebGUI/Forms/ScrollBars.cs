@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies which scroll bars will be visible on a control.
 	/// </summary>
 	[Serializable]

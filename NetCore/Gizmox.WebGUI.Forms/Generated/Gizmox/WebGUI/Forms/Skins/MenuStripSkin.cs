@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	/// 
+/// 
 	/// MenuStrip Skin
 	/// </summary>
 	public class MenuStripSkin : ToolStripSkin

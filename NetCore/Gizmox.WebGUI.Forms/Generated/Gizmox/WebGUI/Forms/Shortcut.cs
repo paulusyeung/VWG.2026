@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies shortcut keys that can be used.
 	/// </summary>
 	public enum Shortcut

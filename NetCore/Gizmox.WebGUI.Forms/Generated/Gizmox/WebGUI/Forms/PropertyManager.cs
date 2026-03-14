@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Maintains a <see cref="T:Gizmox.WebGUI.Forms.Binding"></see> between an object's property and a data-bound control property.</summary>
+/// Maintains a <see cref="T:Gizmox.WebGUI.Forms.Binding"></see> between an object's property and a data-bound control property.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class PropertyManager : BindingManagerBase

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies the grouping action
 	/// </summary>
 	[Serializable]

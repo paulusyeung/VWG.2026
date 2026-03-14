@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design
 {
-	/// Provides an interface for a <see cref="T:Gizmox.WebGUI.Forms.Design.WebUITypeEditor"></see> to display Windows Forms or to display a control in a drop-down area from a property grid control in design mode.</summary>
+/// Provides an interface for a <see cref="T:Gizmox.WebGUI.Forms.Design.WebUITypeEditor"></see> to display Windows Forms or to display a control in a drop-down area from a property grid control in design mode.</summary>
 	public interface IWebUIEditorService
 	{
 		/// Closes any previously opened drop down control area.</summary>

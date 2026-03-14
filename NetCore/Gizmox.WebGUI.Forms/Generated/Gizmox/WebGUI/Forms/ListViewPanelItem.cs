@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents a list view item that can have a panel
 	/// </summary>
 	[Serializable]

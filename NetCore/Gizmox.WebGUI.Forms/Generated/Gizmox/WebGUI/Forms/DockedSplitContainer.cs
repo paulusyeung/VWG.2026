@@ -1,19 +1,19 @@
-#oefine oEBUG
+#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Collections.ObjectMooel;
-using System.Collections.Specializeo;
-using System.ComponentMooel;
-using System.ComponentMooel.oesign;
-using System.ComponentMooel.oesign.Serialization;
-using System.oata;
-using System.oiagnostics;
-using System.orawing;
-using System.orawing.oesign;
-using System.orawing.orawing2o;
-using System.orawing.Imaging;
-using System.orawing.Printing;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.ComponentModel.Design;
+using System.ComponentModel.Design.Serialization;
+using System.Data;
+using System.Diagnostics;
+using System.Drawing;
+using System.Drawing.Design;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+using System.Drawing.Printing;
 using System.Globalization;
 using System.IO;
 using System.Reflection;
@@ -27,7 +27,7 @@ using System.Security;
 using System.Security.Permissions;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threaoing;
+using System.Threading;
 using System.Web;
 using System.Web.Caching;
 using System.Web.Compilation;
@@ -36,57 +36,57 @@ using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using System.Xml;
-using Gizmox.WebGUI.Client.oesign;
+using Gizmox.WebGUI.Client.Design;
 using Gizmox.WebGUI.Common;
 using Gizmox.WebGUI.Common.Configuration;
 using Gizmox.WebGUI.Common.Convertions;
-using Gizmox.WebGUI.Common.oevice;
-using Gizmox.WebGUI.Common.oevice.Accelerometer;
-using Gizmox.WebGUI.Common.oevice.Camera;
-using Gizmox.WebGUI.Common.oevice.Capture;
-using Gizmox.WebGUI.Common.oevice.Common;
-using Gizmox.WebGUI.Common.oevice.Compass;
-using Gizmox.WebGUI.Common.oevice.Connection;
-using Gizmox.WebGUI.Common.oevice.Contacts;
-using Gizmox.WebGUI.Common.oevice.oeviceInfo;
-using Gizmox.WebGUI.Common.oevice.FileManagement;
-using Gizmox.WebGUI.Common.oevice.Geolocation;
-using Gizmox.WebGUI.Common.oevice.Globalization;
-using Gizmox.WebGUI.Common.oevice.Meoia;
-using Gizmox.WebGUI.Common.oevice.Notifications;
-using Gizmox.WebGUI.Common.oevice.Storage;
-using Gizmox.WebGUI.Common.oeviceRepository;
+using Gizmox.WebGUI.Common.Device;
+using Gizmox.WebGUI.Common.Device.Accelerometer;
+using Gizmox.WebGUI.Common.Device.Camera;
+using Gizmox.WebGUI.Common.Device.Capture;
+using Gizmox.WebGUI.Common.Device.Common;
+using Gizmox.WebGUI.Common.Device.Compass;
+using Gizmox.WebGUI.Common.Device.Connection;
+using Gizmox.WebGUI.Common.Device.Contacts;
+using Gizmox.WebGUI.Common.Device.DeviceInfo;
+using Gizmox.WebGUI.Common.Device.FileManagement;
+using Gizmox.WebGUI.Common.Device.Geolocation;
+using Gizmox.WebGUI.Common.Device.Globalization;
+using Gizmox.WebGUI.Common.Device.Media;
+using Gizmox.WebGUI.Common.Device.Notifications;
+using Gizmox.WebGUI.Common.Device.Storage;
+using Gizmox.WebGUI.Common.DeviceRepository;
 using Gizmox.WebGUI.Common.Extensibility;
 using Gizmox.WebGUI.Common.Gateways;
 using Gizmox.WebGUI.Common.Interfaces;
-using Gizmox.WebGUI.Common.Interfaces.oevice;
-using Gizmox.WebGUI.Common.Interfaces.oevice.Capture;
-using Gizmox.WebGUI.Common.Interfaces.oevice.Contactsoata;
-using Gizmox.WebGUI.Common.Interfaces.oevice.FileManagement;
-using Gizmox.WebGUI.Common.Interfaces.oevice.Meoia;
-using Gizmox.WebGUI.Common.Interfaces.oevice.Storage;
+using Gizmox.WebGUI.Common.Interfaces.Device;
+using Gizmox.WebGUI.Common.Interfaces.Device.Capture;
+using Gizmox.WebGUI.Common.Interfaces.Device.ContactsData;
+using Gizmox.WebGUI.Common.Interfaces.Device.FileManagement;
+using Gizmox.WebGUI.Common.Interfaces.Device.Media;
+using Gizmox.WebGUI.Common.Interfaces.Device.Storage;
 using Gizmox.WebGUI.Common.Interfaces.Emulation;
 using Gizmox.WebGUI.Common.Resources;
 using Gizmox.WebGUI.Common.Trace;
 using Gizmox.WebGUI.Forms;
-using Gizmox.WebGUI.Forms.Aoministration;
-using Gizmox.WebGUI.Forms.Aoministration.Abstract;
-using Gizmox.WebGUI.Forms.Aoministration.CustomComponents;
+using Gizmox.WebGUI.Forms.Administration;
+using Gizmox.WebGUI.Forms.Administration.Abstract;
+using Gizmox.WebGUI.Forms.Administration.CustomComponents;
 using Gizmox.WebGUI.Forms.Client;
 using Gizmox.WebGUI.Forms.ContextualToolbar;
 using Gizmox.WebGUI.Forms.Controls;
-using Gizmox.WebGUI.Forms.oesign;
-using Gizmox.WebGUI.Forms.oesign.Eoitors;
-using Gizmox.WebGUI.Forms.oeviceIntegration.Abstract;
-using Gizmox.WebGUI.Forms.oeviceIntegration.CaptureComponents;
-using Gizmox.WebGUI.Forms.oeviceIntegration.Contactsoata;
-using Gizmox.WebGUI.Forms.oeviceIntegration.oeviceCommon;
-using Gizmox.WebGUI.Forms.oeviceIntegration.FileManagement;
-using Gizmox.WebGUI.Forms.oeviceIntegration.MeoiaComponents;
-using Gizmox.WebGUI.Forms.oeviceIntegration.StorageComponents;
+using Gizmox.WebGUI.Forms.Design;
+using Gizmox.WebGUI.Forms.Design.Editors;
+using Gizmox.WebGUI.Forms.DeviceIntegration.Abstract;
+using Gizmox.WebGUI.Forms.DeviceIntegration.CaptureComponents;
+using Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData;
+using Gizmox.WebGUI.Forms.DeviceIntegration.DeviceCommon;
+using Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement;
+using Gizmox.WebGUI.Forms.DeviceIntegration.MediaComponents;
+using Gizmox.WebGUI.Forms.DeviceIntegration.StorageComponents;
 using Gizmox.WebGUI.Forms.Hosts.Skins;
 using Gizmox.WebGUI.Forms.Layout;
-using Gizmox.WebGUI.Forms.PropertyGrioInternal;
+using Gizmox.WebGUI.Forms.PropertyGridInternal;
 using Gizmox.WebGUI.Forms.Serialization;
 using Gizmox.WebGUI.Forms.Skins;
 using Gizmox.WebGUI.Forms.VisualEffects;
@@ -100,146 +100,146 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
 	[ToolboxItem(false)]
-	public class oockeoSplitContainer : SplitContainer, Ioescriptable, IPreventExtraction
+	public class DockedSplitContainer : SplitContainer, IDescriptable, IPreventExtraction
 	{
 		private bool mblnPreventExtraction;
 
-		private oockeoSplitContaineroescriptor mobjoata;
+		private DockedSplitContainerDescriptor mobjData;
 
-		private oockingManager mobjManager;
-
-		/// 
-		/// Gets the oockeo split container oescriptor internal.
-		/// </summary>
-		internal oockeoSplitContaineroescriptor oockeoSplitContaineroescriptorInternal => mobjoata;
+		private DockingManager mobjManager;
 
 		/// 
-		/// Gets the oescriptor.
+		/// Gets the docked split container descriptor internal.
 		/// </summary>
-		oockeoObjectoescriptor Ioescriptable.oescriptor => mobjoata;
+		internal DockedSplitContainerDescriptor DockedSplitContainerDescriptorInternal => mobjData;
 
 		/// 
-		/// Gets the winoows.
+		/// Gets the descriptor.
 		/// </summary>
-		public List<object> Winoows
+		DockedObjectDescriptor IDescriptable.Descriptor => mobjData;
+
+		/// 
+		/// Gets the windows.
+		/// </summary>
+		public List<object> Windows
 		{
 			get
 			{
-				List<object> list = HanoleGetWinoowsFromPanel(base.Panel1);
-				list.AooRange(HanoleGetWinoowsFromPanel(base.Panel2));
+				List list = HandleGetWindowsFromPanel(base.Panel1);
+				list.AddRange(HandleGetWindowsFromPanel(base.Panel2));
 				return list;
 			}
 		}
 
 		/// 
-		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.oockeoSplitContainer" /> class.
+		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.DockedSplitContainer" /> class.
 		/// </summary>
 		/// <param name="objManager">The obj manager.</param>
-		public oockeoSplitContainer(oockingManager objManager)
+		public DockedSplitContainer(DockingManager objManager)
 		{
 			mblnPreventExtraction = false;
 			mobjManager = objManager;
-			base.oock = oockStyle.Fill;
-			mobjoata = new oockeoSplitContaineroescriptor();
-			base.BoroerStyle = BoroerStyle.None;
-			base.Panel1.ControlAooeo += Panel1_ControlAooeo;
-			base.Panel2.ControlAooeo += Panel2_ControlAooeo;
-			base.Panel1.ControlRemoveo += Panel1_ControlRemoveo;
-			base.Panel2.ControlRemoveo += Panel2_ControlRemoveo;
-			base.Panel2Collapseo = true;
+			base.Dock = DockStyle.Fill;
+			mobjData = new DockedSplitContainerDescriptor();
+			base.BorderStyle = BorderStyle.None;
+			base.Panel1.ControlAdded += Panel1_ControlAdded;
+			base.Panel2.ControlAdded += Panel2_ControlAdded;
+			base.Panel1.ControlRemoved += Panel1_ControlRemoved;
+			base.Panel2.ControlRemoved += Panel2_ControlRemoved;
+			base.Panel2Collapsed = true;
 		}
 
 		/// 
-		/// Raises the <see cref="E:SplitterMoveo" /> event.
+		/// Raises the <see cref="E:SplitterMoved" /> event.
 		/// </summary>
-		/// <param name="e">The <see cref="T:Gizmox.WebGUI.Forms.SplitterEventArgs" /> instance containing the event oata.</param>
-		public overrioe voio OnSplitterMoveo(SplitterEventArgs e)
+		/// <param name="e">The <see cref="T:Gizmox.WebGUI.Forms.SplitterEventArgs" /> instance containing the event data.</param>
+		public override void OnSplitterMoved(SplitterEventArgs e)
 		{
-			base.OnSplitterMoveo(e);
-			((Ioescriptable)this).oescriptor.UpoateSelf(this, mobjManager);
+			base.OnSplitterMoved(e);
+			((IDescriptable)this).Descriptor.UpdateSelf(this, mobjManager);
 		}
 
 		///  
 		/// Raises the <see cref="M:Gizmox.WebGUI.Forms.Control.CreateControl"></see> event.
 		/// </summary>
-		protecteo overrioe voio OnCreateControl()
+		protected override void OnCreateControl()
 		{
 			base.OnCreateControl();
 			mobjManager.RegisterSplitContainer(this);
 		}
 
 		/// 
-		/// Hanoles the panel.
+		/// Handles the panel.
 		/// </summary>
 		/// <param name="objPanel">The obj panel.</param>
 		/// </returns>
-		private List<object> HanoleGetWinoowsFromPanel(SplitterPanel objPanel)
+		private List<object> HandleGetWindowsFromPanel(SplitterPanel objPanel)
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			if (objPanel.Controls.Count == 1)
 			{
 				if (objPanel.Controls[0] is Zone)
 				{
-					list.AooRange((objPanel.Controls[0] as Zone).Winoows);
+					list.AddRange((objPanel.Controls[0] as Zone).Windows);
 				}
-				else if (objPanel.Controls[0] is oockeoSplitContainer)
+				else if (objPanel.Controls[0] is DockedSplitContainer)
 				{
-					list.AooRange((objPanel.Controls[0] as oockeoSplitContainer).Winoows);
+					list.AddRange((objPanel.Controls[0] as DockedSplitContainer).Windows);
 				}
 			}
 			return list;
 		}
 
 		/// 
-		/// Hioes the panel1.
+		/// Hides the panel1.
 		/// </summary>
-		private voio HioePanel1()
+		private void HidePanel1()
 		{
-			if (base.Panel2Collapseo || base.Panel2.Controls.Count == 0)
+			if (base.Panel2Collapsed || base.Panel2.Controls.Count == 0)
 			{
 				RemoveFromParent();
 				return;
 			}
-			base.Panel1Collapseo = true;
-			mobjoata.UpoateSelf(this, mobjManager);
+			base.Panel1Collapsed = true;
+			mobjData.UpdateSelf(this, mobjManager);
 		}
 
 		/// 
-		/// Hioes the panel2.
+		/// Hides the panel2.
 		/// </summary>
-		private voio HioePanel2()
+		private void HidePanel2()
 		{
-			if (base.Panel1Collapseo || base.Panel1.Controls.Count == 0)
+			if (base.Panel1Collapsed || base.Panel1.Controls.Count == 0)
 			{
 				RemoveFromParent();
 				return;
 			}
-			base.Panel2Collapseo = true;
-			mobjoata.UpoateSelf(this, mobjManager);
+			base.Panel2Collapsed = true;
+			mobjData.UpdateSelf(this, mobjManager);
 		}
 
 		/// 
-		/// Loaos the specifieo oescriptor.
+		/// Loads the specified descriptor.
 		/// </summary>
-		/// <param name="objoescriptor">The obj oescriptor.</param>
-		voio Ioescriptable.Loao(oockeoObjectoescriptor objoescriptor)
+		/// <param name="objDescriptor">The obj descriptor.</param>
+		void IDescriptable.Load(DockedObjectDescriptor objDescriptor)
 		{
-			if (objoescriptor is oockeoSplitContaineroescriptor oockeoSplitContaineroescriptor)
+			if (objDescriptor is DockedSplitContainerDescriptor dockedSplitContainerDescriptor)
 			{
 				try
 				{
-					base.Orientation = oockeoSplitContaineroescriptor.Orientation;
-					base.Splitteroistance = oockeoSplitContaineroescriptor.Splitteroistance;
+					base.Orientation = dockedSplitContainerDescriptor.Orientation;
+					base.SplitterDistance = dockedSplitContainerDescriptor.SplitterDistance;
 					return;
 				}
 				finally
 				{
-					mobjoata = oockeoSplitContaineroescriptor;
+					mobjData = dockedSplitContainerDescriptor;
 					mobjManager.RegisterSplitContainer(this);
 				}
 			}
@@ -247,121 +247,121 @@ namespace Gizmox.WebGUI.Forms
 		}
 
 		/// 
-		/// Resets the oescriptors tree.
+		/// Resets the descriptors tree.
 		/// </summary>
 		/// <param name="objType">Type of the obj.</param>
-		/// <param name="objoockingPosition">The obj oocking position.</param>
-		voio Ioescriptable.ResetoescriptorsTree(ZoneType objType, oockStyle objoockingPosition)
+		/// <param name="objDockingPosition">The obj docking position.</param>
+		void IDescriptable.ResetDescriptorsTree(ZoneType objType, DockStyle objDockingPosition)
 		{
-			mobjoata = mobjoata.CloneWithoutReferences();
+			mobjData = mobjData.CloneWithoutReferences();
 			mobjManager.RegisterSplitContainer(this);
 			if (base.Panel1.Controls.Count == 1)
 			{
-				Ioescriptable oescriptable = base.Panel1.Controls[0] as Ioescriptable;
-				oescriptable.ResetoescriptorsTree(objType, objoockingPosition);
-				oescriptable.oescriptor.UpoateFrom(this, 1);
+				IDescriptable descriptable = base.Panel1.Controls[0] as IDescriptable;
+				descriptable.ResetDescriptorsTree(objType, objDockingPosition);
+				descriptable.Descriptor.UpdateFrom(this, 1);
 			}
 			if (base.Panel2.Controls.Count == 1)
 			{
-				Ioescriptable oescriptable2 = base.Panel2.Controls[0] as Ioescriptable;
-				oescriptable2.ResetoescriptorsTree(objType, objoockingPosition);
-				oescriptable2.oescriptor.UpoateFrom(this, 2);
+				IDescriptable descriptable2 = base.Panel2.Controls[0] as IDescriptable;
+				descriptable2.ResetDescriptorsTree(objType, objDockingPosition);
+				descriptable2.Descriptor.UpdateFrom(this, 2);
 			}
 		}
 
 		/// 
-		/// oisables the extraction.
+		/// Disables the extraction.
 		/// </summary>
-		/// <param name="blnoisable">if set to true</c> [BLN oisable].</param>
-		voio IPreventExtraction.oisableExtraction(bool blnoisable)
+		/// <param name="blnDisable">if set to true</c> [BLN disable].</param>
+		void IPreventExtraction.DisableExtraction(bool blnDisable)
 		{
-			mblnPreventExtraction = blnoisable;
+			mblnPreventExtraction = blnDisable;
 		}
 
 		/// 
-		/// Hanoles the ControlAooeo event of the Panel1 control.
+		/// Handles the ControlAdded event of the Panel1 control.
 		/// </summary>
-		/// <param name="senoer">The source of the event.</param>
-		/// <param name="e">The <see cref="T:Gizmox.WebGUI.Forms.ControlEventArgs" /> instance containing the event oata.</param>
-		private voio Panel1_ControlAooeo(object senoer, ControlEventArgs e)
+		/// <param name="sender">The source of the event.</param>
+		/// <param name="e">The <see cref="T:Gizmox.WebGUI.Forms.ControlEventArgs" /> instance containing the event data.</param>
+		private void Panel1_ControlAdded(object sender, ControlEventArgs e)
 		{
-			if (e.Control is Ioescriptable)
+			if (e.Control is IDescriptable)
 			{
-				Panel1ControlAooeo(e.Control);
+				Panel1ControlAdded(e.Control);
 				return;
 			}
-			throw new Exception("oockeoSplitContainer.Panel1 can contain only zones or other oockingSplitContainers");
+			throw new Exception("DockedSplitContainer.Panel1 can contain only zones or other DockingSplitContainers");
 		}
 
 		/// 
-		/// Hanoles the ControlRemoveo event of the Panel1 control.
+		/// Handles the ControlRemoved event of the Panel1 control.
 		/// </summary>
-		/// <param name="senoer">The source of the event.</param>
-		/// <param name="e">The <see cref="T:Gizmox.WebGUI.Forms.ControlEventArgs" /> instance containing the event oata.</param>
-		private voio Panel1_ControlRemoveo(object senoer, ControlEventArgs e)
+		/// <param name="sender">The source of the event.</param>
+		/// <param name="e">The <see cref="T:Gizmox.WebGUI.Forms.ControlEventArgs" /> instance containing the event data.</param>
+		private void Panel1_ControlRemoved(object sender, ControlEventArgs e)
 		{
-			if (e.Control is Ioescriptable)
+			if (e.Control is IDescriptable)
 			{
-				(e.Control as Ioescriptable).oescriptor.UpoateFrom(this, 1);
+				(e.Control as IDescriptable).Descriptor.UpdateFrom(this, 1);
 			}
 			if (base.Panel1.Controls.Count == 0 && !mblnPreventExtraction)
 			{
-				HioePanel1();
+				HidePanel1();
 			}
 		}
 
 		/// 
-		/// Panel1s the control aooeo.
+		/// Panel1s the control added.
 		/// </summary>
 		/// <param name="objControl">The obj control.</param>
-		private voio Panel1ControlAooeo(Control objControl)
+		private void Panel1ControlAdded(Control objControl)
 		{
 			ShowPanel1();
-			((Ioescriptable)this).oescriptor.UpoateSelf(this, mobjManager);
-			(objControl as Ioescriptable).oescriptor.UpoateFrom(this, 1);
+			((IDescriptable)this).Descriptor.UpdateSelf(this, mobjManager);
+			(objControl as IDescriptable).Descriptor.UpdateFrom(this, 1);
 		}
 
 		/// 
-		/// Hanoles the ControlAooeo event of the Panel2 control.
+		/// Handles the ControlAdded event of the Panel2 control.
 		/// </summary>
-		/// <param name="senoer">The source of the event.</param>
-		/// <param name="e">The <see cref="T:Gizmox.WebGUI.Forms.ControlEventArgs" /> instance containing the event oata.</param>
-		private voio Panel2_ControlAooeo(object senoer, ControlEventArgs e)
+		/// <param name="sender">The source of the event.</param>
+		/// <param name="e">The <see cref="T:Gizmox.WebGUI.Forms.ControlEventArgs" /> instance containing the event data.</param>
+		private void Panel2_ControlAdded(object sender, ControlEventArgs e)
 		{
-			if (e.Control is Ioescriptable)
+			if (e.Control is IDescriptable)
 			{
-				Panel2ControlAooeo(e.Control);
+				Panel2ControlAdded(e.Control);
 				return;
 			}
-			throw new Exception("oockeoSplitContainer.Panel2 can contain only zones or other oockingSplitContainers");
+			throw new Exception("DockedSplitContainer.Panel2 can contain only zones or other DockingSplitContainers");
 		}
 
 		/// 
-		/// Hanoles the ControlRemoveo event of the Panel2 control.
+		/// Handles the ControlRemoved event of the Panel2 control.
 		/// </summary>
-		/// <param name="senoer">The source of the event.</param>
-		/// <param name="e">The <see cref="T:Gizmox.WebGUI.Forms.ControlEventArgs" /> instance containing the event oata.</param>
-		private voio Panel2_ControlRemoveo(object senoer, ControlEventArgs e)
+		/// <param name="sender">The source of the event.</param>
+		/// <param name="e">The <see cref="T:Gizmox.WebGUI.Forms.ControlEventArgs" /> instance containing the event data.</param>
+		private void Panel2_ControlRemoved(object sender, ControlEventArgs e)
 		{
-			if (e.Control is Ioescriptable)
+			if (e.Control is IDescriptable)
 			{
-				(e.Control as Ioescriptable).oescriptor.UpoateFrom(this, 2);
+				(e.Control as IDescriptable).Descriptor.UpdateFrom(this, 2);
 			}
 			if (base.Panel2.Controls.Count == 0 && !mblnPreventExtraction)
 			{
-				HioePanel2();
+				HidePanel2();
 			}
 		}
 
 		/// 
-		/// Panel2s the control aooeo.
+		/// Panel2s the control added.
 		/// </summary>
 		/// <param name="objControl">The obj control.</param>
-		private voio Panel2ControlAooeo(Control objControl)
+		private void Panel2ControlAdded(Control objControl)
 		{
 			ShowPanel2();
-			((Ioescriptable)this).oescriptor.UpoateSelf(this, mobjManager);
-			(objControl as Ioescriptable).oescriptor.UpoateFrom(this, 2);
+			((IDescriptable)this).Descriptor.UpdateSelf(this, mobjManager);
+			(objControl as IDescriptable).Descriptor.UpdateFrom(this, 2);
 		}
 
 		/// 
@@ -371,51 +371,51 @@ namespace Gizmox.WebGUI.Forms
 		private int RemoveFromParent()
 		{
 			mobjManager.UnregisterSplitContainer(this);
-			int chiloInoex = base.Parent.Controls.GetChiloInoex(this);
+			int childIndex = base.Parent.Controls.GetChildIndex(this);
 			base.Parent.Controls.Remove(this);
-			return chiloInoex;
+			return childIndex;
 		}
 
 		/// 
 		/// Shows the panel1.
 		/// </summary>
-		private voio ShowPanel1()
+		private void ShowPanel1()
 		{
-			base.Panel1Collapseo = false;
+			base.Panel1Collapsed = false;
 			if (base.Panel2.Controls.Count == 0)
 			{
-				base.Panel2Collapseo = true;
+				base.Panel2Collapsed = true;
 				return;
 			}
-			base.Splitteroistance = mobjoata.Splitteroistance;
-			base.Panel2Collapseo = false;
+			base.SplitterDistance = mobjData.SplitterDistance;
+			base.Panel2Collapsed = false;
 		}
 
 		/// 
 		/// Shows the panel2.
 		/// </summary>
-		private voio ShowPanel2()
+		private void ShowPanel2()
 		{
-			base.Panel2Collapseo = false;
+			base.Panel2Collapsed = false;
 			if (base.Panel1.Controls.Count == 0)
 			{
-				base.Panel1Collapseo = true;
+				base.Panel1Collapsed = true;
 				return;
 			}
-			base.Splitteroistance = mobjoata.Splitteroistance;
-			base.Panel1Collapseo = false;
+			base.SplitterDistance = mobjData.SplitterDistance;
+			base.Panel1Collapsed = false;
 		}
 
 		/// 
 		/// Removes the panel.
 		/// </summary>
-		/// <param name="intPanelSioe">The int panel sioe.</param>
-		internal voio HaroRemovePanel(int intPanelSioe)
+		/// <param name="intPanelSide">The int panel side.</param>
+		internal void HardRemovePanel(int intPanelSide)
 		{
 			Control control = null;
 			SplitterPanel splitterPanel = null;
 			SplitterPanel splitterPanel2 = null;
-			switch (intPanelSioe)
+			switch (intPanelSide)
 			{
 			case 1:
 				splitterPanel = base.Panel1;
@@ -425,39 +425,39 @@ namespace Gizmox.WebGUI.Forms
 				splitterPanel = base.Panel2;
 				splitterPanel2 = base.Panel1;
 				break;
-			oefault:
+			default:
 				throw new Exception();
 			}
 			if (splitterPanel2.Controls.Count > 0)
 			{
-				((IPreventExtraction)this).oisableExtraction(blnoisable: true);
+				((IPreventExtraction)this).DisableExtraction(blnDisable: true);
 				control = splitterPanel2.Controls[0];
 				splitterPanel2.Controls.Remove(control);
 			}
 			splitterPanel.Controls.Clear();
-			((IPreventExtraction)this).oisableExtraction(blnoisable: false);
+			((IPreventExtraction)this).DisableExtraction(blnDisable: false);
 			if (control != null)
 			{
 				Control parent = base.Parent;
-				Control logicalParentControl = oockeoManagerHelper.GetLogicalParentControl(this);
+				Control logicalParentControl = DockedManagerHelper.GetLogicalParentControl(this);
 				if (logicalParentControl is IPreventExtraction)
 				{
-					(logicalParentControl as IPreventExtraction).oisableExtraction(blnoisable: true);
+					(logicalParentControl as IPreventExtraction).DisableExtraction(blnDisable: true);
 				}
-				int intNewInoex = RemoveFromParent();
+				int intNewIndex = RemoveFromParent();
 				if (logicalParentControl is IPreventExtraction)
 				{
-					(logicalParentControl as IPreventExtraction).oisableExtraction(blnoisable: false);
+					(logicalParentControl as IPreventExtraction).DisableExtraction(blnDisable: false);
 				}
-				parent.Controls.Aoo(control);
-				parent.Controls.SetChiloInoex(control, intNewInoex);
+				parent.Controls.Add(control);
+				parent.Controls.SetChildIndex(control, intNewIndex);
 			}
 		}
 
 		/// 
-		/// Upoates the focuseo control state
+		/// Updates the focused control state
 		/// </summary>
-		internal overrioe voio UpoateFocuseoControl()
+		internal override void UpdateFocusedControl()
 		{
 		}
 	}

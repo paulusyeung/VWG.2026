@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents a small rectangular pop-up window that displays a brief description of a control's purpose when the user rests the pointer on the control.
 	/// </summary>
 	[Serializable]

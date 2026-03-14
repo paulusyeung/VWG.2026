@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Prompts the user to open a file. This class cannot be inherited.</summary>
+/// Prompts the user to open a file. This class cannot be inherited.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[SRDescription("DescriptionOpenFileDialog")]

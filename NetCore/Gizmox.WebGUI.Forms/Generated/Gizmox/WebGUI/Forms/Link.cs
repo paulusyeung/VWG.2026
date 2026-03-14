@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// The Link class provides services for opening links in a new window
 	/// </summary>
 	[Serializable]

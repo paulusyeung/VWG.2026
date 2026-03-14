@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides the functionality for a control to act as a parent for other controls.</summary>
+/// Provides the functionality for a control to act as a parent for other controls.</summary>
 	/// 2</filterpriority>
 	public interface IContainerControl
 	{

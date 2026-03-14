@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration.CaptureComponents
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -237,7 +237,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.CaptureComponents
 		/// Gets the format data.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void GetFormatData(EventHandler objCallback)
+		public void GetFormatData(EventHandler<MediaFileDataEventArgs> objCallback)
 		{
 			mobjCaptureComponent.GetFormatData(this, objCallback);
 		}

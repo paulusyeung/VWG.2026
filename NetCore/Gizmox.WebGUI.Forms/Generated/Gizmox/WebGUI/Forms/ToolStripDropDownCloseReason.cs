@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the reason that a <see cref="T:Gizmox.WebGUI.Forms.ToolStripDropDown"></see> control was closed.</summary>
+/// Specifies the reason that a <see cref="T:Gizmox.WebGUI.Forms.ToolStripDropDown"></see> control was closed.</summary>
 	public enum ToolStripDropDownCloseReason
 	{
 		/// Specifies that the <see cref="T:Gizmox.WebGUI.Forms.ToolStripDropDown"></see> control was closed because an application was launched.</summary>

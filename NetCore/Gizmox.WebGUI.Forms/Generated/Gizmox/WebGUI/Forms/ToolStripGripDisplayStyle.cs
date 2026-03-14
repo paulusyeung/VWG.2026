@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the orientation of the <see cref="T:Gizmox.WebGUI.Forms.ToolStrip"></see> move handle (grip).</summary> 
+/// Specifies the orientation of the <see cref="T:Gizmox.WebGUI.Forms.ToolStrip"></see> move handle (grip).</summary> 
 	/// 2</filterpriority>
 	public enum ToolStripGripDisplayStyle
 	{

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// The component style (WinForms Complaint)
 	/// </summary>
 	public enum FlatStyle

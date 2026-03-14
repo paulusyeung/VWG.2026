@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides a user interface for indicating that a control on a form has an error associated with it.
 	/// </summary>
 	[Serializable]
@@ -286,7 +286,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			if (disposing)
 			{
-				List<object> list = new List<object>();
+				List<object> list = new List<object><object>();
 				foreach (Control key in mobjControlWithErrorsMap.Keys)
 				{
 					list.Add(key);

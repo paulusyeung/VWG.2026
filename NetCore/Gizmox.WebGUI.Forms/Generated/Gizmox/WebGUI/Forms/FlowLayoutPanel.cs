@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents a panel that dynamically lays out its contents horizontally or vertically.
 	/// </summary>
 	[Serializable]

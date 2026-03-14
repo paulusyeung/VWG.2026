@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents the state of a data-bound <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control when a data error occurred.</summary>
+/// Represents the state of a data-bound <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control when a data error occurred.</summary>
 	[Serializable]
 	[Flags]
 	public enum DataGridViewDataErrorContexts

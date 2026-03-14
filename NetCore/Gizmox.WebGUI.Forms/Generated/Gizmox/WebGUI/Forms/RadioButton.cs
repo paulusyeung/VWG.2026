@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Enables the user to select a single option from a group of choices when paired with other <see cref="T:Gizmox.WebGUI.Forms.RadioButton"></see> controls.
 	/// </summary>
 	[Serializable]
@@ -150,7 +150,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the CheckedChanged event.
 		/// </summary>
-		private EventHandler CheckedChangedHandler => (EventHandler)GetHandler(CheckedChanged);
+		private EventHandler CheckedChangedHandler => (EventHandler)GetHandler(CheckedChangedEvent);
 
 		/// 
 		/// Gets or sets a value indicating whether the control is checked.
@@ -584,7 +584,7 @@ namespace Gizmox.WebGUI.Forms
 		static RadioButton()
 		{
 			AppearanceChanged = SerializableEvent.Register("AppearanceChanged", typeof(EventHandler), typeof(RadioButton));
-			CheckedChanged = SerializableEvent.Register("CheckedChanged", typeof(EventHandler), typeof(RadioButton));
+			CheckedChangedEvent = SerializableEvent.Register("CheckedChanged", typeof(EventHandler), typeof(RadioButton));
 		}
 	}
 }

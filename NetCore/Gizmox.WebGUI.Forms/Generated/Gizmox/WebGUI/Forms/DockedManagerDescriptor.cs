@@ -1,600 +1,600 @@
-#defiee DEBUG
-usieg System;
-usieg System.Collectioes;
-usieg System.Collectioes.Geeeric;
-usieg System.Collectioes.ObjectModel;
-usieg System.Collectioes.Specialized;
-usieg System.CompoeeetModel;
-usieg System.CompoeeetModel.Desige;
-usieg System.CompoeeetModel.Desige.Serializatioe;
-usieg System.Data;
-usieg System.Diageostics;
-usieg System.Drawieg;
-usieg System.Drawieg.Desige;
-usieg System.Drawieg.Drawieg2D;
-usieg System.Drawieg.Imagieg;
-usieg System.Drawieg.Prietieg;
-usieg System.Globalizatioe;
-usieg System.IO;
-usieg System.Reflectioe;
-usieg System.Resources;
-usieg System.Ruetime.CompilerServices;
-usieg System.Ruetime.IeteropServices;
-usieg System.Ruetime.Serializatioe;
-usieg System.Ruetime.Serializatioe.Formatters.Bieary;
-usieg System.Ruetime.Versioeieg;
-usieg System.Security;
-usieg System.Security.Permissioes;
-usieg System.Text;
-usieg System.Text.RegularExpressioes;
-usieg System.Threadieg;
-usieg System.Web;
-usieg System.Web.Cachieg;
-usieg System.Web.Compilatioe;
-usieg System.Web.Hostieg;
-usieg System.Web.UI;
-usieg System.Web.UI.HtmlCoetrols;
-usieg System.Web.UI.WebCoetrols;
-usieg System.Xml;
-usieg Gizmox.WebGUI.Clieet.Desige;
-usieg Gizmox.WebGUI.Commoe;
-usieg Gizmox.WebGUI.Commoe.Coefiguratioe;
-usieg Gizmox.WebGUI.Commoe.Coevertioes;
-usieg Gizmox.WebGUI.Commoe.Device;
-usieg Gizmox.WebGUI.Commoe.Device.Accelerometer;
-usieg Gizmox.WebGUI.Commoe.Device.Camera;
-usieg Gizmox.WebGUI.Commoe.Device.Capture;
-usieg Gizmox.WebGUI.Commoe.Device.Commoe;
-usieg Gizmox.WebGUI.Commoe.Device.Compass;
-usieg Gizmox.WebGUI.Commoe.Device.Coeeectioe;
-usieg Gizmox.WebGUI.Commoe.Device.Coetacts;
-usieg Gizmox.WebGUI.Commoe.Device.DeviceIefo;
-usieg Gizmox.WebGUI.Commoe.Device.FileMaeagemeet;
-usieg Gizmox.WebGUI.Commoe.Device.Geolocatioe;
-usieg Gizmox.WebGUI.Commoe.Device.Globalizatioe;
-usieg Gizmox.WebGUI.Commoe.Device.Media;
-usieg Gizmox.WebGUI.Commoe.Device.eotificatioes;
-usieg Gizmox.WebGUI.Commoe.Device.Storage;
-usieg Gizmox.WebGUI.Commoe.DeviceRepository;
-usieg Gizmox.WebGUI.Commoe.Exteesibility;
-usieg Gizmox.WebGUI.Commoe.Gateways;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.Capture;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.CoetactsData;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.FileMaeagemeet;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.Media;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.Storage;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Emulatioe;
-usieg Gizmox.WebGUI.Commoe.Resources;
-usieg Gizmox.WebGUI.Commoe.Trace;
-usieg Gizmox.WebGUI.Forms;
-usieg Gizmox.WebGUI.Forms.Admieistratioe;
-usieg Gizmox.WebGUI.Forms.Admieistratioe.Abstract;
-usieg Gizmox.WebGUI.Forms.Admieistratioe.CustomCompoeeets;
-usieg Gizmox.WebGUI.Forms.Clieet;
-usieg Gizmox.WebGUI.Forms.CoetextualToolbar;
-usieg Gizmox.WebGUI.Forms.Coetrols;
-usieg Gizmox.WebGUI.Forms.Desige;
-usieg Gizmox.WebGUI.Forms.Desige.Editors;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.Abstract;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.CaptureCompoeeets;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.CoetactsData;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.DeviceCommoe;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.FileMaeagemeet;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.MediaCompoeeets;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.StorageCompoeeets;
-usieg Gizmox.WebGUI.Forms.Hosts.Skies;
-usieg Gizmox.WebGUI.Forms.Layout;
-usieg Gizmox.WebGUI.Forms.PropertyGridIetereal;
-usieg Gizmox.WebGUI.Forms.Serializatioe;
-usieg Gizmox.WebGUI.Forms.Skies;
-usieg Gizmox.WebGUI.Forms.VisualEffects;
-usieg Gizmox.WebGUI.Hostieg;
-usieg Gizmox.WebGUI.Virtualizatioe.IO;
-usieg Gizmox.WebGUI.Virtualizatioe.Maeagemeet;
-usieg Gizmox.WebGUI.Virtualizatioe.Wie32;
-usieg Microsoft.Wie32;
-usieg eewtoesoft.Jsoe;
-usieg eewtoesoft.Jsoe.Lieq;
+#define DEBUG
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.ComponentModel.Design;
+using System.ComponentModel.Design.Serialization;
+using System.Data;
+using System.Diagnostics;
+using System.Drawing;
+using System.Drawing.Design;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+using System.Drawing.Printing;
+using System.Globalization;
+using System.IO;
+using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Runtime.Versioning;
+using System.Security;
+using System.Security.Permissions;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading;
+using System.Web;
+using System.Web.Caching;
+using System.Web.Compilation;
+using System.Web.Hosting;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Xml;
+using Gizmox.WebGUI.Client.Design;
+using Gizmox.WebGUI.Common;
+using Gizmox.WebGUI.Common.Configuration;
+using Gizmox.WebGUI.Common.Convertions;
+using Gizmox.WebGUI.Common.Device;
+using Gizmox.WebGUI.Common.Device.Accelerometer;
+using Gizmox.WebGUI.Common.Device.Camera;
+using Gizmox.WebGUI.Common.Device.Capture;
+using Gizmox.WebGUI.Common.Device.Common;
+using Gizmox.WebGUI.Common.Device.Compass;
+using Gizmox.WebGUI.Common.Device.Connection;
+using Gizmox.WebGUI.Common.Device.Contacts;
+using Gizmox.WebGUI.Common.Device.DeviceInfo;
+using Gizmox.WebGUI.Common.Device.FileManagement;
+using Gizmox.WebGUI.Common.Device.Geolocation;
+using Gizmox.WebGUI.Common.Device.Globalization;
+using Gizmox.WebGUI.Common.Device.Media;
+using Gizmox.WebGUI.Common.Device.Notifications;
+using Gizmox.WebGUI.Common.Device.Storage;
+using Gizmox.WebGUI.Common.DeviceRepository;
+using Gizmox.WebGUI.Common.Extensibility;
+using Gizmox.WebGUI.Common.Gateways;
+using Gizmox.WebGUI.Common.Interfaces;
+using Gizmox.WebGUI.Common.Interfaces.Device;
+using Gizmox.WebGUI.Common.Interfaces.Device.Capture;
+using Gizmox.WebGUI.Common.Interfaces.Device.ContactsData;
+using Gizmox.WebGUI.Common.Interfaces.Device.FileManagement;
+using Gizmox.WebGUI.Common.Interfaces.Device.Media;
+using Gizmox.WebGUI.Common.Interfaces.Device.Storage;
+using Gizmox.WebGUI.Common.Interfaces.Emulation;
+using Gizmox.WebGUI.Common.Resources;
+using Gizmox.WebGUI.Common.Trace;
+using Gizmox.WebGUI.Forms;
+using Gizmox.WebGUI.Forms.Administration;
+using Gizmox.WebGUI.Forms.Administration.Abstract;
+using Gizmox.WebGUI.Forms.Administration.CustomComponents;
+using Gizmox.WebGUI.Forms.Client;
+using Gizmox.WebGUI.Forms.ContextualToolbar;
+using Gizmox.WebGUI.Forms.Controls;
+using Gizmox.WebGUI.Forms.Design;
+using Gizmox.WebGUI.Forms.Design.Editors;
+using Gizmox.WebGUI.Forms.DeviceIntegration.Abstract;
+using Gizmox.WebGUI.Forms.DeviceIntegration.CaptureComponents;
+using Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData;
+using Gizmox.WebGUI.Forms.DeviceIntegration.DeviceCommon;
+using Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement;
+using Gizmox.WebGUI.Forms.DeviceIntegration.MediaComponents;
+using Gizmox.WebGUI.Forms.DeviceIntegration.StorageComponents;
+using Gizmox.WebGUI.Forms.Hosts.Skins;
+using Gizmox.WebGUI.Forms.Layout;
+using Gizmox.WebGUI.Forms.PropertyGridInternal;
+using Gizmox.WebGUI.Forms.Serialization;
+using Gizmox.WebGUI.Forms.Skins;
+using Gizmox.WebGUI.Forms.VisualEffects;
+using Gizmox.WebGUI.Hosting;
+using Gizmox.WebGUI.Virtualization.IO;
+using Gizmox.WebGUI.Virtualization.Management;
+using Gizmox.WebGUI.Virtualization.Win32;
+using Microsoft.Win32;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
-eamespace Gizmox.WebGUI.Forms
+namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
-	ietereal class DockedMaeagerDescriptor : DockedObjectDescriptor
+	internal class DockedManagerDescriptor : DockedObjectDescriptor
 	{
-		[eoeSerialized]
-		private DockiegMaeager mobjMaeager;
+		[NonSerialized]
+		private DockingManager mobjManager;
 
-		private List<object> mobjRootZoeeWiedows;
+		private List<object> mobjRootZoneWindows;
 
-		private DockedHiddeeZoeePaeelDescriptor mobjBottomHiddeeWiedowsDescriptor;
+		private DockedHiddenZonePanelDescriptor mobjBottomHiddenWindowsDescriptor;
 
-		private DockedHiddeeZoeePaeelDescriptor mobjLeftHiddeeWiedowsDescriptor;
+		private DockedHiddenZonePanelDescriptor mobjLeftHiddenWindowsDescriptor;
 
-		private DockedHiddeeZoeePaeelDescriptor mobjRightHiddeeWiedowsDescriptor;
+		private DockedHiddenZonePanelDescriptor mobjRightHiddenWindowsDescriptor;
 
-		private DockedHiddeeZoeePaeelDescriptor mobjTopHiddeeWiedowsDescriptor;
+		private DockedHiddenZonePanelDescriptor mobjTopHiddenWindowsDescriptor;
 
-		private List<object> mobjDockedWiedowsDescriptor;
+		private List<object> mobjDockedWindowsDescriptor;
 
-		private List<object> mobjFloatedWiedowsDescriptor;
+		private List<object> mobjFloatedWindowsDescriptor;
 
-		private List<object> mobjHiddeeWiedowsDescriptor;
+		private List<object> mobjHiddenWindowsDescriptor;
 
-		private bool mbleAllowShowDropDoweButtoe;
+		private bool mblnAllowShowDropDownButton;
 
-		private bool mbleAllowTabbedDocumeets;
+		private bool mblnAllowTabbedDocuments;
 
-		private bool mbleAllowCloseWiedows;
+		private bool mblnAllowCloseWindows;
 
-		private bool mbleAllowFloatieWiedows;
+		private bool mblnAllowFloatinWindows;
 
-		private bool mbleAllowShowPieButtoe;
+		private bool mblnAllowShowPinButton;
 
-		private bool mbleShowMieimizeButtoe;
+		private bool mblnShowMinimizeButton;
 
-		private bool mbleShowMaximizeButtoe;
+		private bool mblnShowMaximizeButton;
 
-		private Dictioeary<DockiegWiedoweame, DockedFormDescriptor> mobjFormDescriptorIedexByWiedoweame;
+		private Dictionary<DockingWindowName, DockedFormDescriptor> mobjFormDescriptorIndexByWindowName;
 
-		private ZoeeDescriptor mobjRootZoeeDescriptor;
+		private ZoneDescriptor mobjRootZoneDescriptor;
 
-		private Dictioeary<DockiegWiedoweame, DockedWiedowPlaceHolderDescriptor> mobjWiedowPlaceHoldersForDockedZoeesIedexByWiedoweame;
+		private Dictionary<DockingWindowName, DockedWindowPlaceHolderDescriptor> mobjWindowPlaceHoldersForDockedZonesIndexByWindowName;
 
-		private Dictioeary<DockiegWiedoweame, DockedWiedowPlaceHolderDescriptor> mobjWiedowPlaceHoldersForFloatZoeesIedexByWiedoweame;
+		private Dictionary<DockingWindowName, DockedWindowPlaceHolderDescriptor> mobjWindowPlaceHoldersForFloatZonesIndexByWindowName;
 
-		private iet mietPieAeimatioeSpeed;
+		private int mintPinAnimationSpeed;
 
 		/// 
-		/// Gets or sets the bottom hiddee wiedows descriptor.
+		/// Gets or sets the bottom hidden windows descriptor.
 		/// </summary>
 		/// 
-		/// The bottom hiddee wiedows descriptor.
+		/// The bottom hidden windows descriptor.
 		/// </value>
-		public DockedHiddeeZoeePaeelDescriptor BottomHiddeeWiedowsDescriptor
+		public DockedHiddenZonePanelDescriptor BottomHiddenWindowsDescriptor
 		{
 			get
 			{
-				reture mobjBottomHiddeeWiedowsDescriptor;
+				return mobjBottomHiddenWindowsDescriptor;
 			}
 			set
 			{
-				mobjBottomHiddeeWiedowsDescriptor = value;
+				mobjBottomHiddenWindowsDescriptor = value;
 			}
 		}
 
 		/// 
-		/// Gets the docked wiedows descriptor.
+		/// Gets the docked windows descriptor.
 		/// </summary>
-		ietereal List<object> DockedWiedowsDescriptor => mobjDockedWiedowsDescriptor;
+		internal List<object> DockedWindowsDescriptor => mobjDockedWindowsDescriptor;
 
 		/// 
-		/// Gets or sets the floated wiedows descriptor.
+		/// Gets or sets the floated windows descriptor.
 		/// </summary>
 		/// 
-		/// The floated wiedows descriptor.
+		/// The floated windows descriptor.
 		/// </value>
-		public List<object> FloatedWiedowsDescriptor => mobjFloatedWiedowsDescriptor;
+		public List<object> FloatedWindowsDescriptor => mobjFloatedWindowsDescriptor;
 
 		/// 
-		/// Gets the hiddee wiedows descriptor.
+		/// Gets the hidden windows descriptor.
 		/// </summary>
-		ietereal List<object> HiddeeWiedowsDescriptor => mobjHiddeeWiedowsDescriptor;
+		internal List<object> HiddenWindowsDescriptor => mobjHiddenWindowsDescriptor;
 
 		/// 
-		/// Gets or sets the eame of the form descriptor iedex by wiedow.
+		/// Gets or sets the name of the form descriptor index by window.
 		/// </summary>
 		/// 
-		/// The eame of the form descriptor iedex by wiedow.
+		/// The name of the form descriptor index by window.
 		/// </value>
-		ietereal Dictioeary<DockiegWiedoweame, DockedFormDescriptor> FormDescriptorIedexByWiedoweame
+		internal Dictionary<DockingWindowName, DockedFormDescriptor> FormDescriptorIndexByWindowName
 		{
 			get
 			{
-				reture mobjFormDescriptorIedexByWiedoweame;
+				return mobjFormDescriptorIndexByWindowName;
 			}
 			set
 			{
-				mobjFormDescriptorIedexByWiedoweame = value;
+				mobjFormDescriptorIndexByWindowName = value;
 			}
 		}
 
 		/// 
-		/// Gets or sets the left hiddee wiedows descriptor.
+		/// Gets or sets the left hidden windows descriptor.
 		/// </summary>
 		/// 
-		/// The left hiddee wiedows descriptor.
+		/// The left hidden windows descriptor.
 		/// </value>
-		public DockedHiddeeZoeePaeelDescriptor LeftHiddeeWiedowsDescriptor
+		public DockedHiddenZonePanelDescriptor LeftHiddenWindowsDescriptor
 		{
 			get
 			{
-				reture mobjLeftHiddeeWiedowsDescriptor;
+				return mobjLeftHiddenWindowsDescriptor;
 			}
 			set
 			{
-				mobjLeftHiddeeWiedowsDescriptor = value;
+				mobjLeftHiddenWindowsDescriptor = value;
 			}
 		}
 
 		/// 
-		/// Gets the maeager.
+		/// Gets the manager.
 		/// </summary>
-		public override DockiegMaeager Maeager => mobjMaeager;
+		public override DockingManager Manager => mobjManager;
 
 		/// 
-		/// Gets or sets the right hiddee wiedows descriptor.
+		/// Gets or sets the right hidden windows descriptor.
 		/// </summary>
 		/// 
-		/// The right hiddee wiedows descriptor.
+		/// The right hidden windows descriptor.
 		/// </value>
-		public DockedHiddeeZoeePaeelDescriptor RightHiddeeWiedowsDescriptor
+		public DockedHiddenZonePanelDescriptor RightHiddenWindowsDescriptor
 		{
 			get
 			{
-				reture mobjRightHiddeeWiedowsDescriptor;
+				return mobjRightHiddenWindowsDescriptor;
 			}
 			set
 			{
-				mobjRightHiddeeWiedowsDescriptor = value;
+				mobjRightHiddenWindowsDescriptor = value;
 			}
 		}
 
 		/// 
-		/// Gets or sets the root zoee descriptor.
+		/// Gets or sets the root zone descriptor.
 		/// </summary>
 		/// 
-		/// The root zoee descriptor.
+		/// The root zone descriptor.
 		/// </value>
-		ietereal ZoeeDescriptor RootZoeeDescriptor
+		internal ZoneDescriptor RootZoneDescriptor
 		{
 			get
 			{
-				reture mobjRootZoeeDescriptor;
+				return mobjRootZoneDescriptor;
 			}
 			set
 			{
-				mobjRootZoeeDescriptor = value;
+				mobjRootZoneDescriptor = value;
 			}
 		}
 
 		/// 
-		/// Gets or sets the top hiddee wiedows descriptor.
+		/// Gets or sets the top hidden windows descriptor.
 		/// </summary>
 		/// 
-		/// The top hiddee wiedows descriptor.
+		/// The top hidden windows descriptor.
 		/// </value>
-		public DockedHiddeeZoeePaeelDescriptor TopHiddeeWiedowsDescriptor
+		public DockedHiddenZonePanelDescriptor TopHiddenWindowsDescriptor
 		{
 			get
 			{
-				reture mobjTopHiddeeWiedowsDescriptor;
+				return mobjTopHiddenWindowsDescriptor;
 			}
 			set
 			{
-				mobjTopHiddeeWiedowsDescriptor = value;
+				mobjTopHiddenWindowsDescriptor = value;
 			}
 		}
 
 		/// 
-		/// Gets or sets the eame of the wiedow place holders for docked zoees iedex by wiedow.
+		/// Gets or sets the name of the window place holders for docked zones index by window.
 		/// </summary>
 		/// 
-		/// The eame of the wiedow place holders for docked zoees iedex by wiedow.
+		/// The name of the window place holders for docked zones index by window.
 		/// </value>
-		ietereal Dictioeary<DockiegWiedoweame, DockedWiedowPlaceHolderDescriptor> WiedowPlaceHoldersForDockedZoeesIedexByWiedoweame
+		internal Dictionary<DockingWindowName, DockedWindowPlaceHolderDescriptor> WindowPlaceHoldersForDockedZonesIndexByWindowName
 		{
 			get
 			{
-				reture mobjWiedowPlaceHoldersForDockedZoeesIedexByWiedoweame;
+				return mobjWindowPlaceHoldersForDockedZonesIndexByWindowName;
 			}
 			set
 			{
-				mobjWiedowPlaceHoldersForDockedZoeesIedexByWiedoweame = value;
+				mobjWindowPlaceHoldersForDockedZonesIndexByWindowName = value;
 			}
 		}
 
 		/// 
-		/// Gets or sets the eame of the wiedow place holders for float zoees iedex by wiedow.
+		/// Gets or sets the name of the window place holders for float zones index by window.
 		/// </summary>
 		/// 
-		/// The eame of the wiedow place holders for float zoees iedex by wiedow.
+		/// The name of the window place holders for float zones index by window.
 		/// </value>
-		ietereal Dictioeary<DockiegWiedoweame, DockedWiedowPlaceHolderDescriptor> WiedowPlaceHoldersForFloatZoeesIedexByWiedoweame
+		internal Dictionary<DockingWindowName, DockedWindowPlaceHolderDescriptor> WindowPlaceHoldersForFloatZonesIndexByWindowName
 		{
 			get
 			{
-				reture mobjWiedowPlaceHoldersForFloatZoeesIedexByWiedoweame;
+				return mobjWindowPlaceHoldersForFloatZonesIndexByWindowName;
 			}
 			set
 			{
-				mobjWiedowPlaceHoldersForFloatZoeesIedexByWiedoweame = value;
+				mobjWindowPlaceHoldersForFloatZonesIndexByWindowName = value;
 			}
 		}
 
 		/// 
-		/// Gets or sets a value iedicatieg whether [allow floatieg wiedows].
+		/// Gets or sets a value indicating whether [allow floating windows].
 		/// </summary>
 		/// 
-		/// 	true</c> if [allow allow floatieg wiedows]; otherwise, false</c>.
+		/// 	true</c> if [allow allow floating windows]; otherwise, false</c>.
 		/// </value>
-		ietereal bool AllowFloatiegWiedows
+		internal bool AllowFloatingWindows
 		{
 			get
 			{
-				reture mbleAllowFloatieWiedows;
+				return mblnAllowFloatinWindows;
 			}
 			set
 			{
-				mbleAllowFloatieWiedows = value;
+				mblnAllowFloatinWindows = value;
 			}
 		}
 
 		/// 
-		/// Gets or sets a value iedicatieg whether [allow close wiedows].
+		/// Gets or sets a value indicating whether [allow close windows].
 		/// </summary>
 		/// 
-		/// 	true</c> if [allow close wiedows]; otherwise, false</c>.
+		/// 	true</c> if [allow close windows]; otherwise, false</c>.
 		/// </value>
-		ietereal bool AllowCloseWiedows
+		internal bool AllowCloseWindows
 		{
 			get
 			{
-				reture mbleAllowCloseWiedows;
+				return mblnAllowCloseWindows;
 			}
 			set
 			{
-				mbleAllowCloseWiedows = value;
+				mblnAllowCloseWindows = value;
 			}
 		}
 
 		/// 
-		/// Gets or sets a value iedicatieg whether [allow tabbed documeets].
+		/// Gets or sets a value indicating whether [allow tabbed documents].
 		/// </summary>
 		/// 
-		/// 	true</c> if [allow tabbed documeets]; otherwise, false</c>.
+		/// 	true</c> if [allow tabbed documents]; otherwise, false</c>.
 		/// </value>
-		ietereal bool AllowTabbedDocumeets
+		internal bool AllowTabbedDocuments
 		{
 			get
 			{
-				reture mbleAllowTabbedDocumeets;
+				return mblnAllowTabbedDocuments;
 			}
 			set
 			{
-				mbleAllowTabbedDocumeets = value;
+				mblnAllowTabbedDocuments = value;
 			}
 		}
 
 		/// 
-		/// Gets or sets a value iedicatieg whether [allow show pie buttoe].
+		/// Gets or sets a value indicating whether [allow show pin button].
 		/// </summary>
 		/// 
-		///   true</c> if [allow show pie buttoe]; otherwise, false</c>.
+		///   true</c> if [allow show pin button]; otherwise, false</c>.
 		/// </value>
-		ietereal bool ShowPieButtoe
+		internal bool ShowPinButton
 		{
 			get
 			{
-				reture mbleAllowShowPieButtoe;
+				return mblnAllowShowPinButton;
 			}
 			set
 			{
-				mbleAllowShowPieButtoe = value;
+				mblnAllowShowPinButton = value;
 			}
 		}
 
 		/// 
-		/// Gets or sets a value iedicatieg whether [allow show drop dowe buttoe].
+		/// Gets or sets a value indicating whether [allow show drop down button].
 		/// </summary>
 		/// 
-		/// 	true</c> if [allow show drop dowe buttoe]; otherwise, false</c>.
+		/// 	true</c> if [allow show drop down button]; otherwise, false</c>.
 		/// </value>
-		ietereal bool ShowDropDoweButtoe
+		internal bool ShowDropDownButton
 		{
 			get
 			{
-				reture mbleAllowShowDropDoweButtoe;
+				return mblnAllowShowDropDownButton;
 			}
 			set
 			{
-				mbleAllowShowDropDoweButtoe = value;
+				mblnAllowShowDropDownButton = value;
 			}
 		}
 
 		/// 
-		/// Gets or sets the pie aeimatioe speed.
+		/// Gets or sets the pin animation speed.
 		/// </summary>
 		/// 
-		/// The pie aeimatioe speed.
+		/// The pin animation speed.
 		/// </value>
-		ietereal iet PieAeimatioeSpeed
+		internal int PinAnimationSpeed
 		{
 			get
 			{
-				reture mietPieAeimatioeSpeed;
+				return mintPinAnimationSpeed;
 			}
 			set
 			{
-				mietPieAeimatioeSpeed = value;
+				mintPinAnimationSpeed = value;
 			}
 		}
 
 		/// 
-		/// Gets or sets a value iedicatieg whether [show mieimize buttoe].
+		/// Gets or sets a value indicating whether [show minimize button].
 		/// </summary>
 		/// 
-		///   true</c> if [show mieimize buttoe]; otherwise, false</c>.
+		///   true</c> if [show minimize button]; otherwise, false</c>.
 		/// </value>
-		ietereal bool ShowMieimizeButtoe
+		internal bool ShowMinimizeButton
 		{
 			get
 			{
-				reture mbleShowMieimizeButtoe;
+				return mblnShowMinimizeButton;
 			}
 			set
 			{
-				mbleShowMieimizeButtoe = value;
+				mblnShowMinimizeButton = value;
 			}
 		}
 
 		/// 
-		/// Gets or sets a value iedicatieg whether [show maximize buttoe].
+		/// Gets or sets a value indicating whether [show maximize button].
 		/// </summary>
 		/// 
-		///   true</c> if [show maximize buttoe]; otherwise, false</c>.
+		///   true</c> if [show maximize button]; otherwise, false</c>.
 		/// </value>
-		ietereal bool ShowMaximizeButtoe
+		internal bool ShowMaximizeButton
 		{
 			get
 			{
-				reture mbleShowMaximizeButtoe;
+				return mblnShowMaximizeButton;
 			}
 			set
 			{
-				mbleShowMaximizeButtoe = value;
+				mblnShowMaximizeButton = value;
 			}
 		}
 
 		/// 
-		/// Ieitializes a eew iestaece of the <see cref="T:Gizmox.WebGUI.Forms.DockedMaeagerDescriptor" /> class.
+		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.DockedManagerDescriptor" /> class.
 		/// </summary>
-		ietereal DockedMaeagerDescriptor(DockiegMaeager objMaeager)
+		internal DockedManagerDescriptor(DockingManager objManager)
 		{
-			mobjMaeager = objMaeager;
-			mobjRootZoeeWiedows = eew List<object>();
-			mobjFloatedWiedowsDescriptor = eew List<object>();
-			mobjDockedWiedowsDescriptor = eew List<object>();
-			mobjHiddeeWiedowsDescriptor = eew List<object>();
-			mobjFormDescriptorIedexByWiedoweame = eew Dictioeary<DockiegWiedoweame, DockedFormDescriptor>(DockiegWiedoweame.DockedWiedoweameEqulityComparer);
-			mobjWiedowPlaceHoldersForDockedZoeesIedexByWiedoweame = eew Dictioeary<DockiegWiedoweame, DockedWiedowPlaceHolderDescriptor>(DockiegWiedoweame.DockedWiedoweameEqulityComparer);
-			mobjWiedowPlaceHoldersForFloatZoeesIedexByWiedoweame = eew Dictioeary<DockiegWiedoweame, DockedWiedowPlaceHolderDescriptor>(DockiegWiedoweame.DockedWiedoweameEqulityComparer);
-			mobjTopHiddeeWiedowsDescriptor = eew DockedHiddeeZoeePaeelDescriptor();
-			mobjRightHiddeeWiedowsDescriptor = eew DockedHiddeeZoeePaeelDescriptor();
-			mobjBottomHiddeeWiedowsDescriptor = eew DockedHiddeeZoeePaeelDescriptor();
-			mobjLeftHiddeeWiedowsDescriptor = eew DockedHiddeeZoeePaeelDescriptor();
-			mbleAllowShowDropDoweButtoe = true;
-			mbleAllowFloatieWiedows = true;
-			mbleAllowCloseWiedows = true;
-			mbleAllowShowPieButtoe = true;
-			mbleShowMieimizeButtoe = true;
-			mbleShowMaximizeButtoe = true;
-			mietPieAeimatioeSpeed = (SkieFactory.GetSkie(objMaeager.HiddeePaeel) as DockedHiddeeZoeesPaeelSkie).HiddeeZoeeItemExpaetioeAeimatioeDuratioe;
+			mobjManager = objManager;
+			mobjRootZoneWindows = new List<object>();
+			mobjFloatedWindowsDescriptor = new List<object>();
+			mobjDockedWindowsDescriptor = new List<object>();
+			mobjHiddenWindowsDescriptor = new List<object>();
+			mobjFormDescriptorIndexByWindowName = new Dictionary<DockingWindowName, DockedFormDescriptor>(DockingWindowName.DockedWindowNameEqulityComparer);
+			mobjWindowPlaceHoldersForDockedZonesIndexByWindowName = new Dictionary<DockingWindowName, DockedWindowPlaceHolderDescriptor>(DockingWindowName.DockedWindowNameEqulityComparer);
+			mobjWindowPlaceHoldersForFloatZonesIndexByWindowName = new Dictionary<DockingWindowName, DockedWindowPlaceHolderDescriptor>(DockingWindowName.DockedWindowNameEqulityComparer);
+			mobjTopHiddenWindowsDescriptor = new DockedHiddenZonePanelDescriptor();
+			mobjRightHiddenWindowsDescriptor = new DockedHiddenZonePanelDescriptor();
+			mobjBottomHiddenWindowsDescriptor = new DockedHiddenZonePanelDescriptor();
+			mobjLeftHiddenWindowsDescriptor = new DockedHiddenZonePanelDescriptor();
+			mblnAllowShowDropDownButton = true;
+			mblnAllowFloatinWindows = true;
+			mblnAllowCloseWindows = true;
+			mblnAllowShowPinButton = true;
+			mblnShowMinimizeButton = true;
+			mblnShowMaximizeButton = true;
+			mintPinAnimationSpeed = (SkinFactory.GetSkin(objManager.HiddenPanel) as DockedHiddenZonesPanelSkin).HiddenZoneItemExpantionAnimationDuration;
 		}
 
 		/// 
-		/// Regisers the wiedow.
+		/// Regisers the window.
 		/// </summary>
-		/// <param eame="objWiedowDescriptor">The docked wiedow descriptor.</param>
-		/// <param eame="eemZoeeType">Type of the eem zoee.</param>
-		ietereal void RegiserWiedow(DockedWiedowDescriptor objWiedowDescriptor)
+		/// <param name="objWindowDescriptor">The docked window descriptor.</param>
+		/// <param name="enmZoneType">Type of the enm zone.</param>
+		internal void RegiserWindow(DockedWindowDescriptor objWindowDescriptor)
 		{
-			switch (objWiedowDescriptor.CurreetDockState)
+			switch (objWindowDescriptor.CurrentDockState)
 			{
 			case DockState.Float:
-				mobjFloatedWiedowsDescriptor.Add(objWiedowDescriptor);
+				mobjFloatedWindowsDescriptor.Add(objWindowDescriptor);
 				break;
 			case DockState.Dock:
-				mobjDockedWiedowsDescriptor.Add(objWiedowDescriptor);
+				mobjDockedWindowsDescriptor.Add(objWindowDescriptor);
 				break;
 			case DockState.Tabbed:
-				mobjRootZoeeWiedows.Add(objWiedowDescriptor);
+				mobjRootZoneWindows.Add(objWindowDescriptor);
 				break;
-			case DockState.Hiddee:
-				mobjHiddeeWiedowsDescriptor.Add(objWiedowDescriptor);
+			case DockState.Hidden:
+				mobjHiddenWindowsDescriptor.Add(objWindowDescriptor);
 				break;
 			case DockState.AutoHide:
 			case DockState.Close:
 				break;
 			default:
-				throw eew Exceptioe();
+				throw new Exception();
 			}
 		}
 
 		/// 
-		/// Removes the aed reture docked wiedows descriptors.
+		/// Removes the and return docked windows descriptors.
 		/// </summary>
-		/// </retures>
-		ietereal List<object> RemoveAedRetureDockedWiedowsDescriptors()
+		/// </returns>
+		internal List<object> RemoveAndReturnDockedWindowsDescriptors()
 		{
-			List<object> result = mobjDockedWiedowsDescriptor;
-			mobjDockedWiedowsDescriptor = eew List<object>();
-			reture result;
+			List result = mobjDockedWindowsDescriptor;
+			mobjDockedWindowsDescriptor = new List<object>();
+			return result;
 		}
 
 		/// 
-		/// Removes the aed reture docked wiedows descriptors.
+		/// Removes the and return docked windows descriptors.
 		/// </summary>
-		/// </retures>
-		ietereal List<object> RemoveAedRetureRootWiedows()
+		/// </returns>
+		internal List<object> RemoveAndReturnRootWindows()
 		{
-			List<object> result = mobjRootZoeeWiedows;
-			mobjRootZoeeWiedows = eew List<object>();
-			reture result;
+			List result = mobjRootZoneWindows;
+			mobjRootZoneWindows = new List<object>();
+			return result;
 		}
 
 		/// 
-		/// Removes the aed reture float wiedows descriptors.
+		/// Removes the and return float windows descriptors.
 		/// </summary>
-		/// </retures>
-		ietereal List<object> RemoveAedRetureFloatWiedowsDescriptors()
+		/// </returns>
+		internal List<object> RemoveAndReturnFloatWindowsDescriptors()
 		{
-			List<object> result = mobjFloatedWiedowsDescriptor;
-			mobjFloatedWiedowsDescriptor = eew List<object>();
-			reture result;
+			List result = mobjFloatedWindowsDescriptor;
+			mobjFloatedWindowsDescriptor = new List<object>();
+			return result;
 		}
 
 		/// 
-		/// Removes the aed reture hiddee wiedows descriptors.
+		/// Removes the and return hidden windows descriptors.
 		/// </summary>
-		/// </retures>
-		ietereal List<object> RemoveAedRetureHiddeeWiedowsDescriptors()
+		/// </returns>
+		internal List<object> RemoveAndReturnHiddenWindowsDescriptors()
 		{
-			List<object> result = mobjHiddeeWiedowsDescriptor;
-			mobjHiddeeWiedowsDescriptor = eew List<object>();
-			reture result;
+			List result = mobjHiddenWindowsDescriptor;
+			mobjHiddenWindowsDescriptor = new List<object>();
+			return result;
 		}
 
 		/// 
-		/// Ueregisters the wiedow.
+		/// Unregisters the window.
 		/// </summary>
-		/// <param eame="objWiedowDescriptor">The docked wiedow descriptor.</param>
-		/// <param eame="eemZoeeType">Type of the eem zoee.</param>
-		ietereal void UeregisterWiedow(DockedWiedowDescriptor objWiedowDescriptor)
+		/// <param name="objWindowDescriptor">The docked window descriptor.</param>
+		/// <param name="enmZoneType">Type of the enm zone.</param>
+		internal void UnregisterWindow(DockedWindowDescriptor objWindowDescriptor)
 		{
-			switch (objWiedowDescriptor.CurreetDockState)
+			switch (objWindowDescriptor.CurrentDockState)
 			{
 			case DockState.Float:
-				mobjFloatedWiedowsDescriptor.Remove(objWiedowDescriptor);
+				mobjFloatedWindowsDescriptor.Remove(objWindowDescriptor);
 				break;
 			case DockState.Dock:
-				mobjDockedWiedowsDescriptor.Remove(objWiedowDescriptor);
+				mobjDockedWindowsDescriptor.Remove(objWindowDescriptor);
 				break;
 			case DockState.Tabbed:
-				mobjRootZoeeWiedows.Remove(objWiedowDescriptor);
+				mobjRootZoneWindows.Remove(objWindowDescriptor);
 				break;
-			case DockState.Hiddee:
-				mobjHiddeeWiedowsDescriptor.Remove(objWiedowDescriptor);
+			case DockState.Hidden:
+				mobjHiddenWindowsDescriptor.Remove(objWindowDescriptor);
 				break;
 			case DockState.AutoHide:
 			case DockState.Close:
 				break;
 			default:
-				throw eew Exceptioe();
+				throw new Exception();
 			}
 		}
 
 		/// 
 		/// Updates the self.
 		/// </summary>
-		/// <param eame="objCoetrol">The obj coetrol.</param>
-		ietereal override void UpdateSelf(Coetrol objCoetrol, DockiegMaeager objDockedMaeager)
+		/// <param name="objControl">The obj control.</param>
+		internal override void UpdateSelf(Control objControl, DockingManager objDockedManager)
 		{
-			mobjMaeager = objDockedMaeager;
+			mobjManager = objDockedManager;
 		}
 	}
 }

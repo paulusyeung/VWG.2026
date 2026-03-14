@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a display device or multiple display devices on a single system.</summary>
+/// Represents a display device or multiple display devices on a single system.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class Screen

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design
 {
-	/// 
+/// 
 	/// Provides a user interface to select and configure a Font object.
 	/// </summary>
 	[Serializable]

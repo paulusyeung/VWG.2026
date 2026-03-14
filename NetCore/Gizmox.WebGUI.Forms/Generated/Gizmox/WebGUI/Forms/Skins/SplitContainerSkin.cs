@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	/// 
+/// 
 	/// SplitContainer Skin
 	/// </summary>
 	[Serializable]

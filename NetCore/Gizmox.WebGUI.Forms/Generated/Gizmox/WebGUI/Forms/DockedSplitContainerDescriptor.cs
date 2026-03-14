@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -168,7 +168,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		/// <typeparam name="T"></typeparam>
 		/// </returns>
-		internal override T CloneWithoutReferences()
+		internal override T CloneWithoutReferences<T>()
 		{
 			return new DockedSplitContainerDescriptor(this) as T;
 		}

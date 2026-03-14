@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Hosts
 {
-	/// 
+/// 
 	/// Provides an Base class to Aspx box control
 	/// </summary>
 	[Serializable]

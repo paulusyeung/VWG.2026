@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides the base class for elements of a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
+/// Provides the base class for elements of a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class DataGridViewElement : SerializableObject, IRenderableComponentMember, IIdentifiedComponent

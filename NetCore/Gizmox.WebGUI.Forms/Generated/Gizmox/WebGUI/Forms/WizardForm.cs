@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -175,7 +175,7 @@ namespace Gizmox.WebGUI.Forms
 			WizardStep wizardStep = null;
 			for (int i = 0; i < steps.Count; i++)
 			{
-				WizardStep wizardStep2 = (WizardStep)steps[i];
+				WizardStep wizardStep2 = steps[i];
 				wizardStep2.SetPreviousStep(wizardStep);
 				wizardStep2.SetWizardForm(this);
 				wizardStep?.SetNextStep(wizardStep2);

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	internal class DataGridViewUtilities
 	{
 		private const byte DATAGRIDVIEWROWHEADERCELL_contentMarginHeight = 3;

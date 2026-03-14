@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the border styles that can be applied to the cells of a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
+/// Specifies the border styles that can be applied to the cells of a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public enum DataGridViewCellBorderStyle

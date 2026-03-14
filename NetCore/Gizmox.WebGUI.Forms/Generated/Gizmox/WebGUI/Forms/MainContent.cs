@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -217,7 +217,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		private void PopulateTabs()
 		{
-			List<object> supportedAdministrationContent = GetSupportedAdministrationContent();
+			List supportedAdministrationContent = GetSupportedAdministrationContent();
 			supportedAdministrationContent.Sort(new AdministrationContent.AdministrationContentSorter());
 			foreach (AdministrationContent item in supportedAdministrationContent)
 			{
@@ -232,8 +232,8 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		private List<object> GetSupportedAdministrationContent()
 		{
-			List<object> list = new List<object>();
-			List<object> administrationContentTypesList = GetAdministrationContentTypesList();
+			List<object> list = new List<object><object>();
+			List administrationContentTypesList = GetAdministrationContentTypesList();
 			foreach (Type item2 in administrationContentTypesList)
 			{
 				if (item2 != null && Activator.CreateInstance(item2) is AdministrationContent item)
@@ -250,7 +250,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		private List<object> GetAdministrationContentTypesList()
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			Type[] types = GetType().Assembly.GetTypes();
 			foreach (Type type in types)
 			{

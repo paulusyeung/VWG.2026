@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides a convertion for the listviewgroup class
 	/// </summary>
 	/// This converter causes the group the appear as a list selector of groups in the designer.</remarks>

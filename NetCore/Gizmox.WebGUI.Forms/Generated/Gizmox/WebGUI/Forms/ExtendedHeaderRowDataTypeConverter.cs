@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// This class represents the ExtendedHeaderRow Converter.
 	/// Used to avoid the default behaviour of the designer adding columns into the form's resx file.
 	/// </summary>
@@ -141,7 +141,7 @@ namespace Gizmox.WebGUI.Forms
 			if (objDestinationType == typeof(InstanceDescriptor) && objValue is ExtendedHeaderRowData)
 			{
 				ExtendedHeaderRowData extendedHeaderRowData = objValue as ExtendedHeaderRowData;
-				List<object> list = null;
+				List list = null;
 				ConstructorInfo constructorInfo = null;
 				if (extendedHeaderRowData.HeightSizeMode == HeightMode.Custom)
 				{

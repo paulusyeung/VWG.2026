@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Hosts
 {
-	/// 
+/// 
 	/// 	AspControlBoxBase
 	///     provides a base class for creating ASP.NET wrapped controls that can be integrated
 	///     into VWG as a native control.</para>
@@ -394,7 +394,7 @@ namespace Gizmox.WebGUI.Forms.Hosts
 		/// 
 		/// Provides a property reference to DesignTimeProperties property.
 		/// </summary>
-		private static SerializableProperty DesignTimeEventHandlersProperty = SerializableProperty.Register("DesignTimeEventHandlers", typeof(Dictionary<string, List>), typeof(AspControlBoxBase), new SerializablePropertyMetadata(null));
+		private static SerializableProperty DesignTimeEventHandlersProperty = SerializableProperty.Register("DesignTimeEventHandlers", typeof(Dictionary<string,List<object>>), typeof(AspControlBoxBase), new SerializablePropertyMetadata(null));
 
 		/// 
 		/// Provides a property reference to Properties property.
@@ -409,7 +409,7 @@ namespace Gizmox.WebGUI.Forms.Hosts
 		/// 
 		/// Provides a property reference to EventHandlers property.
 		/// </summary>
-		private static SerializableProperty EventHandlersProperty = SerializableProperty.Register("EventHandlers", typeof(Dictionary<string, List>), typeof(AspControlBoxBase), new SerializablePropertyMetadata(null));
+		private static SerializableProperty EventHandlersProperty = SerializableProperty.Register("EventHandlers", typeof(Dictionary<string,List<object>>), typeof(AspControlBoxBase), new SerializablePropertyMetadata(null));
 
 		/// 
 		/// Provides a property reference to Events property.
@@ -940,11 +940,11 @@ namespace Gizmox.WebGUI.Forms.Hosts
 		/// Gets or sets the design time events.
 		/// </summary>
 		/// The design time events.</value>
-		private Dictionary<string, List> DesignTimeEventHandlers
+		private Dictionary<string,List<object>> DesignTimeEventHandlers
 		{
 			get
 			{
-				return GetValue<Dictionary<string, List>>(DesignTimeEventHandlersProperty, null);
+				return GetValue<Dictionary<string,List<object>>>(DesignTimeEventHandlersProperty, null);
 			}
 			set
 			{
@@ -1011,17 +1011,17 @@ namespace Gizmox.WebGUI.Forms.Hosts
 		/// Gets the events.
 		/// </summary>
 		/// The events.</value>
-		protected Dictionary<string, List> Events => EventHandlers;
+		protected Dictionary<string,List<object>> Events => EventHandlers;
 
 		/// 
 		/// Gets or sets the event handlers.
 		/// </summary>
 		/// The event handlers.</value>
-		private Dictionary<string, List> EventHandlers
+		private Dictionary<string,List<object>> EventHandlers
 		{
 			get
 			{
-				return GetValue<Dictionary<string, List>>(EventHandlersProperty, null);
+				return GetValue<Dictionary<string,List<object>>>(EventHandlersProperty, null);
 			}
 			set
 			{
@@ -1263,7 +1263,7 @@ namespace Gizmox.WebGUI.Forms.Hosts
 		{
 			Properties = new Dictionary<string, PropertyInfo>();
 			EventsList = new Dictionary<string, EventInfo>();
-			EventHandlers = new Dictionary<string, List>();
+			EventHandlers = new Dictionary<string,List<object>>();
 		}
 
 		/// 
@@ -1952,10 +1952,10 @@ namespace Gizmox.WebGUI.Forms.Hosts
 				AddEventHandler(strName, objEventHandler, HostedControl);
 				return;
 			}
-			Dictionary<string, List> dictionary = DesignTimeEventHandlers;
+			Dictionary<string,List<object>> dictionary = DesignTimeEventHandlers;
 			if (dictionary == null)
 			{
-				dictionary = (DesignTimeEventHandlers = new Dictionary<string, List>());
+				dictionary = (DesignTimeEventHandlers = new Dictionary<string,List<object>>());
 			}
 			if (!dictionary.TryGetValue(strName, out var value))
 			{
@@ -1996,7 +1996,7 @@ namespace Gizmox.WebGUI.Forms.Hosts
 				EventInfo eventInfo = GetEventInfo(strName);
 				if (eventInfo != null)
 				{
-					List<object> eventHandlers = GetEventHandlers(strName, blnCreate: false);
+					List eventHandlers = GetEventHandlers(strName, blnCreate: false);
 					if (eventHandlers != null && eventHandlers.Contains(objEventHandler))
 					{
 						eventHandlers.Remove(objEventHandler);
@@ -2005,7 +2005,7 @@ namespace Gizmox.WebGUI.Forms.Hosts
 			}
 			else
 			{
-				Dictionary<string, List> designTimeEventHandlers = DesignTimeEventHandlers;
+				Dictionary<string,List<object>> designTimeEventHandlers = DesignTimeEventHandlers;
 				if (designTimeEventHandlers != null && designTimeEventHandlers.TryGetValue(strName, out var value))
 				{
 					value.Remove(objEventHandler);
@@ -2031,8 +2031,8 @@ namespace Gizmox.WebGUI.Forms.Hosts
 		/// </returns>
 		private List<object> GetEventHandlers(string strName, bool blnCreate)
 		{
-			List<object> list = null;
-			Dictionary<string, List> eventHandlers = EventHandlers;
+			List list = null;
+			Dictionary<string,List<object>> eventHandlers = EventHandlers;
 			if (eventHandlers.ContainsKey(strName) && eventHandlers[strName] != null)
 			{
 				list = eventHandlers[strName];
@@ -2132,7 +2132,7 @@ namespace Gizmox.WebGUI.Forms.Hosts
 			}
 			if (CompatibilityMode != VersionCompatibilityMode.Version6)
 			{
-				Dictionary<string, List> designTimeEventHandlers = DesignTimeEventHandlers;
+				Dictionary<string,List<object>> designTimeEventHandlers = DesignTimeEventHandlers;
 				if (designTimeEventHandlers != null)
 				{
 					string[] array = new string[designTimeEventHandlers.Keys.Count];
@@ -2140,7 +2140,7 @@ namespace Gizmox.WebGUI.Forms.Hosts
 					string[] array2 = array;
 					foreach (string text in array2)
 					{
-						List<object> list = designTimeEventHandlers[text];
+						List list = designTimeEventHandlers[text];
 						foreach (Delegate item in list)
 						{
 							AddEventHandler(text, item, objHostedControl);
@@ -2152,7 +2152,7 @@ namespace Gizmox.WebGUI.Forms.Hosts
 			Dictionary<string, EventInfo> eventsList = EventsList;
 			foreach (EventInfo value in eventsList.Values)
 			{
-				List<object> eventHandlers = GetEventHandlers(value.Name, blnCreate: false);
+				List eventHandlers = GetEventHandlers(value.Name, blnCreate: false);
 				if (eventHandlers == null)
 				{
 					continue;
@@ -2299,7 +2299,7 @@ namespace Gizmox.WebGUI.Forms.Hosts
 			EventInfo eventInfo = GetEventInfo(strName);
 			if (eventInfo != null)
 			{
-				List<object> eventHandlers = GetEventHandlers(strName, blnCreate: false);
+				List eventHandlers = GetEventHandlers(strName, blnCreate: false);
 				if (eventHandlers != null && eventHandlers.Contains(objEventHandler))
 				{
 					eventHandlers.Remove(objEventHandler);

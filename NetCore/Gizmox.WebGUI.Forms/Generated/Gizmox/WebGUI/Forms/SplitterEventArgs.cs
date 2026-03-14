@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides data for SplitterMoving and the SplitterMoved events.
 	/// </summary>
 	[Serializable]

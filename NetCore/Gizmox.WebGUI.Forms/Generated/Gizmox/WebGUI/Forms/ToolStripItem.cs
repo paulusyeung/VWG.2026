@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -219,13 +219,13 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the available changed handler.
 		/// </summary>
 		/// The available changed handler.</value>
-		private EventHandler AvailableChangedHandler => (EventHandler)GetHandler(AvailableChanged);
+		private EventHandler AvailableChangedHandler => (EventHandler)GetHandler(AvailableChangedEvent);
 
 		/// 
 		/// Gets the back color changed handler.
 		/// </summary>
 		/// The back color changed handler.</value>
-		private EventHandler BackColorChangedHandler => (EventHandler)GetHandler(BackColorChanged);
+		private EventHandler BackColorChangedHandler => (EventHandler)GetHandler(BackColorChangedEvent);
 
 		/// 
 		/// Gets the click handler.
@@ -237,7 +237,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the DisplayStyleChanged handler.
 		/// </summary>
 		/// The DisplayStyleChanged handler.</value>
-		private EventHandler DisplayStyleChangedHandler => (EventHandler)GetHandler(DisplayStyleChanged);
+		private EventHandler DisplayStyleChangedHandler => (EventHandler)GetHandler(DisplayStyleChangedEvent);
 
 		/// 
 		/// Gets the DoubleClick handler.
@@ -249,19 +249,19 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the EnabledChanged handler.
 		/// </summary>
 		/// The EnabledChanged handler.</value>
-		private EventHandler EnabledChangedHandler => (EventHandler)GetHandler(EnabledChanged);
+		private EventHandler EnabledChangedHandler => (EventHandler)GetHandler(EnabledChangedEvent);
 
 		/// 
 		/// Gets the ForeColorChanged handler.
 		/// </summary>
 		/// The ForeColorChanged handler.</value>
-		private EventHandler ForeColorChangedHandler => (EventHandler)GetHandler(ForeColorChanged);
+		private EventHandler ForeColorChangedHandler => (EventHandler)GetHandler(ForeColorChangedEvent);
 
 		/// 
 		/// Gets the LocationChanged handler.
 		/// </summary>
 		/// The LocationChanged handler.</value>
-		private EventHandler LocationChangedHandler => (EventHandler)GetHandler(LocationChanged);
+		private EventHandler LocationChangedHandler => (EventHandler)GetHandler(LocationChangedEvent);
 
 		/// 
 		/// Gets the MouseDown handler.
@@ -279,13 +279,13 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the OwnerChanged handler.
 		/// </summary>
 		/// The OwnerChanged handler.</value>
-		private EventHandler OwnerChangedHandler => (EventHandler)GetHandler(OwnerChanged);
+		private EventHandler OwnerChangedHandler => (EventHandler)GetHandler(OwnerChangedEvent);
 
 		/// 
 		/// Gets the RightToLeftChanged handler.
 		/// </summary>
 		/// The RightToLeftChanged handler.</value>
-		private EventHandler RightToLeftChangedHandler => (EventHandler)GetHandler(RightToLeftChanged);
+		private EventHandler RightToLeftChangedHandler => (EventHandler)GetHandler(RightToLeftChangedEvent);
 
 		/// 
 		/// Gets the TextChanged handler.
@@ -297,7 +297,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the VisibleChanged handler.
 		/// </summary>
 		/// The VisibleChanged handler.</value>
-		private EventHandler VisibleChangedHandler => (EventHandler)GetHandler(VisibleChanged);
+		private EventHandler VisibleChangedHandler => (EventHandler)GetHandler(VisibleChangedEvent);
 
 		private ToolStrip mobjParent
 		{
@@ -3967,19 +3967,19 @@ namespace Gizmox.WebGUI.Forms
 
 		static ToolStripItem()
 		{
-			AvailableChanged = SerializableEvent.Register("AvailableChanged", typeof(EventHandler), typeof(ToolStripItem));
-			BackColorChanged = SerializableEvent.Register("BackColorChanged", typeof(EventHandler), typeof(ToolStripItem));
+			AvailableChangedEvent = SerializableEvent.Register("AvailableChanged", typeof(EventHandler), typeof(ToolStripItem));
+			BackColorChangedEvent = SerializableEvent.Register("BackColorChanged", typeof(EventHandler), typeof(ToolStripItem));
 			ClickEvent = SerializableEvent.Register("ClickEvent", typeof(EventHandler), typeof(ToolStripItem));
-			DisplayStyleChanged = SerializableEvent.Register("DisplayStyleChanged", typeof(EventHandler), typeof(ToolStripItem));
+			DisplayStyleChangedEvent = SerializableEvent.Register("DisplayStyleChanged", typeof(EventHandler), typeof(ToolStripItem));
 			DoubleClickEvent = SerializableEvent.Register("DoubleClick", typeof(EventHandler), typeof(ToolStripItem));
-			EnabledChanged = SerializableEvent.Register("EnabledChanged", typeof(EventHandler), typeof(ToolStripItem));
-			ForeColorChanged = SerializableEvent.Register("ForeColorChanged", typeof(EventHandler), typeof(ToolStripItem));
-			LocationChanged = SerializableEvent.Register("LocationChanged", typeof(EventHandler), typeof(ToolStripItem));
+			EnabledChangedEvent = SerializableEvent.Register("EnabledChanged", typeof(EventHandler), typeof(ToolStripItem));
+			ForeColorChangedEvent = SerializableEvent.Register("ForeColorChanged", typeof(EventHandler), typeof(ToolStripItem));
+			LocationChangedEvent = SerializableEvent.Register("LocationChanged", typeof(EventHandler), typeof(ToolStripItem));
 			MouseDownEvent = SerializableEvent.Register("MouseDown", typeof(EventHandler), typeof(ToolStripItem));
 			MouseUpEvent = SerializableEvent.Register("MouseUp", typeof(EventHandler), typeof(ToolStripItem));
-			RightToLeftChanged = SerializableEvent.Register("RightToLeftChanged", typeof(EventHandler), typeof(ToolStripItem));
-			OwnerChanged = SerializableEvent.Register("OwnerChanged", typeof(EventHandler), typeof(ToolStripItem));
-			VisibleChanged = SerializableEvent.Register("VisibleChanged", typeof(EventHandler), typeof(ToolStripItem));
+			RightToLeftChangedEvent = SerializableEvent.Register("RightToLeftChanged", typeof(EventHandler), typeof(ToolStripItem));
+			OwnerChangedEvent = SerializableEvent.Register("OwnerChanged", typeof(EventHandler), typeof(ToolStripItem));
+			VisibleChangedEvent = SerializableEvent.Register("VisibleChanged", typeof(EventHandler), typeof(ToolStripItem));
 			TextChangedEvent = SerializableEvent.Register("TextChanged", typeof(EventHandler), typeof(ToolStripItem));
 		}
 	}

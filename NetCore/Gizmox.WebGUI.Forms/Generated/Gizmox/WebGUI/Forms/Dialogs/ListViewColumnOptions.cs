@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Dialogs
 {
-	/// 
+/// 
 	/// The columens options dialog
 	/// </summary>
 	[Serializable]
@@ -141,7 +141,7 @@ namespace Gizmox.WebGUI.Forms.Dialogs
 		/// 
 		/// Creates a new <see cref="T:Gizmox.WebGUI.Forms.Dialogs.ListViewColumnOptions" /> instance.
 		/// </summary>
-		/// <param name="objListView">List<object> view.</param>
+		/// <param name="objListView">List view.</param>
 		public ListViewColumnOptions(ListView objListView)
 		{
 			mobjListView = objListView;

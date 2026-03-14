@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides static, predefined <see cref="T:Gizmox.WebGUI.Forms.Clipboard"></see> format names. Use them to identify the format of data that you store in an <see cref="T:Gizmox.WebGUI.Forms.IDataObject"></see>.</summary>
+/// Provides static, predefined <see cref="T:Gizmox.WebGUI.Forms.Clipboard"></see> format names. Use them to identify the format of data that you store in an <see cref="T:Gizmox.WebGUI.Forms.IDataObject"></see>.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class DataFormats

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies the locations of the tabs in a tab control.
 	/// </summary>
 	[Serializable]

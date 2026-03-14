@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Defines how to format the Text property.
 	/// <see cref="T:System.Windows.Forms.MaskedTextBox"></see>.
 	/// </summary>

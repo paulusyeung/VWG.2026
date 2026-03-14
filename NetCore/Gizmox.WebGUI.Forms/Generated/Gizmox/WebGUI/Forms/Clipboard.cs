@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides methods to place data on and retrieve data from the system Clipboard. This class cannot be inherited.
 	/// </summary>
 	[Serializable]

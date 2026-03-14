@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	[Obsolete("Not implemented. Added for migration compatibility")]
 	[Browsable(false)]
 	public class HScrollProperties : ScrollProperties

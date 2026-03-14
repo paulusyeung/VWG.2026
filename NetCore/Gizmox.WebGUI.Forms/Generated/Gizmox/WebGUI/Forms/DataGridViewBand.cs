@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a linear collection of elements in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
+/// Represents a linear collection of elements in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class DataGridViewBand : DataGridViewElement, ICloneable, IDisposable

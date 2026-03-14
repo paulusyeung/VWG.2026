@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies where a <see cref="T:Gizmox.WebGUI.Forms.ToolStripItem"></see> is to be layed out.</summary> 
+/// Specifies where a <see cref="T:Gizmox.WebGUI.Forms.ToolStripItem"></see> is to be layed out.</summary> 
 	/// 2</filterpriority>
 	public enum ToolStripItemPlacement
 	{

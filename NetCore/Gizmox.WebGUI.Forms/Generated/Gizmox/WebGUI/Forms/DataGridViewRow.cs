@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a row in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
+/// Represents a row in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[TypeConverter("Gizmox.WebGUI.Forms.DataGridViewRowConverter, Gizmox.WebGUI.Forms")]
@@ -1167,7 +1167,7 @@ namespace Gizmox.WebGUI.Forms
 				return;
 			}
 			DataGridView rootGrid = objDataGridView.RootGrid;
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			foreach (DataGridViewColumn column in objDataGridView.Columns)
 			{
 				string dataPropertyName = column.DataPropertyName;

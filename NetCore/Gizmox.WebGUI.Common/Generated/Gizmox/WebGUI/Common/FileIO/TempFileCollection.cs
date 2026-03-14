@@ -130,7 +130,7 @@ namespace Gizmox.WebGUI.Common.FileIO
 		}
 
 		public TempFileCollection()
-			: this(HttpContext.Current.Server.MapPath("~/vwguploads"))
+			: this(VWGContext.Current?.HttpContext.Server.MapPath("~/vwguploads"))
 		{
 		}
 

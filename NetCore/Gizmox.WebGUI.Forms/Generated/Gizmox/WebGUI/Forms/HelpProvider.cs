@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides pop-up or online Help for controls.</summary>
+/// Provides pop-up or online Help for controls.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[ToolboxItem(true)]

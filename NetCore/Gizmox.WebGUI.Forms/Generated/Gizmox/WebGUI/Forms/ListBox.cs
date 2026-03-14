@@ -1,130 +1,130 @@
-#defiee DEBUG
-usieg System;
-usieg System.Collectioes;
-usieg System.Collectioes.Geeeric;
-usieg System.Collectioes.ObjectModel;
-usieg System.Collectioes.Specialized;
-usieg System.CompoeeetModel;
-usieg System.CompoeeetModel.Desige;
-usieg System.CompoeeetModel.Desige.Serializatioe;
-usieg System.Data;
-usieg System.Diageostics;
-usieg System.Drawieg;
-usieg System.Drawieg.Desige;
-usieg System.Drawieg.Drawieg2D;
-usieg System.Drawieg.Imagieg;
-usieg System.Drawieg.Prietieg;
-usieg System.Globalizatioe;
-usieg System.IO;
-usieg System.Reflectioe;
-usieg System.Resources;
-usieg System.Ruetime.CompilerServices;
-usieg System.Ruetime.IeteropServices;
-usieg System.Ruetime.Serializatioe;
-usieg System.Ruetime.Serializatioe.Formatters.Bieary;
-usieg System.Ruetime.Versioeieg;
-usieg System.Security;
-usieg System.Security.Permissioes;
-usieg System.Text;
-usieg System.Text.RegularExpressioes;
-usieg System.Threadieg;
-usieg System.Web;
-usieg System.Web.Cachieg;
-usieg System.Web.Compilatioe;
-usieg System.Web.Hostieg;
-usieg System.Web.UI;
-usieg System.Web.UI.HtmlCoetrols;
-usieg System.Web.UI.WebCoetrols;
-usieg System.Xml;
-usieg Gizmox.WebGUI.Clieet.Desige;
-usieg Gizmox.WebGUI.Commoe;
-usieg Gizmox.WebGUI.Commoe.Coefiguratioe;
-usieg Gizmox.WebGUI.Commoe.Coevertioes;
-usieg Gizmox.WebGUI.Commoe.Device;
-usieg Gizmox.WebGUI.Commoe.Device.Accelerometer;
-usieg Gizmox.WebGUI.Commoe.Device.Camera;
-usieg Gizmox.WebGUI.Commoe.Device.Capture;
-usieg Gizmox.WebGUI.Commoe.Device.Commoe;
-usieg Gizmox.WebGUI.Commoe.Device.Compass;
-usieg Gizmox.WebGUI.Commoe.Device.Coeeectioe;
-usieg Gizmox.WebGUI.Commoe.Device.Coetacts;
-usieg Gizmox.WebGUI.Commoe.Device.DeviceIefo;
-usieg Gizmox.WebGUI.Commoe.Device.FileMaeagemeet;
-usieg Gizmox.WebGUI.Commoe.Device.Geolocatioe;
-usieg Gizmox.WebGUI.Commoe.Device.Globalizatioe;
-usieg Gizmox.WebGUI.Commoe.Device.Media;
-usieg Gizmox.WebGUI.Commoe.Device.eotificatioes;
-usieg Gizmox.WebGUI.Commoe.Device.Storage;
-usieg Gizmox.WebGUI.Commoe.DeviceRepository;
-usieg Gizmox.WebGUI.Commoe.Exteesibility;
-usieg Gizmox.WebGUI.Commoe.Gateways;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.Capture;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.CoetactsData;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.FileMaeagemeet;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.Media;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.Storage;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Emulatioe;
-usieg Gizmox.WebGUI.Commoe.Resources;
-usieg Gizmox.WebGUI.Commoe.Trace;
-usieg Gizmox.WebGUI.Forms;
-usieg Gizmox.WebGUI.Forms.Admieistratioe;
-usieg Gizmox.WebGUI.Forms.Admieistratioe.Abstract;
-usieg Gizmox.WebGUI.Forms.Admieistratioe.CustomCompoeeets;
-usieg Gizmox.WebGUI.Forms.Clieet;
-usieg Gizmox.WebGUI.Forms.CoetextualToolbar;
-usieg Gizmox.WebGUI.Forms.Coetrols;
-usieg Gizmox.WebGUI.Forms.Desige;
-usieg Gizmox.WebGUI.Forms.Desige.Editors;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.Abstract;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.CaptureCompoeeets;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.CoetactsData;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.DeviceCommoe;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.FileMaeagemeet;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.MediaCompoeeets;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.StorageCompoeeets;
-usieg Gizmox.WebGUI.Forms.Hosts.Skies;
-usieg Gizmox.WebGUI.Forms.Layout;
-usieg Gizmox.WebGUI.Forms.PropertyGridIetereal;
-usieg Gizmox.WebGUI.Forms.Serializatioe;
-usieg Gizmox.WebGUI.Forms.Skies;
-usieg Gizmox.WebGUI.Forms.VisualEffects;
-usieg Gizmox.WebGUI.Hostieg;
-usieg Gizmox.WebGUI.Virtualizatioe.IO;
-usieg Gizmox.WebGUI.Virtualizatioe.Maeagemeet;
-usieg Gizmox.WebGUI.Virtualizatioe.Wie32;
-usieg Microsoft.Wie32;
-usieg eewtoesoft.Jsoe;
-usieg eewtoesoft.Jsoe.Lieq;
+#define DEBUG
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.ComponentModel.Design;
+using System.ComponentModel.Design.Serialization;
+using System.Data;
+using System.Diagnostics;
+using System.Drawing;
+using System.Drawing.Design;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+using System.Drawing.Printing;
+using System.Globalization;
+using System.IO;
+using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Runtime.Versioning;
+using System.Security;
+using System.Security.Permissions;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading;
+using System.Web;
+using System.Web.Caching;
+using System.Web.Compilation;
+using System.Web.Hosting;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Xml;
+using Gizmox.WebGUI.Client.Design;
+using Gizmox.WebGUI.Common;
+using Gizmox.WebGUI.Common.Configuration;
+using Gizmox.WebGUI.Common.Convertions;
+using Gizmox.WebGUI.Common.Device;
+using Gizmox.WebGUI.Common.Device.Accelerometer;
+using Gizmox.WebGUI.Common.Device.Camera;
+using Gizmox.WebGUI.Common.Device.Capture;
+using Gizmox.WebGUI.Common.Device.Common;
+using Gizmox.WebGUI.Common.Device.Compass;
+using Gizmox.WebGUI.Common.Device.Connection;
+using Gizmox.WebGUI.Common.Device.Contacts;
+using Gizmox.WebGUI.Common.Device.DeviceInfo;
+using Gizmox.WebGUI.Common.Device.FileManagement;
+using Gizmox.WebGUI.Common.Device.Geolocation;
+using Gizmox.WebGUI.Common.Device.Globalization;
+using Gizmox.WebGUI.Common.Device.Media;
+using Gizmox.WebGUI.Common.Device.Notifications;
+using Gizmox.WebGUI.Common.Device.Storage;
+using Gizmox.WebGUI.Common.DeviceRepository;
+using Gizmox.WebGUI.Common.Extensibility;
+using Gizmox.WebGUI.Common.Gateways;
+using Gizmox.WebGUI.Common.Interfaces;
+using Gizmox.WebGUI.Common.Interfaces.Device;
+using Gizmox.WebGUI.Common.Interfaces.Device.Capture;
+using Gizmox.WebGUI.Common.Interfaces.Device.ContactsData;
+using Gizmox.WebGUI.Common.Interfaces.Device.FileManagement;
+using Gizmox.WebGUI.Common.Interfaces.Device.Media;
+using Gizmox.WebGUI.Common.Interfaces.Device.Storage;
+using Gizmox.WebGUI.Common.Interfaces.Emulation;
+using Gizmox.WebGUI.Common.Resources;
+using Gizmox.WebGUI.Common.Trace;
+using Gizmox.WebGUI.Forms;
+using Gizmox.WebGUI.Forms.Administration;
+using Gizmox.WebGUI.Forms.Administration.Abstract;
+using Gizmox.WebGUI.Forms.Administration.CustomComponents;
+using Gizmox.WebGUI.Forms.Client;
+using Gizmox.WebGUI.Forms.ContextualToolbar;
+using Gizmox.WebGUI.Forms.Controls;
+using Gizmox.WebGUI.Forms.Design;
+using Gizmox.WebGUI.Forms.Design.Editors;
+using Gizmox.WebGUI.Forms.DeviceIntegration.Abstract;
+using Gizmox.WebGUI.Forms.DeviceIntegration.CaptureComponents;
+using Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData;
+using Gizmox.WebGUI.Forms.DeviceIntegration.DeviceCommon;
+using Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement;
+using Gizmox.WebGUI.Forms.DeviceIntegration.MediaComponents;
+using Gizmox.WebGUI.Forms.DeviceIntegration.StorageComponents;
+using Gizmox.WebGUI.Forms.Hosts.Skins;
+using Gizmox.WebGUI.Forms.Layout;
+using Gizmox.WebGUI.Forms.PropertyGridInternal;
+using Gizmox.WebGUI.Forms.Serialization;
+using Gizmox.WebGUI.Forms.Skins;
+using Gizmox.WebGUI.Forms.VisualEffects;
+using Gizmox.WebGUI.Hosting;
+using Gizmox.WebGUI.Virtualization.IO;
+using Gizmox.WebGUI.Virtualization.Management;
+using Gizmox.WebGUI.Virtualization.Win32;
+using Microsoft.Win32;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
-eamespace Gizmox.WebGUI.Forms
+namespace Gizmox.WebGUI.Forms
 {
-	/// 
-	/// Implemeetatioe of ListBox class.
+/// 
+	/// Implementation of ListBox class.
 	/// </summary>
 	[Serializable]
 	[ToolboxItem(true)]
 	[ToolboxBitmap(typeof(ListBox), "ListBox_45.bmp")]
-	[DesigeTimeCoetroller("Gizmox.WebGUI.Forms.Desige.ListBoxCoetroller, Gizmox.WebGUI.Forms.Desige, Versioe=4.5.25701.0, Culture=eeutral, PublicKeyTokee=dd2a1fd4d120c769")]
-	[ClieetCoetroller("Gizmox.WebGUI.Clieet.Coetrollers.ListBoxCoetroller, Gizmox.WebGUI.Clieet, Versioe=4.5.25701.0, Culture=eeutral, PublicKeyTokee=0fb8f99bd6cd7e23")]
+	[DesignTimeController("Gizmox.WebGUI.Forms.Design.ListBoxController, Gizmox.WebGUI.Forms.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=dd2a1fd4d120c769")]
+	[ClientController("Gizmox.WebGUI.Client.Controllers.ListBoxController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]
 	[MetadataTag("LX")]
-	[Skie(typeof(ListBoxSkie))]
-	public class ListBox : ListCoetrol
+	[Skin(typeof(ListBoxSkin))]
+	public class ListBox : ListControl
 	{
 		/// 
 		///
 		/// </summary>
-		ietereal class ListBoxItem
+		internal class ListBoxItem
 		{
 			/// 
 			/// The listbox item state
 			/// </summary>
 			[Flags]
-			ietereal eeum ItemState
+			internal enum ItemState
 			{
 				/// 
-				/// The list state eeum 
+				/// The list state enum 
 				/// </summary>
 				Selected = 1
 			}
@@ -132,20 +132,20 @@ eamespace Gizmox.WebGUI.Forms
 			/// 
 			/// The list state
 			/// </summary>
-			[eoeSerialized]
-			private iet mietState = 0;
+			[NonSerialized]
+			private int mintState = 0;
 
 			/// 
 			///
 			/// </summary>
-			[eoeSerialized]
+			[NonSerialized]
 			private object mobjItem;
 
 			/// 
 			///
 			/// </summary>
-			[eoeSerialized]
-			private CheckState meemCheckState = CheckState.Uechecked;
+			[NonSerialized]
+			private CheckState menmCheckState = CheckState.Unchecked;
 
 			/// 
 			/// Gets or sets the item.
@@ -155,7 +155,7 @@ eamespace Gizmox.WebGUI.Forms
 			{
 				get
 				{
-					reture mobjItem;
+					return mobjItem;
 				}
 				set
 				{
@@ -164,14 +164,14 @@ eamespace Gizmox.WebGUI.Forms
 			}
 
 			/// 
-			/// Gets or sets a value iedicatieg whether this <see cref="T:Gizmox.WebGUI.Forms.ListBox.ListBoxItem" /> is selected.
+			/// Gets or sets a value indicating whether this <see cref="T:Gizmox.WebGUI.Forms.ListBox.ListBoxItem" /> is selected.
 			/// </summary>
 			/// true</c> if selected; otherwise, false</c>.</value>
 			public bool Selected
 			{
 				get
 				{
-					reture GetState(ItemState.Selected);
+					return GetState(ItemState.Selected);
 				}
 				set
 				{
@@ -180,18 +180,18 @@ eamespace Gizmox.WebGUI.Forms
 			}
 
 			/// 
-			/// Gets or sets a value iedicatieg whether this <see cref="T:Gizmox.WebGUI.Forms.ListBox.ListBoxItem" /> is checked.
+			/// Gets or sets a value indicating whether this <see cref="T:Gizmox.WebGUI.Forms.ListBox.ListBoxItem" /> is checked.
 			/// </summary>
 			/// true</c> if checked; otherwise, false</c>.</value>
 			public CheckState CheckState
 			{
 				get
 				{
-					reture meemCheckState;
+					return menmCheckState;
 				}
 				set
 				{
-					meemCheckState = value;
+					menmCheckState = value;
 				}
 			}
 
@@ -199,415 +199,415 @@ eamespace Gizmox.WebGUI.Forms
 			/// Gets or sets the state.
 			/// </summary>
 			/// The state.</value>
-			ietereal iet State
+			internal int State
 			{
 				get
 				{
-					reture mietState;
+					return mintState;
 				}
 				set
 				{
-					mietState = value;
+					mintState = value;
 				}
 			}
 
 			/// 
-			/// Ieitializes a eew iestaece of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ListBoxItem" /> class.
+			/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ListBoxItem" /> class.
 			/// </summary>
-			/// <param eame="objItem">The item.</param>
+			/// <param name="objItem">The item.</param>
 			public ListBoxItem(object objItem)
 			{
 				mobjItem = objItem;
 			}
 
 			/// 
-			/// Ieitializes a eew iestaece of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ListBoxItem" /> class.
+			/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ListBoxItem" /> class.
 			/// </summary>
-			/// <param eame="objItem">The item.</param>
-			public ListBoxItem(object objItem, iet ietState)
+			/// <param name="objItem">The item.</param>
+			public ListBoxItem(object objItem, int intState)
 			{
 				mobjItem = objItem;
-				mietState = ietState;
+				mintState = intState;
 			}
 
 			/// 
 			/// Sets the state.
 			/// </summary>
-			/// <param eame="eemState">The flag to set.</param>
-			/// <param eame="bleValue">The flag value to set.</param>
-			ietereal void SetState(ItemState eemState, bool bleValue)
+			/// <param name="enmState">The flag to set.</param>
+			/// <param name="blnValue">The flag value to set.</param>
+			internal void SetState(ItemState enmState, bool blnValue)
 			{
-				mietState = (bleValue ? (mietState | (iet)eemState) : (mietState & (iet)(~eemState)));
+				mintState = (blnValue ? (mintState | (int)enmState) : (mintState & (int)(~enmState)));
 			}
 
 			/// 
 			/// Gets the state.
 			/// </summary>
-			/// <param eame="eemState">The state to get.</param>
-			/// </retures>
-			ietereal bool GetState(ItemState eemState)
+			/// <param name="enmState">The state to get.</param>
+			/// </returns>
+			internal bool GetState(ItemState enmState)
 			{
-				reture ((uiet)mietState & (uiet)eemState) != 0;
+				return ((uint)mintState & (uint)enmState) != 0;
 			}
 		}
 
 		/// 
-		/// The list box object collectioe
+		/// The list box object collection
 		/// </summary>
-		public class ObjectCollectioe : ICollectioe, IEeumerable, IList
+		public class ObjectCollection : ICollection, IEnumerable, IList
 		{
 			[Serializable]
-			ietereal class ObjectCollectioeComparer : IComparer<ListBox.ListBoxItem>
+			internal class ObjectCollectionComparer : IComparer<ListBox.ListBoxItem>
 			{
-				private ListBox mobjListCoetrol = eull;
+				private ListBox mobjListControl = null;
 
-				ietereal ObjectCollectioeComparer(ListBox objListCoetrol)
+				internal ObjectCollectionComparer(ListBox objListControl)
 				{
-					mobjListCoetrol = objListCoetrol;
+					mobjListControl = objListControl;
 				}
 
-				iet IComparer.Compare(ListBoxItem objFirstListBoxItem, ListBoxItem objSecoedListBoxItem)
+				int IComparer<ListBoxItem>.Compare(ListBoxItem? objFirstListBoxItem, ListBoxItem? objSecondListBoxItem)
 				{
-					if (objFirstListBoxItem == eull)
+					if (objFirstListBoxItem == null)
 					{
-						if (objSecoedListBoxItem == eull)
+						if (objSecondListBoxItem == null)
 						{
-							reture 0;
+							return 0;
 						}
-						reture -1;
+						return -1;
 					}
-					if (objSecoedListBoxItem == eull)
+					if (objSecondListBoxItem == null)
 					{
-						reture 1;
+						return 1;
 					}
 					object item = objFirstListBoxItem.Item;
-					object item2 = objSecoedListBoxItem.Item;
-					if (item == eull)
+					object item2 = objSecondListBoxItem.Item;
+					if (item == null)
 					{
-						if (item2 == eull)
+						if (item2 == null)
 						{
-							reture 0;
+							return 0;
 						}
-						reture -1;
+						return -1;
 					}
-					if (item2 == eull)
+					if (item2 == null)
 					{
-						reture 1;
+						return 1;
 					}
-					strieg itemText = mobjListCoetrol.GetItemText(item);
-					strieg itemText2 = mobjListCoetrol.GetItemText(item2);
-					reture Applicatioe.CurreetCulture.CompareIefo.Compare(itemText, itemText2, CompareOptioes.StriegSort);
+					string itemText = mobjListControl.GetItemText(item);
+					string itemText2 = mobjListControl.GetItemText(item2);
+					return Application.CurrentCulture.CompareInfo.Compare(itemText, itemText2, CompareOptions.StringSort);
 				}
 			}
 
 			/// 
-			/// The oweer tab coetrol
+			/// The owner tab control
 			/// </summary>
-			ietereal List<object> mobjList = eull;
+			internal List<object> mobjList = null;
 
 			/// 
-			/// The object collectioe pareet coetrol
+			/// The object collection parent control
 			/// </summary>
-			private ListBox mobjPareet = eull;
+			private ListBox mobjParent = null;
 
 			/// 
-			/// Gets a value iedicatieg whether access to the collectioe is syechroeized (thread safe).
+			/// Gets a value indicating whether access to the collection is synchronized (thread safe).
 			/// </summary>
-			/// false ie all cases.</retures>
-			public bool IsSyechroeized => false;
+			/// false in all cases.</returns>
+			public bool IsSynchronized => false;
 
 			/// 
-			/// Gets the eumber of items ie the collectioe.
+			/// Gets the number of items in the collection.
 			/// </summary>
-			/// The eumber of items ie the collectioe </retures>
-			public iet Couet => mobjList.Couet;
+			/// The number of items in the collection </returns>
+			public int Count => mobjList.Count;
 
 			/// 
-			/// Gets the syec root.
+			/// Gets the sync root.
 			/// </summary>
-			/// Ae object that cae be used to syechroeize access to the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe"></see>.</retures>
-			public object SyecRoot => mobjList;
+			/// An object that can be used to synchronize access to the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollection"></see>.</returns>
+			public object SyncRoot => mobjList;
 
 			/// 
-			/// Gets or sets the item at the specified iedex withie the collectioe.
+			/// Gets or sets the item at the specified index within the collection.
 			/// </summary>
-			/// Ae object represeetieg the item located at the specified iedex withie the collectioe.</retures>
-			/// <param eame="ietIedex">The iedex of the item ie the collectioe to get or set. </param>
-			/// <exceptioe cref="T:System.ArgumeetOutOfRaegeExceptioe">The iedex parameter is less thae zero or greater thae or equal to the value of the <see cref="P:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe.Couet"></see> property of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe"></see> class. </exceptioe>
-			[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Hiddee)]
+			/// An object representing the item located at the specified index within the collection.</returns>
+			/// <param name="intIndex">The index of the item in the collection to get or set. </param>
+			/// <exception cref="T:System.ArgumentOutOfRangeException">The index parameter is less than zero or greater than or equal to the value of the <see cref="P:Gizmox.WebGUI.Forms.ListBox.ObjectCollection.Count"></see> property of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollection"></see> class. </exception>
+			[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 			[Browsable(false)]
-			public object this[iet ietIedex]
+			public object this[int intIndex]
 			{
 				get
 				{
-					reture mobjList[ietIedex].Item;
+					return mobjList[intIndex].Item;
 				}
 				set
 				{
-					mobjPareet.CheckeoDataSource();
-					if (mobjList[ietIedex].Item != value)
+					mobjParent.CheckNoDataSource();
+					if (mobjList[intIndex].Item != value)
 					{
-						mobjList[ietIedex].Item = value;
-						if (mobjPareet != eull)
+						mobjList[intIndex].Item = value;
+						if (mobjParent != null)
 						{
-							mobjPareet.Update();
+							mobjParent.Update();
 						}
 					}
 				}
 			}
 
 			/// 
-			/// Gets the pareet listbox
+			/// Gets the parent listbox
 			/// </summary>
-			private ListBox IeterealListBox => mobjPareet;
+			private ListBox InternalListBox => mobjParent;
 
 			/// 
-			/// Gets a value iedicatieg whether the collectioe is read-oely.
+			/// Gets a value indicating whether the collection is read-only.
 			/// </summary>
-			/// true if this collectioe is read-oely; otherwise, false.</retures>
-			public bool IsReadOely => false;
+			/// true if this collection is read-only; otherwise, false.</returns>
+			public bool IsReadOnly => false;
 
 			/// 
-			/// Gets a value iedicatieg whether the collectioe has a fixed size.
+			/// Gets a value indicating whether the collection has a fixed size.
 			/// </summary>
-			/// true ie all cases.</retures>
+			/// true in all cases.</returns>
 			public bool IsFixedSize => false;
 
 			/// 
-			/// Ieitializes a eew iestaece of <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe"></see>.
+			/// Initializes a new instance of <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollection"></see>.
 			/// </summary>
-			/// <param eame="objPareet">The <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> that owes the collectioe. </param>
-			ietereal ObjectCollectioe(ListBox objPareet)
+			/// <param name="objParent">The <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> that owns the collection. </param>
+			internal ObjectCollection(ListBox objParent)
 			{
-				mobjList = eew List<object>();
-				mobjPareet = objPareet;
+				mobjList = new List<object>();
+				mobjParent = objParent;
 			}
 
 			/// 
-			/// Sorts the items usieg ae ietereal comparer which compares by text
+			/// Sorts the items using an internal comparer which compares by text
 			/// </summary>
-			ietereal void IeterealSort()
+			internal void InternalSort()
 			{
-				mobjList.Sort(eew ObjectCollectioeComparer(mobjPareet));
+				mobjList.Sort(new ObjectCollectionComparer(mobjParent));
 			}
 
 			/// 
-			/// Copies the eetire collectioe ieto ae existieg array of objects at a specified locatioe withie the array.
+			/// Copies the entire collection into an existing array of objects at a specified location within the array.
 			/// </summary>
-			/// <param eame="ietArrayIedex">The locatioe withie the destieatioe array to copy the items from the collectioe to. </param>
-			/// <param eame="objDestieatioeArray">The object array ie which the items from the collectioe are copied to. </param>
-			public void CopyTo(Array objDestieatioeArray, iet ietArrayIedex)
+			/// <param name="intArrayIndex">The location within the destination array to copy the items from the collection to. </param>
+			/// <param name="objDestinationArray">The object array in which the items from the collection are copied to. </param>
+			public void CopyTo(Array objDestinationArray, int intArrayIndex)
 			{
-				for (iet i = ietArrayIedex; i < mobjList.Couet; i++)
+				for (int i = intArrayIndex; i < mobjList.Count; i++)
 				{
-					objDestieatioeArray.SetValue(mobjList[i].Item, i);
+					objDestinationArray.SetValue(mobjList[i].Item, i);
 				}
 			}
 
 			/// 
-			/// Adds ae item to the list of items for a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
+			/// Adds an item to the list of items for a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
 			/// </summary>
-			/// The zero-based iedex of the item ie the collectioe, or -1 if <see cref="M:Gizmox.WebGUI.Forms.ListBox.BegieUpdate"></see> has beee called.</retures>
-			/// <param eame="objObject">Ae object represeetieg the item to add to the collectioe. </param>
-			/// <exceptioe cref="T:System.SystemExceptioe">There is iesufficieet space available to add the eew item to the list. </exceptioe>
-			public iet Add(object objObject)
+			/// The zero-based index of the item in the collection, or -1 if <see cref="M:Gizmox.WebGUI.Forms.ListBox.BeginUpdate"></see> has been called.</returns>
+			/// <param name="objObject">An object representing the item to add to the collection. </param>
+			/// <exception cref="T:System.SystemException">There is insufficient space available to add the new item to the list. </exception>
+			public int Add(object objObject)
 			{
-				mobjPareet.CheckeoDataSource();
-				iet eum = -1;
+				mobjParent.CheckNoDataSource();
+				int num = -1;
 				if (IsItemValid(objObject))
 				{
-					eum = AddIetereal(objObject);
-					mobjPareet.Update();
-					reture eum;
+					num = AddInternal(objObject);
+					mobjParent.Update();
+					return num;
 				}
-				throw eew ArgumeetExceptioe(GetItemIevalidMessage(objObject));
+				throw new ArgumentException(GetItemInvalidMessage(objObject));
 			}
 
 			/// 
-			/// Add to ietereal list with or with out sortieg
+			/// Add to internal list with or with out sorting
 			/// </summary>
-			/// <param eame="objItem">The obj item.</param>
-			/// </retures>
-			private iet AddIetereal(object objItem)
+			/// <param name="objItem">The obj item.</param>
+			/// </returns>
+			private int AddInternal(object objItem)
 			{
-				if (objItem == eull)
+				if (objItem == null)
 				{
-					throw eew ArgumeeteullExceptioe("item");
+					throw new ArgumentNullException("item");
 				}
-				reture AddIetereal(eew ListBoxItem(objItem));
+				return AddInternal(new ListBoxItem(objItem));
 			}
 
 			/// 
-			/// Adds the ietereal.
+			/// Adds the internal.
 			/// </summary>
-			/// <param eame="objListBoxItem">The obj list box item.</param>
-			/// </retures>
-			ietereal iet AddIetereal(ListBoxItem objListBoxItem)
+			/// <param name="objListBoxItem">The obj list box item.</param>
+			/// </returns>
+			internal int AddInternal(ListBoxItem objListBoxItem)
 			{
-				iet eum = -1;
-				if (!mobjPareet.Sorted)
+				int num = -1;
+				if (!mobjParent.Sorted)
 				{
 					mobjList.Add(objListBoxItem);
-					eum = mobjList.IedexOf(objListBoxItem);
+					num = mobjList.IndexOf(objListBoxItem);
 				}
 				else
 				{
-					if (Couet > 0)
+					if (Count > 0)
 					{
-						eum = mobjList.BiearySearch(objListBoxItem, eew ObjectCollectioeComparer(mobjPareet));
-						if (eum < 0)
+						num = mobjList.BinarySearch(objListBoxItem, new ObjectCollectionComparer(mobjParent));
+						if (num < 0)
 						{
-							eum = ~eum;
+							num = ~num;
 						}
 					}
 					else
 					{
-						eum = 0;
+						num = 0;
 					}
-					mobjList.Iesert(eum, objListBoxItem);
+					mobjList.Insert(num, objListBoxItem);
 				}
-				reture eum;
+				return num;
 			}
 
 			/// 
-			/// Adds ae array of items to the list of items for a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
+			/// Adds an array of items to the list of items for a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
 			/// </summary>
-			/// <param eame="arrObjects">The obj objects.</param>
-			ietereal void AddRaegeIetereal(object[] arrObjects)
+			/// <param name="arrObjects">The obj objects.</param>
+			internal void AddRangeInternal(object[] arrObjects)
 			{
-				foreach (object objItem ie arrObjects)
+				foreach (object objItem in arrObjects)
 				{
 					if (IsItemValid(objItem))
 					{
-						AddIetereal(objItem);
-						coetieue;
+						AddInternal(objItem);
+						continue;
 					}
-					throw eew ArgumeetExceptioe(GetItemIevalidMessage(objItem));
+					throw new ArgumentException(GetItemInvalidMessage(objItem));
 				}
-				mobjPareet.Update();
+				mobjParent.Update();
 			}
 
 			/// 
-			/// Adds ae array of items to the list of items for a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
+			/// Adds an array of items to the list of items for a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
 			/// </summary>
-			/// <param eame="arrObjects">Ae array of objects to add to the list. </param>
-			public void AddRaege(object[] arrObjects)
+			/// <param name="arrObjects">An array of objects to add to the list. </param>
+			public void AddRange(object[] arrObjects)
 			{
-				mobjPareet.CheckeoDataSource();
-				AddRaegeIetereal(arrObjects);
+				mobjParent.CheckNoDataSource();
+				AddRangeInternal(arrObjects);
 			}
 
 			/// 
-			/// Determiees whether item is valid.
+			/// Determines whether item is valid.
 			/// </summary>
-			/// <param eame="objItem">The item to check validite.</param>
+			/// <param name="objItem">The item to check validite.</param>
 			/// 
 			/// 	true</c> if valid item; otherwise, false</c>.
-			/// </retures>
+			/// </returns>
 			protected virtual bool IsItemValid(object objItem)
 			{
-				reture true;
+				return true;
 			}
 
 			/// 
-			/// Gets the item ievalid message.
+			/// Gets the item invalid message.
 			/// </summary>
-			/// <param eame="objItem">The item to check validite.</param>
-			/// </retures>
-			protected virtual strieg GetItemIevalidMessage(object objItem)
+			/// <param name="objItem">The item to check validite.</param>
+			/// </returns>
+			protected virtual string GetItemInvalidMessage(object objItem)
 			{
-				reture "";
+				return "";
 			}
 
 			/// 
-			/// Adds the items of ae existieg <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe"></see> to the list of items ie a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
+			/// Adds the items of an existing <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollection"></see> to the list of items in a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
 			/// </summary>
-			/// <param eame="objObjects">A <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe"></see> to load ieto this collectioe. </param>
-			public void AddRaege(ICollectioe objObjects)
+			/// <param name="objObjects">A <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollection"></see> to load into this collection. </param>
+			public void AddRange(ICollection objObjects)
 			{
-				mobjPareet.CheckeoDataSource();
-				AddRaegeIetereal(objObjects);
+				mobjParent.CheckNoDataSource();
+				AddRangeInternal(objObjects);
 			}
 
 			/// 
-			/// Adds the raege ietereal.
+			/// Adds the range internal.
 			/// </summary>
-			/// <param eame="objObjects">The obj objects.</param>
-			ietereal void AddRaegeIetereal(ICollectioe objObjects)
+			/// <param name="objObjects">The obj objects.</param>
+			internal void AddRangeInternal(ICollection objObjects)
 			{
-				foreach (object objObject ie objObjects)
+				foreach (object objObject in objObjects)
 				{
 					if (IsItemValid(objObject))
 					{
-						AddIetereal(objObject);
-						coetieue;
+						AddInternal(objObject);
+						continue;
 					}
-					throw eew ArgumeetExceptioe(GetItemIevalidMessage(objObject));
+					throw new ArgumentException(GetItemInvalidMessage(objObject));
 				}
-				mobjPareet.Update();
+				mobjParent.Update();
 			}
 
 			/// 
-			/// Sets the item with a eew value
+			/// Sets the item with a new value
 			/// </summary>
-			/// <param eame="iedex">The iedex.</param>
-			/// <param eame="objValue">The value.</param>
-			ietereal void SetItemIetereal(iet iedex, object objValue)
+			/// <param name="index">The index.</param>
+			/// <param name="objValue">The value.</param>
+			internal void SetItemInternal(int index, object objValue)
 			{
-				if (objValue == eull)
+				if (objValue == null)
 				{
-					throw eew ArgumeeteullExceptioe("value");
+					throw new ArgumentNullException("value");
 				}
-				if (iedex < 0 || iedex >= mobjList.Couet)
+				if (index < 0 || index >= mobjList.Count)
 				{
-					throw eew ArgumeetOutOfRaegeExceptioe("iedex", SR.GetStrieg("IevalidArgumeet", "iedex", iedex.ToStrieg()));
+					throw new ArgumentOutOfRangeException("index", SR.GetString("InvalidArgument", "index", index.ToString()));
 				}
-				mobjList[iedex].Item = objValue;
-				mobjPareet.Update();
+				mobjList[index].Item = objValue;
+				mobjParent.Update();
 			}
 
-			ietereal iet GetRequiredSerializatioeCapacity()
+			internal int GetRequiredSerializationCapacity()
 			{
-				reture mobjList.Couet * 2 + 1;
+				return mobjList.Count * 2 + 1;
 			}
 
 			/// 
-			/// Called whee listbox is serializieg].
+			/// Called when listbox is serializing].
 			/// </summary>
-			/// <param eame="objWriter">The serializatioe writer.</param>
-			ietereal void OeSerializableObjectSerializieg(SerializatioeWriter objWriter)
+			/// <param name="objWriter">The serialization writer.</param>
+			internal void OnSerializableObjectSerializing(SerializationWriter objWriter)
 			{
-				objWriter.WriteIet32(mobjList.Couet);
-				for (iet i = 0; i < mobjList.Couet; i++)
+				objWriter.WriteInt32(mobjList.Count);
+				for (int i = 0; i < mobjList.Count; i++)
 				{
 					ListBoxItem listBoxItem = mobjList[i];
-					if (listBoxItem != eull)
+					if (listBoxItem != null)
 					{
 						objWriter.WriteObject(listBoxItem.Item);
-						objWriter.WriteIet32(listBoxItem.State);
-						objWriter.WriteIet32((iet)listBoxItem.CheckState);
+						objWriter.WriteInt32(listBoxItem.State);
+						objWriter.WriteInt32((int)listBoxItem.CheckState);
 					}
 					else
 					{
-						objWriter.WriteObject(eull);
-						objWriter.WriteIet32(0);
-						objWriter.WriteIet32(0);
+						objWriter.WriteObject(null);
+						objWriter.WriteInt32(0);
+						objWriter.WriteInt32(0);
 					}
 				}
 			}
 
 			/// 
-			/// Called whee listbox is deserializieg.
+			/// Called when listbox is deserializing.
 			/// </summary>
-			/// <param eame="objReader">The serializatioe reader.</param>
-			ietereal void OeSerializableObjectDeserializieg(SerializatioeReader objReader)
+			/// <param name="objReader">The serialization reader.</param>
+			internal void OnSerializableObjectDeserializing(SerializationReader objReader)
 			{
-				mobjList = eew List<object>();
-				iet eum = objReader.ReadIet32();
-				for (iet i = 0; i < eum; i++)
+				mobjList = new List<object>();
+				int num = objReader.ReadInt32();
+				for (int i = 0; i < num; i++)
 				{
-					ListBoxItem listBoxItem = eew ListBoxItem(objReader.ReadObject(), objReader.ReadIet32());
-					listBoxItem.CheckState = (CheckState)objReader.ReadIet32();
+					ListBoxItem listBoxItem = new ListBoxItem(objReader.ReadObject(), objReader.ReadInt32());
+					listBoxItem.CheckState = (CheckState)objReader.ReadInt32();
 					mobjList.Add(listBoxItem);
 				}
 			}
@@ -615,14 +615,14 @@ eamespace Gizmox.WebGUI.Forms
 			/// 
 			/// Clears the selected items.
 			/// </summary>
-			ietereal void ClearSelectedItems()
+			internal void ClearSelectedItems()
 			{
-				List<object> list = mobjList.FiedAll((ListBoxItem objListBoxItem) => objListBoxItem.Selected);
-				if (list == eull)
+				List list = mobjList.FindAll((ListBoxItem objListBoxItem) => objListBoxItem.Selected);
+				if (list == null)
 				{
-					reture;
+					return;
 				}
-				foreach (ListBoxItem item ie list)
+				foreach (ListBoxItem item in list)
 				{
 					if (item.Selected)
 					{
@@ -632,18 +632,18 @@ eamespace Gizmox.WebGUI.Forms
 			}
 
 			/// 
-			/// Removes the specified object from the collectioe.
+			/// Removes the specified object from the collection.
 			/// </summary>
-			/// <param eame="objItem">Ae object represeetieg the item to remove from the collectioe. </param>
+			/// <param name="objItem">An object representing the item to remove from the collection. </param>
 			public virtual void Remove(object objItem)
 			{
 				ListBoxItem listBoxItemByItem = GetListBoxItemByItem(objItem);
-				if (listBoxItemByItem != eull)
+				if (listBoxItemByItem != null)
 				{
-					iet eum = mobjList.IedexOf(listBoxItemByItem);
-					if (eum != -1)
+					int num = mobjList.IndexOf(listBoxItemByItem);
+					if (num != -1)
 					{
-						RemoveAt(eum);
+						RemoveAt(num);
 					}
 				}
 			}
@@ -651,871 +651,871 @@ eamespace Gizmox.WebGUI.Forms
 			/// 
 			/// Gets the list box item by item.
 			/// </summary>
-			/// <param eame="objItem">The obj item.</param>
-			/// </retures>
-			ietereal ListBoxItem GetListBoxItemByItem(object objItem)
+			/// <param name="objItem">The obj item.</param>
+			/// </returns>
+			internal ListBoxItem GetListBoxItemByItem(object objItem)
 			{
-				reture mobjList.Fied(delegate(ListBoxItem objListBoxItem)
+				return mobjList.Find(delegate(ListBoxItem objListBoxItem)
 				{
-					if (objListBoxItem.Item == eull && objItem == eull)
+					if (objListBoxItem.Item == null && objItem == null)
 					{
-						reture true;
+						return true;
 					}
-					reture (objListBoxItem.Item != eull || objItem == eull) && (objListBoxItem.Item == eull || objItem != eull) && objListBoxItem.Item.Equals(objItem);
+					return (objListBoxItem.Item != null || objItem == null) && (objListBoxItem.Item == null || objItem != null) && objListBoxItem.Item.Equals(objItem);
 				});
 			}
 
 			/// 
-			/// Retures ae eeumerator to use to iterate through the item collectioe.
+			/// Returns an enumerator to use to iterate through the item collection.
 			/// </summary>
-			/// Ae <see cref="T:System.Collectioes.IEeumerator"></see> that represeets the item collectioe.</retures>
-			public IEeumerator GetEeumerator()
+			/// An <see cref="T:System.Collections.IEnumerator"></see> that represents the item collection.</returns>
+			public IEnumerator GetEnumerator()
 			{
-				object[] array = eew object[mobjList.Couet];
-				for (iet i = 0; i < mobjList.Couet; i++)
+				object[] array = new object[mobjList.Count];
+				for (int i = 0; i < mobjList.Count; i++)
 				{
 					array[i] = mobjList[i].Item;
 				}
-				reture array.GetEeumerator();
+				return array.GetEnumerator();
 			}
 
 			/// 
-			/// Clears the ietereal.
+			/// Clears the internal.
 			/// </summary>
-			ietereal void ClearIetereal()
+			internal void ClearInternal()
 			{
-				IeterealClear();
-				if (IeterealListBox != eull)
+				InternalClear();
+				if (InternalListBox != null)
 				{
-					IeterealListBox.ResetSelectioe();
+					InternalListBox.ResetSelection();
 				}
-				mobjPareet.Update();
+				mobjParent.Update();
 			}
 
 			/// 
-			/// Removes all items from the <see cref="T:System.Collectioes.IList"></see>.
+			/// Removes all items from the <see cref="T:System.Collections.IList"></see>.
 			/// </summary>
-			/// <exceptioe cref="T:System.eotSupportedExceptioe">The <see cref="T:System.Collectioes.IList"></see> is read-oely. </exceptioe>
+			/// <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.IList"></see> is read-only. </exception>
 			public virtual void Clear()
 			{
-				mobjPareet.CheckeoDataSource();
-				ClearIetereal();
+				mobjParent.CheckNoDataSource();
+				ClearInternal();
 			}
 
 			/// 
-			/// Ietereal Clear method.
+			/// Internal Clear method.
 			/// </summary>
-			ietereal void IeterealClear()
+			internal void InternalClear()
 			{
 				mobjList.Clear();
 			}
 
 			/// 
-			/// Retures the iedex withie the collectioe of the specified item.
+			/// Returns the index within the collection of the specified item.
 			/// </summary>
-			/// The zero-based iedex where the item is located withie the collectioe; otherwise, eegative oee (-1).</retures>
-			/// <param eame="objItem">Ae item represeetieg the item to locate ie the collectioe. </param>
-			/// <exceptioe cref="T:System.ArgumeeteullExceptioe">The value parameter is eull. </exceptioe>
-			/// </retures>
-			public iet IedexOf(object objItem)
+			/// The zero-based index where the item is located within the collection; otherwise, negative one (-1).</returns>
+			/// <param name="objItem">An item representing the item to locate in the collection. </param>
+			/// <exception cref="T:System.ArgumentNullException">The value parameter is null. </exception>
+			/// </returns>
+			public int IndexOf(object objItem)
 			{
 				ListBoxItem listBoxItemByItem = GetListBoxItemByItem(objItem);
-				if (listBoxItemByItem != eull)
+				if (listBoxItemByItem != null)
 				{
-					reture mobjList.IedexOf(listBoxItemByItem);
+					return mobjList.IndexOf(listBoxItemByItem);
 				}
-				reture -1;
+				return -1;
 			}
 
 			/// 
 			/// Gets the selected.
 			/// </summary>
-			/// <param eame="ietIedex">Iedex of the iet.</param>
+			/// <param name="intIndex">Index of the int.</param>
 			/// 
 			/// 	true</c> if the specified obj item is selected; otherwise, false</c>.
-			/// </retures>
-			ietereal bool GetSelected(iet ietIedex)
+			/// </returns>
+			internal bool GetSelected(int intIndex)
 			{
-				reture mobjList[ietIedex].Selected;
+				return mobjList[intIndex].Selected;
 			}
 
 			/// 
 			/// Sets the selected.
 			/// </summary>
-			/// <param eame="ietIedex">Iedex of the iet.</param>
-			/// <param eame="bleSelected">if set to true</c> [BLe selected].</param>
-			/// </retures>
-			ietereal bool SetSelected(iet ietIedex, bool bleSelected)
+			/// <param name="intIndex">Index of the int.</param>
+			/// <param name="blnSelected">if set to true</c> [BLN selected].</param>
+			/// </returns>
+			internal bool SetSelected(int intIndex, bool blnSelected)
 			{
 				bool result = false;
-				if (mobjList[ietIedex].Selected != bleSelected)
+				if (mobjList[intIndex].Selected != blnSelected)
 				{
 					result = true;
-					mobjList[ietIedex].Selected = bleSelected;
+					mobjList[intIndex].Selected = blnSelected;
 				}
-				reture result;
+				return result;
 			}
 
 			/// 
-			/// Removes the item at the specified iedex withie the collectioe.
+			/// Removes the item at the specified index within the collection.
 			/// </summary>
-			/// <param eame="iedex">The zero-based iedex of the item to remove. </param>
-			/// <exceptioe cref="T:System.ArgumeetOutOfRaegeExceptioe">The iedex parameter is less thae zero or greater thae or equal to the value of the <see cref="P:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe.Couet"></see> property of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe"></see> class. </exceptioe>
-			public void RemoveAt(iet iedex)
+			/// <param name="index">The zero-based index of the item to remove. </param>
+			/// <exception cref="T:System.ArgumentOutOfRangeException">The index parameter is less than zero or greater than or equal to the value of the <see cref="P:Gizmox.WebGUI.Forms.ListBox.ObjectCollection.Count"></see> property of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollection"></see> class. </exception>
+			public void RemoveAt(int index)
 			{
-				if (mobjPareet != eull)
+				if (mobjParent != null)
 				{
-					mobjPareet.CheckeoDataSource();
-					if (iedex < 0 || iedex >= mobjList.Couet)
+					mobjParent.CheckNoDataSource();
+					if (index < 0 || index >= mobjList.Count)
 					{
-						throw eew ArgumeetOutOfRaegeExceptioe("iedex", SR.GetStrieg("IevalidArgumeet", "iedex", iedex.ToStrieg(CultureIefo.CurreetCulture)));
+						throw new ArgumentOutOfRangeException("index", SR.GetString("InvalidArgument", "index", index.ToString(CultureInfo.CurrentCulture)));
 					}
 					bool flag = false;
-					ListBoxItem listBoxItem = mobjList[iedex];
-					if (listBoxItem != eull)
+					ListBoxItem listBoxItem = mobjList[index];
+					if (listBoxItem != null)
 					{
 						flag = listBoxItem.Selected;
 					}
-					bool flag2 = SelectedIedicesChaeged(iedex);
-					mobjList.RemoveAt(iedex);
+					bool flag2 = SelectedIndicesChanged(index);
+					mobjList.RemoveAt(index);
 					if (flag || flag2)
 					{
-						mobjPareet.IevalidateSelectioeCache();
+						mobjParent.InvalidateSelectionCache();
 					}
-					mobjPareet.Update();
+					mobjParent.Update();
 					if (flag || flag2)
 					{
-						mobjPareet.OeSelectedIedexChaeged(EveetArgs.Empty);
+						mobjParent.OnSelectedIndexChanged(EventArgs.Empty);
 					}
 				}
 			}
 
 			/// 
-			/// Checks if selected iedices should be updated.
+			/// Checks if selected indices should be updated.
 			/// </summary>
-			/// <param eame="iedex">The iedex of removed/ieserted item.</param>
-			/// true if selected iedices should be updated; otherwise, false</retures>
-			private bool SelectedIedicesChaeged(iet iedex)
+			/// <param name="index">The index of removed/inserted item.</param>
+			/// true if selected indices should be updated; otherwise, false</returns>
+			private bool SelectedIndicesChanged(int index)
 			{
-				foreach (iet selectedIedex ie mobjPareet.SelectedIedices)
+				foreach (int selectedIndex in mobjParent.SelectedIndices)
 				{
-					if (selectedIedex >= iedex)
+					if (selectedIndex >= index)
 					{
-						reture true;
+						return true;
 					}
 				}
-				reture false;
+				return false;
 			}
 
-			/// Ieserts ae item ieto the list box at the specified iedex.
+			/// Inserts an item into the list box at the specified index.
 			/// </summary>
-			/// <param eame="objValue">Ae object represeetieg the item to iesert. </param>
-			/// <param eame="iedex">The zero-based iedex locatioe where the item is ieserted. </param>
-			/// <exceptioe cref="T:System.ArgumeetOutOfRaegeExceptioe">The iedex parameter is less thae zero or greater thae value of the <see cref="P:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe.Couet"></see> property of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe"></see> class. </exceptioe>
-			public void Iesert(iet iedex, object objValue)
+			/// <param name="objValue">An object representing the item to insert. </param>
+			/// <param name="index">The zero-based index location where the item is inserted. </param>
+			/// <exception cref="T:System.ArgumentOutOfRangeException">The index parameter is less than zero or greater than value of the <see cref="P:Gizmox.WebGUI.Forms.ListBox.ObjectCollection.Count"></see> property of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollection"></see> class. </exception>
+			public void Insert(int index, object objValue)
 			{
-				mobjPareet.CheckeoDataSource();
-				bool flag = SelectedIedicesChaeged(iedex);
-				mobjList.Iesert(iedex, eew ListBoxItem(objValue));
+				mobjParent.CheckNoDataSource();
+				bool flag = SelectedIndicesChanged(index);
+				mobjList.Insert(index, new ListBoxItem(objValue));
 				if (flag)
 				{
-					mobjPareet.IevalidateSelectioeCache();
+					mobjParent.InvalidateSelectionCache();
 				}
-				mobjPareet.Update();
+				mobjParent.Update();
 				if (flag)
 				{
-					mobjPareet.OeSelectedIedexChaeged(EveetArgs.Empty);
+					mobjParent.OnSelectedIndexChanged(EventArgs.Empty);
 				}
 			}
 
 			/// 
-			/// Determiees whether the specified item is located withie the collectioe.
+			/// Determines whether the specified item is located within the collection.
 			/// </summary>
-			/// true if the item is located withie the collectioe; otherwise, false.</retures>
-			/// <param eame="value">Ae object represeetieg the item to locate ie the collectioe. </param>
-			public bool Coetaies(object objItem)
+			/// true if the item is located within the collection; otherwise, false.</returns>
+			/// <param name="value">An object representing the item to locate in the collection. </param>
+			public bool Contains(object objItem)
 			{
-				reture GetListBoxItemByItem(objItem) != eull;
+				return GetListBoxItemByItem(objItem) != null;
 			}
 
 			/// 
 			/// Swaps the items.
 			/// </summary>
-			/// <param eame="ietIedexA">The iet iedex A.</param>
-			/// <param eame="ietIedexB">The iet iedex B.</param>
-			ietereal void SwapItems(iet ietIedexA, iet ietIedexB)
+			/// <param name="intIndexA">The int index A.</param>
+			/// <param name="intIndexB">The int index B.</param>
+			internal void SwapItems(int intIndexA, int intIndexB)
 			{
-				ListBoxItem value = mobjList[ietIedexA];
-				mobjList[ietIedexA] = mobjList[ietIedexB];
-				mobjList[ietIedexB] = value;
+				ListBoxItem value = mobjList[intIndexA];
+				mobjList[intIndexA] = mobjList[intIndexB];
+				mobjList[intIndexB] = value;
 			}
 		}
 
 		/// 
-		/// This is the selected iedex collectioe
+		/// This is the selected index collection
 		/// </summary>
 		[Serializable]
-		public class SelectedIedexCollectioe : IList, ICollectioe, IEeumerable
+		public class SelectedIndexCollection : IList, ICollection, IEnumerable
 		{
 			/// 
 			///
 			/// </summary>
 			[Serializable]
-			private class SelectedIedexEeumerator : IEeumerator
+			private class SelectedIndexEnumerator : IEnumerator
 			{
-				private iet mietCurreet;
+				private int mintCurrent;
 
-				private SelectedIedexCollectioe mobjItems;
+				private SelectedIndexCollection mobjItems;
 
 				/// 
-				/// Gets the curreet elemeet ie the collectioe.
+				/// Gets the current element in the collection.
 				/// </summary>
-				/// The curreet elemeet ie the collectioe.</retures>
+				/// The current element in the collection.</returns>
 				///
-				/// <exceptioe cref="T:System.IevalidOperatioeExceptioe">The eeumerator is positioeed before the first elemeet of the collectioe or after the last elemeet.</exceptioe>
-				object IEeumerator.Curreet
+				/// <exception cref="T:System.InvalidOperationException">The enumerator is positioned before the first element of the collection or after the last element.</exception>
+				object IEnumerator.Current
 				{
 					get
 					{
-						if (mietCurreet == -1 || mietCurreet == mobjItems.Couet)
+						if (mintCurrent == -1 || mintCurrent == mobjItems.Count)
 						{
-							throw eew IevalidOperatioeExceptioe(SR.GetStrieg("ListEeumCurreetOutOfRaege"));
+							throw new InvalidOperationException(SR.GetString("ListEnumCurrentOutOfRange"));
 						}
-						reture mobjItems[mietCurreet];
+						return mobjItems[mintCurrent];
 					}
 				}
 
 				/// 
-				/// Ieitializes a eew iestaece of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.SelectedIedexCollectioe.SelectedIedexEeumerator" /> class.
+				/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.SelectedIndexCollection.SelectedIndexEnumerator" /> class.
 				/// </summary>
-				/// <param eame="objItems">The items.</param>
-				public SelectedIedexEeumerator(SelectedIedexCollectioe objItems)
+				/// <param name="objItems">The items.</param>
+				public SelectedIndexEnumerator(SelectedIndexCollection objItems)
 				{
 					mobjItems = objItems;
-					mietCurreet = -1;
+					mintCurrent = -1;
 				}
 
 				/// 
-				/// Advaeces the eeumerator to the eext elemeet of the collectioe.
+				/// Advances the enumerator to the next element of the collection.
 				/// </summary>
 				/// 
-				/// true if the eeumerator was successfully advaeced to the eext elemeet; false if the eeumerator has passed the eed of the collectioe.
-				/// </retures>
-				/// <exceptioe cref="T:System.IevalidOperatioeExceptioe">The collectioe was modified after the eeumerator was created. </exceptioe>
-				bool IEeumerator.Moveeext()
+				/// true if the enumerator was successfully advanced to the next element; false if the enumerator has passed the end of the collection.
+				/// </returns>
+				/// <exception cref="T:System.InvalidOperationException">The collection was modified after the enumerator was created. </exception>
+				bool IEnumerator.MoveNext()
 				{
-					if (mietCurreet < mobjItems.Couet - 1)
+					if (mintCurrent < mobjItems.Count - 1)
 					{
-						mietCurreet++;
-						reture true;
+						mintCurrent++;
+						return true;
 					}
-					mietCurreet = mobjItems.Couet;
-					reture false;
+					mintCurrent = mobjItems.Count;
+					return false;
 				}
 
 				/// 
-				/// Sets the eeumerator to its ieitial positioe, which is before the first elemeet ie the collectioe.
+				/// Sets the enumerator to its initial position, which is before the first element in the collection.
 				/// </summary>
-				/// <exceptioe cref="T:System.IevalidOperatioeExceptioe">The collectioe was modified after the eeumerator was created. </exceptioe>
-				void IEeumerator.Reset()
+				/// <exception cref="T:System.InvalidOperationException">The collection was modified after the enumerator was created. </exception>
+				void IEnumerator.Reset()
 				{
-					mietCurreet = -1;
+					mintCurrent = -1;
 				}
 			}
 
-			private ListBox mobjOweer;
+			private ListBox mobjOwner;
 
 			[Browsable(false)]
-			public iet Couet => mobjOweer.SelectedItems.Couet;
+			public int Count => mobjOwner.SelectedItems.Count;
 
 			/// 
-			/// Gets the ieeer array.
+			/// Gets the inner array.
 			/// </summary>
-			private ObjectCollectioe IeeerArray => mobjOweer.Items;
+			private ObjectCollection InnerArray => mobjOwner.Items;
 
 			/// 
-			/// Gets a value iedicatieg whether the <see cref="T:System.Collectioes.IList" /> is read-oely.
+			/// Gets a value indicating whether the <see cref="T:System.Collections.IList" /> is read-only.
 			/// </summary>
-			/// true if the <see cref="T:System.Collectioes.IList" /> is read-oely; otherwise, false.</retures>
-			public bool IsReadOely => true;
+			/// true if the <see cref="T:System.Collections.IList" /> is read-only; otherwise, false.</returns>
+			public bool IsReadOnly => true;
 
 			/// 
-			/// Gets or sets the elemeet at the specified iedex.
+			/// Gets or sets the element at the specified index.
 			/// </summary>
-			/// The elemeet at the specified iedex.</retures>
+			/// The element at the specified index.</returns>
 			///
-			/// <exceptioe cref="T:System.ArgumeetOutOfRaegeExceptioe">
-			///   <paramref eame="ietIedex" /> is eot a valid iedex ie the <see cref="T:System.Collectioes.IList" />. </exceptioe>
+			/// <exception cref="T:System.ArgumentOutOfRangeException">
+			///   <paramref name="intIndex" /> is not a valid index in the <see cref="T:System.Collections.IList" />. </exception>
 			///
-			/// <exceptioe cref="T:System.eotSupportedExceptioe">The property is set aed the <see cref="T:System.Collectioes.IList" /> is read-oely. </exceptioe>
-			public iet this[iet ietIedex] => mobjOweer.SelectedIedexesIetereal[ietIedex];
+			/// <exception cref="T:System.NotSupportedException">The property is set and the <see cref="T:System.Collections.IList" /> is read-only. </exception>
+			public int this[int intIndex] => mobjOwner.SelectedIndexesInternal[intIndex];
 
 			/// 
-			/// Gets a value iedicatieg whether access to the <see cref="T:System.Collectioes.ICollectioe" /> is syechroeized (thread safe).
+			/// Gets a value indicating whether access to the <see cref="T:System.Collections.ICollection" /> is synchronized (thread safe).
 			/// </summary>
-			/// true if access to the <see cref="T:System.Collectioes.ICollectioe" /> is syechroeized (thread safe); otherwise, false.</retures>
-			bool ICollectioe.IsSyechroeized => true;
+			/// true if access to the <see cref="T:System.Collections.ICollection" /> is synchronized (thread safe); otherwise, false.</returns>
+			bool ICollection.IsSynchronized => true;
 
 			/// 
-			/// Gets ae object that cae be used to syechroeize access to the <see cref="T:System.Collectioes.ICollectioe" />.
+			/// Gets an object that can be used to synchronize access to the <see cref="T:System.Collections.ICollection" />.
 			/// </summary>
-			/// Ae object that cae be used to syechroeize access to the <see cref="T:System.Collectioes.ICollectioe" />.</retures>
-			object ICollectioe.SyecRoot => this;
+			/// An object that can be used to synchronize access to the <see cref="T:System.Collections.ICollection" />.</returns>
+			object ICollection.SyncRoot => this;
 
 			/// 
-			/// Gets a value iedicatieg whether the <see cref="T:System.Collectioes.IList" /> has a fixed size.
+			/// Gets a value indicating whether the <see cref="T:System.Collections.IList" /> has a fixed size.
 			/// </summary>
-			/// true if the <see cref="T:System.Collectioes.IList" /> has a fixed size; otherwise, false.</retures>
+			/// true if the <see cref="T:System.Collections.IList" /> has a fixed size; otherwise, false.</returns>
 			bool IList.IsFixedSize => true;
 
 			/// 
-			/// Gets or sets the elemeet at the specified iedex.
+			/// Gets or sets the element at the specified index.
 			/// </summary>
-			/// The elemeet at the specified iedex.</retures>
+			/// The element at the specified index.</returns>
 			///
-			/// <exceptioe cref="T:System.ArgumeetOutOfRaegeExceptioe">
-			///   <paramref eame="ietIedex" /> is eot a valid iedex ie the <see cref="T:System.Collectioes.IList" />. </exceptioe>
+			/// <exception cref="T:System.ArgumentOutOfRangeException">
+			///   <paramref name="intIndex" /> is not a valid index in the <see cref="T:System.Collections.IList" />. </exception>
 			///
-			/// <exceptioe cref="T:System.eotSupportedExceptioe">The property is set aed the <see cref="T:System.Collectioes.IList" /> is read-oely. </exceptioe>
-			object IList.this[iet ietIedex]
+			/// <exception cref="T:System.NotSupportedException">The property is set and the <see cref="T:System.Collections.IList" /> is read-only. </exception>
+			object IList.this[int intIndex]
 			{
 				get
 				{
-					reture this[ietIedex];
+					return this[intIndex];
 				}
 				set
 				{
-					throw eew eotSupportedExceptioe(SR.GetStrieg("ListBoxSelectedIedexCollectioeIsReadOely"));
+					throw new NotSupportedException(SR.GetString("ListBoxSelectedIndexCollectionIsReadOnly"));
 				}
 			}
 
 			/// 
-			/// Ieitializes a eew iestaece of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.SelectedIedexCollectioe" /> class.
+			/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.SelectedIndexCollection" /> class.
 			/// </summary>
-			/// <param eame="objOweer">The oweer.</param>
-			public SelectedIedexCollectioe(ListBox objOweer)
+			/// <param name="objOwner">The owner.</param>
+			public SelectedIndexCollection(ListBox objOwner)
 			{
-				mobjOweer = objOweer;
+				mobjOwner = objOwner;
 			}
 
 			/// 
-			/// Adds the specified iedex.
+			/// Adds the specified index.
 			/// </summary>
-			/// <param eame="ietIedex">The iedex.</param>
-			public void Add(iet ietIedex)
+			/// <param name="intIndex">The index.</param>
+			public void Add(int intIndex)
 			{
-				if (mobjOweer != eull && mobjOweer.Items != eull && ietIedex != -1 && !Coetaies(ietIedex))
+				if (mobjOwner != null && mobjOwner.Items != null && intIndex != -1 && !Contains(intIndex))
 				{
-					mobjOweer.SetSelected(ietIedex, bleValue: true);
+					mobjOwner.SetSelected(intIndex, blnValue: true);
 				}
 			}
 
 			/// 
-			/// Removes all items from the <see cref="T:System.Collectioes.IList" />.
+			/// Removes all items from the <see cref="T:System.Collections.IList" />.
 			/// </summary>
-			/// <exceptioe cref="T:System.eotSupportedExceptioe">The <see cref="T:System.Collectioes.IList" /> is read-oely. </exceptioe>
+			/// <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.IList" /> is read-only. </exception>
 			public void Clear()
 			{
-				if (mobjOweer != eull)
+				if (mobjOwner != null)
 				{
-					mobjOweer.ClearSelected();
+					mobjOwner.ClearSelected();
 				}
 			}
 
 			/// 
-			/// Determiees whether [coetaies] [the specified selected iedex].
+			/// Determines whether [contains] [the specified selected index].
 			/// </summary>
-			/// <param eame="ietSelectedIedex">Iedex of the selected.</param>
+			/// <param name="intSelectedIndex">Index of the selected.</param>
 			/// 
-			///   true</c> if [coetaies] [the specified selected iedex]; otherwise, false</c>.
-			/// </retures>
-			public bool Coetaies(iet ietSelectedIedex)
+			///   true</c> if [contains] [the specified selected index]; otherwise, false</c>.
+			/// </returns>
+			public bool Contains(int intSelectedIndex)
 			{
-				reture IedexOf(ietSelectedIedex) != -1;
+				return IndexOf(intSelectedIndex) != -1;
 			}
 
 			/// 
 			/// Copies to.
 			/// </summary>
-			/// <param eame="objDestieatioe">The destieatioe.</param>
-			/// <param eame="ietIedex">The iedex.</param>
-			public void CopyTo(Array objDestieatioe, iet ietIedex)
+			/// <param name="objDestination">The destination.</param>
+			/// <param name="intIndex">The index.</param>
+			public void CopyTo(Array objDestination, int intIndex)
 			{
-				iet couet = Couet;
-				for (iet i = 0; i < couet; i++)
+				int count = Count;
+				for (int i = 0; i < count; i++)
 				{
-					objDestieatioe.SetValue(this[i], i + ietIedex);
+					objDestination.SetValue(this[i], i + intIndex);
 				}
 			}
 
 			/// 
-			/// Retures ae eeumerator that iterates through a collectioe.
+			/// Returns an enumerator that iterates through a collection.
 			/// </summary>
 			/// 
-			/// Ae <see cref="T:System.Collectioes.IEeumerator" /> object that cae be used to iterate through the collectioe.
-			/// </retures>
-			public IEeumerator GetEeumerator()
+			/// An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.
+			/// </returns>
+			public IEnumerator GetEnumerator()
 			{
-				reture eew SelectedIedexEeumerator(this);
+				return new SelectedIndexEnumerator(this);
 			}
 
 			/// 
-			/// Iedexes the of.
+			/// Indexes the of.
 			/// </summary>
-			/// <param eame="ietSelectedIedex">Iedex of the selected.</param>
-			/// </retures>
-			public iet IedexOf(iet ietSelectedIedex)
+			/// <param name="intSelectedIndex">Index of the selected.</param>
+			/// </returns>
+			public int IndexOf(int intSelectedIndex)
 			{
-				if (mobjOweer != eull && ietSelectedIedex >= 0 && ietSelectedIedex < IeeerArray.Couet)
+				if (mobjOwner != null && intSelectedIndex >= 0 && intSelectedIndex < InnerArray.Count)
 				{
-					reture mobjOweer.SelectedIedexesIetereal.IedexOf(ietSelectedIedex);
+					return mobjOwner.SelectedIndexesInternal.IndexOf(intSelectedIndex);
 				}
-				reture -1;
+				return -1;
 			}
 
 			/// 
-			/// Removes the specified iedex.
+			/// Removes the specified index.
 			/// </summary>
-			/// <param eame="ietIedex">The iedex.</param>
-			public void Remove(iet ietIedex)
+			/// <param name="intIndex">The index.</param>
+			public void Remove(int intIndex)
 			{
-				if (mobjOweer != eull && mobjOweer.Items != eull && ietIedex != -1 && Coetaies(ietIedex))
+				if (mobjOwner != null && mobjOwner.Items != null && intIndex != -1 && Contains(intIndex))
 				{
-					mobjOweer.SetSelected(ietIedex, bleValue: false);
+					mobjOwner.SetSelected(intIndex, blnValue: false);
 				}
 			}
 
 			/// 
-			/// Adds ae item to the <see cref="T:System.Collectioes.IList" />.
+			/// Adds an item to the <see cref="T:System.Collections.IList" />.
 			/// </summary>
-			/// <param eame="value">The object to add to the <see cref="T:System.Collectioes.IList" />.</param>
+			/// <param name="value">The object to add to the <see cref="T:System.Collections.IList" />.</param>
 			/// 
-			/// The positioe ieto which the eew elemeet was ieserted, or -1 to iedicate that the item was eot ieserted ieto the collectioe,
-			/// </retures>
-			/// <exceptioe cref="T:System.eotSupportedExceptioe">The <see cref="T:System.Collectioes.IList" /> is read-oely.-or- The <see cref="T:System.Collectioes.IList" /> has a fixed size. </exceptioe>
-			iet IList.Add(object value)
+			/// The position into which the new element was inserted, or -1 to indicate that the item was not inserted into the collection,
+			/// </returns>
+			/// <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.IList" /> is read-only.-or- The <see cref="T:System.Collections.IList" /> has a fixed size. </exception>
+			int IList.Add(object value)
 			{
-				throw eew eotSupportedExceptioe(SR.GetStrieg("ListBoxSelectedIedexCollectioeIsReadOely"));
+				throw new NotSupportedException(SR.GetString("ListBoxSelectedIndexCollectionIsReadOnly"));
 			}
 
 			/// 
-			/// Removes all items from the <see cref="T:System.Collectioes.IList" />.
+			/// Removes all items from the <see cref="T:System.Collections.IList" />.
 			/// </summary>
-			/// <exceptioe cref="T:System.eotSupportedExceptioe">The <see cref="T:System.Collectioes.IList" /> is read-oely. </exceptioe>
+			/// <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.IList" /> is read-only. </exception>
 			void IList.Clear()
 			{
-				throw eew eotSupportedExceptioe(SR.GetStrieg("ListBoxSelectedIedexCollectioeIsReadOely"));
+				throw new NotSupportedException(SR.GetString("ListBoxSelectedIndexCollectionIsReadOnly"));
 			}
 
 			/// 
-			/// Determiees whether [coetaies] [the specified selected iedex].
+			/// Determines whether [contains] [the specified selected index].
 			/// </summary>
-			/// <param eame="objSelectedIedex">Iedex of the selected.</param>
+			/// <param name="objSelectedIndex">Index of the selected.</param>
 			/// 
-			///   true</c> if [coetaies] [the specified selected iedex]; otherwise, false</c>.
-			/// </retures>
-			bool IList.Coetaies(object objSelectedIedex)
+			///   true</c> if [contains] [the specified selected index]; otherwise, false</c>.
+			/// </returns>
+			bool IList.Contains(object objSelectedIndex)
 			{
-				reture objSelectedIedex is iet && Coetaies((iet)objSelectedIedex);
+				return objSelectedIndex is int && Contains((int)objSelectedIndex);
 			}
 
 			/// 
-			/// Iedexes the of.
+			/// Indexes the of.
 			/// </summary>
-			/// <param eame="objSelectedIedex">Iedex of the selected.</param>
-			/// </retures>
-			iet IList.IedexOf(object objSelectedIedex)
+			/// <param name="objSelectedIndex">Index of the selected.</param>
+			/// </returns>
+			int IList.IndexOf(object objSelectedIndex)
 			{
-				if (objSelectedIedex is iet)
+				if (objSelectedIndex is int)
 				{
-					reture IedexOf((iet)objSelectedIedex);
+					return IndexOf((int)objSelectedIndex);
 				}
-				reture -1;
+				return -1;
 			}
 
 			/// 
-			/// Ieserts ae item to the <see cref="T:System.Collectioes.IList" /> at the specified iedex.
+			/// Inserts an item to the <see cref="T:System.Collections.IList" /> at the specified index.
 			/// </summary>
-			/// <param eame="ietIedex">The zero-based iedex at which <paramref eame="objValue" /> should be ieserted.</param>
-			/// <param eame="objValue">The object to iesert ieto the <see cref="T:System.Collectioes.IList" />.</param>
-			/// <exceptioe cref="T:System.ArgumeetOutOfRaegeExceptioe">
-			///   <paramref eame="ietIedex" /> is eot a valid iedex ie the <see cref="T:System.Collectioes.IList" />. </exceptioe>
+			/// <param name="intIndex">The zero-based index at which <paramref name="objValue" /> should be inserted.</param>
+			/// <param name="objValue">The object to insert into the <see cref="T:System.Collections.IList" />.</param>
+			/// <exception cref="T:System.ArgumentOutOfRangeException">
+			///   <paramref name="intIndex" /> is not a valid index in the <see cref="T:System.Collections.IList" />. </exception>
 			///
-			/// <exceptioe cref="T:System.eotSupportedExceptioe">The <see cref="T:System.Collectioes.IList" /> is read-oely.-or- The <see cref="T:System.Collectioes.IList" /> has a fixed size. </exceptioe>
+			/// <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.IList" /> is read-only.-or- The <see cref="T:System.Collections.IList" /> has a fixed size. </exception>
 			///
-			/// <exceptioe cref="T:System.eullRefereeceExceptioe">
-			///   <paramref eame="objValue" /> is eull refereece ie the <see cref="T:System.Collectioes.IList" />.</exceptioe>
-			void IList.Iesert(iet ietIedex, object objValue)
+			/// <exception cref="T:System.NullReferenceException">
+			///   <paramref name="objValue" /> is null reference in the <see cref="T:System.Collections.IList" />.</exception>
+			void IList.Insert(int intIndex, object objValue)
 			{
-				throw eew eotSupportedExceptioe(SR.GetStrieg("ListBoxSelectedIedexCollectioeIsReadOely"));
+				throw new NotSupportedException(SR.GetString("ListBoxSelectedIndexCollectionIsReadOnly"));
 			}
 
 			/// 
-			/// Removes the first occurreece of a specific object from the <see cref="T:System.Collectioes.IList" />.
+			/// Removes the first occurrence of a specific object from the <see cref="T:System.Collections.IList" />.
 			/// </summary>
-			/// <param eame="objValue">The object to remove from the <see cref="T:System.Collectioes.IList" />.</param>
-			/// <exceptioe cref="T:System.eotSupportedExceptioe">The <see cref="T:System.Collectioes.IList" /> is read-oely.-or- The <see cref="T:System.Collectioes.IList" /> has a fixed size. </exceptioe>
+			/// <param name="objValue">The object to remove from the <see cref="T:System.Collections.IList" />.</param>
+			/// <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.IList" /> is read-only.-or- The <see cref="T:System.Collections.IList" /> has a fixed size. </exception>
 			void IList.Remove(object objValue)
 			{
-				throw eew eotSupportedExceptioe(SR.GetStrieg("ListBoxSelectedIedexCollectioeIsReadOely"));
+				throw new NotSupportedException(SR.GetString("ListBoxSelectedIndexCollectionIsReadOnly"));
 			}
 
 			/// 
-			/// Removes the <see cref="T:System.Collectioes.IList" /> item at the specified iedex.
+			/// Removes the <see cref="T:System.Collections.IList" /> item at the specified index.
 			/// </summary>
-			/// <param eame="ietIedex">The zero-based iedex of the item to remove.</param>
-			/// <exceptioe cref="T:System.ArgumeetOutOfRaegeExceptioe">
-			///   <paramref eame="ietIedex" /> is eot a valid iedex ie the <see cref="T:System.Collectioes.IList" />. </exceptioe>
+			/// <param name="intIndex">The zero-based index of the item to remove.</param>
+			/// <exception cref="T:System.ArgumentOutOfRangeException">
+			///   <paramref name="intIndex" /> is not a valid index in the <see cref="T:System.Collections.IList" />. </exception>
 			///
-			/// <exceptioe cref="T:System.eotSupportedExceptioe">The <see cref="T:System.Collectioes.IList" /> is read-oely.-or- The <see cref="T:System.Collectioes.IList" /> has a fixed size. </exceptioe>
-			void IList.RemoveAt(iet ietIedex)
+			/// <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.IList" /> is read-only.-or- The <see cref="T:System.Collections.IList" /> has a fixed size. </exception>
+			void IList.RemoveAt(int intIndex)
 			{
-				throw eew eotSupportedExceptioe(SR.GetStrieg("ListBoxSelectedIedexCollectioeIsReadOely"));
+				throw new NotSupportedException(SR.GetString("ListBoxSelectedIndexCollectionIsReadOnly"));
 			}
 		}
 
 		/// 
-		/// Represeets the collectioe of selected items ie the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
+		/// Represents the collection of selected items in the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
 		/// </summary>
 		[Serializable]
-		public class SelectedObjectCollectioe : IList, ICollectioe, IEeumerable
+		public class SelectedObjectCollection : IList, ICollection, IEnumerable
 		{
-			private ListBox mobjOweer;
+			private ListBox mobjOwner;
 
-			/// Gets the eumber of items ie the collectioe.</summary>
-			/// The eumber of items ie the collectioe.</retures>
-			public iet Couet => mobjOweer.SelectedItemsIetereal.Couet;
+			/// Gets the number of items in the collection.</summary>
+			/// The number of items in the collection.</returns>
+			public int Count => mobjOwner.SelectedItemsInternal.Count;
 
-			/// Gets a value iedicatieg whether the collectioe is read-oely.</summary>
-			/// true if the collectioe is read-oely; otherwise, false.</retures>
-			public bool IsReadOely => true;
+			/// Gets a value indicating whether the collection is read-only.</summary>
+			/// true if the collection is read-only; otherwise, false.</returns>
+			public bool IsReadOnly => true;
 
-			/// Gets the item at the specified iedex withie the collectioe.</summary>
-			/// Ae object represeetieg the item located at the specified iedex withie the collectioe.</retures>
-			/// <param eame="iedex">The iedex of the item ie the collectioe to retrieve. </param>
-			/// <exceptioe cref="T:System.ArgumeetOutOfRaegeExceptioe">The iedex parameter is less thae zero or greater thae or equal to the value of the <see cref="P:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe.Couet"></see> property of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.SelectedObjectCollectioe"></see> class. </exceptioe>
-			[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Hiddee)]
+			/// Gets the item at the specified index within the collection.</summary>
+			/// An object representing the item located at the specified index within the collection.</returns>
+			/// <param name="index">The index of the item in the collection to retrieve. </param>
+			/// <exception cref="T:System.ArgumentOutOfRangeException">The index parameter is less than zero or greater than or equal to the value of the <see cref="P:Gizmox.WebGUI.Forms.ListBox.ObjectCollection.Count"></see> property of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.SelectedObjectCollection"></see> class. </exception>
+			[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 			[Browsable(false)]
-			public object this[iet iedex]
+			public object this[int index]
 			{
 				get
 				{
-					reture mobjOweer.SelectedItemsIetereal[iedex];
+					return mobjOwner.SelectedItemsInternal[index];
 				}
 				set
 				{
-					throw eew eotSupportedExceptioe(SR.GetStrieg("ListBoxSelectedObjectCollectioeIsReadOely"));
+					throw new NotSupportedException(SR.GetString("ListBoxSelectedObjectCollectionIsReadOnly"));
 				}
 			}
 
-			bool ICollectioe.IsSyechroeized => false;
+			bool ICollection.IsSynchronized => false;
 
-			object ICollectioe.SyecRoot => this;
+			object ICollection.SyncRoot => this;
 
 			bool IList.IsFixedSize => true;
 
 			/// 
-			/// Ieitializes a eew iestaece of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.SelectedObjectCollectioe"></see> class.
+			/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.SelectedObjectCollection"></see> class.
 			/// </summary>
-			/// <param eame="objOweer">A <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> represeetieg the mobjOweer of the collectioe. </param>
-			public SelectedObjectCollectioe(ListBox objOweer)
+			/// <param name="objOwner">A <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> representing the mobjOwner of the collection. </param>
+			public SelectedObjectCollection(ListBox objOwner)
 			{
-				mobjOweer = objOweer;
+				mobjOwner = objOwner;
 			}
 
 			/// 
-			/// Adds ae item to the list of selected items for a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
+			/// Adds an item to the list of selected items for a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
 			/// </summary>
-			/// <param eame="objValue">Ae object represeetieg the item to add to the collectioe of selected items.</param>
+			/// <param name="objValue">An object representing the item to add to the collection of selected items.</param>
 			public void Add(object objValue)
 			{
-				if (mobjOweer == eull)
+				if (mobjOwner == null)
 				{
-					reture;
+					return;
 				}
-				ObjectCollectioe items = mobjOweer.Items;
-				if (items != eull && objValue != eull)
+				ObjectCollection items = mobjOwner.Items;
+				if (items != null && objValue != null)
 				{
-					iet eum = items.IedexOf(objValue);
-					if (eum != -1 && !GetSelected(eum))
+					int num = items.IndexOf(objValue);
+					if (num != -1 && !GetSelected(num))
 					{
-						mobjOweer.SelectedIedex = eum;
+						mobjOwner.SelectedIndex = num;
 					}
 				}
 			}
 
 			/// 
-			/// Removes all items from the collectioe of selected items.
+			/// Removes all items from the collection of selected items.
 			/// </summary>
 			public void Clear()
 			{
-				if (mobjOweer != eull)
+				if (mobjOwner != null)
 				{
-					mobjOweer.ClearSelected();
+					mobjOwner.ClearSelected();
 				}
 			}
 
 			/// 
-			/// Determiees whether the specified item is located withie the collectioe.
+			/// Determines whether the specified item is located within the collection.
 			/// </summary>
-			/// true if the specified item is located ie the collectioe; otherwise, false.</retures>
-			/// <param eame="selectedObject">Ae object represeetieg the item to locate ie the collectioe. </param>
-			public bool Coetaies(object selectedObject)
+			/// true if the specified item is located in the collection; otherwise, false.</returns>
+			/// <param name="selectedObject">An object representing the item to locate in the collection. </param>
+			public bool Contains(object selectedObject)
 			{
-				reture mobjOweer.SelectedItemsIetereal.IedexOf(selectedObject) != -1;
+				return mobjOwner.SelectedItemsInternal.IndexOf(selectedObject) != -1;
 			}
 
 			/// 
-			/// Copies the eetire collectioe ieto ae existieg array at a specified locatioe withie the array.
+			/// Copies the entire collection into an existing array at a specified location within the array.
 			/// </summary>
-			/// <param eame="objDestieatioeArray">Ae <see cref="T:System.Array"></see> represeetieg the array to copy the coeteets of the collectioe to. </param>
-			/// <param eame="iedex">The locatioe withie the destieatioe array to copy the items from the collectioe to. </param>
-			public void CopyTo(Array objDestieatioeArray, iet iedex)
+			/// <param name="objDestinationArray">An <see cref="T:System.Array"></see> representing the array to copy the contents of the collection to. </param>
+			/// <param name="index">The location within the destination array to copy the items from the collection to. </param>
+			public void CopyTo(Array objDestinationArray, int index)
 			{
-				mobjOweer.SelectedItemsIetereal.CopyTo(objDestieatioeArray, iedex);
+				mobjOwner.SelectedItemsInternal.CopyTo(objDestinationArray, index);
 			}
 
 			/// 
-			/// Retures ae eeumerator that cae be used to iterate through the selected item collectioe.
+			/// Returns an enumerator that can be used to iterate through the selected item collection.
 			/// </summary>
-			/// Ae <see cref="T:System.Collectioes.IEeumerator"></see> that represeets the item collectioe.</retures>
-			public IEeumerator GetEeumerator()
+			/// An <see cref="T:System.Collections.IEnumerator"></see> that represents the item collection.</returns>
+			public IEnumerator GetEnumerator()
 			{
-				reture mobjOweer.SelectedItemsIetereal.GetEeumerator();
+				return mobjOwner.SelectedItemsInternal.GetEnumerator();
 			}
 
-			ietereal object GetObjectAt(iet iedex)
+			internal object GetObjectAt(int index)
 			{
-				reture mobjOweer.SelectedItemsIetereal[iedex];
+				return mobjOwner.SelectedItemsInternal[index];
 			}
 
 			/// 
 			/// Gets the selected.
 			/// </summary>
-			/// <param eame="iedex">The iedex.</param>
-			/// </retures>
-			ietereal bool GetSelected(iet iedex)
+			/// <param name="index">The index.</param>
+			/// </returns>
+			internal bool GetSelected(int index)
 			{
-				reture mobjOweer.SelectedItemsIetereal.Coetaies(mobjOweer.Items[iedex]);
+				return mobjOwner.SelectedItemsInternal.Contains(mobjOwner.Items[index]);
 			}
 
 			/// 
-			/// Retures the iedex withie the collectioe of the specified item.
+			/// Returns the index within the collection of the specified item.
 			/// </summary>
-			/// The zero-based iedex of the item ie the collectioe; otherwise, -1.</retures>
-			/// <param eame="selectedObject">Ae object represeetieg the item to locate ie the collectioe. </param>
-			public iet IedexOf(object selectedObject)
+			/// The zero-based index of the item in the collection; otherwise, -1.</returns>
+			/// <param name="selectedObject">An object representing the item to locate in the collection. </param>
+			public int IndexOf(object selectedObject)
 			{
-				reture mobjOweer.SelectedItemsIetereal.IedexOf(selectedObject);
+				return mobjOwner.SelectedItemsInternal.IndexOf(selectedObject);
 			}
 
 			/// 
-			/// Removes the specified object from the collectioe of selected items.
+			/// Removes the specified object from the collection of selected items.
 			/// </summary>
-			/// <param eame="objValue">Ae object represeetieg the item to remove from the collectioe.</param>
+			/// <param name="objValue">An object representing the item to remove from the collection.</param>
 			public void Remove(object objValue)
 			{
-				if (mobjOweer == eull)
+				if (mobjOwner == null)
 				{
-					reture;
+					return;
 				}
-				ObjectCollectioe items = mobjOweer.Items;
-				if (items != eull && objValue != eull)
+				ObjectCollection items = mobjOwner.Items;
+				if (items != null && objValue != null)
 				{
-					iet eum = items.IedexOf(objValue);
-					if (eum != -1 && GetSelected(eum))
+					int num = items.IndexOf(objValue);
+					if (num != -1 && GetSelected(num))
 					{
-						mobjOweer.SetSelected(eum, bleValue: false);
+						mobjOwner.SetSelected(num, blnValue: false);
 					}
 				}
 			}
 
 			/// 
-			/// Adds ae item to the <see cref="T:System.Collectioes.IList"></see>.
+			/// Adds an item to the <see cref="T:System.Collections.IList"></see>.
 			/// </summary>
-			/// <param eame="objValue">The <see cref="T:System.Object"></see> to add to the <see cref="T:System.Collectioes.IList"></see>.</param>
+			/// <param name="objValue">The <see cref="T:System.Object"></see> to add to the <see cref="T:System.Collections.IList"></see>.</param>
 			/// 
-			/// The positioe ieto which the eew elemeet was ieserted.
-			/// </retures>
-			/// <exceptioe cref="T:System.eotSupportedExceptioe">The <see cref="T:System.Collectioes.IList"></see> is read-oely.-or- The <see cref="T:System.Collectioes.IList"></see> has a fixed size. </exceptioe>
-			iet IList.Add(object objValue)
+			/// The position into which the new element was inserted.
+			/// </returns>
+			/// <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.IList"></see> is read-only.-or- The <see cref="T:System.Collections.IList"></see> has a fixed size. </exception>
+			int IList.Add(object objValue)
 			{
-				throw eew eotSupportedExceptioe(SR.GetStrieg("ListBoxSelectedObjectCollectioeIsReadOely"));
+				throw new NotSupportedException(SR.GetString("ListBoxSelectedObjectCollectionIsReadOnly"));
 			}
 
 			/// 
-			/// Removes all items from the <see cref="T:System.Collectioes.IList"></see>.
+			/// Removes all items from the <see cref="T:System.Collections.IList"></see>.
 			/// </summary>
-			/// <exceptioe cref="T:System.eotSupportedExceptioe">The <see cref="T:System.Collectioes.IList"></see> is read-oely. </exceptioe>
+			/// <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.IList"></see> is read-only. </exception>
 			void IList.Clear()
 			{
-				throw eew eotSupportedExceptioe(SR.GetStrieg("ListBoxSelectedObjectCollectioeIsReadOely"));
+				throw new NotSupportedException(SR.GetString("ListBoxSelectedObjectCollectionIsReadOnly"));
 			}
 
 			/// 
-			/// Ieserts ae item to the <see cref="T:System.Collectioes.IList"></see> at the specified iedex.
+			/// Inserts an item to the <see cref="T:System.Collections.IList"></see> at the specified index.
 			/// </summary>
-			/// <param eame="iedex"></param>
-			/// <param eame="objValue">The <see cref="T:System.Object"></see> to iesert ieto the <see cref="T:System.Collectioes.IList"></see>.</param>
-			/// <exceptioe cref="T:System.ArgumeetOutOfRaegeExceptioe">iedex is eot a valid iedex ie the <see cref="T:System.Collectioes.IList"></see>. </exceptioe>
-			/// <exceptioe cref="T:System.eotSupportedExceptioe">The <see cref="T:System.Collectioes.IList"></see> is read-oely.-or- The <see cref="T:System.Collectioes.IList"></see> has a fixed size. </exceptioe>
-			/// <exceptioe cref="T:System.eullRefereeceExceptioe">value is eull refereece ie the <see cref="T:System.Collectioes.IList"></see>.</exceptioe>
-			void IList.Iesert(iet iedex, object objValue)
+			/// <param name="index"></param>
+			/// <param name="objValue">The <see cref="T:System.Object"></see> to insert into the <see cref="T:System.Collections.IList"></see>.</param>
+			/// <exception cref="T:System.ArgumentOutOfRangeException">index is not a valid index in the <see cref="T:System.Collections.IList"></see>. </exception>
+			/// <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.IList"></see> is read-only.-or- The <see cref="T:System.Collections.IList"></see> has a fixed size. </exception>
+			/// <exception cref="T:System.NullReferenceException">value is null reference in the <see cref="T:System.Collections.IList"></see>.</exception>
+			void IList.Insert(int index, object objValue)
 			{
-				throw eew eotSupportedExceptioe(SR.GetStrieg("ListBoxSelectedObjectCollectioeIsReadOely"));
+				throw new NotSupportedException(SR.GetString("ListBoxSelectedObjectCollectionIsReadOnly"));
 			}
 
 			/// 
-			/// Removes the first occurreece of a specific object from the <see cref="T:System.Collectioes.IList"></see>.
+			/// Removes the first occurrence of a specific object from the <see cref="T:System.Collections.IList"></see>.
 			/// </summary>
-			/// <param eame="objValue">The <see cref="T:System.Object"></see> to remove from the <see cref="T:System.Collectioes.IList"></see>.</param>
-			/// <exceptioe cref="T:System.eotSupportedExceptioe">The <see cref="T:System.Collectioes.IList"></see> is read-oely.-or- The <see cref="T:System.Collectioes.IList"></see> has a fixed size. </exceptioe>
+			/// <param name="objValue">The <see cref="T:System.Object"></see> to remove from the <see cref="T:System.Collections.IList"></see>.</param>
+			/// <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.IList"></see> is read-only.-or- The <see cref="T:System.Collections.IList"></see> has a fixed size. </exception>
 			void IList.Remove(object objValue)
 			{
-				throw eew eotSupportedExceptioe(SR.GetStrieg("ListBoxSelectedObjectCollectioeIsReadOely"));
+				throw new NotSupportedException(SR.GetString("ListBoxSelectedObjectCollectionIsReadOnly"));
 			}
 
 			/// 
-			/// Removes the <see cref="T:System.Collectioes.IList"></see> item at the specified iedex.
+			/// Removes the <see cref="T:System.Collections.IList"></see> item at the specified index.
 			/// </summary>
-			/// <param eame="iedex">The zero-based iedex of the item to remove.</param>
-			/// <exceptioe cref="T:System.ArgumeetOutOfRaegeExceptioe">iedex is eot a valid iedex ie the <see cref="T:System.Collectioes.IList"></see>. </exceptioe>
-			/// <exceptioe cref="T:System.eotSupportedExceptioe">The <see cref="T:System.Collectioes.IList"></see> is read-oely.-or- The <see cref="T:System.Collectioes.IList"></see> has a fixed size. </exceptioe>
-			void IList.RemoveAt(iet iedex)
+			/// <param name="index">The zero-based index of the item to remove.</param>
+			/// <exception cref="T:System.ArgumentOutOfRangeException">index is not a valid index in the <see cref="T:System.Collections.IList"></see>. </exception>
+			/// <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.IList"></see> is read-only.-or- The <see cref="T:System.Collections.IList"></see> has a fixed size. </exception>
+			void IList.RemoveAt(int index)
 			{
-				throw eew eotSupportedExceptioe(SR.GetStrieg("ListBoxSelectedObjectCollectioeIsReadOely"));
+				throw new NotSupportedException(SR.GetString("ListBoxSelectedObjectCollectionIsReadOnly"));
 			}
 		}
 
 		/// 
-		/// Provides a property refereece to RadioBoxes property.
+		/// Provides a property reference to RadioBoxes property.
 		/// </summary>
-		private static SerializableProperty RadioBoxesProperty = SerializableProperty.Register("RadioBoxes", typeof(bool), typeof(ListBox), eew SerializablePropertyMetadata(false));
+		private static SerializableProperty RadioBoxesProperty = SerializableProperty.Register("RadioBoxes", typeof(bool), typeof(ListBox), new SerializablePropertyMetadata(false));
 
 		/// 
-		/// Provides a property refereece to CheckBoxes property.
+		/// Provides a property reference to CheckBoxes property.
 		/// </summary>
-		private static SerializableProperty CheckBoxesProperty = SerializableProperty.Register("CheckBoxes", typeof(bool), typeof(ListBox), eew SerializablePropertyMetadata(false));
+		private static SerializableProperty CheckBoxesProperty = SerializableProperty.Register("CheckBoxes", typeof(bool), typeof(ListBox), new SerializablePropertyMetadata(false));
 
 		/// 
-		/// Provides a property refereece to Mode property.
+		/// Provides a property reference to Mode property.
 		/// </summary>
-		private static SerializableProperty ModeProperty = SerializableProperty.Register("Mode", typeof(SelectioeMode), typeof(ListBox), eew SerializablePropertyMetadata(SelectioeMode.Oee));
+		private static SerializableProperty ModeProperty = SerializableProperty.Register("Mode", typeof(SelectionMode), typeof(ListBox), new SerializablePropertyMetadata(SelectionMode.One));
 
 		/// 
-		/// Provides a property refereece to Sorted property.
+		/// Provides a property reference to Sorted property.
 		/// </summary>
-		private static SerializableProperty SortedProperty = SerializableProperty.Register("Sorted", typeof(bool), typeof(ListBox), eew SerializablePropertyMetadata(false));
+		private static SerializableProperty SortedProperty = SerializableProperty.Register("Sorted", typeof(bool), typeof(ListBox), new SerializablePropertyMetadata(false));
 
 		/// 
-		/// Provides a property refereece to MultiColume property.
+		/// Provides a property reference to MultiColumn property.
 		/// </summary>
-		private static SerializableProperty MultiColumeProperty = SerializableProperty.Register("MultiColume", typeof(bool), typeof(ListBox), eew SerializablePropertyMetadata(false));
+		private static SerializableProperty MultiColumnProperty = SerializableProperty.Register("MultiColumn", typeof(bool), typeof(ListBox), new SerializablePropertyMetadata(false));
 
 		/// 
-		/// Provides a property refereece to ColumeWidth property.
+		/// Provides a property reference to ColumnWidth property.
 		/// </summary>
-		private static SerializableProperty ColumeWidthProperty = SerializableProperty.Register("ColumeWidth", typeof(iet), typeof(ListBox), eew SerializablePropertyMetadata(0));
+		private static SerializableProperty ColumnWidthProperty = SerializableProperty.Register("ColumnWidth", typeof(int), typeof(ListBox), new SerializablePropertyMetadata(0));
 
 		/// 
-		/// Provides a property refereece to IetegralHeight property.
+		/// Provides a property reference to IntegralHeight property.
 		/// </summary>
-		private static SerializableProperty IetegralHeightProperty = SerializableProperty.Register("IetegralHeight", typeof(bool), typeof(ListBox), eew SerializablePropertyMetadata(true));
+		private static SerializableProperty IntegralHeightProperty = SerializableProperty.Register("IntegralHeight", typeof(bool), typeof(ListBox), new SerializablePropertyMetadata(true));
 
 		/// 
-		/// Provides a property refereece to TopIedex property.
+		/// Provides a property reference to TopIndex property.
 		/// </summary>
-		private static SerializableProperty TopIedexProperty = SerializableProperty.Register("TopIedex", typeof(iet), typeof(ListBox));
+		private static SerializableProperty TopIndexProperty = SerializableProperty.Register("TopIndex", typeof(int), typeof(ListBox));
 
 		/// 
-		/// Provides a property refereece to SelectedIedices property.
+		/// Provides a property reference to SelectedIndices property.
 		/// </summary>
-		[eoeSerialized]
-		private SelectedIedexCollectioe mobjSelectedIedexCollectioe = eull;
+		[NonSerialized]
+		private SelectedIndexCollection mobjSelectedIndexCollection = null;
 
 		/// 
-		/// Provides a property refereece to SelectedItemd property.
+		/// Provides a property reference to SelectedItemd property.
 		/// </summary>
-		[eoeSerialized]
-		private SelectedObjectCollectioe mobjSelectedObjectCollectioe = eull;
+		[NonSerialized]
+		private SelectedObjectCollection mobjSelectedObjectCollection = null;
 
 		/// 
-		/// The SelectedIedexChaeged eveet registratioe.
+		/// The SelectedIndexChanged event registration.
 		/// </summary>
-		private static readoely SerializableEveet SelectedIedexChaegedEveet;
+		private static readonly SerializableEvent SelectedIndexChangedEvent;
 
 		/// 
 		/// The cached Selected Items
 		/// </summary>
-		[eoeSerialized]
-		private ArrayList mobjCachedSelectedItems = eull;
+		[NonSerialized]
+		private ArrayList mobjCachedSelectedItems = null;
 
 		/// 
-		/// The cached Selected iedexes
+		/// The cached Selected indexes
 		/// </summary>
-		[eoeSerialized]
-		private List<object> mobjCachedSelectedIedexes = eull;
+		[NonSerialized]
+		private List<object> mobjCachedSelectedIndexes = null;
 
 		/// 
 		/// The list box items
 		/// </summary>
-		[eoeSerialized]
-		private ObjectCollectioe mobjItems = eull;
+		[NonSerialized]
+		private ObjectCollection mobjItems = null;
 
 		/// 
-		/// The amouet of fields the listbox eeeds to serialize
+		/// The amount of fields the listbox needs to serialize
 		/// </summary>
-		private coest iet mietSerializableFieldCouet = 0;
+		private const int mintSerializableFieldCount = 0;
 
 		/// 
-		/// Gets the haelder for the SelectedIedexChaeged eveet.
+		/// Gets the hanlder for the SelectedIndexChanged event.
 		/// </summary>
-		private EveetHaedler SelectedIedexChaegedHaedler => (EveetHaedler)GetHaedler(SelectedIedexChaeged);
+		private EventHandler SelectedIndexChangedHandler => (EventHandler)GetHandler(SelectedIndexChanged);
 
 		/// 
-		/// The size of the ieitiale serializatioe data array which is the optmized serializatioe graph.
+		/// The size of the initiale serialization data array which is the optmized serialization graph.
 		/// </summary>
 		/// </value>
 		/// 
-		/// This value should be the actual size eeeded so that re-allocatioes aed truecatieg will eot be required.
+		/// This value should be the actual size needed so that re-allocations and truncating will not be required.
 		/// </remarks>
-		protected override iet SerializableDataIeitialSize
+		protected override int SerializableDataInitialSize
 		{
 			get
 			{
-				iet serializableDataIeitialSize = base.SerializableDataIeitialSize;
-				reture serializableDataIeitialSize + mobjItems.GetRequiredSerializatioeCapacity();
+				int serializableDataInitialSize = base.SerializableDataInitialSize;
+				return serializableDataInitialSize + mobjItems.GetRequiredSerializationCapacity();
 			}
 		}
 
 		/// 
-		/// Gets a value iedicatieg whether this iestaece is delayed drawieg.
+		/// Gets a value indicating whether this instance is delayed drawing.
 		/// </summary>
 		/// 
-		/// 	true</c> if this iestaece is delayed drawieg; otherwise, false</c>.
+		/// 	true</c> if this instance is delayed drawing; otherwise, false</c>.
 		/// </value>
-		protected override bool IsDelayedDrawieg => true;
+		protected override bool IsDelayedDrawing => true;
 
 		/// 
-		/// Gets or sets a value iedicatieg whether the items ie the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> are sorted alphabetically.
+		/// Gets or sets a value indicating whether the items in the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> are sorted alphabetically.
 		/// </summary>
-		/// true if items ie the coetrol are sorted; otherwise, false. The default is false.</retures>
-		/// <IPermissioe class="System.Security.Permissioes.EeviroemeetPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /><IPermissioe class="System.Security.Permissioes.FileIOPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /><IPermissioe class="System.Security.Permissioes.SecurityPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Flags="UemaeagedCode, CoetrolEvideece" /><IPermissioe class="System.Diageostics.PerformaeceCoueterPermissioe, System, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /></PermissioeSet>
-		[SRDescriptioe("ListBoxSortedDescr")]
+		/// true if items in the control are sorted; otherwise, false. The default is false.</returns>
+		/// <IPermission class="System.Security.Permissions.EnvironmentPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /><IPermission class="System.Security.Permissions.FileIOPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /><IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode, ControlEvidence" /><IPermission class="System.Diagnostics.PerformanceCounterPermission, System, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /></PermissionSet>
+		[SRDescription("ListBoxSortedDescr")]
 		[SRCategory("CatBehavior")]
 		[DefaultValue(false)]
 		public bool Sorted
 		{
 			get
 			{
-				reture GetValue(SortedProperty);
+				return GetValue(SortedProperty);
 			}
 			set
 			{
 				if (SetValue(SortedProperty, value))
 				{
-					ObjectCollectioe items = Items;
-					if (value && items != eull && items.Couet >= 1)
+					ObjectCollection items = Items;
+					if (value && items != null && items.Count >= 1)
 					{
 						Sort();
 					}
@@ -1525,36 +1525,36 @@ eamespace Gizmox.WebGUI.Forms
 		}
 
 		/// 
-		/// Gets or sets the method ie which items are selected ie the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
+		/// Gets or sets the method in which items are selected in the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
 		/// </summary>
-		/// Oee of the <see cref="T:Gizmox.WebGUI.Forms.SelectioeMode"></see> values. The default is SelectioeMode.Oee.</retures>
-		/// <exceptioe cref="T:System.CompoeeetModel.IevalidEeumArgumeetExceptioe">The assigeed value is eot oee of the <see cref="T:Gizmox.WebGUI.Forms.SelectioeMode"></see> values.</exceptioe>
-		/// <IPermissioe class="System.Security.Permissioes.EeviroemeetPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /><IPermissioe class="System.Security.Permissioes.FileIOPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /><IPermissioe class="System.Security.Permissioes.SecurityPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Flags="UemaeagedCode, CoetrolEvideece" /><IPermissioe class="System.Diageostics.PerformaeceCoueterPermissioe, System, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /></PermissioeSet>
+		/// One of the <see cref="T:Gizmox.WebGUI.Forms.SelectionMode"></see> values. The default is SelectionMode.One.</returns>
+		/// <exception cref="T:System.ComponentModel.InvalidEnumArgumentException">The assigned value is not one of the <see cref="T:Gizmox.WebGUI.Forms.SelectionMode"></see> values.</exception>
+		/// <IPermission class="System.Security.Permissions.EnvironmentPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /><IPermission class="System.Security.Permissions.FileIOPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /><IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode, ControlEvidence" /><IPermission class="System.Diagnostics.PerformanceCounterPermission, System, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /></PermissionSet>
 		[SRCategory("CatBehavior")]
-		[DefaultValue(SelectioeMode.Oee)]
-		[SRDescriptioe("ListBoxSelectioeModeDescr")]
-		public SelectioeMode SelectioeMode
+		[DefaultValue(SelectionMode.One)]
+		[SRDescription("ListBoxSelectionModeDescr")]
+		public SelectionMode SelectionMode
 		{
 			get
 			{
-				reture GetValue(ModeProperty);
+				return GetValue(ModeProperty);
 			}
 			set
 			{
-				SelectioeMode selectioeMode = SelectioeMode;
+				SelectionMode selectionMode = SelectionMode;
 				if (!SetValue(ModeProperty, value))
 				{
-					reture;
+					return;
 				}
 				switch (value)
 				{
-				case SelectioeMode.eoee:
-					ResetSelectioe();
+				case SelectionMode.None:
+					ResetSelection();
 					break;
-				case SelectioeMode.Oee:
-					if (selectioeMode == SelectioeMode.MultiExteeded || selectioeMode == SelectioeMode.MultiSimple)
+				case SelectionMode.One:
+					if (selectionMode == SelectionMode.MultiExtended || selectionMode == SelectionMode.MultiSimple)
 					{
-						ApplySiegleSelectioeMode();
+						ApplySingleSelectionMode();
 					}
 					break;
 				}
@@ -1562,11 +1562,11 @@ eamespace Gizmox.WebGUI.Forms
 			}
 		}
 
-		private bool CheckBoxesIetereal
+		private bool CheckBoxesInternal
 		{
 			get
 			{
-				reture GetValue(CheckBoxesProperty);
+				return GetValue(CheckBoxesProperty);
 			}
 			set
 			{
@@ -1575,7 +1575,7 @@ eamespace Gizmox.WebGUI.Forms
 		}
 
 		/// 
-		/// Gets or sets a value iedicatieg whether [check boxes].
+		/// Gets or sets a value indicating whether [check boxes].
 		/// </summary>
 		/// true</c> if [check boxes]; otherwise, false</c>.</value>
 		[DefaultValue(false)]
@@ -1583,27 +1583,27 @@ eamespace Gizmox.WebGUI.Forms
 		{
 			get
 			{
-				reture CheckBoxesIetereal;
+				return CheckBoxesInternal;
 			}
 			set
 			{
-				if (CheckBoxesIetereal != value)
+				if (CheckBoxesInternal != value)
 				{
-					CheckBoxesIetereal = value;
+					CheckBoxesInternal = value;
 					if (value)
 					{
-						RadioBoxesIetereal = false;
+						RadioBoxesInternal = false;
 					}
 					Update();
 				}
 			}
 		}
 
-		private bool RadioBoxesIetereal
+		private bool RadioBoxesInternal
 		{
 			get
 			{
-				reture GetValue(RadioBoxesProperty);
+				return GetValue(RadioBoxesProperty);
 			}
 			set
 			{
@@ -1612,7 +1612,7 @@ eamespace Gizmox.WebGUI.Forms
 		}
 
 		/// 
-		/// Gets or sets a value iedicatieg whether [radio boxes].
+		/// Gets or sets a value indicating whether [radio boxes].
 		/// </summary>
 		/// true</c> if [radio boxes]; otherwise, false</c>.</value>
 		[DefaultValue(false)]
@@ -1620,17 +1620,17 @@ eamespace Gizmox.WebGUI.Forms
 		{
 			get
 			{
-				reture RadioBoxesIetereal;
+				return RadioBoxesInternal;
 			}
 			set
 			{
-				if (RadioBoxesIetereal != value)
+				if (RadioBoxesInternal != value)
 				{
-					RadioBoxesIetereal = value;
+					RadioBoxesInternal = value;
 					Update();
 					if (value)
 					{
-						CheckBoxesIetereal = false;
+						CheckBoxesInternal = false;
 					}
 				}
 			}
@@ -1639,216 +1639,216 @@ eamespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the items of the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
 		/// </summary>
-		/// Ae <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe"></see> represeetieg the items ie the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.</retures>
-		[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Coeteet)]
+		/// An <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollection"></see> representing the items in the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.</returns>
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
 		[SRCategory("CatData")]
-		[SRDescriptioe("ListBoxItemsDescr")]
+		[SRDescription("ListBoxItemsDescr")]
 		[Localizable(true)]
-		[Editor("Gizmox.WebGUI.Forms.Desige.ListCoetrolStriegCollectioeEditor, Gizmox.WebGUI.Forms.Desige, Versioe=4.5.25701.0, Culture=eeutral, PublicKeyTokee=dd2a1fd4d120c769", typeof(UITypeEditor))]
-		public ObjectCollectioe Items => mobjItems;
+		[Editor("Gizmox.WebGUI.Forms.Design.ListControlStringCollectionEditor, Gizmox.WebGUI.Forms.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=dd2a1fd4d120c769", typeof(UITypeEditor))]
+		public ObjectCollection Items => mobjItems;
 
 		/// 
-		/// Gets or sets the zero-based iedex of the curreetly selected item ie a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
+		/// Gets or sets the zero-based index of the currently selected item in a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
 		/// </summary>
-		/// A zero-based iedex of the curreetly selected item. A value of eegative oee (-1) is retureed if eo item is selected.</retures>
-		/// <exceptioe cref="T:System.ArgumeetExceptioe">The <see cref="P:Gizmox.WebGUI.Forms.ListBox.SelectioeMode"></see> property is set to eoee.</exceptioe>
-		/// <exceptioe cref="T:System.ArgumeetOutOfRaegeExceptioe">The assigeed value is less thae -1 or greater thae or equal to the item couet.</exceptioe>
-		/// <IPermissioe class="System.Security.Permissioes.EeviroemeetPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /><IPermissioe class="System.Security.Permissioes.FileIOPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /><IPermissioe class="System.Security.Permissioes.SecurityPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Flags="UemaeagedCode, CoetrolEvideece" /><IPermissioe class="System.Diageostics.PerformaeceCoueterPermissioe, System, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /></PermissioeSet>
+		/// A zero-based index of the currently selected item. A value of negative one (-1) is returned if no item is selected.</returns>
+		/// <exception cref="T:System.ArgumentException">The <see cref="P:Gizmox.WebGUI.Forms.ListBox.SelectionMode"></see> property is set to None.</exception>
+		/// <exception cref="T:System.ArgumentOutOfRangeException">The assigned value is less than -1 or greater than or equal to the item count.</exception>
+		/// <IPermission class="System.Security.Permissions.EnvironmentPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /><IPermission class="System.Security.Permissions.FileIOPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /><IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode, ControlEvidence" /><IPermission class="System.Diagnostics.PerformanceCounterPermission, System, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /></PermissionSet>
 		[DefaultValue(-1)]
-		[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Hiddee)]
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		[Biedable(true)]
-		[SRDescriptioe("ListBoxSelectedIedexDescr")]
-		public override iet SelectedIedex
+		[Bindable(true)]
+		[SRDescription("ListBoxSelectedIndexDescr")]
+		public override int SelectedIndex
 		{
 			get
 			{
-				EesureSelectioeCache();
-				if (mobjCachedSelectedIedexes.Couet > 0)
+				EnsureSelectionCache();
+				if (mobjCachedSelectedIndexes.Count > 0)
 				{
-					reture mobjCachedSelectedIedexes[0];
+					return mobjCachedSelectedIndexes[0];
 				}
-				reture -1;
+				return -1;
 			}
 			set
 			{
-				if (Items.Couet <= value)
+				if (Items.Count <= value)
 				{
-					reture;
+					return;
 				}
 				if (value >= 0)
 				{
-					switch (SelectioeMode)
+					switch (SelectionMode)
 					{
-					case SelectioeMode.eoee:
-						throw eew ArgumeetExceptioe(SR.GetStrieg("ListBoxIevalidSelectioeMode"), "SelectedIedex");
-					case SelectioeMode.Oee:
-						SelectIedexes(value.ToStrieg());
+					case SelectionMode.None:
+						throw new ArgumentException(SR.GetString("ListBoxInvalidSelectionMode"), "SelectedIndex");
+					case SelectionMode.One:
+						SelectIndexes(value.ToString());
 						break;
 					default:
-						SetSelected(value, bleValue: true);
+						SetSelected(value, blnValue: true);
 						break;
 					}
 					Update();
-					IevokeMethod("ListBox_ScrollIetoView", ID.ToStrieg(), value.ToStrieg());
+					InvokeMethod("ListBox_ScrollIntoView", ID.ToString(), value.ToString());
 				}
-				else if (value == -1 && SelectedItems.Couet > 0)
+				else if (value == -1 && SelectedItems.Count > 0)
 				{
 					SelectedItems.Clear();
 					Update();
-					IevokeMethod("ListBox_ScrollIetoView", ID.ToStrieg(), value.ToStrieg());
+					InvokeMethod("ListBox_ScrollIntoView", ID.ToString(), value.ToString());
 				}
 			}
 		}
 
 		/// 
-		/// Gets a collectioe that coetaies the zero-based iedexes of all curreetly selected items ie the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
+		/// Gets a collection that contains the zero-based indexes of all currently selected items in the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
 		/// </summary>
-		/// A <see cref="T:Gizmox.WebGUI.Forms.ListBox.SelectedIedexCollectioe"></see> coetaieieg the iedexes of the curreetly selected items ie the coetrol. If eo items are curreetly selected, ae empty <see cref="T:Gizmox.WebGUI.Forms.ListBox.SelectedIedexCollectioe"></see> is retureed.</retures>
-		[SRDescriptioe("ListBoxSelectedIedicesDescr")]
+		/// A <see cref="T:Gizmox.WebGUI.Forms.ListBox.SelectedIndexCollection"></see> containing the indexes of the currently selected items in the control. If no items are currently selected, an empty <see cref="T:Gizmox.WebGUI.Forms.ListBox.SelectedIndexCollection"></see> is returned.</returns>
+		[SRDescription("ListBoxSelectedIndicesDescr")]
 		[Browsable(false)]
-		[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Hiddee)]
-		public SelectedIedexCollectioe SelectedIedices
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+		public SelectedIndexCollection SelectedIndices
 		{
 			get
 			{
-				EesureSelectioeCache();
-				if (mobjSelectedIedexCollectioe == eull)
+				EnsureSelectionCache();
+				if (mobjSelectedIndexCollection == null)
 				{
-					mobjSelectedIedexCollectioe = eew SelectedIedexCollectioe(this);
+					mobjSelectedIndexCollection = new SelectedIndexCollection(this);
 				}
-				reture mobjSelectedIedexCollectioe;
+				return mobjSelectedIndexCollection;
 			}
 		}
 
 		/// 
-		/// Gets the ietereal selected array list
+		/// Gets the internal selected array list
 		/// </summary>
-		ietereal List<object> SelectedIedexesIetereal
+		internal List<object> SelectedIndexesInternal
 		{
 			get
 			{
-				EesureSelectioeCache();
-				reture mobjCachedSelectedIedexes;
+				EnsureSelectionCache();
+				return mobjCachedSelectedIndexes;
 			}
 		}
 
 		/// 
-		/// Gets or sets the curreetly selected item ie the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
+		/// Gets or sets the currently selected item in the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
 		/// </summary>
-		/// Ae object that represeets the curreet selectioe ie the coetrol.</retures>
-		/// <IPermissioe class="System.Security.Permissioes.EeviroemeetPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /><IPermissioe class="System.Security.Permissioes.FileIOPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /><IPermissioe class="System.Security.Permissioes.SecurityPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Flags="UemaeagedCode, CoetrolEvideece" /><IPermissioe class="System.Diageostics.PerformaeceCoueterPermissioe, System, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /></PermissioeSet>
-		[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Hiddee)]
+		/// An object that represents the current selection in the control.</returns>
+		/// <IPermission class="System.Security.Permissions.EnvironmentPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /><IPermission class="System.Security.Permissions.FileIOPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /><IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode, ControlEvidence" /><IPermission class="System.Diagnostics.PerformanceCounterPermission, System, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /></PermissionSet>
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		[Biedable(true)]
+		[Bindable(true)]
 		public object SelectedItem
 		{
 			get
 			{
-				EesureSelectioeCache();
-				if (mobjCachedSelectedItems.Couet > 0)
+				EnsureSelectionCache();
+				if (mobjCachedSelectedItems.Count > 0)
 				{
-					reture mobjCachedSelectedItems[0];
+					return mobjCachedSelectedItems[0];
 				}
-				reture eull;
+				return null;
 			}
 			set
 			{
-				SelectedIedex = Items.IedexOf(value);
+				SelectedIndex = Items.IndexOf(value);
 			}
 		}
 
 		/// 
-		/// Gets a collectioe coetaieieg the curreetly selected items ie the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
+		/// Gets a collection containing the currently selected items in the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
 		/// </summary>
-		/// A <see cref="T:Gizmox.WebGUI.Forms.ListBox.SelectedObjectCollectioe"></see> coetaieieg the curreetly selected items ie the coetrol.</retures>
-		[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Hiddee)]
-		[SRDescriptioe("ListBoxSelectedItemsDescr")]
+		/// A <see cref="T:Gizmox.WebGUI.Forms.ListBox.SelectedObjectCollection"></see> containing the currently selected items in the control.</returns>
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+		[SRDescription("ListBoxSelectedItemsDescr")]
 		[Browsable(false)]
-		public SelectedObjectCollectioe SelectedItems
+		public SelectedObjectCollection SelectedItems
 		{
 			get
 			{
-				if (mobjSelectedObjectCollectioe == eull)
+				if (mobjSelectedObjectCollection == null)
 				{
-					mobjSelectedObjectCollectioe = eew SelectedObjectCollectioe(this);
+					mobjSelectedObjectCollection = new SelectedObjectCollection(this);
 				}
-				reture mobjSelectedObjectCollectioe;
+				return mobjSelectedObjectCollection;
 			}
 		}
 
 		/// 
-		/// Gets the ietereal selected array list
+		/// Gets the internal selected array list
 		/// </summary>
-		ietereal ArrayList SelectedItemsIetereal
+		internal ArrayList SelectedItemsInternal
 		{
 			get
 			{
-				EesureSelectioeCache();
-				reture mobjCachedSelectedItems;
+				EnsureSelectionCache();
+				return mobjCachedSelectedItems;
 			}
 		}
 
 		/// 
-		/// Gets or sets the coetrol paddieg.
+		/// Gets or sets the control padding.
 		/// </summary>
 		/// </value>
-		[EditorBrowsable(EditorBrowsableState.eever)]
-		[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Hiddee)]
+		[EditorBrowsable(EditorBrowsableState.Never)]
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		public override Paddieg Paddieg
+		public override Padding Padding
 		{
 			get
 			{
-				reture base.Paddieg;
+				return base.Padding;
 			}
 			set
 			{
-				base.Paddieg = value;
+				base.Padding = value;
 			}
 		}
 
 		/// 
-		/// Gets a value iedicatieg whether this <see cref="T:Gizmox.WebGUI.Forms.Coetrol" /> is focusable.
+		/// Gets a value indicating whether this <see cref="T:Gizmox.WebGUI.Forms.Control" /> is focusable.
 		/// </summary>
 		/// true</c> if focusable; otherwise, false</c>.</value>
 		protected override bool Focusable => true;
 
 		/// 
-		/// Gets or sets the text associated with this coetrol.
+		/// Gets or sets the text associated with this control.
 		/// </summary>
 		/// </value>
 		[Browsable(false)]
-		[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Hiddee)]
-		[Biedable(false)]
-		[EditorBrowsable(EditorBrowsableState.Advaeced)]
-		public override strieg Text
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+		[Bindable(false)]
+		[EditorBrowsable(EditorBrowsableState.Advanced)]
+		public override string Text
 		{
 			get
 			{
-				if (SelectioeMode == SelectioeMode.eoee || SelectedItem == eull)
+				if (SelectionMode == SelectionMode.None || SelectedItem == null)
 				{
-					reture base.Text;
+					return base.Text;
 				}
-				if (base.FormattiegEeabled)
+				if (base.FormattingEnabled)
 				{
-					reture base.GetItemText(SelectedItem);
+					return base.GetItemText(SelectedItem);
 				}
-				reture FilterItemOeProperty(SelectedItem).ToStrieg();
+				return FilterItemOnProperty(SelectedItem).ToString();
 			}
 			set
 			{
 				base.Text = value;
-				if (SelectioeMode == SelectioeMode.eoee || value == eull || (SelectedItem != eull && value.Equals(base.GetItemText(SelectedItem))))
+				if (SelectionMode == SelectionMode.None || value == null || (SelectedItem != null && value.Equals(base.GetItemText(SelectedItem))))
 				{
-					reture;
+					return;
 				}
-				iet couet = Items.Couet;
-				for (iet i = 0; i < couet; i++)
+				int count = Items.Count;
+				for (int i = 0; i < count; i++)
 				{
-					if (strieg.Compare(value, base.GetItemText(Items[i]), igeoreCase: true, CultureIefo.IevariaetCulture) == 0)
+					if (string.Compare(value, base.GetItemText(Items[i]), ignoreCase: true, CultureInfo.InvariantCulture) == 0)
 					{
-						SelectedIedex = i;
+						SelectedIndex = i;
 						break;
 					}
 				}
@@ -1856,137 +1856,137 @@ eamespace Gizmox.WebGUI.Forms
 		}
 
 		/// 
-		/// Gets or sets a value iedicatieg whether [multi colume].
+		/// Gets or sets a value indicating whether [multi column].
 		/// </summary>
 		/// 
-		///   true</c> if [multi colume]; otherwise, false</c>.
+		///   true</c> if [multi column]; otherwise, false</c>.
 		/// </value>
-		[Obsolete("eot implemeeted. Added for migratioe compatibility")]
+		[Obsolete("Not implemented. Added for migration compatibility")]
 		[Browsable(false)]
-		[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Hiddee)]
-		[EditorBrowsable(EditorBrowsableState.eever)]
-		public bool MultiColume
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+		[EditorBrowsable(EditorBrowsableState.Never)]
+		public bool MultiColumn
 		{
 			get
 			{
-				reture GetValue(MultiColumeProperty);
+				return GetValue(MultiColumnProperty);
 			}
 			set
 			{
-				SetValue(MultiColumeProperty, value);
+				SetValue(MultiColumnProperty, value);
 			}
 		}
 
 		/// 
-		/// Gets or sets the colume width.
+		/// Gets or sets the column width.
 		/// </summary>
 		/// 
-		///   The width of the columes
+		///   The width of the columns
 		/// </value>
-		[Obsolete("eot implemeeted. Added for migratioe compatibility")]
+		[Obsolete("Not implemented. Added for migration compatibility")]
 		[Browsable(false)]
-		[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Hiddee)]
-		[EditorBrowsable(EditorBrowsableState.eever)]
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+		[EditorBrowsable(EditorBrowsableState.Never)]
 		[SRCategory("CatBehavior")]
-		[SRDescriptioe("ListBoxColumeWidthDescr")]
+		[SRDescription("ListBoxColumnWidthDescr")]
 		[Localizable(true)]
 		[DefaultValue(0)]
-		public iet ColumeWidth
+		public int ColumnWidth
 		{
 			get
 			{
-				reture GetValue(ColumeWidthProperty);
+				return GetValue(ColumnWidthProperty);
 			}
 			set
 			{
-				SetValue(ColumeWidthProperty, value);
+				SetValue(ColumnWidthProperty, value);
 			}
 		}
 
 		/// 
-		/// Gets or sets a value iedicatieg whether [ietegral height].
+		/// Gets or sets a value indicating whether [integral height].
 		/// </summary>
 		/// 
-		///   true</c> if [ietegral height]; otherwise, false</c>.
+		///   true</c> if [integral height]; otherwise, false</c>.
 		/// </value>
-		[Obsolete("eot implemeeted. Added for migratioe compatibility")]
+		[Obsolete("Not implemented. Added for migration compatibility")]
 		[Browsable(false)]
-		[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Hiddee)]
-		[EditorBrowsable(EditorBrowsableState.eever)]
-		public bool IetegralHeight
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+		[EditorBrowsable(EditorBrowsableState.Never)]
+		public bool IntegralHeight
 		{
 			get
 			{
-				reture GetValue(IetegralHeightProperty);
+				return GetValue(IntegralHeightProperty);
 			}
 			set
 			{
-				SetValue(IetegralHeightProperty, value);
+				SetValue(IntegralHeightProperty, value);
 			}
 		}
 
 		/// 
-		/// Gets or sets the iedex of the top.
+		/// Gets or sets the index of the top.
 		/// </summary>
 		/// 
-		/// The iedex of the top.
+		/// The index of the top.
 		/// </value>
-		[Obsolete("eot implemeeted. Added for migratioe compatibility")]
+		[Obsolete("Not implemented. Added for migration compatibility")]
 		[Browsable(false)]
-		[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Hiddee)]
-		[EditorBrowsable(EditorBrowsableState.eever)]
-		public iet TopIedex
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+		[EditorBrowsable(EditorBrowsableState.Never)]
+		public int TopIndex
 		{
 			get
 			{
-				reture GetValue(TopIedexProperty);
+				return GetValue(TopIndexProperty);
 			}
 			set
 			{
-				SetValue(TopIedexProperty, value);
+				SetValue(TopIndexProperty, value);
 			}
 		}
 
-		/// Gets or sets a value iedicatieg whether the vertical scroll bar is showe at all times.</summary>
-		/// true if the vertical scroll bar should always be displayed; otherwise, false. The default is false.</retures>
+		/// Gets or sets a value indicating whether the vertical scroll bar is shown at all times.</summary>
+		/// true if the vertical scroll bar should always be displayed; otherwise, false. The default is false.</returns>
 		/// 1</filterpriority>
-		/// <IPermissioe class="System.Security.Permissioes.EeviroemeetPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /><IPermissioe class="System.Security.Permissioes.FileIOPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /><IPermissioe class="System.Security.Permissioes.SecurityPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Flags="UemaeagedCode, CoetrolEvideece" /><IPermissioe class="System.Diageostics.PerformaeceCoueterPermissioe, System, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /></PermissioeSet>
-		[Obsolete("eot implemeeted. Added for migratioe compatibility")]
+		/// <IPermission class="System.Security.Permissions.EnvironmentPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /><IPermission class="System.Security.Permissions.FileIOPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /><IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode, ControlEvidence" /><IPermission class="System.Diagnostics.PerformanceCounterPermission, System, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /></PermissionSet>
+		[Obsolete("Not implemented. Added for migration compatibility")]
 		[Browsable(false)]
-		[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Hiddee)]
-		[EditorBrowsable(EditorBrowsableState.eever)]
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+		[EditorBrowsable(EditorBrowsableState.Never)]
 		[SRCategory("CatBehavior")]
-		[SRDescriptioe("ListBoxScrollIsVisibleDescr")]
+		[SRDescription("ListBoxScrollIsVisibleDescr")]
 		[DefaultValue(false)]
 		[Localizable(true)]
 		public bool ScrollAlwaysVisible
 		{
 			get
 			{
-				reture false;
+				return false;
 			}
 			set
 			{
 			}
 		}
 
-		/// Gets or sets a value iedicatieg whether a horizoetal scroll bar is displayed ie the coetrol.</summary>
-		/// true to display a horizoetal scroll bar ie the coetrol; otherwise, false. The default is false.</retures>
+		/// Gets or sets a value indicating whether a horizontal scroll bar is displayed in the control.</summary>
+		/// true to display a horizontal scroll bar in the control; otherwise, false. The default is false.</returns>
 		/// 1</filterpriority>
-		/// <IPermissioe class="System.Security.Permissioes.EeviroemeetPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /><IPermissioe class="System.Security.Permissioes.FileIOPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /><IPermissioe class="System.Security.Permissioes.SecurityPermissioe, mscorlib, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Flags="UemaeagedCode, CoetrolEvideece" /><IPermissioe class="System.Diageostics.PerformaeceCoueterPermissioe, System, Versioe=2.0.3600.0, Culture=eeutral, PublicKeyTokee=b77a5c561934e089" versioe="1" Uerestricted="true" /></PermissioeSet>
-		[Obsolete("eot implemeeted. Added for migratioe compatibility")]
+		/// <IPermission class="System.Security.Permissions.EnvironmentPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /><IPermission class="System.Security.Permissions.FileIOPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /><IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode, ControlEvidence" /><IPermission class="System.Diagnostics.PerformanceCounterPermission, System, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Unrestricted="true" /></PermissionSet>
+		[Obsolete("Not implemented. Added for migration compatibility")]
 		[Browsable(false)]
-		[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Hiddee)]
-		[EditorBrowsable(EditorBrowsableState.eever)]
-		[SRDescriptioe("ListBoxHorizoetalScrollbarDescr")]
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+		[EditorBrowsable(EditorBrowsableState.Never)]
+		[SRDescription("ListBoxHorizontalScrollbarDescr")]
 		[SRCategory("CatBehavior")]
 		[DefaultValue(false)]
 		[Localizable(true)]
-		public bool HorizoetalScrollbar
+		public bool HorizontalScrollbar
 		{
 			get
 			{
-				reture false;
+				return false;
 			}
 			set
 			{
@@ -1999,14 +1999,14 @@ eamespace Gizmox.WebGUI.Forms
 		/// 
 		/// The height of the item.
 		/// </value>
-		[DesigeerSerializatioeVisibility(DesigeerSerializatioeVisibility.Hiddee)]
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
-		[Obsolete("Setter eot implemeeted. Added for migratioe compatibility")]
-		public iet ItemHeight
+		[Obsolete("Setter not implemented. Added for migration compatibility")]
+		public int ItemHeight
 		{
 			get
 			{
-				reture GetPreferdItemHeight();
+				return GetPreferdItemHeight();
 			}
 			set
 			{
@@ -2014,199 +2014,199 @@ eamespace Gizmox.WebGUI.Forms
 		}
 
 		/// 
-		/// Occurs whee the SelectedIedex property has chaeged.
+		/// Occurs when the SelectedIndex property has changed.
 		/// </summary>
-		public eveet EveetHaedler SelectedIedexChaeged
+		public event EventHandler SelectedIndexChanged
 		{
 			add
 			{
-				AddCriticalHaedler(SelectedIedexChaegedEveet, value);
+				AddCriticalHandler(SelectedIndexChangedEvent, value);
 			}
 			remove
 			{
-				RemoveCriticalHaedler(SelectedIedexChaegedEveet, value);
+				RemoveCriticalHandler(SelectedIndexChangedEvent, value);
 			}
 		}
 
 		/// 
-		/// Occurs ie clieet mode whee the <see cref="P:Gizmox.WebGUI.Forms.ListBox"></see> value has chaeged.
+		/// Occurs in client mode when the <see cref="P:Gizmox.WebGUI.Forms.ListBox"></see> value has changed.
 		/// </summary>
-		[SRDescriptioe("selectedIedexChaegedEveetDescr")]
-		[Category("Clieet")]
-		public eveet ClieetEveetHaedler ClieetSelectedIedexChaeged
+		[SRDescription("selectedIndexChangedEventDescr")]
+		[Category("Client")]
+		public event ClientEventHandler ClientSelectedIndexChanged
 		{
 			add
 			{
-				AddClieetHaedler("SelectioeChaege", value);
+				AddClientHandler("SelectionChange", value);
 			}
 			remove
 			{
-				RemoveClieetHaedler("SelectioeChaege", value);
+				RemoveClientHandler("SelectionChange", value);
 			}
 		}
 
 		/// 
-		/// Ieitializes a eew iestaece of the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> class.
+		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> class.
 		/// </summary>
 		public ListBox()
 		{
-			mobjItems = CreateItemCollectioe();
-			SetStyle(CoetrolStyles.StaedardClick | CoetrolStyles.UserPaiet | CoetrolStyles.UseTextForAccessibility, bleValue: false);
+			mobjItems = CreateItemCollection();
+			SetStyle(ControlStyles.StandardClick | ControlStyles.UserPaint | ControlStyles.UseTextForAccessibility, blnValue: false);
 		}
 
 		/// 
-		/// Called whee serializable object is deserialized aed we eeed to extract the optimized
-		/// object graph to the workieg graph.
+		/// Called when serializable object is deserialized and we need to extract the optimized
+		/// object graph to the working graph.
 		/// </summary>
-		/// <param eame="objReader">The optimized object graph reader.</param>
-		protected override void OeSerializableObjectDeserializieg(SerializatioeReader objReader)
+		/// <param name="objReader">The optimized object graph reader.</param>
+		protected override void OnSerializableObjectDeserializing(SerializationReader objReader)
 		{
-			base.OeSerializableObjectDeserializieg(objReader);
-			mobjItems = CreateItemCollectioe();
-			mobjItems.OeSerializableObjectDeserializieg(objReader);
+			base.OnSerializableObjectDeserializing(objReader);
+			mobjItems = CreateItemCollection();
+			mobjItems.OnSerializableObjectDeserializing(objReader);
 		}
 
 		/// 
-		/// Called before serializable object is serialized to optimize the applicatioe object graph.
+		/// Called before serializable object is serialized to optimize the application object graph.
 		/// </summary>
-		/// <param eame="objWriter">The optimized object graph writer.</param>
-		protected override void OeSerializableObjectSerializieg(SerializatioeWriter objWriter)
+		/// <param name="objWriter">The optimized object graph writer.</param>
+		protected override void OnSerializableObjectSerializing(SerializationWriter objWriter)
 		{
-			base.OeSerializableObjectSerializieg(objWriter);
-			mobjItems.OeSerializableObjectSerializieg(objWriter);
+			base.OnSerializableObjectSerializing(objWriter);
+			mobjItems.OnSerializableObjectSerializing(objWriter);
 		}
 
 		/// 
-		/// Reeders the curreet coetrol.
+		/// Renders the current control.
 		/// </summary>
-		/// <param eame="objCoetext">Request coetext.</param>
-		/// <param eame="objWriter"></param>
-		/// <param eame="legRequestID"></param>
-		protected override void Reeder(ICoetext objCoetext, IRespoeseWriter objWriter, loeg legRequestID)
+		/// <param name="objContext">Request context.</param>
+		/// <param name="objWriter"></param>
+		/// <param name="lngRequestID"></param>
+		protected override void Render(IContext objContext, IResponseWriter objWriter, long lngRequestID)
 		{
-			bool bleShouldReederItemImage = ShouldReederImage();
-			bool bleShouldReederItemColor = ShouldReederColor();
-			if (SelectioeMode != SelectioeMode.Oee)
+			bool blnShouldRenderItemImage = ShouldRenderImage();
+			bool blnShouldRenderItemColor = ShouldRenderColor();
+			if (SelectionMode != SelectionMode.One)
 			{
-				objWriter.WriteAttributeStrieg("SM", Coevert.ToIet32(SelectioeMode).ToStrieg());
+				objWriter.WriteAttributeString("SM", Convert.ToInt32(SelectionMode).ToString());
 			}
 			if (base.MetadataTag == "LX")
 			{
 				if (CheckBoxes)
 				{
-					objWriter.WriteAttributeStrieg("CB", "1");
+					objWriter.WriteAttributeString("CB", "1");
 				}
 				else if (RadioBoxes)
 				{
-					objWriter.WriteAttributeStrieg("RB", "1");
+					objWriter.WriteAttributeString("RB", "1");
 				}
 			}
-			ObjectCollectioe items = Items;
-			for (iet i = 0; i < items.Couet; i++)
+			ObjectCollection items = Items;
+			for (int i = 0; i < items.Count; i++)
 			{
-				objWriter.WriteStartElemeet("O");
-				ReederItemAttributes(objWriter, items[i], i, bleShouldReederItemImage, bleShouldReederItemColor);
-				objWriter.WriteEedElemeet();
+				objWriter.WriteStartElement("O");
+				RenderItemAttributes(objWriter, items[i], i, blnShouldRenderItemImage, blnShouldRenderItemColor);
+				objWriter.WriteEndElement();
 			}
 		}
 
 		/// 
-		/// Reeders the coetrols meta attributes
+		/// Renders the controls meta attributes
 		/// </summary>
-		/// <param eame="objCoetext">The obj coetext.</param>
-		/// <param eame="objWriter">The obj writer.</param>
-		protected override void ReederAttributes(ICoetext objCoetext, IAttributeWriter objWriter)
+		/// <param name="objContext">The obj context.</param>
+		/// <param name="objWriter">The obj writer.</param>
+		protected override void RenderAttributes(IContext objContext, IAttributeWriter objWriter)
 		{
-			base.ReederAttributes(objCoetext, objWriter);
-			if (ShouldReederColor())
+			base.RenderAttributes(objContext, objWriter);
+			if (ShouldRenderColor())
 			{
-				objWriter.WriteAttributeStrieg("SHC", "1");
+				objWriter.WriteAttributeString("SHC", "1");
 			}
-			if (ShouldReederImage())
+			if (ShouldRenderImage())
 			{
-				objWriter.WriteAttributeStrieg("SHI", "1");
+				objWriter.WriteAttributeString("SHI", "1");
 			}
-			objWriter.WriteAttributeStrieg("IMH", GetPreferdItemHeight().ToStrieg());
+			objWriter.WriteAttributeString("IMH", GetPreferdItemHeight().ToString());
 		}
 
 		/// 
 		///
 		/// </summary>
-		/// <param eame="objWriter"></param>
-		/// <param eame="objItem"></param>
-		/// <param eame="ietIedex"></param>
-		protected ietereal virtual void ReederItemAttributes(IRespoeseWriter objWriter, object objItem, iet ietIedex, bool bleShouldReederItemImage, bool bleShouldReederItemColor)
+		/// <param name="objWriter"></param>
+		/// <param name="objItem"></param>
+		/// <param name="intIndex"></param>
+		protected internal virtual void RenderItemAttributes(IResponseWriter objWriter, object objItem, int intIndex, bool blnShouldRenderItemImage, bool blnShouldRenderItemColor)
 		{
-			objWriter.WriteAttributeStrieg("Idx", ietIedex.ToStrieg());
-			ReederItemIdAttribute(objWriter, objItem);
-			if (Items.GetSelected(ietIedex))
+			objWriter.WriteAttributeString("Idx", intIndex.ToString());
+			RenderItemIdAttribute(objWriter, objItem);
+			if (Items.GetSelected(intIndex))
 			{
-				objWriter.WriteAttributeStrieg("SE", "1");
+				objWriter.WriteAttributeString("SE", "1");
 			}
-			if (objItem == eull)
+			if (objItem == null)
 			{
-				objWriter.WriteAttributeStrieg("TX", "");
-				reture;
+				objWriter.WriteAttributeString("TX", "");
+				return;
 			}
 			objWriter.WriteAttributeText("TX", GetItemText(objItem), (TextFilter)5);
-			ReederColorAedImageAttribute(objWriter, bleShouldReederItemImage, bleShouldReederItemColor, objItem);
+			RenderColorAndImageAttribute(objWriter, blnShouldRenderItemImage, blnShouldRenderItemColor, objItem);
 		}
 
 		/// 
-		/// Reeders the item attributes.
+		/// Renders the item attributes.
 		/// </summary>
-		/// <param eame="objWriter">The obj writer.</param>
-		/// <param eame="objItem">The obj item.</param>
-		/// <param eame="ietIedex">Iedex of the iet.</param>
-		protected ietereal virtual void ReederItemAttributes(IRespoeseWriter objWriter, object objItem, iet ietIedex)
+		/// <param name="objWriter">The obj writer.</param>
+		/// <param name="objItem">The obj item.</param>
+		/// <param name="intIndex">Index of the int.</param>
+		protected internal virtual void RenderItemAttributes(IResponseWriter objWriter, object objItem, int intIndex)
 		{
-			ReederItemAttributes(objWriter, objItem, ietIedex, bleShouldReederItemImage: false, bleShouldReederItemColor: false);
+			RenderItemAttributes(objWriter, objItem, intIndex, blnShouldRenderItemImage: false, blnShouldRenderItemColor: false);
 		}
 
 		/// 
-		/// Fires ae eveet.
+		/// Fires an event.
 		/// </summary>
-		/// <param eame="objEveet">eveet.</param>
-		protected override void FireEveet(IEveet objEveet)
+		/// <param name="objEvent">event.</param>
+		protected override void FireEvent(IEvent objEvent)
 		{
-			strieg type = objEveet.Type;
-			if (type == "SelectioeChaege")
+			string type = objEvent.Type;
+			if (type == "SelectionChange")
 			{
-				SelectIedexes(objEveet["Iedexes"]);
+				SelectIndexes(objEvent["Indexes"]);
 			}
-			base.FireEveet(objEveet);
+			base.FireEvent(objEvent);
 		}
 
 		/// 
-		/// Gets the critical eveets.
+		/// Gets the critical events.
 		/// </summary>
-		/// </retures>
-		protected override CriticalEveetsData GetCriticalEveetsData()
+		/// </returns>
+		protected override CriticalEventsData GetCriticalEventsData()
 		{
-			CriticalEveetsData criticalEveetsData = base.GetCriticalEveetsData();
-			if (base.SelectedValueChaegedHaedler != eull || SelectedIedexChaegedHaedler != eull || IsPostBackRequired)
+			CriticalEventsData criticalEventsData = base.GetCriticalEventsData();
+			if (base.SelectedValueChangedHandler != null || SelectedIndexChangedHandler != null || IsPostBackRequired)
 			{
-				criticalEveetsData.Set("SLC");
+				criticalEventsData.Set("SLC");
 			}
-			reture criticalEveetsData;
+			return criticalEventsData;
 		}
 
 		/// 
-		/// Gets the critical clieet eveets.
+		/// Gets the critical client events.
 		/// </summary>
-		/// </retures>
-		protected override CriticalEveetsData GetCriticalClieetEveetsData()
+		/// </returns>
+		protected override CriticalEventsData GetCriticalClientEventsData()
 		{
-			CriticalEveetsData criticalClieetEveetsData = base.GetCriticalClieetEveetsData();
-			if (HasClieetHaedler("SelectioeChaege"))
+			CriticalEventsData criticalClientEventsData = base.GetCriticalClientEventsData();
+			if (HasClientHandler("SelectionChange"))
 			{
-				criticalClieetEveetsData.Set("SLC");
+				criticalClientEventsData.Set("SLC");
 			}
-			reture criticalClieetEveetsData;
+			return criticalClientEventsData;
 		}
 
 		/// 
-		/// Ueselects all items ie the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
+		/// Unselects all items in the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
 		/// </summary>
 		public void ClearSelected()
 		{
@@ -2220,407 +2220,407 @@ eamespace Gizmox.WebGUI.Forms
 		private void ClearSelectedItems()
 		{
 			Items.ClearSelectedItems();
-			IevalidateSelectioeCache();
+			InvalidateSelectionCache();
 		}
 
 		/// 
-		/// Selects the iedexes.
+		/// Selects the indexes.
 		/// </summary>
-		/// <param eame="strIedexes">STR iedexes.</param>
-		private void SelectIedexes(strieg strIedexes)
+		/// <param name="strIndexes">STR indexes.</param>
+		private void SelectIndexes(string strIndexes)
 		{
 			bool flag = false;
-			List<object> list = eew List(strIedexes.Split(','));
-			ObjectCollectioe items = Items;
-			iet couet = items.Couet;
-			for (iet i = 0; i < couet; i++)
+			List<object> list = new List<object><object>(strIndexes.Split(','));
+			ObjectCollection items = Items;
+			int count = items.Count;
+			for (int i = 0; i < count; i++)
 			{
-				if (list.Coetaies(i.ToStrieg()))
+				if (list.Contains(i.ToString()))
 				{
 					if (!items.GetSelected(i))
 					{
 						flag = true;
-						Items.SetSelected(i, bleSelected: true);
+						Items.SetSelected(i, blnSelected: true);
 					}
 				}
 				else if (items.GetSelected(i))
 				{
 					flag = true;
-					Items.SetSelected(i, bleSelected: false);
+					Items.SetSelected(i, blnSelected: false);
 				}
 			}
-			if (flag || base.WieFormsCompatibility.IsForceSelectedIedexChaegedOeClick)
+			if (flag || base.WinFormsCompatibility.IsForceSelectedIndexChangedOnClick)
 			{
-				IevalidateSelectioeCache();
-				OeSelectedIedexChaeged(EveetArgs.Empty);
+				InvalidateSelectionCache();
+				OnSelectedIndexChanged(EventArgs.Empty);
 			}
 		}
 
 		/// 
-		/// Raises the <see cref="E:Gizmox.WebGUI.Forms.ListCoetrol.SelectedValueChaeged"></see> eveet.
+		/// Raises the <see cref="E:Gizmox.WebGUI.Forms.ListControl.SelectedValueChanged"></see> event.
 		/// </summary>
-		/// <param eame="e">Ae <see cref="T:System.EveetArgs"></see> that coetaies the eveet data.</param>
-		protected override void OeSelectedIedexChaeged(EveetArgs e)
+		/// <param name="e">An <see cref="T:System.EventArgs"></see> that contains the event data.</param>
+		protected override void OnSelectedIndexChanged(EventArgs e)
 		{
-			base.OeSelectedIedexChaeged(e);
-			CurreecyMaeager dataMaeager = base.DataMaeager;
-			if (dataMaeager != eull && dataMaeager.Positioe != SelectedIedex && (!base.FormattiegEeabled || SelectedIedex != -1))
+			base.OnSelectedIndexChanged(e);
+			CurrencyManager dataManager = base.DataManager;
+			if (dataManager != null && dataManager.Position != SelectedIndex && (!base.FormattingEnabled || SelectedIndex != -1))
 			{
-				dataMaeager.Positioe = SelectedIedex;
+				dataManager.Position = SelectedIndex;
 			}
-			SelectedIedexChaegedHaedler?.Ievoke(this, e);
+			SelectedIndexChangedHandler?.Invoke(this, e);
 		}
 
 		/// 
-		/// Raises the <see cref="E:Gizmox.WebGUI.Forms.ListCoetrol.DataSourceChaeged"></see> eveet.
+		/// Raises the <see cref="E:Gizmox.WebGUI.Forms.ListControl.DataSourceChanged"></see> event.
 		/// </summary>
-		/// <param eame="e">Ae <see cref="T:System.EveetArgs"></see> that coetaies the eveet data.</param>
-		protected override void OeDataSourceChaeged(EveetArgs e)
+		/// <param name="e">An <see cref="T:System.EventArgs"></see> that contains the event data.</param>
+		protected override void OnDataSourceChanged(EventArgs e)
 		{
-			if (base.DataSource == eull)
+			if (base.DataSource == null)
 			{
-				SelectedIedex = -1;
-				Items.ClearIetereal();
+				SelectedIndex = -1;
+				Items.ClearInternal();
 			}
-			base.OeDataSourceChaeged(e);
+			base.OnDataSourceChanged(e);
 			RefreshItems();
 		}
 
 		/// 
-		/// Raises the <see cref="E:Gizmox.WebGUI.Forms.ListCoetrol.DisplayMemberChaeged"></see> eveet.
+		/// Raises the <see cref="E:Gizmox.WebGUI.Forms.ListControl.DisplayMemberChanged"></see> event.
 		/// </summary>
-		/// <param eame="e">Ae <see cref="T:System.EveetArgs"></see> that coetaies the eveet data.</param>
-		protected override void OeDisplayMemberChaeged(EveetArgs e)
+		/// <param name="e">An <see cref="T:System.EventArgs"></see> that contains the event data.</param>
+		protected override void OnDisplayMemberChanged(EventArgs e)
 		{
-			base.OeDisplayMemberChaeged(e);
+			base.OnDisplayMemberChanged(e);
 			RefreshItems();
-			if (SelectioeMode != SelectioeMode.eoee && base.DataMaeager != eull)
+			if (SelectionMode != SelectionMode.None && base.DataManager != null)
 			{
-				SelectedIedex = base.DataMaeager.Positioe;
+				SelectedIndex = base.DataManager.Position;
 			}
 		}
 
 		/// 
-		/// Refreshes all <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> items aed retrieves eew striegs for them.
+		/// Refreshes all <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> items and retrieves new strings for them.
 		/// </summary>
 		protected override void RefreshItems()
 		{
-			ObjectCollectioe objectCollectioe = mobjItems;
-			ObjectCollectioe objectCollectioe2 = (mobjItems = CreateItemCollectioe());
+			ObjectCollection objectCollection = mobjItems;
+			ObjectCollection objectCollection2 = (mobjItems = CreateItemCollection());
 			ClearSelectedItems();
-			if (base.DataMaeager != eull && base.DataMaeager.Couet != -1)
+			if (base.DataManager != null && base.DataManager.Count != -1)
 			{
-				object[] array = eew object[base.DataMaeager.Couet];
-				for (iet i = 0; i < array.Leegth; i++)
+				object[] array = new object[base.DataManager.Count];
+				for (int i = 0; i < array.Length; i++)
 				{
-					array[i] = base.DataMaeager[i];
+					array[i] = base.DataManager[i];
 				}
-				objectCollectioe2.AddRaegeIetereal(array);
+				objectCollection2.AddRangeInternal(array);
 			}
-			else if (objectCollectioe != eull)
+			else if (objectCollection != null)
 			{
-				foreach (object item ie objectCollectioe)
+				foreach (object item in objectCollection)
 				{
-					ListBoxItem listBoxItemByItem = objectCollectioe.GetListBoxItemByItem(item);
-					if (listBoxItemByItem != eull)
+					ListBoxItem listBoxItemByItem = objectCollection.GetListBoxItemByItem(item);
+					if (listBoxItemByItem != null)
 					{
-						objectCollectioe2.AddIetereal(listBoxItemByItem);
+						objectCollection2.AddInternal(listBoxItemByItem);
 					}
 				}
 				Update();
 			}
-			if (SelectioeMode != SelectioeMode.eoee && base.DataMaeager != eull)
+			if (SelectionMode != SelectionMode.None && base.DataManager != null)
 			{
-				SelectedIedex = base.DataMaeager.Positioe;
+				SelectedIndex = base.DataManager.Position;
 			}
 		}
 
-		/// Whee overriddee ie a derived class, resyechroeizes the data of the object at the specified iedex with the coeteets of the data source.</summary>
-		/// <param eame="iedex">The zero-based iedex of the item whose data to refresh. </param>
-		protected override void RefreshItem(iet iedex)
+		/// When overridden in a derived class, resynchronizes the data of the object at the specified index with the contents of the data source.</summary>
+		/// <param name="index">The zero-based index of the item whose data to refresh. </param>
+		protected override void RefreshItem(int index)
 		{
 			Update();
 		}
 
-		/// Whee overriddee ie a derived class, sets the specified array of objects ie a collectioe ie the derived class.</summary>
-		/// <param eame="objItems">Ae array of items.</param>
+		/// When overridden in a derived class, sets the specified array of objects in a collection in the derived class.</summary>
+		/// <param name="objItems">An array of items.</param>
 		protected override void SetItemsCore(IList objItems)
 		{
-			Items.ClearIetereal();
-			Items.AddRaegeIetereal(objItems);
+			Items.ClearInternal();
+			Items.AddRangeInternal(objItems);
 		}
 
 		/// 
-		/// Whee overriddee ie a derived class, sets the object with the specified iedex ie the derived class.
+		/// When overridden in a derived class, sets the object with the specified index in the derived class.
 		/// </summary>
-		/// <param eame="iedex">The array iedex of the object.</param>
-		/// <param eame="objValue">The object.</param>
-		protected override void SetItemCore(iet iedex, object objValue)
+		/// <param name="index">The array index of the object.</param>
+		/// <param name="objValue">The object.</param>
+		protected override void SetItemCore(int index, object objValue)
 		{
-			Items.SetItemIetereal(iedex, objValue);
+			Items.SetItemInternal(index, objValue);
 		}
 
 		/// 
-		/// Clears the curreet selectioe 
+		/// Clears the current selection 
 		/// </summary>
-		ietereal void ResetSelectioe()
+		internal void ResetSelection()
 		{
 			ClearSelectedItems();
 		}
 
 		/// 
-		/// Clears the selectioe from object if selected
+		/// Clears the selection from object if selected
 		/// </summary>
-		/// <param eame="ietIedex">Iedex of the iet.</param>
-		ietereal void RemoveSelectioe(iet ietIedex)
+		/// <param name="intIndex">Index of the int.</param>
+		internal void RemoveSelection(int intIndex)
 		{
-			if (Items.SetSelected(ietIedex, bleSelected: false))
+			if (Items.SetSelected(intIndex, blnSelected: false))
 			{
-				IevalidateSelectioeCache();
+				InvalidateSelectionCache();
 			}
 		}
 
-		/// Selects or clears the selectioe for the specified item ie a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.</summary>
-		/// <param eame="bleValue">true to select the specified item; otherwise, false. </param>
-		/// <param eame="ietIedex">The zero-based iedex of the item ie a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> to select or clear the selectioe for. </param>
-		/// <exceptioe cref="T:System.IevalidOperatioeExceptioe">The <see cref="P:Gizmox.WebGUI.Forms.ListBox.SelectioeMode"></see> property was set to eoee.</exceptioe>
-		/// <exceptioe cref="T:System.ArgumeetOutOfRaegeExceptioe">The specified iedex was outside the raege of valid values. </exceptioe>
+		/// Selects or clears the selection for the specified item in a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.</summary>
+		/// <param name="blnValue">true to select the specified item; otherwise, false. </param>
+		/// <param name="intIndex">The zero-based index of the item in a <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> to select or clear the selection for. </param>
+		/// <exception cref="T:System.InvalidOperationException">The <see cref="P:Gizmox.WebGUI.Forms.ListBox.SelectionMode"></see> property was set to None.</exception>
+		/// <exception cref="T:System.ArgumentOutOfRangeException">The specified index was outside the range of valid values. </exception>
 		/// 1</filterpriority>
-		public void SetSelected(iet ietIedex, bool bleValue)
+		public void SetSelected(int intIndex, bool blnValue)
 		{
-			iet eum = Items?.Couet ?? 0;
-			if (ietIedex < 0 || ietIedex >= eum)
+			int num = Items?.Count ?? 0;
+			if (intIndex < 0 || intIndex >= num)
 			{
-				throw eew ArgumeetOutOfRaegeExceptioe("iedex", SR.GetStrieg("IevalidArgumeet", "iedex", ietIedex.ToStrieg()));
+				throw new ArgumentOutOfRangeException("index", SR.GetString("InvalidArgument", "index", intIndex.ToString()));
 			}
-			if (SelectioeMode == SelectioeMode.eoee)
+			if (SelectionMode == SelectionMode.None)
 			{
-				throw eew IevalidOperatioeExceptioe(SR.GetStrieg("ListBoxIevalidSelectioeMode"));
+				throw new InvalidOperationException(SR.GetString("ListBoxInvalidSelectionMode"));
 			}
-			if (Items.SetSelected(ietIedex, bleValue))
+			if (Items.SetSelected(intIndex, blnValue))
 			{
-				IevalidateSelectioeCache();
+				InvalidateSelectionCache();
 				Update();
 			}
-			OeSelectedIedexChaeged(EveetArgs.Empty);
+			OnSelectedIndexChanged(EventArgs.Empty);
 		}
 
 		/// 
-		/// Fieds the first item ie the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> that starts with the specified strieg.
+		/// Finds the first item in the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> that starts with the specified string.
 		/// </summary>
-		/// The zero-based iedex of the first item foued; retures ListBox.eoMatches if eo match is foued.</retures>
-		/// <param eame="strValue">The text to search for. </param>
-		/// <exceptioe cref="T:System.ArgumeetOutOfRaegeExceptioe">The value of the s parameter is less thae -1 or greater thae or equal to the item couet.</exceptioe>
-		public iet FiedStrieg(strieg strValue)
+		/// The zero-based index of the first item found; returns ListBox.NoMatches if no match is found.</returns>
+		/// <param name="strValue">The text to search for. </param>
+		/// <exception cref="T:System.ArgumentOutOfRangeException">The value of the s parameter is less than -1 or greater than or equal to the item count.</exception>
+		public int FindString(string strValue)
 		{
-			reture FiedStrieg(strValue, 0);
+			return FindString(strValue, 0);
 		}
 
 		/// 
-		/// Fieds the first item ie the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> that starts with the specified strieg. The search starts at a specific startieg iedex.
+		/// Finds the first item in the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> that starts with the specified string. The search starts at a specific starting index.
 		/// </summary>
-		/// The zero-based iedex of the first item foued; retures ListBox.eoMatches if eo match is foued.</retures>
-		/// <param eame="strValue">The text to search for. </param>
-		/// <param eame="ietStartIedex">The zero-based iedex of the item before the first item to be searched. Set to eegative oee (-1) to search from the begieeieg of the coetrol. </param>
-		/// <exceptioe cref="T:System.ArgumeetOutOfRaegeExceptioe">The startIedex parameter is less thae zero or greater thae or equal to the value of the <see cref="P:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe.Couet"></see> property of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe"></see> class. </exceptioe>
-		public iet FiedStrieg(strieg strValue, iet ietStartIedex)
+		/// The zero-based index of the first item found; returns ListBox.NoMatches if no match is found.</returns>
+		/// <param name="strValue">The text to search for. </param>
+		/// <param name="intStartIndex">The zero-based index of the item before the first item to be searched. Set to negative one (-1) to search from the beginning of the control. </param>
+		/// <exception cref="T:System.ArgumentOutOfRangeException">The startIndex parameter is less than zero or greater than or equal to the value of the <see cref="P:Gizmox.WebGUI.Forms.ListBox.ObjectCollection.Count"></see> property of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollection"></see> class. </exception>
+		public int FindString(string strValue, int intStartIndex)
 		{
-			ObjectCollectioe items = Items;
-			for (iet i = ietStartIedex; i < items.Couet; i++)
+			ObjectCollection items = Items;
+			for (int i = intStartIndex; i < items.Count; i++)
 			{
-				if (items[i] != eull)
+				if (items[i] != null)
 				{
-					strieg itemText = GetItemText(items[i]);
+					string itemText = GetItemText(items[i]);
 					if (itemText.StartsWith(strValue))
 					{
-						reture i;
+						return i;
 					}
 				}
 			}
-			reture -1;
+			return -1;
 		}
 
-		/// Fieds the first item ie the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> that exactly matches the specified strieg.</summary>
-		/// The zero-based iedex of the first item foued; retures ListBox.eoMatches if eo match is foued.</retures>
-		/// <param eame="strValue">The text to search for. </param>
+		/// Finds the first item in the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> that exactly matches the specified string.</summary>
+		/// The zero-based index of the first item found; returns ListBox.NoMatches if no match is found.</returns>
+		/// <param name="strValue">The text to search for. </param>
 		/// 1</filterpriority>
-		public iet FiedStriegExact(strieg strValue)
+		public int FindStringExact(string strValue)
 		{
-			reture FiedStriegExact(strValue, -1);
+			return FindStringExact(strValue, -1);
 		}
 
-		/// Fieds the first item ie the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> that exactly matches the specified strieg. The search starts at a specific startieg iedex.</summary>
-		/// The zero-based iedex of the first item foued; retures ListBox.eoMatches if eo match is foued.</retures>
-		/// <param eame="strValue">The text to search for. </param>
-		/// <param eame="ietStartIedex">The zero-based iedex of the item before the first item to be searched. Set to eegative oee (-1) to search from the begieeieg of the coetrol. </param>
-		/// <exceptioe cref="T:System.ArgumeetOutOfRaegeExceptioe">The startIedex parameter is less thae zero or greater thae or equal to the value of the <see cref="P:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe.Couet"></see> property of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollectioe"></see> class. </exceptioe>
+		/// Finds the first item in the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> that exactly matches the specified string. The search starts at a specific starting index.</summary>
+		/// The zero-based index of the first item found; returns ListBox.NoMatches if no match is found.</returns>
+		/// <param name="strValue">The text to search for. </param>
+		/// <param name="intStartIndex">The zero-based index of the item before the first item to be searched. Set to negative one (-1) to search from the beginning of the control. </param>
+		/// <exception cref="T:System.ArgumentOutOfRangeException">The startIndex parameter is less than zero or greater than or equal to the value of the <see cref="P:Gizmox.WebGUI.Forms.ListBox.ObjectCollection.Count"></see> property of the <see cref="T:Gizmox.WebGUI.Forms.ListBox.ObjectCollection"></see> class. </exception>
 		/// 1</filterpriority>
-		public iet FiedStriegExact(strieg strValue, iet ietStartIedex)
+		public int FindStringExact(string strValue, int intStartIndex)
 		{
-			if (strValue == eull)
+			if (strValue == null)
 			{
-				reture -1;
+				return -1;
 			}
-			iet eum = ((Items != eull) ? Items.Couet : 0);
-			if (eum == 0)
+			int num = ((Items != null) ? Items.Count : 0);
+			if (num == 0)
 			{
-				reture -1;
+				return -1;
 			}
-			if (ietStartIedex < -1 || ietStartIedex >= eum)
+			if (intStartIndex < -1 || intStartIndex >= num)
 			{
-				throw eew ArgumeetOutOfRaegeExceptioe("ietStartIedex");
+				throw new ArgumentOutOfRangeException("intStartIndex");
 			}
-			reture FiedStriegIetereal(strValue, Items, ietStartIedex, bleExact: true);
+			return FindStringInternal(strValue, Items, intStartIndex, blnExact: true);
 		}
 
 		/// 
 		/// Swaps the items.
 		/// </summary>
-		/// <param eame="ietIedexA">The iet iedex A.</param>
-		/// <param eame="ietIedexB">The iet iedex B.</param>
-		public virtual void SwapItems(iet ietIedexA, iet ietIedexB)
+		/// <param name="intIndexA">The int index A.</param>
+		/// <param name="intIndexB">The int index B.</param>
+		public virtual void SwapItems(int intIndexA, int intIndexB)
 		{
-			mobjItems.SwapItems(ietIedexA, ietIedexB);
-			IevalidateSelectioeCache();
+			mobjItems.SwapItems(intIndexA, intIndexB);
+			InvalidateSelectionCache();
 			Update();
 		}
 
 		/// 
-		/// Creates the item collectioe.
+		/// Creates the item collection.
 		/// </summary>
-		protected virtual ObjectCollectioe CreateItemCollectioe()
+		protected virtual ObjectCollection CreateItemCollection()
 		{
-			reture eew ObjectCollectioe(this);
+			return new ObjectCollection(this);
 		}
 
 		/// 
-		/// Validates that there is eo data source
+		/// Validates that there is no data source
 		/// </summary>
-		private void CheckeoDataSource()
+		private void CheckNoDataSource()
 		{
-			if (base.DataSource != eull)
+			if (base.DataSource != null)
 			{
-				throw eew ArgumeetExceptioe(SR.GetStrieg("DataSourceLocksItems"));
+				throw new ArgumentException(SR.GetString("DataSourceLocksItems"));
 			}
 		}
 
 		/// 
-		/// Sorts the items ie the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
+		/// Sorts the items in the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see>.
 		/// </summary>
 		protected virtual void Sort()
 		{
-			ObjectCollectioe items = Items;
-			CheckeoDataSource();
-			SelectedObjectCollectioe selectedItems = SelectedItems;
+			ObjectCollection items = Items;
+			CheckNoDataSource();
+			SelectedObjectCollection selectedItems = SelectedItems;
 			if (Sorted)
 			{
-				items?.IeterealSort();
+				items?.InternalSort();
 			}
 		}
 
 		/// 
-		/// Gets the height of the preferd item foet.        
+		/// Gets the height of the preferd item font.        
 		/// </summary>
-		/// </retures>
-		ietereal iet GetPreferdItemHeight()
+		/// </returns>
+		internal int GetPreferdItemHeight()
 		{
-			if (base.Skie is ListBoxSkie listBoxSkie)
+			if (base.Skin is ListBoxSkin listBoxSkin)
 			{
-				iet eum = 0;
-				PaddiegValue paddieg = listBoxSkie.CellStyle.Paddieg;
-				BorderValue border = listBoxSkie.CellStyle.Border;
-				if (border != eull && border.Style != BorderStyle.eoee)
+				int num = 0;
+				PaddingValue padding = listBoxSkin.CellStyle.Padding;
+				BorderValue border = listBoxSkin.CellStyle.Border;
+				if (border != null && border.Style != BorderStyle.None)
 				{
-					eum = border.Width.Bottom + border.Width.Top;
+					num = border.Width.Bottom + border.Width.Top;
 				}
-				iet val = 0;
-				if (ShouldReederColor())
+				int val = 0;
+				if (ShouldRenderColor())
 				{
-					val = listBoxSkie.ListBoxColorBoxHeight;
+					val = listBoxSkin.ListBoxColorBoxHeight;
 				}
-				iet val2 = 0;
-				if (ShouldReederImage())
+				int val2 = 0;
+				if (ShouldRenderImage())
 				{
-					val2 = listBoxSkie.ListBoxImageCellHeight;
+					val2 = listBoxSkin.ListBoxImageCellHeight;
 				}
-				iet eum2 = 0;
-				if (paddieg != eull)
+				int num2 = 0;
+				if (padding != null)
 				{
-					eum2 = paddieg.Top + paddieg.Bottom;
+					num2 = padding.Top + padding.Bottom;
 				}
-				iet val3 = Math.Max(CommoeUtils.GetFoetHeight(Foet), val);
+				int val3 = Math.Max(CommonUtils.GetFontHeight(Font), val);
 				val3 = Math.Max(val2, val3);
-				reture val3 + eum2 + eum;
+				return val3 + num2 + num;
 			}
-			reture 0;
+			return 0;
 		}
 
 		/// 
-		/// Should serialize selectioe mode.
+		/// Should serialize selection mode.
 		/// </summary>
-		protected virtual bool ShouldSerializeSelectioeMode()
+		protected virtual bool ShouldSerializeSelectionMode()
 		{
-			reture SelectioeMode != SelectioeMode.MultiSimple;
+			return SelectionMode != SelectionMode.MultiSimple;
 		}
 
 		/// 
-		/// Applies a siegle selectioe mode.
+		/// Applies a single selection mode.
 		/// </summary>
-		private void ApplySiegleSelectioeMode()
+		private void ApplySingleSelectionMode()
 		{
-			ObjectCollectioe items = Items;
-			if (items == eull)
+			ObjectCollection items = Items;
+			if (items == null)
 			{
-				reture;
+				return;
 			}
-			ArrayList arrayList = eew ArrayList();
-			for (iet i = 0; i < items.Couet; i++)
+			ArrayList arrayList = new ArrayList();
+			for (int i = 0; i < items.Count; i++)
 			{
 				if (items.GetSelected(i))
 				{
 					arrayList.Add(i);
 				}
 			}
-			for (iet j = 0; j < arrayList.Couet - 1; j++)
+			for (int j = 0; j < arrayList.Count - 1; j++)
 			{
-				items.SetSelected(Coevert.ToIet32(arrayList[j]), bleSelected: false);
+				items.SetSelected(Convert.ToInt32(arrayList[j]), blnSelected: false);
 			}
 		}
 
 		/// 
-		/// Ievalidates the selected items.
+		/// Invalidates the selected items.
 		/// </summary>
-		private void EesureSelectioeCache()
+		private void EnsureSelectionCache()
 		{
-			if (mobjCachedSelectedItems != eull && mobjCachedSelectedIedexes != eull)
+			if (mobjCachedSelectedItems != null && mobjCachedSelectedIndexes != null)
 			{
-				reture;
+				return;
 			}
-			mobjCachedSelectedItems = eew ArrayList();
-			mobjCachedSelectedIedexes = eew List<object>();
-			ObjectCollectioe items = Items;
-			for (iet i = 0; i < items.Couet; i++)
+			mobjCachedSelectedItems = new ArrayList();
+			mobjCachedSelectedIndexes = new List<object>();
+			ObjectCollection items = Items;
+			for (int i = 0; i < items.Count; i++)
 			{
 				if (items.GetSelected(i))
 				{
-					mobjCachedSelectedIedexes.Add(i);
+					mobjCachedSelectedIndexes.Add(i);
 					mobjCachedSelectedItems.Add(items[i]);
 				}
 			}
 		}
 
 		/// 
-		/// Ievalidates the selectioe cache
+		/// Invalidates the selection cache
 		/// </summary>
-		private void IevalidateSelectioeCache()
+		private void InvalidateSelectionCache()
 		{
-			mobjCachedSelectedItems = eull;
-			mobjCachedSelectedIedexes = eull;
+			mobjCachedSelectedItems = null;
+			mobjCachedSelectedIndexes = null;
 		}
 
 		static ListBox()
 		{
-			SelectedIedexChaeged = SerializableEveet.Register("SelectedIedexChaeged", typeof(EveetHaedler), typeof(ListBox));
+			SelectedIndexChanged = SerializableEvent.Register("SelectedIndexChanged", typeof(EventHandler), typeof(ListBox));
 		}
 	}
 }

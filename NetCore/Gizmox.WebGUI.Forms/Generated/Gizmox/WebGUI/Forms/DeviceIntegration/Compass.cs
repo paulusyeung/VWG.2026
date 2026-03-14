@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration
 {
-	[Serializable]
+[Serializable]
 	public class Compass : WatchedDeviceComponent, ICompass
 	{
 		private const int INTERNAL_ERROR = 0;
@@ -120,7 +120,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the single call method store.
 		/// </summary>
-		private SingleCallMethodStore<CompassEventArgs> SingleCallMethodStore {
+		private SingleCallMethodStore<CompassEventArgs> SingleCallMethodStore<CompassEventArgs>
+		{
 			get
 			{
 				if (mobjSingleCallMethodStore == null)
@@ -134,7 +135,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the multiple call method store.
 		/// </summary>
-		private MultipleCallMethodStore<CompassEventArgs> MultipleCallMethodStore {
+		private MultipleCallMethodStore<CompassEventArgs> MultipleCallMethodStore<CompassEventArgs>
+		{
 			get
 			{
 				if (mobjMultipleCallMethodStore == null)
@@ -148,15 +150,16 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when [compass heading changed].
 		/// </summary>
-		public event Action<CompassEventArgs> HeadingChanged {
+		public event Action<CompassEventArgs> HeadingChanged
+		{
 			add
 			{
-				MultipleCallMethodStore.AddMultipleCallMethod(value);
+				MultipleCallMethodStore<CompassEventArgs>.AddMultipleCallMethod(value);
 				Update();
 			}
 			remove
 			{
-				MultipleCallMethodStore.RemoveMultipleCallMethod(value);
+				MultipleCallMethodStore<CompassEventArgs>.RemoveMultipleCallMethod(value);
 				Update();
 			}
 		}
@@ -172,7 +175,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="objArguments">The <see cref="T:Gizmox.WebGUI.Common.Device.Compass.CompassEventArgs" /> instance containing the event data.</param>
 		private void OnHeadingChanged(CompassEventArgs objArguments)
 		{
-			MultipleCallMethodStore.InvokeMultipleCallMethods(objArguments);
+			MultipleCallMethodStore<CompassEventArgs>.InvokeMultipleCallMethods(objArguments);
 		}
 
 		protected override void FireEvent(IEvent objEvent)
@@ -186,9 +189,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 				{
 					OnHeadingChanged(argumentsFromEvent);
 				}
-				else if (!string.IsNullOrEmpty(type) && SingleCallMethodStore.HasRegisteredMethod(type))
+				else if (!string.IsNullOrEmpty(type) && SingleCallMethodStore<CompassEventArgs>.HasRegisteredMethod(type))
 				{
-					SingleCallMethodStore.InvokeSingleCallMethod(type, argumentsFromEvent);
+					SingleCallMethodStore<CompassEventArgs>.InvokeSingleCallMethod(type, argumentsFromEvent);
 				}
 			}
 		}
@@ -222,7 +225,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="objCallback">The obj callback.</param>
 		public void GetCurrentHeading(Action<CompassEventArgs> objCallback)
 		{
-			string text = SingleCallMethodStore.StoreSingleCallMethod(objCallback);
+			string text = SingleCallMethodStore<CompassEventArgs>.StoreSingleCallMethod(objCallback);
 			Invoke("DeviceIntegrator.Compass.getCurrentHeading", text);
 		}
 
@@ -261,7 +264,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		public override CriticalEventsData GetCriticalEventsData()
 		{
 			CriticalEventsData criticalEventsData = new CriticalEventsData();
-			if (MultipleCallMethodStore.HasEventListeners())
+			if (MultipleCallMethodStore<CompassEventArgs>.HasEventListeners())
 			{
 				criticalEventsData.Set("DCO");
 			}

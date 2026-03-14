@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	public class MarginValueConverter : TypeConverter

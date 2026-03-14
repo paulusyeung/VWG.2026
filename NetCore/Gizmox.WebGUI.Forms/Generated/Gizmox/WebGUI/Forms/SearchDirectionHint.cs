@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides a directional hint of where to search for a <see cref="T:Gizmox.WebGui.Forms.ListViewItem"></see>.</summary>
+/// Provides a directional hint of where to search for a <see cref="T:Gizmox.WebGui.Forms.ListViewItem"></see>.</summary>
 	public enum SearchDirectionHint
 	{
 		/// Below the current item.</summary>

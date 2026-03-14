@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides colors used for Microsoft Office display elements.</summary>
+/// Provides colors used for Microsoft Office display elements.</summary>
 	[Serializable]
 	public class ProfessionalColorTable
 	{

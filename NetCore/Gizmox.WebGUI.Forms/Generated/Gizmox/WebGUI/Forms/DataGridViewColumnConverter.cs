@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	public class DataGridViewColumnConverter : ExpandableObjectConverter
 	{
 		public override bool CanConvertTo(ITypeDescriptorContext objContext, Type objDestinationType)

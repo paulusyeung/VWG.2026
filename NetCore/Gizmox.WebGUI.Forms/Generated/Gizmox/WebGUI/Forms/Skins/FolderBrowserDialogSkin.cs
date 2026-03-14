@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	/// 
+/// 
 	/// FolderBrowser Dialog Skin
 	/// </summary>
 	[Serializable]

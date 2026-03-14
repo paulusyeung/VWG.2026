@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Defines constants that specify the direction in which consecutive user interface (UI) elements are placed in a linear layout container.
 	/// </summary>
 	public enum FlowDirection

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents a Gizmox.WebGUI.Forms status bar control. Although <see cref="T:Gizmox.WebGUI.Forms.ToolStripStatusLabel"></see> replaces and adds functionality to the <see cref="T:Gizmox.WebGUI.Forms.StatusBar"></see> control of previous versions, <see cref="T:Gizmox.WebGUI.Forms.StatusBar"></see> is retained for both backward compatibility and future use if you choose.
 	/// </summary>
 	[Serializable]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// DataGridView Label Cell Skin
 	/// </summary>
 	[Serializable]

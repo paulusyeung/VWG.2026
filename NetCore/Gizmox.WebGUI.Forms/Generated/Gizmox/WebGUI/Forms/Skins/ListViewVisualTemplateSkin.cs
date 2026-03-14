@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	/// 
+/// 
 	/// Summary description for ListViewVisualTemplateSkin
 	/// </summary>   
 	[Serializable]

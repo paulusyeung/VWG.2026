@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// The base class for all GUI elements
 	/// </summary>
 	[Serializable]
@@ -609,9 +609,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets a flag indicating if the object is initializing
 		/// </summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		protected override bool IsSerializableObjectInitializing
-		{
-			get
+		protected override bool IsSerializableObjectInitializing { get
 			{
 				return mobjInternalParent == null;
 			}
@@ -621,9 +619,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the initial size of the serializable filed storage.
 		/// </summary>
 		/// The initial size of the serializable filed storage.</value>
-		protected override int SerializableFieldStorageInitialSize
-		{
-			get
+		protected override int SerializableFieldStorageInitialSize { get
 			{
 				return 8;
 			}
@@ -2217,7 +2213,7 @@ namespace Gizmox.WebGUI.Forms
 			DragDrop = SerializableEvent.Register("DragDrop", typeof(DragEventHandler), typeof(Component));
 			Swipe = SerializableEvent.Register("Swipe", typeof(SwipeEventHandler), typeof(Component));
 			ContextMenuStripChanged = SerializableEvent.Register("ContextMenuStripChanged", typeof(EventHandler), typeof(Component));
-			MenuClick = SerializableEvent.Register("MenuClick", typeof(MenuEventHandler), typeof(Component));
+			MenuClickEvent = SerializableEvent.Register("MenuClick", typeof(MenuEventHandler), typeof(Component));
 			LoadingMessageProperty = SerializableProperty.Register("LoadingMessage", typeof(string), typeof(Component), new SerializablePropertyMetadata(string.Empty));
 			ClientActionProperty = SerializableProperty.Register("ClientAction", typeof(RegisteredClientAction), typeof(Component), new SerializablePropertyMetadata(null));
 			AttributesProperty = SerializableProperty.Register("Attributes", typeof(AttributesWrapper), typeof(Component), new SerializablePropertyMetadata(null));

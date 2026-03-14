@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	/// 
+/// 
 	/// Provides a class for editing multiple frame styles
 	/// </summary>
 	[Serializable]

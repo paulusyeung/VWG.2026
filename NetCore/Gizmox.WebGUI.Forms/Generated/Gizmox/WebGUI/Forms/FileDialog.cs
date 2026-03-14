@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Displays a dialog box from which the user can select a file.</summary>
+/// Displays a dialog box from which the user can select a file.</summary>
 	/// 1</filterpriority>
 	[Serializable]
 	[DefaultProperty("FileName")]

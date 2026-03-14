@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Uses a mask to distinguish between proper and improper user input.
 	/// </summary>
 	[Serializable]

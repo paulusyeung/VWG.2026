@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents the center panel of a <see cref="T:System.Windows.Forms.ToolStripContainer"></see> control.</summary>
+/// Represents the center panel of a <see cref="T:System.Windows.Forms.ToolStripContainer"></see> control.</summary>
 	[Serializable]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.AutoDispatch)]

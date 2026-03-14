@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the base class used for displaying dialog boxes on the screen.</summary>
+/// Specifies the base class used for displaying dialog boxes on the screen.</summary>
 	[Serializable]
 	[ToolboxItemFilter("Gizmox.WebGUI.Forms", ToolboxItemFilterType.Require)]
 	[ToolboxItem(false)]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Displays a button-like user interface (UI) for use in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
+/// Displays a button-like user interface (UI) for use in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[Skin(typeof(DataGridViewButtonCellSkin))]

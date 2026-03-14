@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Indicates the result of a completed binding operation.</summary>
+/// Indicates the result of a completed binding operation.</summary>
 	/// 2</filterpriority>    
 	public enum BindingCompleteState
 	{

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// A ListView control.
 	/// </summary>
 	/// 
@@ -728,7 +728,7 @@ namespace Gizmox.WebGUI.Forms
 					return;
 				}
 				mobjGroupedItems = new List<object>();
-				List<object> list = new List<object>();
+				List<object> list = new List<object><object>();
 				list.Add(null);
 				if (ListView == null)
 				{
@@ -5167,7 +5167,7 @@ namespace Gizmox.WebGUI.Forms
 					num2 = listViewOrederedItems.Count - 1;
 				}
 			}
-			List<object> list = new List(num2 + 1 - num);
+			List<object> list = new List<object><object>(num2 + 1 - num);
 			for (int i = num; i <= num2; i++)
 			{
 				list.Add(listViewOrederedItems[i].InternalChecked);
@@ -6167,7 +6167,7 @@ namespace Gizmox.WebGUI.Forms
 			mobjColumns = new ColumnHeaderCollection(this, objReader.ReadArray());
 			mobjItems = new ListViewItemCollection(this, objReader.ReadArray());
 			mobjGroups = new ListViewGroupCollection(this, objReader.ReadArray());
-			mobjOriginalItemSorting = new List(objReader.ReadArray());
+			mobjOriginalItemSorting = new List<object>(objReader.ReadArray());
 		}
 
 		/// 

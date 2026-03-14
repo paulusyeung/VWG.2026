@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.PropertyGridInternal
 {
-	[Serializable]
+[Serializable]
 	internal class CategoryGridEntry : GridEntry
 	{
 		private static Hashtable mobjCategoryStates;

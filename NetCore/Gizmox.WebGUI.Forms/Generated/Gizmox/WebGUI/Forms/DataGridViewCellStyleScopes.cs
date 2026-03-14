@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> entity that owns the cell style that was changed.</summary>
+/// Specifies the <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> entity that owns the cell style that was changed.</summary>
 	[Serializable]
 	[Flags]
 	public enum DataGridViewCellStyleScopes

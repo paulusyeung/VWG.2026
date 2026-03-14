@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents a window or dialog box that makes up an application's user interface.  
 	/// </summary>
 	[Serializable]
@@ -479,48 +479,48 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the Load event.
 		/// </summary>
-		private EventHandler LoadHandler => (EventHandler)GetHandler(Load);
+		private EventHandler LoadHandler => (EventHandler)GetHandler(LoadEvent);
 
 		/// 
 		/// Gets the hanlder for the Closed event.
 		/// </summary>
-		private EventHandler ClosedHandler => (EventHandler)GetHandler(Closed);
+		private EventHandler ClosedHandler => (EventHandler)GetHandler(ClosedEvent);
 
 		/// 
 		/// Gets the hanlder for the Closing event.
 		/// </summary>
-		private CancelEventHandler ClosingHandler => (CancelEventHandler)GetHandler(Closing);
+		private CancelEventHandler ClosingHandler => (CancelEventHandler)GetHandler(ClosingEvent);
 
 		/// 
 		/// Gets the form closing handler.
 		/// </summary>
 		/// The form closing handler.</value>
-		private FormClosingEventHandler FormClosingHandler => (FormClosingEventHandler)GetHandler(FormClosing);
+		private FormClosingEventHandler FormClosingHandler => (FormClosingEventHandler)GetHandler(FormClosingEvent);
 
 		/// 
 		/// Gets the hanlder for the Closed event.
 		/// </summary>
-		private FormClosedEventHandler FormClosedHandler => (FormClosedEventHandler)GetHandler(FormClosed);
+		private FormClosedEventHandler FormClosedHandler => (FormClosedEventHandler)GetHandler(FormClosedEvent);
 
 		/// 
 		/// Gets the hanlder for the Activated event.
 		/// </summary>
-		private EventHandler ActivatedHandler => (EventHandler)GetHandler(Activated);
+		private EventHandler ActivatedHandler => (EventHandler)GetHandler(ActivatedEvent);
 
 		/// 
 		/// Gets the hanlder for the Deactivate event.
 		/// </summary>
-		private EventHandler DeactivateHandler => (EventHandler)GetHandler(Deactivate);
+		private EventHandler DeactivateHandler => (EventHandler)GetHandler(DeactivateEvent);
 
 		/// 
 		/// Gets the orientation change handler.
 		/// </summary>
-		private OrientationChangedEventHandler OrientationChangedHandler => (OrientationChangedEventHandler)GetHandler(OrientationChanged);
+		private OrientationChangedEventHandler OrientationChangedHandler => (OrientationChangedEventHandler)GetHandler(OrientationChangedEvent);
 
 		/// 
 		/// Gets the geographic location changed handler.
 		/// </summary>
-		private GeographicLocationChangedEventHandler GeographicLocationChangedHandler => (GeographicLocationChangedEventHandler)GetHandler(GeographicLocationChanged);
+		private GeographicLocationChangedEventHandler GeographicLocationChangedHandler => (GeographicLocationChangedEventHandler)GetHandler(GeographicLocationChangedEvent);
 
 		/// 
 		/// Gets the security stopper html box.
@@ -680,9 +680,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the initial size of the serializable filed storage.
 		/// </summary>
 		/// The initial size of the serializable filed storage.</value>
-		protected override int SerializableFieldStorageInitialSize
-		{
-			get
+		protected override int SerializableFieldStorageInitialSize { get
 			{
 				return 20;
 			}
@@ -2119,7 +2117,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the ObservableItemAdded event.
 		/// </summary>
-		private ObservableListEventHandler ObservableItemAddedHandler => (ObservableListEventHandler)GetHandler(ObservableItemAdded);
+		private ObservableListEventHandler ObservableItemAddedHandler => (ObservableListEventHandler)GetHandler(ObservableItemAddedEvent);
 
 		/// 
 		/// Gets the hanlder for the ObservableItemInserted event.
@@ -3508,7 +3506,7 @@ namespace Gizmox.WebGUI.Forms
 			Type type = Type.GetType(strOffspringTypeName);
 			if (type != null && CommonUtils.IsTypeOrSubType(type, typeof(MainMenu)))
 			{
-				List<object> list = new List<object>();
+				List<object> list = new List<object><object>();
 				list.Add(Menu);
 				return list;
 			}
@@ -4905,7 +4903,7 @@ namespace Gizmox.WebGUI.Forms
 			Activated = SerializableEvent.Register("Activated", typeof(EventHandler), typeof(Form));
 			Deactivate = SerializableEvent.Register("Deactivate", typeof(EventHandler), typeof(Form));
 			OrientationChanged = SerializableEvent.Register("OrientationChange", typeof(OrientationChangedEventHandler), typeof(Form));
-			GeographicLocationChanged = SerializableEvent.Register("GeographicLocationChanged", typeof(GeographicLocationChangedEventHandler), typeof(Form));
+			GeographicLocationChangedEvent = SerializableEvent.Register("GeographicLocationChanged", typeof(GeographicLocationChangedEventHandler), typeof(Form));
 			ModalMaskProperty = SerializableProperty.Register("ModalMask", typeof(bool), typeof(Form), new SerializablePropertyMetadata(true));
 			ObservableItemAdded = SerializableEvent.Register("ObservableItemAdded", typeof(ObservableListEventHandler), typeof(Form));
 			ObservableItemInserted = SerializableEvent.Register("ObservableItemInserted", typeof(ObservableListEventHandler), typeof(Form));

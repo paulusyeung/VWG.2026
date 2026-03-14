@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides <see cref="T:System.Drawing.Color"></see> structures that are colors of a Windows display element. This class cannot be inherited. </summary>
+/// Provides <see cref="T:System.Drawing.Color"></see> structures that are colors of a Windows display element. This class cannot be inherited. </summary>
 	[Serializable]
 	public sealed class ProfessionalColors
 	{

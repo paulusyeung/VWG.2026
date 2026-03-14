@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -156,7 +156,7 @@ namespace Gizmox.WebGUI.Forms
 		private PropertyDescriptorCollection GetCustomProperties(Attribute[] attributes)
 		{
 			PropertyDescriptorCollection properties = TypeDescriptor.GetProperties(this, attributes, noCustomTypeDesc: true);
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			foreach (PropertyDescriptor item in properties)
 			{
 				bool flag = true;

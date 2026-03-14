@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design
 {
-	/// 
+/// 
 	/// The dialog for the visual templates.
 	/// </summary>
 	[Serializable]
@@ -162,7 +162,7 @@ namespace Gizmox.WebGUI.Forms.Design
 				{
 					return;
 				}
-				List<object> controlVisualTemplateTypes = visualTemplateControlDialog.GetControlVisualTemplateTypes();
+				List controlVisualTemplateTypes = visualTemplateControlDialog.GetControlVisualTemplateTypes();
 				VisualTemplate visualTemplate = visualTemplateControlDialog.VisualTemplate;
 				ImageList imageList = new ImageList();
 				ListViewItem listViewItem = new ListViewItem();

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// A checkBox control.
 	/// </summary>
 	[Serializable]
@@ -170,7 +170,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the CheckedChanged event.
 		/// </summary>
-		private EventHandler CheckedChangedHandler => (EventHandler)GetHandler(CheckedChanged);
+		private EventHandler CheckedChangedHandler => (EventHandler)GetHandler(CheckedChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the CheckedChangedQueued event.
@@ -180,7 +180,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the CheckStateChanged event.
 		/// </summary>
-		private EventHandler CheckStateChangedHandler => (EventHandler)GetHandler(CheckStateChanged);
+		private EventHandler CheckStateChangedHandler => (EventHandler)GetHandler(CheckStateChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the CheckStateChangedQueued event.
@@ -821,9 +821,9 @@ namespace Gizmox.WebGUI.Forms
 		static CheckBox()
 		{
 			CheckStateChangedQueued = SerializableEvent.Register("CheckStateChangedQueued", typeof(EventHandler), typeof(CheckBox));
-			CheckStateChanged = SerializableEvent.Register("CheckStateChanged", typeof(EventHandler), typeof(CheckBox));
+			CheckStateChangedEvent = SerializableEvent.Register("CheckStateChanged", typeof(EventHandler), typeof(CheckBox));
 			CheckedChangedQueued = SerializableEvent.Register("CheckedChangedQueued", typeof(EventHandler), typeof(CheckBox));
-			CheckedChanged = SerializableEvent.Register("CheckedChanged", typeof(EventHandler), typeof(CheckBox));
+			CheckedChangedEvent = SerializableEvent.Register("CheckedChanged", typeof(EventHandler), typeof(CheckBox));
 			AppearanceChanged = SerializableEvent.Register("AppearanceChanged", typeof(EventHandler), typeof(CheckBox));
 		}
 	}

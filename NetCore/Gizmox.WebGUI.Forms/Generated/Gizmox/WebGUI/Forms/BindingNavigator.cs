@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents the navigation and manipulation user interface (UI) for controls on a form that are bound to data.
 	/// </summary>
 	[Serializable]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies the date and time format the <see cref="T:Gizmox.WebGUI.Forms.DateTimePicker" /> control displays.
 	/// </summary>
 	[Serializable]

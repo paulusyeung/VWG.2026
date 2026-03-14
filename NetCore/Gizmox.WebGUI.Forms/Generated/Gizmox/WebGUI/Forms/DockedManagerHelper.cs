@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	public static class DockedManagerHelper
@@ -153,7 +153,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objRootZone">The mobj root zone.</param>
 		/// <param name="objDescriptorsTrace">The obj descriptors trace.</param>
 		/// <param name="objDockedManager">The obj docked manager.</param>
-		private static void EnterRootZoneFromTrace(Control objControl, Zone objRootZone, List<object> objDescriptorsTrace, DockingManager objDockedManager)
+		private static void EnterRootZoneFromTrace(Control objControl, Zone objRootZone,List<object> objDescriptorsTrace, DockingManager objDockedManager)
 		{
 			if (objDescriptorsTrace[0] is ZoneDescriptor)
 			{
@@ -173,7 +173,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objManager">The obj manager.</param>
 		/// <param name="objState">State of the obj.</param>
 		/// </returns>
-		private static Control GetControlForNextStep(Control objControl, List<object> objDescriptorsList, DockingManager objManager, DockState objState)
+		private static Control GetControlForNextStep(Control objControl,List<object> objDescriptorsList, DockingManager objManager, DockState objState)
 		{
 			Control control = null;
 			if (objControl.Controls.Count == 0)
@@ -234,7 +234,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objDescriptorsList">The obj descriptors list.</param>
 		/// <param name="objManager">The obj manager.</param>
 		/// </returns>
-		private static Control GetControlForNextStepDockedSplitContainer(DockedSplitContainer objDockedSplitContainer, List<object> objDescriptorsList, DockingManager objManager)
+		private static Control GetControlForNextStepDockedSplitContainer(DockedSplitContainer objDockedSplitContainer,List<object> objDescriptorsList, DockingManager objManager)
 		{
 			int panelSide = GetPanelSide(objDescriptorsList[1]);
 			Control result = null;
@@ -276,7 +276,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objDockedTabControl">The obj docked tab control.</param>
 		/// <param name="objDescriptorsList">The obj descriptors list.</param>
 		/// </returns>
-		private static Control GetControlForNextStepDockedTabControl(DockedTabControl objDockedTabControl, List<object> objDescriptorsList)
+		private static Control GetControlForNextStepDockedTabControl(DockedTabControl objDockedTabControl,List<object> objDescriptorsList)
 		{
 			if (objDescriptorsList[0] is DockedTabControlDescriptor)
 			{
@@ -294,7 +294,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objDescriptorsList">The obj descriptors list.</param>
 		/// <param name="objManager">The obj manager.</param>
 		/// </returns>
-		private static Control GetControlForNextStepZone(Zone objZone, List<object> objDescriptorsList, DockingManager objManager)
+		private static Control GetControlForNextStepZone(Zone objZone,List<object> objDescriptorsList, DockingManager objManager)
 		{
 			DockedObjectDescriptor dockedObjectDescriptor = null;
 			DockedObjectDescriptor objDescriptor = null;
@@ -406,7 +406,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		internal static List<object> GetDescriptorTrace(DockedObjectDescriptor objDescriptor, bool blnWithCurrent)
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			if (!blnWithCurrent)
 			{
 				objDescriptor = objDescriptor.ParentDescriptor;
@@ -444,7 +444,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objDescriptorsList">The obj descriptors list.</param>
 		/// <param name="objManager">The obj manager.</param>
 		/// <param name="objState">State of the obj.</param>
-		internal static void LoadWindowFromTrace(Control objControl, DockingWindow objWindow, List<object> objDescriptorsList, DockingManager objManager, DockState objState)
+		internal static void LoadWindowFromTrace(Control objControl, DockingWindow objWindow,List<object> objDescriptorsList, DockingManager objManager, DockState objState)
 		{
 			if (objControl is DockedTabControl && objDescriptorsList.Count == 0)
 			{

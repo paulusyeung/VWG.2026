@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies whether an object or text is aligned to the left or right of a reference point.
 	/// </summary>
 	public enum LeftRightAlignment

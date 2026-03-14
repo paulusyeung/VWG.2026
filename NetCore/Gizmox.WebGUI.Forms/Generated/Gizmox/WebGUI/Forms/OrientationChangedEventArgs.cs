@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for the <see cref="E:Gizmox.WebGui.Forms.Form.OrientationChanged"></see> event.</summary>
+/// Provides data for the <see cref="E:Gizmox.WebGui.Forms.Form.OrientationChanged"></see> event.</summary>
 	public class OrientationChangedEventArgs : EventArgs
 	{
 		private int? mintOrientation;

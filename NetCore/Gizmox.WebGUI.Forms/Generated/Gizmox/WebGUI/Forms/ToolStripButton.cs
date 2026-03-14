@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a selectable <see cref="T:System.Windows.Forms.ToolStripItem"></see> that can contain text and images. </summary>
+/// Represents a selectable <see cref="T:System.Windows.Forms.ToolStripItem"></see> that can contain text and images. </summary>
 	[Serializable]
 	[Skin(typeof(ToolStripButtonSkin))]
 	[ToolStripItemDesignerAvailability(ToolStripItemDesignerAvailability.ToolStrip)]
@@ -119,13 +119,13 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the CheckedChanged handler.
 		/// </summary>
 		/// The available changed handler.</value>
-		private EventHandler CheckedChangedHandler => (EventHandler)GetHandler(CheckedChanged);
+		private EventHandler CheckedChangedHandler => (EventHandler)GetHandler(CheckedChangedEvent);
 
 		/// 
 		/// Gets the CheckStateChanged handler.
 		/// </summary>
 		/// The available changed handler.</value>
-		private EventHandler CheckStateChangedHandler => (EventHandler)GetHandler(CheckStateChanged);
+		private EventHandler CheckStateChangedHandler => (EventHandler)GetHandler(CheckStateChangedEvent);
 
 		private CheckState menmCheckState
 		{
@@ -476,8 +476,8 @@ namespace Gizmox.WebGUI.Forms
 
 		static ToolStripButton()
 		{
-			CheckedChanged = SerializableEvent.Register("CheckedChanged", typeof(EventHandler), typeof(ToolStripButton));
-			CheckStateChanged = SerializableEvent.Register("CheckStateChanged", typeof(EventHandler), typeof(ToolStripButton));
+			CheckedChangedEvent = SerializableEvent.Register("CheckedChanged", typeof(EventHandler), typeof(ToolStripButton));
+			CheckStateChangedEvent = SerializableEvent.Register("CheckStateChanged", typeof(EventHandler), typeof(ToolStripButton));
 		}
 	}
 }

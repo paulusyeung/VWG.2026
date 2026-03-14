@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration
 {
-	[Serializable]
+[Serializable]
 	public class DeviceInfo : DeviceComponent, IDeviceInfo
 	{
 		/// 
@@ -111,7 +111,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the single call method store.
 		/// </summary>
-		private SingleCallMethodStore<DeviceInfoEventArgs> SingleCallMethodStore {
+		private SingleCallMethodStore<DeviceInfoEventArgs> SingleCallMethodStore<DeviceInfoEventArgs>
+		{
 			get
 			{
 				if (mobjSingleCallMethodStore == null)
@@ -164,9 +165,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 			base.FireEvent(objEvent);
 			string type = objEvent.Type;
 			DeviceInfoEventArgs argumentsFromEvent = GetArgumentsFromEvent(objEvent);
-			if (argumentsFromEvent != null && !string.IsNullOrEmpty(type) && SingleCallMethodStore.HasRegisteredMethod(type))
+			if (argumentsFromEvent != null && !string.IsNullOrEmpty(type) && SingleCallMethodStore<DeviceInfoEventArgs>.HasRegisteredMethod(type))
 			{
-				SingleCallMethodStore.InvokeSingleCallMethod(type, argumentsFromEvent);
+				SingleCallMethodStore<DeviceInfoEventArgs>.InvokeSingleCallMethod(type, argumentsFromEvent);
 			}
 		}
 
@@ -180,9 +181,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// Gets the device info.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void GetDeviceInfo(Action objCallback)
+		public void GetDeviceInfo(Action<DeviceInfoEventArgs> objCallback)
 		{
-			string text = SingleCallMethodStore.StoreSingleCallMethod(objCallback);
+			string text = SingleCallMethodStore<DeviceInfoEventArgs>.StoreSingleCallMethod(objCallback);
 			Invoke("DeviceIntegrator.DeviceInfo.getDeviceInfo", text);
 		}
 	}

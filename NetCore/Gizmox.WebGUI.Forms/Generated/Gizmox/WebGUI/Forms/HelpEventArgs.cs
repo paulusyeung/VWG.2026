@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for the <see cref="E:S Gizmox.WebGUI.Forms.Control.HelpRequested"></see> event.</summary>
+/// Provides data for the <see cref="E:S Gizmox.WebGUI.Forms.Control.HelpRequested"></see> event.</summary>
 	[Serializable]
 	public class HelpEventArgs : EventArgs
 	{

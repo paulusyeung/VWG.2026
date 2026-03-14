@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies the valid grid item types for a <see cref="T:Gizmox.WebGUI.Forms.PropertyGrid"></see>.
 	/// </summary>
 	public enum GridItemType

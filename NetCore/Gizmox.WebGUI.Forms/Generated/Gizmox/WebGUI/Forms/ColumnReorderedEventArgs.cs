@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Column Reordered Event Args
 	/// </summary>
 	public class ColumnReorderedEventArgs : CancelEventArgs

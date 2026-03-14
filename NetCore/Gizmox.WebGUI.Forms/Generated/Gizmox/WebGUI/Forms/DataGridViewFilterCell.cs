@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -380,7 +380,7 @@ namespace Gizmox.WebGUI.Forms
 				{
 					return;
 				}
-				List<object> filterComparisonOperator = GetFilterComparisonOperator(mobjOwningColumn.ValueType);
+				List filterComparisonOperator = GetFilterComparisonOperator(mobjOwningColumn.ValueType);
 				foreach (FilterComparisonOperator item in filterComparisonOperator)
 				{
 					MenuItem menuItem = new MenuItem(SR.GetString($"FilterComparisionOperator_{item.ToString()}"));
@@ -489,7 +489,7 @@ namespace Gizmox.WebGUI.Forms
 			/// </returns>
 			internal static List<object> GetFilterComparisonOperator(Type objColumnType)
 			{
-				List<object> list = new List<object>();
+				List<object> list = new List<object><object>();
 				list.Add(FilterComparisonOperator.Equals);
 				list.Add(FilterComparisonOperator.NotEquals);
 				if (objColumnType != typeof(bool))

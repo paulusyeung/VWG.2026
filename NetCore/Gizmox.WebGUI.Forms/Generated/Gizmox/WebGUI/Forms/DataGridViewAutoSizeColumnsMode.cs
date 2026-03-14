@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Defines values for specifying how the widths of columns are adjusted. </summary>
+/// Defines values for specifying how the widths of columns are adjusted. </summary>
 	[Serializable]
 	public enum DataGridViewAutoSizeColumnsMode
 	{

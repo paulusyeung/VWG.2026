@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a row of a <see cref="T:System.Windows.Forms.ToolStripPanel"></see> that can contain controls.</summary>
+/// Represents a row of a <see cref="T:System.Windows.Forms.ToolStripPanel"></see> that can contain controls.</summary>
 	[Serializable]
 	[ToolboxItem(false)]
 	public class ToolStripPanelRow : Component, IComponent, IDisposable
@@ -143,7 +143,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			get
 			{
-				return GetValue<List>(mobjControlsProperty, null);
+				return GetValue<List<object>>(mobjControlsProperty, null);
 			}
 			set
 			{

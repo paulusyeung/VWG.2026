@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	/// 
+/// 
 	/// Provides the highest level of shared resources 
 	/// </summary>
 	[Serializable]
@@ -1407,7 +1407,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 			PropertyDescriptorCollection propertyDescriptorCollection = base.FilterProperties(objPropertyDescriptorCollection, attributes);
 			if (propertyDescriptorCollection != null && GetType() != typeof(CommonSkin))
 			{
-				List<object> list = new List<object>();
+				List<object> list = new List<object><object>();
 				foreach (PropertyDescriptor item in propertyDescriptorCollection)
 				{
 					string name = item.Name;

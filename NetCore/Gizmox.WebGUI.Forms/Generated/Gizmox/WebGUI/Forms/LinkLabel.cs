@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents a Gizmox.WebGUI.Forms label control that can display hyperlinks.
 	/// </summary>
 	[Serializable]

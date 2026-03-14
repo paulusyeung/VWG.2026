@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides a container for Windows toolbar objects. </summary>
 	/// </summary>
 	[Serializable]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design
 {
-	/// Provides a <see cref="T:Gizmox.WebGUI.Forms.Design.PropertyTab"></see> that can display events for selection and linking.</summary>
+/// Provides a <see cref="T:Gizmox.WebGUI.Forms.Design.PropertyTab"></see> that can display events for selection and linking.</summary>
 	[Serializable]
 	public class EventsTab : PropertyTab
 	{

@@ -281,7 +281,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 			{
 				if (!CommonUtils.IsMono)
 				{
-					throw ex;
+					throw;
 				}
 			}
 			return null;

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides contextual support for rendering
 	/// </summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]

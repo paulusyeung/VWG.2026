@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net8.0-windows</TargetFramework>
     <LangVersion>latest</LangVersion>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <AssemblyName>Gizmox.WebGUI.Common</AssemblyName>
     <RootNamespace>Gizmox.WebGUI.Common</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
@@ -19,6 +19,9 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
     <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
     <PackageReference Include="System.CodeDom" Version="8.0.0" />
+    <!-- Packages needed for shim adapters and tests -->
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <!-- individual NuGet packages not required when using the ASP.NET Core shared framework -->
   </ItemGroup>
 
 </Project>

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a panel in a <see cref="T:System.Windows.Forms.StatusStrip"></see> control. </summary>
+/// Represents a panel in a <see cref="T:System.Windows.Forms.StatusStrip"></see> control. </summary>
 	[Serializable]
 	[Skin(typeof(ToolStripStatusLabelSkin))]
 	[ClientController("Gizmox.WebGUI.Client.Controllers.ToolStripStatusLabelController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]

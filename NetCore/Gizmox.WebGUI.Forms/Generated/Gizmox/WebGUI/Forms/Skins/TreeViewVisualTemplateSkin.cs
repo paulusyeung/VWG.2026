@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -178,7 +178,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("TreeViewVisualTempalteButtonImageRTL", (ImageResourceReference)null);
+				return GetValue("TreeViewVisualTempalteButtonImageRTL", null);
 			}
 			set
 			{
@@ -198,7 +198,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("TreeViewVisualTempalteButtonImageLTR", (ImageResourceReference)null);
+				return GetValue("TreeViewVisualTempalteButtonImageLTR", null);
 			}
 			set
 			{
@@ -234,7 +234,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("TreeViewVisualTemplateNextLTR", (ImageResourceReference)null);
+				return GetValue("TreeViewVisualTemplateNextLTR", null);
 			}
 			set
 			{
@@ -252,7 +252,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("TreeViewVisualTemplateNextRTL", (ImageResourceReference)null);
+				return GetValue("TreeViewVisualTemplateNextRTL", null);
 			}
 			set
 			{

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design
 {
-	[Serializable]
+[Serializable]
 	internal class ColorEditorDropDown : Form
 	{
 		private TabControl mobjTabControl;

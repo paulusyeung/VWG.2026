@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies the location of tick marks in a <see cref="T:Gizmox.WebGUI.Forms.TrackBar"></see> control.
 	/// </summary>	
 	public enum TickStyle

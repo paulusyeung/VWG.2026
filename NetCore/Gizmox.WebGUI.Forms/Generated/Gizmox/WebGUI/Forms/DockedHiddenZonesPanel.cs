@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// A Panel control
 	/// </summary>
 	[Serializable]
@@ -112,9 +112,9 @@ namespace Gizmox.WebGUI.Forms
 
 		private DockingManager mobjManager;
 
-		private List<List> mobjAllZoneGroups;
+		private List<List<object>> mobjAllZoneGroups;
 
-		private Dictionary<DockingWindowName, List> mobjZonesIndexByWindowName;
+		private Dictionary<DockingWindowName,List<object>> mobjZonesIndexByWindowName;
 
 		private Dictionary<long, Zone> mobjZonesIndexByZoneID;
 
@@ -136,7 +136,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// The name of the zones index by window.
 		/// </value>
-		internal Dictionary<DockingWindowName, List> ZonesIndexByWindowName
+		internal Dictionary<DockingWindowName,List<object>> ZonesIndexByWindowName
 		{
 			get
 			{
@@ -154,7 +154,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// The unique zone groups.
 		/// </value>
-		public List<List> AllZoneGroups
+		public List<List<object>> AllZoneGroups
 		{
 			get
 			{
@@ -173,9 +173,9 @@ namespace Gizmox.WebGUI.Forms
 		public DockedHiddenZonesPanel(DockingManager objManager)
 		{
 			mobjData = new DockedHiddenZonePanelDescriptor();
-			mobjAllZoneGroups = new List<List>();
+			mobjAllZoneGroups = new List<List<object>>();
 			mobjManager = objManager;
-			mobjZonesIndexByWindowName = new Dictionary<DockingWindowName, List>(DockingWindowName.DockedWindowNameEqulityComparer);
+			mobjZonesIndexByWindowName = new Dictionary<DockingWindowName,List<object>>(DockingWindowName.DockedWindowNameEqulityComparer);
 			mobjZonesIndexByZoneID = new Dictionary<long, Zone>();
 			base.Visible = false;
 			CustomStyle = "DockedHiddenZonesPanelSkin";
@@ -300,9 +300,9 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		internal List<object> RemoveAndReturnHiddenWindows(DockingWindow objDockedWindow)
 		{
-			List<object> list = mobjZonesIndexByWindowName[objDockedWindow.WindowName];
+			List list = mobjZonesIndexByWindowName[objDockedWindow.WindowName];
 			mobjAllZoneGroups.Remove(list);
-			List<object> list2 = new List<object>();
+			List<object> list2 = new List<object><object>();
 			Zone[] array = list.ToArray();
 			Zone[] array2 = array;
 			foreach (Zone zone in array2)

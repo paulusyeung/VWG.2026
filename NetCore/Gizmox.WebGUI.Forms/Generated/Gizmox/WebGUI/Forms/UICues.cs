@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the state of the user interface.</summary> 
+/// Specifies the state of the user interface.</summary> 
 	/// 2</filterpriority>
 	[Flags]
 	public enum UICues

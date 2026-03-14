@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.PropertyGridInternal
 {
-	[Serializable]
+[Serializable]
 	internal class MergePropertyDescriptor : PropertyDescriptor
 	{
 		[Serializable]

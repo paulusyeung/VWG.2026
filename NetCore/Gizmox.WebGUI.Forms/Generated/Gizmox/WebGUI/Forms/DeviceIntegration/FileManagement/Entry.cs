@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -206,7 +206,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// Gets the metadata.
 		/// </summary>
 		/// <param name="objHandler">The obj handler.</param>
-		public void GetMetadata(EventHandler objHandler)
+		public void GetMetadata(EventHandler<MetadataEventArgs> objHandler)
 		{
 			mobjFileManager.GetEntryMetadata(this, objHandler);
 		}
@@ -217,7 +217,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// <param name="objHandler">The obj handler.</param>
 		public void SetMetadata(MetadataDictionary objValues, EventHandler<EmptyDeviceEventArgs> objHandler)
 		{
-			mobjFileManager.SetMetadata(this, objValues, (dynamic)objHandler);
+			mobjFileManager.SetMetadata(this, objValues, objHandler);
 		}
 
 		/// 
@@ -228,7 +228,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// <param name="objCallback">The obj callback.</param>
 		public void CopyTo(IDirectoryEntry objParentDirectory, string strNewName, EventHandler<EntryEventArgs> objCallback)
 		{
-			mobjFileManager.ChangeFileLocation("copyToByPath", this, objParentDirectory, strNewName, (dynamic)(dynamic)objCallback);
+			mobjFileManager.ChangeFileLocation("copyToByPath", this, objParentDirectory, strNewName, objCallback);
 		}
 
 		/// 
@@ -239,7 +239,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// <param name="objCallback">The obj callback.</param>
 		public void MoveTo(IDirectoryEntry objParentDirectory, string strNewName, EventHandler<EntryEventArgs> objCallback)
 		{
-			mobjFileManager.ChangeFileLocation("moveToByPath", this, objParentDirectory, strNewName, (dynamic)(dynamic)objCallback);
+			mobjFileManager.ChangeFileLocation("moveToByPath", this, objParentDirectory, strNewName, objCallback);
 		}
 
 		/// 
@@ -248,7 +248,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// <param name="objCallback">The obj callback.</param>
 		public void GetParent(EventHandler<EntryEventArgs> objCallback)
 		{
-			mobjFileManager.GetParent(this, (dynamic)(dynamic)objCallback);
+			mobjFileManager.GetParent(this, objCallback);
 		}
 
 		/// 
@@ -257,7 +257,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// <param name="objCallback">The obj callback.</param>
 		public void Remove(EventHandler<EmptyDeviceEventArgs> objCallback)
 		{
-			mobjFileManager.Remove(this, (dynamic)(dynamic)objCallback);
+			mobjFileManager.Remove(this, objCallback);
 		}
 
 		/// 
@@ -266,7 +266,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// <param name="objCallback">The obj callback.</param>
 		public void ToUrl(EventHandler<ToUrlEventArgs> objCallback)
 		{
-			mobjFileManager.ToUrl(this, (dynamic)(dynamic)objCallback);
+			mobjFileManager.ToUrl(this, objCallback);
 		}
 
 		internal static bool? IsEntryDirectoryFromVwgEvent(string strPrefix, IEvent objEvent)

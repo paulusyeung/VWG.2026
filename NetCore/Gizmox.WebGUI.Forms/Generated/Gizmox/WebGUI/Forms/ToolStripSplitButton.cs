@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a combination of a standard button on the left and a drop-down button on the right, or the other way around if the value of <see cref="T:System.Windows.Forms.RightToLeft"></see> is Yes.</summary>
+/// Represents a combination of a standard button on the left and a drop-down button on the right, or the other way around if the value of <see cref="T:System.Windows.Forms.RightToLeft"></see> is Yes.</summary>
 	[Serializable]
 	[DefaultEvent("ButtonClick")]
 	[Skin(typeof(ToolStripSplitButtonSkin))]
@@ -491,8 +491,8 @@ namespace Gizmox.WebGUI.Forms
 
 		static ToolStripSplitButton()
 		{
-			ButtonClick = SerializableEvent.Register("ButtonClick", typeof(EventHandler), typeof(ToolStripSplitButton));
-			ButtonDoubleClick = SerializableEvent.Register("ButtonDoubleClick", typeof(EventHandler), typeof(ToolStripSplitButton));
+			ButtonClickEvent = SerializableEvent.Register("ButtonClick", typeof(EventHandler), typeof(ToolStripSplitButton));
+			ButtonDoubleClickEvent = SerializableEvent.Register("ButtonDoubleClick", typeof(EventHandler), typeof(ToolStripSplitButton));
 			DefaultItemChanged = SerializableEvent.Register("DefaultItemChanged", typeof(EventHandler), typeof(ToolStripSplitButton));
 		}
 	}

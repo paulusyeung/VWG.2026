@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents DataGridView filter ComboBox system option entry as "(All)", "(Blanks)", etc.
 	/// </summary>
 	[Serializable]

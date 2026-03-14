@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the behavior of a <see cref="T:Gizmox.WebGUI.Forms.MenuItem"></see> when it is merged with items in another menu.</summary>
+/// Specifies the behavior of a <see cref="T:Gizmox.WebGUI.Forms.MenuItem"></see> when it is merged with items in another menu.</summary>
 	/// 2</filterpriority>
 	[Obsolete("Not implemented yet.")]
 	public enum MenuMerge

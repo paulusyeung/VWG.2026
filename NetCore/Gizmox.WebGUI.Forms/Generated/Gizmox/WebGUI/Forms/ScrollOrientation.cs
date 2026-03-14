@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the scroll bar orientation for the <see cref="E:Gizmox.WebGUI.Forms.ScrollBar.Scroll"></see> event.</summary> 
+/// Specifies the scroll bar orientation for the <see cref="E:Gizmox.WebGUI.Forms.ScrollBar.Scroll"></see> event.</summary> 
 	/// 2</filterpriority>
 	public enum ScrollOrientation
 	{

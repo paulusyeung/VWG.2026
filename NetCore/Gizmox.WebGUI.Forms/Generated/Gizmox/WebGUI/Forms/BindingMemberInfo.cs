@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Contains information that enables a <see cref="T:Gizmox.WebGUI.Forms.Binding"></see> to resolve a data binding to either the property of an object or the property of the current object in a list of objects.</summary>
+/// Contains information that enables a <see cref="T:Gizmox.WebGUI.Forms.Binding"></see> to resolve a data binding to either the property of an object or the property of the current object in a list of objects.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public struct BindingMemberInfo

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -108,22 +108,23 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 	{
 		private SingleCallMethodStore<GlobalizationEventArgs> mobjSingleCallMethodStore;
 
-		private SingleCallMethodStore<GlobalizationEventArgs> mobjSingleDateCallMethodStore;
+		private SingleCallMethodStore<GlobalizationDateEventArgs> mobjSingleDateCallMethodStore;
 
-		private SingleCallMethodStore<GlobalizationEventArgs> mobjInfoSingleCallMethodStore;
+		private SingleCallMethodStore<GlobalizationInfoEventArgs> mobjInfoSingleCallMethodStore;
 
-		private SingleCallMethodStore<GlobalizationEventArgs> mobjDatePatternSingleCallMethodStore;
+		private SingleCallMethodStore<GlobalizationDatePatternEventArgs> mobjDatePatternSingleCallMethodStore;
 
-		private SingleCallMethodStore<GlobalizationEventArgs> mobjNumberPatternSingleCallMethodStore;
+		private SingleCallMethodStore<GlobalizationNumberPatternEventArgs> mobjNumberPatternSingleCallMethodStore;
 
-		private SingleCallMethodStore<GlobalizationEventArgs> mobjCurrencyPatternSingleCallMethodStore;
+		private SingleCallMethodStore<GlobalizationCurrencyPatternEventArgs> mobjCurrencyPatternSingleCallMethodStore;
 
-		private SingleCallMethodStore<GlobalizationEventArgs> mobjListSingleCallMethodStore;
+		private SingleCallMethodStore<GlobalizationListEventArgs> mobjListSingleCallMethodStore;
 
 		/// 
 		/// Gets the Connection single-call methods store.
 		/// </summary>
-		private SingleCallMethodStore<GlobalizationEventArgs> SingleCallMethodStore {
+		private SingleCallMethodStore<GlobalizationEventArgs> SingleCallMethodStore<GlobalizationEventArgs>
+		{
 			get
 			{
 				if (mobjSingleCallMethodStore == null)
@@ -137,13 +138,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the Connection single-call methods store.
 		/// </summary>
-		private SingleCallMethodStore<GlobalizationEventArgs> SingleDateCallMethodStore
+		private SingleCallMethodStore<GlobalizationDateEventArgs> SingleDateCallMethodStore
 		{
 			get
 			{
 				if (mobjSingleDateCallMethodStore == null)
 				{
-					mobjSingleDateCallMethodStore = new SingleCallMethodStore<GlobalizationEventArgs>();
+					mobjSingleDateCallMethodStore = new SingleCallMethodStore<GlobalizationDateEventArgs>();
 				}
 				return mobjSingleDateCallMethodStore;
 			}
@@ -152,13 +153,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the Connection single-call methods store.
 		/// </summary>
-		private SingleCallMethodStore<GlobalizationEventArgs> SingleDatePatternCallMethodStore
+		private SingleCallMethodStore<GlobalizationDatePatternEventArgs> SingleDatePatternCallMethodStore
 		{
 			get
 			{
 				if (mobjDatePatternSingleCallMethodStore == null)
 				{
-					mobjDatePatternSingleCallMethodStore = new SingleCallMethodStore<GlobalizationEventArgs>();
+					mobjDatePatternSingleCallMethodStore = new SingleCallMethodStore<GlobalizationDatePatternEventArgs>();
 				}
 				return mobjDatePatternSingleCallMethodStore;
 			}
@@ -167,13 +168,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the globalization info single-call methods store.
 		/// </summary>
-		private SingleCallMethodStore<GlobalizationEventArgs> SingleInfoCallMethodStore
+		private SingleCallMethodStore<GlobalizationInfoEventArgs> SingleInfoCallMethodStore
 		{
 			get
 			{
 				if (mobjInfoSingleCallMethodStore == null)
 				{
-					mobjInfoSingleCallMethodStore = new SingleCallMethodStore<GlobalizationEventArgs>();
+					mobjInfoSingleCallMethodStore = new SingleCallMethodStore<GlobalizationInfoEventArgs>();
 				}
 				return mobjInfoSingleCallMethodStore;
 			}
@@ -182,13 +183,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the Connection single-call methods store.
 		/// </summary>
-		private SingleCallMethodStore<GlobalizationEventArgs> SingleNumberCallMethodStore
+		private SingleCallMethodStore<GlobalizationNumberPatternEventArgs> SingleNumberCallMethodStore
 		{
 			get
 			{
 				if (mobjNumberPatternSingleCallMethodStore == null)
 				{
-					mobjNumberPatternSingleCallMethodStore = new SingleCallMethodStore<GlobalizationEventArgs>();
+					mobjNumberPatternSingleCallMethodStore = new SingleCallMethodStore<GlobalizationNumberPatternEventArgs>();
 				}
 				return mobjNumberPatternSingleCallMethodStore;
 			}
@@ -197,13 +198,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the Connection single-call methods store.
 		/// </summary>
-		private SingleCallMethodStore<GlobalizationEventArgs> SingleCurrencyCallMethodStore
+		private SingleCallMethodStore<GlobalizationCurrencyPatternEventArgs> SingleCurrencyCallMethodStore
 		{
 			get
 			{
 				if (mobjCurrencyPatternSingleCallMethodStore == null)
 				{
-					mobjCurrencyPatternSingleCallMethodStore = new SingleCallMethodStore<GlobalizationEventArgs>();
+					mobjCurrencyPatternSingleCallMethodStore = new SingleCallMethodStore<GlobalizationCurrencyPatternEventArgs>();
 				}
 				return mobjCurrencyPatternSingleCallMethodStore;
 			}
@@ -212,13 +213,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the Connection single-call methods store.
 		/// </summary>
-		private SingleCallMethodStore<GlobalizationEventArgs> SingleListCallMethodStore
+		private SingleCallMethodStore<GlobalizationListEventArgs> SingleListCallMethodStore
 		{
 			get
 			{
 				if (mobjListSingleCallMethodStore == null)
 				{
-					mobjListSingleCallMethodStore = new SingleCallMethodStore<GlobalizationEventArgs>();
+					mobjListSingleCallMethodStore = new SingleCallMethodStore<GlobalizationListEventArgs>();
 				}
 				return mobjListSingleCallMethodStore;
 			}
@@ -245,9 +246,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="objDateTime">The obj date time.</param>
 		/// <param name="objCallback">The obj callback.</param>
 		/// <param name="objOptions">The obj options.</param>
-		public void dateToString(DateTime objDateTime, Action objCallback, GlobalizationDateOptions objOptions)
+		public void dateToString(DateTime objDateTime, Action<GlobalizationEventArgs> objCallback, GlobalizationDateOptions objOptions)
 		{
-			string text = SingleCallMethodStore.StoreSingleCallMethod("datobj", objCallback);
+			string text = SingleCallMethodStore<GlobalizationEventArgs>.StoreSingleCallMethod("datobj", objCallback);
 			Invoke("DeviceIntegrator.Globalization.dateToString", objDateTime, text);
 		}
 
@@ -256,7 +257,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="strCurrencyCode">The STR currency code.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		public void getCurrencyPattern(string strCurrencyCode, Action objCallback)
+		public void getCurrencyPattern(string strCurrencyCode, Action<GlobalizationCurrencyPatternEventArgs> objCallback)
 		{
 			string text = SingleCurrencyCallMethodStore.StoreSingleCallMethod("cur", objCallback);
 			Invoke("DeviceIntegrator.Globalization.getCurrencyPattern", strCurrencyCode, text);
@@ -267,7 +268,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
 		/// <param name="objOptions">The obj options.</param>
-		public void getDateNames(Action objCallback, GlobalizationDateNameOptions objOptions)
+		public void getDateNames(Action<GlobalizationListEventArgs> objCallback, GlobalizationDateNameOptions objOptions)
 		{
 			string text = SingleListCallMethodStore.StoreSingleCallMethod("lst", objCallback);
 			Invoke("DeviceIntegrator.Globalization.getDateNames", text, CommonUtils.GetClientJsonObject(objOptions));
@@ -278,7 +279,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
 		/// <param name="objOptions">The obj options.</param>
-		public void getDatePattern(Action objCallback, GlobalizationDateOptions objOptions)
+		public void getDatePattern(Action<GlobalizationDatePatternEventArgs> objCallback, GlobalizationDateOptions objOptions)
 		{
 			string text = SingleDatePatternCallMethodStore.StoreSingleCallMethod("dat", objCallback);
 			Invoke("DeviceIntegrator.Globalization.getDatePattern", text, CommonUtils.GetClientJsonObject(objOptions));
@@ -289,13 +290,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
 		/// <param name="objOptions">The obj options.</param>
-		public void getNumberPattern(Action objCallback, GlobalizationNumberOptions objOptions)
+		public void getNumberPattern(Action<GlobalizationNumberPatternEventArgs> objCallback, GlobalizationNumberOptions objOptions)
 		{
 			string text = SingleNumberCallMethodStore.StoreSingleCallMethod("num", objCallback);
 			Invoke("DeviceIntegrator.Globalization.getNumberPattern", text, CommonUtils.GetClientJsonObject(objOptions));
 		}
 
-		public void getGlobalizationInfo(Action objCallback)
+		public void getGlobalizationInfo(Action<GlobalizationInfoEventArgs> objCallback)
 		{
 			string text = SingleInfoCallMethodStore.StoreSingleCallMethod("gi", objCallback);
 			Invoke("DeviceIntegrator.Globalization.getGlobalizationInfo", text);
@@ -306,9 +307,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objDateTime">The obj date time.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		public void isDayLightSavingsTime(DateTime objDateTime, Action objCallback)
+		public void isDayLightSavingsTime(DateTime objDateTime, Action<GlobalizationEventArgs> objCallback)
 		{
-			string text = SingleCallMethodStore.StoreSingleCallMethod("gen", objCallback);
+			string text = SingleCallMethodStore<GlobalizationEventArgs>.StoreSingleCallMethod("gen", objCallback);
 			Invoke("DeviceIntegrator.Globalization.isDayLightSavingsTime", objDateTime, text);
 		}
 
@@ -318,9 +319,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="dblNumber">The DBL number.</param>
 		/// <param name="objCallback">The obj callback.</param>
 		/// <param name="objOptions">The obj options.</param>
-		public void numberToString(double dblNumber, Action objCallback, GlobalizationNumberOptions objOptions)
+		public void numberToString(double dblNumber, Action<GlobalizationEventArgs> objCallback, GlobalizationNumberOptions objOptions)
 		{
-			string text = SingleCallMethodStore.StoreSingleCallMethod("gen", objCallback);
+			string text = SingleCallMethodStore<GlobalizationEventArgs>.StoreSingleCallMethod("gen", objCallback);
 			Invoke("DeviceIntegrator.Globalization.numberToString", dblNumber, text, CommonUtils.GetClientJsonObject(objOptions));
 		}
 
@@ -330,15 +331,15 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="strStringInput">The STR string input.</param>
 		/// <param name="objCallback">The obj callback.</param>
 		/// <param name="objOptions">The obj options.</param>
-		public void stringToDate(string strStringInput, Action objCallback, GlobalizationDateOptions objOptions)
+		public void stringToDate(string strStringInput, Action<GlobalizationDateEventArgs> objCallback, GlobalizationDateOptions objOptions)
 		{
 			string text = SingleDateCallMethodStore.StoreSingleCallMethod("datobj", objCallback);
 			Invoke("DeviceIntegrator.Globalization.stringToDate", strStringInput, text, CommonUtils.GetClientJsonObject(objOptions));
 		}
 
-		public void stringToNumber(string strStringInput, Action objCallback, GlobalizationNumberOptions objOptions)
+		public void stringToNumber(string strStringInput, Action<GlobalizationEventArgs> objCallback, GlobalizationNumberOptions objOptions)
 		{
-			string text = SingleCallMethodStore.StoreSingleCallMethod("gen", objCallback);
+			string text = SingleCallMethodStore<GlobalizationEventArgs>.StoreSingleCallMethod("gen", objCallback);
 			Invoke("DeviceIntegrator.Globalization.stringToNumber", strStringInput, text, CommonUtils.GetClientJsonObject(objOptions));
 		}
 
@@ -465,7 +466,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 			if (!DeviceEventArgs.TryGetError(objEvent, out objEventArgs) && !string.IsNullOrEmpty(objEvent["ReturnValue"]))
 			{
 				string[] collection = objEvent["ReturnValue"].Split(',');
-				objEventArgs = new GlobalizationListEventArgs(new List(collection));
+				objEventArgs = new GlobalizationListEventArgs(new List<object>(collection));
 			}
 			return objEventArgs;
 		}

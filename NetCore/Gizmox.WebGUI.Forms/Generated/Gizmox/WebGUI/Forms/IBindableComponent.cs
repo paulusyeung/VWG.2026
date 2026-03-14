@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Enables a non-control component to emulate the data-binding behavior of a Windows Forms control.</summary>
+/// Enables a non-control component to emulate the data-binding behavior of a Windows Forms control.</summary>
 	/// 2</filterpriority>
 	public interface IBindableComponent : IComponent, IDisposable
 	{

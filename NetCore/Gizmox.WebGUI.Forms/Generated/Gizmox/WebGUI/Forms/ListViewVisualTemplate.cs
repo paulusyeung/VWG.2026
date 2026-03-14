@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// The visual appearnce object of the ListView
 	/// </summary>
 	[Serializable]
@@ -305,7 +305,7 @@ namespace Gizmox.WebGUI.Forms
 				ListViewVisualTemplate listViewVisualTemplate = new ListViewVisualTemplate();
 				listViewVisualTemplate.ListViewVisualTemplateGroupingStyle = ListViewVisualTemplateGroupingStyleEnum.AlphabetGrouping;
 				StringBuilder stringBuilder = new StringBuilder();
-				List<object> list = new List<object>();
+				List<object> list = new List<object><object>();
 				foreach (ColumnHeader sortingColumn in listView.SortingColumns)
 				{
 					if (sortingColumn.Type == ListViewColumnType.Number || sortingColumn.Type == ListViewColumnType.Text || sortingColumn.Type == ListViewColumnType.Date)

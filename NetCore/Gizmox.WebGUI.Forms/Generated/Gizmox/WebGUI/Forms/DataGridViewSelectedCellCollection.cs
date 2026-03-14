@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a collection of cells that are selected in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see>.</summary>
+/// Represents a collection of cells that are selected in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see>.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[ListBindable(false)]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Hosts
 {
-	/// 
+/// 
 	/// Flash box control can host Flash movies and embed them in a Visual WebGui
 	/// application.
 	/// </summary>

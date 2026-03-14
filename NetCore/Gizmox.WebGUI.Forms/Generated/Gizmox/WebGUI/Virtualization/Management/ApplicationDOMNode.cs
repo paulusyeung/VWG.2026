@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Virtualization.Management
 {
-	[Serializable]
+[Serializable]
 	internal class ApplicationDOMNode : ServerExplorerNode
 	{
 		private static ResourceHandle mobjNulImageResourceHandle = new AssemblyResourceHandle(typeof(AdministrationFormBase), "Resources.null-set-icon.gif");

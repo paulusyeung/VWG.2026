@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Determines the alignment of a <see cref="T:Gizmox.WebGUI.Forms.ToolStripItem"></see> in a <see cref="T:Gizmox.WebGUI.Forms.ToolStrip"></see>.</summary> 
+/// Determines the alignment of a <see cref="T:Gizmox.WebGUI.Forms.ToolStripItem"></see> in a <see cref="T:Gizmox.WebGUI.Forms.ToolStrip"></see>.</summary> 
 	/// 2</filterpriority>
 	public enum ToolStripItemAlignment
 	{

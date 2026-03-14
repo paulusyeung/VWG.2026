@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides custom binding management for components.</summary>
+/// Provides custom binding management for components.</summary>
 	/// 2</filterpriority>
 	[SRDescription("ICurrencyManagerProviderDescr")]
 	public interface ICurrencyManagerProvider

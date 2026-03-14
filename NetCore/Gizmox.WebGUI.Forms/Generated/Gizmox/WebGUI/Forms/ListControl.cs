@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides a common implementation of members for the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> and <see cref="T:Gizmox.WebGUI.Forms.ComboBox"></see> classes.</summary>
+/// Provides a common implementation of members for the <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> and <see cref="T:Gizmox.WebGUI.Forms.ComboBox"></see> classes.</summary>
 	/// 1</filterpriority>
 	[Serializable]
 	public abstract class ListControl : Control
@@ -1095,7 +1095,7 @@ namespace Gizmox.WebGUI.Forms
 			Format = SerializableEvent.Register("Format", typeof(ListControlConvertEventHandler), typeof(ListControl));
 			FormatInfoChanged = SerializableEvent.Register("FormatInfoChanged", typeof(EventHandler), typeof(ListControl));
 			FormatStringChanged = SerializableEvent.Register("FormatStringChanged", typeof(EventHandler), typeof(ListControl));
-			FormattingEnabledChanged = SerializableEvent.Register("FormattingEnabledChanged", typeof(EventHandler), typeof(ListControl));
+			FormattingEnabledChangedEvent = SerializableEvent.Register("FormattingEnabledChanged", typeof(EventHandler), typeof(ListControl));
 			SelectedValueChanged = SerializableEvent.Register("SelectedValueChanged", typeof(EventHandler), typeof(ListControl));
 			ValueMemberChanged = SerializableEvent.Register("ValueMemberChanged", typeof(EventHandler), typeof(ListControl));
 			ColorMemberChangedEvent = SerializableEvent.Register("ColorMemberChanged", typeof(EventHandler), typeof(ListControl));

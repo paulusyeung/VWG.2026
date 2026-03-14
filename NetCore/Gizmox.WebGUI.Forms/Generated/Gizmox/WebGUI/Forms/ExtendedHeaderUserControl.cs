@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Base User Control contained by the Exptended Header Cell
 	/// </summary>
 	[Serializable]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	[VisualTemplate(typeof(TrackBar), "Visually adjusts the TrackBar control to appear identical to a native TrackBar on the customized device.")]
 	[Skin(typeof(NativeTrackBarVisualTemplateSkin))]
 	public class NativeTrackBarVisualTemplate : VisualTemplate

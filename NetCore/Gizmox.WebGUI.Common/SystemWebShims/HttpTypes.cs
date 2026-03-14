@@ -10,6 +10,10 @@ using System.Web.SessionState;
 using System.Security.Principal;
 using System.Text;
 
+// added for shim adapters
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.Extensions;
+
 namespace System.Web
 {
     public enum HttpCacheability
@@ -91,6 +95,7 @@ namespace System.Web
         public DateTime Timestamp { get; set; } = DateTime.UtcNow;
         public bool IsCustomErrorEnabled { get; set; }
         public IPrincipal? User { get; set; }
+        public System.Web.Caching.Cache Cache => HttpRuntime.Cache;
     }
 
     public sealed class HttpRequest
@@ -325,5 +330,109 @@ namespace System.Web
         public int MajorVersion { get; set; }
         public double MinorVersion { get; set; }
         public string Id => Browser;
+    }
+
+    /// <summary>
+    /// Lightweight adapter that lets ASP.NET Core code install a real HttpContext
+    /// so that legacy code using <see cref="System.Web.HttpContext.Current"/>
+    /// can compile and, to a limited extent, function.
+    /// </summary>
+    public static class HttpContextShim
+    {
+        // backpointer to the AspNetCore context stored by middleware
+        private static Microsoft.AspNetCore.Http.HttpContext? _asp;
+
+        /// <summary>
+        /// Installs the given ASP.NET Core context and creates a minimal shim.
+        /// </summary>
+        public static void Install(Microsoft.AspNetCore.Http.HttpContext asp, Microsoft.Extensions.Caching.Memory.IMemoryCache? cache = null)
+        {
+            _asp = asp;
+            if (cache != null)
+            {
+                System.Web.Caching.Cache.Initialize(cache);
+            }
+
+            var sessionShim = new System.Web.SessionState.HttpSessionState();
+            try
+            {
+                if (asp.Features.Get<Microsoft.AspNetCore.Http.Features.ISessionFeature>() != null)
+                {
+                    sessionShim.Initialize(asp.Session);
+                }
+            }
+            catch { /* Session might not be configured */ }
+
+            System.Web.HttpContext.Current = new HttpContext
+            {
+                Request = new HttpRequest
+                {
+                    ContentType = asp.Request?.ContentType ?? string.Empty,
+                    HttpMethod = asp.Request?.Method ?? "GET",
+                    Url = asp.Request != null ? TryCreateUri(asp.Request.GetDisplayUrl()) : null,
+                    Headers = asp.Request != null ? ConvertHeaders(asp.Request.Headers) : new System.Collections.Specialized.NameValueCollection(),
+                    QueryString = asp.Request != null ? ConvertCollection(asp.Request.Query) : new System.Collections.Specialized.NameValueCollection(),
+                    Cookies = asp.Request != null ? ConvertCookies(asp.Request.Cookies) : new HttpCookieCollection()
+                },
+                Response = new HttpResponse
+                {
+                    ContentType = asp.Response?.ContentType ?? string.Empty
+                },
+                Server = new HttpServerUtility(),
+                Application = new HttpApplicationState(),
+                Session = sessionShim,
+                Items = asp.Items != null ? ConvertItems(asp.Items) : new Hashtable()
+            };
+        }
+
+        /// <summary>
+        /// Retrieve the underlying ASP.NET Core context (if installed).
+        /// </summary>
+        public static Microsoft.AspNetCore.Http.HttpContext? ToAspNetCore() => _asp;
+
+        private static System.Collections.Specialized.NameValueCollection ConvertHeaders(Microsoft.AspNetCore.Http.IHeaderDictionary headers)
+        {
+            var nvc = new System.Collections.Specialized.NameValueCollection();
+            foreach (var kv in headers)
+                nvc.Add(kv.Key, string.Join(",", kv.Value));
+            return nvc;
+        }
+
+        private static System.Collections.Specialized.NameValueCollection ConvertCollection(Microsoft.AspNetCore.Http.IQueryCollection col)
+        {
+            var nvc = new System.Collections.Specialized.NameValueCollection();
+            foreach (var kv in col)
+                nvc.Add(kv.Key, string.Join(",", kv.Value));
+            return nvc;
+        }
+
+        private static HttpCookieCollection ConvertCookies(Microsoft.AspNetCore.Http.IRequestCookieCollection cookies)
+        {
+            var cc = new HttpCookieCollection();
+            foreach (var kv in cookies)
+                cc.Add(kv.Key, kv.Value);
+            return cc;
+        }
+
+        // helper to safely create a Uri or return null if invalid/empty
+        private static Uri? TryCreateUri(string? uriString)
+        {
+            if (string.IsNullOrWhiteSpace(uriString))
+                return null;
+            if (Uri.TryCreate(uriString, UriKind.Absolute, out var result))
+                return result;
+            return null;
+        }
+
+        private static IDictionary ConvertItems(IDictionary<object, object?> items)
+        {
+            // ASP.NET Core's HttpContext.Items is IDictionary<object, object?>; convert to non-generic IDictionary
+            var ht = new Hashtable();
+            foreach (var kv in items)
+            {
+                ht[kv.Key] = kv.Value;
+            }
+            return ht;
+        }
     }
 }

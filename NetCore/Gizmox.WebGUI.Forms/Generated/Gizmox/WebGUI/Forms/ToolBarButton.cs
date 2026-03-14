@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Summary description for ToolBarButton.
 	/// </summary>
 	[Serializable]
@@ -151,7 +151,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the Click event.
 		/// </summary>
-		private EventHandler ClickHandler => (EventHandler)GetHandler(Click);
+		private EventHandler ClickHandler => (EventHandler)GetHandler(ClickEvent);
 
 		/// 
 		/// This is a recursive function that loop through a control and all of its parents
@@ -1037,7 +1037,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static ToolBarButton()
 		{
-			Click = SerializableEvent.Register("Click", typeof(EventHandler), typeof(ToolBarButton));
+			ClickEvent = SerializableEvent.Register("Click", typeof(EventHandler), typeof(ToolBarButton));
 		}
 	}
 }

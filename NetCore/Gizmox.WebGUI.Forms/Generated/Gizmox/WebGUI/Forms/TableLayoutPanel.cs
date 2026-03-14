@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// A table layout control.
 	/// </summary>
 	/// 
@@ -405,8 +405,8 @@ namespace Gizmox.WebGUI.Forms
 			int intNewRowNum = 0;
 			int intNewColNum = 0;
 			GetNewColAndRowCount(out intNewRowNum, out intNewColNum);
-			List<object> objRowsCells = new List<object>();
-			List<object> objColumnsCells = new List<object>();
+			List<object> objRowsCells = new List<object><object>();
+			List<object> objColumnsCells = new List<object><object>();
 			CalculateColAndRowStyle(intNewRowNum, intNewColNum, objRowsCells, objColumnsCells);
 			int num = 0;
 			for (num = 0; num < intNewColNum; num++)
@@ -460,7 +460,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objWriter">The obj writer.</param>
 		/// <param name="objColumnsCells">The obj columns cells.</param>
 		/// <param name="intInd">The int ind.</param>
-		private static void RenderColumnsPositionAttributes(IResponseWriter objWriter, List<object> objColumnsCells, int intInd)
+		private static void RenderColumnsPositionAttributes(IResponseWriter objWriter,List<object> objColumnsCells, int intInd)
 		{
 			if (objColumnsCells.Count > intInd)
 			{
@@ -477,7 +477,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objWriter">The obj writer.</param>
 		/// <param name="objRowsCells">The obj rows cells.</param>
 		/// <param name="intInd">The int ind.</param>
-		private static void RenderRowsPositionAttributes(IResponseWriter objWriter, List<object> objRowsCells, int intInd)
+		private static void RenderRowsPositionAttributes(IResponseWriter objWriter,List<object> objRowsCells, int intInd)
 		{
 			if (objRowsCells.Count > intInd)
 			{
@@ -525,7 +525,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="intNewColNum">The int new col num.</param>
 		/// <param name="objRowsCells">The obj rows cells.</param>
 		/// <param name="objColumnsCells">The obj columns cells.</param>
-		private void CalculateColAndRowStyle(int intNewRowNum, int intNewColNum, List<object> objRowsCells, List<object> objColumnsCells)
+		private void CalculateColAndRowStyle(int intNewRowNum, int intNewColNum,List<object> objRowsCells,List<object> objColumnsCells)
 		{
 			float num = 0f;
 			float num2 = 0f;

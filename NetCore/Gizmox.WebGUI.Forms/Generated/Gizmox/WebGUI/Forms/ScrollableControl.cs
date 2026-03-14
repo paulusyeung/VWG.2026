@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Defines a base class for controls that support auto-scrolling behavior.  
 	/// </summary>
 	[Serializable]

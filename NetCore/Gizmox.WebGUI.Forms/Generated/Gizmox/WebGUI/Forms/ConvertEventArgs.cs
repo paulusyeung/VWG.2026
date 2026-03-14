@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.Binding.Format"></see> and <see cref="E:Gizmox.WebGUI.Forms.Binding.Parse"></see> events.</summary>
+/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.Binding.Format"></see> and <see cref="E:Gizmox.WebGUI.Forms.Binding.Parse"></see> events.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class ConvertEventArgs : EventArgs

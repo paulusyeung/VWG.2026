@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies how tabs in a tab control are sized.</summary>
+/// Specifies how tabs in a tab control are sized.</summary>
 	/// 2</filterpriority>
 	[Obsolete("Not implemented. Added for migration compatibility")]
 	[Browsable(false)]

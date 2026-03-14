@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// The appearances available for one item (ListViewItem).
 	/// </summary>
 	[Serializable]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Manages all <see cref="T:Gizmox.WebGUI.Forms.Binding"></see> objects that are bound to the same data source and data member. This class is abstract.</summary>
+/// Manages all <see cref="T:Gizmox.WebGUI.Forms.Binding"></see> objects that are bound to the same data source and data member. This class is abstract.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public abstract class BindingManagerBase : SerializableObject

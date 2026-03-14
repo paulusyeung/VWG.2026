@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design
 {
-	/// 
+/// 
 	/// A button control
 	/// </summary>
 	[Serializable]

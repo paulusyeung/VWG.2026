@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration
 {
-	/// 
+/// 
 	/// Provides access to a W3C Storage interface (http://dev.w3.org/html5/webstorage/#the-localstorage-attribute)
 	/// </summary>
 	[Serializable]
@@ -120,7 +120,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Removes all of the key value pairs (server side).
 		/// </summary>
-		public void Clear(EventHandler objMethod)
+		public void Clear(EventHandler<LocalStorageEventArgs> objMethod)
 		{
 			string text = mobjStorage.ClearLocalStorageMethods.StoreContextualSingleCallMethod(this, "clearLocalStorage", objMethod);
 			mobjStorage.Invoke("DeviceIntegrator.Storage.clear", text);
@@ -131,7 +131,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="intPosition">The position.</param>
 		/// </returns>
-		public void Key(EventHandler objMethod, int intPosition)
+		public void Key(EventHandler<LocalStorageEventArgs> objMethod, int intPosition)
 		{
 			string text = mobjStorage.GetLocalStorageKeyMethods.StoreContextualSingleCallMethod(this, "key", objMethod);
 			mobjStorage.Invoke("DeviceIntegrator.Storage.key", text, intPosition);
@@ -142,7 +142,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="strKey">The key.</param>
 		/// </returns>
-		public void GetItem(EventHandler objMethod, string strKey)
+		public void GetItem(EventHandler<LocalStorageEventArgs> objMethod, string strKey)
 		{
 			string text = mobjStorage.GetLocalStorageItemMethods.StoreContextualSingleCallMethod(this, "getItem", objMethod);
 			mobjStorage.Invoke("DeviceIntegrator.Storage.getItem", text, strKey);
@@ -153,7 +153,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="strKey">The key.</param>
 		/// <param name="strValue">The value.</param>
-		public void SetItem(EventHandler objMethod, string strKey, string strValue)
+		public void SetItem(EventHandler<LocalStorageEventArgs> objMethod, string strKey, string strValue)
 		{
 			string text = mobjStorage.SetLocalStorageItemMethods.StoreContextualSingleCallMethod(this, "setItem", objMethod);
 			mobjStorage.Invoke("DeviceIntegrator.Storage.setItem", text, strKey, strValue);
@@ -164,7 +164,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objMethod">The method.</param>
 		/// <param name="strKey">The key.</param>
-		public void RemoveItem(EventHandler objMethod, string strKey)
+		public void RemoveItem(EventHandler<LocalStorageEventArgs> objMethod, string strKey)
 		{
 			string text = mobjStorage.RemoveLocalStorageItemMethods.StoreContextualSingleCallMethod(this, "removeItem", objMethod);
 			mobjStorage.Invoke("DeviceIntegrator.Storage.removeItem", text, strKey);

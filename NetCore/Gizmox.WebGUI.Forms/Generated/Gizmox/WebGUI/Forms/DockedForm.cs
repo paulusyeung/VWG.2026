@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -282,7 +282,7 @@ namespace Gizmox.WebGUI.Forms
 				if (blnAddListener)
 				{
 					zone.ZoneType = ZoneType.Float;
-					List<object> list = new List<object>();
+					List<object> list = new List<object><object>();
 					Component[] dragTargets = DragTargets;
 					foreach (Component component in dragTargets)
 					{

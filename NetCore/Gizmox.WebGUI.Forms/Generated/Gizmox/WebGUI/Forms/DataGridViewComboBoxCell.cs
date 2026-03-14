@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Displays a combo box in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
+/// Displays a combo box in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[Skin(typeof(DataGridViewComboBoxCellSkin))]
@@ -2223,7 +2223,7 @@ namespace Gizmox.WebGUI.Forms
 				throw new ArgumentNullException("key");
 			}
 			object result = null;
-			if (DataManager.List<object> is IBindingList && ((IBindingList)DataManager.List).SupportsSearching)
+			if (DataManager.List is IBindingList && ((IBindingList)DataManager.List).SupportsSearching)
 			{
 				int num = ((IBindingList)DataManager.List).Find(objPropertyDescriptor, objKey);
 				if (num != -1)

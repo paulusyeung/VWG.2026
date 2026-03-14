@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -356,7 +356,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// Sets the abort event.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void SetAbortEvent(EventHandler objCallback)
+		public void SetAbortEvent(EventHandler<EmptyDeviceEventArgs> objCallback)
 		{
 			mobjAbortCallback = objCallback;
 		}
@@ -365,7 +365,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// Sets the error event.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void SetErrorEvent(EventHandler<FileWriterEventArgs> objCallback)
+		public void SetErrorEvent(EventHandler<EmptyDeviceEventArgs> objCallback)
 		{
 			mobjErrorCallback = objCallback;
 		}
@@ -374,7 +374,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// Sets the write end event.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void SetWriteEndEvent(EventHandler<FileWriterEventArgs> objCallback)
+		public void SetWriteEndEvent(EventHandler<EmptyDeviceEventArgs> objCallback)
 		{
 			mobjWriteEndCallback = objCallback;
 		}
@@ -383,7 +383,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// Sets the write event.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void SetWriteEvent(EventHandler<FileWriterEventArgs> objCallback)
+		public void SetWriteEvent(EventHandler<EmptyDeviceEventArgs> objCallback)
 		{
 			mobjWriteCallback = objCallback;
 		}
@@ -392,7 +392,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// Sets the write start event.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void SetWriteStartEvent(EventHandler<FileWriterEventArgs> objCallback)
+		public void SetWriteStartEvent(EventHandler<EmptyDeviceEventArgs> objCallback)
 		{
 			mobjWriteStartCallback = objCallback;
 		}

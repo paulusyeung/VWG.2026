@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents a common dialog box that displays available colors along with controls that enable the user to define custom colors.
 	/// </summary>
 	[Serializable]

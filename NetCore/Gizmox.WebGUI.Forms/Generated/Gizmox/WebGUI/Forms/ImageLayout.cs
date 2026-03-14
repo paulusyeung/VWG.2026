@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the position of the image on the control.</summary>
+/// Specifies the position of the image on the control.</summary>
 	/// 2</filterpriority>    
 	public enum ImageLayout : byte
 	{

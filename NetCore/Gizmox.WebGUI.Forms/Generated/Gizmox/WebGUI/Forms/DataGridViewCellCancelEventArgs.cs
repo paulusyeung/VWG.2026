@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	public class DataGridViewCellCancelEventArgs : CancelEventArgs
 	{
 		private int mintColumnIndex;

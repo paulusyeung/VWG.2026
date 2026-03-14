@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents the formatting and style information applied to individual cells within a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
+/// Represents the formatting and style information applied to individual cells within a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[Editor("Gizmox.WebGUI.Forms.Design.DataGridViewCellStyleEditor, Gizmox.WebGUI.Forms.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=dd2a1fd4d120c769", typeof(UITypeEditor))]

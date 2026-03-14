@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies how items align in the <see cref="T:Gizmox.WebGui.Forms.ListView"></see>.</summary>
+/// Specifies how items align in the <see cref="T:Gizmox.WebGui.Forms.ListView"></see>.</summary>
 	/// 2</filterpriority>
 	public enum ListViewAlignment
 	{

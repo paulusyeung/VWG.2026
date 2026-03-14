@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// This class helps holding style information about each cell in table.
 	/// </summary>    
 	internal class TableLayoutPanelCellStyle

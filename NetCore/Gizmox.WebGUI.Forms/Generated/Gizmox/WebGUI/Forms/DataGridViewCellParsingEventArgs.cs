@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.DataGridView.CellParsing"></see> event of a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control. </summary>
+/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.DataGridView.CellParsing"></see> event of a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control. </summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class DataGridViewCellParsingEventArgs : ConvertEventArgs

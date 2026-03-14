@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 {
-	[Serializable]
+[Serializable]
 	public class DirectoryEntry : Entry, IDirectoryEntry, IEntry
 	{
 		/// 
@@ -186,7 +186,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// <param name="objCallback">The obj callback.</param>
 		public void GetDirectory(string strDirectoryPath, FlagsOptions objOptions, EventHandler<EntryEventArgs> objCallback)
 		{
-			base.FileManager.GetDirectory(this, strDirectoryPath, objOptions, (dynamic)(dynamic)objCallback);
+			base.FileManager.GetDirectory(this, strDirectoryPath, objOptions, objCallback);
 		}
 
 		/// 
@@ -197,7 +197,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// <param name="objCallback">The obj callback.</param>
 		public void GetFile(string strFilePath, FlagsOptions objOptions, EventHandler<EntryEventArgs> objCallback)
 		{
-			base.FileManager.GetFile(this, strFilePath, objOptions, (dynamic)(dynamic)objCallback);
+			base.FileManager.GetFile(this, strFilePath, objOptions, objCallback);
 		}
 
 		/// 
@@ -206,7 +206,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// <param name="objCallback">The obj callback.</param>
 		public void RemoveRecursively(EventHandler<EmptyDeviceEventArgs> objCallback)
 		{
-			base.FileManager.RemoveRecursively(this, (dynamic)(dynamic)objCallback);
+			base.FileManager.RemoveRecursively(this, objCallback);
 		}
 
 		/// 

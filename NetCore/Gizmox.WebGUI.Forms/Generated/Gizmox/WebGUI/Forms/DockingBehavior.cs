@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies how a control should be docked by default when added through a designer.</summary> 
+/// Specifies how a control should be docked by default when added through a designer.</summary> 
 	/// 2</filterpriority>
 	public enum DockingBehavior
 	{

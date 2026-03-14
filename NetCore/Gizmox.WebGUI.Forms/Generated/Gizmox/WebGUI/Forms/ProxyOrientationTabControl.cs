@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	public class ProxyOrientationTabControl : ProxyTabControl
+public class ProxyOrientationTabControl : ProxyTabControl
 	{
 		/// 
 		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.ProxyTabControl" /> class.

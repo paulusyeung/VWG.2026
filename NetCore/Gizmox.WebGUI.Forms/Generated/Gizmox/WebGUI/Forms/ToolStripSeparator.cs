@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a line used to group items of a <see cref="T:System.Windows.Forms.ToolStrip"></see> or the drop-down items of a <see cref="T:System.Windows.Forms.MenuStrip"></see> or <see cref="T:System.Windows.Forms.ContextMenuStrip"></see> or other <see cref="T:System.Windows.Forms.ToolStripDropDown"></see> control.</summary>
+/// Represents a line used to group items of a <see cref="T:System.Windows.Forms.ToolStrip"></see> or the drop-down items of a <see cref="T:System.Windows.Forms.MenuStrip"></see> or <see cref="T:System.Windows.Forms.ContextMenuStrip"></see> or other <see cref="T:System.Windows.Forms.ToolStripDropDown"></see> control.</summary>
 	[Serializable]
 	[Skin(typeof(ToolStripSeparatorSkin))]
 	[ClientController("Gizmox.WebGUI.Client.Controllers.ToolStripSeparatorController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]

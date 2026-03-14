@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// This class represents the ColumnHeader Converter.
 	/// Used to avoid the default behaviour of the designer adding columns into the form's resx file.
 	/// </summary>

@@ -101,7 +101,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Implements a timer that raises an event at user-defined intervals. This timer is optimized for use in Gizmox.WebGUI.Forms applications and must be used in a window.
 	/// </summary>
 	[Serializable]
@@ -112,7 +112,7 @@ namespace Gizmox.WebGUI.Forms
 	[SRDescription("DescriptionTimer")]
 	[ToolboxItemFilter("Gizmox.WebGUI.Forms", ToolboxItemFilterType.Require)]
 	[ToolboxItemCategory("Components")]
-	public class Timer : ComponentBase, ITimer
+	public class Timer : ComponentBase, Gizmox.WebGUI.Common.Interfaces.ITimer
 	{
 		/// 
 		///
@@ -213,7 +213,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Sets or gets the timer id
 		/// </summary>
-		int ITimer.TimerID
+		int Gizmox.WebGUI.Common.Interfaces.ITimer.TimerID
 		{
 			get
 			{
@@ -228,12 +228,12 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the timer interval
 		/// </summary>
-		int ITimer.Interval => Interval;
+		int Gizmox.WebGUI.Common.Interfaces.ITimer.Interval => Interval;
 
 		/// 
 		/// Gets timer enabled state
 		/// </summary>
-		bool ITimer.Enabled => Enabled;
+		bool Gizmox.WebGUI.Common.Interfaces.ITimer.Enabled => Enabled;
 
 		/// 
 		/// Occurs when the specified timer interval has elapsed and the timer is enabled.
@@ -311,7 +311,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Invoke timer.
 		/// </summary>
-		int ITimer.InvokeTimer()
+		int Gizmox.WebGUI.Common.Interfaces.ITimer.InvokeTimer()
 		{
 			mlngLastTicks = DateTime.Now.Ticks;
 			try
@@ -325,14 +325,14 @@ namespace Gizmox.WebGUI.Forms
 					throw ex;
 				}
 			}
-			return ((ITimer)this).GetNextInvokation(mlngLastTicks);
+			return ((Gizmox.WebGUI.Common.Interfaces.ITimer)this).GetNextInvokation(mlngLastTicks);
 		}
 
 		/// 
 		/// Gets the next planed invocation.
 		/// </summary>
 		/// <param name="lngCurrentTicks"></param>
-		int ITimer.GetNextInvokation(long lngCurrentTicks)
+		int Gizmox.WebGUI.Common.Interfaces.ITimer.GetNextInvokation(long lngCurrentTicks)
 		{
 			TimeSpan timeSpan = TimeSpan.FromTicks(lngCurrentTicks - mlngLastTicks);
 			int num = mintInterval - (int)timeSpan.TotalMilliseconds;

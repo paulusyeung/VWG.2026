@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides a collection of <see cref="T:Gizmox.WebGUI.Forms.Cursor"></see> objects for use by a Windows Forms application.</summary>
+/// Provides a collection of <see cref="T:Gizmox.WebGUI.Forms.Cursor"></see> objects for use by a Windows Forms application.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public sealed class Cursors

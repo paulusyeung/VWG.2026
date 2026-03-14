@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies how a user starts cell editing in the <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
+/// Specifies how a user starts cell editing in the <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public enum DataGridViewEditMode

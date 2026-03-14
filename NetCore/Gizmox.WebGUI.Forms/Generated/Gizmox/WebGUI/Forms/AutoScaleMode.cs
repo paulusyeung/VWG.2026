@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the different types of automatic scaling modes supported by Windows Forms.</summary>
+/// Specifies the different types of automatic scaling modes supported by Windows Forms.</summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	[Browsable(false)]
 	public enum AutoScaleMode

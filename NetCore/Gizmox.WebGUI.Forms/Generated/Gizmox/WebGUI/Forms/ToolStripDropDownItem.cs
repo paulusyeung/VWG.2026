@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides basic functionality for controls that display a <see cref="T:System.Windows.Forms.ToolStripDropDown"></see> when a <see cref="T:System.Windows.Forms.ToolStripDropDownButton"></see>, <see cref="T:System.Windows.Forms.ToolStripMenuItem"></see>, or <see cref="T:System.Windows.Forms.ToolStripSplitButton"></see> control is clicked.</summary>
+/// Provides basic functionality for controls that display a <see cref="T:System.Windows.Forms.ToolStripDropDown"></see> when a <see cref="T:System.Windows.Forms.ToolStripDropDownButton"></see>, <see cref="T:System.Windows.Forms.ToolStripMenuItem"></see>, or <see cref="T:System.Windows.Forms.ToolStripSplitButton"></see> control is clicked.</summary>
 	[Serializable]
 	[DefaultProperty("DropDownItems")]
 	[ClientController("Gizmox.WebGUI.Client.Controllers.ToolStripDropDownItemController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]
@@ -523,7 +523,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			if (strOffspringTypeName == "Gizmox.WebGUI.Forms.ToolStripDropDown")
 			{
-				List<object> list = new List<object>();
+				List<object> list = new List<object><object>();
 				list.Add(DropDown);
 				return list;
 			}

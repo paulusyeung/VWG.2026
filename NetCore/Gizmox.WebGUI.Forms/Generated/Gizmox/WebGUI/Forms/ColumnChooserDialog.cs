@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -336,7 +336,7 @@ namespace Gizmox.WebGUI.Forms
 			private void InitializeAndFillHierarchicColumns(ObservableCollection<object> objInfos, TreeNode objHierarchicNode)
 			{
 				HierarchicInfo hierarchicInfo = objInfos[0];
-				List<object> value = InitializeAndFillSingleHierarchicColumns(objHierarchicNode.Nodes, hierarchicInfo);
+				List value = InitializeAndFillSingleHierarchicColumns(objHierarchicNode.Nodes, hierarchicInfo);
 				mobjNodesIndexedByTheirHierarchyLevel.Add(hierarchicInfo, value);
 				if (objInfos.Count > 1)
 				{
@@ -353,7 +353,7 @@ namespace Gizmox.WebGUI.Forms
 			private static List<object> InitializeAndFillSingleHierarchicColumns(TreeNodeCollection objHierarchicNodeCollection, HierarchicInfo objCurrentInfoLevel)
 			{
 				IEnumerable columnNamesFromBindedSource = GetColumnNamesFromBindedSource(objCurrentInfoLevel.BindedSource);
-				List<object> list = new List<object>();
+				List<object> list = new List<object><object>();
 				foreach (string item in columnNamesFromBindedSource)
 				{
 					bool blnInitialCheckedState = objCurrentInfoLevel.HiddenColumns.IndexOf(item) == -1;

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents a Gizmox.WebGUI.Forms control that allows the user to select a date and a time and to display the date and time with a specified format.
 	/// </summary>
 	[Serializable]
@@ -259,7 +259,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the CheckedChanged event.
 		/// </summary>
-		private EventHandler CheckedChangedHandler => (EventHandler)GetHandler(CheckedChanged);
+		private EventHandler CheckedChangedHandler => (EventHandler)GetHandler(CheckedChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the CloseUp event.
@@ -887,7 +887,7 @@ namespace Gizmox.WebGUI.Forms
 			EmptyDateYearProperty = SerializableProperty.Register("EmptyDateYear", typeof(int), typeof(DateTimePicker), new SerializablePropertyMetadata(0));
 			ShowCheckBoxProperty = SerializableProperty.Register("ShowCheckBox", typeof(bool), typeof(DateTimePicker), new SerializablePropertyMetadata(false));
 			CheckedChangedQueued = SerializableEvent.Register("CheckedChangedQueued", typeof(EventHandler), typeof(DateTimePicker));
-			CheckedChanged = SerializableEvent.Register("CheckedChanged", typeof(EventHandler), typeof(DateTimePicker));
+			CheckedChangedEvent = SerializableEvent.Register("CheckedChanged", typeof(EventHandler), typeof(DateTimePicker));
 			CloseUp = SerializableEvent.Register("CloseUp", typeof(EventHandler), typeof(DateTimePicker));
 			mstrTimeFormat = "h:mm:ss tt";
 			mstrShortFormat = "M/d/yyyy";

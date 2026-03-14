@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies constants defining which information to display.
 	/// </summary>
 	public enum MessageBoxIcon

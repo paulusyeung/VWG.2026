@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Contains a collection of <see cref="T:Gizmox.WebGUI.Forms.GridItem"></see> objects.
 	/// </summary>
 	[Serializable]

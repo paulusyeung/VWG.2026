@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -108,23 +108,23 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 	{
 		private SingleCallMethodStore<Gizmox.WebGUI.Common.Device.FileManagement.FileSystemEventArgs> mobjFileSystemStore;
 
-		private SingleCallMethodStore<FileManagementEventArgs> mobjEntryMetadataEventStore;
+		private SingleCallMethodStore<MetadataEventArgs> mobjEntryMetadataEventStore;
 
-		private SingleCallMethodStore<FileManagementEventArgs> mobjEntryEventArgsStore;
+		private SingleCallMethodStore<EntryEventArgs> mobjEntryEventArgsStore;
 
-		private SingleCallMethodStore<FileManagementEventArgs> mobjEmptyArgsStore;
+		private SingleCallMethodStore<EmptyDeviceEventArgs> mobjEmptyArgsStore;
 
-		private SingleCallMethodStore<FileManagementEventArgs> mobjToUrlEventArgsStore;
+		private SingleCallMethodStore<ToUrlEventArgs> mobjToUrlEventArgsStore;
 
-		private SingleCallMethodStore<FileManagementEventArgs> mobjDirectoryReaderEventArgsStore;
+		private SingleCallMethodStore<DirectoryReaderEventArgs> mobjDirectoryReaderEventArgsStore;
 
-		private SingleCallMethodStore<FileManagementEventArgs> mobjFileEventArgsStore;
+		private SingleCallMethodStore<FileEventArgs> mobjFileEventArgsStore;
 
-		private SingleCallMethodStore<FileManagementEventArgs> mobjFileWriterEventArgsStore;
+		private SingleCallMethodStore<FileWriterEventArgs> mobjFileWriterEventArgsStore;
 
-		private SingleCallMethodStore<FileManagementEventArgs> mobjFileUploadEventArgsStore;
+		private SingleCallMethodStore<FileUploadEventArgs> mobjFileUploadEventArgsStore;
 
-		private SingleCallMethodStore<FileManagementEventArgs> mobjFileDownloadEventArgsStore;
+		private SingleCallMethodStore<FileDownloadEventArgs> mobjFileDownloadEventArgsStore;
 
 		private Dictionary<string, FileWriter> mobjFileWritersIndexByFileWriterHashCode;
 
@@ -133,13 +133,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the empty args store.
 		/// </summary>
-		internal SingleCallMethodStore<FileManagementEventArgs> FileDownloadEventArgsStore
+		internal SingleCallMethodStore<EventArgs> FileDownloadEventArgsStore
 		{
 			get
 			{
 				if (mobjFileDownloadEventArgsStore == null)
 				{
-					mobjFileDownloadEventArgsStore = new SingleCallMethodStore<FileManagementEventArgs>();
+					mobjFileDownloadEventArgsStore = new SingleCallMethodStore<FileDownloadEventArgs>();
 				}
 				return mobjFileDownloadEventArgsStore;
 			}
@@ -148,13 +148,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the empty args store.
 		/// </summary>
-		internal SingleCallMethodStore<FileManagementEventArgs> EmptyArgsStore
+		internal SingleCallMethodStore<EventArgs> EmptyArgsStore
 		{
 			get
 			{
 				if (mobjEmptyArgsStore == null)
 				{
-					mobjEmptyArgsStore = new SingleCallMethodStore<FileManagementEventArgs>();
+					mobjEmptyArgsStore = new SingleCallMethodStore<EmptyDeviceEventArgs>();
 				}
 				return mobjEmptyArgsStore;
 			}
@@ -163,13 +163,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the entry event args store.
 		/// </summary>
-		private SingleCallMethodStore<FileManagementEventArgs> EntryEventArgsStore
+		private SingleCallMethodStore<EntryEventArgs> EntryEventArgsStore
 		{
 			get
 			{
 				if (mobjEntryEventArgsStore == null)
 				{
-					mobjEntryEventArgsStore = new SingleCallMethodStore<FileManagementEventArgs>();
+					mobjEntryEventArgsStore = new SingleCallMethodStore<EntryEventArgs>();
 				}
 				return mobjEntryEventArgsStore;
 			}
@@ -178,13 +178,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the file upload event args store.
 		/// </summary>
-		private SingleCallMethodStore<FileManagementEventArgs> FileUploadEventArgsStore
+		private SingleCallMethodStore<FileUploadEventArgs> FileUploadEventArgsStore
 		{
 			get
 			{
 				if (mobjFileUploadEventArgsStore == null)
 				{
-					mobjFileUploadEventArgsStore = new SingleCallMethodStore<FileManagementEventArgs>();
+					mobjFileUploadEventArgsStore = new SingleCallMethodStore<FileUploadEventArgs>();
 				}
 				return mobjFileUploadEventArgsStore;
 			}
@@ -377,7 +377,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </returns>
 		private DirectoryReaderEventArgs CreateDirectoryReaderEventArgs(IEvent objEvent, IFileSystem objFileSystem)
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			if (!DeviceEventArgs.TryGetError(objEvent, out var objEventArgs))
 			{
 				if (int.TryParse(objEvent["count"], out var result))
@@ -506,7 +506,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		{
 			if (mobjEntryMetadataEventStore == null)
 			{
-				mobjEntryMetadataEventStore = new SingleCallMethodStore<FileManagementEventArgs>();
+				mobjEntryMetadataEventStore = new SingleCallMethodStore<MetadataEventArgs>();
 			}
 			string text = mobjEntryMetadataEventStore.StoreContextualSingleCallMethod(entry, "metadata", objHandler);
 			Invoke("DeviceIntegrator.FileManager.getMetadataByPath", entry.FullPath, entry.IsDirectory, text);
@@ -587,7 +587,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		{
 			if (mobjToUrlEventArgsStore == null)
 			{
-				mobjToUrlEventArgsStore = new SingleCallMethodStore<FileManagementEventArgs>();
+				mobjToUrlEventArgsStore = new SingleCallMethodStore<ToUrlEventArgs>();
 			}
 			Invoke("DeviceIntegrator.FileManager.toURLByPath", objEntry.FullPath, objEntry.IsDirectory, mobjToUrlEventArgsStore.StoreContextualSingleCallMethod(objEntry, "tourl", objCallback));
 		}
@@ -612,7 +612,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		{
 			if (mobjDirectoryReaderEventArgsStore == null)
 			{
-				mobjDirectoryReaderEventArgsStore = new SingleCallMethodStore<FileManagementEventArgs>();
+				mobjDirectoryReaderEventArgsStore = new SingleCallMethodStore<DirectoryReaderEventArgs>();
 			}
 			Invoke("DeviceIntegrator.FileManager.readDirectory", objDirectoryReader.Directory.FullPath, mobjDirectoryReaderEventArgsStore.StoreContextualSingleCallMethod(objDirectoryReader, "readDirectory", objCallback));
 		}
@@ -636,7 +636,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		{
 			if (mobjFileEventArgsStore == null)
 			{
-				mobjFileEventArgsStore = new SingleCallMethodStore<FileManagementEventArgs>();
+				mobjFileEventArgsStore = new SingleCallMethodStore<FileEventArgs>();
 			}
 			Invoke("DeviceIntegrator.FileManager.fileEntryGetFile", objFileEntry.FullPath, mobjFileEventArgsStore.StoreContextualSingleCallMethod(objFileEntry, "getfile", objCallback));
 		}
@@ -650,7 +650,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		{
 			if (mobjFileWriterEventArgsStore == null)
 			{
-				mobjFileWriterEventArgsStore = new SingleCallMethodStore<FileManagementEventArgs>();
+				mobjFileWriterEventArgsStore = new SingleCallMethodStore<FileWriterEventArgs>();
 			}
 			Invoke("DeviceIntegrator.FileManager.getFileWriter", objFileEntry.FullPath, mobjFileWriterEventArgsStore.StoreContextualSingleCallMethod(objFileEntry, "getFileWriter", objCallback));
 		}
@@ -755,7 +755,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="strDestinationFileFullPath">The STR destination file full path.</param>
 		/// <param name="blnTrustAllHosts">if set to true</c> [BLN trust all hosts].</param>
 		/// <param name="objCallback">The obj callback.</param>
-		internal void Download(FileTransfer objFileTransfer, string strSourceUrl, string strDestinationFileFullPath, bool blnTrustAllHosts, EventHandler objCallback)
+		internal void Download(FileTransfer objFileTransfer, string strSourceUrl, string strDestinationFileFullPath, bool blnTrustAllHosts, EventHandler<FileDownloadEventArgs> objCallback)
 		{
 			Invoke("DeviceIntegrator.FileManager.downloadFile", strSourceUrl, strDestinationFileFullPath, CommonUtils.GetClientJsonObject(objFileTransfer.GetProgressEventData()), blnTrustAllHosts, FileDownloadEventArgsStore.StoreContextualSingleCallMethod(objFileTransfer, "download", objCallback));
 		}
@@ -769,7 +769,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="objOptions">The obj options.</param>
 		/// <param name="blnTrustAllHosts">if set to true</c> [BLN trust all hosts].</param>
 		/// <param name="objCallback">The obj callback.</param>
-		internal void Upload(FileTransfer objFileTransfer, string strFullFilePath, string strUploadUrl, FileUploadOptions objOptions, bool blnTrustAllHosts, EventHandler objCallback)
+		internal void Upload(FileTransfer objFileTransfer, string strFullFilePath, string strUploadUrl, FileUploadOptions objOptions, bool blnTrustAllHosts, EventHandler<FileUploadEventArgs> objCallback)
 		{
 			Invoke("DeviceIntegrator.FileManager.uploadFile", strFullFilePath, strUploadUrl, CommonUtils.GetClientJsonObject(objFileTransfer.GetProgressEventData()), CommonUtils.GetClientJsonObject(objOptions), blnTrustAllHosts, FileUploadEventArgsStore.StoreContextualSingleCallMethod(objFileTransfer, "upload", objCallback));
 		}
@@ -779,7 +779,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="strFileUri">The STR file URI.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		public void ResolveLocalFileSystemURI(string strFileUri, Action objCallback)
+		public void ResolveLocalFileSystemURI(string strFileUri, Action<EntryEventArgs> objCallback)
 		{
 			Invoke("DeviceIntegrator.FileManager.resolveLocalFileSystemURI", strFileUri, EntryEventArgsStore.StoreSingleCallMethod("resolve", objCallback));
 		}

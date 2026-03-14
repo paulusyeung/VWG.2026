@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Summary description for Menu Item.
 	/// </summary>
 	[Serializable]
@@ -490,13 +490,13 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the Click event.
 		/// </summary>
-		internal EventHandler ClickHandler => (EventHandler)GetHandler(Click);
+		internal EventHandler ClickHandler => (EventHandler)GetHandler(ClickEvent);
 
 		/// 
 		/// Gets the enter handler.
 		/// </summary>
 		/// The enter handler.</value>
-		private EventHandler EnterHandler => (EventHandler)GetHandler(Enter);
+		private EventHandler EnterHandler => (EventHandler)GetHandler(EnterEvent);
 
 		/// 
 		/// Invokes when a menu item was clicked
@@ -804,8 +804,8 @@ namespace Gizmox.WebGUI.Forms
 
 		static MenuItem()
 		{
-			Click = SerializableEvent.Register("Click", typeof(EventHandler), typeof(MenuItem));
-			Enter = SerializableEvent.Register("Enter", typeof(EventHandler), typeof(MenuItem));
+			ClickEvent = SerializableEvent.Register("Click", typeof(EventHandler), typeof(MenuItem));
+			EnterEvent = SerializableEvent.Register("Enter", typeof(EventHandler), typeof(MenuItem));
 			ShowShortcutProperty = SerializableProperty.Register("ShowShortcut", typeof(bool), typeof(MenuItem));
 			NameProperty = SerializableProperty.Register("Name", typeof(string), typeof(MenuItem));
 		}

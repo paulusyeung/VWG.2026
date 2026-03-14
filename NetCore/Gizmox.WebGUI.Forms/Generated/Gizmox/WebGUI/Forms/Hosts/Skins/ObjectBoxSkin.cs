@@ -100,11 +100,11 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Hosts.Skins
 {
-	/// 
+/// 
 	/// Object Box Skin
 	/// </summary>
 	[Serializable]
-	[ToolboxBitmap(typeof(FormBox), "FormBox.bmp")]
+	[ToolboxBitmap(typeof(Gizmox.WebGUI.Forms.Hosts.FormBox), "FormBox.bmp")]
 	public class ObjectBoxSkin : Gizmox.WebGUI.Forms.Skins.ControlSkin
 	{
 		private void InitializeComponent()

@@ -100,28 +100,28 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration
 {
-	/// 
+/// 
 	/// Represents entity that provides access to the device contacts database.
 	/// </summary>
 	[Serializable]
 	public class Contacts : DeviceComponent, IContacts
 	{
-		private SingleCallMethodStore<ContactsEventArgs> mobjFindContactsCallbackStore;
+		private SingleCallMethodStore<FindContactsEventArgs> mobjFindContactsCallbackStore;
 
-		private SingleCallMethodStore<ContactsEventArgs> mobjRemoveContactCallbackStore;
+		private SingleCallMethodStore<EmptyDeviceEventArgs> mobjRemoveContactCallbackStore;
 
-		private SingleCallMethodStore<ContactsEventArgs> mobjSaveContactCallbackStore;
+		private SingleCallMethodStore<SaveContactEventArgs> mobjSaveContactCallbackStore;
 
 		/// 
 		/// Gets the method store for FindContacts() server callbacks.
 		/// </summary>
-		internal SingleCallMethodStore<ContactsEventArgs> FindContactsCallbackStore
+		internal SingleCallMethodStore<FindContactsEventArgs> FindContactsCallbackStore
 		{
 			get
 			{
 				if (mobjFindContactsCallbackStore == null)
 				{
-					mobjFindContactsCallbackStore = new SingleCallMethodStore<ContactsEventArgs>();
+					mobjFindContactsCallbackStore = new SingleCallMethodStore<FindContactsEventArgs>();
 				}
 				return mobjFindContactsCallbackStore;
 			}
@@ -130,11 +130,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the RemoveContact callback store.
 		/// </summary>
-		internal SingleCallMethodStore<ContactsEventArgs> RemoveContactCallbackStore
+		internal SingleCallMethodStore<EmptyDeviceEventArgs> RemoveContactCallbackStore
 		{
 			get
 			{
-				mobjRemoveContactCallbackStore = mobjRemoveContactCallbackStore ?? new SingleCallMethodStore<ContactsEventArgs>();
+				mobjRemoveContactCallbackStore = mobjRemoveContactCallbackStore ?? new SingleCallMethodStore<EmptyDeviceEventArgs>();
 				return mobjRemoveContactCallbackStore;
 			}
 		}
@@ -142,11 +142,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the SaveContact callback store.
 		/// </summary>
-		internal SingleCallMethodStore<ContactsEventArgs> SaveContactCallbackStore
+		internal SingleCallMethodStore<SaveContactEventArgs> SaveContactCallbackStore
 		{
 			get
 			{
-				mobjSaveContactCallbackStore = mobjSaveContactCallbackStore ?? new SingleCallMethodStore<ContactsEventArgs>();
+				mobjSaveContactCallbackStore = mobjSaveContactCallbackStore ?? new SingleCallMethodStore<SaveContactEventArgs>();
 				return mobjSaveContactCallbackStore;
 			}
 		}
@@ -221,7 +221,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 			if (!DeviceEventArgs.TryGetError(objEvent, out objEventArgs))
 			{
 				string text = objEvent["contacts"];
-				List<object> list = null;
+				List list = null;
 				if (!string.IsNullOrEmpty(text))
 				{
 					if (int.TryParse(text, out var result))
@@ -265,7 +265,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objMethod">The callback method.</param>
 		/// <param name="objOptions">The contact options.</param>
-		public void FindContacts(EventHandler objMethod, ContactFindOptions objOptions)
+		public void FindContacts(EventHandler<FindContactsEventArgs> objMethod, ContactFindOptions objOptions)
 		{
 			string text = FindContactsCallbackStore.StoreContextualSingleCallMethod(this, "find", objMethod);
 			Invoke("DeviceIntegrator.Contacts.findContacts", text, CommonUtils.GetClientJsonObject(objOptions));

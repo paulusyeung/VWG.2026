@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Implements a basic data transfer mechanism.</summary>
+/// Implements a basic data transfer mechanism.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[ClassInterface(ClassInterfaceType.None)]

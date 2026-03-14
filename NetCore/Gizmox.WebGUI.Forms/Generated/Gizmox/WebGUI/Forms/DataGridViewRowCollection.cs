@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// A collection of <see cref="T:Gizmox.WebGUI.Forms.DataGridViewRow"></see> objects.</summary>
+/// A collection of <see cref="T:Gizmox.WebGUI.Forms.DataGridViewRow"></see> objects.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[ListBindable(false)]
@@ -968,7 +968,7 @@ namespace Gizmox.WebGUI.Forms
 			}
 			if (DataGridView.DataSource != null)
 			{
-				if (!(DataGridView.DataConnection.List<object> is IBindingList { AllowRemove: not false, SupportsChangeNotification: not false } bindingList))
+				if (!(DataGridView.DataConnection.List is IBindingList { AllowRemove: not false, SupportsChangeNotification: not false } bindingList))
 				{
 					throw new InvalidOperationException(SR.GetString("DataGridViewRowCollection_CantClearRowCollectionWithWrongSource"));
 				}
@@ -2184,7 +2184,7 @@ namespace Gizmox.WebGUI.Forms
 			}
 			if (DataGridView.DataSource != null)
 			{
-				if (!(DataGridView.DataConnection.List<object> is IBindingList { AllowRemove: not false, SupportsChangeNotification: not false } bindingList))
+				if (!(DataGridView.DataConnection.List is IBindingList { AllowRemove: not false, SupportsChangeNotification: not false } bindingList))
 				{
 					throw new InvalidOperationException(SR.GetString("DataGridViewRowCollection_CantRemoveRowsWithWrongSource"));
 				}

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Describes a Docked object inside the Docke Manager
 	/// </summary>
 	[Serializable]
@@ -153,7 +153,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		/// <typeparam name="T"></typeparam>
 		/// </returns>
-		internal virtual T CloneWithoutReferences() where T : DockedObjectDescriptor
+		internal virtual T CloneWithoutReferences<T>() where T : DockedObjectDescriptor
 		{
 			return null;
 		}

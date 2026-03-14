@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Implements one row in a <see cref="T:Gizmox.WebGUI.Forms.PropertyGrid"></see>.
 	/// </summary>
 	[Serializable]

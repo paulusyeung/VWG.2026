@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.PropertyGridInternal
 {
-	/// 
+/// 
 	/// Represents the Properties tab on a PropertyGrid control.
 	/// </summary>
 	[Serializable]

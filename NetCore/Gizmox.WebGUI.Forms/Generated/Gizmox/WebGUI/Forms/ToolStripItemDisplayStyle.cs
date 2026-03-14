@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies what to render (image or text) for this <see cref="T:Gizmox.WebGUI.Forms.ToolStripItem"></see>.</summary> 
+/// Specifies what to render (image or text) for this <see cref="T:Gizmox.WebGUI.Forms.ToolStripItem"></see>.</summary> 
 	/// 2</filterpriority>
 	public enum ToolStripItemDisplayStyle
 	{

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.PropertyGridInternal
 {
-	/// Defines methods and a property that allow filtering on specific attributes.</summary>
+/// Defines methods and a property that allow filtering on specific attributes.</summary>
 	public interface IRootGridEntry
 	{
 		/// Gets or sets the attributes on which the property browser filters.</summary>

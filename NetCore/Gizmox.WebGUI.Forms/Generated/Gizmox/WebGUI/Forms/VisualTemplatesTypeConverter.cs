@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Type converter for the draggable option object.
 	/// </summary>
 	[Serializable]
@@ -145,7 +145,7 @@ namespace Gizmox.WebGUI.Forms
 				if (!string.IsNullOrEmpty(text))
 				{
 					string[] array = text.Split('|');
-					List<object> list = new List<object>();
+					List<object> list = new List<object><object>();
 					for (int i = 1; i < array.Length; i++)
 					{
 						list.Add(array[i]);
@@ -208,7 +208,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="strVisualEffectType">Name of the STR visual effect.</param>
 		/// <param name="strVisualEffectValue">The STR visual effect objValue.</param>
 		/// </returns>
-		protected virtual VisualTemplate GetVisualTemplateObjectFromString(string strVisualTypeType, List<object> objVisualTemplateValues)
+		protected virtual VisualTemplate GetVisualTemplateObjectFromString(string strVisualTypeType,List<object> objVisualTemplateValues)
 		{
 			VisualTemplate visualTemplate = null;
 			string typeName = strVisualTypeType;

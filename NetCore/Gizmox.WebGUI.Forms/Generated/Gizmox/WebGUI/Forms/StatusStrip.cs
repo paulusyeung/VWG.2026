@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	[MetadataTag("SSP")]
 	[Skin(typeof(StatusStripSkin))]
 	[ComVisible(true)]

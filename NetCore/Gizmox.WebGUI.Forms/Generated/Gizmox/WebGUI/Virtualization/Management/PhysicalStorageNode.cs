@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Virtualization.Management
 {
-	internal class PhysicalStorageNode : ServerExplorerNode
+internal class PhysicalStorageNode : ServerExplorerNode
 	{
 		internal PhysicalStorageNode(string strDirectory)
 		{

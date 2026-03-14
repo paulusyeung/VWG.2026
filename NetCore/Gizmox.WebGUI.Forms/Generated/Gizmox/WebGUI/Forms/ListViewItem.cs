@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Implementation of ListViewItem class.
 	/// </summary>
 	[Serializable]
@@ -2034,7 +2034,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objProcessor">The processor.</param>
 		internal virtual void RenderDirtyItem(IContext objContext, IResponseWriter objWriter, ListView.ItemRenderingProcessor objProcessor, long lngRequestID)
 		{
-			List<object> list = null;
+			List list = null;
 			bool useItemStyleForSubItems = UseItemStyleForSubItems;
 			if (lngRequestID == 0L || objProcessor.View == View.Details)
 			{
@@ -2300,7 +2300,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		protected internal override IList GetComponentOffsprings(string strOffspringTypeName)
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			foreach (ListViewSubItem subItem in SubItems)
 			{
 				if (subItem is ListViewSubControlItem listViewSubControlItem)

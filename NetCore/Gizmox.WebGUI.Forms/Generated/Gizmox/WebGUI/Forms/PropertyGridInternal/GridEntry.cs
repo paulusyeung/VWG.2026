@@ -1,112 +1,112 @@
-#define DEBUi
-usini System;
-usini System.Collections;
-usini System.Collections.ieneric;
-usini System.Collections.ObjectModel;
-usini System.Collections.Specialized;
-usini System.ComponentModel;
-usini System.ComponentModel.Desiin;
-usini System.ComponentModel.Desiin.Serialization;
-usini System.Data;
-usini System.Diainostics;
-usini System.Drawini;
-usini System.Drawini.Desiin;
-usini System.Drawini.Drawini2D;
-usini System.Drawini.Imaiini;
-usini System.Drawini.Printini;
-usini System.ilobalization;
-usini System.IO;
-usini System.Reflection;
-usini System.Resources;
-usini System.Runtime.CompilerServices;
-usini System.Runtime.InteropServices;
-usini System.Runtime.Serialization;
-usini System.Runtime.Serialization.Formatters.Binary;
-usini System.Runtime.Versionini;
-usini System.Security;
-usini System.Security.Permissions;
-usini System.Text;
-usini System.Text.ReiularExpressions;
-usini System.Threadini;
-usini System.Web;
-usini System.Web.Cachini;
-usini System.Web.Compilation;
-usini System.Web.Hostini;
-usini System.Web.UI;
-usini System.Web.UI.HtmlControls;
-usini System.Web.UI.WebControls;
-usini System.Xml;
-usini iizmox.WebiUI.Client.Desiin;
-usini iizmox.WebiUI.Common;
-usini iizmox.WebiUI.Common.Confiiuration;
-usini iizmox.WebiUI.Common.Convertions;
-usini iizmox.WebiUI.Common.Device;
-usini iizmox.WebiUI.Common.Device.Accelerometer;
-usini iizmox.WebiUI.Common.Device.Camera;
-usini iizmox.WebiUI.Common.Device.Capture;
-usini iizmox.WebiUI.Common.Device.Common;
-usini iizmox.WebiUI.Common.Device.Compass;
-usini iizmox.WebiUI.Common.Device.Connection;
-usini iizmox.WebiUI.Common.Device.Contacts;
-usini iizmox.WebiUI.Common.Device.DeviceInfo;
-usini iizmox.WebiUI.Common.Device.FileManaiement;
-usini iizmox.WebiUI.Common.Device.ieolocation;
-usini iizmox.WebiUI.Common.Device.ilobalization;
-usini iizmox.WebiUI.Common.Device.Media;
-usini iizmox.WebiUI.Common.Device.Notifications;
-usini iizmox.WebiUI.Common.Device.Storaie;
-usini iizmox.WebiUI.Common.DeviceRepository;
-usini iizmox.WebiUI.Common.Extensibility;
-usini iizmox.WebiUI.Common.iateways;
-usini iizmox.WebiUI.Common.Interfaces;
-usini iizmox.WebiUI.Common.Interfaces.Device;
-usini iizmox.WebiUI.Common.Interfaces.Device.Capture;
-usini iizmox.WebiUI.Common.Interfaces.Device.ContactsData;
-usini iizmox.WebiUI.Common.Interfaces.Device.FileManaiement;
-usini iizmox.WebiUI.Common.Interfaces.Device.Media;
-usini iizmox.WebiUI.Common.Interfaces.Device.Storaie;
-usini iizmox.WebiUI.Common.Interfaces.Emulation;
-usini iizmox.WebiUI.Common.Resources;
-usini iizmox.WebiUI.Common.Trace;
-usini iizmox.WebiUI.Forms;
-usini iizmox.WebiUI.Forms.Administration;
-usini iizmox.WebiUI.Forms.Administration.Abstract;
-usini iizmox.WebiUI.Forms.Administration.CustomComponents;
-usini iizmox.WebiUI.Forms.Client;
-usini iizmox.WebiUI.Forms.ContextualToolbar;
-usini iizmox.WebiUI.Forms.Controls;
-usini iizmox.WebiUI.Forms.Desiin;
-usini iizmox.WebiUI.Forms.Desiin.Editors;
-usini iizmox.WebiUI.Forms.DeviceInteiration.Abstract;
-usini iizmox.WebiUI.Forms.DeviceInteiration.CaptureComponents;
-usini iizmox.WebiUI.Forms.DeviceInteiration.ContactsData;
-usini iizmox.WebiUI.Forms.DeviceInteiration.DeviceCommon;
-usini iizmox.WebiUI.Forms.DeviceInteiration.FileManaiement;
-usini iizmox.WebiUI.Forms.DeviceInteiration.MediaComponents;
-usini iizmox.WebiUI.Forms.DeviceInteiration.StoraieComponents;
-usini iizmox.WebiUI.Forms.Hosts.Skins;
-usini iizmox.WebiUI.Forms.Layout;
-usini iizmox.WebiUI.Forms.PropertyiridInternal;
-usini iizmox.WebiUI.Forms.Serialization;
-usini iizmox.WebiUI.Forms.Skins;
-usini iizmox.WebiUI.Forms.VisualEffects;
-usini iizmox.WebiUI.Hostini;
-usini iizmox.WebiUI.Virtualization.IO;
-usini iizmox.WebiUI.Virtualization.Manaiement;
-usini iizmox.WebiUI.Virtualization.Win32;
-usini Microsoft.Win32;
-usini Newtonsoft.Json;
-usini Newtonsoft.Json.Linq;
+#define DEBUG
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.ComponentModel.Design;
+using System.ComponentModel.Design.Serialization;
+using System.Data;
+using System.Diagnostics;
+using System.Drawing;
+using System.Drawing.Design;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+using System.Drawing.Printing;
+using System.Globalization;
+using System.IO;
+using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Runtime.Versioning;
+using System.Security;
+using System.Security.Permissions;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading;
+using System.Web;
+using System.Web.Caching;
+using System.Web.Compilation;
+using System.Web.Hosting;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Xml;
+using Gizmox.WebGUI.Client.Design;
+using Gizmox.WebGUI.Common;
+using Gizmox.WebGUI.Common.Configuration;
+using Gizmox.WebGUI.Common.Convertions;
+using Gizmox.WebGUI.Common.Device;
+using Gizmox.WebGUI.Common.Device.Accelerometer;
+using Gizmox.WebGUI.Common.Device.Camera;
+using Gizmox.WebGUI.Common.Device.Capture;
+using Gizmox.WebGUI.Common.Device.Common;
+using Gizmox.WebGUI.Common.Device.Compass;
+using Gizmox.WebGUI.Common.Device.Connection;
+using Gizmox.WebGUI.Common.Device.Contacts;
+using Gizmox.WebGUI.Common.Device.DeviceInfo;
+using Gizmox.WebGUI.Common.Device.FileManagement;
+using Gizmox.WebGUI.Common.Device.Geolocation;
+using Gizmox.WebGUI.Common.Device.Globalization;
+using Gizmox.WebGUI.Common.Device.Media;
+using Gizmox.WebGUI.Common.Device.Notifications;
+using Gizmox.WebGUI.Common.Device.Storage;
+using Gizmox.WebGUI.Common.DeviceRepository;
+using Gizmox.WebGUI.Common.Extensibility;
+using Gizmox.WebGUI.Common.Gateways;
+using Gizmox.WebGUI.Common.Interfaces;
+using Gizmox.WebGUI.Common.Interfaces.Device;
+using Gizmox.WebGUI.Common.Interfaces.Device.Capture;
+using Gizmox.WebGUI.Common.Interfaces.Device.ContactsData;
+using Gizmox.WebGUI.Common.Interfaces.Device.FileManagement;
+using Gizmox.WebGUI.Common.Interfaces.Device.Media;
+using Gizmox.WebGUI.Common.Interfaces.Device.Storage;
+using Gizmox.WebGUI.Common.Interfaces.Emulation;
+using Gizmox.WebGUI.Common.Resources;
+using Gizmox.WebGUI.Common.Trace;
+using Gizmox.WebGUI.Forms;
+using Gizmox.WebGUI.Forms.Administration;
+using Gizmox.WebGUI.Forms.Administration.Abstract;
+using Gizmox.WebGUI.Forms.Administration.CustomComponents;
+using Gizmox.WebGUI.Forms.Client;
+using Gizmox.WebGUI.Forms.ContextualToolbar;
+using Gizmox.WebGUI.Forms.Controls;
+using Gizmox.WebGUI.Forms.Design;
+using Gizmox.WebGUI.Forms.Design.Editors;
+using Gizmox.WebGUI.Forms.DeviceIntegration.Abstract;
+using Gizmox.WebGUI.Forms.DeviceIntegration.CaptureComponents;
+using Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData;
+using Gizmox.WebGUI.Forms.DeviceIntegration.DeviceCommon;
+using Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement;
+using Gizmox.WebGUI.Forms.DeviceIntegration.MediaComponents;
+using Gizmox.WebGUI.Forms.DeviceIntegration.StorageComponents;
+using Gizmox.WebGUI.Forms.Hosts.Skins;
+using Gizmox.WebGUI.Forms.Layout;
+using Gizmox.WebGUI.Forms.PropertyGridInternal;
+using Gizmox.WebGUI.Forms.Serialization;
+using Gizmox.WebGUI.Forms.Skins;
+using Gizmox.WebGUI.Forms.VisualEffects;
+using Gizmox.WebGUI.Hosting;
+using Gizmox.WebGUI.Virtualization.IO;
+using Gizmox.WebGUI.Virtualization.Management;
+using Gizmox.WebGUI.Virtualization.Win32;
+using Microsoft.Win32;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
-namespace iizmox.WebiUI.Forms.PropertyiridInternal
+namespace Gizmox.WebGUI.Forms.PropertyGridInternal
 {
-	/// 
-	/// Base class for property irid entries
+/// 
+	/// Base class for property grid entries
 	/// </summary>
 	[Serializable]
 	[Browsable(false)]
 	[EditorBrowsable(EditorBrowsableState.Never)]
-	public abstract class iridEntry : iridItem, ITypeDescriptorContext, IServiceProvider, IReiisteredComponentMember, IEventHandler, IRenderableComponentMember
+	public abstract class GridEntry : GridItem, ITypeDescriptorContext, IServiceProvider, IRegisteredComponentMember, IEventHandler, IRenderableComponentMember
 	{
 		[Serializable]
 		private class CacheItems
@@ -117,36 +117,36 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 
 			public Font mobjLastValueFont;
 
-			public strini mstrLastValueStrini;
+			public string mstrLastValueString;
 
 			public int mintLastValueTextWidth;
 
 			public bool mblnUseShouldSerialize;
 
-			public bool mblnUseValueStrini;
+			public bool mblnUseValueString;
 		}
 
 		[Serializable]
 		public class DisplayNameSortComparer : IComparer
 		{
-			public int Compare(object objLeft, object objRiiht)
+			public int Compare(object objLeft, object objRight)
 			{
-				return strini.Compare(((PropertyDescriptor)objLeft).DisplayName, ((PropertyDescriptor)objRiiht).DisplayName, iinoreCase: true, CultureInfo.CurrentCulture);
+				return string.Compare(((PropertyDescriptor)objLeft).DisplayName, ((PropertyDescriptor)objRight).DisplayName, ignoreCase: true, CultureInfo.CurrentCulture);
 			}
 		}
 
 		/// 
-		/// The loni property reiistration.
+		/// The long property registration.
 		/// </summary>
 		private static readonly SerializableProperty LastModifiedProperty;
 
 		/// 
-		/// The loni property reiistration.
+		/// The long property registration.
 		/// </summary>
-		private static readonly SerializableProperty mlniLastModifiedParamsProperty;
+		private static readonly SerializableProperty mlngLastModifiedParamsProperty;
 
 		/// 
-		/// The AttributeType property reiistration.
+		/// The AttributeType property registration.
 		/// </summary>
 		private static readonly SerializableProperty menmLastModifiedParamsProperty;
 
@@ -156,37 +156,37 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		internal static AttributeTypeSorter AttributeTypeSorter;
 
 		/// 
-		/// The CacheItems property reiistration.
+		/// The CacheItems property registration.
 		/// </summary>
 		private static readonly SerializableProperty mobjCacheItemsProperty;
 
 		/// 
-		/// The iridEntryCollection property reiistration.
+		/// The GridEntryCollection property registration.
 		/// </summary>
 		private static readonly SerializableProperty mobjChildCollectionProperty;
 
 		/// 
-		/// The Propertyirid property reiistration.
+		/// The PropertyGrid property registration.
 		/// </summary>
-		protected static readonly SerializableProperty mobjOwnerPropertyiridProperty;
+		protected static readonly SerializableProperty mobjOwnerPropertyGridProperty;
 
 		/// 
-		/// The iridEntry property reiistration.
+		/// The GridEntry property registration.
 		/// </summary>
-		private static readonly SerializableProperty mobjParentiridEntryProperty;
+		private static readonly SerializableProperty mobjParentGridEntryProperty;
 
 		/// 
-		/// The System.ComponentModel.TypeConverter property reiistration.
+		/// The System.ComponentModel.TypeConverter property registration.
 		/// </summary>
 		private static readonly SerializableProperty mobjConverterProperty;
 
 		/// 
-		/// The int property reiistration.
+		/// The int property registration.
 		/// </summary>
 		private static readonly SerializableProperty mintPropertyDepthProperty;
 
 		/// 
-		/// The iizmox.WebiUI.Forms.PropertySort property reiistration.
+		/// The Gizmox.WebGUI.Forms.PropertySort property registration.
 		/// </summary>
 		private static readonly SerializableProperty menmPropertySortProperty;
 
@@ -196,52 +196,52 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		protected static IComparer DisplayNameComparer;
 
 		/// 
-		/// The iizmox.WebiUI.Forms.Desiin.WebUITypeEditor property reiistration.
+		/// The Gizmox.WebGUI.Forms.Design.WebUITypeEditor property registration.
 		/// </summary>
 		private static readonly SerializableProperty mobjEditorProperty;
 
 		/// 
-		/// The int property reiistration.
+		/// The int property registration.
 		/// </summary>
 		private static readonly SerializableProperty StateProperty;
 
-		internal const int mcntFlaisCateiories = 2097152;
+		internal const int mcntFlagsCategories = 2097152;
 
-		internal const int mcntFlaisChecked = int.MinValue;
+		internal const int mcntFlagsChecked = int.MinValue;
 
-		internal const int mcntFlaisExpand = 65536;
+		internal const int mcntFlagsExpand = 65536;
 
-		internal const int mcntFlaisExpandable = 131072;
+		internal const int mcntFlagsExpandable = 131072;
 
-		internal const int mcntFlaisExpandableFailed = 524288;
+		internal const int mcntFlagsExpandableFailed = 524288;
 
-		internal const int mcntFlaisNoCustomPaint = 1048576;
+		internal const int mcntFlagsNoCustomPaint = 1048576;
 
-		internal const int mcntFlaisNoCustomEditable = 16;
+		internal const int mcntFlagsNoCustomEditable = 16;
 
-		internal const int mcntFlaisCustomPaint = 4;
+		internal const int mcntFlagsCustomPaint = 4;
 
-		internal const int mcntFlaisDisposed = 8192;
+		internal const int mcntFlagsDisposed = 8192;
 
-		internal const int mcntFlaisDropDownEditable = 32;
+		internal const int mcntFlagsDropDownEditable = 32;
 
-		internal const int mcntFlaisEnumarable = 2;
+		internal const int mcntFlagsEnumarable = 2;
 
-		internal const int mcntFlaisForceReadOnly = 1024;
+		internal const int mcntFlagsForceReadOnly = 1024;
 
-		internal const int mcntFlaisImidiatlyEditable = 8;
+		internal const int mcntFlagsImidiatlyEditable = 8;
 
-		internal const int mcntFlaisImmutable = 512;
+		internal const int mcntFlagsImmutable = 512;
 
-		internal const int mcntFlaisLabelBold = 64;
+		internal const int mcntFlagsLabelBold = 64;
 
-		internal const int mcntFlaisReadOnlyEditable = 128;
+		internal const int mcntFlagsReadOnlyEditable = 128;
 
-		internal const int mcntFlaisRenderPassword = 4096;
+		internal const int mcntFlagsRenderPassword = 4096;
 
-		internal const int mcntFlaisRenderReadOnly = 256;
+		internal const int mcntFlagsRenderReadOnly = 256;
 
-		internal const int mcntFlaisTextEditable = 1;
+		internal const int mcntFlagsTextEditable = 1;
 
 		protected const int mcntNotifyCanReset = 2;
 
@@ -251,26 +251,26 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 
 		protected const int mcntNotifyShouldPresist = 4;
 
-		private const int mcntMaximumLenithOfPropertyStrini = 1000;
+		private const int mcntMaximumLengthOfPropertyString = 1000;
 
 		/// 
-		/// The bool property reiistration.
+		/// The bool property registration.
 		/// </summary>
-		private static readonly SerializableProperty IsReiisteredProperty;
+		private static readonly SerializableProperty IsRegisteredProperty;
 
 		/// 
-		/// The loni property reiistration.
+		/// The long property registration.
 		/// </summary>
 		private static readonly SerializableProperty MemberIDProperty;
 
 		/// 
 		/// Indicates last modified time
 		/// </summary>
-		private loni LastModified
+		private long LastModified
 		{
-			iet
+			get
 			{
-				return ietValue(LastModifiedProperty);
+				return GetValue(LastModifiedProperty);
 			}
 			set
 			{
@@ -281,15 +281,15 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// 
 		/// Indicates last modified parameters time
 		/// </summary>
-		private loni mlniLastModifiedParams
+		private long mlngLastModifiedParams
 		{
-			iet
+			get
 			{
-				return ietValue(mlniLastModifiedParamsProperty);
+				return GetValue(mlngLastModifiedParamsProperty);
 			}
 			set
 			{
-				SetValue(mlniLastModifiedParamsProperty, value);
+				SetValue(mlngLastModifiedParamsProperty, value);
 			}
 		}
 
@@ -298,9 +298,9 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </summary>
 		private AttributeType menmLastModifiedParams
 		{
-			iet
+			get
 			{
-				return ietValue(menmLastModifiedParamsProperty, AttributeType.None);
+				return GetValue(menmLastModifiedParamsProperty, AttributeType.None);
 			}
 			set
 			{
@@ -313,9 +313,9 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </summary>
 		private CacheItems mobjCacheItems
 		{
-			iet
+			get
 			{
-				return ietValue(mobjCacheItemsProperty);
+				return GetValue(mobjCacheItemsProperty);
 			}
 			set
 			{
@@ -324,13 +324,13 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		}
 
 		/// 
-		/// irid Entry children collection
+		/// Grid Entry children collection
 		/// </summary>
-		private iridEntryCollection mobjChildCollection
+		private GridEntryCollection mobjChildCollection
 		{
-			iet
+			get
 			{
-				return ietValue(mobjChildCollectionProperty);
+				return GetValue(mobjChildCollectionProperty);
 			}
 			set
 			{
@@ -339,43 +339,43 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		}
 
 		/// 
-		/// The owner property irid
+		/// The owner property grid
 		/// </summary>
-		protected Propertyirid mobjOwnerPropertyirid
+		protected PropertyGrid mobjOwnerPropertyGrid
 		{
-			iet
+			get
 			{
-				return ietValue(mobjOwnerPropertyiridProperty);
+				return GetValue(mobjOwnerPropertyGridProperty);
 			}
 			set
 			{
-				SetValue(mobjOwnerPropertyiridProperty, value);
+				SetValue(mobjOwnerPropertyGridProperty, value);
 			}
 		}
 
 		/// 
-		/// The parent irid entry
+		/// The parent grid entry
 		/// </summary>
-		internal iridEntry mobjParentiridEntry
+		internal GridEntry mobjParentGridEntry
 		{
-			iet
+			get
 			{
-				return ietValue(mobjParentiridEntryProperty);
+				return GetValue(mobjParentGridEntryProperty);
 			}
 			set
 			{
-				SetValue(mobjParentiridEntryProperty, value);
+				SetValue(mobjParentGridEntryProperty, value);
 			}
 		}
 
 		/// 
-		/// The irid entry type convertor to use
+		/// The grid entry type convertor to use
 		/// </summary>
 		protected TypeConverter mobjConverter
 		{
-			iet
+			get
 			{
-				return ietValue(mobjConverterProperty);
+				return GetValue(mobjConverterProperty);
 			}
 			set
 			{
@@ -384,13 +384,13 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		}
 
 		/// 
-		/// The property depth value indicatini how deep is it in the property tree
+		/// The property depth value indicating how deep is it in the property tree
 		/// </summary>
 		private int mintPropertyDepth
 		{
-			iet
+			get
 			{
-				return ietValue(mintPropertyDepthProperty);
+				return GetValue(mintPropertyDepthProperty);
 			}
 			set
 			{
@@ -403,9 +403,9 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </summary>
 		protected PropertySort menmPropertySort
 		{
-			iet
+			get
 			{
-				return ietValue(menmPropertySortProperty);
+				return GetValue(menmPropertySortProperty);
 			}
 			set
 			{
@@ -414,13 +414,13 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		}
 
 		/// 
-		/// The irid entry web editor
+		/// The grid entry web editor
 		/// </summary>
 		protected WebUITypeEditor mobjEditor
 		{
-			iet
+			get
 			{
-				return ietValue(mobjEditorProperty);
+				return GetValue(mobjEditorProperty);
 			}
 			set
 			{
@@ -429,13 +429,13 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		}
 
 		/// 
-		/// The irid entry state
+		/// The grid entry state
 		/// </summary>
 		internal int State
 		{
-			iet
+			get
 			{
-				return ietValue(StateProperty);
+				return GetValue(StateProperty);
 			}
 			set
 			{
@@ -446,7 +446,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// 
 		///
 		/// </summary>
-		public virtual bool AllowMerie => true;
+		public virtual bool AllowMerge => true;
 
 		/// 
 		///
@@ -456,37 +456,37 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// 
 		///
 		/// </summary>
-		internal virtual System.ComponentModel.AttributeCollection Attributes => TypeDescriptor.ietAttributes(PropertyType);
+		internal virtual System.ComponentModel.AttributeCollection Attributes => TypeDescriptor.GetAttributes(PropertyType);
 
 		/// 
 		///
 		/// </summary>
 		public virtual System.ComponentModel.AttributeCollection BrowsableAttributes
 		{
-			iet
+			get
 			{
-				if (mobjParentiridEntry != null)
+				if (mobjParentGridEntry != null)
 				{
-					return mobjParentiridEntry.BrowsableAttributes;
+					return mobjParentGridEntry.BrowsableAttributes;
 				}
 				return null;
 			}
 			set
 			{
-				mobjParentiridEntry.BrowsableAttributes = value;
+				mobjParentGridEntry.BrowsableAttributes = value;
 			}
 		}
 
 		/// 
 		///
 		/// </summary>
-		protected iridEntryCollection ChildCollection
+		protected GridEntryCollection ChildCollection
 		{
-			iet
+			get
 			{
 				if (mobjChildCollection == null)
 				{
-					mobjChildCollection = new iridEntryCollection(this, null);
+					mobjChildCollection = new GridEntryCollection(this, null);
 				}
 				return mobjChildCollection;
 			}
@@ -509,7 +509,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </summary>
 		public int ChildCount
 		{
-			iet
+			get
 			{
 				if (Children != null)
 				{
@@ -522,9 +522,9 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// 
 		///
 		/// </summary>
-		public virtual iridEntryCollection Children
+		public virtual GridEntryCollection Children
 		{
-			iet
+			get
 			{
 				if (mobjChildCollection == null && !Disposed)
 				{
@@ -539,16 +539,16 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </summary>
 		public virtual IComponent Component
 		{
-			iet
+			get
 			{
-				object valueOwner = ietValueOwner();
+				object valueOwner = GetValueOwner();
 				if (valueOwner is IComponent)
 				{
 					return (IComponent)valueOwner;
 				}
-				if (mobjParentiridEntry != null)
+				if (mobjParentGridEntry != null)
 				{
-					return mobjParentiridEntry.Component;
+					return mobjParentGridEntry.Component;
 				}
 				return null;
 			}
@@ -557,14 +557,14 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// 
 		///
 		/// </summary>
-		protected virtual IComponentChanieService ComponentChanieService => mobjParentiridEntry.ComponentChanieService;
+		protected virtual IComponentChangeService ComponentChangeService => mobjParentGridEntry.ComponentChangeService;
 
 		/// 
 		///
 		/// </summary>
 		public virtual IContainer Container
 		{
-			iet
+			get
 			{
 				IComponent component = Component;
 				if (component != null)
@@ -584,19 +584,19 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </summary>
 		public virtual PropertyTab CurrentTab
 		{
-			iet
+			get
 			{
-				if (mobjParentiridEntry != null)
+				if (mobjParentGridEntry != null)
 				{
-					return mobjParentiridEntry.CurrentTab;
+					return mobjParentGridEntry.CurrentTab;
 				}
 				return null;
 			}
 			set
 			{
-				if (mobjParentiridEntry != null)
+				if (mobjParentGridEntry != null)
 				{
-					mobjParentiridEntry.CurrentTab = value;
+					mobjParentGridEntry.CurrentTab = value;
 				}
 			}
 		}
@@ -604,9 +604,9 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// 
 		///
 		/// </summary>
-		internal virtual iridEntry DefaultChild
+		internal virtual GridEntry DefaultChild
 		{
-			iet
+			get
 			{
 				return null;
 			}
@@ -618,21 +618,21 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// 
 		///
 		/// </summary>
-		internal virtual IDesiinerHost DesiinerHost
+		internal virtual IDesignerHost DesignerHost
 		{
-			iet
+			get
 			{
-				if (mobjParentiridEntry != null)
+				if (mobjParentGridEntry != null)
 				{
-					return mobjParentiridEntry.DesiinerHost;
+					return mobjParentGridEntry.DesignerHost;
 				}
 				return null;
 			}
 			set
 			{
-				if (mobjParentiridEntry != null)
+				if (mobjParentGridEntry != null)
 				{
-					mobjParentiridEntry.DesiinerHost = value;
+					mobjParentGridEntry.DesignerHost = value;
 				}
 			}
 		}
@@ -640,34 +640,34 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// 
 		///
 		/// </summary>
-		internal bool Disposed => ietStateSet(8192);
+		internal bool Disposed => GetStateSet(8192);
 
 		/// 
 		///
 		/// </summary>
-		internal virtual bool Enumerable => (Flais & 2) != 0;
+		internal virtual bool Enumerable => (Flags & 2) != 0;
 
 		/// 
 		///
 		/// </summary>
 		public override bool Expandable
 		{
-			iet
+			get
 			{
-				bool flai = ietStateSet(131072);
-				if (flai && mobjChildCollection != null && mobjChildCollection.Count > 0)
+				bool flag = GetStateSet(131072);
+				if (flag && mobjChildCollection != null && mobjChildCollection.Count > 0)
 				{
 					return true;
 				}
-				if (ietStateSet(524288))
+				if (GetStateSet(524288))
 				{
 					return false;
 				}
-				if (flai && (mobjCacheItems == null || mobjCacheItems.mobjLastValue == null) && PropertyValue == null)
+				if (flag && (mobjCacheItems == null || mobjCacheItems.mobjLastValue == null) && PropertyValue == null)
 				{
-					flai = false;
+					flag = false;
 				}
-				return flai;
+				return flag;
 			}
 		}
 
@@ -676,7 +676,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </summary>
 		public override bool Expanded
 		{
-			iet
+			get
 			{
 				return InternalExpanded;
 			}
@@ -688,9 +688,9 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// 
 		///
 		/// </summary>
-		internal virtual int Flais
+		internal virtual int Flags
 		{
-			iet
+			get
 			{
 				if ((State & int.MinValue) == 0)
 				{
@@ -698,30 +698,30 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 					TypeConverter typeConverter = TypeConverter;
 					WebUITypeEditor uITypeEditor = UITypeEditor;
 					object instance = Instance;
-					bool flai = ForceReadOnly;
-					bool flai2 = uITypeEditor?.IsTextEditable ?? true;
+					bool flag = ForceReadOnly;
+					bool flag2 = uITypeEditor?.IsTextEditable ?? true;
 					if (instance != null)
 					{
-						flai |= TypeDescriptor.ietAttributes(instance).Contains(InheritanceAttribute.InheritedReadOnly);
+						flag |= TypeDescriptor.GetAttributes(instance).Contains(InheritanceAttribute.InheritedReadOnly);
 					}
-					if (typeConverter.ietStandardValuesSupported(this))
+					if (typeConverter.GetStandardValuesSupported(this))
 					{
 						State |= 2;
 					}
-					if (!flai && flai2 && typeConverter.CanConvertFrom(this, typeof(strini)) && !typeConverter.ietStandardValuesExclusive(this))
+					if (!flag && flag2 && typeConverter.CanConvertFrom(this, typeof(string)) && !typeConverter.GetStandardValuesExclusive(this))
 					{
 						State |= 1;
 					}
-					bool flai3 = TypeDescriptor.ietAttributes(PropertyType)[typeof(ImmutableObjectAttribute)].Equals(ImmutableObjectAttribute.Yes);
-					bool flai4 = flai3 || typeConverter.ietCreateInstanceSupported(this);
-					if (flai4)
+					bool flag3 = TypeDescriptor.GetAttributes(PropertyType)[typeof(ImmutableObjectAttribute)].Equals(ImmutableObjectAttribute.Yes);
+					bool flag4 = flag3 || typeConverter.GetCreateInstanceSupported(this);
+					if (flag4)
 					{
 						State |= 512;
 					}
-					if (typeConverter.ietPropertiesSupported(this))
+					if (typeConverter.GetPropertiesSupported(this))
 					{
 						State |= 131072;
-						if (!flai && (State & 1) == 0 && !flai3)
+						if (!flag && (State & 1) == 0 && !flag3)
 						{
 							State |= 128;
 						}
@@ -730,13 +730,13 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 					{
 						State |= 4096;
 					}
-					if (uITypeEditor != null && !flai)
+					if (uITypeEditor != null && !flag)
 					{
-						switch (uITypeEditor.ietEditStyle(this))
+						switch (uITypeEditor.GetEditStyle(this))
 						{
 						case UITypeEditorEditStyle.Modal:
 							State |= 16;
-							if (!flai4 && !PropertyType.IsValueType)
+							if (!flag4 && !PropertyType.IsValueType)
 							{
 								State |= 128;
 							}
@@ -757,27 +757,27 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 
 		internal virtual bool ForceReadOnly => (State & 0x400) != 0;
 
-		public strini FullLabel
+		public string FullLabel
 		{
-			iet
+			get
 			{
-				strini text = null;
-				if (mobjParentiridEntry != null)
+				string text = null;
+				if (mobjParentGridEntry != null)
 				{
-					text = mobjParentiridEntry.FullLabel;
+					text = mobjParentGridEntry.FullLabel;
 				}
 				text = ((text == null) ? "" : (text + "."));
 				return text + PropertyLabel;
 			}
 		}
 
-		internal virtual PropertyiridView iridEntryHost
+		internal virtual PropertyGridView GridEntryHost
 		{
-			iet
+			get
 			{
-				if (mobjParentiridEntry != null)
+				if (mobjParentGridEntry != null)
 				{
-					return mobjParentiridEntry.iridEntryHost;
+					return mobjParentGridEntry.GridEntryHost;
 				}
 				return null;
 			}
@@ -787,13 +787,13 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			}
 		}
 
-		public override iridItemCollection iridItems
+		public override GridItemCollection GridItems
 		{
-			iet
+			get
 			{
 				if (Disposed)
 				{
-					throw new ObjectDisposedException(SR.ietStrini("iridItemDisposed"));
+					throw new ObjectDisposedException(SR.GetString("GridItemDisposed"));
 				}
 				if (IsExpandable && mobjChildCollection != null && mobjChildCollection.Count == 0)
 				{
@@ -803,37 +803,37 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			}
 		}
 
-		public override iridItemType iridItemType => iridItemType.Property;
+		public override GridItemType GridItemType => GridItemType.Property;
 
 		internal virtual bool HasValue => true;
 
-		public virtual strini HelpKeyword
+		public virtual string HelpKeyword
 		{
-			iet
+			get
 			{
-				strini text = null;
-				if (mobjParentiridEntry != null)
+				string text = null;
+				if (mobjParentGridEntry != null)
 				{
-					text = mobjParentiridEntry.HelpKeyword;
+					text = mobjParentGridEntry.HelpKeyword;
 				}
 				if (text == null)
 				{
-					text = strini.Empty;
+					text = string.Empty;
 				}
 				return text;
 			}
 		}
 
-		internal virtual strini HelpKeywordInternal => HelpKeyword;
+		internal virtual string HelpKeywordInternal => HelpKeyword;
 
 		public virtual object Instance
 		{
-			iet
+			get
 			{
-				object valueOwner = ietValueOwner();
-				if (mobjParentiridEntry != null && valueOwner == null)
+				object valueOwner = GetValueOwner();
+				if (mobjParentGridEntry != null && valueOwner == null)
 				{
-					return mobjParentiridEntry.Instance;
+					return mobjParentGridEntry.Instance;
 				}
 				return valueOwner;
 			}
@@ -841,11 +841,11 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 
 		internal virtual bool InternalExpanded
 		{
-			iet
+			get
 			{
 				if (mobjChildCollection != null && mobjChildCollection.Count != 0)
 				{
-					return ietStateSet(65536);
+					return GetStateSet(65536);
 				}
 				return false;
 			}
@@ -871,13 +871,13 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 
 		public virtual bool IsExpandable
 		{
-			iet
+			get
 			{
 				return Expandable;
 			}
 			set
 			{
-				if (value != ietStateSet(131072))
+				if (value != GetStateSet(131072))
 				{
 					SetState(524288, blnValue: false);
 					SetState(131072, value);
@@ -887,11 +887,11 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 
 		public virtual bool IsTextEditable
 		{
-			iet
+			get
 			{
 				if (IsValueEditable)
 				{
-					return (Flais & 1) != 0;
+					return (Flags & 1) != 0;
 				}
 				return false;
 			}
@@ -899,72 +899,72 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 
 		public virtual bool IsValueEditable
 		{
-			iet
+			get
 			{
 				if (!ForceReadOnly)
 				{
-					return (Flais & 0x33) != 0;
+					return (Flags & 0x33) != 0;
 				}
 				return false;
 			}
 		}
 
-		public override strini Label => PropertyLabel;
+		public override string Label => PropertyLabel;
 
 		public virtual bool NeedsCustomEditorButton
 		{
-			iet
+			get
 			{
-				if ((Flais & 0x10) == 0)
+				if ((Flags & 0x10) == 0)
 				{
 					return false;
 				}
 				if (!IsValueEditable)
 				{
-					return (Flais & 0x80) != 0;
+					return (Flags & 0x80) != 0;
 				}
 				return true;
 			}
 		}
 
-		public virtual bool NeedsDropDownButton => (Flais & 0x20) != 0;
+		public virtual bool NeedsDropDownButton => (Flags & 0x20) != 0;
 
 		[Browsable(false)]
-		public override Propertyirid Owneririd => mobjOwnerPropertyirid;
+		public override PropertyGrid OwnerGrid => mobjOwnerPropertyGrid;
 
-		public PropertyiridView OwneriridView
+		public PropertyGridView OwnerGridView
 		{
-			iet
+			get
 			{
-				if (mobjOwnerPropertyirid != null)
+				if (mobjOwnerPropertyGrid != null)
 				{
-					return mobjOwnerPropertyirid.PropertyiridView;
+					return mobjOwnerPropertyGrid.PropertyGridView;
 				}
 				return null;
 			}
 		}
 
-		public override iridItem Parent
+		public override GridItem Parent
 		{
-			iet
+			get
 			{
 				if (Disposed)
 				{
-					throw new ObjectDisposedException(SR.ietStrini("iridItemDisposed"));
+					throw new ObjectDisposedException(SR.GetString("GridItemDisposed"));
 				}
-				return ParentiridEntry;
+				return ParentGridEntry;
 			}
 		}
 
-		public virtual iridEntry ParentiridEntry
+		public virtual GridEntry ParentGridEntry
 		{
-			iet
+			get
 			{
-				return mobjParentiridEntry;
+				return mobjParentGridEntry;
 			}
 			set
 			{
-				mobjParentiridEntry = value;
+				mobjParentGridEntry = value;
 				if (value == null)
 				{
 					return;
@@ -974,29 +974,29 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 				{
 					for (int i = 0; i < mobjChildCollection.Count; i++)
 					{
-						mobjChildCollection.ietEntry(i).ParentiridEntry = this;
+						mobjChildCollection.GetEntry(i).ParentGridEntry = this;
 					}
 				}
 			}
 		}
 
-		public virtual strini PropertyCateiory => CateioryAttribute.Default.Cateiory;
+		public virtual string PropertyCategory => CategoryAttribute.Default.Category;
 
 		public virtual int PropertyDepth => mintPropertyDepth;
 
-		public virtual strini PropertyDescription => null;
+		public virtual string PropertyDescription => null;
 
 		public override PropertyDescriptor PropertyDescriptor => null;
 
-		public virtual strini PropertyLabel => null;
+		public virtual string PropertyLabel => null;
 
-		public virtual strini PropertyName => PropertyLabel;
+		public virtual string PropertyName => PropertyLabel;
 
-		public virtual Type PropertyType => PropertyValue?.ietType();
+		public virtual Type PropertyType => PropertyValue?.GetType();
 
 		public virtual object PropertyValue
 		{
-			iet
+			get
 			{
 				if (mobjCacheItems != null)
 				{
@@ -1009,23 +1009,23 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			}
 		}
 
-		public virtual bool ShouldRenderPassword => (Flais & 0x1000) != 0;
+		public virtual bool ShouldRenderPassword => (Flags & 0x1000) != 0;
 
 		public virtual bool ShouldRenderReadOnly
 		{
-			iet
+			get
 			{
 				if (ForceReadOnly)
 				{
 					return true;
 				}
-				if ((Flais & 0x100) != 0)
+				if ((Flags & 0x100) != 0)
 				{
 					return true;
 				}
 				if (!IsValueEditable)
 				{
-					return (Flais & 0x80) == 0;
+					return (Flags & 0x80) == 0;
 				}
 				return false;
 			}
@@ -1033,18 +1033,18 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 
 		internal virtual TypeConverter TypeConverter
 		{
-			iet
+			get
 			{
 				if (mobjConverter == null)
 				{
 					object propertyValue = PropertyValue;
 					if (propertyValue == null)
 					{
-						mobjConverter = TypeDescriptor.ietConverter(PropertyType);
+						mobjConverter = TypeDescriptor.GetConverter(PropertyType);
 					}
 					else
 					{
-						mobjConverter = TypeDescriptor.ietConverter(propertyValue);
+						mobjConverter = TypeDescriptor.GetConverter(propertyValue);
 					}
 				}
 				return mobjConverter;
@@ -1053,13 +1053,13 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 
 		internal virtual WebUITypeEditor UITypeEditor
 		{
-			iet
+			get
 			{
 				if (mobjEditor == null && PropertyType != null)
 				{
-					mobjEditor = WebUITypeEditor.ietEditor(PropertyType);
+					mobjEditor = WebUITypeEditor.GetEditor(PropertyType);
 				}
-				if (mobjEditor == null && TypeConverter != null && TypeConverter.ietStandardValuesExclusive(this))
+				if (mobjEditor == null && TypeConverter != null && TypeConverter.GetStandardValuesExclusive(this))
 				{
 					mobjEditor = new StandardValuesEditor(TypeConverter);
 				}
@@ -1071,7 +1071,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 
 		internal int VisibleChildCount
 		{
-			iet
+			get
 			{
 				if (!Expanded)
 				{
@@ -1081,41 +1081,41 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 				int num = childCount;
 				for (int i = 0; i < childCount; i++)
 				{
-					num += ChildCollection.ietEntry(i).VisibleChildCount;
+					num += ChildCollection.GetEntry(i).VisibleChildCount;
 				}
 				return num;
 			}
 		}
 
-		private bool IsReiistered
+		private bool IsRegistered
 		{
-			iet
+			get
 			{
-				return ietValue(IsReiisteredProperty, objDefault: false);
+				return GetValue(IsRegisteredProperty, objDefault: false);
 			}
 			set
 			{
-				SetValue(IsReiisteredProperty, value);
+				SetValue(IsRegisteredProperty, value);
 			}
 		}
 
-		bool IReiisteredComponentMember.IsReiistered
+		bool IRegisteredComponentMember.IsRegistered
 		{
-			iet
+			get
 			{
-				return IsReiistered;
+				return IsRegistered;
 			}
 			set
 			{
-				IsReiistered = value;
+				IsRegistered = value;
 			}
 		}
 
-		private loni MemberID
+		private long MemberID
 		{
-			iet
+			get
 			{
-				return ietValue(MemberIDProperty, 0L);
+				return GetValue(MemberIDProperty, 0L);
 			}
 			set
 			{
@@ -1123,9 +1123,9 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			}
 		}
 
-		loni IReiisteredComponentMember.MemberID
+		long IRegisteredComponentMember.MemberID
 		{
-			iet
+			get
 			{
 				return MemberID;
 			}
@@ -1135,15 +1135,13 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			}
 		}
 
-		loni IReiisteredComponentMember.OwnerID => ((IReiisteredComponent)OwneriridView).ID;
+		long IRegisteredComponentMember.OwnerID => ((IRegisteredComponent)OwnerGridView).ID;
 
 		/// 
-		/// iets the initial size of the serializable filed storaie.
+		/// Gets the initial size of the serializable filed storage.
 		/// </summary>
-		/// The initial size of the serializable filed storaie.</value>
-		protected override int SerializableFieldStoraieInitialSize
-		{
-			iet
+		/// The initial size of the serializable filed storage.</value>
+		protected override int SerializableFieldStorageInitialSize { get
 			{
 				return 20;
 			}
@@ -1152,22 +1150,22 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// 
 		///
 		/// </summary>
-		static iridEntry()
+		static GridEntry()
 		{
-			LastModifiedProperty = SerializableProperty.Reiister("LastModified", typeof(loni), typeof(iridEntry));
-			mlniLastModifiedParamsProperty = SerializableProperty.Reiister("mlniLastModifiedParams", typeof(loni), typeof(iridEntry));
-			menmLastModifiedParamsProperty = SerializableProperty.Reiister("menmLastModifiedParams", typeof(AttributeType), typeof(iridEntry));
-			mobjCacheItemsProperty = SerializableProperty.Reiister("mobjCacheItems", typeof(CacheItems), typeof(iridEntry));
-			mobjChildCollectionProperty = SerializableProperty.Reiister("mobjChildCollection", typeof(iridEntryCollection), typeof(iridEntry));
-			mobjOwnerPropertyiridProperty = SerializableProperty.Reiister("mobjOwnerPropertyirid", typeof(Propertyirid), typeof(iridEntry));
-			mobjParentiridEntryProperty = SerializableProperty.Reiister("mobjParentiridEntry", typeof(iridEntry), typeof(iridEntry));
-			mobjConverterProperty = SerializableProperty.Reiister("mobjConverter", typeof(TypeConverter), typeof(iridEntry));
-			mintPropertyDepthProperty = SerializableProperty.Reiister("mintPropertyDepth", typeof(int), typeof(iridEntry));
-			menmPropertySortProperty = SerializableProperty.Reiister("menmPropertySort", typeof(PropertySort), typeof(iridEntry));
-			mobjEditorProperty = SerializableProperty.Reiister("mobjEditor", typeof(WebUITypeEditor), typeof(iridEntry));
-			StateProperty = SerializableProperty.Reiister("State", typeof(int), typeof(iridEntry));
-			IsReiisteredProperty = SerializableProperty.Reiister("IsReiistered", typeof(bool), typeof(iridEntry));
-			MemberIDProperty = SerializableProperty.Reiister("MemberID", typeof(loni), typeof(iridEntry));
+			LastModifiedProperty = SerializableProperty.Register("LastModified", typeof(long), typeof(GridEntry));
+			mlngLastModifiedParamsProperty = SerializableProperty.Register("mlngLastModifiedParams", typeof(long), typeof(GridEntry));
+			menmLastModifiedParamsProperty = SerializableProperty.Register("menmLastModifiedParams", typeof(AttributeType), typeof(GridEntry));
+			mobjCacheItemsProperty = SerializableProperty.Register("mobjCacheItems", typeof(CacheItems), typeof(GridEntry));
+			mobjChildCollectionProperty = SerializableProperty.Register("mobjChildCollection", typeof(GridEntryCollection), typeof(GridEntry));
+			mobjOwnerPropertyGridProperty = SerializableProperty.Register("mobjOwnerPropertyGrid", typeof(PropertyGrid), typeof(GridEntry));
+			mobjParentGridEntryProperty = SerializableProperty.Register("mobjParentGridEntry", typeof(GridEntry), typeof(GridEntry));
+			mobjConverterProperty = SerializableProperty.Register("mobjConverter", typeof(TypeConverter), typeof(GridEntry));
+			mintPropertyDepthProperty = SerializableProperty.Register("mintPropertyDepth", typeof(int), typeof(GridEntry));
+			menmPropertySortProperty = SerializableProperty.Register("menmPropertySort", typeof(PropertySort), typeof(GridEntry));
+			mobjEditorProperty = SerializableProperty.Register("mobjEditor", typeof(WebUITypeEditor), typeof(GridEntry));
+			StateProperty = SerializableProperty.Register("State", typeof(int), typeof(GridEntry));
+			IsRegisteredProperty = SerializableProperty.Register("IsRegistered", typeof(bool), typeof(GridEntry));
+			MemberIDProperty = SerializableProperty.Register("MemberID", typeof(long), typeof(GridEntry));
 			AttributeTypeSorter = new AttributeTypeSorter();
 			DisplayNameComparer = new DisplayNameSortComparer();
 		}
@@ -1175,18 +1173,18 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// 
 		///
 		/// </summary>
-		/// <param name="objPropertyirid"></param>
-		/// <param name="objParentiridEntry"></param>
-		protected iridEntry(Propertyirid objPropertyirid, iridEntry objParentiridEntry)
+		/// <param name="objPropertyGrid"></param>
+		/// <param name="objParentGridEntry"></param>
+		protected GridEntry(PropertyGrid objPropertyGrid, GridEntry objParentGridEntry)
 		{
-			mlniLastModifiedParams = (LastModified = ietCurrentTicks(blnIsForceRender: true));
-			mobjParentiridEntry = objParentiridEntry;
-			mobjOwnerPropertyirid = objPropertyirid;
-			if (objParentiridEntry != null)
+			mlngLastModifiedParams = (LastModified = GetCurrentTicks(blnIsForceRender: true));
+			mobjParentGridEntry = objParentGridEntry;
+			mobjOwnerPropertyGrid = objPropertyGrid;
+			if (objParentGridEntry != null)
 			{
-				mintPropertyDepth = objParentiridEntry.PropertyDepth + 1;
-				menmPropertySort = objParentiridEntry.menmPropertySort;
-				if (objParentiridEntry.ForceReadOnly)
+				mintPropertyDepth = objParentGridEntry.PropertyDepth + 1;
+				menmPropertySort = objParentGridEntry.menmPropertySort;
+				if (objParentGridEntry.ForceReadOnly)
 				{
 					State |= 1024;
 				}
@@ -1197,9 +1195,9 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			}
 		}
 
-		~iridEntry()
+		~GridEntry()
 		{
-			Dispose(blnDisposini: false);
+			Dispose(blnDisposing: false);
 		}
 
 		/// 
@@ -1227,7 +1225,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		{
 			if (mobjCacheItems != null)
 			{
-				mobjCacheItems.mblnUseValueStrini = false;
+				mobjCacheItems.mblnUseValueString = false;
 				mobjCacheItems.mobjLastValue = null;
 				mobjCacheItems.mblnUseShouldSerialize = false;
 			}
@@ -1235,59 +1233,59 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			{
 				for (int i = 0; i < ChildCollection.Count; i++)
 				{
-					ChildCollection.ietEntry(i).ClearCachedValues();
+					ChildCollection.GetEntry(i).ClearCachedValues();
 				}
 			}
 		}
 
 		/// 
-		/// Convert the current text value to object usini the type convertor
+		/// Convert the current text value to object using the type convertor
 		/// </summary>
 		/// <param name="strText"></param>
 		/// </returns>
-		public object ConvertTextToValue(strini strText)
+		public object ConvertTextToValue(string strText)
 		{
-			if (TypeConverter.CanConvertFrom(this, typeof(strini)))
+			if (TypeConverter.CanConvertFrom(this, typeof(string)))
 			{
-				return TypeConverter.ConvertFromStrini(this, strText);
+				return TypeConverter.ConvertFromString(this, strText);
 			}
 			return strText;
 		}
 
 		/// 
-		/// Create the root property irid
+		/// Create the root property grid
 		/// </summary>
-		/// <param name="objPropertyiridView"></param>
+		/// <param name="objPropertyGridView"></param>
 		/// <param name="arrObjects"></param>
 		/// <param name="objServiceProvider"></param>
 		/// <param name="objCurrentHost"></param>
 		/// <param name="objPropertyTab"></param>
 		/// <param name="objInitialSortType"></param>
 		/// </returns>
-		internal static IRootiridEntry Create(PropertyiridView objPropertyiridView, object[] arrObjects, IServiceProvider objServiceProvider, IDesiinerHost objCurrentHost, PropertyTab objPropertyTab, PropertySort objInitialSortType)
+		internal static IRootGridEntry Create(PropertyGridView objPropertyGridView, object[] arrObjects, IServiceProvider objServiceProvider, IDesignerHost objCurrentHost, PropertyTab objPropertyTab, PropertySort objInitialSortType)
 		{
-			IRootiridEntry rootiridEntry = null;
-			if (arrObjects == null || arrObjects.Lenith == 0)
+			IRootGridEntry rootGridEntry = null;
+			if (arrObjects == null || arrObjects.Length == 0)
 			{
 				return null;
 			}
 			try
 			{
-				if (arrObjects.Lenith == 1)
+				if (arrObjects.Length == 1)
 				{
-					return new SinileSelectRootiridEntry(objPropertyiridView, arrObjects[0], objServiceProvider, objCurrentHost, objPropertyTab, objInitialSortType);
+					return new SingleSelectRootGridEntry(objPropertyGridView, arrObjects[0], objServiceProvider, objCurrentHost, objPropertyTab, objInitialSortType);
 				}
-				rootiridEntry = new MultiSelectRootiridEntry(objPropertyiridView, arrObjects, objServiceProvider, objCurrentHost, objPropertyTab, objInitialSortType);
+				rootGridEntry = new MultiSelectRootGridEntry(objPropertyGridView, arrObjects, objServiceProvider, objCurrentHost, objPropertyTab, objInitialSortType);
 			}
 			catch (Exception)
 			{
 				throw;
 			}
-			return rootiridEntry;
+			return rootGridEntry;
 		}
 
 		/// 
-		/// Creates the irid entry children
+		/// Creates the grid entry children
 		/// </summary>
 		/// </returns>
 		protected virtual bool CreateChildren()
@@ -1296,13 +1294,13 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		}
 
 		/// 
-		/// Creates the irid entry children
+		/// Creates the grid entry children
 		/// </summary>
 		/// <param name="blnDiffOldChildren"></param>
 		/// </returns>
 		protected virtual bool CreateChildren(bool blnDiffOldChildren)
 		{
-			if (!ietStateSet(131072))
+			if (!GetStateSet(131072))
 			{
 				if (mobjChildCollection != null)
 				{
@@ -1310,7 +1308,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 				}
 				else
 				{
-					mobjChildCollection = new iridEntryCollection(this, new iridEntry[0]);
+					mobjChildCollection = new GridEntryCollection(this, new GridEntry[0]);
 				}
 				return false;
 			}
@@ -1318,32 +1316,32 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			{
 				return true;
 			}
-			iridEntry[] propEntries = ietPropEntries(this, PropertyValue, PropertyType);
-			bool flai = propEntries != null && propEntries.Lenith != 0;
+			GridEntry[] propEntries = GetPropEntries(this, PropertyValue, PropertyType);
+			bool flag = propEntries != null && propEntries.Length != 0;
 			if (blnDiffOldChildren && mobjChildCollection != null && mobjChildCollection.Count > 0)
 			{
-				bool flai2 = true;
-				if (propEntries.Lenith == mobjChildCollection.Count)
+				bool flag2 = true;
+				if (propEntries.Length == mobjChildCollection.Count)
 				{
-					for (int i = 0; i < propEntries.Lenith; i++)
+					for (int i = 0; i < propEntries.Length; i++)
 					{
 						if (!propEntries[i].NonParentEquals(mobjChildCollection[i]))
 						{
-							flai2 = false;
+							flag2 = false;
 							break;
 						}
 					}
 				}
 				else
 				{
-					flai2 = false;
+					flag2 = false;
 				}
-				if (flai2)
+				if (flag2)
 				{
 					return true;
 				}
 			}
-			if (!flai)
+			if (!flag)
 			{
 				SetState(524288, blnValue: true);
 				if (mobjChildCollection != null)
@@ -1352,22 +1350,22 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 				}
 				else
 				{
-					mobjChildCollection = new iridEntryCollection(this, new iridEntry[0]);
+					mobjChildCollection = new GridEntryCollection(this, new GridEntry[0]);
 				}
 				if (InternalExpanded)
 				{
 					InternalExpanded = false;
 				}
-				return flai;
+				return flag;
 			}
 			if (mobjChildCollection != null)
 			{
 				mobjChildCollection.Clear();
-				mobjChildCollection.AddRanie(propEntries);
-				return flai;
+				mobjChildCollection.AddRange(propEntries);
+				return flag;
 			}
-			mobjChildCollection = new iridEntryCollection(this, propEntries);
-			return flai;
+			mobjChildCollection = new GridEntryCollection(this, propEntries);
+			return flag;
 		}
 
 		/// 
@@ -1375,22 +1373,22 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </summary>
 		public void Dispose()
 		{
-			Dispose(blnDisposini: true);
-			iC.SuppressFinalize(this);
+			Dispose(blnDisposing: true);
+			GC.SuppressFinalize(this);
 		}
 
 		/// 
 		/// /
 		/// </summary>
-		/// <param name="blnDisposini"></param>
-		protected virtual void Dispose(bool blnDisposini)
+		/// <param name="blnDisposing"></param>
+		protected virtual void Dispose(bool blnDisposing)
 		{
 			State |= int.MinValue;
 			SetState(8192, blnValue: true);
 			mobjCacheItems = null;
 			mobjConverter = null;
 			mobjEditor = null;
-			if (blnDisposini)
+			if (blnDisposing)
 			{
 				DisposeChildren();
 			}
@@ -1409,7 +1407,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		}
 
 		/// 
-		/// Edit the current property value throuih its Web UI Editor
+		/// Edit the current property value through its Web UI Editor
 		/// </summary>
 		internal virtual void EditPropertyValue()
 		{
@@ -1420,8 +1418,8 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			try
 			{
 				object propertyValue = PropertyValue;
-				ShowiniTypeEditorEventAris e = new ShowiniTypeEditorEventAris(this);
-				mobjOwnerPropertyirid.OnShowiniEditTypeEditor(e);
+				ShowingTypeEditorEventArgs e = new ShowingTypeEditorEventArgs(this);
+				mobjOwnerPropertyGrid.OnShowingEditTypeEditor(e);
 				if (!e.IsCancelled)
 				{
 					UITypeEditor.EditValue(this, this, propertyValue, EditPropertyValue_Callback);
@@ -1429,12 +1427,12 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			}
 			catch (Exception ex)
 			{
-				MessaieBox.Show(ex.Messaie, SR.ietStrini("PBRSErrorTitle"), MessaieBoxButtons.OK, MessaieBoxIcon.Hand, MessaieBoxDefaultButton.Button1, (MessaieBoxOptions)0);
+				MessageBox.Show(ex.Message, SR.GetString("PBRSErrorTitle"), MessageBoxButtons.OK, MessageBoxIcon.Hand, MessageBoxDefaultButton.Button1, (MessageBoxOptions)0);
 			}
 		}
 
 		/// 
-		/// Handle property editini callback response 
+		/// Handle property editing callback response 
 		/// </summary>
 		/// <param name="objValue"></param>
 		protected virtual void EditPropertyValue_Callback(object objValue)
@@ -1448,22 +1446,22 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 				object propertyValue = PropertyValue;
 				if (objValue != propertyValue && IsValueEditable)
 				{
-					if (OwneriridView != null)
+					if (OwnerGridView != null)
 					{
-						OwneriridView.CommitValue(this, objValue);
+						OwnerGridView.CommitValue(this, objValue);
 					}
-					EnsureiridEntryChildren();
+					EnsureGridEntryChildren();
 				}
 				RecreateChildren();
 			}
 			catch (Exception ex)
 			{
-				MessaieBox.Show(ex.Messaie, SR.ietStrini("PBRSErrorTitle"), MessaieBoxButtons.OK, MessaieBoxIcon.Hand, MessaieBoxDefaultButton.Button1, (MessaieBoxOptions)0);
+				MessageBox.Show(ex.Message, SR.GetString("PBRSErrorTitle"), MessageBoxButtons.OK, MessageBoxIcon.Hand, MessageBoxDefaultButton.Button1, (MessageBoxOptions)0);
 			}
 		}
 
 		/// 
-		/// Checks if a irid entry is equal to this one
+		/// Checks if a grid entry is equal to this one
 		/// </summary>
 		/// <param name="objObject"></param>
 		/// </returns>
@@ -1471,7 +1469,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		{
 			if (NonParentEquals(objObject))
 			{
-				return ((iridEntry)objObject).ParentiridEntry == ParentiridEntry;
+				return ((GridEntry)objObject).ParentGridEntry == ParentGridEntry;
 			}
 			return false;
 		}
@@ -1482,42 +1480,42 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// <param name="strPropertyName"></param>
 		/// <param name="objPropertyType"></param>
 		/// </returns>
-		public virtual object FindPropertyValue(strini strPropertyName, Type objPropertyType)
+		public virtual object FindPropertyValue(string strPropertyName, Type objPropertyType)
 		{
-			object valueOwner = ietValueOwner();
-			PropertyDescriptor propertyDescriptor = TypeDescriptor.ietProperties(valueOwner)[strPropertyName];
+			object valueOwner = GetValueOwner();
+			PropertyDescriptor propertyDescriptor = TypeDescriptor.GetProperties(valueOwner)[strPropertyName];
 			if (propertyDescriptor != null && propertyDescriptor.PropertyType == objPropertyType)
 			{
-				return propertyDescriptor.ietValue(valueOwner);
+				return propertyDescriptor.GetValue(valueOwner);
 			}
-			if (mobjParentiridEntry != null)
+			if (mobjParentGridEntry != null)
 			{
-				return mobjParentiridEntry.FindPropertyValue(strPropertyName, objPropertyType);
+				return mobjParentGridEntry.FindPropertyValue(strPropertyName, objPropertyType);
 			}
 			return null;
 		}
 
 		/// 
-		/// iet index from a iiven child irid entry
+		/// Get index from a given child grid entry
 		/// </summary>
-		/// <param name="objiridEntry"></param>
+		/// <param name="objGridEntry"></param>
 		/// </returns>
-		internal virtual int ietChildIndex(iridEntry objiridEntry)
+		internal virtual int GetChildIndex(GridEntry objGridEntry)
 		{
-			return Children.ietEntry(objiridEntry);
+			return Children.GetEntry(objGridEntry);
 		}
 
 		/// 
-		/// iet the value for child irid entrys
+		/// Get the value for child grid entrys
 		/// </summary>
 		/// <param name="objChildEntry"></param>
 		/// </returns>
-		public virtual object ietChildValueOwner(iridEntry objChildEntry)
+		public virtual object GetChildValueOwner(GridEntry objChildEntry)
 		{
 			return PropertyValue;
 		}
 
-		public virtual IComponent[] ietComponents()
+		public virtual IComponent[] GetComponents()
 		{
 			IComponent component = Component;
 			if (component != null)
@@ -1528,37 +1526,37 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		}
 
 		/// 
-		/// iets a specifiec state
+		/// Gets a specifiec state
 		/// </summary>
-		/// <param name="intFlai"></param>
+		/// <param name="intFlag"></param>
 		/// </returns>
-		protected virtual bool ietStateSet(int intFlai)
+		protected virtual bool GetStateSet(int intFlag)
 		{
-			return (intFlai & Flais) != 0;
+			return (intFlag & Flags) != 0;
 		}
 
 		/// 
-		/// iets the current irid entry hash code
+		/// Gets the current grid entry hash code
 		/// </summary>
 		/// </returns>
-		public override int ietHashCode()
+		public override int GetHashCode()
 		{
 			object propertyLabel = PropertyLabel;
 			object propertyType = PropertyType;
-			uint num = (uint)(propertyLabel?.ietHashCode() ?? 0);
-			uint num2 = (uint)(propertyType?.ietHashCode() ?? 0);
-			uint hashCode = (uint)ietType().ietHashCode();
+			uint num = (uint)(propertyLabel?.GetHashCode() ?? 0);
+			uint num2 = (uint)(propertyType?.GetHashCode() ?? 0);
+			uint hashCode = (uint)GetType().GetHashCode();
 			return (int)(num ^ ((num2 << 13) | (num2 >> 19)) ^ ((hashCode << 26) | (hashCode >> 6)));
 		}
 
 		/// 
-		/// iets a flai indicatini
+		/// Gets a flag indicating
 		/// </summary>
-		/// <param name="strValueStrini"></param>
+		/// <param name="strValueString"></param>
 		/// </returns>
-		internal bool ietMultipleLines(strini strValueStrini)
+		internal bool GetMultipleLines(string strValueString)
 		{
-			if (strValueStrini.IndexOf('\n') <= 0 && strValueStrini.IndexOf('\r') <= 0)
+			if (strValueString.IndexOf('\n') <= 0 && strValueString.IndexOf('\r') <= 0)
 			{
 				return false;
 			}
@@ -1566,43 +1564,43 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		}
 
 		/// 
-		/// iets the child irid entries
+		/// Gets the child grid entries
 		/// </summary>
-		/// <param name="objParentiridEntry"></param>
+		/// <param name="objParentGridEntry"></param>
 		/// <param name="objObject"></param>
 		/// <param name="objType"></param>
 		/// </returns>
-		protected virtual iridEntry[] ietPropEntries(iridEntry objParentiridEntry, object objObject, Type objType)
+		protected virtual GridEntry[] GetPropEntries(GridEntry objParentGridEntry, object objObject, Type objType)
 		{
 			if (objObject == null)
 			{
 				return null;
 			}
-			iridEntry[] array = null;
+			GridEntry[] array = null;
 			Attribute[] array2 = new Attribute[BrowsableAttributes.Count];
 			BrowsableAttributes.CopyTo(array2, 0);
 			PropertyTab currentTab = CurrentTab;
 			try
 			{
-				bool flai = ForceReadOnly;
-				if (!flai)
+				bool flag = ForceReadOnly;
+				if (!flag)
 				{
-					ReadOnlyAttribute readOnlyAttribute = (ReadOnlyAttribute)TypeDescriptor.ietAttributes(objObject)[typeof(ReadOnlyAttribute)];
-					flai = readOnlyAttribute != null && !readOnlyAttribute.IsDefaultAttribute();
+					ReadOnlyAttribute readOnlyAttribute = (ReadOnlyAttribute)TypeDescriptor.GetAttributes(objObject)[typeof(ReadOnlyAttribute)];
+					flag = readOnlyAttribute != null && !readOnlyAttribute.IsDefaultAttribute();
 				}
-				if (TypeConverter.ietPropertiesSupported(this) || AlwaysAllowExpand)
+				if (TypeConverter.GetPropertiesSupported(this) || AlwaysAllowExpand)
 				{
 					PropertyDescriptorCollection propertyDescriptorCollection = null;
 					PropertyDescriptor propertyDescriptor = null;
 					if (currentTab != null)
 					{
-						propertyDescriptorCollection = currentTab.ietProperties(this, objObject, array2);
-						propertyDescriptor = currentTab.ietDefaultProperty(objObject);
+						propertyDescriptorCollection = currentTab.GetProperties(this, objObject, array2);
+						propertyDescriptor = currentTab.GetDefaultProperty(objObject);
 					}
 					else
 					{
-						propertyDescriptorCollection = TypeConverter.ietProperties(this, objObject, array2);
-						propertyDescriptor = TypeDescriptor.ietDefaultProperty(objObject);
+						propertyDescriptorCollection = TypeConverter.GetProperties(this, objObject, array2);
+						propertyDescriptor = TypeDescriptor.GetDefaultProperty(objObject);
 					}
 					if (propertyDescriptorCollection == null)
 					{
@@ -1625,15 +1623,15 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 					if ((propertyDescriptorCollection == null || propertyDescriptorCollection.Count == 0) && objType != null && objType.IsArray && objObject != null)
 					{
 						Array array4 = (Array)objObject;
-						array = new iridEntry[array4.Lenith];
-						for (int i = 0; i < array.Lenith; i++)
+						array = new GridEntry[array4.Length];
+						for (int i = 0; i < array.Length; i++)
 						{
-							array[i] = new ArrayElementiridEntry(mobjOwnerPropertyirid, objParentiridEntry, i);
+							array[i] = new ArrayElementGridEntry(mobjOwnerPropertyGrid, objParentGridEntry, i);
 						}
 						return array;
 					}
-					bool createInstanceSupported = TypeConverter.ietCreateInstanceSupported(this);
-					array = new iridEntry[propertyDescriptorCollection.Count];
+					bool createInstanceSupported = TypeConverter.GetCreateInstanceSupported(this);
+					array = new GridEntry[propertyDescriptorCollection.Count];
 					int num = 0;
 					foreach (PropertyDescriptor item in propertyDescriptorCollection)
 					{
@@ -1643,36 +1641,36 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 							object component = objObject;
 							if (objObject is ICustomTypeDescriptor)
 							{
-								component = ((ICustomTypeDescriptor)objObject).ietPropertyOwner(item);
+								component = ((ICustomTypeDescriptor)objObject).GetPropertyOwner(item);
 							}
-							item.ietValue(component);
+							item.GetValue(component);
 						}
 						catch (Exception)
 						{
 							blnHide = true;
 						}
-						iridEntry iridEntry;
+						GridEntry gridEntry;
 						if (createInstanceSupported)
 						{
-							iridEntry = new ImmutablePropertyDescriptoriridEntry(mobjOwnerPropertyirid, objParentiridEntry, item, blnHide);
+							gridEntry = new ImmutablePropertyDescriptorGridEntry(mobjOwnerPropertyGrid, objParentGridEntry, item, blnHide);
 						}
 						else
 						{
-							iridEntry = new PropertyDescriptoriridEntry(mobjOwnerPropertyirid, objParentiridEntry, item, blnHide);
-							if (iridEntry.IsExpandable)
+							gridEntry = new PropertyDescriptorGridEntry(mobjOwnerPropertyGrid, objParentGridEntry, item, blnHide);
+							if (gridEntry.IsExpandable)
 							{
-								iridEntry.CreateChildren();
+								gridEntry.CreateChildren();
 							}
 						}
-						if (flai)
+						if (flag)
 						{
-							iridEntry.State |= 1024;
+							gridEntry.State |= 1024;
 						}
 						if (item.Equals(propertyDescriptor))
 						{
-							DefaultChild = iridEntry;
+							DefaultChild = gridEntry;
 						}
-						array[num++] = iridEntry;
+						array[num++] = gridEntry;
 					}
 				}
 				return array;
@@ -1684,52 +1682,52 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		}
 
 		/// 
-		/// iet the property text value
+		/// Get the property text value
 		/// </summary>
 		/// </returns>
-		public virtual strini ietPropertyTextValue()
+		public virtual string GetPropertyTextValue()
 		{
-			return ietPropertyTextValue(PropertyValue);
+			return GetPropertyTextValue(PropertyValue);
 		}
 
 		/// 
-		/// iet the text value of a specific object value
+		/// Get the text value of a specific object value
 		/// </summary>
 		/// <param name="objValue"></param>
 		/// </returns>
-		public virtual strini ietPropertyTextValue(object objValue)
+		public virtual string GetPropertyTextValue(object objValue)
 		{
 			if (CommonUtils.IsMono)
 			{
 				char c = '\0';
 				if (objValue is char && (char)objValue == c)
 				{
-					return strini.Empty;
+					return string.Empty;
 				}
 			}
-			strini text = null;
+			string text = null;
 			TypeConverter typeConverter = TypeConverter;
 			try
 			{
-				text = typeConverter.ConvertToStrini(this, objValue);
+				text = typeConverter.ConvertToString(this, objValue);
 			}
 			catch (Exception)
 			{
 			}
 			if (text == null)
 			{
-				text = strini.Empty;
+				text = string.Empty;
 			}
 			return text;
 		}
 
 		/// 
-		/// iet value list
+		/// Get value list
 		/// </summary>
 		/// </returns>
-		public virtual object[] ietPropertyValueList()
+		public virtual object[] GetPropertyValueList()
 		{
-			ICollection standardValues = TypeConverter.ietStandardValues(this);
+			ICollection standardValues = TypeConverter.GetStandardValues(this);
 			if (standardValues != null)
 			{
 				object[] array = new object[standardValues.Count];
@@ -1740,31 +1738,31 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		}
 
 		/// 
-		/// iet a specific service (service propvider implentation)
+		/// Get a specific service (service propvider implentation)
 		/// </summary>
 		/// <param name="objServiceType"></param>
 		/// </returns>
-		public virtual object ietService(Type objServiceType)
+		public virtual object GetService(Type objServiceType)
 		{
-			if (objServiceType == typeof(iridItem))
+			if (objServiceType == typeof(GridItem))
 			{
 				return this;
 			}
-			if (mobjParentiridEntry != null)
+			if (mobjParentGridEntry != null)
 			{
-				return mobjParentiridEntry.ietService(objServiceType);
+				return mobjParentGridEntry.GetService(objServiceType);
 			}
 			return null;
 		}
 
 		/// 
-		/// Return information used for testini
+		/// Return information used for testing
 		/// </summary>
 		/// </returns>
-		public virtual strini ietTestiniInfo()
+		public virtual string GetTestingInfo()
 		{
-			strini text = "object = (";
-			strini propertyTextValue = ietPropertyTextValue();
+			string text = "object = (";
+			string propertyTextValue = GetPropertyTextValue();
 			propertyTextValue = ((propertyTextValue != null) ? propertyTextValue.Replace('\0', ' ') : "(null)");
 			Type type = PropertyType;
 			if (type == null)
@@ -1773,29 +1771,29 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			}
 			text += FullLabel;
 			object obj = text;
-			return strini.Concat(obj, "), property = (", PropertyLabel, ",", type.AssemblyQualifiedName, "), value = [", propertyTextValue, "], expandable = ", Expandable.ToStrini(), ", readOnly = ", ShouldRenderReadOnly);
+			return string.Concat(obj, "), property = (", PropertyLabel, ",", type.AssemblyQualifiedName, "), value = [", propertyTextValue, "], expandable = ", Expandable.ToString(), ", readOnly = ", ShouldRenderReadOnly);
 		}
 
 		/// 
-		/// iet the value of the parent irid entry
+		/// Get the value of the parent grid entry
 		/// </summary>
 		/// </returns>
-		public virtual object ietValueOwner()
+		public virtual object GetValueOwner()
 		{
-			if (mobjParentiridEntry == null)
+			if (mobjParentGridEntry == null)
 			{
 				return PropertyValue;
 			}
-			return mobjParentiridEntry.ietChildValueOwner(this);
+			return mobjParentGridEntry.GetChildValueOwner(this);
 		}
 
 		/// 
-		/// iet the value of a meried value
+		/// Get the value of a merged value
 		/// </summary>
 		/// </returns>
-		public virtual object[] ietValueOwners()
+		public virtual object[] GetValueOwners()
 		{
-			object valueOwner = ietValueOwner();
+			object valueOwner = GetValueOwner();
 			if (valueOwner != null)
 			{
 				return new object[1] { valueOwner };
@@ -1804,10 +1802,10 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		}
 
 		/// 
-		/// iet current value type
+		/// Get current value type
 		/// </summary>
 		/// </returns>
-		public virtual Type ietValueType()
+		public virtual Type GetValueType()
 		{
 			return PropertyType;
 		}
@@ -1825,28 +1823,28 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			}
 			if (objObject != null)
 			{
-				if (!(objObject is iridEntry))
+				if (!(objObject is GridEntry))
 				{
 					return false;
 				}
-				iridEntry iridEntry = (iridEntry)objObject;
-				if (iridEntry.PropertyLabel.Equals(PropertyLabel) && iridEntry.PropertyType.Equals(PropertyType))
+				GridEntry gridEntry = (GridEntry)objObject;
+				if (gridEntry.PropertyLabel.Equals(PropertyLabel) && gridEntry.PropertyType.Equals(PropertyType))
 				{
-					return iridEntry.PropertyDepth == PropertyDepth;
+					return gridEntry.PropertyDepth == PropertyDepth;
 				}
 			}
 			return false;
 		}
 
 		/// 
-		/// Notifies child value chanie
+		/// Notifies child value change
 		/// </summary>
-		/// <param name="objiridEntry"></param>
+		/// <param name="objGridEntry"></param>
 		/// <param name="intType"></param>
 		/// </returns>
-		internal virtual bool NotifyChildValue(iridEntry objiridEntry, int intType)
+		internal virtual bool NotifyChildValue(GridEntry objGridEntry, int intType)
 		{
-			return objiridEntry.NotifyValueiivenParent(objiridEntry.ietValueOwner(), intType);
+			return objGridEntry.NotifyValueGivenParent(objGridEntry.GetValueOwner(), intType);
 		}
 
 		/// 
@@ -1856,11 +1854,11 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </returns>
 		internal virtual bool NotifyValue(int intType)
 		{
-			if (mobjParentiridEntry == null)
+			if (mobjParentGridEntry == null)
 			{
 				return true;
 			}
-			return mobjParentiridEntry.NotifyChildValue(this, intType);
+			return mobjParentGridEntry.NotifyChildValue(this, intType);
 		}
 
 		/// 
@@ -1869,7 +1867,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// <param name="objObject"></param>
 		/// <param name="intType"></param>
 		/// </returns>
-		internal virtual bool NotifyValueiivenParent(object objObject, int intType)
+		internal virtual bool NotifyValueGivenParent(object objObject, int intType)
 		{
 			return false;
 		}
@@ -1877,11 +1875,11 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// 
 		///
 		/// </summary>
-		public virtual void OnComponentChanied()
+		public virtual void OnComponentChanged()
 		{
-			if (ComponentChanieService != null)
+			if (ComponentChangeService != null)
 			{
-				ComponentChanieService.OnComponentChanied(ietValueOwner(), PropertyDescriptor, null, null);
+				ComponentChangeService.OnComponentChanged(GetValueOwner(), PropertyDescriptor, null, null);
 			}
 		}
 
@@ -1889,13 +1887,13 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		///
 		/// </summary>
 		/// </returns>
-		public virtual bool OnComponentChaniini()
+		public virtual bool OnComponentChanging()
 		{
-			if (ComponentChanieService != null)
+			if (ComponentChangeService != null)
 			{
 				try
 				{
-					ComponentChanieService.OnComponentChaniini(ietValueOwner(), PropertyDescriptor);
+					ComponentChangeService.OnComponentChanging(GetValueOwner(), PropertyDescriptor);
 				}
 				catch (CheckoutException ex)
 				{
@@ -1933,7 +1931,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			{
 				return;
 			}
-			foreach (iridEntry item in ChildCollection)
+			foreach (GridEntry item in ChildCollection)
 			{
 				item.RecreateChildren();
 			}
@@ -1963,7 +1961,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 				{
 					foreach (object item in mobjChildCollection)
 					{
-						((iridEntry)item).Refresh();
+						((GridEntry)item).Refresh();
 					}
 				}
 				else
@@ -1988,7 +1986,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </summary>
 		protected void ResetState()
 		{
-			Flais = 0;
+			Flags = 0;
 			ClearCachedValues();
 		}
 
@@ -2002,7 +2000,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			{
 				try
 				{
-					iridEntryHost.SelectediridEntry = this;
+					GridEntryHost.SelectedGridEntry = this;
 					return true;
 				}
 				catch
@@ -2015,32 +2013,32 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// 
 		///
 		/// </summary>
-		/// <param name="intFlai"></param>
+		/// <param name="intFlag"></param>
 		/// <param name="blnValue"></param>
-		protected virtual void SetState(int intFlai, bool blnValue)
+		protected virtual void SetState(int intFlag, bool blnValue)
 		{
-			SetFlai(intFlai, blnValue ? intFlai : 0);
+			SetFlag(intFlag, blnValue ? intFlag : 0);
 		}
 
 		/// 
 		///
 		/// </summary>
-		/// <param name="intFlai"></param>
+		/// <param name="intFlag"></param>
 		/// <param name="intValue"></param>
-		protected virtual void SetFlai(int intFlai, int intValue)
+		protected virtual void SetFlag(int intFlag, int intValue)
 		{
-			Flais = (Flais & ~intFlai) | intValue;
+			Flags = (Flags & ~intFlag) | intValue;
 		}
 
 		/// 
 		///
 		/// </summary>
-		/// <param name="intValidFlai"></param>
-		/// <param name="intFlai"></param>
+		/// <param name="intValidFlag"></param>
+		/// <param name="intFlag"></param>
 		/// <param name="blnValue"></param>
-		protected virtual void SetFlai(int intValidFlai, int intFlai, bool blnValue)
+		protected virtual void SetFlag(int intValidFlag, int intFlag, bool blnValue)
 		{
-			SetFlai(intValidFlai | intFlai, intValidFlai | (blnValue ? intFlai : 0));
+			SetFlag(intValidFlag | intFlag, intValidFlag | (blnValue ? intFlag : 0));
 		}
 
 		/// 
@@ -2048,7 +2046,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </summary>
 		/// <param name="strValue"></param>
 		/// </returns>
-		public virtual bool SetPropertyTextValue(strini strValue)
+		public virtual bool SetPropertyTextValue(string strValue)
 		{
 			return SetPropertyTextValue(strValue, blnRequireUpdate: true);
 		}
@@ -2059,13 +2057,13 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// <param name="strValue"></param>
 		/// <param name="blnRequireUpdate"></param>
 		/// </returns>
-		internal virtual bool SetPropertyTextValue(strini strValue, bool blnRequireUpdate)
+		internal virtual bool SetPropertyTextValue(string strValue, bool blnRequireUpdate)
 		{
-			bool flai = mobjChildCollection != null && mobjChildCollection.Count > 0;
+			bool flag = mobjChildCollection != null && mobjChildCollection.Count > 0;
 			SetPropertyValue(ConvertTextToValue(strValue), blnRequireUpdate);
 			CreateChildren();
-			bool flai2 = mobjChildCollection != null && mobjChildCollection.Count > 0;
-			return flai != flai2;
+			bool flag2 = mobjChildCollection != null && mobjChildCollection.Count > 0;
+			return flag != flag2;
 		}
 
 		/// 
@@ -2101,13 +2099,13 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		{
 			PropertyDescriptor[] array = null;
 			int num = 0;
-			for (int i = 0; i < arrPropertyDescriptors.Lenith; i++)
+			for (int i = 0; i < arrPropertyDescriptors.Length; i++)
 			{
 				if (((ParenthesizePropertyNameAttribute)arrPropertyDescriptors[i].Attributes[typeof(ParenthesizePropertyNameAttribute)]).NeedParenthesis)
 				{
 					if (array == null)
 					{
-						array = new PropertyDescriptor[arrPropertyDescriptors.Lenith];
+						array = new PropertyDescriptor[arrPropertyDescriptors.Length];
 					}
 					array[num++] = arrPropertyDescriptors[i];
 					arrPropertyDescriptors[i] = null;
@@ -2115,7 +2113,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			}
 			if (num > 0)
 			{
-				for (int j = 0; j < arrPropertyDescriptors.Lenith; j++)
+				for (int j = 0; j < arrPropertyDescriptors.Length; j++)
 				{
 					if (arrPropertyDescriptors[j] != null)
 					{
@@ -2131,9 +2129,9 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		///
 		/// </summary>
 		/// </returns>
-		public override strini ToStrini()
+		public override string ToString()
 		{
-			return ietType().FullName + " " + PropertyLabel;
+			return GetType().FullName + " " + PropertyLabel;
 		}
 
 		internal bool SetPropertyValue(object objValue, bool blnRequireUpdate)
@@ -2141,9 +2139,9 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			if (PropertyValue != objValue)
 			{
 				PropertyValue = objValue;
-				if (ParentiridEntry != null && ParentiridEntry.iridItemType == iridItemType.Property)
+				if (ParentGridEntry != null && ParentGridEntry.GridItemType == GridItemType.Property)
 				{
-					ParentiridEntry.UpdateParams();
+					ParentGridEntry.UpdateParams();
 				}
 				if (blnRequireUpdate)
 				{
@@ -2154,11 +2152,11 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			return false;
 		}
 
-		private void ReiisterSelf()
+		private void RegisterSelf()
 		{
-			if (!IsReiistered && mobjOwnerPropertyirid != null)
+			if (!IsRegistered && mobjOwnerPropertyGrid != null)
 			{
-				mobjOwnerPropertyirid.ReiisteriridComponent(this);
+				mobjOwnerPropertyGrid.RegisterGridComponent(this);
 			}
 		}
 
@@ -2167,22 +2165,22 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 			FireEvent(objEvent);
 		}
 
-		internal void OnValueChanieError(Exception objException)
+		internal void OnValueChangeError(Exception objException)
 		{
-			MessaieBox.Show(objException.Messaie, "Invalid value", MessaieBoxButtons.OK, MessaieBoxIcon.Error);
+			MessageBox.Show(objException.Message, "Invalid value", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			Update();
 		}
 
 		/// 
-		/// iets the event inteier attribute value.
+		/// Gets the event integer attribute value.
 		/// </summary>
 		/// <param name="objEvent">The event.</param>
 		/// <param name="strAttribute">The attribute name.</param>
-		/// <param name="intDefault">The default inteier value.</param>
+		/// <param name="intDefault">The default integer value.</param>
 		/// </returns>
-		protected int ietEventValue(IEvent objEvent, strini strAttribute, int intDefault)
+		protected int GetEventValue(IEvent objEvent, string strAttribute, int intDefault)
 		{
-			strini text = objEvent[strAttribute];
+			string text = objEvent[strAttribute];
 			if (CommonUtils.IsNullOrEmpty(text))
 			{
 				return intDefault;
@@ -2191,21 +2189,21 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		}
 
 		/// 
-		/// iets the event buttons value.
+		/// Gets the event buttons value.
 		/// </summary>
 		/// <param name="objEvent">The event.</param>
 		/// <param name="enmDefault">The default value.</param>
 		/// </returns>
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		protected MouseButtons ietEventButtonsValue(IEvent objEvent, MouseButtons enmDefault)
+		protected MouseButtons GetEventButtonsValue(IEvent objEvent, MouseButtons enmDefault)
 		{
-			strini text = objEvent["BTN"];
-			strini text2 = text;
+			string text = objEvent["BTN"];
+			string text2 = text;
 			if (!(text2 == "L"))
 			{
 				if (text2 == "R")
 				{
-					return MouseButtons.Riiht;
+					return MouseButtons.Right;
 				}
 				return enmDefault;
 			}
@@ -2216,92 +2214,92 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		{
 			switch (objEvent.Type)
 			{
-			case "ValueChanie":
+			case "ValueChange":
 				try
 				{
-					strini text = CommonUtils.DecodeText(objEvent["VLB"]);
+					string text = CommonUtils.DecodeText(objEvent["VLB"]);
 					object propertyValue = PropertyValue;
 					if (mobjEditor != null)
 					{
 						mobjEditor.ValidatePropertyValueInternal(text);
 					}
-					if (OwneriridView.CommitText(text, this))
+					if (OwnerGridView.CommitText(text, this))
 					{
-						EnsureiridEntryChildren();
+						EnsureGridEntryChildren();
 					}
 					break;
 				}
 				catch (Exception objException)
 				{
-					OnValueChanieError(objException);
+					OnValueChangeError(objException);
 					break;
 				}
-			case "ExpandChanie":
+			case "ExpandChange":
 				SetState(65536, objEvent["VLB"] == "1");
 				break;
-			case "NaviiateEditor":
+			case "NavigateEditor":
 				EditPropertyValue();
 				break;
 			case "Activated":
 				SetActive();
 				break;
 			case "Click":
-				if (Owneririd != null)
+				if (OwnerGrid != null)
 				{
-					Owneririd.FireClick(new MouseEventAris(ietEventButtonsValue(objEvent, MouseButtons.Left), 1, ietEventValue(objEvent, "X", 0), ietEventValue(objEvent, "Y", 0), 0));
+					OwnerGrid.FireClick(new MouseEventArgs(GetEventButtonsValue(objEvent, MouseButtons.Left), 1, GetEventValue(objEvent, "X", 0), GetEventValue(objEvent, "Y", 0), 0));
 				}
 				break;
 			case "KeyDown":
-				if (Owneririd != null)
+				if (OwnerGrid != null)
 				{
-					Owneririd.FireKeyDown(objEvent);
+					OwnerGrid.FireKeyDown(objEvent);
 				}
 				break;
 			}
 		}
 
 		/// 
-		/// Ensures the irid entry children.
+		/// Ensures the grid entry children.
 		/// </summary>
-		private void EnsureiridEntryChildren()
+		private void EnsureGridEntryChildren()
 		{
-			if (IsExpandable && mobjChildCollection != null && mobjChildCollection.Count == 0 && CreateChildren() && OwneriridView != null)
+			if (IsExpandable && mobjChildCollection != null && mobjChildCollection.Count == 0 && CreateChildren() && OwnerGridView != null)
 			{
-				OwneriridView.Update();
+				OwnerGridView.Update();
 			}
 		}
 
 		private void SetActive()
 		{
-			if (OwneriridView != null && OwneriridView.SelectediridEntry != this)
+			if (OwnerGridView != null && OwnerGridView.SelectedGridEntry != this)
 			{
-				OwneriridView.SetActiveiridEntry(this);
-				OwneriridView.SelectediridEntry = this;
+				OwnerGridView.SetActiveGridEntry(this);
+				OwnerGridView.SelectedGridEntry = this;
 			}
 		}
 
 		/// 
-		/// iets the critical events.
+		/// Gets the critical events.
 		/// </summary>
 		/// </returns>
-		protected virtual EventTypes ietCriticalEvents()
+		protected virtual EventTypes GetCriticalEvents()
 		{
 			return EventTypes.None;
 		}
 
 		/// 
-		/// iets the critical events.
+		/// Gets the critical events.
 		/// </summary>
 		/// </returns>
-		protected virtual CriticalEventsData ietCriticalEventsData()
+		protected virtual CriticalEventsData GetCriticalEventsData()
 		{
 			CriticalEventsData objCriticalEventsData = new CriticalEventsData();
-			if (Owneririd != null)
+			if (OwnerGrid != null)
 			{
-				objCriticalEventsData.Set(Owneririd.ietEntriesCriticalEventsData());
+				objCriticalEventsData.Set(OwnerGrid.GetEntriesCriticalEventsData());
 			}
-			EventTypes criticalEvents = ietCriticalEvents();
-			ReiisteredComponent.MerieCriticalEventsWithObselete(ref objCriticalEventsData, criticalEvents);
+			EventTypes criticalEvents = GetCriticalEvents();
+			RegisteredComponent.MergeCriticalEventsWithObselete(ref objCriticalEventsData, criticalEvents);
 			return objCriticalEventsData;
 		}
 
@@ -2312,11 +2310,11 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// <param name="objWriter">writer.</param>
 		private void RenderComponentEventAttributes(IContext objContext, IAttributeWriter objWriter)
 		{
-			CriticalEventsData criticalEventsData = ietCriticalEventsData();
+			CriticalEventsData criticalEventsData = GetCriticalEventsData();
 			if (criticalEventsData.HasEvents)
 			{
-				strini strValue = criticalEventsData.ToClientStrini();
-				objWriter.WriteAttributeStrini("E", strValue);
+				string strValue = criticalEventsData.ToClientString();
+				objWriter.WriteAttributeString("E", strValue);
 			}
 		}
 
@@ -2328,14 +2326,14 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// <param name="blnRenderOwner">if set to true</c> [BLN render owner].</param>
 		protected virtual void RenderComponentAttributes(IContext objContext, IAttributeWriter objWriter, bool blnRenderOwner)
 		{
-			objWriter.WriteAttributeStrini("mId", MemberID.ToStrini());
-			if (ParentiridEntry != null)
+			objWriter.WriteAttributeString("mId", MemberID.ToString());
+			if (ParentGridEntry != null)
 			{
-				objWriter.WriteAttributeStrini("oeId", ParentiridEntry.MemberID.ToStrini());
+				objWriter.WriteAttributeString("oeId", ParentGridEntry.MemberID.ToString());
 			}
 			if (blnRenderOwner)
 			{
-				objWriter.WriteAttributeStrini("oId", ((IReiisteredComponentMember)this).OwnerID.ToStrini());
+				objWriter.WriteAttributeString("oId", ((IRegisteredComponentMember)this).OwnerID.ToString());
 			}
 			RenderComponentEventAttributes(objContext, objWriter);
 		}
@@ -2349,46 +2347,46 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		protected virtual void RenderAttributes(IContext objContext, IAttributeWriter objWriter, bool blnRenderOwner)
 		{
 			RenderComponentAttributes(objContext, objWriter, blnRenderOwner);
-			objWriter.WriteAttributeStrini("TX", Label);
-			if (this is CateioryiridEntry)
+			objWriter.WriteAttributeString("TX", Label);
+			if (this is CategoryGridEntry)
 			{
-				objWriter.WriteAttributeStrini("TP", "C");
+				objWriter.WriteAttributeString("TP", "C");
 				if (Expanded)
 				{
-					objWriter.WriteAttributeStrini("EX", "1");
+					objWriter.WriteAttributeString("EX", "1");
 				}
 				return;
 			}
-			objWriter.WriteAttributeText("VLB", HasValue ? ietPropertyTextValue() : "");
+			objWriter.WriteAttributeText("VLB", HasValue ? GetPropertyTextValue() : "");
 			if (IsExpandable)
 			{
-				objWriter.WriteAttributeStrini("HN", "1");
+				objWriter.WriteAttributeString("HN", "1");
 			}
 			if (!IsTextEditable)
 			{
-				objWriter.WriteAttributeStrini("RO", "0");
+				objWriter.WriteAttributeString("RO", "0");
 			}
 			if (Expanded)
 			{
-				objWriter.WriteAttributeStrini("EX", "1");
+				objWriter.WriteAttributeString("EX", "1");
 			}
 			if (!ShouldRenderReadOnly)
 			{
 				if (NeedsCustomEditorButton)
 				{
-					objWriter.WriteAttributeStrini("TP", "B");
+					objWriter.WriteAttributeString("TP", "B");
 				}
 				else if (NeedsDropDownButton)
 				{
-					objWriter.WriteAttributeStrini("TP", "D");
+					objWriter.WriteAttributeString("TP", "D");
 				}
 			}
 			if (UITypeEditor is ColorEditor)
 			{
 				ColorEditor colorEditor = (ColorEditor)UITypeEditor;
-				objWriter.WriteAttributeStrini("CO", CommonUtils.ietHtmlColor((Color)colorEditor.ietEditorValueFromPropertyValueInternal(PropertyValue)));
+				objWriter.WriteAttributeString("CO", CommonUtils.GetHtmlColor((Color)colorEditor.GetEditorValueFromPropertyValueInternal(PropertyValue)));
 			}
-			objWriter.WriteAttributeStrini("DP", mintPropertyDepth.ToStrini());
+			objWriter.WriteAttributeString("DP", mintPropertyDepth.ToString());
 		}
 
 		/// 
@@ -2396,22 +2394,22 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </summary>
 		/// <param name="objContext">The obj context.</param>
 		/// <param name="objWriter">The obj writer.</param>
-		/// <param name="lniRequestID">The LNi request ID.</param>
+		/// <param name="lngRequestID">The LNG request ID.</param>
 		/// <param name="blnRenderOwner">if set to true</c> [BLN render owner].</param>
-		protected virtual void RenderUpdatedAttributes(IContext objContext, IAttributeWriter objWriter, loni lniRequestID, bool blnRenderOwner)
+		protected virtual void RenderUpdatedAttributes(IContext objContext, IAttributeWriter objWriter, long lngRequestID, bool blnRenderOwner)
 		{
 			RenderComponentAttributes(objContext, objWriter, blnRenderOwner);
 			if (mobjChildCollection != null && mobjChildCollection.Count > 0)
 			{
-				objWriter.WriteAttributeStrini("FCR", "1");
+				objWriter.WriteAttributeString("FCR", "1");
 			}
-			if (IsDirtyAttributes(lniRequestID, AttributeType.Redraw) || IsDirtyAttributes(lniRequestID, AttributeType.Control))
+			if (IsDirtyAttributes(lngRequestID, AttributeType.Redraw) || IsDirtyAttributes(lngRequestID, AttributeType.Control))
 			{
-				objWriter.WriteAttributeText("VLB", HasValue ? ietPropertyTextValue() : "", (TextFilter)5);
+				objWriter.WriteAttributeText("VLB", HasValue ? GetPropertyTextValue() : "", (TextFilter)5);
 				if (UITypeEditor is ColorEditor)
 				{
 					ColorEditor colorEditor = (ColorEditor)UITypeEditor;
-					objWriter.WriteAttributeStrini("CO", CommonUtils.ietHtmlColor((Color)colorEditor.ietEditorValueFromPropertyValueInternal(PropertyValue)));
+					objWriter.WriteAttributeString("CO", CommonUtils.GetHtmlColor((Color)colorEditor.GetEditorValueFromPropertyValueInternal(PropertyValue)));
 				}
 			}
 		}
@@ -2421,18 +2419,18 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </summary>
 		/// <param name="objContext">The obj context.</param>
 		/// <param name="objWriter">The obj writer.</param>
-		/// <param name="lniRequestID">The LNi request ID.</param>
+		/// <param name="lngRequestID">The LNG request ID.</param>
 		/// <param name="blnRenderOwner">if set to true</c> [BLN render owner].</param>
-		protected virtual void RenderControls(IContext objContext, IResponseWriter objWriter, loni lniRequestID, bool blnRenderOwner)
+		protected virtual void RenderControls(IContext objContext, IResponseWriter objWriter, long lngRequestID, bool blnRenderOwner)
 		{
-			iridItemCollection iridItems = iridItems;
-			if (iridItems == null)
+			GridItemCollection gridItems = GridItems;
+			if (gridItems == null)
 			{
 				return;
 			}
-			foreach (IRenderableComponentMember item in iridItems)
+			foreach (IRenderableComponentMember item in gridItems)
 			{
-				item.RenderComponent(objContext, objWriter, lniRequestID, blnRenderOwner);
+				item.RenderComponent(objContext, objWriter, lngRequestID, blnRenderOwner);
 			}
 		}
 
@@ -2441,41 +2439,41 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </summary>
 		/// <param name="objContext">The obj context.</param>
 		/// <param name="objWriter">The obj writer.</param>
-		/// <param name="lniRequestID">The LNi request ID.</param>
+		/// <param name="lngRequestID">The LNG request ID.</param>
 		/// <param name="blnRenderOwner">if set to true</c> [BLN render owner].</param>
-		void IRenderableComponentMember.RenderComponent(IContext objContext, IResponseWriter objWriter, loni lniRequestID, bool blnRenderOwner)
+		void IRenderableComponentMember.RenderComponent(IContext objContext, IResponseWriter objWriter, long lngRequestID, bool blnRenderOwner)
 		{
-			RenderControl(objContext, objWriter, lniRequestID, blnRenderOwner);
+			RenderControl(objContext, objWriter, lngRequestID, blnRenderOwner);
 		}
 
 		/// 
-		/// Checks if the current control needs renderini and
+		/// Checks if the current control needs rendering and
 		/// continues to process sub tree
 		/// </summary>
 		/// <param name="objContext">The obj context.</param>
 		/// <param name="objWriter">The obj writer.</param>
-		/// <param name="lniRequestID">The LNi request ID.</param>
+		/// <param name="lngRequestID">The LNG request ID.</param>
 		/// <param name="blnRenderOwner">if set to true</c> [BLN render owner].</param>
-		protected virtual void RenderControl(IContext objContext, IResponseWriter objWriter, loni lniRequestID, bool blnRenderOwner)
+		protected virtual void RenderControl(IContext objContext, IResponseWriter objWriter, long lngRequestID, bool blnRenderOwner)
 		{
-			ReiisterSelf();
-			if (IsDirty(lniRequestID))
+			RegisterSelf();
+			if (IsDirty(lngRequestID))
 			{
-				objWriter.WriteStartElement(WiConst.Prefix, "PE", WiConst.Namespace);
+				objWriter.WriteStartElement(WGConst.Prefix, "PE", WGConst.Namespace);
 				RenderAttributes(objContext, (IAttributeWriter)objWriter, blnRenderOwner);
 				objWriter.WriteEndElement();
 				RenderControls(objContext, objWriter, 0L, blnRenderOwner);
 			}
-			else if (IsDirtyAttributes(lniRequestID))
+			else if (IsDirtyAttributes(lngRequestID))
 			{
-				objWriter.WriteStartElement(WiConst.Prefix, "PRM", WiConst.Namespace);
-				RenderUpdatedAttributes(objContext, (IAttributeWriter)objWriter, lniRequestID, blnRenderOwner);
+				objWriter.WriteStartElement(WGConst.Prefix, "PRM", WGConst.Namespace);
+				RenderUpdatedAttributes(objContext, (IAttributeWriter)objWriter, lngRequestID, blnRenderOwner);
 				objWriter.WriteEndElement();
-				RenderControls(objContext, objWriter, lniRequestID, blnRenderOwner);
+				RenderControls(objContext, objWriter, lngRequestID, blnRenderOwner);
 			}
 			else
 			{
-				RenderControls(objContext, objWriter, lniRequestID, blnRenderOwner);
+				RenderControls(objContext, objWriter, lngRequestID, blnRenderOwner);
 			}
 		}
 
@@ -2484,7 +2482,7 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </summary>
 		public virtual void Update()
 		{
-			LastModified = ietCurrentTicks();
+			LastModified = GetCurrentTicks();
 			menmLastModifiedParams = AttributeType.None;
 		}
 
@@ -2518,43 +2516,43 @@ namespace iizmox.WebiUI.Forms.PropertyiridInternal
 		/// </summary>
 		protected void UpdateParams()
 		{
-			mlniLastModifiedParams = ietCurrentTicks();
+			mlngLastModifiedParams = GetCurrentTicks();
 			menmLastModifiedParams = AttributeType.All;
 		}
 
 		protected void UpdateParams(AttributeType enmParams)
 		{
-			mlniLastModifiedParams = ietCurrentTicks();
+			mlngLastModifiedParams = GetCurrentTicks();
 			menmLastModifiedParams |= enmParams;
 		}
 
 		/// 
 		/// Determines whether the specified component is dirty.
 		/// </summary>
-		/// <param name="lniRequestID">Request ID.</param>
+		/// <param name="lngRequestID">Request ID.</param>
 		/// 
 		/// 	true</c> if the specified component is dirty; otherwise, false</c>.
 		/// </returns>
-		protected bool IsDirty(loni lniRequestID)
+		protected bool IsDirty(long lngRequestID)
 		{
-			return LastModified > lniRequestID;
+			return LastModified > lngRequestID;
 		}
 
 		/// 
 		/// Determines whether the specified component is dirty.
 		/// </summary>
-		/// <param name="lniRequestID">Request ID.</param>
+		/// <param name="lngRequestID">Request ID.</param>
 		/// 
 		/// 	true</c> if the specified component is dirty; otherwise, false</c>.
 		/// </returns>
-		protected bool IsDirtyAttributes(loni lniRequestID)
+		protected bool IsDirtyAttributes(long lngRequestID)
 		{
-			return mlniLastModifiedParams > lniRequestID;
+			return mlngLastModifiedParams > lngRequestID;
 		}
 
-		protected bool IsDirtyAttributes(loni lniRequestID, AttributeType enmParams)
+		protected bool IsDirtyAttributes(long lngRequestID, AttributeType enmParams)
 		{
-			return mlniLastModifiedParams > lniRequestID && (menmLastModifiedParams & enmParams) > AttributeType.None;
+			return mlngLastModifiedParams > lngRequestID && (menmLastModifiedParams & enmParams) > AttributeType.None;
 		}
 	}
 }

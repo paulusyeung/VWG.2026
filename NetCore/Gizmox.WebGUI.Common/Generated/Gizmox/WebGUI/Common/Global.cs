@@ -152,7 +152,7 @@ namespace Gizmox.WebGUI.Common
 
 		public static void ClearRequestParams()
 		{
-			HttpContext current = HttpContext.Current;
+			HttpContext current = HostContext.Current?.VWGContext?.HttpContext;
 			if (current == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;

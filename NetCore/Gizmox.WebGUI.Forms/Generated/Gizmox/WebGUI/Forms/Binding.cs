@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents the simple binding between the property value of an object and the property value of a control.</summary>
+/// Represents the simple binding between the property value of an object and the property value of a control.</summary>
 	/// 1</filterpriority>
 	[Serializable]
 	[TypeConverter(typeof(ListBindingConverter))]

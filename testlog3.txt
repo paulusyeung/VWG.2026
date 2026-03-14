@@ -1,0 +1,4 @@
+Test run for C:\Projects\VWG\NetCore\Gizmox.WebGUI.Common.Tests\bin\Debug\net8.0-windows7.0\Gizmox.WebGUI.Common.Tests.dll (.NETCoreApp,Version=v8.0)
+VSTest version 17.14.1 (x64)
+
+The test source file "C:\Projects\VWG\NetCore\Gizmox.WebGUI.Common.Tests\bin\Debug\net8.0-windows7.0\Gizmox.WebGUI.Common.Tests.dll" provided was not found.

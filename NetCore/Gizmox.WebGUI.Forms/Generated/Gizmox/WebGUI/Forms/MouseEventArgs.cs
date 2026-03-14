@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides data for the MouseUp, MouseDown, and MouseMove events.
 	/// </summary>
 	[Serializable]

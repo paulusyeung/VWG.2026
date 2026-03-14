@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies constants defining the default button on a <see cref="T:Gizmox.WebGUI.Forms.MessageBox"></see>.
 	/// </summary>
 	public enum MessageBoxDefaultButton

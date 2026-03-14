@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -252,7 +252,7 @@ namespace Gizmox.WebGUI.Forms
 			mobjComboBoxValueA.InitializeFilterValues(blnAddSystemFilterOptions: false, blnCalculateDropDownWidth: false, blnClearBindingSourceFilter: true);
 			mobjComboBoxValueB.InitializeFilterValues(blnAddSystemFilterOptions: false, blnCalculateDropDownWidth: false, blnClearBindingSourceFilter: true);
 			mobjComboBoxOperatorB.Items.Add("");
-			List<object> filterComparisonOperator = DataGridViewFilterCell.DataGridViewFilterControl.GetFilterComparisonOperator(mobjDataGridViewColumn.ValueType);
+			List filterComparisonOperator = DataGridViewFilterCell.DataGridViewFilterControl.GetFilterComparisonOperator(mobjDataGridViewColumn.ValueType);
 			foreach (FilterComparisonOperator item in filterComparisonOperator)
 			{
 				string strText = SR.GetString($"FilterComparisionOperator_{item.ToString()}");

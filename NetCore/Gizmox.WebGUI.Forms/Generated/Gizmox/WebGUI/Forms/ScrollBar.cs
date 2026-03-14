@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Obsolete("Not implemented. Added for migration compatibility")]
+[Obsolete("Not implemented. Added for migration compatibility")]
 	[Browsable(false)]
 	public abstract class ScrollBar : Control
 	{

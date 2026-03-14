@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -132,7 +132,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// <param name="objCallback">The obj callback.</param>
 		public void ReadEntries(EventHandler<DirectoryReaderEventArgs> objCallback)
 		{
-			mobjFileManager.ReadEntries(this, (dynamic)objCallback);
+			mobjFileManager.ReadEntries(this, objCallback);
 		}
 	}
 }

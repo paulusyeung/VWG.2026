@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// CheckBoxSwitchVisualTemplate SwitchSizing enum
 	/// </summary>
 	public enum CheckBoxSwitchVisualTemplateSwitchSizing

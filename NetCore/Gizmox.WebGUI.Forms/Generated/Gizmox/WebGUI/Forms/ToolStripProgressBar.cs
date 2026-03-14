@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a Windows progress bar control contained in a <see cref="T:System.Windows.Forms.StatusStrip"></see>.</summary>
+/// Represents a Windows progress bar control contained in a <see cref="T:System.Windows.Forms.StatusStrip"></see>.</summary>
 	[Serializable]
 	[DefaultProperty("Value")]
 	[ClientController("Gizmox.WebGUI.Client.Controllers.ToolStripProgressBarController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]

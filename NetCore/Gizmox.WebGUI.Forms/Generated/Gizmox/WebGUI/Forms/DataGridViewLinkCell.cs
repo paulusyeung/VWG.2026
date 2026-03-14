@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a cell that contains a link. </summary>
+/// Represents a cell that contains a link. </summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[Skin(typeof(DataGridViewLinkCellSkin))]

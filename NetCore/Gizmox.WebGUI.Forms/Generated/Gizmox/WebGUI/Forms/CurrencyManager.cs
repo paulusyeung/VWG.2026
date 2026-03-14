@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Manages a list of <see cref="T:Gizmox.WebGUI.Forms.Binding"></see> objects.</summary>
+/// Manages a list of <see cref="T:Gizmox.WebGUI.Forms.Binding"></see> objects.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class CurrencyManager : BindingManagerBase
@@ -329,7 +329,7 @@ namespace Gizmox.WebGUI.Forms
 			marrSerializedDataViewNewRowValues = null;
 			try
 			{
-				if (List != null && List.GetType() == typeof(DataView) && Position >= 0 && Position < List.Count && ((DataRowView)this[Position]).IsNew)
+				if (List != null && List.GetType() == typeof(DataView) && Position >= 0 && Position <List.Count && ((DataRowView)this[Position]).IsNew)
 				{
 					marrSerializedDataViewNewRowValues = ((DataRowView)this[Position]).Row.ItemArray;
 				}
@@ -377,7 +377,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			if (Count > 0)
 			{
-				object obj = ((Position >= 0 && Position < List.Count) ? List[Position] : null);
+				object obj = ((Position >= 0 && Position <List.Count) ? List[Position] : null);
 				if (obj is IEditableObject editableObject)
 				{
 					editableObject.CancelEdit();
@@ -505,7 +505,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			if (Count > 0 && CurrencyManager_PullData())
 			{
-				object obj = ((Position >= 0 && Position < List.Count) ? List[Position] : null);
+				object obj = ((Position >= 0 && Position <List.Count) ? List[Position] : null);
 				if (obj is IEditableObject editableObject)
 				{
 					editableObject.EndEdit();
@@ -527,7 +527,7 @@ namespace Gizmox.WebGUI.Forms
 			{
 				return ((IBindingList)List).Find(objPropertyDescriptor, objKey);
 			}
-			for (int i = 0; i < List.Count; i++)
+			for (int i = 0; i <List.Count; i++)
 			{
 				object value = objPropertyDescriptor.GetValue(List[i]);
 				if (objKey.Equals(value))
@@ -655,13 +655,13 @@ namespace Gizmox.WebGUI.Forms
 					}
 					else
 					{
-						ChangeRecordState(Math.Min(listposition, List.Count - 1), blnValidating: true, blnEndCurrentEdit: false, blnFirePositionChange: true, blnPullData: false);
+						ChangeRecordState(Math.Min(listposition,List.Count - 1), blnValidating: true, blnEndCurrentEdit: false, blnFirePositionChange: true, blnPullData: false);
 					}
 					UpdateIsBinding(blnRaiseItemChangedEvent: false);
 					OnItemChanged(mobjResetEvent);
 					break;
 				case ListChangedType.ItemAdded:
-					if (e2.NewIndex <= listposition && listposition < List.Count - 1)
+					if (e2.NewIndex <= listposition && listposition <List.Count - 1)
 					{
 						ChangeRecordState(listposition + 1, blnValidating: true, blnEndCurrentEdit: true, listposition != List.Count - 2, blnPullData: false);
 						UpdateIsBinding();
@@ -702,11 +702,11 @@ namespace Gizmox.WebGUI.Forms
 				case ListChangedType.ItemMoved:
 					if (e2.OldIndex == listposition)
 					{
-						ChangeRecordState(e2.NewIndex, blnValidating: true, Position > -1 && Position < List.Count, blnFirePositionChange: true, blnPullData: false);
+						ChangeRecordState(e2.NewIndex, blnValidating: true, Position > -1 && Position <List.Count, blnFirePositionChange: true, blnPullData: false);
 					}
 					else if (e2.NewIndex == listposition)
 					{
-						ChangeRecordState(e2.OldIndex, blnValidating: true, Position > -1 && Position < List.Count, blnFirePositionChange: true, blnPullData: false);
+						ChangeRecordState(e2.OldIndex, blnValidating: true, Position > -1 && Position <List.Count, blnFirePositionChange: true, blnPullData: false);
 					}
 					OnItemChanged(mobjResetEvent);
 					break;
@@ -1017,7 +1017,7 @@ namespace Gizmox.WebGUI.Forms
 				mintLastGoodKnownRow = -1;
 				break;
 			case ListChangedType.ItemAdded:
-				if (e.NewIndex <= mintLastGoodKnownRow && mintLastGoodKnownRow < List.Count - 1)
+				if (e.NewIndex <= mintLastGoodKnownRow && mintLastGoodKnownRow <List.Count - 1)
 				{
 					mintLastGoodKnownRow++;
 				}

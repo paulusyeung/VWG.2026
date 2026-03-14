@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the style of the sizing grip on a <see cref="T:System.Windows.Forms.Form"></see>.</summary>
+/// Specifies the style of the sizing grip on a <see cref="T:System.Windows.Forms.Form"></see>.</summary>
 	/// 2</filterpriority>
 	[Obsolete("Not implemented. Added for migration compatibility")]
 	[Browsable(false)]

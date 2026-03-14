@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.DataGridView.RowErrorTextNeeded"></see> event of a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control. </summary>
+/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.DataGridView.RowErrorTextNeeded"></see> event of a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control. </summary>
 	[Serializable]
 	public class DataGridViewRowErrorTextNeededEventArgs : EventArgs
 	{

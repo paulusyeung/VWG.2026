@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the effects of a drag-and-drop operation.</summary>
+/// Specifies the effects of a drag-and-drop operation.</summary>
 	/// 2</filterpriority>
 	[Flags]
 	public enum DragDropEffects

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -517,8 +517,8 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objDockingPosition">The obj docking position.</param>
 		void IDescriptable.ResetDescriptorsTree(ZoneType objType, DockStyle objDockingPosition)
 		{
-			List<object> windows = Windows;
-			mobjData = ZoneDescriptorInternal.CloneWithoutReferences<ZoneDescriptor>();
+			List windows = Windows;
+			mobjData = ZoneDescriptorInternal.CloneWithoutReferences();
 			((IDescriptable)TabControl).ResetDescriptorsTree(objType, objDockingPosition);
 			ZoneType = objType;
 			foreach (DockingWindow item in windows)
@@ -884,7 +884,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		internal List<object> RemoveAndReturnAllWindows()
 		{
-			List<object> windows = Windows;
+			List windows = Windows;
 			RemoveWindows(Windows.ToArray());
 			return windows;
 		}
@@ -956,7 +956,7 @@ namespace Gizmox.WebGUI.Forms
 			}
 			case Relation.Inside:
 			{
-				List<object> list = objZone.RemoveAndReturnAllWindows();
+				List list = objZone.RemoveAndReturnAllWindows();
 				AddWindow(Relation.Inside, list.ToArray());
 				break;
 			}
@@ -1066,7 +1066,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		internal virtual void OnHeaderDoubleClick()
 		{
-			List<object> windows = Windows;
+			List windows = Windows;
 			DockState objDesiredDockState = ((menmZoneType == ZoneType.Root) ? DockState.Dock : DockingManager.GetDockStateAccordingToZoneType(menmZoneType));
 			Manager.SwitchWindowsDockState(objDesiredDockState, windows.ToArray());
 		}

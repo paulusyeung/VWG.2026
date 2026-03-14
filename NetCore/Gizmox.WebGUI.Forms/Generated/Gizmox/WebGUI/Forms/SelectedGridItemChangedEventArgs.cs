@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.PropertyGrid.SelectedGridItemChanged"></see> event of the <see cref="T:Gizmox.WebGUI.Forms.PropertyGrid"></see> control.</summary>
+/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.PropertyGrid.SelectedGridItemChanged"></see> event of the <see cref="T:Gizmox.WebGUI.Forms.PropertyGrid"></see> control.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class SelectedGridItemChangedEventArgs : EventArgs

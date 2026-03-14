@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 {
-	[Serializable]
+[Serializable]
 	public class FileTransfer : IFileTransfer
 	{
 		private FileManager mobjManager;
@@ -123,7 +123,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// <param name="strDestinationFileFullPath">The STR destination file full path.</param>
 		/// <param name="blnTrustAllHosts">if set to true</c> [BLN trust all hosts].</param>
 		/// <param name="objCallback">The obj callback.</param>
-		public void Download(string strSourceUrl, string strDestinationFileFullPath, bool blnTrustAllHosts, EventHandler objCallback)
+		public void Download(string strSourceUrl, string strDestinationFileFullPath, bool blnTrustAllHosts, EventHandler<FileDownloadEventArgs> objCallback)
 		{
 			mobjManager.Download(this, strSourceUrl, strDestinationFileFullPath, blnTrustAllHosts, objCallback);
 		}
@@ -136,7 +136,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// <param name="objOptions">The obj options.</param>
 		/// <param name="blnTrustAllHosts">if set to true</c> [BLN trust all hosts].</param>
 		/// <param name="objCallback">The obj callback.</param>
-		public void Upload(string strFullFilePath, string strUploadUrl, FileUploadOptions objOptions, bool blnTrustAllHosts, EventHandler objCallback)
+		public void Upload(string strFullFilePath, string strUploadUrl, FileUploadOptions objOptions, bool blnTrustAllHosts, EventHandler<FileUploadEventArgs> objCallback)
 		{
 			mobjManager.Upload(this, strFullFilePath, strUploadUrl, objOptions, blnTrustAllHosts, objCallback);
 		}

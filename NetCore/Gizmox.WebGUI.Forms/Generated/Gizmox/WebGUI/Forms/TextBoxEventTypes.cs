@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Defines TextBox events types
 	/// </summary>
 	public enum TextBoxEventTypes

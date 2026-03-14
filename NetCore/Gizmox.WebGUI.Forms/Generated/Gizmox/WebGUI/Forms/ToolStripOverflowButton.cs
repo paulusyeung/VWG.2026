@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Hosts a <see cref="T:System.Windows.Forms.ToolStripDropDown"></see> that displays items that overflow the <see cref="T:System.Windows.Forms.ToolStrip"></see>.</summary>
+/// Hosts a <see cref="T:System.Windows.Forms.ToolStripDropDown"></see> that displays items that overflow the <see cref="T:System.Windows.Forms.ToolStrip"></see>.</summary>
 	[Serializable]
 	[Obsolete("Not implemented. Added for migration compatibility")]
 	[ToolStripItemDesignerAvailability(ToolStripItemDesignerAvailability.None)]

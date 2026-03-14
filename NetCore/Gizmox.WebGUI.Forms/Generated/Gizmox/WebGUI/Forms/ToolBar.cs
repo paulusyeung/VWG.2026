@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// ToolBar control.
 	/// </summary>
 	[Serializable]
@@ -1121,7 +1121,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static ToolBar()
 		{
-			ButtonClick = SerializableEvent.Register("ButtonClick", typeof(ToolBarButtonClickEventHandler), typeof(ToolBar));
+			ButtonClickEvent = SerializableEvent.Register("ButtonClick", typeof(ToolBarButtonClickEventHandler), typeof(ToolBar));
 		}
 	}
 }

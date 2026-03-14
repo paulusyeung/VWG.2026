@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides a user interface for browsing the properties of an object.</summary>
+/// Provides a user interface for browsing the properties of an object.</summary>
 	/// 1</filterpriority>
 	[Serializable]
 	[ToolboxBitmap(typeof(PropertyGrid), "PropertyGrid_45.bmp")]

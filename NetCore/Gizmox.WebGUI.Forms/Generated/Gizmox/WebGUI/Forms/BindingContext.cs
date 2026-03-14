@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Manages the collection of <see cref="T:Gizmox.WebGUI.Forms.BindingManagerBase"></see> objects for any object that inherits from the <see cref="T:Gizmox.WebGUI.Forms.Control"></see> class.</summary>
+/// Manages the collection of <see cref="T:Gizmox.WebGUI.Forms.BindingManagerBase"></see> objects for any object that inherits from the <see cref="T:Gizmox.WebGUI.Forms.Control"></see> class.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[DefaultEvent("CollectionChanged")]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for the <see cref="E:Gizmox.WebGui.Forms.ListView.ItemDrag"></see> event of the <see cref="T:Gizmox.WebGui.Forms.ListView"></see> and <see cref="T:Gizmox.WebGui.Forms.TreeView"></see> controls.</summary>
+/// Provides data for the <see cref="E:Gizmox.WebGui.Forms.ListView.ItemDrag"></see> event of the <see cref="T:Gizmox.WebGui.Forms.ListView"></see> and <see cref="T:Gizmox.WebGui.Forms.TreeView"></see> controls.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class ItemDragEventArgs : EventArgs

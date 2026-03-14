@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration.MediaComponents
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -114,11 +114,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.MediaComponents
 
 		private float mfltDuration = -1f;
 
-		private EventHandler mobjSuccessCallback;
+		private EventHandler<MediaEventArgs> mobjSuccessCallback;
 
-		private EventHandler mobjErrorCallback;
+		private EventHandler<EmptyDeviceEventArgs> mobjErrorCallback;
 
-		private EventHandler mobjMediaStateCallback;
+		private EventHandler<MediaStateEventArgs> mobjMediaStateCallback;
 
 		/// 
 		/// Gets the id.
@@ -149,7 +149,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.MediaComponents
 		/// 
 		/// Occurs when [compass heading changed].
 		/// </summary>
-		public event Action PositionChanged {
+		public event Action<MediaPositionEventArgs> PositionChanged
+		{
 			add
 			{
 				mobjDeviceMedia.AddPositionChanged(this, value);
@@ -227,7 +228,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.MediaComponents
 		/// Gets the current position.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void GetCurrentPosition(EventHandler objCallback)
+		public void GetCurrentPosition(EventHandler<MediaPositionEventArgs> objCallback)
 		{
 			mobjDeviceMedia.GetCurrentPosition(this, objCallback);
 		}
@@ -252,7 +253,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.MediaComponents
 		/// Sets the success event.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void SetSuccessEvent(EventHandler objCallback)
+		public void SetSuccessEvent(EventHandler<MediaEventArgs> objCallback)
 		{
 			Update();
 			mobjSuccessCallback = objCallback;
@@ -262,7 +263,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.MediaComponents
 		/// Sets the error event.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void SetErrorEvent(EventHandler objCallback)
+		public void SetErrorEvent(EventHandler<EmptyDeviceEventArgs> objCallback)
 		{
 			Update();
 			mobjErrorCallback = objCallback;
@@ -272,7 +273,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.MediaComponents
 		/// Sets the state change event.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void SetStateChangeEvent(EventHandler objCallback)
+		public void SetStateChangeEvent(EventHandler<MediaStateEventArgs> objCallback)
 		{
 			Update();
 			mobjMediaStateCallback = objCallback;

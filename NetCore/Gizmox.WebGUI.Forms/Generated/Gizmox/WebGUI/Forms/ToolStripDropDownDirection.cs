@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the direction in which a <see cref="T:Gizmox.WebGUI.Forms.ToolStripDropDown"></see> control is displayed relative to its parent control.</summary>
+/// Specifies the direction in which a <see cref="T:Gizmox.WebGUI.Forms.ToolStripDropDown"></see> control is displayed relative to its parent control.</summary>
 	public enum ToolStripDropDownDirection
 	{
 		/// Uses the mouse position to specify that the <see cref="T:Gizmox.WebGUI.Forms.ToolStripDropDown"></see> is displayed above and to the left of its parent control.</summary>

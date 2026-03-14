@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Handles the painting functionality for <see cref="T:System.Windows.Forms.ToolStrip"></see> objects.</summary>
+/// Handles the painting functionality for <see cref="T:System.Windows.Forms.ToolStrip"></see> objects.</summary>
 	[Serializable]
 	[Obsolete("Not implemented. Added for migration compatibility")]
 	public abstract class ToolStripRenderer

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the type of action used to raise the <see cref="E:Gizmox.WebGUI.Forms.ScrollBar.Scroll"></see> event.</summary> 
+/// Specifies the type of action used to raise the <see cref="E:Gizmox.WebGUI.Forms.ScrollBar.Scroll"></see> event.</summary> 
 	/// 2</filterpriority>
 	[ComVisible(true)]
 	public enum ScrollEventType

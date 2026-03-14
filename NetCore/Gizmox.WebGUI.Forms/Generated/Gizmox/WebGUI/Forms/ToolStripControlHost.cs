@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Hosts custom controls or Windows Forms controls.</summary>
+/// Hosts custom controls or Windows Forms controls.</summary>
 	[Serializable]
 	[Skin(typeof(ToolStripControlHostSkin))]
 	[ClientController("Gizmox.WebGUI.Client.Controllers.ToolStripControlHostController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]
@@ -137,60 +137,60 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the DisplayStyleChanged handler.
 		/// </summary>
 		/// The DisplayStyleChanged handler.</value>
-		private EventHandler DisplayStyleChangedHandler => (EventHandler)GetHandler(DisplayStyleChanged);
+		private EventHandler DisplayStyleChangedHandler => (EventHandler)GetHandler(DisplayStyleChangedEvent);
 
 		/// 
 		/// Gets the Enter handler.
 		/// </summary>
 		/// The Enter handler.</value>
-		private EventHandler EnterHandler => (EventHandler)GetHandler(Enter);
+		private EventHandler EnterHandler => (EventHandler)GetHandler(EnterEvent);
 
 		/// 
 		/// Gets the GotFocus handler.
 		/// </summary>
 		/// The GotFocus handler.</value>
-		private EventHandler GotFocusHandler => (EventHandler)GetHandler(GotFocus);
+		private EventHandler GotFocusHandler => (EventHandler)GetHandler(GotFocusEvent);
 
 		/// 
 		/// Gets the KeyDown handler.
 		/// </summary>
 		/// The KeyDown handler.</value>
-		private KeyEventHandler KeyDownHandler => GetHandler(KeyDown) as KeyEventHandler;
+		private KeyEventHandler KeyDownHandler => GetHandler(KeyDownEvent) as KeyEventHandler;
 
 		/// 
 		/// Gets the KeyPress handler.
 		/// </summary>
 		/// The KeyPress handler.</value>
-		private KeyPressEventHandler KeyPressHandler => GetHandler(KeyPress) as KeyPressEventHandler;
+		private KeyPressEventHandler KeyPressHandler => GetHandler(KeyPressEvent) as KeyPressEventHandler;
 
 		/// 
 		/// Gets the key up handler.
 		/// </summary>
-		private KeyEventHandler KeyUpHandler => GetHandler(KeyUp) as KeyEventHandler;
+		private KeyEventHandler KeyUpHandler => GetHandler(KeyUpEvent) as KeyEventHandler;
 
 		/// 
 		/// Gets the Leave handler.
 		/// </summary>
 		/// The Leave handler.</value>
-		private EventHandler LeaveHandler => (EventHandler)GetHandler(Leave);
+		private EventHandler LeaveHandler => (EventHandler)GetHandler(LeaveEvent);
 
 		/// 
 		/// Gets the LostFocus handler.
 		/// </summary>
 		/// The LostFocus handler.</value>
-		private EventHandler LostFocusHandler => (EventHandler)GetHandler(LostFocus);
+		private EventHandler LostFocusHandler => (EventHandler)GetHandler(LostFocusEvent);
 
 		/// 
 		/// Gets the Validated handler.
 		/// </summary>
 		/// The Validated handler.</value>
-		private EventHandler ValidatedHandler => (EventHandler)GetHandler(Validated);
+		private EventHandler ValidatedHandler => (EventHandler)GetHandler(ValidatedEvent);
 
 		/// 
 		/// Gets the Validating handler.
 		/// </summary>
 		/// The Validating handler.</value>
-		private EventHandler ValidatingHandler => (EventHandler)GetHandler(Validating);
+		private EventHandler ValidatingHandler => (EventHandler)GetHandler(ValidatingEvent);
 
 		private Control mobjControl
 		{
@@ -1515,7 +1515,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		protected internal override IList GetComponentOffsprings(string strOffspringTypeName)
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			list.Add(Control);
 			return list;
 		}
@@ -1540,16 +1540,16 @@ namespace Gizmox.WebGUI.Forms
 
 		static ToolStripControlHost()
 		{
-			DisplayStyleChanged = SerializableEvent.Register("DisplayStyleChanged", typeof(EventHandler), typeof(ToolStripControlHost));
-			Enter = SerializableEvent.Register("Enter", typeof(EventHandler), typeof(ToolStripControlHost));
-			GotFocus = SerializableEvent.Register("GotFocus", typeof(EventHandler), typeof(ToolStripControlHost));
-			KeyDown = SerializableEvent.Register("KeyDown", typeof(KeyEventHandler), typeof(ToolStripControlHost));
-			KeyPress = SerializableEvent.Register("KeyPress", typeof(KeyPressEventHandler), typeof(ToolStripControlHost));
-			KeyUp = SerializableEvent.Register("KeyUp", typeof(KeyEventHandler), typeof(ToolStripControlHost));
-			Leave = SerializableEvent.Register("Leave", typeof(EventHandler), typeof(ToolStripControlHost));
-			LostFocus = SerializableEvent.Register("LostFocus", typeof(EventHandler), typeof(ToolStripControlHost));
-			Validated = SerializableEvent.Register("Validated", typeof(EventHandler), typeof(ToolStripControlHost));
-			Validating = SerializableEvent.Register("Validating", typeof(EventHandler), typeof(ToolStripControlHost));
+			DisplayStyleChangedEvent = SerializableEvent.Register("DisplayStyleChanged", typeof(EventHandler), typeof(ToolStripControlHost));
+			EnterEvent = SerializableEvent.Register("Enter", typeof(EventHandler), typeof(ToolStripControlHost));
+			GotFocusEvent = SerializableEvent.Register("GotFocus", typeof(EventHandler), typeof(ToolStripControlHost));
+			KeyDownEvent = SerializableEvent.Register("KeyDown", typeof(KeyEventHandler), typeof(ToolStripControlHost));
+			KeyPressEvent = SerializableEvent.Register("KeyPress", typeof(KeyPressEventHandler), typeof(ToolStripControlHost));
+			KeyUpEvent = SerializableEvent.Register("KeyUp", typeof(KeyEventHandler), typeof(ToolStripControlHost));
+			LeaveEvent = SerializableEvent.Register("Leave", typeof(EventHandler), typeof(ToolStripControlHost));
+			LostFocusEvent = SerializableEvent.Register("LostFocus", typeof(EventHandler), typeof(ToolStripControlHost));
+			ValidatedEvent = SerializableEvent.Register("Validated", typeof(EventHandler), typeof(ToolStripControlHost));
+			ValidatingEvent = SerializableEvent.Register("Validating", typeof(EventHandler), typeof(ToolStripControlHost));
 		}
 	}
 }

@@ -100,29 +100,29 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration
 {
-	[Serializable]
+[Serializable]
 	public class DeviceMedia : WatchedDeviceComponent, IDeviceMedia
 	{
 		private Dictionary<string, Media> mobjIdMediaMap = new Dictionary<string, Media>();
 
 		private List<KeyValuePair<string, object[]>> mobjClientMethodsInvocationBuffer;
 
-		private SingleCallMethodStore<DeviceMediaEventArgs> mobjMediaPositionEventArgsStore;
+		private SingleCallMethodStore<MediaPositionEventArgs> mobjMediaPositionEventArgsStore;
 
-		private SingleCallMethodStore<DeviceMediaEventArgs> mobjMediaEventArgsStore;
+		private SingleCallMethodStore<MediaEventArgs> mobjMediaEventArgsStore;
 
-		private Dictionary<string, MultipleCallMethodStore<DeviceMediaEventArgs>> mobjMediaIdPositionChangedStoreMap = new Dictionary<string, MultipleCallMethodStore<DeviceMediaEventArgs>>();
+		private Dictionary<string, MultipleCallMethodStore<MediaPositionEventArgs>> mobjMediaIdPositionChangedStoreMap = new Dictionary<string, MultipleCallMethodStore<MediaPositionEventArgs>>();
 
 		/// 
 		/// Gets the media position event args store.
 		/// </summary>
-		internal SingleCallMethodStore<DeviceMediaEventArgs> MediaPositionEventArgsStore
+		internal SingleCallMethodStore<MediaPositionEventArgs> MediaPositionEventArgsStore
 		{
 			get
 			{
 				if (mobjMediaPositionEventArgsStore == null)
 				{
-					mobjMediaPositionEventArgsStore = new SingleCallMethodStore<DeviceMediaEventArgs>();
+					mobjMediaPositionEventArgsStore = new SingleCallMethodStore<MediaPositionEventArgs>();
 				}
 				return mobjMediaPositionEventArgsStore;
 			}
@@ -131,13 +131,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the media event args store.
 		/// </summary>
-		internal SingleCallMethodStore<DeviceMediaEventArgs> MediaEventArgsStore
+		internal SingleCallMethodStore<EventArgs> MediaEventArgsStore
 		{
 			get
 			{
 				if (mobjMediaEventArgsStore == null)
 				{
-					mobjMediaEventArgsStore = new SingleCallMethodStore<DeviceMediaEventArgs>();
+					mobjMediaEventArgsStore = new SingleCallMethodStore<MediaEventArgs>();
 				}
 				return mobjMediaEventArgsStore;
 			}
@@ -152,12 +152,12 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		{
 		}
 
-		private MultipleCallMethodStore<DeviceMediaEventArgs> GetPositionChangedStore(Media objMedia)
+		private MultipleCallMethodStore<MediaPositionEventArgs> GetPositionChangedStore(Media objMedia)
 		{
-			MultipleCallMethodStore<DeviceMediaEventArgs> value = null;
+			MultipleCallMethodStore<MediaPositionEventArgs> value = null;
 			if (!mobjMediaIdPositionChangedStoreMap.TryGetValue(objMedia.Id, out value))
 			{
-				value = new MultipleCallMethodStore<DeviceMediaEventArgs>();
+				value = new MultipleCallMethodStore<MediaPositionEventArgs>();
 				mobjMediaIdPositionChangedStoreMap.Add(objMedia.Id, value);
 			}
 			return value;
@@ -239,7 +239,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		private void OnPositionChanged(Media objMedia, MediaPositionEventArgs objArguments)
 		{
-			MultipleCallMethodStore<DeviceMediaEventArgs> positionChangedStore = GetPositionChangedStore(objMedia);
+			MultipleCallMethodStore<MediaPositionEventArgs> positionChangedStore = GetPositionChangedStore(objMedia);
 			positionChangedStore.InvokeMultipleCallMethods(objArguments);
 		}
 
@@ -383,14 +383,14 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 
 		public void AddPositionChanged(Media objMedia, Action objAction)
 		{
-			MultipleCallMethodStore<DeviceMediaEventArgs> positionChangedStore = GetPositionChangedStore(objMedia);
+			MultipleCallMethodStore<MediaPositionEventArgs> positionChangedStore = GetPositionChangedStore(objMedia);
 			positionChangedStore.AddMultipleCallMethod(objAction);
 			objMedia.Update();
 		}
 
 		public void RemovePositionChanged(Media objMedia, Action objAction)
 		{
-			MultipleCallMethodStore<DeviceMediaEventArgs> positionChangedStore = GetPositionChangedStore(objMedia);
+			MultipleCallMethodStore<MediaPositionEventArgs> positionChangedStore = GetPositionChangedStore(objMedia);
 			positionChangedStore.RemoveMultipleCallMethod(objAction);
 			if (!positionChangedStore.HasEventListeners())
 			{
@@ -432,7 +432,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		public override CriticalEventsData GetCriticalEventsData()
 		{
 			CriticalEventsData criticalEventsData = new CriticalEventsData();
-			foreach (MultipleCallMethodStore<DeviceMediaEventArgs> value in mobjMediaIdPositionChangedStoreMap.Values)
+			foreach (MultipleCallMethodStore<MediaPositionEventArgs> value in mobjMediaIdPositionChangedStoreMap.Values)
 			{
 				if (value.HasEventListeners())
 				{

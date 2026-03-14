@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	internal class BindToObject : SerializableObject
 	{
 		private static readonly SerializableProperty bindingManagerProperty = SerializableProperty.Register("bindingManager", typeof(BindingManagerBase), typeof(BindToObject));

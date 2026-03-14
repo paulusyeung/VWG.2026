@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	public class PropertyGridToolStripSkin : ToolStripSkin
+public class PropertyGridToolStripSkin : ToolStripSkin
 	{
 		private void InitializeComponent()
 		{

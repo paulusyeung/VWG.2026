@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	[VisualTemplate(typeof(ComboBox), "Visually adjusts the ComboBox control to appear identical to a native ComboBox on the customized device.")]
 	[Skin(typeof(NativeComboBoxVisualTemplateSkin))]
 	public class NativeComboBoxVisualTemplate : VisualTemplate

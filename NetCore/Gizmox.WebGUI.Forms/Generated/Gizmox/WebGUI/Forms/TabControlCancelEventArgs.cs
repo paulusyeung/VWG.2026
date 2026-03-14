@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.TabControl.Selecting"></see> and <see cref="E:Gizmox.WebGUI.Forms.TabControl.Deselecting"></see> events of a <see cref="T:Gizmox.WebGUI.Forms.TabControl"></see> control. 
 	/// </summary>
 	[Serializable]

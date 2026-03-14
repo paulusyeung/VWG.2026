@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies how a <see cref="T:Gizmox.WebGUI.Forms.StatusBarPanel"></see> on a <see cref="T:Gizmox.WebGUI.Forms.StatusBar"></see> control behaves when the control resizes.
 	/// </summary>
 	public enum StatusBarPanelAutoSize

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Layout
 {
-	/// Represents a collection of objects.</summary>
+/// Represents a collection of objects.</summary>
 	[Serializable]
 	public class ArrangedElementCollection : IList, ICollection, IEnumerable
 	{

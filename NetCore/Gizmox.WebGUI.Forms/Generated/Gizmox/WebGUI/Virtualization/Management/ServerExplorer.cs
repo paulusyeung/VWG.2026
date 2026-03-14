@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Virtualization.Management
 {
-	/// 
+/// 
 	/// Summary description for ServerExplorer.
 	/// </summary>
 	[Serializable]
@@ -513,7 +513,7 @@ namespace Gizmox.WebGUI.Virtualization.Management
 
 		static ServerExplorer()
 		{
-			ComponentDoubleClick = SerializableEvent.Register("ComponentDoubleClickEvent", typeof(EventHandler), typeof(ServerExplorer));
+			ComponentDoubleClickEvent = SerializableEvent.Register("ComponentDoubleClickEvent", typeof(EventHandler), typeof(ServerExplorer));
 		}
 	}
 }

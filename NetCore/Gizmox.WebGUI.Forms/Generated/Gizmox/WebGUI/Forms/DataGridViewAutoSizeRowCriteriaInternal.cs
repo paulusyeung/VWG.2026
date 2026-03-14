@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	[Flags]
 	internal enum DataGridViewAutoSizeRowCriteriaInternal
 	{

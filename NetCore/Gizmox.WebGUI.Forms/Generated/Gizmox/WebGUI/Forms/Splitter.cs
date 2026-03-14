@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents a splitter control that enables the user to resize docked controls. <see cref="T:Gizmox.WebGUI.Forms.Splitter"></see> has been replaced by <see cref="T:System.Windows.Forms.SplitContainer"></see> and is provided only for compatibility with previous versions.
 	/// </summary>
 	[Serializable]

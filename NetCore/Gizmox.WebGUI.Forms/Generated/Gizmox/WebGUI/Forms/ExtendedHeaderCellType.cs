@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Enumaration for Cell Type of Extended Header, mostly by its position
 	/// </summary>
 	public enum ExtendedHeaderCellType

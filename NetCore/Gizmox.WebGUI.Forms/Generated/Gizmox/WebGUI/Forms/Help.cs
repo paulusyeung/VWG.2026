@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Encapsulates the HTML Help 1.0 engine.</summary>
+/// Encapsulates the HTML Help 1.0 engine.</summary>
 	/// 1</filterpriority>
 	[Serializable]
 	public class Help

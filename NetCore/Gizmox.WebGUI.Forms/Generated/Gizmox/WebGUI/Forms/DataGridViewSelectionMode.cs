@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Describes how cells of a DataGridView control can be selected.</summary>
+/// Describes how cells of a DataGridView control can be selected.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public enum DataGridViewSelectionMode

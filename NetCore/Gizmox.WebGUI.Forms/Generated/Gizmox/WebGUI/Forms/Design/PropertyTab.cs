@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design
 {
-	/// Provides a base class for property tabs.</summary>
+/// Provides a base class for property tabs.</summary>
 	[Serializable]
 	public abstract class PropertyTab : IExtenderProvider
 	{

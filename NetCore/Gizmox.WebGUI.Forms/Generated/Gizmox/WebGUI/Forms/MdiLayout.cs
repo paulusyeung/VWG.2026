@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies the layout of multiple document interface (MDI) child windows in an MDI parent window.
 	/// </summary>
 	public enum MdiLayout

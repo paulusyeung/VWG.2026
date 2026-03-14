@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies when a data source is updated when changes occur in the bound control.</summary>    
+/// Specifies when a data source is updated when changes occur in the bound control.</summary>    
 	public enum DataSourceUpdateMode : byte
 	{
 		/// 

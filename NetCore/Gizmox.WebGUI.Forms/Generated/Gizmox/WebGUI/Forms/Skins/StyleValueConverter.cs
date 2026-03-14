@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	/// 
+/// 
 	/// Provides a type convertor for the control style class
 	/// </summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]

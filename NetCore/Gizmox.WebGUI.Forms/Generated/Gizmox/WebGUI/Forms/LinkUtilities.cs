@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	internal class LinkUtilities
 	{
 		private static Color ieactiveLinkColor = Color.Empty;

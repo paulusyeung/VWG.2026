@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Administration.Abstract
 {
-	public interface IContentUpdateable
+public interface IContentUpdateable
 	{
 		void UpdateContent();
 	}

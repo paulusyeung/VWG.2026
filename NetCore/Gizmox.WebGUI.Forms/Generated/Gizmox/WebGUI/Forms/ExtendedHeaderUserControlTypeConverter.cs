@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// ExtendedHeaderUserControl Convertor.
 	/// Used to manage Designer feature for the object. e.g. Display filtered properties on PropertyGrid by User Control cell type
 	/// </summary>

@@ -100,19 +100,19 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
 	public class Notifications : DeviceComponent, INotifications
 	{
-		private SingleCallMethodStore<NotificationEventArgs> mobjAlertStore;
+		private SingleCallMethodStore<EmptyDeviceEventArgs> mobjAlertStore;
 
-		private SingleCallMethodStore<NotificationEventArgs> mobjConfirmStore;
+		private SingleCallMethodStore<ConfirmEventArgs> mobjConfirmStore;
 
-		private SingleCallMethodStore<NotificationEventArgs> mobjBeepStore;
+		private SingleCallMethodStore<EmptyDeviceEventArgs> mobjBeepStore;
 
-		private SingleCallMethodStore<NotificationEventArgs> mobjVibrateStore;
+		private SingleCallMethodStore<EmptyDeviceEventArgs> mobjVibrateStore;
 
 		/// 
 		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.DeviceIntegration.Notifications" /> class.
@@ -185,11 +185,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="strMessage">The STR message.</param>
 		/// <param name="objOptions">The obj options.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		public void Alert(string strMessage, AlertOptions objOptions, Action objCallback)
+		public void Alert(string strMessage, AlertOptions objOptions, Action<EmptyDeviceEventArgs> objCallback)
 		{
 			if (mobjAlertStore == null)
 			{
-				mobjAlertStore = new SingleCallMethodStore<NotificationEventArgs>();
+				mobjAlertStore = new SingleCallMethodStore<EmptyDeviceEventArgs>();
 			}
 			Alert(strMessage, objOptions, mobjAlertStore.StoreSingleCallMethod("alert", objCallback));
 		}
@@ -223,11 +223,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="objClientContext">The obj client context.</param>
 		/// <param name="objOptions">The obj options.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		public void Confirm(string strMessage, ConfirmOptions objOptions, Action objCallback)
+		public void Confirm(string strMessage, ConfirmOptions objOptions, Action<ConfirmEventArgs> objCallback)
 		{
 			if (mobjConfirmStore == null)
 			{
-				mobjConfirmStore = new SingleCallMethodStore<NotificationEventArgs>();
+				mobjConfirmStore = new SingleCallMethodStore<ConfirmEventArgs>();
 			}
 			Confirm(strMessage, objOptions, mobjConfirmStore.StoreSingleCallMethod("confirm", objCallback));
 		}
@@ -259,11 +259,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="intTimes">The int times.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		public void Beep(int intTimes, Action objCallback)
+		public void Beep(int intTimes, Action<EmptyDeviceEventArgs> objCallback)
 		{
 			if (mobjBeepStore == null)
 			{
-				mobjBeepStore = new SingleCallMethodStore<NotificationEventArgs>();
+				mobjBeepStore = new SingleCallMethodStore<EmptyDeviceEventArgs>();
 			}
 			Beep(intTimes, mobjBeepStore.StoreSingleCallMethod("beep", objCallback));
 		}
@@ -295,11 +295,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="intDuirationInMilliseconds">The int duiration in milliseconds.</param>
 		/// <param name="objClientContext">The obj client context.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		public void Vibrate(int intDuirationInMilliseconds, Action objCallback)
+		public void Vibrate(int intDuirationInMilliseconds, Action<EmptyDeviceEventArgs> objCallback)
 		{
 			if (mobjVibrateStore == null)
 			{
-				mobjVibrateStore = new SingleCallMethodStore<NotificationEventArgs>();
+				mobjVibrateStore = new SingleCallMethodStore<EmptyDeviceEventArgs>();
 			}
 			Vibrate(intDuirationInMilliseconds, mobjVibrateStore.StoreSingleCallMethod("vibrate", objCallback));
 		}
@@ -338,7 +338,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// This method is used just for preventing conflicting between overload methods.
 		/// </summary>
-		private Action GetNullAction()
+		private Action<EmptyDeviceEventArgs> GetNullAction()
 		{
 			return null;
 		}

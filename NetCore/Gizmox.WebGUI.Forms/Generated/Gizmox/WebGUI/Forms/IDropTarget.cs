@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	public interface IDropTarget
+public interface IDropTarget
 	{
 		/// Raises the <see cref="E:Gizmox.WebGUI.Forms.Control.DragDrop"></see> event.</summary> 
 		/// <param name="e">A <see cref="T:Gizmox.WebGUI.Forms.DragEventArgs"></see> that contains the event data.</param> 

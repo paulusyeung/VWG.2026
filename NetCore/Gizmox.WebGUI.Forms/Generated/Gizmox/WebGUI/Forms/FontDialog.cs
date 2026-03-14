@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Prompts the user to choose a font from among those installed on the local computer.</summary>
+/// Prompts the user to choose a font from among those installed on the local computer.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[SRDescription("DescriptionFontDialog")]

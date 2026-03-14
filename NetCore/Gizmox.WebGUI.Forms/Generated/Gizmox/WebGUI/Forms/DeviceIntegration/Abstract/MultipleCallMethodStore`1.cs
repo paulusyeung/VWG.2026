@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration.Abstract
 {
-	/// 
+/// 
 	/// Represents store for device component multiple-call methods.
 	/// </summary>
 	/// <typeparam name="TEventArgsType">The type of the event args type.</typeparam>

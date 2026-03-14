@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the case of characters in a <see cref="T:System.Windows.Forms.TextBox"></see> control.</summary>
+/// Specifies the case of characters in a <see cref="T:System.Windows.Forms.TextBox"></see> control.</summary>
 	/// 2</filterpriority>
 	public enum CharacterCasing : byte
 	{

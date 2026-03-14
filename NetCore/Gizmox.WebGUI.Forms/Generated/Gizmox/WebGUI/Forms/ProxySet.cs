@@ -100,11 +100,11 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
-	public class ProxySet : List, ICustomTypeDescriptor
+	public class ProxySet :List<ProxyComponent>, ICustomTypeDescriptor
 	{
 		private string mstrName = SR.GetString("ProxySet_NewSet");
 
@@ -223,7 +223,7 @@ namespace Gizmox.WebGUI.Forms
 
 		PropertyDescriptorCollection ICustomTypeDescriptor.GetProperties(Attribute[] arrAttributes)
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			PropertyDescriptorCollection properties = TypeDescriptor.GetProperties(this, arrAttributes, noCustomTypeDesc: true);
 			foreach (PropertyDescriptor item in properties)
 			{

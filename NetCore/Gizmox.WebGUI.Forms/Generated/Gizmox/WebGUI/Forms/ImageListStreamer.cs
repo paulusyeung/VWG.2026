@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides the data portion of an <see cref="T:System.Windows.Forms.ImageList"></see>.</summary>
+/// Provides the data portion of an <see cref="T:System.Windows.Forms.ImageList"></see>.</summary>
 	[Serializable]
 	public sealed class ImageListStreamer
 	{

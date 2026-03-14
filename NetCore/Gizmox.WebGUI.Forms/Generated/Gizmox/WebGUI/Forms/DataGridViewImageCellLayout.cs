@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the layout for an image contained in a <see cref="T:Gizmox.WebGUI.Forms.DataGridViewCell"></see>.</summary>
+/// Specifies the layout for an image contained in a <see cref="T:Gizmox.WebGUI.Forms.DataGridViewCell"></see>.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public enum DataGridViewImageCellLayout

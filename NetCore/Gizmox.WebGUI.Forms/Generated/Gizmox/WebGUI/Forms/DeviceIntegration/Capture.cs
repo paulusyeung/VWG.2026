@@ -100,12 +100,12 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration
 {
-	[Serializable]
+[Serializable]
 	public class Capture : DeviceComponent, ICapture
 	{
 		private SingleCallMethodStore<CaptureEventArgs> mobjCaptureEventArgsStore;
 
-		private SingleCallMethodStore<CaptureEventArgs> mobjMediaFileDataEventArgsStore;
+		private SingleCallMethodStore<MediaFileDataEventArgs> mobjMediaFileDataEventArgsStore;
 
 		/// 
 		/// Gets the capture event args store.
@@ -125,13 +125,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the media file data event args store.
 		/// </summary>
-		internal SingleCallMethodStore<CaptureEventArgs> MediaFileDataEventArgsStore
+		internal SingleCallMethodStore<MediaFileDataEventArgs> MediaFileDataEventArgsStore
 		{
 			get
 			{
 				if (mobjMediaFileDataEventArgsStore == null)
 				{
-					mobjMediaFileDataEventArgsStore = new SingleCallMethodStore<CaptureEventArgs>();
+					mobjMediaFileDataEventArgsStore = new SingleCallMethodStore<MediaFileDataEventArgs>();
 				}
 				return mobjMediaFileDataEventArgsStore;
 			}
@@ -216,7 +216,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// Captures the audio.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void CaptureAudio(Action objCallback)
+		public void CaptureAudio(Action<CaptureEventArgs> objCallback)
 		{
 			CaptureAudio(null, objCallback);
 		}
@@ -226,7 +226,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objOptions">The obj options.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		public void CaptureAudio(AudioCaptureOptions objOptions, Action objCallback)
+		public void CaptureAudio(AudioCaptureOptions objOptions, Action<CaptureEventArgs> objCallback)
 		{
 			CaptureOnline("captureAudio", objOptions, objCallback);
 		}
@@ -235,7 +235,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// Captures the image.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void CaptureImage(Action objCallback)
+		public void CaptureImage(Action<CaptureEventArgs> objCallback)
 		{
 			CaptureImage(null, objCallback);
 		}
@@ -245,7 +245,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objOptions">The obj options.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		public void CaptureImage(ImageCaptureOptions objOptions, Action objCallback)
+		public void CaptureImage(ImageCaptureOptions objOptions, Action<CaptureEventArgs> objCallback)
 		{
 			CaptureOnline("captureImage", objOptions, objCallback);
 		}
@@ -254,7 +254,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// Captures the video.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void CaptureVideo(Action objCallback)
+		public void CaptureVideo(Action<CaptureEventArgs> objCallback)
 		{
 			CaptureVideo(null, objCallback);
 		}
@@ -264,7 +264,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objOptions">The obj options.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		public void CaptureVideo(VideoCaptureOptions objOptions, Action objCallback)
+		public void CaptureVideo(VideoCaptureOptions objOptions, Action<CaptureEventArgs> objCallback)
 		{
 			CaptureOnline("captureVideo", objOptions, objCallback);
 		}
@@ -275,7 +275,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="strCaptureType">Type of the STR capture.</param>
 		/// <param name="objOptions">The obj options.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		private void CaptureOnline(string strCaptureType, DevicePropertyDictionary objOptions, Action objCallback)
+		private void CaptureOnline(string strCaptureType, DevicePropertyDictionary objOptions, Action<CaptureEventArgs> objCallback)
 		{
 			Invoke("DeviceIntegrator.Capture.capture", strCaptureType, CaptureEventArgsStore.StoreSingleCallMethod(objCallback), CommonUtils.GetClientJsonObject(objOptions));
 		}
@@ -285,7 +285,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objMediaFile">The obj media file.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		internal void GetFormatData(MediaFile objMediaFile, EventHandler objCallback)
+		internal void GetFormatData(MediaFile objMediaFile, EventHandler<MediaFileDataEventArgs> objCallback)
 		{
 			Invoke("DeviceIntegrator.Capture.getFormatData", MediaFileDataEventArgsStore.StoreContextualSingleCallMethod(objMediaFile, "for", objCallback), objMediaFile.FullPath, objMediaFile.Type);
 		}

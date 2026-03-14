@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for controls that derive from the <see cref="T:Gizmox.WebGUI.Forms.UpDownBase"></see> control.</summary>
+/// Provides data for controls that derive from the <see cref="T:Gizmox.WebGUI.Forms.UpDownBase"></see> control.</summary>
 	/// 2</filterpriority>
 	public class UpDownEventArgs : EventArgs
 	{

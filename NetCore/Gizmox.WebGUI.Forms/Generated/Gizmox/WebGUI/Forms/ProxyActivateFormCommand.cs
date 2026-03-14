@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -145,7 +145,7 @@ namespace Gizmox.WebGUI.Forms
 			{
 				return;
 			}
-			List<object> list = new List(((IFormResolver)context).AccessibleForms);
+			List<object> list = new List<object><object>(((IFormResolver)context).AccessibleForms);
 			if (list == null)
 			{
 				return;

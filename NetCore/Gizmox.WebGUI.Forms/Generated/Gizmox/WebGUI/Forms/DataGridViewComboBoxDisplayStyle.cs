@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Defines constants that indicate how a <see cref="T:Gizmox.WebGUI.Forms.DataGridViewComboBoxCell"></see> is displayed.</summary>
+/// Defines constants that indicate how a <see cref="T:Gizmox.WebGUI.Forms.DataGridViewComboBoxCell"></see> is displayed.</summary>
 	[Serializable]
 	public enum DataGridViewComboBoxDisplayStyle
 	{

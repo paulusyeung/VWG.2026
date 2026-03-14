@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 {
-	[Serializable]
+[Serializable]
 	public class FileEntry : Entry, IFileEntry, IEntry
 	{
 		/// 
@@ -146,7 +146,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// Gets the file.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void GetFile(EventHandler objCallback)
+		public void GetFile(EventHandler<FileEventArgs> objCallback)
 		{
 			base.FileManager.GetFile(this, objCallback);
 		}
@@ -155,7 +155,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// Creates the writer.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void CreateWriter(EventHandler objCallback)
+		public void CreateWriter(EventHandler<FileWriterEventArgs> objCallback)
 		{
 			base.FileManager.CreateWriter(this, objCallback);
 		}

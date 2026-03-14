@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	internal class RelatedPropertyManager : PropertyManager
 	{
 		private static readonly SerializableProperty dataFieldProperty = SerializableProperty.Register("dataField", typeof(string), typeof(RelatedPropertyManager));

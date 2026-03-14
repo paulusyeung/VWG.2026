@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for the <see cref="E:System.Windows.Forms.DataGridView.CellContextMenuNeeded"></see> event. </summary>
+/// Provides data for the <see cref="E:System.Windows.Forms.DataGridView.CellContextMenuNeeded"></see> event. </summary>
 	[Serializable]
 	public class DataGridViewCellContextMenuNeededEventArgs : DataGridViewCellEventArgs
 	{

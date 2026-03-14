@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Displays a message box that can contain text, buttons, and symbols that inform and instruct the user.
 	/// </summary>
 	[Serializable]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the formats used with text-related methods of the <see cref="T:System.Windows.Forms.Clipboard"></see> and <see cref="T:System.Windows.Forms.DataObject"></see> classes.</summary>
+/// Specifies the formats used with text-related methods of the <see cref="T:System.Windows.Forms.Clipboard"></see> and <see cref="T:System.Windows.Forms.DataObject"></see> classes.</summary>
 	/// 2</filterpriority>
 	public enum TextDataFormat : byte
 	{

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a collection of <see cref="T:Gizmox.WebGUI.Forms.DataGridViewColumn"></see> objects in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control. </summary>
+/// Represents a collection of <see cref="T:Gizmox.WebGUI.Forms.DataGridViewColumn"></see> objects in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control. </summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[ListBindable(false)]
@@ -639,7 +639,7 @@ namespace Gizmox.WebGUI.Forms
 				return mintColumnsWidthVisibleFrozen;
 			}
 			int num = 0;
-			for (int i = 0; i < List.Count; i++)
+			for (int i = 0; i <List.Count; i++)
 			{
 				if (((DataGridViewColumn)List[i]).StateIncludes(enmIncludeFilter))
 				{

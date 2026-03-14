@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies how properties are sorted in the <see cref="T:Gizmox.WebGUI.Forms.PropertyGrid"></see>.
 	/// </summary>
 	public enum PropertySort

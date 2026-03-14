@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for events that need a true or false answer to a question.</summary>
+/// Provides data for events that need a true or false answer to a question.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class QuestionEventArgs : EventArgs

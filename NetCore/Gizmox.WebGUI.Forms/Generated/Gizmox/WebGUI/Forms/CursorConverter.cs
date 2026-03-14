@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides a type converter to convert <see cref="T:System.Windows.Forms.Cursor"></see> objects to and from various other representations.</summary>
+/// Provides a type converter to convert <see cref="T:System.Windows.Forms.Cursor"></see> objects to and from various other representations.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class CursorConverter : TypeConverter

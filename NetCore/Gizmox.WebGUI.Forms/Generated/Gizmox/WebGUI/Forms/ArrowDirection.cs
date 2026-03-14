@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the direction to move when getting items with the <see cref="M:Gizmox.WebGUI.Forms.ToolStrip.GetNextItem(Gizmox.WebGUI.Forms.ToolStripItem,Gizmox.WebGUI.Forms.ArrowDirection)"></see> method.</summary>
+/// Specifies the direction to move when getting items with the <see cref="M:Gizmox.WebGUI.Forms.ToolStrip.GetNextItem(Gizmox.WebGUI.Forms.ToolStripItem,Gizmox.WebGUI.Forms.ArrowDirection)"></see> method.</summary>
 	public enum ArrowDirection
 	{
 		/// The direction is down (<see cref="F:Gizmox.WebGUI.Forms.Orientation.Vertical"></see>).</summary>

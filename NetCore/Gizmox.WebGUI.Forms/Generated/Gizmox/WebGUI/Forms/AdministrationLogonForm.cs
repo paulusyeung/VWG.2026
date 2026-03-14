@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	[ToolboxItem(false)]
 	internal class AdministrationLogonForm : AdministrationFormBase, ILogonForm
 	{

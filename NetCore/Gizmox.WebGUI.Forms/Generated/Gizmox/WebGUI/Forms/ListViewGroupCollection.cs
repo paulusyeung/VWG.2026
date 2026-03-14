@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents the collection of groups within a <see cref="T:Gizmox.WebGUI.Forms.ListView"></see> control.</summary>
+/// Represents the collection of groups within a <see cref="T:Gizmox.WebGUI.Forms.ListView"></see> control.</summary>
 	[Serializable]
 	[ListBindable(false)]
 	public class ListViewGroupCollection : IList, ICollection, IEnumerable

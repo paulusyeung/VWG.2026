@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	/// 
+/// 
 	/// Provides loading customization capabilities
 	/// </summary>
 	[ToolboxBitmap(typeof(ImageList))]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// The base class for all positioned GUI elements
 	/// </summary>
 	[Serializable]
@@ -1428,19 +1428,19 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the Enter event.
 		/// </summary>
-		private EventHandler EnterHandler => (EventHandler)GetHandler(Enter);
+		private EventHandler EnterHandler => (EventHandler)GetHandler(EnterEvent);
 
 		/// 
 		/// Gets the hanlder for the Leave event.
 		/// </summary>
-		private EventHandler LeaveHandler => (EventHandler)GetHandler(Leave);
+		private EventHandler LeaveHandler => (EventHandler)GetHandler(LeaveEvent);
 
 		private EventHandler ResizeHandler => (EventHandler)GetHandler(Resize);
 
 		/// 
 		/// Gets the hanlder for the EnabledChanged event.
 		/// </summary>
-		private EventHandler EnabledChangedHandler => (EventHandler)GetHandler(EnabledChanged);
+		private EventHandler EnabledChangedHandler => (EventHandler)GetHandler(EnabledChangedEvent);
 
 		/// 
 		/// Gets the control selected handler.
@@ -1461,29 +1461,29 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the hanlder for the KeyDown event.
 		/// </summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		protected KeyEventHandler KeyDownHandler => (KeyEventHandler)GetHandler(KeyDown);
+		protected KeyEventHandler KeyDownHandler => (KeyEventHandler)GetHandler(KeyDownEvent);
 
 		/// 
 		/// Gets the hanlder for the KeyPress event.
 		/// </summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		protected KeyPressEventHandler KeyPressHandler => (KeyPressEventHandler)GetHandler(KeyPress);
+		protected KeyPressEventHandler KeyPressHandler => (KeyPressEventHandler)GetHandler(KeyPressEvent);
 
 		/// 
 		/// Gets the hanlder for the KeyUp event.
 		/// </summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		protected KeyEventHandler KeyUpHandler => (KeyEventHandler)GetHandler(KeyUp);
+		protected KeyEventHandler KeyUpHandler => (KeyEventHandler)GetHandler(KeyUpEvent);
 
 		/// 
 		/// Gets the hanlder for the GotFocus event.
 		/// </summary>
-		private EventHandler GotFocusHandler => (EventHandler)GetHandler(GotFocus);
+		private EventHandler GotFocusHandler => (EventHandler)GetHandler(GotFocusEvent);
 
 		/// 
 		/// Gets the hanlder for the LostFocus event.
 		/// </summary>
-		private EventHandler LostFocusHandler => (EventHandler)GetHandler(LostFocus);
+		private EventHandler LostFocusHandler => (EventHandler)GetHandler(LostFocusEvent);
 
 		/// 
 		/// Gets the hanlder for the DoubleClick event.
@@ -1495,7 +1495,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the Validated event.
 		/// </summary>
-		private EventHandler ValidatedHandler => (EventHandler)GetHandler(Validated);
+		private EventHandler ValidatedHandler => (EventHandler)GetHandler(ValidatedEvent);
 
 		/// 
 		/// Gets the hanlder for the CausesValidationChanged event.
@@ -1505,14 +1505,14 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the Validating event.
 		/// </summary>
-		private CancelEventHandler ValidatingHandler => (CancelEventHandler)GetHandler(Validating);
+		private CancelEventHandler ValidatingHandler => (CancelEventHandler)GetHandler(ValidatingEvent);
 
 		private EventHandler TextChangedQueuedHandler => (EventHandler)GetHandler(TextChangedQueued);
 
 		/// 
 		/// Gets the hanlder for the LocationChanged event.
 		/// </summary>
-		private EventHandler LocationChangedHandler => (EventHandler)GetHandler(LocationChanged);
+		private EventHandler LocationChangedHandler => (EventHandler)GetHandler(LocationChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the ControlAdded event.
@@ -1544,7 +1544,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		private EventHandler BindingContextChangedHandler => (EventHandler)GetHandler(BindingContextChanged);
 
-		private EventHandler BackColorChangedHandler => (EventHandler)GetHandler(BackColorChanged);
+		private EventHandler BackColorChangedHandler => (EventHandler)GetHandler(BackColorChangedEvent);
 
 		private EventHandler BackgroundImageChangedHandler => (EventHandler)GetHandler(BackgroundImageChanged);
 
@@ -1552,7 +1552,7 @@ namespace Gizmox.WebGUI.Forms
 
 		private EventHandler FontChangedHandler => (EventHandler)GetHandler(FontChanged);
 
-		private EventHandler ForeColorChangedHandler => (EventHandler)GetHandler(ForeColorChanged);
+		private EventHandler ForeColorChangedHandler => (EventHandler)GetHandler(ForeColorChangedEvent);
 
 		private EventHandler PaddingChangedHandler => (EventHandler)GetHandler(PaddingChanged);
 
@@ -1564,7 +1564,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the VisibleChanged event.
 		/// </summary>
-		private EventHandler VisibleChangedHandler => (EventHandler)GetHandler(VisibleChanged);
+		private EventHandler VisibleChangedHandler => (EventHandler)GetHandler(VisibleChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the HelpRequested event.
@@ -3599,9 +3599,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets a flag indicating if the object is initializing
 		/// </summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		protected override bool IsSerializableObjectInitializing
-		{
-			get
+		protected override bool IsSerializableObjectInitializing { get
 			{
 				return !GetState(ControlState.Created);
 			}
@@ -3611,9 +3609,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the initial size of the serializable filed storage.
 		/// </summary>
 		/// The initial size of the serializable filed storage.</value>
-		protected override int SerializableFieldStorageInitialSize
-		{
-			get
+		protected override int SerializableFieldStorageInitialSize { get
 			{
 				return 12;
 			}
@@ -4956,40 +4952,40 @@ namespace Gizmox.WebGUI.Forms
 			ResizableProperty = SerializableProperty.Register("Resizable", typeof(ResizableOptions), typeof(Control), new SerializablePropertyMetadata(null));
 			VisualTemplateProperty = SerializableProperty.Register("VisualTemplate", typeof(VisualTemplate), typeof(Control), new SerializablePropertyMetadata(null));
 			ParentChanged = SerializableEvent.Register("ParentChanged", typeof(EventHandler), typeof(Control));
-			Enter = SerializableEvent.Register("Enter", typeof(EventHandler), typeof(Control));
-			Leave = SerializableEvent.Register("Leave", typeof(EventHandler), typeof(Control));
+			EnterEvent = SerializableEvent.Register("Enter", typeof(EventHandler), typeof(Control));
+			LeaveEvent = SerializableEvent.Register("Leave", typeof(EventHandler), typeof(Control));
 			Resize = SerializableEvent.Register("Resize", typeof(EventHandler), typeof(Control));
-			EnabledChanged = SerializableEvent.Register("EnabledChanged", typeof(EventHandler), typeof(Control));
+			EnabledChangedEvent = SerializableEvent.Register("EnabledChanged", typeof(EventHandler), typeof(Control));
 			ClickEvent = SerializableEvent.Register("Click", typeof(EventHandler), typeof(Control));
 			ControlSelectedEvent = SerializableEvent.Register("ControlSelected", typeof(ControlsEventHandler), typeof(Control));
 			ControlDroppedEvent = SerializableEvent.Register("ControlDropped", typeof(ControlEventHandler), typeof(Control));
 			MouseClickEvent = SerializableEvent.Register("MouseClick", typeof(MouseEventHandler), typeof(Control));
-			KeyDown = SerializableEvent.Register("KeyDown", typeof(KeyEventHandler), typeof(Control));
-			KeyPress = SerializableEvent.Register("KeyPress", typeof(KeyPressEventHandler), typeof(Control));
-			KeyUp = SerializableEvent.Register("KeyUp", typeof(KeyEventHandler), typeof(Control));
-			GotFocus = SerializableEvent.Register("GotFocus", typeof(EventHandler), typeof(Control));
-			LostFocus = SerializableEvent.Register("LostFocus", typeof(EventHandler), typeof(Control));
+			KeyDownEvent = SerializableEvent.Register("KeyDown", typeof(KeyEventHandler), typeof(Control));
+			KeyPressEvent = SerializableEvent.Register("KeyPress", typeof(KeyPressEventHandler), typeof(Control));
+			KeyUpEvent = SerializableEvent.Register("KeyUp", typeof(KeyEventHandler), typeof(Control));
+			GotFocusEvent = SerializableEvent.Register("GotFocus", typeof(EventHandler), typeof(Control));
+			LostFocusEvent = SerializableEvent.Register("LostFocus", typeof(EventHandler), typeof(Control));
 			DoubleClickEvent = SerializableEvent.Register("DoubleClick", typeof(EventHandler), typeof(Control));
 			TextChanged = SerializableEvent.Register("TextChanged", typeof(EventHandler), typeof(Control));
-			Validated = SerializableEvent.Register("Validated", typeof(EventHandler), typeof(Control));
+			ValidatedEvent = SerializableEvent.Register("Validated", typeof(EventHandler), typeof(Control));
 			CausesValidationChanged = SerializableEvent.Register("CausesValidationChanged", typeof(EventHandler), typeof(Control));
-			Validating = SerializableEvent.Register("Validating", typeof(CancelEventHandler), typeof(Control));
+			ValidatingEvent = SerializableEvent.Register("Validating", typeof(CancelEventHandler), typeof(Control));
 			TextChangedQueued = SerializableEvent.Register("TextChangedQueued", typeof(EventHandler), typeof(Control));
-			LocationChanged = SerializableEvent.Register("LocationChanged", typeof(EventHandler), typeof(Control));
+			LocationChangedEvent = SerializableEvent.Register("LocationChanged", typeof(EventHandler), typeof(Control));
 			ControlAdded = SerializableEvent.Register("ControlAdded", typeof(ControlEventHandler), typeof(Control));
 			ControlEditingEvent = SerializableEvent.Register("EditControlEditingEvent", typeof(EventHandler), typeof(Control));
 			ControlRemoved = SerializableEvent.Register("ControlRemoved", typeof(ControlEventHandler), typeof(Control));
 			MouseDownEvent = SerializableEvent.Register("MouseDown", typeof(MouseEventHandler), typeof(Control));
 			MouseUpEvent = SerializableEvent.Register("MouseUp", typeof(MouseEventHandler), typeof(Control));
 			BindingContextChanged = SerializableEvent.Register("BindingContextChanged", typeof(EventHandler), typeof(Control));
-			BackColorChanged = SerializableEvent.Register("BackColorChanged", typeof(EventHandler), typeof(Control));
+			BackColorChangedEvent = SerializableEvent.Register("BackColorChanged", typeof(EventHandler), typeof(Control));
 			BackgroundImageChanged = SerializableEvent.Register("BackgroundImageChanged", typeof(EventHandler), typeof(Control));
 			BackgroundImageLayoutChanged = SerializableEvent.Register("BackgroundImageLayoutChanged", typeof(EventHandler), typeof(Control));
 			FontChanged = SerializableEvent.Register("FontChanged", typeof(EventHandler), typeof(Control));
-			ForeColorChanged = SerializableEvent.Register("ForeColorChanged", typeof(EventHandler), typeof(Control));
+			ForeColorChangedEvent = SerializableEvent.Register("ForeColorChanged", typeof(EventHandler), typeof(Control));
 			PaddingChanged = SerializableEvent.Register("PaddingChanged", typeof(EventHandler), typeof(Control));
 			CursorChanged = SerializableEvent.Register("CursorChanged", typeof(EventHandler), typeof(Control));
-			VisibleChanged = SerializableEvent.Register("VisibleChanged", typeof(EventHandler), typeof(Control));
+			VisibleChangedEvent = SerializableEvent.Register("VisibleChanged", typeof(EventHandler), typeof(Control));
 			HelpRequested = SerializableEvent.Register("HelpRequested", typeof(HelpEventHandler), typeof(Control));
 			AutoSizeChanged = SerializableEvent.Register("AutoSizeChanged", typeof(EventHandler), typeof(Control));
 			SizeChanged = SerializableEvent.Register("SizeChanged", typeof(EventHandler), typeof(Control));

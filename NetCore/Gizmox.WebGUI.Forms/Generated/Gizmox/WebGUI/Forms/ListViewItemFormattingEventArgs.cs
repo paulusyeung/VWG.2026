@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.ListView.ItemFormatting"></see> event of a <see cref="T:Gizmox.WebGUI.Forms.ListView"></see>.</summary>
+/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.ListView.ItemFormatting"></see> event of a <see cref="T:Gizmox.WebGUI.Forms.ListView"></see>.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class ListViewItemFormattingEventArgs : EventArgs

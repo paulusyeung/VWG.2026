@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration.StorageComponents
 {
-	/// 
+/// 
 	/// Allows the user to execute SQL statements against the Web SQL Database on device.
 	/// </summary>
 	[Serializable]
@@ -130,7 +130,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.StorageComponents
 		/// </summary>
 		/// <param name="objMethod">The callback method.</param>
 		/// <param name="strSQLCommand">The SQL command.</param>
-		public void ExecuteSQL(EventHandler objMethod, string strSQLCommand)
+		public void ExecuteSQL(EventHandler<SQLResultEventArgs> objMethod, string strSQLCommand)
 		{
 			ArrayList arrayList = new ArrayList();
 			string value = mobjDatabase.Storage.ExecuteSQLMethods.StoreContextualSingleCallMethod(this, "executeSQL", objMethod);

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Manages a related set of tab pages.
 	/// </summary>
 	[Serializable]
@@ -1874,7 +1874,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static TabControl()
 		{
-			CloseClick = SerializableEvent.Register("CloseClick", typeof(EventHandler), typeof(TabControl));
+			CloseClickEvent = SerializableEvent.Register("CloseClick", typeof(EventHandler), typeof(TabControl));
 			SelectedIndexChanged = SerializableEvent.Register("SelectedIndexChanged", typeof(EventHandler), typeof(TabControl));
 			SelectedIndexChanging = SerializableEvent.Register("SelectedIndexChanging", typeof(TabControlCancelEventHandler), typeof(TabControl));
 			Collapse = SerializableEvent.Register("Collapse", typeof(EventHandler), typeof(TabControl));

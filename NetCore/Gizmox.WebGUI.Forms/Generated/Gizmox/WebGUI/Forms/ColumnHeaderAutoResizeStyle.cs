@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies how a column contained in a <see cref="T:Gizmox.WebGUI.Forms.ListView"></see> should be resized.</summary>
+/// Specifies how a column contained in a <see cref="T:Gizmox.WebGUI.Forms.ListView"></see> should be resized.</summary>
 	public enum ColumnHeaderAutoResizeStyle
 	{
 		/// 

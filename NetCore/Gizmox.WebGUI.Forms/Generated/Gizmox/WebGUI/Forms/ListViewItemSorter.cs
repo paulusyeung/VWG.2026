@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Gets or sets the sorting comparer for the control.
 	/// </summary>
 	/// An <see cref="T:System.Collections.IComparer"></see> that represents the sorting comparer for the control.</returns>

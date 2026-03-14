@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	internal class ProxyFilterPropertiesEventArgs : EventArgs
 	{
 		private IDictionary mobjPropertyDescriptors = null;

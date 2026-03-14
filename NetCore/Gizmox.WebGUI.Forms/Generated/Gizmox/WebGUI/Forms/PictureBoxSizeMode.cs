@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies how an image is positioned within a <see cref="T:Gizmox.WebGUI.Forms.PictureBox"></see>.
 	/// </summary>
 	[Serializable]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Layout
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	internal interface IArrangedElement : IComponent, IDisposable

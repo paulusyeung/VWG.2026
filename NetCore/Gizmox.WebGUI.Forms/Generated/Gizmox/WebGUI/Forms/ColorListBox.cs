@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Summary description for ColorListBox.
 	/// </summary>
 	[Serializable]
@@ -109,7 +109,7 @@ namespace Gizmox.WebGUI.Forms
 	[ClientController("Gizmox.WebGUI.Client.Controllers.ColorListBoxController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]
 	[ToolboxBitmap(typeof(ListBox), "Gizmox.WebGUI.Forms.ColorListBox.bmp")]
 	[Skin(typeof(ColorListBoxSkin))]
-	[Obsolete("Use List<object> box insted of Color list box")]
+	[Obsolete("Use List box insted of Color list box")]
 	public class ColorListBox : ListBox
 	{
 		/// 

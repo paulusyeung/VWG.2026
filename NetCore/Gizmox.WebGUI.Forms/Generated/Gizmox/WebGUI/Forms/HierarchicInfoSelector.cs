@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// HierarchicInfos selectors enumeration.
 	/// </summary>
 	[Serializable]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	internal class DataGridViewCellLinkedListElement
 	{
 		private DataGridViewCell mobjDataGridViewCell;

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the position of the text and image relative to each other on a control.</summary>
+/// Specifies the position of the text and image relative to each other on a control.</summary>
 	/// 2</filterpriority>
 	public enum TextImageRelation
 	{

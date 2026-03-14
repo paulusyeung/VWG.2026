@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Defines values for specifying how the heights of rows are adjusted. </summary>
+/// Defines values for specifying how the heights of rows are adjusted. </summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public enum DataGridViewAutoSizeRowsMode

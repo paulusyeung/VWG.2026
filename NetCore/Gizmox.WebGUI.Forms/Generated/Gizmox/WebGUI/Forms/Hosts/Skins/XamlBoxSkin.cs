@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Hosts.Skins
 {
-	[Serializable]
+[Serializable]
 	public class XamlBoxSkin : ObjectBoxSkin
 	{
 		private void InitializeComponent()

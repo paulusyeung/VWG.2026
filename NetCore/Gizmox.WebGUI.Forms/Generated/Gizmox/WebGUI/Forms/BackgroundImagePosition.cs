@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies position of the image when used as a backgound image
 	/// </summary>
 	[EditorBrowsable(EditorBrowsableState.Advanced)]

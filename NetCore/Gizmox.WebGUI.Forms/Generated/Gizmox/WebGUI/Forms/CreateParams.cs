@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Encapsulates the information needed when creating a control.</summary>
+/// Encapsulates the information needed when creating a control.</summary>
 	[Serializable]
 	public class CreateParams : SerializableObject
 	{

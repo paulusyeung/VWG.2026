@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies options on a <see cref="T:Gizmox.WebGUI.Forms.MessageBox"></see>.
 	/// </summary>
 	[Flags]

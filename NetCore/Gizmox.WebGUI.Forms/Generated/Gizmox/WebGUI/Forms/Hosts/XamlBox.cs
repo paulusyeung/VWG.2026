@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Hosts
 {
-	/// 
+/// 
 	/// A html control
 	/// </summary>
 	[Serializable]

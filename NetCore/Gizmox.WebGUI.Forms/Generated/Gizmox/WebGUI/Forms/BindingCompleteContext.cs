@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the direction of the binding operation.</summary>
+/// Specifies the direction of the binding operation.</summary>
 	/// 2</filterpriority>    
 	public enum BindingCompleteContext
 	{

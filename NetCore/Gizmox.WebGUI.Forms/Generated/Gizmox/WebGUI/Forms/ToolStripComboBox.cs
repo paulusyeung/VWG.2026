@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a <see cref="T:System.Windows.Forms.ToolStripComboBox"></see> that is properly rendered in a <see cref="T:System.Windows.Forms.ToolStrip"></see>.</summary>
+/// Represents a <see cref="T:System.Windows.Forms.ToolStripComboBox"></see> that is properly rendered in a <see cref="T:System.Windows.Forms.ToolStrip"></see>.</summary>
 	[Serializable]
 	[DefaultProperty("Items")]
 	[ClientController("Gizmox.WebGUI.Client.Controllers.ToolStripComboBoxController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]

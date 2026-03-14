@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design
 {
-	/// 
+/// 
 	/// This date time editor is a WebUITypeEditor suitable for visually editing DateTime objects.
 	/// </summary>
 	[Serializable]

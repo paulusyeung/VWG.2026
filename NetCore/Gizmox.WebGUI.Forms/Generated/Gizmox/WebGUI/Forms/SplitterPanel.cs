@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Creates a panel that is associated with a SplitContainer.
 	/// </summary>
 	[Serializable]

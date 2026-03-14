@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.PropertyGridInternal
 {
-	[Serializable]
+[Serializable]
 	[Browsable(false)]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	public class GridEntryCollection : GridItemCollection

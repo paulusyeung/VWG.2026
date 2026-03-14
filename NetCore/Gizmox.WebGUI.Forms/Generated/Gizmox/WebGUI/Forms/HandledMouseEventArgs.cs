@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Allows a custom control to prevent the <see cref="E:Gizmox.WebGUI.Forms.Control.MouseWheel"></see> event from being sent to its parent container.</summary>
+/// Allows a custom control to prevent the <see cref="E:Gizmox.WebGUI.Forms.Control.MouseWheel"></see> event from being sent to its parent container.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class HandledMouseEventArgs : MouseEventArgs

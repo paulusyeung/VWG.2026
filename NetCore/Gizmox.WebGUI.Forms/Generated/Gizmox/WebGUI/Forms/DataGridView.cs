@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Displays data in a customizable grid.
 	/// </summary>
 	[Serializable]
@@ -584,7 +584,7 @@ namespace Gizmox.WebGUI.Forms
 				get
 				{
 					CurrencyManager currencyManager = CurrencyManager;
-					if (currencyManager != null && currencyManager.List<object> is IBindingList && currencyManager.AllowAdd)
+					if (currencyManager != null && currencyManager.List is IBindingList && currencyManager.AllowAdd)
 					{
 						return ((IBindingList)currencyManager.List).SupportsChangeNotification;
 					}
@@ -599,7 +599,7 @@ namespace Gizmox.WebGUI.Forms
 				get
 				{
 					CurrencyManager currencyManager = CurrencyManager;
-					if (currencyManager != null && currencyManager.List<object> is IBindingList && currencyManager.AllowRemove)
+					if (currencyManager != null && currencyManager.List is IBindingList && currencyManager.AllowRemove)
 					{
 						return ((IBindingList)currencyManager.List).SupportsChangeNotification;
 					}
@@ -1323,7 +1323,7 @@ namespace Gizmox.WebGUI.Forms
 			public SortOrder BoundColumnSortOrder(int intBoundColumnIndex)
 			{
 				CurrencyManager currencyManager = CurrencyManager;
-				IBindingList bindingList = ((currencyManager != null) ? (currencyManager.List<object> as IBindingList) : null);
+				IBindingList bindingList = ((currencyManager != null) ? (currencyManager.List as IBindingList) : null);
 				if (bindingList != null && bindingList.SupportsSorting && bindingList.IsSorted)
 				{
 					GetSortingInformationFromBackend(out var sortProperty, out var objSortOrder);
@@ -1402,7 +1402,7 @@ namespace Gizmox.WebGUI.Forms
 					if (!owner.InSortOperation)
 					{
 						bool blnScrollIntoView = true;
-						if (mobjDataConnectionState[256] && currencyManager.List<object> is IBindingList { SupportsSorting: not false, IsSorted: not false })
+						if (mobjDataConnectionState[256] && currencyManager.List is IBindingList { SupportsSorting: not false, IsSorted: not false })
 						{
 							blnScrollIntoView = false;
 						}
@@ -1598,7 +1598,7 @@ namespace Gizmox.WebGUI.Forms
 			private void GetSortingInformationFromBackend(out PropertyDescriptor sortProperty, out SortOrder objSortOrder)
 			{
 				CurrencyManager currencyManager = CurrencyManager;
-				IBindingList bindingList = ((currencyManager != null) ? (currencyManager.List<object> as IBindingList) : null);
+				IBindingList bindingList = ((currencyManager != null) ? (currencyManager.List as IBindingList) : null);
 				IBindingListView bindingListView = ((bindingList != null) ? (bindingList as IBindingListView) : null);
 				if (bindingList == null || !bindingList.SupportsSorting || !bindingList.IsSorted)
 				{
@@ -9565,7 +9565,7 @@ namespace Gizmox.WebGUI.Forms
 				{
 					array[i] = list[i - 1] as DataGridViewRow;
 				}
-				list = new List(array);
+				list = new List<object>(array);
 				blnContainsFrozeRows = true;
 			}
 			DataGridViewRowCollection rows = Rows;
@@ -9627,7 +9627,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		private IEnumerable GetRowBlocks()
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			bool blnContainsFrozeRows = false;
 			IList rows = GetRows(out blnContainsFrozeRows);
 			if (rows != null)
@@ -9638,7 +9638,7 @@ namespace Gizmox.WebGUI.Forms
 				}
 				else
 				{
-					List<object> list2 = new List<object>();
+					List<object> list2 = new List<object><object>();
 					blnContainsFrozeRows = false;
 					for (int i = 0; i < rows.Count; i++)
 					{
@@ -9804,7 +9804,7 @@ namespace Gizmox.WebGUI.Forms
 				DataGridViewColumn key = chosenRootColumn.Key;
 				if (key != null)
 				{
-					List<object> list = new List<object>();
+					List<object> list = new List<object><object>();
 					if (chosenRootColumn.Value.IsChanged)
 					{
 						key.Visible = chosenRootColumn.Value.IsChecked;
@@ -9839,8 +9839,8 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objColumnsState">The list.</param>
 		internal void UpdateSingleHierarchyColumnsVisibility(HierarchicInfo objInfo, List<KeyValuePair<DataGridViewColumn, ColumnCheckedStatus>> objColumnsState)
 		{
-			List<object> list = new List<object>();
-			List<object> list2 = new List<object>();
+			List<object> list = new List<object><object>();
+			List<object> list2 = new List<object><object>();
 			foreach (KeyValuePair<DataGridViewColumn, ColumnCheckedStatus> item in objColumnsState)
 			{
 				if (item.Value.IsChanged)
@@ -9864,7 +9864,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objInfo">The obj info.</param>
 		/// <param name="objVisibleItems">The obj visible items.</param>
 		/// <param name="objNotVisibleItems">The obj not visible items.</param>
-		private static void UpdateHierarchyInfosColumnsVisibility(HierarchicInfo objInfo, List<object> objVisibleItems, List<object> objNotVisibleItems)
+		private static void UpdateHierarchyInfosColumnsVisibility(HierarchicInfo objInfo,List<object> objVisibleItems,List<object> objNotVisibleItems)
 		{
 			objInfo.HiddenColumns.SuspendCollectionChangeNotification();
 			objInfo.HiddenColumns.AddRange(objNotVisibleItems);
@@ -9879,8 +9879,8 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objColumnsState">The list.</param>
 		internal void UpdateSingleHierarchyColumnsVisibility(HierarchicInfo objInfo, List<KeyValuePair<string, ColumnCheckedStatus>> objColumnsState)
 		{
-			List<object> list = new List<object>();
-			List<object> list2 = new List<object>();
+			List<object> list = new List<object><object>();
+			List<object> list2 = new List<object><object>();
 			foreach (KeyValuePair<string, ColumnCheckedStatus> item in objColumnsState)
 			{
 				if (item.Value.IsChanged)
@@ -9951,7 +9951,7 @@ namespace Gizmox.WebGUI.Forms
 
 		private void SortDataBoundDataGridView_PerformCheck(DataGridViewColumn objDataGridViewColumn)
 		{
-			if (!(DataConnection.List<object> is IBindingList bindingList))
+			if (!(DataConnection.List is IBindingList bindingList))
 			{
 				throw new InvalidOperationException(SR.GetString("DataGridView_CannotSortDataBoundDataGridViewBoundToNonIBindingList"));
 			}
@@ -14218,7 +14218,7 @@ namespace Gizmox.WebGUI.Forms
 					{
 						enmDirection = ListSortDirection.Descending;
 					}
-					if (DataSource == null || (DataSource != null && DataConnection.List<object> is IBindingList && ((IBindingList)DataConnection.List).SupportsSorting && dataGridViewColumn.IsDataBound))
+					if (DataSource == null || (DataSource != null && DataConnection.List is IBindingList && ((IBindingList)DataConnection.List).SupportsSorting && dataGridViewColumn.IsDataBound))
 					{
 						Sort(dataGridViewColumn, enmDirection);
 					}
@@ -14498,7 +14498,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		internal HeaderFilterInfo GetColumnHeaderInfo(DataGridViewColumn objDataGridViewColumn)
 		{
-			List<object> list = mobjHeadersFilterInfo;
+			List list = mobjHeadersFilterInfo;
 			if (list != null)
 			{
 				foreach (HeaderFilterInfo item in list)
@@ -17923,7 +17923,7 @@ namespace Gizmox.WebGUI.Forms
 			}
 			mobjDataGridViewFilterRow.DataGridViewInternal = null;
 			mobjDataGridViewFilterRow.HeaderCell.DataGridViewInternal = this;
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			if (mobjDataGridViewFilterRow.Cells != null)
 			{
 				if (bindingSource != null)
@@ -20600,7 +20600,7 @@ namespace Gizmox.WebGUI.Forms
 			DataGridViewRowCollection rows = Rows;
 			if (UseInternalPaging)
 			{
-				List<object> list = new List<object>();
+				List<object> list = new List<object><object>();
 				int num = (CurrentPage - 1) * ItemsPerPage;
 				int i = 0;
 				int num2 = -1;
@@ -21287,7 +21287,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static DataGridView()
 		{
-			ColumnDividerDoubleClick = SerializableEvent.Register("ColumnDividerDoubleClick", typeof(DataGridViewColumnDividerDoubleClickEventHandler), typeof(DataGridView));
+			ColumnDividerDoubleClickEvent = SerializableEvent.Register("ColumnDividerDoubleClick", typeof(DataGridViewColumnDividerDoubleClickEventHandler), typeof(DataGridView));
 			CurrentCellChanged = SerializableEvent.Register("CurrentCellChanged", typeof(EventHandler), typeof(DataGridView));
 			GroupHeaderFormatting = SerializableEvent.Register("GroupHeaderFormatting", typeof(GroupHeaderFormattingEventHandler), typeof(DataGridView));
 			GroupingChanged = SerializableEvent.Register("GroupingChangedEvent", typeof(GroupingChangedEventHandler), typeof(DataGridView));

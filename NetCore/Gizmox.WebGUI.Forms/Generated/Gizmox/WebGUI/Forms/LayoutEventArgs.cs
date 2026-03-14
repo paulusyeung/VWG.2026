@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides data for the Layout event. This class cannot be inherited.
 	/// </summary>
 	[Serializable]

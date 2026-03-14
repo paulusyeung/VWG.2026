@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.ContextualToolbar
 {
-	/// 
+/// 
 	/// Will contain information related to the display of the contextualtoolbar
 	/// </summary>
 	[Serializable]

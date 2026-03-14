@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Defines how a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> column can be sorted by the user.</summary>
+/// Defines how a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> column can be sorted by the user.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public enum DataGridViewColumnSortMode

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies the selection behavior of a list box. 
 	/// </summary>
 	public enum SelectionMode : byte

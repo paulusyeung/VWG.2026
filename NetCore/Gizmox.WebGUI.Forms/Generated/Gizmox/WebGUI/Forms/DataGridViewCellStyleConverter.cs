@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Converts <see cref="T:Gizmox.WebGUI.Forms.DataGridViewCellStyle"></see> objects to and from other data types.  </summary>
+/// Converts <see cref="T:Gizmox.WebGUI.Forms.DataGridViewCellStyle"></see> objects to and from other data types.  </summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class DataGridViewCellStyleConverter : TypeConverter

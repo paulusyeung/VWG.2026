@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a column in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
+/// Represents a column in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[TypeConverter(typeof(DataGridViewColumnConverter))]

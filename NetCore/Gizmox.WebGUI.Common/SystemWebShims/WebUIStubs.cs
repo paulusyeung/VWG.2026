@@ -58,7 +58,10 @@ namespace System.Web.UI
 
 namespace System.Web.UI.WebControls
 {
-    public class WebControl : Control { }
+    public class WebControl : Control
+    {
+        protected virtual void AddAttributesToRender(HtmlTextWriter writer) { }
+    }
 
     public class Style : Component { }
 

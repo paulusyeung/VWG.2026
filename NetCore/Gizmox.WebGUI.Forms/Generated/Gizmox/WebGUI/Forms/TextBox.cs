@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Implementation of TextBox class.
 	/// </summary>
 	[Serializable]
@@ -644,7 +644,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static TextBox()
 		{
-			EnterKeyDown = SerializableEvent.Register("EnterKeyDown", typeof(KeyEventHandler), typeof(TextBox));
+			EnterKeyDownEvent = SerializableEvent.Register("EnterKeyDown", typeof(KeyEventHandler), typeof(TextBox));
 		}
 	}
 }

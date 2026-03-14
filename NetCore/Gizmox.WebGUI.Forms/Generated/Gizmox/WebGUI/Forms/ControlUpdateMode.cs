@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Determines when changes to a data source value get propagated to the corresponding data-bound control property.</summary>
+/// Determines when changes to a data source value get propagated to the corresponding data-bound control property.</summary>
 	public enum ControlUpdateMode : byte
 	{
 		/// 

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the reason that a form was closed.</summary>
+/// Specifies the reason that a form was closed.</summary>
 	/// 2</filterpriority>
 	public enum CloseReason
 	{

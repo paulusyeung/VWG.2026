@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	[ComVisible(true)]
 	[Obsolete("Not implemented. Added for migration compatibility")]
 	[Browsable(false)]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies the Tool Tip Icon
 	/// </summary>
 	[Obsolete("Not implemented. Added for migration compatibility")]

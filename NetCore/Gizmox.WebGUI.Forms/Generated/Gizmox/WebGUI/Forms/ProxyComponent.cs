@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// The basic proxy component
 	/// </summary>
 	[Serializable]
@@ -1031,7 +1031,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		protected virtual PropertyDescriptorCollection GetProxyComponentProperties(Attribute[] arrAttributes)
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			Component sourceComponent = SourceComponent;
 			if (sourceComponent != null)
 			{

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents a standard Gizmox.WebGUI label.
 	/// </summary>
 	[Serializable]

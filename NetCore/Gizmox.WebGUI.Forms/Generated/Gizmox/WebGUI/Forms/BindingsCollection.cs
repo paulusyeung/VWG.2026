@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a collection of <see cref="T:Gizmox.WebGUI.Forms.Binding"></see> objects for a control.</summary>
+/// Represents a collection of <see cref="T:Gizmox.WebGUI.Forms.Binding"></see> objects for a control.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[DefaultEvent("CollectionChanged")]

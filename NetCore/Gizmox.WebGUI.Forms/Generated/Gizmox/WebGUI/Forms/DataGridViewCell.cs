@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents an individual cell in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control. </summary>
+/// Represents an individual cell in a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control. </summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[TypeConverter(typeof(DataGridViewCellConverter))]

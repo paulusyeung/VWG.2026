@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Hosts
 {
-	/// 
+/// 
 	/// Provides a base class for hosted ASP.NET events
 	/// </summary>
 	[Serializable]

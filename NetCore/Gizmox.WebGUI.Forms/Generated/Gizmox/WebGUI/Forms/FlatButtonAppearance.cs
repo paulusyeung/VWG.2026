@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides properties that specify the appearance of <see cref="T:Gizmox.WebGUI.Forms.Button"></see> controls whose <see cref="T:Gizmox.WebGUI.Forms.FlatStyle"></see> is <see cref="F:Gizmox.WebGUI.Forms.FlatStyle.Flat"></see>.</summary>
+/// Provides properties that specify the appearance of <see cref="T:Gizmox.WebGUI.Forms.Button"></see> controls whose <see cref="T:Gizmox.WebGUI.Forms.FlatStyle"></see> is <see cref="F:Gizmox.WebGUI.Forms.FlatStyle.Flat"></see>.</summary>
 	[TypeConverter(typeof(FlatButtonAppearanceConverter))]
 	public class FlatButtonAppearance
 	{

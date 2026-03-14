@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// This class represents the abilities of the jquery Resizable.
 	/// </summary>
 	[Serializable]

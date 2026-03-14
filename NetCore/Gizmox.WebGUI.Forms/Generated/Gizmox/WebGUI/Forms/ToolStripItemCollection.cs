@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a collection of <see cref="T:System.Windows.Forms.ToolStripItem"></see> objects.</summary>
+/// Represents a collection of <see cref="T:System.Windows.Forms.ToolStripItem"></see> objects.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[ListBindable(false)]

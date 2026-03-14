@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents a control consisting of a movable bar that divides a container's display area into two resizable panels.
 	/// </summary>
 	/// 

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Class for converting dragtarget property,
 	/// To disable the '+' sign in the designer.
 	/// </summary>

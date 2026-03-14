@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration
 {
-	/// 
+/// 
 	/// Represents default device integrator implemented by PhoneGap
 	/// </summary>
 	[Serializable]

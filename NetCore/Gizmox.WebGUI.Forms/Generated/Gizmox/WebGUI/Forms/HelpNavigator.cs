@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies constants indicating which elements of the Help file to display.
 	/// </summary>
 	public enum HelpNavigator

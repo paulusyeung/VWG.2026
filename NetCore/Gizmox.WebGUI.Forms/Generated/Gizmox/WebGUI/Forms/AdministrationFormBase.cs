@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -182,7 +182,7 @@ namespace Gizmox.WebGUI.Forms
 		private void UpdateContent(ContentChangeNotifierUserControl objControl)
 		{
 			string text = string.Empty;
-			List<object> labels = null;
+			List labels = null;
 			if (objControl != null)
 			{
 				text = objControl.GetCurrentContentName();

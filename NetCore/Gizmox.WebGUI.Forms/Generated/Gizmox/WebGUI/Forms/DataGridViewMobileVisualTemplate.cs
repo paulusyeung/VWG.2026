@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -264,7 +264,7 @@ namespace Gizmox.WebGUI.Forms
 				{
 					break;
 				}
-				List<object> filterComparisonOperator = DataGridViewFilterCell.DataGridViewFilterControl.GetFilterComparisonOperator(dataGridViewFilterCell.OwningColumn.ValueType);
+				List filterComparisonOperator = DataGridViewFilterCell.DataGridViewFilterControl.GetFilterComparisonOperator(dataGridViewFilterCell.OwningColumn.ValueType);
 				mobjFilterOperators = new List<object>();
 				{
 					foreach (FilterComparisonOperator item in filterComparisonOperator)
@@ -279,7 +279,7 @@ namespace Gizmox.WebGUI.Forms
 				{
 					DataGridViewFilterRow filterRow2 = dataGridView.FilterRow;
 					DataGridViewFilterCell dataGridViewFilterCell2 = filterRow2.Cells[memberPosition.X] as DataGridViewFilterCell;
-					List<object> filterComparisonOperator2 = DataGridViewFilterCell.DataGridViewFilterControl.GetFilterComparisonOperator(dataGridViewFilterCell2.OwningColumn.ValueType);
+					List filterComparisonOperator2 = DataGridViewFilterCell.DataGridViewFilterControl.GetFilterComparisonOperator(dataGridViewFilterCell2.OwningColumn.ValueType);
 					string s = objEvent["VLB"];
 					if (int.TryParse(s, out var result) && result < filterComparisonOperator2.Count)
 					{

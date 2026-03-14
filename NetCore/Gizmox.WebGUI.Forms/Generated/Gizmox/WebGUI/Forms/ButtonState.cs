@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the appearance of a button.</summary>
+/// Specifies the appearance of a button.</summary>
 	/// 2</filterpriority>
 	[Flags]
 	public enum ButtonState

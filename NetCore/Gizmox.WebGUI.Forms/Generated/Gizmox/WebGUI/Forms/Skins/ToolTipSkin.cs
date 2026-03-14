@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	[Serializable]
+[Serializable]
 	public class ToolTipSkin : CommonSkin
 	{
 		private void InitializeComponent()

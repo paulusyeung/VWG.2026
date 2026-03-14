@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies whether a column type is visible in the <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> designer. This class cannot be inherited. </summary>
+/// Specifies whether a column type is visible in the <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> designer. This class cannot be inherited. </summary>
 	[Serializable]
 	[AttributeUsage(AttributeTargets.Class)]
 	public sealed class DataGridViewColumnDesignTimeVisibleAttribute : Attribute

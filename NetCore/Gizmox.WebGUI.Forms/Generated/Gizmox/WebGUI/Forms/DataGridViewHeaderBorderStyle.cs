@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the border style that can be applied to the <see cref="P:Gizmox.WebGUI.Forms.DataGridView.ColumnHeadersBorderStyle"></see> and <see cref="P:Gizmox.WebGUI.Forms.DataGridView.RowHeadersBorderStyle"></see> properties of a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
+/// Specifies the border style that can be applied to the <see cref="P:Gizmox.WebGUI.Forms.DataGridView.ColumnHeadersBorderStyle"></see> and <see cref="P:Gizmox.WebGUI.Forms.DataGridView.RowHeadersBorderStyle"></see> properties of a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public enum DataGridViewHeaderBorderStyle

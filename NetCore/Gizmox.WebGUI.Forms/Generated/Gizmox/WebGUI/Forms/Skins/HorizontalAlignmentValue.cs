@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	/// 
+/// 
 	/// hold sthe value that represents padding space between the body of the UI element and its edge.
 	/// </summary>
 	[Serializable]

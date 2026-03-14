@@ -100,14 +100,17 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a sorted collection of <see cref="T:System.Windows.Forms.NumericUpDownAcceleration"></see> objects in the <see cref="T:System.Windows.Forms.NumericUpDown"></see> control.</summary>
+/// Represents a sorted collection of <see cref="T:System.Windows.Forms.NumericUpDownAcceleration"></see> objects in the <see cref="T:System.Windows.Forms.NumericUpDown"></see> control.</summary>
 	[Serializable]
 	[Obsolete("Not implemented. Added for migration compatibility")]
 	[Browsable(false)]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	[ListBindable(false)]
-	public class NumericUpDownAccelerationCollection : MarshalByRefObject, ICollection, IEnumerable, IEnumerable
+	public class NumericUpDownAccelerationCollection : MarshalByRefObject, ICollection, IEnumerable
 	{
+		public object SyncRoot => this;
+		public bool IsSynchronized => false;
+		IEnumerator IEnumerable.GetEnumerator() { return null; }
 		/// Gets the number of objects in the <see cref="T:System.Windows.Forms.NumericUpDownAccelerationCollection"></see>.</summary>
 		/// The number of objects in the collection.</returns>
 		[Obsolete("Not implemented. Added for migration compatibility")]
@@ -115,6 +118,7 @@ namespace Gizmox.WebGUI.Forms
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public int Count => 0;
+        public void CopyTo(Array array, int index) { }
 
 		/// Gets a value indicating whether the <see cref="T:System.Windows.Forms.NumericUpDownAccelerationCollection"></see> is read-only.</summary>
 		/// true if the collectionms-help://MS.VSCC.2003/MS.MSDNQTR.2003FEB.1033/cpref/html/frlrfsystemcollectionsilistclasstopic.htm is read-only; otherwise, false.</returns>
@@ -175,7 +179,7 @@ namespace Gizmox.WebGUI.Forms
 		[Obsolete("Not implemented. Added for migration compatibility")]
 		[Browsable(false)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		public void CopyTo(NumericUpDownAcceleration[] array, int index) { } void ICollection.CopyTo(Array array, int index) { } bool ICollection.IsSynchronized => false; object ICollection.SyncRoot => this; public void CopyTo2(NumericUpDownAcceleration[] array, int index)
+		public void CopyTo(NumericUpDownAcceleration[] array, int index)
 		{
 		}
 
@@ -190,20 +194,8 @@ namespace Gizmox.WebGUI.Forms
 			return false;
 		}
 
-		[Obsolete("Not implemented. Added for migration compatibility")]
-		[Browsable(false)]
-		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		IEnumerator IEnumerable.GetEnumerator()
-		{
-			return null;
-		}
+		
 
-		[Obsolete("Not implemented. Added for migration compatibility")]
-		[Browsable(false)]
-		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-		IEnumerator IEnumerable.GetEnumerator()
-		{
-			return null;
-		}
+		
 	}
 }

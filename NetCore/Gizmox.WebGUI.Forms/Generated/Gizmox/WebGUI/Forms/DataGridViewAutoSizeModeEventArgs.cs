@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for the <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see><see cref="E:Gizmox.WebGUI.Forms.DataGridView.AutoSizeRowsModeChanged"></see> and <see cref="E:Gizmox.WebGUI.Forms.DataGridView.RowHeadersWidthSizeModeChanged"></see> events.</summary>
+/// Provides data for the <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see><see cref="E:Gizmox.WebGUI.Forms.DataGridView.AutoSizeRowsModeChanged"></see> and <see cref="E:Gizmox.WebGUI.Forms.DataGridView.RowHeadersWidthSizeModeChanged"></see> events.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class DataGridViewAutoSizeModeEventArgs : EventArgs

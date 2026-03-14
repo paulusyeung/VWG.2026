@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Hosts
 {
-	/// 
+/// 
 	/// Provides an System.Web.UI.Page implementation that adds state management and visual webgui pipeline integration
 	/// </summary>
 	[Serializable]

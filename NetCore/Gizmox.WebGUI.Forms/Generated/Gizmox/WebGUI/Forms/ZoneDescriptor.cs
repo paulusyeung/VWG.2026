@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -186,7 +186,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		/// <typeparam name="T"></typeparam>
 		/// </returns>
-		internal override DockedObjectDescriptor CloneWithoutReferences()
+		internal override T CloneWithoutReferences<T>()
 		{
 			return new ZoneDescriptor(this) as T;
 		}

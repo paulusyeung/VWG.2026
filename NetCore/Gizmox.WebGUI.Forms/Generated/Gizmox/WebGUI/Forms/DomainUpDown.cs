@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents a Windows spin box (also known as an up-down control) that displays string values.
 	/// </summary>
 	[Serializable]

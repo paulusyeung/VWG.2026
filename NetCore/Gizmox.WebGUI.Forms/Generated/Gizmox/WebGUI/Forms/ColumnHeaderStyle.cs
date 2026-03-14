@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies the styles of the column headers in a ListView control.
 	/// </summary>    
 	public enum ColumnHeaderStyle

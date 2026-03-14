@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Tab control client behavior modes
 	/// </summary>
 	public enum TabControlClientBehavior

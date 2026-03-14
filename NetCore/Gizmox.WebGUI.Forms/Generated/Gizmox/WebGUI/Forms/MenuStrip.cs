@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides a menu system for a form.</summary>
+/// Provides a menu system for a form.</summary>
 	/// 1</filterpriority>
 	[Serializable]
 	[MetadataTag("MSP")]

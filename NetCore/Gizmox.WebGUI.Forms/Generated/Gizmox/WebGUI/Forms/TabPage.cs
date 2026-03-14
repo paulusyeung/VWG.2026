@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents a single tab page in a <see cref="T:Gizmox.WebGUI.Forms.TabControl"></see>.
 	/// </summary>
 	[Serializable]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Authentication
 {
-	/// 
+/// 
 	/// Impementation for LogonForm class.
 	/// </summary>
 	[Serializable]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for mouse events raised by a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> whenever the mouse is moved within a <see cref="T:Gizmox.WebGUI.Forms.DataGridViewCell"></see>. </summary>
+/// Provides data for mouse events raised by a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> whenever the mouse is moved within a <see cref="T:Gizmox.WebGUI.Forms.DataGridViewCell"></see>. </summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class DataGridViewCellMouseEventArgs : MouseEventArgs

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Defines common functionality for a cell that allows the manipulation of its value.
 	/// </summary>
 	public interface IDataGridViewEditingCell

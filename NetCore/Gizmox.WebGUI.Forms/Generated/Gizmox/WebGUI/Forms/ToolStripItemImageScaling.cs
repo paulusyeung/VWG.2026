@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies whether the size of the image on a <see cref="T:Gizmox.WebGUI.Forms.ToolStripItem"></see> is automatically adjusted to fit on a <see cref="T:Gizmox.WebGUI.Forms.ToolStrip"></see> while retaining the original image proportions.</summary> 
+/// Specifies whether the size of the image on a <see cref="T:Gizmox.WebGUI.Forms.ToolStripItem"></see> is automatically adjusted to fit on a <see cref="T:Gizmox.WebGUI.Forms.ToolStrip"></see> while retaining the original image proportions.</summary> 
 	/// 2</filterpriority>
 	public enum ToolStripItemImageScaling
 	{

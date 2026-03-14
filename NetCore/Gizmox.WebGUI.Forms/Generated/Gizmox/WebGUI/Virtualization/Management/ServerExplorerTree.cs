@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Virtualization.Management
 {
-	[Serializable]
+[Serializable]
 	[ToolboxItem(false)]
 	internal class ServerExplorerTree : Gizmox.WebGUI.Forms.TreeView
 	{

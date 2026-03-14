@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Defines values for specifying the parts of a <see cref="T:Gizmox.WebGUI.Forms.DataGridViewCell"></see> that are to be painted.</summary>
+/// Defines values for specifying the parts of a <see cref="T:Gizmox.WebGUI.Forms.DataGridViewCell"></see> that are to be painted.</summary>
 	[Serializable]
 	[Flags]
 	public enum DataGridViewPaintParts

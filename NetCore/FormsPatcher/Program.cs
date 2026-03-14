@@ -109,6 +109,9 @@ class Program
         // Fix AdministrationContent Comparer
         FixAdministrationContentSorter();
 
+        // Fix event handler metadata GetHandler calls
+        FixEventMetadata();
+
         Console.WriteLine("All patches complete.");
     }
 
@@ -263,6 +266,83 @@ class Program
         {
             File.WriteAllText(path, content);
             Console.WriteLine("Fixed AdministrationContent.cs.");
+        }
+    }
+
+    static void FixEventMetadata()
+    {
+        string formsDir = @"c:\Projects\VWG\NetCore\Gizmox.WebGUI.Forms\Generated\Gizmox\WebGUI\Forms";
+        
+        // --- TreeNode.cs ---
+        PatchFile(Path.Combine(formsDir, "TreeNode.cs"), new[] {
+            ("GetHandler(BeforeLabelEdit)", "GetHandler(BeforeLabelEditEvent)"),
+            ("GetHandler(AfterLabelEdit)", "GetHandler(AfterLabelEditEvent)")
+        });
+
+        // --- TreeView.cs ---
+        PatchFile(Path.Combine(formsDir, "TreeView.cs"), new[] {
+            ("GetHandler(BeforeSelect)", "GetHandler(BeforeSelectEvent)"),
+            ("GetHandler(BeforeLabelEdit)", "GetHandler(BeforeLabelEditEvent)"),
+            ("GetHandler(BeforeExpand)", "GetHandler(BeforeExpandEvent)"),
+            ("GetHandler(BeforeCheck)", "GetHandler(BeforeCheckEvent)"),
+            ("GetHandler(BeforeCollapse)", "GetHandler(BeforeCollapseEvent)"),
+            ("GetHandler(AfterCheck)", "GetHandler(AfterCheckEvent)"),
+            ("GetHandler(AfterExpand)", "GetHandler(AfterExpandEvent)"),
+            ("GetHandler(AfterCollapse)", "GetHandler(AfterCollapseEvent)")
+        });
+
+        // --- Form.cs ---
+        PatchFile(Path.Combine(formsDir, "Form.cs"), new[] {
+            ("GetHandler(Load)", "GetHandler(LoadEvent)"),
+            ("GetHandler(Closed)", "GetHandler(ClosedEvent)"),
+            ("GetHandler(Closing)", "GetHandler(ClosingEvent)"),
+            ("GetHandler(FormClosing)", "GetHandler(FormClosingEvent)"),
+            ("GetHandler(FormClosed)", "GetHandler(FormClosedEvent)"),
+            ("GetHandler(Activated)", "GetHandler(ActivatedEvent)"),
+            ("GetHandler(Deactivate)", "GetHandler(DeactivateEvent)"),
+            ("GetHandler(OrientationChanged)", "GetHandler(OrientationChangedEvent)"),
+            ("GetHandler(GeographicLocationChanged)", "GetHandler(GeographicLocationChangedEvent)"),
+            ("GetHandler(ObservableItemAdded)", "GetHandler(ObservableItemAddedEvent)")
+        });
+
+        // --- Control.cs ---
+        PatchFile(Path.Combine(formsDir, "Control.cs"), new[] {
+            ("GetHandler(Click)", "GetHandler(ClickEvent)"),
+            ("GetHandler(DoubleClick)", "GetHandler(DoubleClickEvent)"),
+            ("GetHandler(Selected)", "GetHandler(SelectedEvent)"),
+            ("GetHandler(Enter)", "GetHandler(EnterEvent)"),
+            ("GetHandler(Validated)", "GetHandler(ValidatedEvent)"),
+            ("GetHandler(Validating)", "GetHandler(ValidatingEvent)"),
+            ("GetHandler(Leave)", "GetHandler(LeaveEvent)"),
+            ("GetHandler(KeyDown)", "GetHandler(KeyDownEvent)"),
+            ("GetHandler(KeyPress)", "GetHandler(KeyPressEvent)"),
+            ("GetHandler(KeyUp)", "GetHandler(KeyUpEvent)")
+        });
+
+        // --- CurrencyManager.cs (Property shadowing fix) ---
+        PatchFile(Path.Combine(formsDir, "CurrencyManager.cs"), new[] {
+            ("List<object> is IBindingList", "List is IBindingList"),
+            ("return ((IBindingList)List<object>)", "return ((IBindingList)List)"),
+            ("List<object> != null", "List != null"),
+            ("!List<object>.IsReadOnly", "!List.IsReadOnly"),
+            ("!List<object>.IsFixedSize", "!List.IsFixedSize"),
+            ("!List<object>.IsReadOnly", "!List.IsReadOnly")
+        });
+    }
+
+    static void PatchFile(string path, (string Target, string Replacement)[] replacements)
+    {
+        if (!File.Exists(path)) return;
+        string content = File.ReadAllText(path);
+        string original = content;
+        foreach (var r in replacements)
+        {
+            content = content.Replace(r.Target, r.Replacement);
+        }
+        if (content != original)
+        {
+            File.WriteAllText(path, content);
+            Console.WriteLine("Precision patched " + Path.GetFileName(path));
         }
     }
 

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration.DeviceCommon
 {
-	[Serializable]
+[Serializable]
 	public class JsonUtils
 	{
 		/// 
@@ -109,7 +109,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.DeviceCommon
 		/// <typeparam name="T"></typeparam>
 		/// <param name="strJSON">The STR JSON.</param>
 		/// </returns>
-		public static T Deserialize(string strJSON)
+		public static T Deserialize<T>(string strJSON)
 		{
 			return JsonConvert.DeserializeObject(strJSON);
 		}
@@ -119,9 +119,6 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.DeviceCommon
 		/// </summary>
 		/// <param name="strContact">The STR contact.</param>
 		/// </returns>
-		public static JObject Deserialize(string strJSON)
-		{
-			return JsonConvert.DeserializeObject(strJSON) as JObject;
-		}
+		public static JObject DeserializeJObject(string strJSON) { return JsonConvert.DeserializeObject(strJSON) as JObject; }
 	}
 }

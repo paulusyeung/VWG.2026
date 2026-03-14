@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the style that a <see cref="T:Gizmox.WebGUI.Forms.ProgressBar"></see> uses to indicate the progress of an operation.</summary> 
+/// Specifies the style that a <see cref="T:Gizmox.WebGUI.Forms.ProgressBar"></see> uses to indicate the progress of an operation.</summary> 
 	/// 2</filterpriority>
 	public enum ProgressBarStyle
 	{

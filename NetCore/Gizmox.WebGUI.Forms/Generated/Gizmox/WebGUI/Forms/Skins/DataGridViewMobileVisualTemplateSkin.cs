@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -116,7 +116,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("DataGridViewVisualTemplateAddNewRowImage", (ImageResourceReference)null);
+				return GetValue("DataGridViewVisualTemplateAddNewRowImage", null);
 			}
 			set
 			{
@@ -134,7 +134,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("DataGridViewVisualTemplatePropertiesImage", (ImageResourceReference)null);
+				return GetValue("DataGridViewVisualTemplatePropertiesImage", null);
 			}
 			set
 			{
@@ -152,7 +152,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("DataGridViewVisualTemplateSortImage", (ImageResourceReference)null);
+				return GetValue("DataGridViewVisualTemplateSortImage", null);
 			}
 			set
 			{
@@ -170,7 +170,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("DataGridViewVisualTemplateFilterImage", (ImageResourceReference)null);
+				return GetValue("DataGridViewVisualTemplateFilterImage", null);
 			}
 			set
 			{
@@ -188,7 +188,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("DataGridViewVisualTemplateViewConfigurationImage", (ImageResourceReference)null);
+				return GetValue("DataGridViewVisualTemplateViewConfigurationImage", null);
 			}
 			set
 			{
@@ -375,7 +375,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("DataGridViewVisualTemplateSortColumnCheckImage", (ImageResourceReference)null);
+				return GetValue("DataGridViewVisualTemplateSortColumnCheckImage", null);
 			}
 			set
 			{
@@ -403,7 +403,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("DataGridViewVisualTemplateFilterColumnNextImageRTL", (ImageResourceReference)null);
+				return GetValue("DataGridViewVisualTemplateFilterColumnNextImageRTL", null);
 			}
 			set
 			{
@@ -423,7 +423,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("DataGridViewVisualTemplateFilterColumnNextImageLTR", (ImageResourceReference)null);
+				return GetValue("DataGridViewVisualTemplateFilterColumnNextImageLTR", null);
 			}
 			set
 			{
@@ -578,7 +578,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("DataGridViewVisualTemplateListDisabledImage", (ImageResourceReference)null);
+				return GetValue("DataGridViewVisualTemplateListDisabledImage", null);
 			}
 			set
 			{
@@ -596,7 +596,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("DataGridViewVisualTemplateListEnabledImage", (ImageResourceReference)null);
+				return GetValue("DataGridViewVisualTemplateListEnabledImage", null);
 			}
 			set
 			{
@@ -614,7 +614,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("DataGridViewVisualTemplateTableDisabledImage", (ImageResourceReference)null);
+				return GetValue("DataGridViewVisualTemplateTableDisabledImage", null);
 			}
 			set
 			{
@@ -632,7 +632,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("DataGridViewVisualTemplateTableEnabledImage", (ImageResourceReference)null);
+				return GetValue("DataGridViewVisualTemplateTableEnabledImage", null);
 			}
 			set
 			{
@@ -682,7 +682,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("DataGridViewVisualTemplateViewByGroupsDisabledImage", (ImageResourceReference)null);
+				return GetValue("DataGridViewVisualTemplateViewByGroupsDisabledImage", null);
 			}
 			set
 			{
@@ -700,7 +700,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("DataGridViewVisualTemplateViewByGroupsEnabledImage", (ImageResourceReference)null);
+				return GetValue("DataGridViewVisualTemplateViewByGroupsEnabledImage", null);
 			}
 			set
 			{
@@ -734,7 +734,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("DataGridViewVisualTemplateAddGroupImage", (ImageResourceReference)null);
+				return GetValue("DataGridViewVisualTemplateAddGroupImage", null);
 			}
 			set
 			{

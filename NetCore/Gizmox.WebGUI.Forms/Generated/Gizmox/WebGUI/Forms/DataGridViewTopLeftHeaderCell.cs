@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents the cell in the top left corner of the <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> that sits above the row headers and to the left of the column headers.</summary>
+/// Represents the cell in the top left corner of the <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> that sits above the row headers and to the left of the column headers.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class DataGridViewTopLeftHeaderCell : DataGridViewColumnHeaderCell

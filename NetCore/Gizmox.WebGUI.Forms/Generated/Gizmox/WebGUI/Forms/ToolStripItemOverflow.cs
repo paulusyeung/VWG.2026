@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Determines whether a <see cref="T:Gizmox.WebGUI.Forms.ToolStripItem"></see> is placed in the overflow <see cref="T:Gizmox.WebGUI.Forms.ToolStrip"></see>.</summary> 
+/// Determines whether a <see cref="T:Gizmox.WebGUI.Forms.ToolStripItem"></see> is placed in the overflow <see cref="T:Gizmox.WebGUI.Forms.ToolStrip"></see>.</summary> 
 	/// 2</filterpriority>
 	public enum ToolStripItemOverflow
 	{

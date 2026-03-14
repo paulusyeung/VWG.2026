@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Virtualization.Management
 {
-	internal class VirtualStorageNode : ServerExplorerNode
+internal class VirtualStorageNode : ServerExplorerNode
 	{
 		private string mstrSelectedFile = "";
 

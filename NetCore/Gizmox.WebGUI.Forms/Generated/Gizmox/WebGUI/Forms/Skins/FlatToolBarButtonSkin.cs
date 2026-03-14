@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	[Serializable]
+[Serializable]
 	[SkinContainer(typeof(FlatToolBarSkin))]
 	[ToolboxBitmap(typeof(Button), "Button.bmp")]
 	public class FlatToolBarButtonSkin : ToolBarButtonSkin

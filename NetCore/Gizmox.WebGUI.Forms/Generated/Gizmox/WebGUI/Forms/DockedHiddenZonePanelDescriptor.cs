@@ -100,18 +100,18 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
 	public class DockedHiddenZonePanelDescriptor : DockedObjectDescriptor
 	{
-		private List<List> mobjWindowDescriptorsGroups;
+		private List<List<object>> mobjWindowDescriptorsGroups;
 
 		/// 
 		/// Gets the window descriptors groups.
 		/// </summary>
-		internal List<List> WindowDescriptorsGroups => mobjWindowDescriptorsGroups;
+		internal List<List<object>> WindowDescriptorsGroups => mobjWindowDescriptorsGroups;
 
 		/// 
 		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.DockedHiddenZonePanelDescriptor" /> class.
@@ -140,10 +140,10 @@ namespace Gizmox.WebGUI.Forms
 		/// Returns the and remove windows descriptors groups for load.
 		/// </summary>
 		/// </returns>
-		internal List<List> RemoveAndReturnWindowsDescriptorsGroupsForLoad()
+		internal List<List<object>> RemoveAndReturnWindowsDescriptorsGroupsForLoad()
 		{
-			List<List> result = mobjWindowDescriptorsGroups;
-			mobjWindowDescriptorsGroups = new List<List>();
+			List<List<object>> result = mobjWindowDescriptorsGroups;
+			mobjWindowDescriptorsGroups = new List<List<object>>();
 			return result;
 		}
 
@@ -156,11 +156,11 @@ namespace Gizmox.WebGUI.Forms
 		{
 			if (objControl is DockedHiddenZonesPanel dockedHiddenZonesPanel)
 			{
-				mobjWindowDescriptorsGroups = new List<List>();
+				mobjWindowDescriptorsGroups = new List<List<object>>();
 				{
 					foreach (List<object> allZoneGroup in dockedHiddenZonesPanel.AllZoneGroups)
 					{
-						List<object> list = new List<object>();
+						List<object> list = new List<object><object>();
 						foreach (Zone item in allZoneGroup)
 						{
 							list.Add(item.CurrentWindow.DockedWindowDescriptor);

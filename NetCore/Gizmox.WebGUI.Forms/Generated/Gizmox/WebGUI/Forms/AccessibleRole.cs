@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies values representing possible roles for an accessible object.</summary>
+/// Specifies values representing possible roles for an accessible object.</summary>
 	/// 2</filterpriority>
 	[Obsolete("Not implemented. Added for migration compatibility")]
 	[Browsable(false)]

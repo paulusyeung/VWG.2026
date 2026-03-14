@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for <see cref="T:System.Windows.Forms.ToolStripItem"></see> events.</summary>
+/// Provides data for <see cref="T:System.Windows.Forms.ToolStripItem"></see> events.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class ToolStripItemEventArgs : EventArgs

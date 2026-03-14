@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the user interface (UI) state of a element within a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
+/// Specifies the user interface (UI) state of a element within a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
 	[Serializable]
 	[Flags]
 	public enum DataGridViewElementStates

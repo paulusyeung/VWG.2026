@@ -17,7 +17,6 @@
 
   <ItemGroup>
     <Compile Remove="Generated\Gizmox\WebGUI\Forms\Hosts\Asp*.cs" />
-    <Compile Remove="Generated\Gizmox\WebGUI\Forms\Hosts\FormBox.cs" />
     <Compile Remove="Generated\Gizmox\WebGUI\Forms\Hosts\Skins\Asp*.cs" />
   </ItemGroup>
 

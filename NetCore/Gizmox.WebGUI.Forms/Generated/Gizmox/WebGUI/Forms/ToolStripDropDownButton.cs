@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a control that when clicked displays an associated <see cref="T:System.Windows.Forms.ToolStripDropDown"></see> from which the user can select a single item.</summary>
+/// Represents a control that when clicked displays an associated <see cref="T:System.Windows.Forms.ToolStripDropDown"></see> from which the user can select a single item.</summary>
 	[Serializable]
 	[Skin(typeof(ToolStripDropDownButtonSkin))]
 	[ClientController("Gizmox.WebGUI.Client.Controllers.ToolStripDropDownButtonController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]

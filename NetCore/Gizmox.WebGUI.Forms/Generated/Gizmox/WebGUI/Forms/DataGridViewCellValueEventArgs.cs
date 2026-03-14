@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.DataGridView.CellValueNeeded"></see> and <see cref="E:Gizmox.WebGUI.Forms.DataGridView.CellValuePushed"></see> events of the <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
+/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.DataGridView.CellValueNeeded"></see> and <see cref="E:Gizmox.WebGUI.Forms.DataGridView.CellValuePushed"></see> events of the <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class DataGridViewCellValueEventArgs : EventArgs

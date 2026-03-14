@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Encapsulates the data source for a form.</summary>
+/// Encapsulates the data source for a form.</summary>
 	[Serializable]
 	[ToolboxItem(true)]
 	[ComplexBindingProperties("DataSource", "DataMember")]
@@ -387,7 +387,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			get
 			{
-				if (!(List<object> is IBindingListView { SupportsFiltering: not false, Filter: var filter }))
+				if (!(List is IBindingListView { SupportsFiltering: not false, Filter: var filter }))
 				{
 					return string.Empty;
 				}
@@ -395,7 +395,7 @@ namespace Gizmox.WebGUI.Forms
 			}
 			set
 			{
-				if (!mblnInitializing && !base.DesignMode && !ClientUtils.IsEquals(value, InnerListFilter, StringComparison.Ordinal) && List<object> is IBindingListView { SupportsFiltering: not false } bindingListView)
+				if (!mblnInitializing && !base.DesignMode && !ClientUtils.IsEquals(value, InnerListFilter, StringComparison.Ordinal) && List is IBindingListView { SupportsFiltering: not false } bindingListView)
 				{
 					bindingListView.Filter = value;
 				}
@@ -407,8 +407,8 @@ namespace Gizmox.WebGUI.Forms
 			get
 			{
 				ListSortDescriptionCollection objSortsColln = null;
-				IBindingListView bindingListView = List<object> as IBindingListView;
-				IBindingList bindingList = List<object> as IBindingList;
+				IBindingListView bindingListView = List as IBindingListView;
+				IBindingList bindingList = List as IBindingList;
 				if (bindingListView != null && bindingListView.SupportsAdvancedSorting)
 				{
 					objSortsColln = bindingListView.SortDescriptions;
@@ -429,8 +429,8 @@ namespace Gizmox.WebGUI.Forms
 					return;
 				}
 				ListSortDescriptionCollection listSortDescriptionCollection = ParseSortString(value);
-				IBindingListView bindingListView = List<object> as IBindingListView;
-				IBindingList bindingList = List<object> as IBindingList;
+				IBindingListView bindingListView = List as IBindingListView;
+				IBindingList bindingList = List as IBindingList;
 				if (bindingListView != null && bindingListView.SupportsAdvancedSorting)
 				{
 					if (listSortDescriptionCollection.Count == 0)
@@ -588,7 +588,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			get
 			{
-				if (!(List<object> is IBindingListView { SortDescriptions: var sortDescriptions }))
+				if (!(List is IBindingListView { SortDescriptions: var sortDescriptions }))
 				{
 					return null;
 				}
@@ -635,7 +635,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			get
 			{
-				if (!(List<object> is IBindingListView { SupportsAdvancedSorting: var supportsAdvancedSorting }))
+				if (!(List is IBindingListView { SupportsAdvancedSorting: var supportsAdvancedSorting }))
 				{
 					return false;
 				}
@@ -655,7 +655,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			get
 			{
-				if (!(List<object> is IBindingListView { SupportsFiltering: var supportsFiltering }))
+				if (!(List is IBindingListView { SupportsFiltering: var supportsFiltering }))
 				{
 					return false;
 				}
@@ -893,7 +893,7 @@ namespace Gizmox.WebGUI.Forms
 			marrSerializedDataViewNewRowValues = null;
 			try
 			{
-				if (List != null && List.GetType() == typeof(DataView) && Position >= 0 && Position < List.Count && ((DataRowView)this[Position]).IsNew)
+				if (List != null && List.GetType() == typeof(DataView) && Position >= 0 && Position <List.Count && ((DataRowView)this[Position]).IsNew)
 				{
 					marrSerializedDataViewNewRowValues = ((DataRowView)this[Position]).Row.ItemArray;
 				}
@@ -1335,7 +1335,7 @@ namespace Gizmox.WebGUI.Forms
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public virtual void ApplySort(ListSortDescriptionCollection objSortsCollection)
 		{
-			if (!(List<object> is IBindingListView bindingListView))
+			if (!(List is IBindingListView bindingListView))
 			{
 				throw new NotSupportedException(SR.GetString("OperationRequiresIBindingListView"));
 			}
@@ -1820,7 +1820,7 @@ namespace Gizmox.WebGUI.Forms
 		public virtual void RemoveFilter()
 		{
 			mstrFilter = null;
-			if (List<object> is IBindingListView bindingListView)
+			if (List is IBindingListView bindingListView)
 			{
 				bindingListView.RemoveFilter();
 			}
@@ -1983,7 +1983,7 @@ namespace Gizmox.WebGUI.Forms
 				RemoveAt(mintAddNewPos);
 				mintAddNewPos = -1;
 			}
-			else if (List<object> is ICancelAddNew cancelAddNew)
+			else if (List is ICancelAddNew cancelAddNew)
 			{
 				cancelAddNew.CancelNew(intPosition);
 			}
@@ -1995,7 +1995,7 @@ namespace Gizmox.WebGUI.Forms
 			{
 				mintAddNewPos = -1;
 			}
-			else if (List<object> is ICancelAddNew cancelAddNew)
+			else if (List is ICancelAddNew cancelAddNew)
 			{
 				cancelAddNew.EndNew(intPosition);
 			}

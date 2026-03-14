@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -108,7 +108,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 	{
 		private SingleCallMethodStore<CameraEventArgs> mobjCameraMethodStore;
 
-		private SingleCallMethodStore<CameraEventArgs> mobjClearMethodStore;
+		private SingleCallMethodStore<CleanupEventArgs> mobjClearMethodStore;
 
 		/// 
 		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.DeviceIntegration.Camera" /> class.
@@ -129,11 +129,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// Cleans up the image files that were taken by the camera, that were stored in a temporary storage location.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void Cleanup(Action<CameraEventArgs> objCallback)
+		public void Cleanup(Action<CleanupEventArgs> objCallback)
 		{
 			if (mobjClearMethodStore == null)
 			{
-				mobjClearMethodStore = new SingleCallMethodStore<CameraEventArgs>();
+				mobjClearMethodStore = new SingleCallMethodStore<CleanupEventArgs>();
 			}
 			string text = mobjClearMethodStore.StoreSingleCallMethod("cln", objCallback);
 			Invoke("DeviceIntegrator.Camera.cleanup", text);

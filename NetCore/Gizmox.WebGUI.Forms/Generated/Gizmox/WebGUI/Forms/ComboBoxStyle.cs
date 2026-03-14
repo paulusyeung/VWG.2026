@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies the <see cref="T:Gizmox.WebGUI.Forms.ComboBox"></see> style.
 	/// </summary>	
 	public enum ComboBoxStyle

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Defines values for specifying how the height of the column headers is adjusted. </summary>
+/// Defines values for specifying how the height of the column headers is adjusted. </summary>
 	[Serializable]
 	public enum DataGridViewColumnHeadersHeightSizeMode
 	{

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a shortcut menu. </summary>
+/// Represents a shortcut menu. </summary>
 	[Serializable]
 	[DefaultEvent("Opening")]
 	[ComVisible(true)]

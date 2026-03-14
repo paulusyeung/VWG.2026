@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a nonselectable <see cref="T:System.Windows.Forms.ToolStripItem"></see> that renders text and images and can display hyperlinks.</summary>
+/// Represents a nonselectable <see cref="T:System.Windows.Forms.ToolStripItem"></see> that renders text and images and can display hyperlinks.</summary>
 	[Serializable]
 	[Skin(typeof(ToolStripLabelSkin))]
 	[ClientController("Gizmox.WebGUI.Client.Controllers.ToolStripLabelController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]

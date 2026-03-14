@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Contains a collection of <see cref="T:Gizmox.WebGUI.Forms.TabPage"></see> objects.
 	/// </summary>
 	[Serializable]
@@ -222,7 +222,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <exception cref="T:System.ArgumentNullException">dest is null.</exception>
 		public void CopyTo(Array objDestArray, int index)
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			foreach (ProxyComponent component in mobjProxyTabControl.Components)
 			{
 				list.Add(component);

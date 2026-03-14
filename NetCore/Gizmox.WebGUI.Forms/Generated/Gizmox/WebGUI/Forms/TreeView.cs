@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Summary description for TreeView.
 	/// </summary>
 	[Serializable]
@@ -311,7 +311,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the BeforeSelect event.
 		/// </summary>
-		private TreeViewCancelEventHandler BeforeSelectHandler => (TreeViewCancelEventHandler)GetHandler(BeforeSelect);
+		private TreeViewCancelEventHandler BeforeSelectHandler => (TreeViewCancelEventHandler)GetHandler(BeforeSelectEvent);
 
 		/// 
 		/// Gets the hanlder for the AfterSelect event.
@@ -326,37 +326,37 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the BeforeLabelEdit event.
 		/// </summary>
-		private NodeLabelEditEventHandler BeforeLabelEditHandler => (NodeLabelEditEventHandler)GetHandler(BeforeLabelEdit);
+		private NodeLabelEditEventHandler BeforeLabelEditHandler => (NodeLabelEditEventHandler)GetHandler(BeforeLabelEditEvent);
 
 		/// 
 		/// Gets the hanlder for the BeforeExpand event.
 		/// </summary>
-		private TreeViewCancelEventHandler BeforeExpandHandler => (TreeViewCancelEventHandler)GetHandler(BeforeExpand);
+		private TreeViewCancelEventHandler BeforeExpandHandler => (TreeViewCancelEventHandler)GetHandler(BeforeExpandEvent);
 
 		/// 
 		/// Gets the hanlder for the BeforeCheck event.
 		/// </summary>
-		private TreeViewCancelEventHandler BeforeCheckHandler => (TreeViewCancelEventHandler)GetHandler(BeforeCheck);
+		private TreeViewCancelEventHandler BeforeCheckHandler => (TreeViewCancelEventHandler)GetHandler(BeforeCheckEvent);
 
 		/// 
 		/// Gets the hanlder for the BeforeCollapse event.
 		/// </summary>
-		private TreeViewCancelEventHandler BeforeCollapseHandler => (TreeViewCancelEventHandler)GetHandler(BeforeCollapse);
+		private TreeViewCancelEventHandler BeforeCollapseHandler => (TreeViewCancelEventHandler)GetHandler(BeforeCollapseEvent);
 
 		/// 
 		/// Gets the hanlder for the AfterCheck event.
 		/// </summary>
-		private TreeViewEventHandler AfterCheckHandler => (TreeViewEventHandler)GetHandler(AfterCheck);
+		private TreeViewEventHandler AfterCheckHandler => (TreeViewEventHandler)GetHandler(AfterCheckEvent);
 
 		/// 
 		/// Gets the hanlder for the AfterExpand event.
 		/// </summary>
-		private TreeViewEventHandler AfterExpandHandler => (TreeViewEventHandler)GetHandler(AfterExpand);
+		private TreeViewEventHandler AfterExpandHandler => (TreeViewEventHandler)GetHandler(AfterExpandEvent);
 
 		/// 
 		/// Gets the hanlder for the AfterCollapse event.
 		/// </summary>
-		private TreeViewEventHandler AfterCollapseHandler => (TreeViewEventHandler)GetHandler(AfterCollapse);
+		private TreeViewEventHandler AfterCollapseHandler => (TreeViewEventHandler)GetHandler(AfterCollapseEvent);
 
 		/// 
 		/// The size of the initiale serialization data array which is the optmized serialization graph.

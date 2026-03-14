@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design
 {
-	/// 
+/// 
 	/// Specifies whether a property or event should be displayed in a Properties window 
 	/// of the PropertyGrid in Partially Trusted Environment.
 	/// </summary>

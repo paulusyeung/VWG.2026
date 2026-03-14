@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.TreeView.NodeMouseClick"></see> and 
 	/// <see cref="E:Gizmox.WebGUI.Forms.TreeView.NodeMouseDoubleClick"></see> events. 
 	/// </summary>

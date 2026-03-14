@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Defines constants that indicate the alignment of content within a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> cell.</summary>
+/// Defines constants that indicate the alignment of content within a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> cell.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public enum DataGridViewContentAlignment

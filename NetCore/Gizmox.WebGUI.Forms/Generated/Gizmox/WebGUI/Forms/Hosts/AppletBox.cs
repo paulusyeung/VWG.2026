@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Hosts
 {
-	/// 
+/// 
 	/// Applet box control can host java applets and embed the in a Visual WebGui
 	/// application
 	/// </summary>

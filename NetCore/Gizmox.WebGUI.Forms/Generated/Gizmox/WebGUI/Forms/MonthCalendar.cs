@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// A calendar control.
 	/// </summary>
 	[Serializable]
@@ -1173,7 +1173,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		private string GetBoldedDatesIndexes()
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			DateTime position = Position;
 			int num = DateTime.DaysInMonth(position.Year, position.Month);
 			int displayStartIndex = GetDisplayStartIndex();
@@ -1213,7 +1213,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		private DateTime[] GetAllBoldedDisplayedDates(DateTime objCurrentPosition, DateTime objBoldedMinDate, DateTime objBoldedMaxDate)
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			DateTime[] boldedDates = BoldedDates;
 			DateTime[] monthlyBoldedDates = MonthlyBoldedDates;
 			DateTime[] annuallyBoldedDates = AnnuallyBoldedDates;
@@ -1673,7 +1673,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objDate">The date to be displayed in bold.</param>
 		public void AddAnnuallyBoldedDate(DateTime objDate)
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			list.AddRange(AnnuallyBoldedDates);
 			list.Add(objDate);
 			AnnuallyBoldedDates = list.ToArray();
@@ -1685,7 +1685,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objDate">The date to be displayed in bold.</param>
 		public void AddBoldedDate(DateTime objDate)
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			list.AddRange(BoldedDates);
 			list.Add(objDate);
 			BoldedDates = list.ToArray();
@@ -1697,7 +1697,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objDate">The date to be displayed in bold.</param>
 		public void AddMonthlyBoldedDate(DateTime objDate)
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			list.AddRange(MonthlyBoldedDates);
 			list.Add(objDate);
 			MonthlyBoldedDates = list.ToArray();

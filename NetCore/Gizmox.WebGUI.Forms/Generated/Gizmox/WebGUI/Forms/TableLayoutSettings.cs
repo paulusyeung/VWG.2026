@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Collects the characteristics associated with table layouts.
 	/// </summary>
 	[Serializable]
@@ -331,7 +331,7 @@ namespace Gizmox.WebGUI.Forms
 				{
 					return new List<object>();
 				}
-				List<object> list = new List(mobjControlsInfo.Count);
+				List<object> list = new List<object><object>(mobjControlsInfo.Count);
 				foreach (object key in mobjControlsInfo.Keys)
 				{
 					ControlInformation item = mobjControlsInfo[key];
@@ -845,7 +845,7 @@ namespace Gizmox.WebGUI.Forms
 			{
 				return mobjTableLayoutSettingsStub.GetControlsInformation();
 			}
-			List<object> list = new List(base.Owner.Children.Count);
+			List<object> list = new List<object><object>(base.Owner.Children.Count);
 			foreach (IArrangedElement child in base.Owner.Children)
 			{
 				if (child is Control control)

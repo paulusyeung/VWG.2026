@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a selectable option displayed on a <see cref="T:System.Windows.Forms.MenuStrip"></see> or <see cref="T:System.Windows.Forms.ContextMenuStrip"></see>. Although <see cref="T:System.Windows.Forms.ToolStripMenuItem"></see> replaces and adds functionality to the <see cref="T:System.Windows.Forms.MenuItem"></see> control of previous versions, <see cref="T:System.Windows.Forms.MenuItem"></see> is retained for both backward compatibility and future use if you choose.</summary>
+/// Represents a selectable option displayed on a <see cref="T:System.Windows.Forms.MenuStrip"></see> or <see cref="T:System.Windows.Forms.ContextMenuStrip"></see>. Although <see cref="T:System.Windows.Forms.ToolStripMenuItem"></see> replaces and adds functionality to the <see cref="T:System.Windows.Forms.MenuItem"></see> control of previous versions, <see cref="T:System.Windows.Forms.MenuItem"></see> is retained for both backward compatibility and future use if you choose.</summary>
 	[Serializable]
 	[ClientController("Gizmox.WebGUI.Client.Controllers.ToolStripMenuItemController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]
 	[ToolStripItemDesignerAvailability((ToolStripItemDesignerAvailability)6)]
@@ -130,13 +130,13 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the CheckedChanged handler.
 		/// </summary>
 		/// The CheckedChanged handler.</value>
-		private EventHandler CheckedChangedHandler => (EventHandler)GetHandler(CheckedChanged);
+		private EventHandler CheckedChangedHandler => (EventHandler)GetHandler(CheckedChangedEvent);
 
 		/// 
 		/// Gets the CheckStateChanged handler.
 		/// </summary>
 		/// The CheckStateChanged handler.</value>
-		private EventHandler CheckStateChangedHandler => (EventHandler)GetHandler(CheckStateChanged);
+		private EventHandler CheckStateChangedHandler => (EventHandler)GetHandler(CheckStateChangedEvent);
 
 		private bool mblnCheckOnClick
 		{
@@ -952,8 +952,8 @@ namespace Gizmox.WebGUI.Forms
 
 		static ToolStripMenuItem()
 		{
-			CheckedChanged = SerializableEvent.Register("CheckedChanged", typeof(EventHandler), typeof(ToolStripMenuItem));
-			CheckStateChanged = SerializableEvent.Register("CheckStateChanged", typeof(EventHandler), typeof(ToolStripMenuItem));
+			CheckedChangedEvent = SerializableEvent.Register("CheckedChanged", typeof(EventHandler), typeof(ToolStripMenuItem));
+			CheckStateChangedEvent = SerializableEvent.Register("CheckStateChanged", typeof(EventHandler), typeof(ToolStripMenuItem));
 		}
 	}
 }

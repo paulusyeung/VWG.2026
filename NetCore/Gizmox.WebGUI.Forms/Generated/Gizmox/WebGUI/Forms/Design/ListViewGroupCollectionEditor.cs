@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design
 {
-	[Serializable]
+[Serializable]
 	public class ListViewGroupCollectionEditor : CollectionEditor
 	{
 		/// 

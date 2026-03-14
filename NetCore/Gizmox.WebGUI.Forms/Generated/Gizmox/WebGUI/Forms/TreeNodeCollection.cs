@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Collection of tree view nodes
 	/// </summary>
 	[Serializable]
@@ -635,7 +635,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		private bool IsValidIndex(int intIndex)
 		{
-			return List != null && intIndex >= 0 && intIndex < List.Count;
+			return List != null && intIndex >= 0 && intIndex <List.Count;
 		}
 
 		/// 

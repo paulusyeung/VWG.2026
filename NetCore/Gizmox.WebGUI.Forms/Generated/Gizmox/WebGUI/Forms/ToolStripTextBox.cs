@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a text box in a <see cref="T:System.Windows.Forms.ToolStrip"></see> that allows the user to enter text.</summary>
+/// Represents a text box in a <see cref="T:System.Windows.Forms.ToolStrip"></see> that allows the user to enter text.</summary>
 	[Serializable]
 	[ClientController("Gizmox.WebGUI.Client.Controllers.ToolStripTextBoxController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]
 	[ToolStripItemDesignerAvailability((ToolStripItemDesignerAvailability)7)]

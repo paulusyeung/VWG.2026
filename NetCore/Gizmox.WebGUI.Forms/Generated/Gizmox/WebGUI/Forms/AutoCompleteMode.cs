@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies the mode for the automatic completion feature used in the 
 	/// ComboBox and TextBox controls.
 	/// </summary>

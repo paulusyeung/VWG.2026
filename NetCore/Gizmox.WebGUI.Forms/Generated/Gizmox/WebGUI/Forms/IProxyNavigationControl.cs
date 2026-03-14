@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	public interface IProxyNavigationControl
+public interface IProxyNavigationControl
 	{
 		/// 
 		/// Occurs when count change.

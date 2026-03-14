@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies constants indicating the locations that an error icon can appear in relation to the control with an error.
 	/// </summary>
 	public enum ErrorIconAlignment

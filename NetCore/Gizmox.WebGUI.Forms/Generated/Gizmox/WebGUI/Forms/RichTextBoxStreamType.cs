@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	public enum RichTextBoxStreamType
+public enum RichTextBoxStreamType
 	{
 		/// 
 		///

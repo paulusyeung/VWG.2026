@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design
 {
-	/// Specifies the editor to use to change a property. This class cannot be inherited.</summary>
+/// Specifies the editor to use to change a property. This class cannot be inherited.</summary>
 	[Serializable]
 	[AttributeUsage(AttributeTargets.All, AllowMultiple = true, Inherited = true)]
 	public sealed class WebEditorAttribute : Attribute

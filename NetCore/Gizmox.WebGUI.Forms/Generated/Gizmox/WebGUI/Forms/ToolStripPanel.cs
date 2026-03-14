@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Creates a container within which other controls can share horizontal or vertical space.</summary>
+/// Creates a container within which other controls can share horizontal or vertical space.</summary>
 	[Serializable]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.AutoDispatch)]

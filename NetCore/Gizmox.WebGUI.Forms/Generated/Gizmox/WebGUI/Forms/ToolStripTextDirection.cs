@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the text orientation to use with a particular <see cref="P:Gizmox.WebGUI.Forms.ToolStrip.LayoutStyle"></see>.</summary> 
+/// Specifies the text orientation to use with a particular <see cref="P:Gizmox.WebGUI.Forms.ToolStrip.LayoutStyle"></see>.</summary> 
 	/// 2</filterpriority>
 	public enum ToolStripTextDirection
 	{

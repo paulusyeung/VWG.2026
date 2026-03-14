@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents the collection of data bindings for a control.</summary>
+/// Represents the collection of data bindings for a control.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[DefaultEvent("CollectionChanged")]

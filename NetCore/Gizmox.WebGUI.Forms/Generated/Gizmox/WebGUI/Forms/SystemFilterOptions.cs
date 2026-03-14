@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents DataGridView filter ComboBox system options
 	/// </summary>
 	public enum SystemFilterOptions

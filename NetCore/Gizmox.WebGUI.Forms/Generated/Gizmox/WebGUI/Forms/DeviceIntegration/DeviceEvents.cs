@@ -100,50 +100,50 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration
 {
-	/// 
+/// 
 	/// Represents Device Events target object.
 	/// </summary>
 	[Serializable]
 	public class DeviceEvents : WatchedDeviceComponent, IDeviceEvents
 	{
-		private MultipleCallMethodStore<DeviceEventArgs> mobjPauseEventStore;
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> mobjPauseEventStore;
 
-		private MultipleCallMethodStore<DeviceEventArgs> mobjResumeEventStore;
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> mobjResumeEventStore;
 
-		private MultipleCallMethodStore<DeviceEventArgs> mobjOnlineEventStore;
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> mobjOnlineEventStore;
 
-		private MultipleCallMethodStore<DeviceEventArgs> mobjOfflineEventStore;
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> mobjOfflineEventStore;
 
-		private MultipleCallMethodStore<DeviceEventArgs> mobjBackButtonEventStore;
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> mobjBackButtonEventStore;
 
-		private MultipleCallMethodStore<DeviceEventArgs> mobjMenuButtonEventStore;
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> mobjMenuButtonEventStore;
 
-		private MultipleCallMethodStore<DeviceEventArgs> mobjSearchButtonEventStore;
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> mobjSearchButtonEventStore;
 
-		private MultipleCallMethodStore<DeviceEventArgs> mobjVolumeDownButtonEventStore;
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> mobjVolumeDownButtonEventStore;
 
-		private MultipleCallMethodStore<DeviceEventArgs> mobjVolumeUpButtonEventStore;
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> mobjVolumeUpButtonEventStore;
 
-		private MultipleCallMethodStore<DeviceEventArgs> mobjStartCallButtonEventStore;
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> mobjStartCallButtonEventStore;
 
-		private MultipleCallMethodStore<DeviceEventArgs> mobjEndCallButtonEventStore;
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> mobjEndCallButtonEventStore;
 
-		private MultipleCallMethodStore<DeviceEventArgs> mobjBatteryCriticalEventStore;
+		private MultipleCallMethodStore<DeviceBatteryEventArgs> mobjBatteryCriticalEventStore;
 
-		private MultipleCallMethodStore<DeviceEventArgs> mobjBatteryLowEventStore;
+		private MultipleCallMethodStore<DeviceBatteryEventArgs> mobjBatteryLowEventStore;
 
-		private MultipleCallMethodStore<DeviceEventArgs> mobjBatteryStatusEventStore;
+		private MultipleCallMethodStore<DeviceBatteryEventArgs> mobjBatteryStatusEventStore;
 
 		/// 
 		/// Gets the pause event store.
 		/// </summary>
-		private MultipleCallMethodStore<DeviceEventArgs> PauseEventStore
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> PauseEventStore
 		{
 			get
 			{
 				if (mobjPauseEventStore == null)
 				{
-					mobjPauseEventStore = new MultipleCallMethodStore<DeviceEventArgs>();
+					mobjPauseEventStore = new MultipleCallMethodStore<EmptyDeviceEventArgs>();
 				}
 				return mobjPauseEventStore;
 			}
@@ -152,13 +152,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the resume event store.
 		/// </summary>
-		private MultipleCallMethodStore<DeviceEventArgs> ResumeEventStore
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> ResumeEventStore
 		{
 			get
 			{
 				if (mobjResumeEventStore == null)
 				{
-					mobjResumeEventStore = new MultipleCallMethodStore<DeviceEventArgs>();
+					mobjResumeEventStore = new MultipleCallMethodStore<EmptyDeviceEventArgs>();
 				}
 				return mobjResumeEventStore;
 			}
@@ -167,13 +167,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the online event store.
 		/// </summary>
-		private MultipleCallMethodStore<DeviceEventArgs> OnlineEventStore
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> OnlineEventStore
 		{
 			get
 			{
 				if (mobjOnlineEventStore == null)
 				{
-					mobjOnlineEventStore = new MultipleCallMethodStore<DeviceEventArgs>();
+					mobjOnlineEventStore = new MultipleCallMethodStore<EmptyDeviceEventArgs>();
 				}
 				return mobjOnlineEventStore;
 			}
@@ -182,13 +182,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the offline event store.
 		/// </summary>
-		private MultipleCallMethodStore<DeviceEventArgs> OfflineEventStore
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> OfflineEventStore
 		{
 			get
 			{
 				if (mobjOfflineEventStore == null)
 				{
-					mobjOfflineEventStore = new MultipleCallMethodStore<DeviceEventArgs>();
+					mobjOfflineEventStore = new MultipleCallMethodStore<EmptyDeviceEventArgs>();
 				}
 				return mobjOfflineEventStore;
 			}
@@ -197,13 +197,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the back button event store.
 		/// </summary>
-		private MultipleCallMethodStore<DeviceEventArgs> BackButtonEventStore
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> BackButtonEventStore
 		{
 			get
 			{
 				if (mobjBackButtonEventStore == null)
 				{
-					mobjBackButtonEventStore = new MultipleCallMethodStore<DeviceEventArgs>();
+					mobjBackButtonEventStore = new MultipleCallMethodStore<EmptyDeviceEventArgs>();
 				}
 				return mobjBackButtonEventStore;
 			}
@@ -212,13 +212,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the menu button event store.
 		/// </summary>
-		private MultipleCallMethodStore<DeviceEventArgs> MenuButtonEventStore
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> MenuButtonEventStore
 		{
 			get
 			{
 				if (mobjMenuButtonEventStore == null)
 				{
-					mobjMenuButtonEventStore = new MultipleCallMethodStore<DeviceEventArgs>();
+					mobjMenuButtonEventStore = new MultipleCallMethodStore<EmptyDeviceEventArgs>();
 				}
 				return mobjMenuButtonEventStore;
 			}
@@ -227,13 +227,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the search button event store.
 		/// </summary>
-		private MultipleCallMethodStore<DeviceEventArgs> SearchButtonEventStore
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> SearchButtonEventStore
 		{
 			get
 			{
 				if (mobjSearchButtonEventStore == null)
 				{
-					mobjSearchButtonEventStore = new MultipleCallMethodStore<DeviceEventArgs>();
+					mobjSearchButtonEventStore = new MultipleCallMethodStore<EmptyDeviceEventArgs>();
 				}
 				return mobjSearchButtonEventStore;
 			}
@@ -242,13 +242,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the volume down button event store.
 		/// </summary>
-		private MultipleCallMethodStore<DeviceEventArgs> VolumeDownButtonEventStore
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> VolumeDownButtonEventStore
 		{
 			get
 			{
 				if (mobjVolumeDownButtonEventStore == null)
 				{
-					mobjVolumeDownButtonEventStore = new MultipleCallMethodStore<DeviceEventArgs>();
+					mobjVolumeDownButtonEventStore = new MultipleCallMethodStore<EmptyDeviceEventArgs>();
 				}
 				return mobjVolumeDownButtonEventStore;
 			}
@@ -257,13 +257,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the volume up button event store.
 		/// </summary>
-		private MultipleCallMethodStore<DeviceEventArgs> VolumeUpButtonEventStore
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> VolumeUpButtonEventStore
 		{
 			get
 			{
 				if (mobjVolumeUpButtonEventStore == null)
 				{
-					mobjVolumeUpButtonEventStore = new MultipleCallMethodStore<DeviceEventArgs>();
+					mobjVolumeUpButtonEventStore = new MultipleCallMethodStore<EmptyDeviceEventArgs>();
 				}
 				return mobjVolumeUpButtonEventStore;
 			}
@@ -272,13 +272,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the start call button event store.
 		/// </summary>
-		private MultipleCallMethodStore<DeviceEventArgs> StartCallButtonEventStore
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> StartCallButtonEventStore
 		{
 			get
 			{
 				if (mobjStartCallButtonEventStore == null)
 				{
-					mobjStartCallButtonEventStore = new MultipleCallMethodStore<DeviceEventArgs>();
+					mobjStartCallButtonEventStore = new MultipleCallMethodStore<EmptyDeviceEventArgs>();
 				}
 				return mobjStartCallButtonEventStore;
 			}
@@ -287,13 +287,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the end call button event store.
 		/// </summary>
-		private MultipleCallMethodStore<DeviceEventArgs> EndCallButtonEventStore
+		private MultipleCallMethodStore<EmptyDeviceEventArgs> EndCallButtonEventStore
 		{
 			get
 			{
 				if (mobjEndCallButtonEventStore == null)
 				{
-					mobjEndCallButtonEventStore = new MultipleCallMethodStore<DeviceEventArgs>();
+					mobjEndCallButtonEventStore = new MultipleCallMethodStore<EmptyDeviceEventArgs>();
 				}
 				return mobjEndCallButtonEventStore;
 			}
@@ -302,13 +302,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the battery critical event store.
 		/// </summary>
-		private MultipleCallMethodStore<DeviceEventArgs> BatteryCriticalEventStore
+		private MultipleCallMethodStore<DeviceBatteryEventArgs> BatteryCriticalEventStore
 		{
 			get
 			{
 				if (mobjBatteryCriticalEventStore == null)
 				{
-					mobjBatteryCriticalEventStore = new MultipleCallMethodStore<DeviceEventArgs>();
+					mobjBatteryCriticalEventStore = new MultipleCallMethodStore<DeviceBatteryEventArgs>();
 				}
 				return mobjBatteryCriticalEventStore;
 			}
@@ -317,13 +317,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the battery low event store.
 		/// </summary>
-		private MultipleCallMethodStore<DeviceEventArgs> BatteryLowEventStore
+		private MultipleCallMethodStore<DeviceBatteryEventArgs> BatteryLowEventStore
 		{
 			get
 			{
 				if (mobjBatteryLowEventStore == null)
 				{
-					mobjBatteryLowEventStore = new MultipleCallMethodStore<DeviceEventArgs>();
+					mobjBatteryLowEventStore = new MultipleCallMethodStore<DeviceBatteryEventArgs>();
 				}
 				return mobjBatteryLowEventStore;
 			}
@@ -332,13 +332,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the battery status event store.
 		/// </summary>
-		private MultipleCallMethodStore<DeviceEventArgs> BatteryStatusEventStore
+		private MultipleCallMethodStore<DeviceBatteryEventArgs> BatteryStatusEventStore
 		{
 			get
 			{
 				if (mobjBatteryStatusEventStore == null)
 				{
-					mobjBatteryStatusEventStore = new MultipleCallMethodStore<DeviceEventArgs>();
+					mobjBatteryStatusEventStore = new MultipleCallMethodStore<DeviceBatteryEventArgs>();
 				}
 				return mobjBatteryStatusEventStore;
 			}
@@ -347,7 +347,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when application is put into the background.
 		/// </summary>
-		public event Action<DeviceEventArgs> Pause {
+		public event Action<EmptyDeviceEventArgs> Pause
+		{
 			add
 			{
 				PauseEventStore.AddMultipleCallMethod(value);
@@ -363,7 +364,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when application is retrieved from the background.
 		/// </summary>
-		public event Action<DeviceEventArgs> Resume {
+		public event Action<EmptyDeviceEventArgs> Resume
+		{
 			add
 			{
 				ResumeEventStore.AddMultipleCallMethod(value);
@@ -379,7 +381,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when application is online (connected to the Internet).
 		/// </summary>
-		public event Action<DeviceEventArgs> Online {
+		public event Action<EmptyDeviceEventArgs> Online
+		{
 			add
 			{
 				OnlineEventStore.AddMultipleCallMethod(value);
@@ -395,7 +398,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when application is offline (not connected to the Internet).
 		/// </summary>
-		public event Action<DeviceEventArgs> Offline {
+		public event Action<EmptyDeviceEventArgs> Offline
+		{
 			add
 			{
 				OfflineEventStore.AddMultipleCallMethod(value);
@@ -411,7 +415,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when the user presses the back button.
 		/// </summary>
-		public event Action<DeviceEventArgs> BackButtonPressed {
+		public event Action<EmptyDeviceEventArgs> BackButtonPressed
+		{
 			add
 			{
 				BackButtonEventStore.AddMultipleCallMethod(value);
@@ -427,7 +432,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when the user presses the menu button.
 		/// </summary>
-		public event Action<DeviceEventArgs> MenuButtonPressed {
+		public event Action<EmptyDeviceEventArgs> MenuButtonPressed
+		{
 			add
 			{
 				MenuButtonEventStore.AddMultipleCallMethod(value);
@@ -443,7 +449,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when he user presses the search button.
 		/// </summary>
-		public event Action<DeviceEventArgs> SearchButtonPressed {
+		public event Action<EmptyDeviceEventArgs> SearchButtonPressed
+		{
 			add
 			{
 				SearchButtonEventStore.AddMultipleCallMethod(value);
@@ -459,7 +466,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when  the user presses the start call button.
 		/// </summary>
-		public event Action<DeviceEventArgs> StartCallButtonPressed {
+		public event Action<EmptyDeviceEventArgs> StartCallButtonPressed
+		{
 			add
 			{
 				StartCallButtonEventStore.AddMultipleCallMethod(value);
@@ -475,7 +483,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when the user presses the end call button.
 		/// </summary>
-		public event Action<DeviceEventArgs> EndCallButtonPressed {
+		public event Action<EmptyDeviceEventArgs> EndCallButtonPressed
+		{
 			add
 			{
 				EndCallButtonEventStore.AddMultipleCallMethod(value);
@@ -491,7 +500,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when the user presses the volume down button.
 		/// </summary>
-		public event Action<DeviceEventArgs> VolumeDownButtonPressed {
+		public event Action<EmptyDeviceEventArgs> VolumeDownButtonPressed
+		{
 			add
 			{
 				VolumeDownButtonEventStore.AddMultipleCallMethod(value);
@@ -507,7 +517,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when the user presses the volume up button.
 		/// </summary>
-		public event Action<DeviceEventArgs> VolumeUpButtonPressed {
+		public event Action<EmptyDeviceEventArgs> VolumeUpButtonPressed
+		{
 			add
 			{
 				VolumeUpButtonEventStore.AddMultipleCallMethod(value);
@@ -523,7 +534,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when application detects the battery has reached the critical level threshold.
 		/// </summary>
-		public event Action<DeviceEventArgs> BatteryCritical {
+		public event Action<DeviceBatteryEventArgs> BatteryCritical
+		{
 			add
 			{
 				BatteryCriticalEventStore.AddMultipleCallMethod(value);
@@ -539,7 +551,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when application detects the battery has reached the low level threshold.
 		/// </summary>
-		public event Action<DeviceEventArgs> BatteryLow {
+		public event Action<DeviceBatteryEventArgs> BatteryLow
+		{
 			add
 			{
 				BatteryLowEventStore.AddMultipleCallMethod(value);
@@ -555,7 +568,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when application detects a change in the battery status.
 		/// </summary>
-		public event Action<DeviceEventArgs> BatteryStatusChanged {
+		public event Action<DeviceBatteryEventArgs> BatteryStatusChanged
+		{
 			add
 			{
 				BatteryStatusEventStore.AddMultipleCallMethod(value);
@@ -677,7 +691,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objArgs">The <see cref="T:Gizmox.WebGUI.Common.Device.Common.EmptyDeviceEventArgs" /> instance containing the event data.</param>
 		/// <param name="objDeviceMethodStore">The obj device method store.</param>
-		private void RaiseDeviceEvent(EmptyDeviceEventArgs objArgs, MultipleCallMethodStore<DeviceEventArgs> objDeviceMethodStore)
+		private void RaiseDeviceEvent(EmptyDeviceEventArgs objArgs, MultipleCallMethodStore<EmptyDeviceEventArgs> objDeviceMethodStore)
 		{
 			objDeviceMethodStore.InvokeMultipleCallMethods(objArgs);
 		}
@@ -687,7 +701,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objArgs">The <see cref="T:Gizmox.WebGUI.Common.Device.Common.DeviceBatteryEventArgs" /> instance containing the event data.</param>
 		/// <param name="objBatteryMethodStore">The obj battery method store.</param>
-		private void RaiseDeviceEvent(DeviceBatteryEventArgs objArgs, MultipleCallMethodStore<DeviceEventArgs> objBatteryMethodStore)
+		private void RaiseDeviceEvent(DeviceBatteryEventArgs objArgs, MultipleCallMethodStore<DeviceBatteryEventArgs> objBatteryMethodStore)
 		{
 			objBatteryMethodStore.InvokeMultipleCallMethods(objArgs);
 		}

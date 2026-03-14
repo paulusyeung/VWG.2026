@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies constants indicating when the error icon, supplied by an <see cref="T:Gizmox.WebGUI.Forms.ErrorProvider" />, should blink to alert the user that an error has occurred.
 	/// </summary>
 	public enum ErrorBlinkStyle

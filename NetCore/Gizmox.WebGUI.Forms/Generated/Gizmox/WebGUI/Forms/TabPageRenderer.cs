@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides support for rendering a TabPage control  
 	/// </summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]

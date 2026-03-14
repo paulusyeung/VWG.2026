@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Defines values for specifying one of three possible states.</summary>
+/// Defines values for specifying one of three possible states.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public enum DataGridViewTriState

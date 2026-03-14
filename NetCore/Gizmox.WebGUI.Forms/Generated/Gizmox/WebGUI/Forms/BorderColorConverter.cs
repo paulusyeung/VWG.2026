@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides a type converter to convert <see cref="T:Gizmox.WebGUI.Forms.BorderColor"></see> values to and from various other representations.
 	/// </summary>
 	[Serializable]

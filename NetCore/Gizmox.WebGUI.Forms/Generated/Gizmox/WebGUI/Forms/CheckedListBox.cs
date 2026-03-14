@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Summary description for CheckedListBox.
 	/// </summary>
 	[Serializable]
@@ -782,10 +782,10 @@ namespace Gizmox.WebGUI.Forms
 		{
 			bool flag = false;
 			bool flag2 = false;
-			List<object> list = new List(strIndexes.Split(','));
+			List<object> list = new List<object><object>(strIndexes.Split(','));
 			ObjectCollection items = Items;
 			int count = items.Count;
-			List<object> list2 = new List(count);
+			List<object> list2 = new List<object><object>(count);
 			for (int i = 0; i < count; i++)
 			{
 				list2.Add(items.GetChecked(i));

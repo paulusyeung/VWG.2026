@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Administration
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	public class ContentProperties

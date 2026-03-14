@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -125,7 +125,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the single call method store.
 		/// </summary>
-		private SingleCallMethodStore<GeolocationEventArgs> SingleCallMethodStore {
+		private SingleCallMethodStore<GeolocationEventArgs> SingleCallMethodStore<GeolocationEventArgs>
+		{
 			get
 			{
 				if (mobjSingleCallMethodStore == null)
@@ -139,7 +140,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the multiple call method store.
 		/// </summary>
-		private MultipleCallMethodStore<GeolocationEventArgs> MultipleCallMethodStore {
+		private MultipleCallMethodStore<GeolocationEventArgs> MultipleCallMethodStore<GeolocationEventArgs>
+		{
 			get
 			{
 				if (mobjMultipleCallMethodStore == null)
@@ -153,15 +155,16 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Occurs when [Geolocation position changed].
 		/// </summary>
-		public event Action<GeolocationEventArgs> PositionChanged {
+		public event Action<GeolocationEventArgs> PositionChanged
+		{
 			add
 			{
-				MultipleCallMethodStore.AddMultipleCallMethod(value);
+				MultipleCallMethodStore<GeolocationEventArgs>.AddMultipleCallMethod(value);
 				Update();
 			}
 			remove
 			{
-				MultipleCallMethodStore.RemoveMultipleCallMethod(value);
+				MultipleCallMethodStore<GeolocationEventArgs>.RemoveMultipleCallMethod(value);
 				Update();
 			}
 		}
@@ -181,7 +184,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="objArguments">The <see cref="T:Gizmox.WebGUI.Common.Device.Geolocation.GeolocationEventArgs" /> instance containing the event data.</param>
 		private void OnPositionChanged(GeolocationEventArgs objArguments)
 		{
-			MultipleCallMethodStore.InvokeMultipleCallMethods(objArguments);
+			MultipleCallMethodStore<GeolocationEventArgs>.InvokeMultipleCallMethods(objArguments);
 		}
 
 		/// 
@@ -199,9 +202,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 				{
 					OnPositionChanged(argumentsFromEvent);
 				}
-				else if (!string.IsNullOrEmpty(type) && SingleCallMethodStore.HasRegisteredMethod(type))
+				else if (!string.IsNullOrEmpty(type) && SingleCallMethodStore<GeolocationEventArgs>.HasRegisteredMethod(type))
 				{
-					SingleCallMethodStore.InvokeSingleCallMethod(type, argumentsFromEvent);
+					SingleCallMethodStore<GeolocationEventArgs>.InvokeSingleCallMethod(type, argumentsFromEvent);
 				}
 			}
 		}
@@ -254,9 +257,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// Gets the Geolocation position with default options.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void GetPosition(Action objCallback)
+		public void GetPosition(Action<GeolocationEventArgs> objCallback)
 		{
-			string value = SingleCallMethodStore.StoreSingleCallMethod(objCallback);
+			string value = SingleCallMethodStore<GeolocationEventArgs>.StoreSingleCallMethod(objCallback);
 			ArrayList arrayList = new ArrayList();
 			arrayList.Add(value);
 			Invoke("DeviceIntegrator.Geolocation.getPosition", arrayList.ToArray());
@@ -297,7 +300,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		public override CriticalEventsData GetCriticalEventsData()
 		{
 			CriticalEventsData criticalEventsData = new CriticalEventsData();
-			if (MultipleCallMethodStore.HasEventListeners())
+			if (MultipleCallMethodStore<GeolocationEventArgs>.HasEventListeners())
 			{
 				criticalEventsData.Set("DGE");
 			}

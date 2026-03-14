@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides an empty control that can be used to create other controls.
 	/// </summary>
 	[Serializable]

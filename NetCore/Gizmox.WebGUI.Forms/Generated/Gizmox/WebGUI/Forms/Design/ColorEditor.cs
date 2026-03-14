@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design
 {
-	/// 
+/// 
 	/// Provides a WebUITypeEditor for visually picking a color.
 	/// </summary>
 	[Serializable]

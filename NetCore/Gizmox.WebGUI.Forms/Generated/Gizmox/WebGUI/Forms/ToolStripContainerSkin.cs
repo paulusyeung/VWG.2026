@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	public class ToolStripContainerSkin : ContainerControlSkin
+public class ToolStripContainerSkin : ContainerControlSkin
 	{
 		private void InitializeComponent()
 		{

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents the container for multiple-document interface (MDI) child forms. This class cannot be inherited.
 	/// </summary>
 	[Serializable]

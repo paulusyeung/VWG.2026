@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies which sides of a <see cref="T:Gizmox.WebGUI.Forms.ToolStripStatusLabel"></see> have borders.</summary>
+/// Specifies which sides of a <see cref="T:Gizmox.WebGUI.Forms.ToolStripStatusLabel"></see> have borders.</summary>
 	[ComVisible(true)]
 	public enum ToolStripStatusLabelBorderSides
 	{

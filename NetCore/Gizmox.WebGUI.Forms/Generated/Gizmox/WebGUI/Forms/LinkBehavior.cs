@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies the behaviors of a link in a <see cref="T:Gizmox.WebGUI.Forms.LinkLabel"></see>.
 	/// </summary>
 	[Serializable]

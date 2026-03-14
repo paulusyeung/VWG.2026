@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 {
-	[Serializable]
+[Serializable]
 	public class EntryMetadata : DevicePropertyDictionary, IMetadata
 	{
 		public DateTime ModificationTime

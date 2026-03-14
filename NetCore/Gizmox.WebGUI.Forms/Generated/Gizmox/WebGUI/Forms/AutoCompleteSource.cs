@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies the source for ComboBox and TextBox automatic completion functionality.
 	/// </summary>
 	public enum AutoCompleteSource

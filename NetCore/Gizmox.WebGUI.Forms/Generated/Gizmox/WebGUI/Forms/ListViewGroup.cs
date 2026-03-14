@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a group of items displayed within a <see cref="T:Gizmox.WebGUI.Forms.ListView"></see> control.</summary>
+/// Represents a group of items displayed within a <see cref="T:Gizmox.WebGUI.Forms.ListView"></see> control.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[DefaultProperty("Header")]

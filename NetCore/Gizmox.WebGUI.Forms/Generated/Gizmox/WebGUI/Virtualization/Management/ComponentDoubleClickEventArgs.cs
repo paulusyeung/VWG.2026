@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Virtualization.Management
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	public class ComponentDoubleClickEventArgs : EventArgs

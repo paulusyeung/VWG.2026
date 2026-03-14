@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design.Editors
 {
-	/// 
+/// 
 	/// The dialog form for column ordter.
 	/// </summary>
 	[Serializable]
@@ -128,7 +128,7 @@ namespace Gizmox.WebGUI.Forms.Design.Editors
 			/// 
 			/// Creates a new <see cref="!:ListViewColumnOptions" /> instance.
 			/// </summary>
-			/// <param name="objListView">List<object> view.</param>
+			/// <param name="objListView">List view.</param>
 			public VisualTemplateListViewColumnControlForm(VisualTemplateListViewColumnControlDialog objVisualizerControlDialog)
 				: base(objVisualizerControlDialog)
 			{

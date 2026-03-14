@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies how and if a drag-and-drop operation should continue.</summary> 
+/// Specifies how and if a drag-and-drop operation should continue.</summary> 
 	/// 2</filterpriority>
 	[ComVisible(true)]
 	public enum DragAction

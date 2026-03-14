@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Specifies how an object or text in a control is horizontally aligned relative to an element of the control and includes inheritance definition.  
 	/// </summary>
 	public enum ExtendedHorizontalAlignment : byte

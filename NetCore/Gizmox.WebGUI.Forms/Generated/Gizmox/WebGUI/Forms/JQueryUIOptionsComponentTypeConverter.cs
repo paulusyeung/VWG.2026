@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Used for the components array in this class to avoid the expand button in the grid.
 	/// </summary>
 	public class JQueryUIOptionsComponentTypeConverter : TypeConverter

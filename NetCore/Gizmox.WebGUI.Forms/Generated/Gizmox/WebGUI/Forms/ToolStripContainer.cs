@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides panels on each side of the form and a central panel that can hold one or more controls.</summary>
+/// Provides panels on each side of the form and a central panel that can hold one or more controls.</summary>
 	[Serializable]
 	[ComVisible(true)]
 	[SRDescription("ToolStripContainerDesc")]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides support for rendering CheckBoxes
 	/// </summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]

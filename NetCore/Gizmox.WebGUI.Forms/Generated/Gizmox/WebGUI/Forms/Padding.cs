@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents padding or margin information associated with a user interface (UI) element.
 	/// </summary>
 	[Serializable]

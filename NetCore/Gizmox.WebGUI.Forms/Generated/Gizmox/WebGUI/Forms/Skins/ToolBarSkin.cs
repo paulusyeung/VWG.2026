@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Skins
 {
-	/// 
+/// 
 	/// ToolBar Skin
 	/// </summary>
 	[ToolboxBitmap(typeof(ToolBar), "ToolBar.bmp")]

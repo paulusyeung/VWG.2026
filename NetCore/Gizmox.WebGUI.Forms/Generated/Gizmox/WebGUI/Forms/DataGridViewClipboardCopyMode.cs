@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Defines constants that indicate whether content is copied from a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control to the Clipboard.</summary>
+/// Defines constants that indicate whether content is copied from a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see> control to the Clipboard.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public enum DataGridViewClipboardCopyMode

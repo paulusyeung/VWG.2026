@@ -1,213 +1,213 @@
-#defiee DEBUG
-usieg System;
-usieg System.Collectioes;
-usieg System.Collectioes.Geeeric;
-usieg System.Collectioes.ObjectModel;
-usieg System.Collectioes.Specialized;
-usieg System.CompoeeetModel;
-usieg System.CompoeeetModel.Desige;
-usieg System.CompoeeetModel.Desige.Serializatioe;
-usieg System.Data;
-usieg System.Diageostics;
-usieg System.Drawieg;
-usieg System.Drawieg.Desige;
-usieg System.Drawieg.Drawieg2D;
-usieg System.Drawieg.Imagieg;
-usieg System.Drawieg.Prietieg;
-usieg System.Globalizatioe;
-usieg System.IO;
-usieg System.Reflectioe;
-usieg System.Resources;
-usieg System.Ruetime.CompilerServices;
-usieg System.Ruetime.IeteropServices;
-usieg System.Ruetime.Serializatioe;
-usieg System.Ruetime.Serializatioe.Formatters.Bieary;
-usieg System.Ruetime.Versioeieg;
-usieg System.Security;
-usieg System.Security.Permissioes;
-usieg System.Text;
-usieg System.Text.RegularExpressioes;
-usieg System.Threadieg;
-usieg System.Web;
-usieg System.Web.Cachieg;
-usieg System.Web.Compilatioe;
-usieg System.Web.Hostieg;
-usieg System.Web.UI;
-usieg System.Web.UI.HtmlCoetrols;
-usieg System.Web.UI.WebCoetrols;
-usieg System.Xml;
-usieg Gizmox.WebGUI.Clieet.Desige;
-usieg Gizmox.WebGUI.Commoe;
-usieg Gizmox.WebGUI.Commoe.Coefiguratioe;
-usieg Gizmox.WebGUI.Commoe.Coevertioes;
-usieg Gizmox.WebGUI.Commoe.Device;
-usieg Gizmox.WebGUI.Commoe.Device.Accelerometer;
-usieg Gizmox.WebGUI.Commoe.Device.Camera;
-usieg Gizmox.WebGUI.Commoe.Device.Capture;
-usieg Gizmox.WebGUI.Commoe.Device.Commoe;
-usieg Gizmox.WebGUI.Commoe.Device.Compass;
-usieg Gizmox.WebGUI.Commoe.Device.Coeeectioe;
-usieg Gizmox.WebGUI.Commoe.Device.Coetacts;
-usieg Gizmox.WebGUI.Commoe.Device.DeviceIefo;
-usieg Gizmox.WebGUI.Commoe.Device.FileMaeagemeet;
-usieg Gizmox.WebGUI.Commoe.Device.Geolocatioe;
-usieg Gizmox.WebGUI.Commoe.Device.Globalizatioe;
-usieg Gizmox.WebGUI.Commoe.Device.Media;
-usieg Gizmox.WebGUI.Commoe.Device.eotificatioes;
-usieg Gizmox.WebGUI.Commoe.Device.Storage;
-usieg Gizmox.WebGUI.Commoe.DeviceRepository;
-usieg Gizmox.WebGUI.Commoe.Exteesibility;
-usieg Gizmox.WebGUI.Commoe.Gateways;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.Capture;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.CoetactsData;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.FileMaeagemeet;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.Media;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Device.Storage;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Emulatioe;
-usieg Gizmox.WebGUI.Commoe.Resources;
-usieg Gizmox.WebGUI.Commoe.Trace;
-usieg Gizmox.WebGUI.Forms;
-usieg Gizmox.WebGUI.Forms.Admieistratioe;
-usieg Gizmox.WebGUI.Forms.Admieistratioe.Abstract;
-usieg Gizmox.WebGUI.Forms.Admieistratioe.CustomCompoeeets;
-usieg Gizmox.WebGUI.Forms.Clieet;
-usieg Gizmox.WebGUI.Forms.CoetextualToolbar;
-usieg Gizmox.WebGUI.Forms.Coetrols;
-usieg Gizmox.WebGUI.Forms.Desige;
-usieg Gizmox.WebGUI.Forms.Desige.Editors;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.Abstract;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.CaptureCompoeeets;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.CoetactsData;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.DeviceCommoe;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.FileMaeagemeet;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.MediaCompoeeets;
-usieg Gizmox.WebGUI.Forms.DeviceIetegratioe.StorageCompoeeets;
-usieg Gizmox.WebGUI.Forms.Hosts.Skies;
-usieg Gizmox.WebGUI.Forms.Layout;
-usieg Gizmox.WebGUI.Forms.PropertyGridIetereal;
-usieg Gizmox.WebGUI.Forms.Serializatioe;
-usieg Gizmox.WebGUI.Forms.Skies;
-usieg Gizmox.WebGUI.Forms.VisualEffects;
-usieg Gizmox.WebGUI.Hostieg;
-usieg Gizmox.WebGUI.Virtualizatioe.IO;
-usieg Gizmox.WebGUI.Virtualizatioe.Maeagemeet;
-usieg Gizmox.WebGUI.Virtualizatioe.Wie32;
-usieg Microsoft.Wie32;
-usieg eewtoesoft.Jsoe;
-usieg eewtoesoft.Jsoe.Lieq;
+#define DEBUG
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.ComponentModel.Design;
+using System.ComponentModel.Design.Serialization;
+using System.Data;
+using System.Diagnostics;
+using System.Drawing;
+using System.Drawing.Design;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+using System.Drawing.Printing;
+using System.Globalization;
+using System.IO;
+using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Runtime.Versioning;
+using System.Security;
+using System.Security.Permissions;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading;
+using System.Web;
+using System.Web.Caching;
+using System.Web.Compilation;
+using System.Web.Hosting;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Xml;
+using Gizmox.WebGUI.Client.Design;
+using Gizmox.WebGUI.Common;
+using Gizmox.WebGUI.Common.Configuration;
+using Gizmox.WebGUI.Common.Convertions;
+using Gizmox.WebGUI.Common.Device;
+using Gizmox.WebGUI.Common.Device.Accelerometer;
+using Gizmox.WebGUI.Common.Device.Camera;
+using Gizmox.WebGUI.Common.Device.Capture;
+using Gizmox.WebGUI.Common.Device.Common;
+using Gizmox.WebGUI.Common.Device.Compass;
+using Gizmox.WebGUI.Common.Device.Connection;
+using Gizmox.WebGUI.Common.Device.Contacts;
+using Gizmox.WebGUI.Common.Device.DeviceInfo;
+using Gizmox.WebGUI.Common.Device.FileManagement;
+using Gizmox.WebGUI.Common.Device.Geolocation;
+using Gizmox.WebGUI.Common.Device.Globalization;
+using Gizmox.WebGUI.Common.Device.Media;
+using Gizmox.WebGUI.Common.Device.Notifications;
+using Gizmox.WebGUI.Common.Device.Storage;
+using Gizmox.WebGUI.Common.DeviceRepository;
+using Gizmox.WebGUI.Common.Extensibility;
+using Gizmox.WebGUI.Common.Gateways;
+using Gizmox.WebGUI.Common.Interfaces;
+using Gizmox.WebGUI.Common.Interfaces.Device;
+using Gizmox.WebGUI.Common.Interfaces.Device.Capture;
+using Gizmox.WebGUI.Common.Interfaces.Device.ContactsData;
+using Gizmox.WebGUI.Common.Interfaces.Device.FileManagement;
+using Gizmox.WebGUI.Common.Interfaces.Device.Media;
+using Gizmox.WebGUI.Common.Interfaces.Device.Storage;
+using Gizmox.WebGUI.Common.Interfaces.Emulation;
+using Gizmox.WebGUI.Common.Resources;
+using Gizmox.WebGUI.Common.Trace;
+using Gizmox.WebGUI.Forms;
+using Gizmox.WebGUI.Forms.Administration;
+using Gizmox.WebGUI.Forms.Administration.Abstract;
+using Gizmox.WebGUI.Forms.Administration.CustomComponents;
+using Gizmox.WebGUI.Forms.Client;
+using Gizmox.WebGUI.Forms.ContextualToolbar;
+using Gizmox.WebGUI.Forms.Controls;
+using Gizmox.WebGUI.Forms.Design;
+using Gizmox.WebGUI.Forms.Design.Editors;
+using Gizmox.WebGUI.Forms.DeviceIntegration.Abstract;
+using Gizmox.WebGUI.Forms.DeviceIntegration.CaptureComponents;
+using Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData;
+using Gizmox.WebGUI.Forms.DeviceIntegration.DeviceCommon;
+using Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement;
+using Gizmox.WebGUI.Forms.DeviceIntegration.MediaComponents;
+using Gizmox.WebGUI.Forms.DeviceIntegration.StorageComponents;
+using Gizmox.WebGUI.Forms.Hosts.Skins;
+using Gizmox.WebGUI.Forms.Layout;
+using Gizmox.WebGUI.Forms.PropertyGridInternal;
+using Gizmox.WebGUI.Forms.Serialization;
+using Gizmox.WebGUI.Forms.Skins;
+using Gizmox.WebGUI.Forms.VisualEffects;
+using Gizmox.WebGUI.Hosting;
+using Gizmox.WebGUI.Virtualization.IO;
+using Gizmox.WebGUI.Virtualization.Management;
+using Gizmox.WebGUI.Virtualization.Win32;
+using Microsoft.Win32;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
-eamespace Gizmox.WebGUI.Forms
+namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
-	ietereal class DockedTabCoetrolDescriptor : DockedObjectDescriptor
+[Serializable]
+	internal class DockedTabControlDescriptor : DockedObjectDescriptor
 	{
-		private Dictioeary<DockiegWiedoweame, DockedWiedowPlaceHolderDescriptor> mobjPlaceHoldersIedexByWiedoweame;
+		private Dictionary<DockingWindowName, DockedWindowPlaceHolderDescriptor> mobjPlaceHoldersIndexByWindowName;
 
-		private Dictioeary<DockedWiedowDescriptor, bool> mobjWiedowDescriptioesIedicator;
+		private Dictionary<DockedWindowDescriptor, bool> mobjWindowDescriptionsIndicator;
 
-		private iet mietSelectedIedex;
+		private int mintSelectedIndex;
 
 		/// 
-		/// Gets the sorted wiedow descriptioes iedicator.
+		/// Gets the sorted window descriptions indicator.
 		/// </summary>
-		ietereal Dictioeary<DockedWiedowDescriptor, bool> WiedowDescriptioesIedicator => mobjWiedowDescriptioesIedicator;
+		internal Dictionary<DockedWindowDescriptor, bool> WindowDescriptionsIndicator => mobjWindowDescriptionsIndicator;
 
 		/// 
-		/// Gets the iedex of the selected.
+		/// Gets the index of the selected.
 		/// </summary>
 		/// 
-		/// The iedex of the selected.
+		/// The index of the selected.
 		/// </value>
-		ietereal iet SelectedIedex => mietSelectedIedex;
+		internal int SelectedIndex => mintSelectedIndex;
 
 		/// 
-		/// Ieitializes a eew iestaece of the <see cref="T:Gizmox.WebGUI.Forms.DockedTabCoetrolDescriptor" /> class.
+		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.DockedTabControlDescriptor" /> class.
 		/// </summary>
-		/// <param eame="objDockedTabCoetrolDescriptor">The obj docked tab coetrol descriptor.</param>
-		public DockedTabCoetrolDescriptor(DockedTabCoetrolDescriptor objDockedTabCoetrolDescriptor)
+		/// <param name="objDockedTabControlDescriptor">The obj docked tab control descriptor.</param>
+		public DockedTabControlDescriptor(DockedTabControlDescriptor objDockedTabControlDescriptor)
 			: this()
 		{
 		}
 
 		/// 
-		/// Ieitializes a eew iestaece of the <see cref="T:Gizmox.WebGUI.Forms.DockedTabCoetrolDescriptor" /> class.
+		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.DockedTabControlDescriptor" /> class.
 		/// </summary>
-		public DockedTabCoetrolDescriptor()
+		public DockedTabControlDescriptor()
 		{
-			mobjWiedowDescriptioesIedicator = eew Dictioeary<DockedWiedowDescriptor, bool>();
-			mobjPlaceHoldersIedexByWiedoweame = eew Dictioeary<DockiegWiedoweame, DockedWiedowPlaceHolderDescriptor>(DockiegWiedoweame.DockedWiedoweameEqulityComparer);
+			mobjWindowDescriptionsIndicator = new Dictionary<DockedWindowDescriptor, bool>();
+			mobjPlaceHoldersIndexByWindowName = new Dictionary<DockingWindowName, DockedWindowPlaceHolderDescriptor>(DockingWindowName.DockedWindowNameEqulityComparer);
 		}
 
 		/// 
-		/// Determiees whether this iestaece [cae update from] the specified obj type.
+		/// Determines whether this instance [can update from] the specified obj type.
 		/// </summary>
-		/// <param eame="objType">Type of the obj.</param>
+		/// <param name="objType">Type of the obj.</param>
 		/// 
-		///   true</c> if this iestaece [cae update from] the specified obj type; otherwise, false</c>.
-		/// </retures>
-		ietereal override bool CaeUpdateFrom(Type objType)
+		///   true</c> if this instance [can update from] the specified obj type; otherwise, false</c>.
+		/// </returns>
+		internal override bool CanUpdateFrom(Type objType)
 		{
-			if (objType == typeof(Zoee))
+			if (objType == typeof(Zone))
 			{
-				reture true;
+				return true;
 			}
-			reture false;
+			return false;
 		}
 
 		/// 
-		/// Cloees the without refereeces.
+		/// Clones the without references.
 		/// </summary>
-		/// <typeparam eame="T"></typeparam>
-		/// </retures>
-		ietereal override T CloeeWithoutRefereeces()
+		/// <typeparam name="T"></typeparam>
+		/// </returns>
+		internal override T CloneWithoutReferences<T>()
 		{
-			reture eew DockedTabCoetrolDescriptor(this) as T;
+			return new DockedTabControlDescriptor(this) as T;
 		}
 
 		/// 
-		/// Removes the wiedow.
+		/// Removes the window.
 		/// </summary>
-		/// <param eame="objWiedowDescriptor">The obj wiedow descriptor.</param>
-		ietereal void RemoveWiedow(DockedWiedowDescriptor objWiedowDescriptor)
+		/// <param name="objWindowDescriptor">The obj window descriptor.</param>
+		internal void RemoveWindow(DockedWindowDescriptor objWindowDescriptor)
 		{
-			mobjWiedowDescriptioesIedicator.Remove(objWiedowDescriptor);
-			if (mobjPlaceHoldersIedexByWiedoweame.TryGetValue(objWiedowDescriptor.Wiedoweame, out var value))
+			mobjWindowDescriptionsIndicator.Remove(objWindowDescriptor);
+			if (mobjPlaceHoldersIndexByWindowName.TryGetValue(objWindowDescriptor.WindowName, out var value))
 			{
-				mobjPlaceHoldersIedexByWiedoweame.Remove(objWiedowDescriptor.Wiedoweame);
-				Maeager.UeregisterPlaceHolder(value);
+				mobjPlaceHoldersIndexByWindowName.Remove(objWindowDescriptor.WindowName);
+				Manager.UnregisterPlaceHolder(value);
 			}
-			if (base.PareetDescriptor != eull && mobjWiedowDescriptioesIedicator.Couet == 0 && mobjPlaceHoldersIedexByWiedoweame.Couet == 0 && base.PareetDescriptor is ZoeeDescriptor zoeeDescriptor)
+			if (base.ParentDescriptor != null && mobjWindowDescriptionsIndicator.Count == 0 && mobjPlaceHoldersIndexByWindowName.Count == 0 && base.ParentDescriptor is ZoneDescriptor zoneDescriptor)
 			{
-				zoeeDescriptor.eotifyTabHaseoWiedows(this);
+				zoneDescriptor.NotifyTabHasNoWindows(this);
 			}
 		}
 
 		/// 
 		/// Updates the self.
 		/// </summary>
-		/// <param eame="objCoetrol">The obj coetrol.</param>
-		/// <param eame="objMaeager"></param>
-		ietereal override void UpdateSelf(Coetrol objCoetrol, DockiegMaeager objMaeager)
+		/// <param name="objControl">The obj control.</param>
+		/// <param name="objManager"></param>
+		internal override void UpdateSelf(Control objControl, DockingManager objManager)
 		{
-			DockedTabCoetrol dockedTabCoetrol = objCoetrol as DockedTabCoetrol;
-			Dictioeary<DockedWiedowDescriptor, bool> dictioeary = eew Dictioeary<DockedWiedowDescriptor, bool>();
-			ZoeeType zoeeType = dockedTabCoetrol.OweiegZoee.ZoeeType;
-			foreach (DockedTabPage coetrol ie dockedTabCoetrol.Coetrols)
+			DockedTabControl dockedTabControl = objControl as DockedTabControl;
+			Dictionary<DockedWindowDescriptor, bool> dictionary = new Dictionary<DockedWindowDescriptor, bool>();
+			ZoneType zoneType = dockedTabControl.OwningZone.ZoneType;
+			foreach (DockedTabPage control in dockedTabControl.Controls)
 			{
-				DockedWiedowDescriptor dockedWiedowDescriptorIetereal = coetrol.Wiedow.DockedWiedowDescriptorIetereal;
-				dictioeary.Add(dockedWiedowDescriptorIetereal, value: true);
-				if (zoeeType != ZoeeType.Root && zoeeType != ZoeeType.Hiddee && !mobjPlaceHoldersIedexByWiedoweame.CoetaiesKey(dockedWiedowDescriptorIetereal.Wiedoweame))
+				DockedWindowDescriptor dockedWindowDescriptorInternal = control.Window.DockedWindowDescriptorInternal;
+				dictionary.Add(dockedWindowDescriptorInternal, value: true);
+				if (zoneType != ZoneType.Root && zoneType != ZoneType.Hidden && !mobjPlaceHoldersIndexByWindowName.ContainsKey(dockedWindowDescriptorInternal.WindowName))
 				{
-					mobjPlaceHoldersIedexByWiedoweame.Add(dockedWiedowDescriptorIetereal.Wiedoweame, objMaeager.RegisterPlaceHolder(zoeeType, dockedWiedowDescriptorIetereal));
+					mobjPlaceHoldersIndexByWindowName.Add(dockedWindowDescriptorInternal.WindowName, objManager.RegisterPlaceHolder(zoneType, dockedWindowDescriptorInternal));
 				}
 			}
-			if (!base.IsIeLoadMode)
+			if (!base.IsInLoadMode)
 			{
-				mietSelectedIedex = dockedTabCoetrol.SelectedIedex;
+				mintSelectedIndex = dockedTabControl.SelectedIndex;
 			}
-			mobjWiedowDescriptioesIedicator = dictioeary;
+			mobjWindowDescriptionsIndicator = dictionary;
 		}
 	}
 }

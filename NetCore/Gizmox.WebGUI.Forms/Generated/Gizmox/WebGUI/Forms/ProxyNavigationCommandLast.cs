@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -131,7 +131,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objList">The obj list.</param>
 		/// <param name="objForm">The obj form.</param>
 		/// </returns>
-		public override bool DoNavigation(IContext objContext, List<object> objList, Form objForm)
+		public override bool DoNavigation(IContext objContext,List<object> objList, Form objForm)
 		{
 			if (objList != null && objForm != null)
 			{

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the kind of action to take if a match is found when combining menu items on a <see cref="T:Gizmox.WebGUI.Forms.ToolStrip"></see>.</summary> 
+/// Specifies the kind of action to take if a match is found when combining menu items on a <see cref="T:Gizmox.WebGUI.Forms.ToolStrip"></see>.</summary> 
 	/// 2</filterpriority>
 	public enum MergeAction
 	{

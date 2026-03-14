@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Reletive aligment of a aligned dialog.
 	/// </summary>
 	public enum DialogAlignment

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design
 {
-	/// 
+/// 
 	/// Provides a base class that can be used to design value editors that 
 	/// can provide a web user interface (Web UI) for representing and editing the 
 	/// values of objects of the supported data types.

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// The property bag dictionary added to support events when changing it.
 	/// </summary>
 	[Serializable]

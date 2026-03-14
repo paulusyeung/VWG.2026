@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides the base functionality for creating data-related collections in the <see cref="N:Gizmox.WebGUI.Forms"></see> namespace.</summary>
+/// Provides the base functionality for creating data-related collections in the <see cref="N:Gizmox.WebGUI.Forms"></see> namespace.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class BaseCollection : ICollection, IEnumerable

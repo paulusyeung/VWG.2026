@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Determines how a control validates its data when it loses user input focus.</summary>
+/// Determines how a control validates its data when it loses user input focus.</summary>
 	/// 2</filterpriority>
 	public enum AutoValidate
 	{

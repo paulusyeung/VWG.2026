@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Contains functionality common to row header cells and column header cells.</summary>
+/// Contains functionality common to row header cells and column header cells.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class DataGridViewHeaderCell : DataGridViewCell

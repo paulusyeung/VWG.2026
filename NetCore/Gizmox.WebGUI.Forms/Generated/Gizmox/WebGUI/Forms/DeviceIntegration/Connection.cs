@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -114,7 +114,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the Connection single-call methods store.
 		/// </summary>
-		private SingleCallMethodStore<ConnectionEventArgs> SingleCallMethodStore {
+		private SingleCallMethodStore<EventArgs> SingleCallMethodStore<ConnectionEventArgs>
+		{
 			get
 			{
 				if (mobjSingleCallMethodStore == null)
@@ -173,9 +174,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 			base.FireEvent(objEvent);
 			string type = objEvent.Type;
 			ConnectionEventArgs argumentsFromEvent = GetArgumentsFromEvent(objEvent);
-			if (argumentsFromEvent != null && !string.IsNullOrEmpty(type) && SingleCallMethodStore.HasRegisteredMethod(type))
+			if (argumentsFromEvent != null && !string.IsNullOrEmpty(type) && SingleCallMethodStore<ConnectionEventArgs>.HasRegisteredMethod(type))
 			{
-				SingleCallMethodStore.InvokeSingleCallMethod(type, argumentsFromEvent);
+				SingleCallMethodStore<ConnectionEventArgs>.InvokeSingleCallMethod(type, argumentsFromEvent);
 			}
 		}
 
@@ -183,9 +184,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// Gets the connection.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void GetConnection(Action objCallback)
+		public void GetConnection(Action<ConnectionEventArgs> objCallback)
 		{
-			string text = SingleCallMethodStore.StoreSingleCallMethod(objCallback);
+			string text = SingleCallMethodStore<ConnectionEventArgs>.StoreSingleCallMethod(objCallback);
 			Invoke("DeviceIntegrator.Connection.getConnection", text);
 		}
 	}

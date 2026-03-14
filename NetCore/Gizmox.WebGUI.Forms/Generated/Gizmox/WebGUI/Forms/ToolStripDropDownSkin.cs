@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	public class ToolStripDropDownSkin : ToolStripSkin
+public class ToolStripDropDownSkin : ToolStripSkin
 	{
 		/// 
 		/// Gets or sets the width of the popup window offset.

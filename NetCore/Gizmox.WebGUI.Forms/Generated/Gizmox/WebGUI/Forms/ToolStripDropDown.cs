@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// 	Represents a control that allows the user to select a single item from a list that is displayed when the user clicks a <see cref="T:System.Windows.Forms.ToolStripDropDownButton"></see>. Although <see cref="T:System.Windows.Forms.ToolStripDropDownMenu"></see> and <see cref="T:System.Windows.Forms.ToolStripDropDown"></see> replace and add functionality to the <see cref="T:System.Windows.Forms.Menu"></see> control of previous versions, <see cref="T:System.Windows.Forms.Menu"></see> is retained for both backward compatibility and future use if you choose.</summary>
 	/// </summary>
 	[Serializable]

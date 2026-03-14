@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Summary description for TreeNode.
 	/// </summary>
 	[Serializable]
@@ -320,7 +320,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the BeforeLabelEdit event.
 		/// </summary>
-		private NodeLabelEditEventHandler BeforeLabelEditHandler => (NodeLabelEditEventHandler)GetHandler(BeforeLabelEdit);
+		private NodeLabelEditEventHandler BeforeLabelEditHandler => (NodeLabelEditEventHandler)GetHandler(BeforeLabelEditEvent);
 
 		/// 
 		/// Gets the hanlder for the BeforeExpand event.
@@ -355,7 +355,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the AfterLabelEdit event.
 		/// </summary>
-		private NodeLabelEditEventHandler AfterLabelEditHandler => (NodeLabelEditEventHandler)GetHandler(AfterLabelEdit);
+		private NodeLabelEditEventHandler AfterLabelEditHandler => (NodeLabelEditEventHandler)GetHandler(AfterLabelEditEvent);
 
 		/// 
 		/// Gets the hanlder for the AfterSelect event.
@@ -2711,8 +2711,8 @@ namespace Gizmox.WebGUI.Forms
 
 		static TreeNode()
 		{
-			NodeMouseDoubleClick = SerializableEvent.Register("NodeMouseDoubleClick", typeof(TreeNodeMouseClickEventHandler), typeof(TreeNode));
-			NodeMouseClick = SerializableEvent.Register("NodeMouseClick", typeof(TreeNodeMouseClickEventHandler), typeof(TreeNode));
+			NodeMouseDoubleClickEvent = SerializableEvent.Register("NodeMouseDoubleClick", typeof(TreeNodeMouseClickEventHandler), typeof(TreeNode));
+			NodeMouseClickEvent = SerializableEvent.Register("NodeMouseClick", typeof(TreeNodeMouseClickEventHandler), typeof(TreeNode));
 			BeforeSelect = SerializableEvent.Register("BeforeSelect", typeof(TreeViewCancelEventHandler), typeof(TreeNode));
 			BeforeLabelEdit = SerializableEvent.Register("BeforeLabelEdit", typeof(NodeLabelEditEventHandler), typeof(TreeNode));
 			BeforeExpand = SerializableEvent.Register("BeforeExpand", typeof(TreeViewCancelEventHandler), typeof(TreeNode));

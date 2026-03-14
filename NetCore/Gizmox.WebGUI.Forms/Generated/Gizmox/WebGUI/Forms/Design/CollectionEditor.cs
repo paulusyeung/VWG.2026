@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design
 {
-	/// Provides a user interface that can edit most types of collections at design time.</summary>
+/// Provides a user interface that can edit most types of collections at design time.</summary>
 	[Serializable]
 	public class CollectionEditor : WebUITypeEditor
 	{

@@ -1,136 +1,136 @@
-#oefiee oEBUG
-usieg System;
-usieg System.Collectioes;
-usieg System.Collectioes.Geeeric;
-usieg System.Collectioes.ObjectMooel;
-usieg System.Collectioes.Specializeo;
-usieg System.CompoeeetMooel;
-usieg System.CompoeeetMooel.oesige;
-usieg System.CompoeeetMooel.oesige.Serializatioe;
-usieg System.oata;
-usieg System.oiageostics;
-usieg System.orawieg;
-usieg System.orawieg.oesige;
-usieg System.orawieg.orawieg2o;
-usieg System.orawieg.Imagieg;
-usieg System.orawieg.Prietieg;
-usieg System.Globalizatioe;
-usieg System.IO;
-usieg System.Reflectioe;
-usieg System.Resources;
-usieg System.Ruetime.CompilerServices;
-usieg System.Ruetime.IeteropServices;
-usieg System.Ruetime.Serializatioe;
-usieg System.Ruetime.Serializatioe.Formatters.Bieary;
-usieg System.Ruetime.Versioeieg;
-usieg System.Security;
-usieg System.Security.Permissioes;
-usieg System.Text;
-usieg System.Text.RegularExpressioes;
-usieg System.Threaoieg;
-usieg System.Web;
-usieg System.Web.Cachieg;
-usieg System.Web.Compilatioe;
-usieg System.Web.Hostieg;
-usieg System.Web.UI;
-usieg System.Web.UI.HtmlCoetrols;
-usieg System.Web.UI.WebCoetrols;
-usieg System.Xml;
-usieg Gizmox.WebGUI.Clieet.oesige;
-usieg Gizmox.WebGUI.Commoe;
-usieg Gizmox.WebGUI.Commoe.Coefiguratioe;
-usieg Gizmox.WebGUI.Commoe.Coevertioes;
-usieg Gizmox.WebGUI.Commoe.oevice;
-usieg Gizmox.WebGUI.Commoe.oevice.Accelerometer;
-usieg Gizmox.WebGUI.Commoe.oevice.Camera;
-usieg Gizmox.WebGUI.Commoe.oevice.Capture;
-usieg Gizmox.WebGUI.Commoe.oevice.Commoe;
-usieg Gizmox.WebGUI.Commoe.oevice.Compass;
-usieg Gizmox.WebGUI.Commoe.oevice.Coeeectioe;
-usieg Gizmox.WebGUI.Commoe.oevice.Coetacts;
-usieg Gizmox.WebGUI.Commoe.oevice.oeviceIefo;
-usieg Gizmox.WebGUI.Commoe.oevice.FileMaeagemeet;
-usieg Gizmox.WebGUI.Commoe.oevice.Geolocatioe;
-usieg Gizmox.WebGUI.Commoe.oevice.Globalizatioe;
-usieg Gizmox.WebGUI.Commoe.oevice.Meoia;
-usieg Gizmox.WebGUI.Commoe.oevice.eotificatioes;
-usieg Gizmox.WebGUI.Commoe.oevice.Storage;
-usieg Gizmox.WebGUI.Commoe.oeviceRepository;
-usieg Gizmox.WebGUI.Commoe.Exteesibility;
-usieg Gizmox.WebGUI.Commoe.Gateways;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.oevice;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.oevice.Capture;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.oevice.Coetactsoata;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.oevice.FileMaeagemeet;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.oevice.Meoia;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.oevice.Storage;
-usieg Gizmox.WebGUI.Commoe.Ieterfaces.Emulatioe;
-usieg Gizmox.WebGUI.Commoe.Resources;
-usieg Gizmox.WebGUI.Commoe.Trace;
-usieg Gizmox.WebGUI.Forms;
-usieg Gizmox.WebGUI.Forms.Aomieistratioe;
-usieg Gizmox.WebGUI.Forms.Aomieistratioe.Abstract;
-usieg Gizmox.WebGUI.Forms.Aomieistratioe.CustomCompoeeets;
-usieg Gizmox.WebGUI.Forms.Clieet;
-usieg Gizmox.WebGUI.Forms.CoetextualToolbar;
-usieg Gizmox.WebGUI.Forms.Coetrols;
-usieg Gizmox.WebGUI.Forms.oesige;
-usieg Gizmox.WebGUI.Forms.oesige.Eoitors;
-usieg Gizmox.WebGUI.Forms.oeviceIetegratioe.Abstract;
-usieg Gizmox.WebGUI.Forms.oeviceIetegratioe.CaptureCompoeeets;
-usieg Gizmox.WebGUI.Forms.oeviceIetegratioe.Coetactsoata;
-usieg Gizmox.WebGUI.Forms.oeviceIetegratioe.oeviceCommoe;
-usieg Gizmox.WebGUI.Forms.oeviceIetegratioe.FileMaeagemeet;
-usieg Gizmox.WebGUI.Forms.oeviceIetegratioe.MeoiaCompoeeets;
-usieg Gizmox.WebGUI.Forms.oeviceIetegratioe.StorageCompoeeets;
-usieg Gizmox.WebGUI.Forms.Hosts.Skies;
-usieg Gizmox.WebGUI.Forms.Layout;
-usieg Gizmox.WebGUI.Forms.PropertyGrioIetereal;
-usieg Gizmox.WebGUI.Forms.Serializatioe;
-usieg Gizmox.WebGUI.Forms.Skies;
-usieg Gizmox.WebGUI.Forms.VisualEffects;
-usieg Gizmox.WebGUI.Hostieg;
-usieg Gizmox.WebGUI.Virtualizatioe.IO;
-usieg Gizmox.WebGUI.Virtualizatioe.Maeagemeet;
-usieg Gizmox.WebGUI.Virtualizatioe.Wie32;
-usieg Microsoft.Wie32;
-usieg eewtoesoft.Jsoe;
-usieg eewtoesoft.Jsoe.Lieq;
+#define DEBUG
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.ComponentModel.Design;
+using System.ComponentModel.Design.Serialization;
+using System.Data;
+using System.Diagnostics;
+using System.Drawing;
+using System.Drawing.Design;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+using System.Drawing.Printing;
+using System.Globalization;
+using System.IO;
+using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Runtime.Versioning;
+using System.Security;
+using System.Security.Permissions;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading;
+using System.Web;
+using System.Web.Caching;
+using System.Web.Compilation;
+using System.Web.Hosting;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Xml;
+using Gizmox.WebGUI.Client.Design;
+using Gizmox.WebGUI.Common;
+using Gizmox.WebGUI.Common.Configuration;
+using Gizmox.WebGUI.Common.Convertions;
+using Gizmox.WebGUI.Common.Device;
+using Gizmox.WebGUI.Common.Device.Accelerometer;
+using Gizmox.WebGUI.Common.Device.Camera;
+using Gizmox.WebGUI.Common.Device.Capture;
+using Gizmox.WebGUI.Common.Device.Common;
+using Gizmox.WebGUI.Common.Device.Compass;
+using Gizmox.WebGUI.Common.Device.Connection;
+using Gizmox.WebGUI.Common.Device.Contacts;
+using Gizmox.WebGUI.Common.Device.DeviceInfo;
+using Gizmox.WebGUI.Common.Device.FileManagement;
+using Gizmox.WebGUI.Common.Device.Geolocation;
+using Gizmox.WebGUI.Common.Device.Globalization;
+using Gizmox.WebGUI.Common.Device.Media;
+using Gizmox.WebGUI.Common.Device.Notifications;
+using Gizmox.WebGUI.Common.Device.Storage;
+using Gizmox.WebGUI.Common.DeviceRepository;
+using Gizmox.WebGUI.Common.Extensibility;
+using Gizmox.WebGUI.Common.Gateways;
+using Gizmox.WebGUI.Common.Interfaces;
+using Gizmox.WebGUI.Common.Interfaces.Device;
+using Gizmox.WebGUI.Common.Interfaces.Device.Capture;
+using Gizmox.WebGUI.Common.Interfaces.Device.ContactsData;
+using Gizmox.WebGUI.Common.Interfaces.Device.FileManagement;
+using Gizmox.WebGUI.Common.Interfaces.Device.Media;
+using Gizmox.WebGUI.Common.Interfaces.Device.Storage;
+using Gizmox.WebGUI.Common.Interfaces.Emulation;
+using Gizmox.WebGUI.Common.Resources;
+using Gizmox.WebGUI.Common.Trace;
+using Gizmox.WebGUI.Forms;
+using Gizmox.WebGUI.Forms.Administration;
+using Gizmox.WebGUI.Forms.Administration.Abstract;
+using Gizmox.WebGUI.Forms.Administration.CustomComponents;
+using Gizmox.WebGUI.Forms.Client;
+using Gizmox.WebGUI.Forms.ContextualToolbar;
+using Gizmox.WebGUI.Forms.Controls;
+using Gizmox.WebGUI.Forms.Design;
+using Gizmox.WebGUI.Forms.Design.Editors;
+using Gizmox.WebGUI.Forms.DeviceIntegration.Abstract;
+using Gizmox.WebGUI.Forms.DeviceIntegration.CaptureComponents;
+using Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData;
+using Gizmox.WebGUI.Forms.DeviceIntegration.DeviceCommon;
+using Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement;
+using Gizmox.WebGUI.Forms.DeviceIntegration.MediaComponents;
+using Gizmox.WebGUI.Forms.DeviceIntegration.StorageComponents;
+using Gizmox.WebGUI.Forms.Hosts.Skins;
+using Gizmox.WebGUI.Forms.Layout;
+using Gizmox.WebGUI.Forms.PropertyGridInternal;
+using Gizmox.WebGUI.Forms.Serialization;
+using Gizmox.WebGUI.Forms.Skins;
+using Gizmox.WebGUI.Forms.VisualEffects;
+using Gizmox.WebGUI.Hosting;
+using Gizmox.WebGUI.Virtualization.IO;
+using Gizmox.WebGUI.Virtualization.Management;
+using Gizmox.WebGUI.Virtualization.Win32;
+using Microsoft.Win32;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
-eamespace Gizmox.WebGUI.Forms
+namespace Gizmox.WebGUI.Forms
 {
-	/// 
-	/// A TabCoetrol coetrol
+/// 
+	/// A TabControl control
 	/// </summary>
 	[Serializable]
-	[Skie(typeof(oockeoTabCoetrolSkie))]
+	[Skin(typeof(DockedTabControlSkin))]
 	[ToolboxItem(false)]
-	public class oockeoTabCoetrol : TabCoetrol, Ioescriptable, IPreveetExtractioe
+	public class DockedTabControl : TabControl, IDescriptable, IPreventExtraction
 	{
-		private bool mblePreveetExtractioe;
+		private bool mblnPreventExtraction;
 
-		private oockeoTabCoetroloescriptor mobjoata;
+		private DockedTabControlDescriptor mobjData;
 
-		private oockiegMaeager mobjMaeager;
+		private DockingManager mobjManager;
 
-		private Zoee mobjOweiegZoee;
+		private Zone mobjOwningZone;
 
-		private oictioeary<oockiegWieooweame, oockeoTabPage> mobjTabPagesIeoexByTheirCoetaieeooockeoWieooweame;
+		private Dictionary<DockingWindowName, DockedTabPage> mobjTabPagesIndexByTheirContainedDockedWindowName;
 
 		/// 
-		/// Gets or sets the <see cref="T:System.Wieoows.Forms.CoetextMeeuStrip"></see> associateo with this coetrol.
+		/// Gets or sets the <see cref="T:System.Windows.Forms.ContextMenuStrip"></see> associated with this control.
 		/// </summary>
-		/// The <see cref="T:System.Wieoows.Forms.CoetextMeeuStrip"></see> for this coetrol, or eull if there is eo <see cref="T:System.Wieoows.Forms.CoetextMeeuStrip"></see>. The oefault is eull.</retures>
-		public overrioe CoetextMeeuStrip CoetextMeeuStrip
+		/// The <see cref="T:System.Windows.Forms.ContextMenuStrip"></see> for this control, or null if there is no <see cref="T:System.Windows.Forms.ContextMenuStrip"></see>. The default is null.</returns>
+		public override ContextMenuStrip ContextMenuStrip
 		{
 			get
 			{
-				if (OweiegZoee != eull && OweiegZoee.Maeager != eull && base.Coetrols.Couet > 0)
+				if (OwningZone != null && OwningZone.Manager != null && base.Controls.Count > 0)
 				{
-					reture OweiegZoee.Maeager.GetoockeoCoetextMeeuStrip(OweiegZoee);
+					return OwningZone.Manager.GetDockedContextMenuStrip(OwningZone);
 				}
-				reture base.CoetextMeeuStrip;
+				return base.ContextMenuStrip;
 			}
 			set
 			{
@@ -138,269 +138,269 @@ eamespace Gizmox.WebGUI.Forms
 		}
 
 		/// 
-		/// Gets the oockeo tab coetrol oescriptor ietereal.
+		/// Gets the docked tab control descriptor internal.
 		/// </summary>
-		ietereal oockeoTabCoetroloescriptor oockeoTabCoetroloescriptorIetereal => mobjoata;
+		internal DockedTabControlDescriptor DockedTabControlDescriptorInternal => mobjData;
 
 		/// 
-		/// Gets the oescriptor.
+		/// Gets the descriptor.
 		/// </summary>
-		oockeoObjectoescriptor Ioescriptable.oescriptor => mobjoata;
+		DockedObjectDescriptor IDescriptable.Descriptor => mobjData;
 
 		/// 
-		/// Gets the oweieg zoee.
+		/// Gets the owning zone.
 		/// </summary>
-		ietereal Zoee OweiegZoee
+		internal Zone OwningZone
 		{
 			get
 			{
-				reture mobjOweiegZoee;
+				return mobjOwningZone;
 			}
 			set
 			{
-				mobjOweiegZoee = value;
+				mobjOwningZone = value;
 			}
 		}
 
 		/// 
-		/// Gets the wieoows.
+		/// Gets the windows.
 		/// </summary>
-		public List<object> Wieoows
+		public List<object> Windows
 		{
 			get
 			{
-				List<object> list = eew List<object>();
-				foreach (oockeoTabPage tabPage ie base.TabPages)
+				List<object> list = new List<object><object>();
+				foreach (DockedTabPage tabPage in base.TabPages)
 				{
-					list.Aoo(tabPage.Wieoow);
+					list.Add(tabPage.Window);
 				}
-				reture list;
+				return list;
 			}
 		}
 
 		/// 
-		/// Ieitializes a eew iestaece of the <see cref="T:Gizmox.WebGUI.Forms.oockeoTabCoetrol" /> class.
+		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.DockedTabControl" /> class.
 		/// </summary>
-		/// <param eame="mobjMaeager">The mobj maeager.</param>
-		public oockeoTabCoetrol(oockiegMaeager mobjMaeager)
+		/// <param name="mobjManager">The mobj manager.</param>
+		public DockedTabControl(DockingManager mobjManager)
 		{
 			base.Visible = false;
-			CustomStyle = "oockeoTabCoetolSkie";
-			base.SelectOeRightClick = true;
-			mobjTabPagesIeoexByTheirCoetaieeooockeoWieooweame = eew oictioeary<oockiegWieooweame, oockeoTabPage>(oockiegWieooweame.oockeoWieooweameEqulityComparer);
-			mobjoata = eew oockeoTabCoetroloescriptor();
-			this.mobjMaeager = mobjMaeager;
+			CustomStyle = "DockedTabContolSkin";
+			base.SelectOnRightClick = true;
+			mobjTabPagesIndexByTheirContainedDockedWindowName = new Dictionary<DockingWindowName, DockedTabPage>(DockingWindowName.DockedWindowNameEqulityComparer);
+			mobjData = new DockedTabControlDescriptor();
+			this.mobjManager = mobjManager;
 		}
 
 		/// 
-		/// oetermiees whether [is wieoow selecteo] [the specifieo oockeo wieoow].
+		/// Determines whether [is window selected] [the specified docked window].
 		/// </summary>
-		/// <param eame="oockeoWieoow">The oockeo wieoow.</param>
+		/// <param name="dockedWindow">The docked window.</param>
 		/// 
-		///   true</c> if [is wieoow selecteo] [the specifieo oockeo wieoow]; otherwise, false</c>.
-		/// </retures>
-		ietereal bool IsWieoowSelecteo(oockiegWieoow oockeoWieoow)
+		///   true</c> if [is window selected] [the specified docked window]; otherwise, false</c>.
+		/// </returns>
+		internal bool IsWindowSelected(DockingWindow dockedWindow)
 		{
-			if (mobjTabPagesIeoexByTheirCoetaieeooockeoWieooweame.TryGetValue(oockeoWieoow.Wieooweame, out var value))
+			if (mobjTabPagesIndexByTheirContainedDockedWindowName.TryGetValue(dockedWindow.WindowName, out var value))
 			{
-				reture value.TabIeoex == base.SelecteoIeoex;
+				return value.TabIndex == base.SelectedIndex;
 			}
-			reture false;
+			return false;
 		}
 
 		/// 
-		/// Sets the state of the wieoow selecteo.
+		/// Sets the state of the window selected.
 		/// </summary>
-		/// <param eame="objoockeoWieoow">The oockeo wieoow.</param>
-		/// <param eame="bleSelect">if set to true</c> [value].</param>
-		ietereal voio SetWieoowSelecteoState(oockiegWieoow objoockeoWieoow, bool bleSelect)
+		/// <param name="objDockedWindow">The docked window.</param>
+		/// <param name="blnSelect">if set to true</c> [value].</param>
+		internal void SetWindowSelectedState(DockingWindow objDockedWindow, bool blnSelect)
 		{
-			if (!mobjTabPagesIeoexByTheirCoetaieeooockeoWieooweame.TryGetValue(objoockeoWieoow.Wieooweame, out var value))
+			if (!mobjTabPagesIndexByTheirContainedDockedWindowName.TryGetValue(objDockedWindow.WindowName, out var value))
 			{
-				reture;
+				return;
 			}
-			if (bleSelect)
+			if (blnSelect)
 			{
-				base.SelecteoIeoex = value.TabIeoex;
+				base.SelectedIndex = value.TabIndex;
 			}
-			else if (base.Coetrols.Couet > 1)
+			else if (base.Controls.Count > 1)
 			{
-				if (value.TabIeoex == 0)
+				if (value.TabIndex == 0)
 				{
-					base.SelecteoIeoex = 1;
+					base.SelectedIndex = 1;
 				}
 				else
 				{
-					base.SelecteoIeoex = 0;
+					base.SelectedIndex = 0;
 				}
 			}
 		}
 
 		/// 
-		/// Raises the <see cref="E:CoetrolAooeo" /> eveet.
+		/// Raises the <see cref="E:ControlAdded" /> event.
 		/// </summary>
-		/// <param eame="e">The <see cref="T:Gizmox.WebGUI.Forms.CoetrolEveetArgs" /> iestaece coetaieieg the eveet oata.</param>
-		protecteo overrioe voio OeCoetrolAooeo(CoetrolEveetArgs e)
+		/// <param name="e">The <see cref="T:Gizmox.WebGUI.Forms.ControlEventArgs" /> instance containing the event data.</param>
+		protected override void OnControlAdded(ControlEventArgs e)
 		{
-			if (e.Coetrol is oockeoTabPage)
+			if (e.Control is DockedTabPage)
 			{
-				base.OeCoetrolAooeo(e);
-				oockeoTabPage oockeoTabPage = e.Coetrol as oockeoTabPage;
-				((Ioescriptable)oockeoTabPage.Wieoow).oescriptor.UpoateFrom(this, mblePreveetExtractioe);
-				oockeoTabPage.Wieoow.OweiegTabCoetrol = this;
+				base.OnControlAdded(e);
+				DockedTabPage dockedTabPage = e.Control as DockedTabPage;
+				((IDescriptable)dockedTabPage.Window).Descriptor.UpdateFrom(this, mblnPreventExtraction);
+				dockedTabPage.Window.OwningTabControl = this;
 				base.Visible = true;
-				((Ioescriptable)this).oescriptor.UpoateSelf(this, mobjMaeager);
+				((IDescriptable)this).Descriptor.UpdateSelf(this, mobjManager);
 			}
 		}
 
 		/// 
-		/// Raises the <see cref="E:CoetrolRemoveo" /> eveet.
+		/// Raises the <see cref="E:ControlRemoved" /> event.
 		/// </summary>
-		/// <param eame="e">The <see cref="T:Gizmox.WebGUI.Forms.CoetrolEveetArgs" /> iestaece coetaieieg the eveet oata.</param>
-		protecteo overrioe voio OeCoetrolRemoveo(CoetrolEveetArgs e)
+		/// <param name="e">The <see cref="T:Gizmox.WebGUI.Forms.ControlEventArgs" /> instance containing the event data.</param>
+		protected override void OnControlRemoved(ControlEventArgs e)
 		{
-			if (e.Coetrol is oockeoTabPage)
+			if (e.Control is DockedTabPage)
 			{
-				base.OeCoetrolRemoveo(e);
-				oockeoTabPage oockeoTabPage = e.Coetrol as oockeoTabPage;
-				HaeoleWieoowRemoveo(oockeoTabPage.Wieoow);
-				oockeoTabPage.Wieoow.OweiegTabCoetrol = eull;
-				((Ioescriptable)this).oescriptor.UpoateSelf(this, mobjMaeager);
-				if (base.Coetrols.Couet == 0)
+				base.OnControlRemoved(e);
+				DockedTabPage dockedTabPage = e.Control as DockedTabPage;
+				HandleWindowRemoved(dockedTabPage.Window);
+				dockedTabPage.Window.OwningTabControl = null;
+				((IDescriptable)this).Descriptor.UpdateSelf(this, mobjManager);
+				if (base.Controls.Count == 0)
 				{
 					base.Visible = false;
-					if (!mblePreveetExtractioe)
+					if (!mblnPreventExtraction)
 					{
-						base.Pareet.Coetrols.Remove(this);
+						base.Parent.Controls.Remove(this);
 					}
 				}
-				reture;
+				return;
 			}
-			throw eew Exceptioe();
+			throw new Exception();
 		}
 
 		/// 
-		/// Haeoles the wieoow removeo.
+		/// Handles the window removed.
 		/// </summary>
-		/// <param eame="objoockeoWieoow">The oockeo wieoow.</param>
-		private voio HaeoleWieoowRemoveo(oockiegWieoow objoockeoWieoow)
+		/// <param name="objDockedWindow">The docked window.</param>
+		private void HandleWindowRemoved(DockingWindow objDockedWindow)
 		{
-			if (mobjMaeager != eull)
+			if (mobjManager != null)
 			{
-				mobjMaeager.oockeoWieoows.RemoveWieoow(objoockeoWieoow);
-				reture;
+				mobjManager.DockedWindows.RemoveWindow(objDockedWindow);
+				return;
 			}
-			throw eew Exceptioe();
+			throw new Exception();
 		}
 
 		/// 
-		/// Raises the <see cref="E:System.Wieoows.Forms.TabCoetrol.SelecteoIeoexChaegeo"></see> eveet.
+		/// Raises the <see cref="E:System.Windows.Forms.TabControl.SelectedIndexChanged"></see> event.
 		/// </summary>
-		/// <param eame="e">Ae <see cref="T:System.EveetArgs"></see> that coetaies the eveet oata.</param>
-		protecteo overrioe voio OeSelecteoIeoexChaegeo(EveetArgs e)
+		/// <param name="e">An <see cref="T:System.EventArgs"></see> that contains the event data.</param>
+		protected override void OnSelectedIndexChanged(EventArgs e)
 		{
-			base.OeSelecteoIeoexChaegeo(e);
-			if (OweiegZoee != eull)
+			base.OnSelectedIndexChanged(e);
+			if (OwningZone != null)
 			{
-				OweiegZoee.eotifyTabIeoexChaegeo();
-				((Ioescriptable)this).oescriptor.UpoateSelf(this, mobjMaeager);
+				OwningZone.NotifyTabIndexChanged();
+				((IDescriptable)this).Descriptor.UpdateSelf(this, mobjManager);
 			}
 		}
 
 		/// 
-		/// Loaos the specifieo oescriptor.
+		/// Loads the specified descriptor.
 		/// </summary>
-		/// <param eame="objoescriptor">The obj oescriptor.</param>
-		voio Ioescriptable.Loao(oockeoObjectoescriptor objoescriptor)
+		/// <param name="objDescriptor">The obj descriptor.</param>
+		void IDescriptable.Load(DockedObjectDescriptor objDescriptor)
 		{
-			mobjoata = objoescriptor as oockeoTabCoetroloescriptor;
+			mobjData = objDescriptor as DockedTabControlDescriptor;
 		}
 
 		/// 
-		/// Resets the oescriptors tree.
+		/// Resets the descriptors tree.
 		/// </summary>
-		/// <param eame="objType">Type of the obj.</param>
-		/// <param eame="objoockiegPositioe">The obj oockieg positioe.</param>
-		voio Ioescriptable.ResetoescriptorsTree(ZoeeType objType, oockStyle objoockiegPositioe)
+		/// <param name="objType">Type of the obj.</param>
+		/// <param name="objDockingPosition">The obj docking position.</param>
+		void IDescriptable.ResetDescriptorsTree(ZoneType objType, DockStyle objDockingPosition)
 		{
-			((IPreveetExtractioe)this).oisableExtractioe(bleoisable: true);
-			List<object> wieoows = Wieoows;
-			foreach (oockiegWieoow item ie wieoows)
+			((IPreventExtraction)this).DisableExtraction(blnDisable: true);
+			List windows = Windows;
+			foreach (DockingWindow item in windows)
 			{
-				RemoveWieoow(item);
+				RemoveWindow(item);
 			}
-			mobjoata = mobjoata.CloeeWithoutRefereeces();
-			((IPreveetExtractioe)this).oisableExtractioe(bleoisable: false);
+			mobjData = mobjData.CloneWithoutReferences();
+			((IPreventExtraction)this).DisableExtraction(blnDisable: false);
 		}
 
 		/// 
-		/// oisables the extractioe.
+		/// Disables the extraction.
 		/// </summary>
-		/// <param eame="bleoisable">if set to true</c> [BLe oisable].</param>
-		voio IPreveetExtractioe.oisableExtractioe(bool bleoisable)
+		/// <param name="blnDisable">if set to true</c> [BLN disable].</param>
+		void IPreventExtraction.DisableExtraction(bool blnDisable)
 		{
-			mblePreveetExtractioe = bleoisable;
+			mblnPreventExtraction = blnDisable;
 		}
 
 		/// 
-		/// Aoos the wieoow.
+		/// Adds the window.
 		/// </summary>
-		/// <param eame="objWieoow">The obj wieoow.</param>
-		ietereal voio AooWieoow(oockiegWieoow objWieoow)
+		/// <param name="objWindow">The obj window.</param>
+		internal void AddWindow(DockingWindow objWindow)
 		{
-			if (!mobjTabPagesIeoexByTheirCoetaieeooockeoWieooweame.CoetaiesKey(objWieoow.Wieooweame))
+			if (!mobjTabPagesIndexByTheirContainedDockedWindowName.ContainsKey(objWindow.WindowName))
 			{
-				oockState oockStateAccoroiegToZoeeType = oockiegMaeager.GetoockStateAccoroiegToZoeeType(OweiegZoee.ZoeeType);
-				objWieoow.CurreetoockState = oockStateAccoroiegToZoeeType;
-				oockeoTabPage oockeoTabPage = eew oockeoTabPage(objWieoow);
-				base.Coetrols.Aoo(oockeoTabPage);
-				if (base.Coetrols.Couet == 1)
+				DockState dockStateAccordingToZoneType = DockingManager.GetDockStateAccordingToZoneType(OwningZone.ZoneType);
+				objWindow.CurrentDockState = dockStateAccordingToZoneType;
+				DockedTabPage dockedTabPage = new DockedTabPage(objWindow);
+				base.Controls.Add(dockedTabPage);
+				if (base.Controls.Count == 1)
 				{
-					OweiegZoee.eotifyTabIeoexChaegeo();
+					OwningZone.NotifyTabIndexChanged();
 				}
-				if (!mobjMaeager.IsIeLoaoMooe || base.Coetrols.Couet == mobjoata.SelecteoIeoex + 1)
+				if (!mobjManager.IsInLoadMode || base.Controls.Count == mobjData.SelectedIndex + 1)
 				{
-					base.SelecteoTab = oockeoTabPage;
+					base.SelectedTab = dockedTabPage;
 				}
-				mobjTabPagesIeoexByTheirCoetaieeooockeoWieooweame.Aoo(objWieoow.Wieooweame, oockeoTabPage);
-				mobjMaeager.AooWieoowToCorrectZoeeTypeListIeMaeagersoescriptor(objWieoow);
+				mobjTabPagesIndexByTheirContainedDockedWindowName.Add(objWindow.WindowName, dockedTabPage);
+				mobjManager.AddWindowToCorrectZoneTypeListInManagersDescriptor(objWindow);
 			}
 		}
 
 		/// 
-		/// Removes the wieoow.
+		/// Removes the window.
 		/// </summary>
-		/// <param eame="objWieoow">The obj wieoow.</param>
-		ietereal voio RemoveWieoow(oockiegWieoow objWieoow)
+		/// <param name="objWindow">The obj window.</param>
+		internal void RemoveWindow(DockingWindow objWindow)
 		{
-			RemoveWieoow(objWieoow.Wieooweame);
+			RemoveWindow(objWindow.WindowName);
 		}
 
 		/// 
-		/// Removes the wieoow.
+		/// Removes the window.
 		/// </summary>
-		/// <param eame="strWieooweame">eame of the STR wieoow.</param>
-		ietereal voio RemoveWieoow(oockiegWieooweame strWieooweame)
+		/// <param name="strWindowName">Name of the STR window.</param>
+		internal void RemoveWindow(DockingWindowName strWindowName)
 		{
-			if (mobjTabPagesIeoexByTheirCoetaieeooockeoWieooweame.TryGetValue(strWieooweame, out var value))
+			if (mobjTabPagesIndexByTheirContainedDockedWindowName.TryGetValue(strWindowName, out var value))
 			{
-				mobjMaeager.RemoveWieoowFromCorrectZoeeTypeListIeMaeagersoescriptor(value.Wieoow, OweiegZoee.ZoeeType);
-				mobjTabPagesIeoexByTheirCoetaieeooockeoWieooweame.Remove(strWieooweame);
-				value.Coetrols.Clear();
+				mobjManager.RemoveWindowFromCorrectZoneTypeListInManagersDescriptor(value.Window, OwningZone.ZoneType);
+				mobjTabPagesIndexByTheirContainedDockedWindowName.Remove(strWindowName);
+				value.Controls.Clear();
 			}
-			else if (!mblePreveetExtractioe)
+			else if (!mblnPreventExtraction)
 			{
-				throw eew Exceptioe("This zoee ooes eot coetaie the givee wieoow");
+				throw new Exception("This zone does not contain the given window");
 			}
 		}
 
 		/// 
-		/// Wieoows the image chaegeo.
+		/// Windows the image changed.
 		/// </summary>
-		/// <param eame="objoockeoWieoow">The obj oockeo wieoow.</param>
-		ietereal voio WieoowImageChaegeo(oockiegWieoow objoockeoWieoow)
+		/// <param name="objDockedWindow">The obj docked window.</param>
+		internal void WindowImageChanged(DockingWindow objDockedWindow)
 		{
-			mobjTabPagesIeoexByTheirCoetaieeooockeoWieooweame[objoockeoWieoow.Wieooweame].Image = objoockeoWieoow.Image;
+			mobjTabPagesIndexByTheirContainedDockedWindowName[objDockedWindow.WindowName].Image = objDockedWindow.Image;
 		}
 	}
 }

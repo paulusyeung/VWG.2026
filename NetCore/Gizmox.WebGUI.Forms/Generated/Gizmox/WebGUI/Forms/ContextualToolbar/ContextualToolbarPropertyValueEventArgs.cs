@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.ContextualToolbar
 {
-	[Serializable]
+[Serializable]
 	internal class ContextualToolbarPropertyValueEventArgs : EventArgs
 	{
 		private object mobjValue = null;

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.DataGridView.RowStateChanged"></see> event of a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see>.</summary>
+/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.DataGridView.RowStateChanged"></see> event of a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see>.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	public class DataGridViewRowStateChangedEventArgs : EventArgs

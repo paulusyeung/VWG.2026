@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides focus management functionality for controls that can function as a container for other controls.
 	/// </summary>
 	[Serializable]

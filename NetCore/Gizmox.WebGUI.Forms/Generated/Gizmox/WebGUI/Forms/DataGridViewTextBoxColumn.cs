@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Hosts a collection of <see cref="T:Gizmox.WebGUI.Forms.DataGridViewTextBoxCell"></see> cells.</summary>
+/// Hosts a collection of <see cref="T:Gizmox.WebGUI.Forms.DataGridViewTextBoxCell"></see> cells.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[ToolboxBitmap(typeof(DataGridViewTextBoxColumn), "DataGridViewTextBoxColumn.bmp")]

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents the image used to paint the mouse pointer.</summary>
+/// Represents the image used to paint the mouse pointer.</summary>
 	/// 1</filterpriority>
 	/// <completionlist cref="T:Gizmox.WebGUI.Forms.Cursors" />
 	[Serializable]

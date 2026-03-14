@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides a unified way of converting types of values to other types, as well as for accessing standard values and subproperties.
 	/// </summary>
 	[Serializable]

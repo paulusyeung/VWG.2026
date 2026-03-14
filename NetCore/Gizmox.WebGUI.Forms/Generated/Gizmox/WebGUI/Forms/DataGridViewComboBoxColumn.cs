@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents a column of <see cref="T:Gizmox.WebGUI.Forms.DataGridViewComboBoxCell"></see> objects.</summary>
+/// Represents a column of <see cref="T:Gizmox.WebGUI.Forms.DataGridViewComboBoxCell"></see> objects.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[ToolboxBitmap(typeof(DataGridViewComboBoxColumn), "DataGridViewComboBoxColumn.bmp")]

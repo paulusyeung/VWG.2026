@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design.Editors
 {
-	/// 
+/// 
 	/// The editor to set the order of the listview columns when using the VisualTemplate.
 	/// </summary>
 	[Serializable]

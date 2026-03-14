@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Provides a base class that allows invocation of methods that reside inside controls that have frames
 	/// </summary>
 	[Serializable]
@@ -139,7 +139,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="arrArgs">The arugments to be passed to the method</param>
 		public void InvokeClientMethod(string strMember, params object[] arrArgs)
 		{
-			List<object> list = new List<object>();
+			List<object> list = new List<object><object>();
 			list.Add(ID.ToString());
 			list.Add(strMember);
 			list.AddRange(arrArgs);

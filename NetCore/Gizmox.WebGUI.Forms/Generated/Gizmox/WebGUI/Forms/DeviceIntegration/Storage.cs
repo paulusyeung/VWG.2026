@@ -100,35 +100,35 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration
 {
-	[Serializable]
+[Serializable]
 	public class Storage : DeviceComponent, IStorage
 	{
 		private LocalStorage mobjLocalStorage;
 
-		private SingleCallMethodStore<StorageEventArgs> mobjClearLocalStorageMethods;
+		private SingleCallMethodStore<EventArgs> mobjClearLocalStorageMethods;
 
-		private SingleCallMethodStore<StorageEventArgs> mobjGetLocalStorageItemMethods;
+		private SingleCallMethodStore<EventArgs> mobjGetLocalStorageItemMethods;
 
-		private SingleCallMethodStore<StorageEventArgs> mobjSetLocalStorageItemMethods;
+		private SingleCallMethodStore<EventArgs> mobjSetLocalStorageItemMethods;
 
-		private SingleCallMethodStore<StorageEventArgs> mobjRemoveLocalStorageItemMethods;
+		private SingleCallMethodStore<EventArgs> mobjRemoveLocalStorageItemMethods;
 
-		private SingleCallMethodStore<StorageEventArgs> mobjGetLocalStorageKeyMethods;
+		private SingleCallMethodStore<EventArgs> mobjGetLocalStorageKeyMethods;
 
-		private SingleCallMethodStore<StorageEventArgs> mobjExecuteSQLMethods;
+		private SingleCallMethodStore<EventArgs> mobjExecuteSQLMethods;
 
-		private SingleCallMethodStore<StorageEventArgs> mobjTransactionCallbackMethods;
+		private SingleCallMethodStore<EventArgs> mobjTransactionCallbackMethods;
 
 		/// 
 		/// Gets the transaction callback methods.
 		/// </summary>
-		internal SingleCallMethodStore<StorageEventArgs> TransactionCallbackMethods
+		internal SingleCallMethodStore<EventArgs> TransactionCallbackMethods
 		{
 			get
 			{
 				if (mobjTransactionCallbackMethods == null)
 				{
-					mobjTransactionCallbackMethods = new SingleCallMethodStore<StorageEventArgs>();
+					mobjTransactionCallbackMethods = new SingleCallMethodStore<EventArgs>();
 				}
 				return mobjTransactionCallbackMethods;
 			}
@@ -137,13 +137,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the execute SQL methods store.
 		/// </summary>
-		internal SingleCallMethodStore<StorageEventArgs> ExecuteSQLMethods
+		internal SingleCallMethodStore<EventArgs> ExecuteSQLMethods
 		{
 			get
 			{
 				if (mobjExecuteSQLMethods == null)
 				{
-					mobjExecuteSQLMethods = new SingleCallMethodStore<StorageEventArgs>();
+					mobjExecuteSQLMethods = new SingleCallMethodStore<EventArgs>();
 				}
 				return mobjExecuteSQLMethods;
 			}
@@ -152,13 +152,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the clear local storage methods.
 		/// </summary>
-		internal SingleCallMethodStore<StorageEventArgs> ClearLocalStorageMethods
+		internal SingleCallMethodStore<EventArgs> ClearLocalStorageMethods
 		{
 			get
 			{
 				if (mobjClearLocalStorageMethods == null)
 				{
-					mobjClearLocalStorageMethods = new SingleCallMethodStore<StorageEventArgs>();
+					mobjClearLocalStorageMethods = new SingleCallMethodStore<EventArgs>();
 				}
 				return mobjClearLocalStorageMethods;
 			}
@@ -167,13 +167,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the set local storage item methods store.
 		/// </summary>
-		internal SingleCallMethodStore<StorageEventArgs> SetLocalStorageItemMethods
+		internal SingleCallMethodStore<EventArgs> SetLocalStorageItemMethods
 		{
 			get
 			{
 				if (mobjSetLocalStorageItemMethods == null)
 				{
-					mobjSetLocalStorageItemMethods = new SingleCallMethodStore<StorageEventArgs>();
+					mobjSetLocalStorageItemMethods = new SingleCallMethodStore<EventArgs>();
 				}
 				return mobjSetLocalStorageItemMethods;
 			}
@@ -182,13 +182,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the get local storage item methods store.
 		/// </summary>
-		internal SingleCallMethodStore<StorageEventArgs> GetLocalStorageItemMethods
+		internal SingleCallMethodStore<EventArgs> GetLocalStorageItemMethods
 		{
 			get
 			{
 				if (mobjGetLocalStorageItemMethods == null)
 				{
-					mobjGetLocalStorageItemMethods = new SingleCallMethodStore<StorageEventArgs>();
+					mobjGetLocalStorageItemMethods = new SingleCallMethodStore<EventArgs>();
 				}
 				return mobjGetLocalStorageItemMethods;
 			}
@@ -197,13 +197,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the get local storage key methods store.
 		/// </summary>
-		internal SingleCallMethodStore<StorageEventArgs> GetLocalStorageKeyMethods
+		internal SingleCallMethodStore<EventArgs> GetLocalStorageKeyMethods
 		{
 			get
 			{
 				if (mobjGetLocalStorageKeyMethods == null)
 				{
-					mobjGetLocalStorageKeyMethods = new SingleCallMethodStore<StorageEventArgs>();
+					mobjGetLocalStorageKeyMethods = new SingleCallMethodStore<EventArgs>();
 				}
 				return mobjGetLocalStorageKeyMethods;
 			}
@@ -212,13 +212,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the remove local storage item methods store.
 		/// </summary>
-		internal SingleCallMethodStore<StorageEventArgs> RemoveLocalStorageItemMethods
+		internal SingleCallMethodStore<EventArgs> RemoveLocalStorageItemMethods
 		{
 			get
 			{
 				if (mobjRemoveLocalStorageItemMethods == null)
 				{
-					mobjRemoveLocalStorageItemMethods = new SingleCallMethodStore<StorageEventArgs>();
+					mobjRemoveLocalStorageItemMethods = new SingleCallMethodStore<EventArgs>();
 				}
 				return mobjRemoveLocalStorageItemMethods;
 			}

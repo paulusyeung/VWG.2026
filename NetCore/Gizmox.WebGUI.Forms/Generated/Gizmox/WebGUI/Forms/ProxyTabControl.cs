@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Proxy TabControl
 	/// </summary>
 	[Serializable]
@@ -287,7 +287,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			if (strPropertyName == "TabPages")
 			{
-				List<object> list = new List<object>();
+				List<object> list = new List<object><object>();
 				foreach (ProxyTabPage item2 in (IEnumerable)TabPages)
 				{
 					if (item2.SourceComponent is TabPage item)

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.PropertyGrid.PropertyValueChanging"></see> event of a <see cref="T:Gizmox.WebGUI.Forms.PropertyGrid"></see>.</summary>
+/// Provides data for the <see cref="E:Gizmox.WebGUI.Forms.PropertyGrid.PropertyValueChanging"></see> event of a <see cref="T:Gizmox.WebGUI.Forms.PropertyGrid"></see>.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[ComVisible(true)]

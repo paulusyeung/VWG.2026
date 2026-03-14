@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Represents CustomFilterApplied event arguments.
 	/// </summary>
 	[Serializable]

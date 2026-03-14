@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Hosts a collection of <see cref="T:Gizmox.WebGUI.Forms.DataGridViewCheckBoxCell"></see> objects.</summary>
+/// Hosts a collection of <see cref="T:Gizmox.WebGUI.Forms.DataGridViewCheckBoxCell"></see> objects.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[ToolboxBitmap(typeof(DataGridViewCheckBoxColumn), "DataGridViewCheckBoxColumn.bmp")]

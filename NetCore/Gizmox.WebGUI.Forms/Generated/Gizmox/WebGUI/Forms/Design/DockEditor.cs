@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.Design
 {
-	/// 
+/// 
 	/// Provides a user interface for specifying a Dock property.
 	/// </summary>
 	[Serializable]

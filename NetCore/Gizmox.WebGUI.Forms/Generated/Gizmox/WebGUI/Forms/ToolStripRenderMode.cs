@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the painting style applied to one <see cref="T:Gizmox.WebGUI.Forms.ToolStrip"></see> contained in a form.</summary> 
+/// Specifies the painting style applied to one <see cref="T:Gizmox.WebGUI.Forms.ToolStrip"></see> contained in a form.</summary> 
 	/// 2</filterpriority>
 	public enum ToolStripRenderMode
 	{

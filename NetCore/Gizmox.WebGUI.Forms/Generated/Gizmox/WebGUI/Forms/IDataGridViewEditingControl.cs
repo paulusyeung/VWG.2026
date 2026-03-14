@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Defines common functionality for controls that are hosted within cells of a <see cref="T:Gizmox.WebGUI.Forms.DataGridView"></see>.
 	/// </summary>
 	public interface IDataGridViewEditingControl

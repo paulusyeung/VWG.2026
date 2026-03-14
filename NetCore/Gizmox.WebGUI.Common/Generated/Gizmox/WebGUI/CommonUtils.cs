@@ -247,9 +247,9 @@ namespace Gizmox.WebGUI
 						result = CodeGenDir;
 					}
 				}
-				else if (HttpContext.Current != null)
+				else if (VWGContext.Current?.HttpContext != null)
 				{
-					result = HttpContext.Current.Server.MapPath(string.Empty);
+					result = VWGContext.Current?.HttpContext.Server.MapPath(string.Empty);
 				}
 				return result;
 			}
@@ -303,7 +303,7 @@ namespace Gizmox.WebGUI
 		public static bool IsPermissionGranted(IPermission? objPermission)
 		{
 			if (objPermission == null) return true;
-			try { return !SecurityManager.IsGranted(objPermission); } catch (PlatformNotSupportedException) { return true; }
+			return true;
 		}
 
 		public static bool IsNullOrWhiteSpace(string strValue)
@@ -2470,9 +2470,9 @@ namespace Gizmox.WebGUI
 			{
 				binaryFormatter.Serialize(memoryStream, objValue);
 			}
-			catch (SerializationException ex)
+			catch (SerializationException)
 			{
-				throw ex;
+				throw;
 			}
 			finally
 			{
@@ -3094,7 +3094,7 @@ namespace Gizmox.WebGUI
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public static string GetClientKeyCode()
 		{
-			return (HttpContext.Current ?? throw new Exception("Valid Http Context required")).Request.Browser.Id;
+			return (VWGContext.Current?.HttpContext ?? throw new Exception("Valid Http Context required")).Request.Browser.Id;
 		}
 
 		public static string Encrypt(string strPlainText, string strEncryptionSaltKey, string strEncryptionVIKey, string strEncryptionPasswordHash)

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	[Serializable]
+[Serializable]
 	[ToolboxItem(false)]
 	internal class DockingWindowName
 	{
@@ -108,7 +108,7 @@ namespace Gizmox.WebGUI.Forms
 		///
 		/// </summary>
 		[Serializable]
-		private class DockedWindowNameComparer : IEqualityComparer
+		private class DockedWindowNameComparer : IEqualityComparer<DockingWindowName>
 		{
 			/// 
 			/// Determines whether the specified objects are equal.
@@ -147,7 +147,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the docked window name equlity comparer.
 		/// </summary>
-		internal static IEqualityComparer DockedWindowNameEqulityComparer
+		internal static IEqualityComparer<DockingWindowName> DockedWindowNameEqulityComparer
 		{
 			get
 			{

@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Represents the hosted combo box control in a <see cref="T:System.Windows.Forms.DataGridViewComboBoxCell"></see>.</summary>
+/// Represents the hosted combo box control in a <see cref="T:System.Windows.Forms.DataGridViewComboBoxCell"></see>.</summary>
 	/// 2</filterpriority>
 	[Serializable]
 	[ClassInterface(ClassInterfaceType.AutoDispatch)]

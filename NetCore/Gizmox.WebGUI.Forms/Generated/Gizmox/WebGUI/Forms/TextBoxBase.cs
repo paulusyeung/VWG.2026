@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Implements the basic functionality required by text controls.
 	/// </summary>    
 	[Serializable]

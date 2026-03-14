@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// 
+/// 
 	/// Implements the basic functionality required by a spin box (also known as an up-down control).
 	/// </summary>
 	/// 2</filterpriority>

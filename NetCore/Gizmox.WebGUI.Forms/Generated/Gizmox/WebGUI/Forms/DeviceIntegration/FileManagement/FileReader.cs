@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 {
-	/// 
+/// 
 	///
 	/// </summary>
 	[Serializable]
@@ -114,23 +114,23 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 
 		private ReaderReadyStateType menmReaderReadyStateType;
 
-		private EventHandler mobjAbortCallback;
+		private EventHandler<FileReaderEventArgs> mobjAbortCallback;
 
 		private KeyValuePair<string, object[]> mobjAbortClientCallbackData;
 
-		private EventHandler mobjErrorCallback;
+		private EventHandler<FileReaderEventArgs> mobjErrorCallback;
 
 		private KeyValuePair<string, object[]> mobjErrorClientCallbackData;
 
-		private EventHandler mobjLoadEndCallback;
+		private EventHandler<FileReaderEventArgs> mobjLoadEndCallback;
 
 		private KeyValuePair<string, object[]> mobjLoadEndClientCallbackData;
 
-		private EventHandler mobjLoadCallback;
+		private EventHandler<FileReaderEventArgs> mobjLoadCallback;
 
 		private KeyValuePair<string, object[]> mobjLoadClientCallbackData;
 
-		private EventHandler mobjLoadStartCallback;
+		private EventHandler<FileReaderEventArgs> mobjLoadStartCallback;
 
 		private KeyValuePair<string, object[]> mobjLoadStartClientCallbackData;
 
@@ -290,7 +290,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// Sets the abort event.
 		/// </summary>
 		/// <param name="objCallback">The obj callback.</param>
-		public void SetAbortEvent(EventHandler objCallback)
+		public void SetAbortEvent(EventHandler<FileReaderEventArgs> objCallback)
 		{
 			mobjAbortCallback = objCallback;
 		}

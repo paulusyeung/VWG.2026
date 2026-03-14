@@ -100,7 +100,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Gizmox.WebGUI.Forms
 {
-	/// Specifies the display and layout information for text strings.</summary>
+/// Specifies the display and layout information for text strings.</summary>
 	[Flags]
 	public enum TextFormatFlags
 	{
