@@ -1,0 +1,58 @@
+@page "/webforms-parity"
+
+<PageTitle>WebForms to Blazor Parity</PageTitle>
+
+<h1>WebForms → Blazor component parity guide</h1>
+
+<p>This page tracks and validates the Phase 3 port of common System.Web.UI control patterns into Blazor.</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Legacy WebForms control</th>
+            <th>Blazor equivalent</th>
+            <th>Status</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Label</td>
+            <td>&lt;Text&gt; or &lt;span&gt;</td>
+            <td>Done</td>
+            <td>Simple inline text binding with @@bind if editable.</td>
+        </tr>
+        <tr>
+            <td>TextBox</td>
+            <td>&lt;InputText&gt;</td>
+            <td>In progress</td>
+            <td>Support validation with EditForm + DataAnnotations.</td>
+        </tr>
+        <tr>
+            <td>Button</td>
+            <td>&lt;Button&gt; / &lt;MudBlazorButton&gt;</td>
+            <td>Done</td>
+            <td>Event callback is @@onclick.</td>
+        </tr>
+        <tr>
+            <td>GridView</td>
+            <td>Table + @@foreach or third-party grid</td>
+            <td>Pending</td>
+            <td>Requires pagination + sort logic ported from old code.
+            </td>
+        </tr>
+        <tr>
+            <td>DropDownList</td>
+            <td>&lt;InputSelect&gt;</td>
+            <td>In progress</td>
+            <td>Map Items collection to IEnumerable.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>Next migration work items</h2>
+<ol>
+    <li>Implement a form-based login flow that mirrors `AdministrationLogonForm` behavior. <a href="/administration-logon">Try the pilot login page</a>.</li>
+    <li>Create a `VwgFormBase` component to encapsulate common styling and header/footer from existing app templates.</li>
+    <li>Write Playwright tests for login → dashboard flow and basic DataGrid scenario.</li>
+</ol>

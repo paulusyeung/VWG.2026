@@ -1,0 +1,122 @@
+@page "/administration-logon"
+@using Microsoft.AspNetCore.WebUtilities
+@inject NavigationManager NavigationManager
+@inject AdministrationLogonService LogonService
+
+<PageTitle>Administration Logon</PageTitle>
+
+<VwgFormBase>
+    <h1>Administration Logon</h1>
+
+    @if (IsLoggedIn)
+    {
+        <div class="alert alert-success">Logged in as <strong>@Credentials.Username</strong>.</div>
+        <p><a class="btn btn-primary" href="/">Return to home</a></p>
+    }
+    else
+    {
+        <EditForm Model="Credentials" OnValidSubmit="OnSubmit">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="mb-3">
+                <label class="form-label" for="username">Username</label>
+                <InputText id="username" class="form-control" @bind-Value="Credentials.Username" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label" for="password">Password</label>
+                <InputText id="password" type="password" class="form-control" @bind-Value="Credentials.Password" />
+            </div>
+
+            <p class="text-muted">Use user <strong>admin</strong> / password <strong>vwg1234</strong> (from appsettings.json)</p>
+
+            <button type="submit" class="btn btn-primary">Log in</button>
+            <button type="button" class="btn btn-secondary ms-2" @onclick="GenerateToken">Generate temporary token</button>
+        </EditForm>
+
+        @if (ErrorMessage is not null)
+        {
+            <div class="alert alert-danger mt-3">@ErrorMessage</div>
+        }
+
+        @if (TokenValue is not null)
+        {
+            <div class="alert alert-info mt-3">
+                Token: <code>@TokenValue</code><br />
+                <a href="@($"/administration-logon?token={Uri.EscapeDataString(TokenValue)}")">Use this token to log in</a>
+            </div>
+        }
+    }
+</VwgFormBase>
+
+@code {
+    private LogonModel Credentials { get; set; } = new LogonModel();
+
+    private bool IsLoggedIn { get; set; }
+    private string? ErrorMessage { get; set; }
+    private string? TokenValue { get; set; }
+
+    private (string Username, string Password) CredentialsBackup = ("", "");
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        var uri = NavigationManager.ToAbsoluteUri(NavigationManager.Uri);
+        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("token", out var token))
+        {
+            if (LogonService.TryGetToken(token, out var credentials))
+            {
+                if (credentials != null && LogonService.ValidateCredentials(credentials.Value.Username, credentials.Value.Password))
+                {
+                    Credentials.Username = credentials.Value.Username;
+                    Credentials.Password = credentials.Value.Password;
+                    IsLoggedIn = true;
+                    return;
+                }
+            }
+
+            ErrorMessage = "Token is invalid or expired.";
+        }
+    }
+
+    private Task OnSubmit()
+    {
+        ErrorMessage = null;
+        TokenValue = null;
+
+        if (LogonService.ValidateCredentials(Credentials.Username, Credentials.Password))
+        {
+            IsLoggedIn = true;
+        }
+        else
+        {
+            ErrorMessage = "Invalid username or password.";
+        }
+
+        return Task.CompletedTask;
+    }
+
+    private void GenerateToken()
+    {
+        if (LogonService.ValidateCredentials(Credentials.Username, Credentials.Password))
+        {
+            TokenValue = LogonService.CreateToken(Credentials.Username, Credentials.Password);
+            ErrorMessage = null;
+        }
+        else
+        {
+            ErrorMessage = "Cannot generate token. Invalid credentials.";
+        }
+    }
+
+    private sealed class LogonModel
+    {
+        [Required]
+        public string Username { get; set; } = string.Empty;
+
+        [Required]
+        public string Password { get; set; } = string.Empty;
+    }
+}

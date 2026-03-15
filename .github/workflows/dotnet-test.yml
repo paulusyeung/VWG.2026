@@ -1,0 +1,67 @@
+name: ".NET 8 Build & Test"
+
+on:
+  push:
+    branches: [main, master, develop]
+  pull_request:
+    branches: [main, master, develop]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET 8 SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore solutions
+        run: |
+          dotnet restore "NetCore/Gizmox.WebGUI.BlazorPilot.sln"
+
+      - name: Build solutions
+        run: |
+          dotnet build "NetCore/Gizmox.WebGUI.BlazorPilot.sln" --configuration Release --no-restore
+
+      - name: Check code formatting
+        run: |
+          dotnet tool restore
+          dotnet format --verify-no-changes
+
+      - name: Check vulnerable packages
+        run: |
+          dotnet list "NetCore/Gizmox.WebGUI.BlazorPilot.sln" package --vulnerable
+
+      - name: Install Playwright and browser binaries
+        shell: pwsh
+        run: |
+          dotnet tool install --global Microsoft.Playwright.CLI --version 1.58.0 || true
+          $env:PATH = "$env:USERPROFILE\.dotnet\tools;" + $env:PATH
+          playwright install --with-deps
+
+      - name: Run Common tests with coverage and threshold
+        run: |
+          dotnet test "NetCore/Gizmox.WebGUI.Common.Tests/Gizmox.WebGUI.Common.Tests.csproj" --configuration Release --no-build --collect:"XPlat Code Coverage" /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput="coverage-common.opencover.xml" /p:Threshold=60 /p:ThresholdType=line /p:ThresholdStat=total
+
+      - name: Run BlazorPilot tests with coverage and threshold
+        run: |
+          dotnet test "NetCore/Gizmox.WebGUI.BlazorPilot.Tests/Gizmox.WebGUI.BlazorPilot.Tests.csproj" --configuration Release --no-build --collect:"XPlat Code Coverage" /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput="coverage-blazorpilot.opencover.xml" /p:Threshold=60 /p:ThresholdType=line /p:ThresholdStat=total
+
+      - name: Install ReportGenerator tool
+        run: |
+          dotnet tool install --global dotnet-reportgenerator-globaltool --version 5.1.20
+          $env:PATH = "$env:USERPROFILE\.dotnet\tools;" + $env:PATH
+
+      - name: Generate coverage report
+        run: |
+          reportgenerator -reports:coverage-common.opencover.xml;coverage-blazorpilot.opencover.xml -targetdir:coverage-report -reporttypes:HtmlInline_AzurePipelines;TextSummary
+
+      - name: Upload coverage artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: coverage-report
+          path: coverage-report

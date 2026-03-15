@@ -1,0 +1,22 @@
+@namespace Gizmox.WebGUI.BlazorPilot.Shared
+
+<div class="vwg-form-base container mt-5" style="max-width:790px;">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h2 class="h5 mb-0">VWG Form Container</h2>
+            <p class="small mb-0">This wrapper imitates a common WebForms administration form shell.</p>
+        </div>
+        <div class="card-body">
+            @ChildContent
+        </div>
+        <div class="card-footer text-muted d-flex justify-content-between">
+            <span>Phase 3 UI migration pilot</span>
+            <span>@DateTime.UtcNow.ToString("yyyy-MM-dd")</span>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+}

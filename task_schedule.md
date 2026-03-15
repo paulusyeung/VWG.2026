@@ -67,6 +67,7 @@ This document outlines a phased schedule of tasks to continue the migration proj
 1. **Select final UI framework** *(2 weeks to evaluate/prototype)*
    - Blazor Server, Blazor WebAssembly, or Razor Pages+MVC.
    - Start with a small pilot page to prove the chosen stack.
+   - Pilot created in `NetCore/Gizmox.WebGUI.BlazorPilot` and now building on .NET 8.
 2. **Incrementally port/replace WebForms controls** *(6–8 weeks ongoing)*
    - Build modern equivalents for frequently used controls.
    - Maintain feature parity and reuse existing logic where possible.
@@ -104,6 +105,8 @@ This document outlines a phased schedule of tasks to continue the migration proj
    - Evaluate any third‑party dependency lifecycles.
 
 *Outcome:* Production‑ready .NET 8 platform with clear deployment workflow and documentation. Ready for go‑live before November 2026.
+
+*Status:* In progress (March 2026): implemented GitHub Actions pipeline + Playwright browser install; Playwright e2e tests are skip-guarded for missing browser installation; coverage collector added.
 
 ---
 
