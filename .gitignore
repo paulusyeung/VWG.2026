@@ -1,3 +1,4 @@
 # ignore all bin and ibj folders
 **/bin/
 **/obj/
+**/*.log/
