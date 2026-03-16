@@ -44,6 +44,11 @@ namespace Gizmox.WebGUI.Client
 {
 	internal class GatewayRequest : HttpWorkerRequest
 	{
+		public override string GetFilePath()
+		{
+			return "/gateway.aspx";
+		}
+
 		public override string GetUriPath()
 		{
 			return null;
@@ -54,7 +59,7 @@ namespace Gizmox.WebGUI.Client
 			return "";
 		}
 
-		public override string GetRawUrl()
+		public string GetRawUrl()
 		{
 			return "http://clientgateway.com/gateway.aspx";
 		}

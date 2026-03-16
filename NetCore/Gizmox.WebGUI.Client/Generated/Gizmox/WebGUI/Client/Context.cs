@@ -44,7 +44,7 @@ namespace Gizmox.WebGUI.Client
 {
 	internal class Context : IContext, INonSerializable, IContextTerminate, IContextMethodInvoker, ITimerHandlerContainer, IContextServices, IContextNotifications, IContextResources, IClinetDesignContext, IContextParams, IContextCommonDialogHandler, IClientDesignServices, ISessionRegistry
 	{
-		private ReadOnlyCollection<object> marrAvailableThemes;
+		private ReadOnlyCollection<string> marrAvailableThemes;
 
 		private object mobjHttpContext = null;
 
@@ -314,18 +314,18 @@ namespace Gizmox.WebGUI.Client
 			}
 		}
 
-		public ReadOnlyCollection<object> AvailableThemes
+		public ReadOnlyCollection<string> AvailableThemes
 		{
 			get
 			{
 				if (marrAvailableThemes == null)
 				{
-					List<object> list = new List();
+					List<string> list = new List<string>();
 					foreach (string availableTheme in Config.GetInstance().AvailableThemes)
 					{
 						list.Add(availableTheme);
 					}
-					marrAvailableThemes = new ReadOnlyCollection(list);
+					marrAvailableThemes = new ReadOnlyCollection<string>(list);
 				}
 				return marrAvailableThemes;
 			}
@@ -431,7 +431,7 @@ namespace Gizmox.WebGUI.Client
 
 		string IContextParams.CurrentPageName => null;
 
-		ICollection<object> IContextParams.SystemPages => null;
+		ICollection<string> IContextParams.SystemPages => null;
 
 		ITimerHandler ITimerHandlerContainer.Timers => null;
 
@@ -915,13 +915,14 @@ namespace Gizmox.WebGUI.Client
 			{
 				if (objGatewayResourceHandle.Component is IGatewayControl gatewayControl)
 				{
-					HttpWorkerRequest wr = new GatewayRequest();
-					HttpContext.Current = new HttpContext(wr);
-					GatewayStream gatewayStream = new GatewayStream(HttpContext.Current.Response.Filter);
-					HttpContext.Current.Response.Filter = gatewayStream;
+					HttpResponse response = new HttpResponse
+					{
+						Filter = new MemoryStream()
+					};
+					GatewayStream gatewayStream = new GatewayStream(response.Filter);
+					response.Filter = gatewayStream;
 					gatewayControl.GetGatewayHandler(this, objGatewayResourceHandle.Action)?.ProcessGatewayRequest(this, objGatewayResourceHandle.Component);
-					HttpContext.Current.Response.Flush();
-					HttpContext.Current = null;
+					response.Flush();
 					gatewayStream.Position = 0L;
 					return gatewayStream;
 				}
@@ -1025,7 +1026,7 @@ namespace Gizmox.WebGUI.Client
 			return FormAccessMode.FullControl;
 		}
 
-		IForm IContext.CreateForm(params object[] arrArguments)
+		IForm IContext.CreateForm<T>(params object[] arrArguments)
 		{
 			return null;
 		}

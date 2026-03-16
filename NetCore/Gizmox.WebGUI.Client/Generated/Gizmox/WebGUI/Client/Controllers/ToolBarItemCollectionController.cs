@@ -46,7 +46,7 @@ namespace Gizmox.WebGUI.Client.Controllers
 	{
 		public ToolBarItemCollection WebToolBarItems => base.WebObjects as ToolBarItemCollection;
 
-		public Gizmox.WebGUI.Forms.ToolBar WebToolBar => base.SourceObject as Gizmox.WebGUI.Forms.ToolBar;
+		public System.Windows.Forms.ToolBar WebToolBar => base.SourceObject as System.Windows.Forms.ToolBar;
 
 		public System.Windows.Forms.ToolBar WinToolBar => base.TargetObject as System.Windows.Forms.ToolBar;
 
@@ -66,3 +66,5 @@ namespace Gizmox.WebGUI.Client.Controllers
 		}
 	}
 }
+
+

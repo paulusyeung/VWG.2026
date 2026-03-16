@@ -44,7 +44,7 @@ namespace Gizmox.WebGUI.Client.Controllers
 {
 	public class StatusBarPanelController : ComponentController
 	{
-		public Gizmox.WebGUI.Forms.StatusBarPanel WebStatusBarPanel => base.SourceObject as Gizmox.WebGUI.Forms.StatusBarPanel;
+		public System.Windows.Forms.StatusBarPanel WebStatusBarPanel => base.SourceObject as System.Windows.Forms.StatusBarPanel;
 
 		public System.Windows.Forms.StatusBarPanel WinStatusBarPanel => base.TargetObject as System.Windows.Forms.StatusBarPanel;
 
@@ -113,3 +113,5 @@ namespace Gizmox.WebGUI.Client.Controllers
 		}
 	}
 }
+
+

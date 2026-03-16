@@ -329,7 +329,7 @@ namespace Gizmox.WebGUI.Client.Controllers
 				{
 					return new System.Windows.Forms.FlowLayoutPanel();
 				}
-				if (IsSubclassOf(type, typeof(Gizmox.WebGUI.Forms.ContextMenu)))
+				if (IsSubclassOf(type, typeof(System.Windows.Forms.ContextMenu)))
 				{
 					return new System.Windows.Forms.ContextMenu();
 				}
@@ -726,11 +726,11 @@ namespace Gizmox.WebGUI.Client.Controllers
 			{
 				return objectController;
 			}
-			if (objWebObject is Gizmox.WebGUI.Forms.ContextMenu)
+			if (objWebObject is System.Windows.Forms.ContextMenu)
 			{
 				return new ContextMenuController(objContext, objWebObject);
 			}
-			if (objWebObject is Gizmox.WebGUI.Forms.MainMenu)
+			if (objWebObject is System.Windows.Forms.MainMenu)
 			{
 				return new MainMenuController(objContext, objWebObject);
 			}
@@ -782,7 +782,7 @@ namespace Gizmox.WebGUI.Client.Controllers
 			{
 				return new FlowLayoutPanelController(objContext, objWebObject);
 			}
-			if (objWebObject is Gizmox.WebGUI.Forms.ToolBar)
+			if (objWebObject is System.Windows.Forms.ToolBar)
 			{
 				return new ToolBarController(objContext, objWebObject);
 			}
@@ -1147,3 +1147,5 @@ namespace Gizmox.WebGUI.Client.Controllers
 		}
 	}
 }
+
+

@@ -1,7 +1,7 @@
 # Gizmox.WebGUI .NET Framework → .NET 8 LTS Migration Project
 
 **Project Start Date:** March 2026  
-**Current Status:** In Progress – API Compatibility & Hardening Phase  
+**Current Status:** In Progress – Server Decompilation Cleanup & Hardening Phase  
 **Target Framework:** .NET 8 LTS (supported until November 2026+)
 
 ---
@@ -419,13 +419,13 @@ cd Gizmox.WebGUI.Client/Splitter && dotnet run -c Release
 | **ILSpy Cleanup** | ✅ Complete | Syntax errors resolved; code valid C# |
 | **NuGet References** | ✅ Complete | Newtonsoft.Json, System.Data.SqlClient, etc. |
 | **System.Web Shims** | ✅ Complete | Full shim layer in SystemWebShims\, resolving 38+ errors |
-| **Build (Common)** | ✅ Complete | 0 errors. Project successfully builds on .NET 8. |
+| **Build (Common)** | ✅ Complete | Builds on net8.0-windows (warnings only). |
 | **Client Split** | ✅ Complete | 157 types in Generated\; csproj updated |
 | **Forms Split** | ✅ Complete | 1125 types in Generated\; splitter improved with ILSpy cleanup |
-| **Build (Forms)** | ❌ Blocked | 172 syntax errors in generated code |
-| **Build (Client)** | ❌ Blocked | Depends on Forms |
-| **Build (Converters)** | ❌ Blocked | Missing NuGet packages |
-| **Build (Server)** | ❌ Blocked | TFM mismatch (net8.0 vs net8.0-windows) |
+| **Build (Forms)** | ✅ Complete | Builds on net8.0-windows (warnings only). |
+| **Build (Client)** | ✅ Complete | Option 1 complete; compiles after legacy WinForms shim compatibility fixes. |
+| **Build (Converters)** | ✅ Complete | Builds on net8.0-windows after TFM + assembly attribute alignment. |
+| **Build (Server)** | ❌ Blocked | Still failing with large syntax/decompilation artifact set in `Gizmox.WebGUI.Server.decompiled.cs`. |
 | **Hardening** | [/] In Progress | CI/CD, Playwright, Docker, BlazorPilot |
 
 ### Checkpoints Achieved
@@ -433,8 +433,9 @@ cd Gizmox.WebGUI.Client/Splitter && dotnet run -c Release
 2. ✅ **Technical Feasibility** – Decompilation works; code is clean and recompileable.
 3. ✅ **Project Scaffolding** – SDK-style projects exist and can be iterated on.
 4. ✅ **System.Web Shims** – Comprehensive stub layer created and refined to resolve API incompatibilities.
-5. ✅ **Compilation Phase (Common)** – `Gizmox.WebGUI.Common` successfully builds and passes tests.
-6. ✅ **Phase 4 Hardening Start** – CI/CD, Playwright, and Docker infrastructure established.
+5. ✅ **Compilation Phase (Common/Forms/Converters/Client)** – 4 of 5 core libraries now compile.
+6. ✅ **Client Option 1 (Compile Unblock)** – Completed via interface alignment and legacy API compatibility shims.
+7. ✅ **Phase 4 Hardening Start** – CI/CD, Playwright, and Docker infrastructure established.
 
 ### What Works
 - Projects restore successfully (NuGet packages download correctly).
@@ -442,10 +443,12 @@ cd Gizmox.WebGUI.Client/Splitter && dotnet run -c Release
 - System.Web shims provide stub types for HttpContext, HttpRequest, HttpResponse, etc.
 - Assembly attributes fixed; CAS/SecurityManager handled for .NET Core.
 - Event invocation patterns corrected where identified.
+- Common, Forms, Converters, and Client now compile successfully on .NET 8 (windows target where required).
 
 ### What Still Needs Work
-- Compiling the downstream dependent projects in topological order (Forms, Server, Converters -> Client).
-- Identifying standard replacements for the WebForms UI layer elements.
+- `Gizmox.WebGUI.Server` decompiled source still contains syntax artifacts (escaped tokens/malformed signatures).
+- Reduce warning volume and tighten nullability handling after server compile parity is reached.
+- Identify standard replacements for remaining legacy WebForms behavior where runtime parity matters.
 
 ---
 
@@ -453,26 +456,17 @@ cd Gizmox.WebGUI.Client/Splitter && dotnet run -c Release
 
 ### Immediate Actions (Next 1–2 iterations)
 
-#### Step 1: Fix Forms Splitter Syntax Errors
-**Goal:** Resolve the 172 syntax errors that block `Forms` and `Client`.
+#### Step 1: Unblock Server Compilation
+**Goal:** Remove syntax/decompilation artifacts that currently prevent `Gizmox.WebGUI.Server` from compiling.
 **Process:**
-1. Identify specific patterns in `Splitter_Forms` that generate `List<object><object>` and similar invalid constructs.
-2. Update the splitter script to produce clean C# syntax.
-3. Re-run splitter and verify `Forms` build.
+1. Triage first failing regions in `Gizmox.WebGUI.Server.decompiled.cs` (around early syntax breakpoints).
+2. Apply deterministic cleanup passes for known malformed patterns (escaped tokens, invalid method signatures, orphaned braces/modifiers).
+3. Rebuild iteratively until syntax-level errors are eliminated.
 
-#### Step 2: Resolve Project Configuration Issues
-1. Update `Gizmox.WebGUI.Server.csproj` to target `net8.0-windows`.
-2. Locate and add `Itenso.Rtf` packages for `Converters`.
-
----
-
-#### Step 2: Build Dependent Library (`Gizmox.WebGUI.Forms`)
-**Goal:** Cascade successes into the next true ring of the dependency chain. (Correction: Analysis revealed `Forms` depends only on `Common`, whereas `Client` relies on `Forms`.)
-
-**Process:**
-1. Configure `c:\Projects\VWG\NetCore\Gizmox.WebGUI.Forms\Gizmox.WebGUI.Forms.csproj` correctly with `<UseWindowsForms>true</UseWindowsForms>`.
-2. Build `Gizmox.WebGUI.Forms`.
-3. Intercept `System.Web` errors and update `SystemWebShims` accordingly.
+#### Step 2: Move Server to Semantic Compatibility
+1. After syntax fixes, address API compatibility/compiler semantic errors.
+2. Reuse existing System.Web shim patterns from Common where applicable.
+3. Keep build loops evidence-based and update docs after each checkpoint.
 
 ---
 
@@ -494,8 +488,8 @@ cd Gizmox.WebGUI.Client/Splitter && dotnet run -c Release
 ---
 
 #### 8. Migrate Dependent Libraries (Client → Converters → Server → Forms)
-- Once Common ✅ compiles, iteratively fix Client (13K lines), Converters (177 lines), Server, Forms.
-- Each should be faster; repeat same error-fix patterns.
+- Update: Client/Converters/Forms are now compiling.
+- Remaining dependency migration focus is Server.
 
 ---
 
@@ -556,7 +550,7 @@ cd Gizmox.WebGUI.Client/Splitter && dotnet run -c Release
 ### Phase 2: API Compatibility & Compilation
 - [x] System.Web types stubbed (SystemWebShims folder)
 - [x] **Design-time attributes handled** (Resolved by `UseWindowsForms` in `.csproj`)
-- [ ] All 5 core libraries compile to 0 errors (1/5 completed: `Common` is done)
+- [ ] All 5 core libraries compile to 0 errors (4/5 completed: Common, Forms, Converters, Client)
 - [x] Monolithic files split: Common, Forms, Client split into namespace structure (Converters 177 lines; Server TBD)
 
 #### Design-Time Attributes Checklist

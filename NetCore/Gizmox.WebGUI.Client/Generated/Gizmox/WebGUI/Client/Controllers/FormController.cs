@@ -330,14 +330,16 @@ namespace Gizmox.WebGUI.Client.Controllers
 
 		protected virtual void SetWinFormMainMenu()
 		{
-			Gizmox.WebGUI.Forms.MainMenu menu = WebForm.Menu;
+			object menu = WebForm.Menu;
 			if (menu != null)
 			{
 				System.Windows.Forms.MainMenu mainMenu = new System.Windows.Forms.MainMenu();
-				WinForm.Menu = mainMenu;
+				mainMenu.Form = WinForm;
 				mobjMainMenuController = new MainMenuController(base.Context, menu, mainMenu);
 				mobjMainMenuController.Initialize();
 			}
 		}
 	}
 }
+
+

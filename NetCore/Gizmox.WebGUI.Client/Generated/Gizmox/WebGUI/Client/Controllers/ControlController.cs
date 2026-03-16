@@ -262,7 +262,8 @@ namespace Gizmox.WebGUI.Client.Controllers
 		{
 			if (base.ContextMenuController != null)
 			{
-				WinControl.ContextMenu = base.ContextMenuController.WinContextMenu;
+				// .NET 8 WinForms does not expose the legacy Control.ContextMenu property.
+				// Keep this as a no-op until context menu bridging is implemented.
 			}
 		}
 

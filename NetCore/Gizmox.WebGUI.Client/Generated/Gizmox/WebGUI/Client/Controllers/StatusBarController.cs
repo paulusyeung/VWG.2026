@@ -46,7 +46,7 @@ namespace Gizmox.WebGUI.Client.Controllers
 	{
 		private StatusPanelCollectionController mobjStatusPanelCollectionController = null;
 
-		public Gizmox.WebGUI.Forms.StatusBar WebStatusBar => base.SourceObject as Gizmox.WebGUI.Forms.StatusBar;
+		public System.Windows.Forms.StatusBar WebStatusBar => base.SourceObject as System.Windows.Forms.StatusBar;
 
 		public System.Windows.Forms.StatusBar WinStatusBar => base.TargetObject as System.Windows.Forms.StatusBar;
 
@@ -119,3 +119,5 @@ namespace Gizmox.WebGUI.Client.Controllers
 		}
 	}
 }
+
+

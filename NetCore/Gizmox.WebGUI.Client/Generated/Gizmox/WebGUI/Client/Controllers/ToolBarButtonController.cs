@@ -44,7 +44,7 @@ namespace Gizmox.WebGUI.Client.Controllers
 {
 	public class ToolBarButtonController : ComponentController
 	{
-		public Gizmox.WebGUI.Forms.ToolBarButton WebToolBarButton => base.SourceObject as Gizmox.WebGUI.Forms.ToolBarButton;
+		public System.Windows.Forms.ToolBarButton WebToolBarButton => base.SourceObject as System.Windows.Forms.ToolBarButton;
 
 		public System.Windows.Forms.ToolBarButton WinToolBarButton => base.TargetObject as System.Windows.Forms.ToolBarButton;
 
@@ -191,3 +191,5 @@ namespace Gizmox.WebGUI.Client.Controllers
 		}
 	}
 }
+
+

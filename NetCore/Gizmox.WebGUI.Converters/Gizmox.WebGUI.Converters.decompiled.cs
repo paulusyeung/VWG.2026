@@ -14,22 +14,6 @@ using Itenso.Rtf.Converter.Html;
 using Itenso.Rtf.Converter.Image;
 using Itenso.Rtf.Support;
 
-[assembly: CompilationRelaxations(8)]
-[assembly: RuntimeCompatibility(WrapNonExceptionThrows = true)]
-[assembly: Debuggable(DebuggableAttribute.DebuggingModes.Default | DebuggableAttribute.DebuggingModes.DisableOptimizations | DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints | DebuggableAttribute.DebuggingModes.EnableEditAndContinue)]
-[assembly: AssemblyTitle("Gizmox.WebGUI.Converters.dll")]
-[assembly: AssemblyDescription("Gizmox.WebGUI.Converters.dll")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Gizmox")]
-[assembly: AssemblyProduct("Gizmox© Visual WebGUI")]
-[assembly: AssemblyCopyright("© Gizmox")]
-[assembly: AssemblyTrademark("")]
-[assembly: ComVisible(false)]
-[assembly: Guid("31aa3703-1cd0-4969-913e-7bf69533f804")]
-[assembly: SecurityRules(SecurityRuleSet.Level1)]
-[assembly: AssemblyFileVersion("1.0.*")]
-[assembly: TargetFramework(".NETFramework,Version=v4.5.2", FrameworkDisplayName = ".NET Framework 4.5.2")]
-[assembly: AssemblyVersion("4.5.25701.0")]
 namespace Gizmox.WebGUI.Converters.Itenso;
 
 public class FormatConverter : IFormatConverter

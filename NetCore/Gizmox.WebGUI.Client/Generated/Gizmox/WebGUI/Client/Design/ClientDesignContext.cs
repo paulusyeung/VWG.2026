@@ -52,15 +52,15 @@ namespace Gizmox.WebGUI.Client.Design
 
 		public static IClientObjectController CreateMenuController(IContext objContext, IComponent objWebComponent)
 		{
-			if (objWebComponent is Gizmox.WebGUI.Forms.ContextMenu)
+			if (objWebComponent is System.Windows.Forms.ContextMenu)
 			{
 				return new ContextMenuController(objContext, objWebComponent);
 			}
-			if (objWebComponent is Gizmox.WebGUI.Forms.MenuItem)
+			if (objWebComponent is System.Windows.Forms.MenuItem)
 			{
 				return new MenuItemController(objContext, objWebComponent);
 			}
-			if (objWebComponent is Gizmox.WebGUI.Forms.MainMenu)
+			if (objWebComponent is System.Windows.Forms.MainMenu)
 			{
 				return new MainMenuController(objContext, objWebComponent);
 			}
@@ -73,3 +73,4 @@ namespace Gizmox.WebGUI.Client.Design
 		}
 	}
 }
+

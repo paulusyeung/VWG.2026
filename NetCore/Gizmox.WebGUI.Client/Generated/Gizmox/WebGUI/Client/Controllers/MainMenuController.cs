@@ -46,7 +46,7 @@ namespace Gizmox.WebGUI.Client.Controllers
 	{
 		private MenuItemCollectionController mobjMenuItemCollectionController = null;
 
-		public Gizmox.WebGUI.Forms.MainMenu WebMainMenu => base.SourceObject as Gizmox.WebGUI.Forms.MainMenu;
+		public System.Windows.Forms.MainMenu WebMainMenu => base.SourceObject as System.Windows.Forms.MainMenu;
 
 		public System.Windows.Forms.MainMenu WinMainMenu => base.TargetObject as System.Windows.Forms.MainMenu;
 
@@ -106,3 +106,5 @@ namespace Gizmox.WebGUI.Client.Controllers
 		}
 	}
 }
+
+

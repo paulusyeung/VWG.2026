@@ -46,7 +46,7 @@ namespace Gizmox.WebGUI.Client.Controllers
 	{
 		private MenuItemCollectionController mobjMenuItemCollectionController = null;
 
-		public Gizmox.WebGUI.Forms.MenuItem WebMenuItem => base.SourceObject as Gizmox.WebGUI.Forms.MenuItem;
+		public System.Windows.Forms.MenuItem WebMenuItem => base.SourceObject as System.Windows.Forms.MenuItem;
 
 		public System.Windows.Forms.MenuItem WinMenuItem => base.TargetObject as System.Windows.Forms.MenuItem;
 
@@ -192,11 +192,11 @@ namespace Gizmox.WebGUI.Client.Controllers
 			}
 		}
 
-		private object GetParentOwner(Gizmox.WebGUI.Forms.MenuItem objMenu)
+		private object GetParentOwner(System.Windows.Forms.MenuItem objMenu)
 		{
 			if (objMenu.Parent != null)
 			{
-				if (objMenu.Parent is Gizmox.WebGUI.Forms.ContextMenu)
+				if (objMenu.Parent is System.Windows.Forms.ContextMenu)
 				{
 					if (GetControllerByWebObject(objMenu.Parent) is ContextMenuController contextMenuController && contextMenuController.GetTarget() != null)
 					{
@@ -204,9 +204,9 @@ namespace Gizmox.WebGUI.Client.Controllers
 					}
 					return objMenu.Parent.InternalParent;
 				}
-				if (objMenu.Parent is Gizmox.WebGUI.Forms.MenuItem)
+				if (objMenu.Parent is System.Windows.Forms.MenuItem)
 				{
-					return GetParentOwner((Gizmox.WebGUI.Forms.MenuItem)objMenu.Parent);
+					return GetParentOwner((System.Windows.Forms.MenuItem)objMenu.Parent);
 				}
 				return null;
 			}
@@ -249,3 +249,5 @@ namespace Gizmox.WebGUI.Client.Controllers
 		}
 	}
 }
+
+

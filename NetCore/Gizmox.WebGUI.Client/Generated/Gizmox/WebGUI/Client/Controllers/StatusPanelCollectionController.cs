@@ -44,11 +44,11 @@ namespace Gizmox.WebGUI.Client.Controllers
 {
 	public class StatusPanelCollectionController : ComponentCollectionController
 	{
-		public Gizmox.WebGUI.Forms.StatusBar.StatusBarPanelCollection WebStatusPanelItems => base.WebObjects as Gizmox.WebGUI.Forms.StatusBar.StatusBarPanelCollection;
+		public System.Windows.Forms.StatusBar.StatusBarPanelCollection WebStatusPanelItems => base.WebObjects as System.Windows.Forms.StatusBar.StatusBarPanelCollection;
 
 		public System.Windows.Forms.StatusBar.StatusBarPanelCollection WinStatusPanelItems => base.WebObjects as System.Windows.Forms.StatusBar.StatusBarPanelCollection;
 
-		public Gizmox.WebGUI.Forms.StatusBar WebStatusBar => base.SourceObject as Gizmox.WebGUI.Forms.StatusBar;
+		public System.Windows.Forms.StatusBar WebStatusBar => base.SourceObject as System.Windows.Forms.StatusBar;
 
 		public System.Windows.Forms.StatusBar WinStatusBar => base.TargetObject as System.Windows.Forms.StatusBar;
 
@@ -68,3 +68,5 @@ namespace Gizmox.WebGUI.Client.Controllers
 		}
 	}
 }
+
+

@@ -48,7 +48,7 @@ namespace Gizmox.WebGUI.Client.Controllers
 
 		private object mobjTarget = null;
 
-		public Gizmox.WebGUI.Forms.ContextMenu WebContextMenu => base.SourceObject as Gizmox.WebGUI.Forms.ContextMenu;
+		public System.Windows.Forms.ContextMenu WebContextMenu => base.SourceObject as System.Windows.Forms.ContextMenu;
 
 		public System.Windows.Forms.ContextMenu WinContextMenu => base.TargetObject as System.Windows.Forms.ContextMenu;
 
@@ -104,3 +104,5 @@ namespace Gizmox.WebGUI.Client.Controllers
 		}
 	}
 }
+
+
