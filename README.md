@@ -5,11 +5,12 @@
 1. Install .NET 8 SDK
 2. `cd c:\Projects\VWG`
 3. `dotnet test "NetCore\Gizmox.WebGUI.BlazorPilot\Gizmox.WebGUI.BlazorPilot.sln" --logger "console;verbosity=minimal"`
+4. `dotnet build "NetCore\Gizmox.WebGUI.Server\Gizmox.WebGUI.Server.csproj" -v minimal`
 
 ## Playwright
 
 - Run once:
-  - `pwsh NetCore\Gizmox.WebGUI.BlazorPilot.Tests\bin\Debug\net9.0\playwright.ps1 install`
+  - `pwsh NetCore\Gizmox.WebGUI.BlazorPilot.Tests\bin\Debug\net8.0\playwright.ps1 install`
 - Skip e2e in CI/local with:
   - `setx PLAYWRIGHT_SKIP true` (Windows)
   - `$env:PLAYWRIGHT_SKIP = "true"` (PowerShell)
@@ -28,7 +29,8 @@
 
 ## Phase 4 status
 
-- Testing: green
+- Core compile status: 5/5 libraries building (Common, Forms, Converters, Client, Server)
+- Testing: green for Common.Tests and BlazorPilot.Tests
 - Cycle gating: formatting and coverage thresholds active
 - Release: Docker image pipeline configured
 - Dependency automation: `.github/dependabot.yml` set weekly updates

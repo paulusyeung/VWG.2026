@@ -10,6 +10,11 @@ namespace System.Web.SessionState
 
     public enum SessionStateMode { Off, InProc, StateServer, SQLServer, Custom }
 
+    public sealed class HttpSessionStateContainer
+    {
+        public bool IsAbandoned { get; set; }
+    }
+
     public sealed class HttpSessionState
     {
         private readonly Hashtable _data = new();

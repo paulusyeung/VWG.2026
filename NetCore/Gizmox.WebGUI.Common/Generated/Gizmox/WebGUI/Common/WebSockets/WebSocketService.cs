@@ -149,7 +149,7 @@ namespace Gizmox.WebGUI.Common.WebSockets
 			Update();
 		}
 
-		internal void WebSocketInitialized()
+		public void WebSocketInitialized()
 		{
 			if (mobjWebSocketHandler == null)
 			{

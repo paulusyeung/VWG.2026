@@ -11,7 +11,7 @@ Complete the migration from .NET Framework 4.5.2 to .NET 8 for core libraries un
 3. Rebuild and retest immediately after each change.
 4. Update project tracking docs to reflect current, measured state.
 
-## Steps Executed (This Session)
+## Steps Executed (Current Checkpoint)
 
 ### 1) Baseline Validation
 - Ran fresh build checks for core libraries:
@@ -57,29 +57,45 @@ Complete the migration from .NET Framework 4.5.2 to .NET 8 for core libraries un
   - [x] Forms builds
   - [x] Converters builds
   - [x] Client builds
-  - [ ] Server builds (still failing)
+  - [x] Server builds
 - Tests:
   - [x] Common.Tests pass (9/9)
   - [x] BlazorPilot.Tests pass on net8.0 (6/6)
 - CI path check:
   - [x] Corrected solution path restores and builds.
 
+### 6) Server Compile Unblock Completed
+- Reduced Server compile errors from large decompilation-artifact sets to 0.
+- Completed recurring decompiled-source fixes in `Gizmox.WebGUI.Server.decompiled.cs`:
+  - generic collection artifact cleanup,
+  - explicit cast fixes for decompiled object flows,
+  - event/provider signature and type alignment,
+  - async handler fallback completion path,
+  - process-statistics fallback using `System.Diagnostics.Process`.
+- Expanded/adjusted Common shim support used by Server:
+  - `HttpException` overload/API parity,
+  - `CustomErrorsSection`/`CustomError` stubs,
+  - `HttpSessionStateContainer` stub,
+  - `HttpContext.Current` setter visibility for cross-assembly usage.
+- Removed duplicate HttpUtility shim from Common to resolve type ambiguity with framework `System.Web.HttpUtility`.
+
 ## Current Remaining Blockers
-1. NetCore/Gizmox.WebGUI.Server
-- Large set of syntax errors from decompilation artifacts in Gizmox.WebGUI.Server.decompiled.cs.
-- Patterns include malformed escaped tokens, Gen_ artifacts, and unsupported opcode placeholders.
+1. No compile blockers for the five core libraries.
+2. Warning backlog remains (nullability/obsolete API and decompiled-style warnings).
+3. Runtime parity still needs validation in Server request paths and legacy feature branches.
 
 ## Next Execution Plan
-1. Server syntax pass:
-- Apply splitter/cleanup pass for known malformed decompilation patterns.
-- Rebuild iteratively until syntax-level errors are gone.
+1. Run full NetCore solution-level build/test validation to confirm integrated stability.
 
-2. Server semantic pass:
-- Address remaining API/runtime compatibility issues after syntax parity.
+2. Prioritize warning reduction by category:
+- nullability correctness,
+- obsolete runtime API usage,
+- decompiler residual cleanup where low risk.
 
-3. Hardening follow-up:
-- Keep tests and CI pinned to net8.0 while migration remains in-flight.
-- Add explicit skip docs and environment guard notes for Playwright browser dependencies.
+3. Continue hardening:
+- keep tests/CI pinned to net8.0,
+- preserve Playwright skip guard documentation,
+- validate Server runtime behavior beyond compile parity.
 
-4. Documentation hygiene:
-- Continue updating project.md and TASK.md after each validated checkpoint.
+4. Continue documentation hygiene:
+- update `PROJECT.md` and `TASK.md` after each validated checkpoint.

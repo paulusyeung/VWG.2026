@@ -35,7 +35,20 @@ namespace System.Web
 
     public interface IHttpHandler
     {
-        void ProcessRequest(HttpContext context);
+        void ProcessRequest(HttpContext context) { }
+        bool IsReusable => false;
+    }
+
+    public interface IHttpAsyncHandler : IHttpHandler
+    {
+        IAsyncResult BeginProcessRequest(HttpContext context, AsyncCallback cb, object? extraData);
+        void EndProcessRequest(IAsyncResult result);
+    }
+
+    public interface IHttpHandlerFactory
+    {
+        IHttpHandler GetHandler(HttpContext context, string requestType, string url, string pathTranslated);
+        void ReleaseHandler(IHttpHandler handler);
     }
 
     public static class HttpRuntime
@@ -62,6 +75,9 @@ namespace System.Web
         public HttpException(string message) : base(message) { }
         public HttpException(string message, Exception? inner) : base(message, inner) { }
         public HttpException(int httpCode, string message) : base(message) { HttpCode = httpCode; }
+        public HttpException(int httpCode, string message, Exception? inner) : base(message, inner) { HttpCode = httpCode; }
+
+        public int GetHttpCode() => HttpCode <= 0 ? 500 : HttpCode;
     }
 
     public class HttpParseException : Exception
@@ -83,7 +99,7 @@ namespace System.Web
         public static HttpContext? Current
         {
             get => _current.Value;
-            internal set => _current.Value = value;
+            set => _current.Value = value;
         }
 
         public HttpRequest Request { get; set; } = null!;
@@ -164,6 +180,11 @@ namespace System.Web
         public string MachineName { get; set; } = Environment.MachineName;
         public string MapPath(string path) =>
             Path.Combine(AppContext.BaseDirectory, path.TrimStart('~', '/').Replace('/', Path.DirectorySeparatorChar));
+
+        public string UrlEncode(string s) => global::System.Web.HttpUtility.UrlEncode(s);
+        public string UrlDecode(string s) => global::System.Web.HttpUtility.UrlDecode(s);
+        public string HtmlEncode(string s) => global::System.Web.HttpUtility.HtmlEncode(s);
+        public string HtmlDecode(string s) => global::System.Web.HttpUtility.HtmlDecode(s);
     }
 
     public sealed class HttpApplicationState

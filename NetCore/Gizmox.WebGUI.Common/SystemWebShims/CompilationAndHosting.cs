@@ -1,5 +1,6 @@
 using System.Reflection;
 using System.CodeDom.Compiler;
+using System.Collections.Generic;
 
 namespace System.Web.Compilation
 {
@@ -25,8 +26,26 @@ namespace System.Web.Compilation
 
 namespace System.Web.Hosting
 {
+    public static class ApplicationHost
+    {
+        public static object CreateApplicationHost(Type hostType, string virtualDir, string physicalDir)
+        {
+            _ = virtualDir;
+            _ = physicalDir;
+            return Activator.CreateInstance(hostType)
+                ?? throw new InvalidOperationException($"Unable to create host type '{hostType.FullName}'.");
+        }
+    }
+
+    public interface IRegisteredObject
+    {
+        void Stop(bool immediate);
+    }
+
     public static class HostingEnvironment
     {
+        private static readonly List<IRegisteredObject> _registeredObjects = new();
+
         public static string ApplicationIdentityToken
         {
             get
@@ -36,6 +55,22 @@ namespace System.Web.Hosting
                 if (pi != null)
                     return (string?)pi.GetValue(null) ?? "";
                 return Guid.NewGuid().ToString("N");
+            }
+        }
+
+        public static void RegisterObject(IRegisteredObject obj)
+        {
+            if (obj != null)
+            {
+                _registeredObjects.Add(obj);
+            }
+        }
+
+        public static void UnregisterObject(IRegisteredObject obj)
+        {
+            if (obj != null)
+            {
+                _registeredObjects.Remove(obj);
             }
         }
     }

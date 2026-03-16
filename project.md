@@ -1,7 +1,7 @@
 # Gizmox.WebGUI .NET Framework → .NET 8 LTS Migration Project
 
 **Project Start Date:** March 2026  
-**Current Status:** In Progress – Server Decompilation Cleanup & Hardening Phase  
+**Current Status:** In Progress – Core Compile Parity Achieved (5/5) and Hardening Phase  
 **Target Framework:** .NET 8 LTS (supported until November 2026+)
 
 ---
@@ -229,7 +229,7 @@ Created `Gizmox.WebGUI.Common\SystemWebShims\` with stub implementations for .NE
 | File | Types / Purpose |
 |------|-----------------|
 | `HttpTypes.cs` | HttpContext, HttpRequest, HttpResponse, HttpServerUtility, HttpApplicationState, HttpCookie, HttpCookieCollection, HttpPostedFile, HttpFileCollection, HttpCachePolicy, HttpCacheability, HttpCacheRevalidation, HttpBrowserCapabilities, HttpRuntime, HttpException, HttpParseException, IHttpHandler |
-| `HttpUtility.cs` | HttpUtility (HtmlEncode, UrlEncode, etc. via System.Net.WebUtility) |
+| `HttpUtility.cs` | Initially added shim, later removed to avoid `CS0433` conflict with framework `System.Web.HttpUtility` |
 | `HttpSessionState.cs` | HttpSessionState, IRequiresSessionState |
 | `Caching.cs` | Cache (System.Web.Caching) |
 | `CompilationAndHosting.cs` | BuildManager, BuildProvider, AssemblyBuilder, HostingEnvironment |
@@ -252,7 +252,6 @@ c:\Projects\VWG\NetCore\Gizmox.WebGUI.Common\
 ├── Gizmox.WebGUI.Common.decompiled.cs
 ├── SystemWebShims\
 │   ├── HttpTypes.cs
-│   ├── HttpUtility.cs
 │   ├── HttpSessionState.cs
 │   ├── Caching.cs
 │   ├── CompilationAndHosting.cs
@@ -282,129 +281,27 @@ c:\Projects\VWG\NetCore\Gizmox.WebGUI.Common\
 
 ## 4. What Remains Unresolved
 
-### Critical Blockers (Must Fix Before Build Success)
+### Active Risks (Post-Compile Phase)
 
-**Note:** Phase 4b added comprehensive System.Web shims. However, downstream libraries remain blocked by significant issues.
+#### 4.1 Warning Backlog
+**Status:** ⚠️ Open (non-blocking).
 
-#### 4.1 System.Web HTTP Runtime
-**Status:** ✅ Shims created and verified in `Common` integration tests.
+Builds are now green for all core libraries, but warning volume remains high (primarily nullability and obsolete API warnings in decompiled code).
 
----
+#### 4.2 Runtime Parity Validation
+**Status:** ⚠️ In progress.
 
-#### 4.2 Gizmox.WebGUI.Forms Syntax Errors
-**Status:** ❌ Blocked (172 Errors).
-**Issue:** The splitter process introduced syntax errors in generated code:
-- Invalid generic constructs: `List<object><object>`.
-- Invalid expression terms: `new List<object>()object`.
-- These errors prevent `Forms` from building, which in turn blocks `Client`.
+Compile parity does not guarantee runtime parity. Server request processing, session behavior, authentication/custom error routing, and edge execution paths still require runtime verification.
 
----
+#### 4.3 Legacy Feature Paths
+**Status:** ⚠️ Partial.
 
-#### 4.3 Gizmox.WebGUI.Server Compatibility
-**Status:** ❌ Blocked.
-**Issue:** `Server` project targets `net8.0` but depends on `Common` which targets `net8.0-windows7.0` (for System.Drawing).
-**Solution:** Align TFM of `Server` to `net8.0-windows`.
+Some legacy framework-heavy paths are intentionally simplified/guarded during migration to keep compile momentum. These areas need deliberate follow-up decisions for long-term behavior parity.
 
----
+#### 4.4 Reporting DLL Gap
+**Status:** ❗ Deferred.
 
-#### 4.4 Gizmox.WebGUI.Converters Missing Packages
-**Status:** ❌ Blocked.
-**Issue:** Missing `Itenso.Rtf` NuGet packages in the environment.
-
----
-
-### Phase 4c: Final Shim Fixes (Completed)
-
-1. **HttpSessionState.Keys** – ✅ Fixed: Correctly returns `NameObjectCollectionBase.KeysCollection`.
-2. **HttpCookieCollection Indexers** – ✅ Fixed: Added indexers and correct return types.
-3. **Missing shim members** – ✅ Fixed: Added `SaveAs` to `HttpPostedFile`, completed `HttpCachePolicy` and `HttpResponse` stubs.
-4. **Design-Time Attributes** – ✅ Resolved: `<UseWindowsForms>true</UseWindowsForms>` inherently provided the namespace references required for `[UITypeEditor]`, so no mass removal was necessary.
-
----
-
-### Phase 4d: Common Build Fix, Client Split, Forms Splitter Improvements (March 2026 – Completed)
-
-#### Common Build Fixes
-- **WebUIStubs.cs** – Added `using System.Collections.Specialized` for `NameValueCollection`. Removed duplicate `HtmlTextWriter` class (already defined in `HtmlTextWriter.cs`). Common builds with 0 errors.
-
-#### Client Library Split
-- **Splitter** – Updated `Gizmox.WebGUI.Client\Splitter\Program.cs` to perform full split (previously diagnostic-only). Strips assembly attributes, fixes ILSpy `Gen_` artifacts: `ReadOnlyCollectionGen_` → `ReadOnlyCollection<object>`, `ListGen_` → `List<object>`, `ICollectionGen_` → `ICollection<object>`, `QueueGen_` → `Queue<IEvent>`, `CreateFormGen_` → `CreateForm`.
-- **Output** – Extracted 157 types to `Gizmox.WebGUI.Client\Generated\`.
-- **Client.csproj** – Excludes `Gizmox.WebGUI.Client.decompiled.cs` and `Splitter\**`; uses `Generated\` output.
-
-#### Forms Splitter Improvements (Option A – Proper ILSpy/Generic Cleanup)
-Enhanced `Splitter_Forms\Program.cs` with comprehensive pre-parse cleanup:
-
-| Fix | Pattern | Replacement |
-|-----|---------|-------------|
-| Assembly attributes | `[assembly:...]` | (removed) |
-| Gen_ artifacts | `Gen_<`, `ListGen_`, etc. | `List<object>`, etc. |
-| Class constraint without type param | `class X where Y : Z` | `class X<Y> where Y : Z` |
-| BidirectionalSkinValue/Property | Bare usage | `BidirectionalSkinValue<object>`, `BidirectionalSkinProperty<object>` |
-| List without type arg | `new List()`, `List var` | `new List<object>()`, `List<object> var` |
-| Generic method T GetProxyPropertyValue | `T GetProxyPropertyValue(string, T)` | `T GetProxyPropertyValue<T>(string, T)` |
-| FireEvent accessibility | `public override void FireEvent` | `protected override void FireEvent` (base is protected) |
-| AdministrationContentSorter | `IComparer` | `IComparer<AdministrationContent>` |
-| ObservableCollection / UniqueObservableCollection | Bare usage | `ObservableCollection<object>`, etc. |
-| GetContaxt method | `TContextType GetContaxt(...) where TContextType` | `TContextType GetContaxt<TContextType>(...) where TContextType` |
-| IArrangedElement GetValue/SetValue | Bare `T` in method | `T GetValue<T>(...)`, `void SetValue<T>(...)` |
-| ObjectCollectionComparer | `IComparer` | `IComparer<ListBox.ListBoxItem>` |
-
-- **FormsPatcher** – Removed FireEvent replacement (now handled by splitter). FormsPatcher still applies ITimer alias, protected internal get fix, ObjectBox Collection fix.
-- **Re-run** – Splitter re-run produces 1125 types in `Generated\`. Many Forms errors resolved.
-
-#### Remaining Forms Build Errors (for follow-up)
-- **Device integration** – IAccelerometer, ICamera, ICapture, etc.: `EventHandler<>` vs `Action<>` mismatch; interface expects callback style that differs from implementation.
-- **SingleCallMethodStore / MultipleCallMethodStore** – Usages need explicit type args (e.g. `SingleCallMethodStore<AccelerometerEventArgs>`).
-- **ObservableCollection / UniqueObservableCollection** – A few usages may need context-specific type args beyond `object`.
-
-#### How to Re-run Splitters
-```bash
-# Forms (from NetCore folder)
-cd Splitter_Forms && dotnet run -c Release
-
-# Client
-cd Gizmox.WebGUI.Client/Splitter && dotnet run -c Release
-```
-
----
-
-### Major Unresolved Issues (Require Refactoring)
-
-#### 4.6 Monolithic Source Files
-**Issue:** Decompiled files are single massive `.cs` file per library:
-- `Gizmox.WebGUI.Forms.decompiled.cs` – 261,202 lines in one file!
-- `Gizmox.WebGUI.Common.decompiled.cs` – 64,835 lines in one file!
-
-**Problems:**
-- Impossible to navigate in editor
-- Makes incremental fixing nearly impossible
-- Prevents splitting into layers (UI/business/data)
-- No per-namespace organization
-
-**Solution:** Split by namespace; group related classes into `Namespace/Class.cs` folder structure.
-
----
-
-#### 4.7 Missing Reporting DLL
-**Status:** `Gizmox.WebGUI.Reporting` DLL not found in workspace binaries (`bin\Debug`).
-
-**Options:**
-1. Request from project maintainer
-2. Rebuild from source (if .csproj exists in workspace)
-3. Skip until later phase
-4. Suggest user locate/restore the DLL
-
----
-
-### Known Dependency Gaps (Can Be Resolved via NuGet)
-
-| Missing Assembly | Solution |
-|------------------|----------|
-| System.Data.SqlClient | Package: `System.Data.SqlClient` v4.8.6+ |
-| System.ComponentModel.Design | Package: `System.ComponentModel.Composition` |
-| System.Reflection.Emit | Part of core framework (net8.0) |
-| System.Runtime.Serialization | Part of core framework |
+`Gizmox.WebGUI.Reporting.dll` is still unavailable in the current workspace binaries and remains out of the core 5-library migration path.
 
 ---
 
@@ -425,8 +322,8 @@ cd Gizmox.WebGUI.Client/Splitter && dotnet run -c Release
 | **Build (Forms)** | ✅ Complete | Builds on net8.0-windows (warnings only). |
 | **Build (Client)** | ✅ Complete | Option 1 complete; compiles after legacy WinForms shim compatibility fixes. |
 | **Build (Converters)** | ✅ Complete | Builds on net8.0-windows after TFM + assembly attribute alignment. |
-| **Build (Server)** | ❌ Blocked | Still failing with large syntax/decompilation artifact set in `Gizmox.WebGUI.Server.decompiled.cs`. |
-| **Hardening** | [/] In Progress | CI/CD, Playwright, Docker, BlazorPilot |
+| **Build (Server)** | ✅ Complete | Compiles on net8.0-windows after decompilation artifact cleanup and shim alignment. |
+| **Hardening** | [/] In Progress | CI/CD, Playwright, Docker, BlazorPilot, runtime parity validation |
 
 ### Checkpoints Achieved
 1. ✅ **Legal/Licensing Clearance** – Decompilation justified by statutory interoperability exceptions.
@@ -436,6 +333,7 @@ cd Gizmox.WebGUI.Client/Splitter && dotnet run -c Release
 5. ✅ **Compilation Phase (Common/Forms/Converters/Client)** – 4 of 5 core libraries now compile.
 6. ✅ **Client Option 1 (Compile Unblock)** – Completed via interface alignment and legacy API compatibility shims.
 7. ✅ **Phase 4 Hardening Start** – CI/CD, Playwright, and Docker infrastructure established.
+8. ✅ **Server Compile Unblock** – Completed; core migration now at 5/5 compiling libraries.
 
 ### What Works
 - Projects restore successfully (NuGet packages download correctly).
@@ -443,11 +341,11 @@ cd Gizmox.WebGUI.Client/Splitter && dotnet run -c Release
 - System.Web shims provide stub types for HttpContext, HttpRequest, HttpResponse, etc.
 - Assembly attributes fixed; CAS/SecurityManager handled for .NET Core.
 - Event invocation patterns corrected where identified.
-- Common, Forms, Converters, and Client now compile successfully on .NET 8 (windows target where required).
+- Common, Forms, Converters, Client, and Server now compile successfully on .NET 8 (windows target where required).
 
 ### What Still Needs Work
-- `Gizmox.WebGUI.Server` decompiled source still contains syntax artifacts (escaped tokens/malformed signatures).
-- Reduce warning volume and tighten nullability handling after server compile parity is reached.
+- Reduce warning volume and tighten nullability handling across decompiled sources.
+- Validate runtime behavior parity in Server request pipeline and legacy/guarded paths.
 - Identify standard replacements for remaining legacy WebForms behavior where runtime parity matters.
 
 ---
@@ -456,17 +354,22 @@ cd Gizmox.WebGUI.Client/Splitter && dotnet run -c Release
 
 ### Immediate Actions (Next 1–2 iterations)
 
-#### Step 1: Unblock Server Compilation
-**Goal:** Remove syntax/decompilation artifacts that currently prevent `Gizmox.WebGUI.Server` from compiling.
+#### Step 1: Full Integrated Validation
+**Goal:** Confirm solution-wide stability after reaching compile parity.
 **Process:**
-1. Triage first failing regions in `Gizmox.WebGUI.Server.decompiled.cs` (around early syntax breakpoints).
-2. Apply deterministic cleanup passes for known malformed patterns (escaped tokens, invalid method signatures, orphaned braces/modifiers).
-3. Rebuild iteratively until syntax-level errors are eliminated.
+1. Run full NetCore build/test sequence.
+2. Reconfirm CI workflow expectations under net8.0 targets.
+3. Capture and document any regressions introduced by recent Server cleanup.
 
-#### Step 2: Move Server to Semantic Compatibility
-1. After syntax fixes, address API compatibility/compiler semantic errors.
-2. Reuse existing System.Web shim patterns from Common where applicable.
-3. Keep build loops evidence-based and update docs after each checkpoint.
+#### Step 2: Warning Reduction Sweep
+1. Triage warnings by category and impact.
+2. Address low-risk high-volume categories first (nullability and obvious decompiler leftovers).
+3. Keep warning changes separate from behavior changes where possible.
+
+#### Step 3: Runtime Parity Pass
+1. Validate Server custom error/auth/session flows under realistic requests.
+2. Review guarded legacy branches and decide keep/replace/defer per path.
+3. Document any accepted behavior deltas.
 
 ---
 
@@ -488,8 +391,8 @@ cd Gizmox.WebGUI.Client/Splitter && dotnet run -c Release
 ---
 
 #### 8. Migrate Dependent Libraries (Client → Converters → Server → Forms)
-- Update: Client/Converters/Forms are now compiling.
-- Remaining dependency migration focus is Server.
+- Update: all core libraries are now compiling.
+- Remaining migration focus is Server runtime parity and warning reduction, not compile unblock.
 
 ---
 
@@ -550,7 +453,7 @@ cd Gizmox.WebGUI.Client/Splitter && dotnet run -c Release
 ### Phase 2: API Compatibility & Compilation
 - [x] System.Web types stubbed (SystemWebShims folder)
 - [x] **Design-time attributes handled** (Resolved by `UseWindowsForms` in `.csproj`)
-- [ ] All 5 core libraries compile to 0 errors (4/5 completed: Common, Forms, Converters, Client)
+- [x] All 5 core libraries compile to 0 errors (Common, Forms, Converters, Client, Server)
 - [x] Monolithic files split: Common, Forms, Client split into namespace structure (Converters 177 lines; Server TBD)
 
 #### Design-Time Attributes Checklist
@@ -593,7 +496,7 @@ Design-time UI is obsolete in .NET Core/8; these attributes cause compilation er
 | `c:\Projects\VWG\NetCore\FormsPatcher\` | Post-split patches for Forms Generated\ |
 | `c:\temp\gizmox_decompiled\` | Backup of decompiled source files |
 | `c:\Projects\VWG\Sources 4.5.2\` | Original .NET Framework source & binaries |
-| `c:\Projects\VWG\project.md` | This document (master migration plan) |
+| `c:\Projects\VWG\PROJECT.md` | This document (master migration plan) |
 
 ### B. Tools & Versions
 
@@ -630,8 +533,8 @@ Converters:  177 lines     (RTF→HTML utility, simplest)
 ## 10. Contact & Escalation
 
 **Project Owner:** [User Name]  
-**Last Updated:** March 15, 2026  
-**Next Review:** After Forms builds; then Client, Converters, Server
+**Last Updated:** March 17, 2026  
+**Next Review:** After full integrated build/test and runtime parity checkpoint
 
 **Open Questions for Clarification:**
 1. What is the expected timeline for Phase 2 completion?
