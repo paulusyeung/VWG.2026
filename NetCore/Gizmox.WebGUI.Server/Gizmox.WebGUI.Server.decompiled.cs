@@ -17,6 +17,7 @@ using System.Net;
 using System.Reflection;
 using System.Resources;
 using System.Runtime.CompilerServices;
+using System.Runtime.ExceptionServices;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using System.Runtime.Versioning;
@@ -3851,7 +3852,7 @@ namespace Gizmox.WebGUI.Server
 			}
 			catch (Exception ex)
 			{
-				throw ex;
+				throw;
 			}
 			finally
 			{
@@ -4212,7 +4213,7 @@ namespace Gizmox.WebGUI.Server
 						/*OpCode not supported: LdMemberToken*/;
 						continue;
 					}
-					throw ex;
+					throw;
 				}
 			}
 			return lngLastRender;
@@ -8037,7 +8038,7 @@ namespace Gizmox.WebGUI.Server
 			}
 			catch (Exception ex)
 			{
-				throw ex;
+				throw;
 			}
 		}
 
@@ -9128,7 +9129,7 @@ namespace Gizmox.WebGUI.Server
 			}
 			catch (Exception ex)
 			{
-				throw ex;
+				throw;
 			}
 		}
 
@@ -9615,7 +9616,7 @@ namespace Gizmox.WebGUI.Server
 			}
 		}
 
-		public IAsyncResult BeginProcessRequest(HttpContext objContext, AsyncCallback objAsyncCallback, object objExtraData)
+		public IAsyncResult BeginProcessRequest(HttpContext objContext, AsyncCallback objAsyncCallback, object? objExtraData)
 		{
 			if (cf43726a9df8a68715ad349493cc1f936 != null)
 			{
@@ -10179,9 +10180,10 @@ namespace Gizmox.WebGUI.Server.Resources
 						if (ex.InnerException == null)
 						{
 							/*OpCode not supported: LdMemberToken*/;
-							throw ex;
+							throw;
 						}
-						throw ex.InnerException;
+						ExceptionDispatchInfo.Capture(ex.InnerException).Throw();
+						throw;
 					}
 				}
 			}
@@ -10606,14 +10608,18 @@ namespace Gizmox.WebGUI.Server.Hosting
 
 		private void StopManager()
 		{
-			if (c64e9b02c482ab4e9e7f9a6f359be56f2 == null)
+			Thread thread = c64e9b02c482ab4e9e7f9a6f359be56f2;
+			if (thread == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
+				return;
 			}
-			else
+			if (thread.IsAlive)
 			{
-				c64e9b02c482ab4e9e7f9a6f359be56f2.Abort();
+				thread.Interrupt();
+				thread.Join(1000);
 			}
+			c64e9b02c482ab4e9e7f9a6f359be56f2 = null;
 		}
 
 		void IRegisteredObject.Stop(bool immediate)
@@ -11840,7 +11846,7 @@ namespace A
 					}
 					else
 					{
-						text = HttpUtility.UrlEncodeUnicode(text);
+						text = HttpUtility.UrlEncode(text);
 					}
 					string text2;
 					if (!string.IsNullOrEmpty(text))
@@ -11885,7 +11891,7 @@ namespace A
 						}
 						else
 						{
-							text3 = HttpUtility.UrlEncodeUnicode(text3);
+							text3 = HttpUtility.UrlEncode(text3);
 						}
 						stringBuilder.Append(text3);
 						continue;
@@ -11914,7 +11920,7 @@ namespace A
 						}
 						else
 						{
-							text3 = HttpUtility.UrlEncodeUnicode(text3);
+							text3 = HttpUtility.UrlEncode(text3);
 						}
 						stringBuilder.Append(text3);
 					}
@@ -14150,7 +14156,7 @@ namespace A
 			}
 		}
 
-		public override IAsyncResult BeginWrite(byte[] buffer, int offset, int count, AsyncCallback callback, object state)
+		public override IAsyncResult BeginWrite(byte[] buffer, int offset, int count, AsyncCallback? callback, object? state)
 		{
 			EnsureWriteStarted();
 			if (c0397de0ae722c3af1103eb889d640d47 == null)
@@ -14929,7 +14935,16 @@ namespace A
 
 		public override void Stop()
 		{
-			c691590fd2de5de5543e233dcf8f10ac0.Abort();
+			if (c39fceb55290094ddaf035dd7bff0bd8e != null)
+			{
+				c39fceb55290094ddaf035dd7bff0bd8e.Stop();
+				c39fceb55290094ddaf035dd7bff0bd8e.Close();
+			}
+			Thread thread = c691590fd2de5de5543e233dcf8f10ac0;
+			if (thread != null && thread.IsAlive)
+			{
+				thread.Join(1000);
+			}
 		}
 	}
 	internal class ce7ef5e6d4362cc294f023fa9a01ef001 : cc5493c4d24769facba3e8ccf0d9f6c9f
@@ -15538,7 +15553,8 @@ namespace A
 				c7d8703a8e58a42bb44782b20b7a64d28 = null;
 				return;
 			}
-			throw ex;
+			ExceptionDispatchInfo.Capture(ex).Throw();
+			throw;
 		}
 
 		protected override MessageBuffer OnCreateBufferedCopy(int maxBufferSize)

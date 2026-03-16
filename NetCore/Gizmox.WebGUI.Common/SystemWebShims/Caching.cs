@@ -1,3 +1,5 @@
+#nullable enable annotations
+
 using System.Collections;
 using Microsoft.Extensions.Caching.Memory;
 

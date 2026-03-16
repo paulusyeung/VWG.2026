@@ -1,6 +1,8 @@
 // System.Web shims for .NET 8 migration - minimal stubs to enable compilation.
 // Runtime implementations will be provided by ASP.NET Core adapters in the Server project.
 
+#nullable enable annotations
+
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;

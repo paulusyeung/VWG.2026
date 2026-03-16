@@ -1,4 +1,6 @@
 #define TRACE
+#nullable enable annotations
+
 using System;
 using System.CodeDom;
 using System.CodeDom.Compiler;

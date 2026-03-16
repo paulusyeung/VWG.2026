@@ -1,3 +1,5 @@
+#nullable enable annotations
+
 using System.Reflection;
 using System.CodeDom.Compiler;
 using System.Collections.Generic;

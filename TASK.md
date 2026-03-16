@@ -79,9 +79,20 @@ Complete the migration from .NET Framework 4.5.2 to .NET 8 for core libraries un
   - `HttpContext.Current` setter visibility for cross-assembly usage.
 - Removed duplicate HttpUtility shim from Common to resolve type ambiguity with framework `System.Web.HttpUtility`.
 
+### 7) Warning Reduction Pass #1 (Nullable + Obsolete Hotspots)
+- Rebuilt `NetCore/Gizmox.WebGUI.Server/Gizmox.WebGUI.Server.csproj` and re-baselined warnings.
+- Reduced Server warning count from `990` to `896` (delta `-94`) while preserving `ERROR_COUNT=0`.
+- Eliminated targeted warning categories in this pass:
+  - `NETSDK1080` -> removed redundant `Microsoft.AspNetCore.App` package reference.
+  - `CS0618` -> replaced `HttpUtility.UrlEncodeUnicode` with `HttpUtility.UrlEncode`.
+  - `SYSLIB0006` -> removed `Thread.Abort()` usage in stop/shutdown paths.
+  - `CA2200` -> replaced `throw ex;` patterns with stack-preserving rethrow paths.
+  - `CS8765` / `CS8767` -> aligned nullability on async interface/override signatures.
+  - `CS8632` -> enabled nullable annotation context in shim/generated files that already use nullable annotations.
+
 ## Current Remaining Blockers
 1. No compile blockers for the five core libraries.
-2. Warning backlog remains (nullability/obsolete API and decompiled-style warnings).
+2. Warning backlog remains (mostly high-volume nullable flow warnings: `CS8618`, `CS8600`, `CS8603`, `CS8625`, `CS8604`).
 3. Runtime parity still needs validation in Server request paths and legacy feature branches.
 
 ## Next Execution Plan
@@ -89,7 +100,7 @@ Complete the migration from .NET Framework 4.5.2 to .NET 8 for core libraries un
 
 2. Prioritize warning reduction by category:
 - nullability correctness,
-- obsolete runtime API usage,
+- obsolete runtime API usage (high-priority hotspots from pass #1 completed),
 - decompiler residual cleanup where low risk.
 
 3. Continue hardening:

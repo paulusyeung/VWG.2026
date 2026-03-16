@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <!-- ASP.NET Core -->
-    <PackageReference Include="Microsoft.AspNetCore.App" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Owin" Version="8.0.0" />
     
     <!-- SignalR for real-time communication -->
