@@ -30,7 +30,7 @@
 ## Phase 4 status
 
 - Core compile status: 5/5 libraries building (Common, Forms, Converters, Client, Server)
-- Warning pass #1: Server warning count reduced from 990 to 896; targeted obsolete/nullability hotspot categories closed
+- Warning reduction: iterative passes reduced Server warnings from 670 to 191 on clean `Gizmox.WebGUI.Server.csproj` rebuilds (incremental up-to-date direct builds can show 0)
 - Testing: green for Common.Tests and BlazorPilot.Tests
 - Cycle gating: formatting and coverage thresholds active
 - Release: Docker image pipeline configured

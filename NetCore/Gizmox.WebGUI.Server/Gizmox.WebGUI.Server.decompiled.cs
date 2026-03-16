@@ -66,23 +66,23 @@ namespace A
 {
 	internal class c572ceec0c50008c8ac659ffc23e7c9be
 	{
-		private static readonly Assembly c997f2da7fa1afa4f2930c6cd7c7242ff;
+		private static readonly Assembly? c997f2da7fa1afa4f2930c6cd7c7242ff;
 
 		static c572ceec0c50008c8ac659ffc23e7c9be()
 		{
-			if ((object)c997f2da7fa1afa4f2930c6cd7c7242ff != null)
+			if (c997f2da7fa1afa4f2930c6cd7c7242ff != null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
 				return;
 			}
 			Assembly executingAssembly = Assembly.GetExecutingAssembly();
-			string name = executingAssembly.GetName().Name;
+			string? name = executingAssembly.GetName().Name;
 			string[] manifestResourceNames = executingAssembly.GetManifestResourceNames();
 			foreach (string text in manifestResourceNames)
 			{
 				if (name == text)
 				{
-					Stream manifestResourceStream = executingAssembly.GetManifestResourceStream(name);
+					Stream? manifestResourceStream = executingAssembly.GetManifestResourceStream(name);
 					byte[] rawAssembly = c908eaefa54d6b5be30c4c863d79037e1.cc2ad4aa851b5f88a873f3f558265da16(manifestResourceStream);
 					c997f2da7fa1afa4f2930c6cd7c7242ff = Assembly.Load(rawAssembly);
 					break;
@@ -95,9 +95,9 @@ namespace A
 			AppDomain.CurrentDomain.ResourceResolve += c41bf83b2bda1a46b918b03de6cae6519;
 		}
 
-		private static Assembly c41bf83b2bda1a46b918b03de6cae6519(object cdfb56dcce46633c2dbd3f626b9642971, ResolveEventArgs c08cca9fce72772fe8e847fccce069851)
+		private static Assembly? c41bf83b2bda1a46b918b03de6cae6519(object? cdfb56dcce46633c2dbd3f626b9642971, ResolveEventArgs c08cca9fce72772fe8e847fccce069851)
 		{
-			if ((object)c997f2da7fa1afa4f2930c6cd7c7242ff == null)
+			if (c997f2da7fa1afa4f2930c6cd7c7242ff == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
 				return c997f2da7fa1afa4f2930c6cd7c7242ff;
@@ -127,7 +127,7 @@ namespace A
 		{
 			get
 			{
-				return BaseGet(strName);
+				return BaseGet(strName)!;
 			}
 			set
 			{
@@ -135,7 +135,7 @@ namespace A
 			}
 		}
 
-		public object this[int intIndex] => BaseGet(intIndex);
+		public object this[int intIndex] => BaseGet(intIndex)!;
 
 		public c1aa09394d9e776d366c1c429ca623754(HostContext objHostContext)
 		{
@@ -148,6 +148,8 @@ namespace Gizmox.WebGUI.Server
 	[Serializable]
 	internal class BaseCollection : ICollection, IEnumerable
 	{
+		private static readonly ArrayList s_emptyList = new ArrayList();
+
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
 		[Browsable(false)]
 		public virtual int Count => List.Count;
@@ -160,7 +162,7 @@ namespace Gizmox.WebGUI.Server
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
 		public bool IsSynchronized => false;
 
-		protected virtual ArrayList List => null;
+		protected virtual ArrayList List => s_emptyList;
 
 		[Browsable(false)]
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
@@ -213,7 +215,7 @@ namespace A
 			objHostContext.Response.Cache.SetNoStore();
 			bool flag = true;
 			bool traceEnabled = CommonSwitches.TraceEnabled;
-			IResponseWriter objXmlWriter = null;
+			IResponseWriter? objXmlWriter = null;
 			Global.Context = Context;
 			bool flag2 = Context.ManagePendingTermination();
 			try
@@ -250,7 +252,7 @@ namespace A
 					Context.RefreshRequiered = true;
 				}
 				Context.RequestProcessingState = RequestProcessingState.InitiatingMainForm;
-				IForm form = null;
+				IForm? form = null;
 				if (!Context.UseAuthentication)
 				{
 					/*OpCode not supported: LdMemberToken*/;
@@ -759,7 +761,7 @@ namespace A
 
 		private void SwitchToTransferedForm()
 		{
-			IForm transferForm = Context.TransferForm;
+			IForm? transferForm = Context.TransferForm;
 			if (Context != null)
 			{
 				if (Context.MainForm == null)
@@ -775,7 +777,7 @@ namespace A
 			}
 			Context.MainForm = transferForm;
 			Context.ActiveForm = transferForm;
-			transferForm.SetContext(Context);
+			transferForm?.SetContext(Context);
 		}
 
 		private void ProcessClientTracing(Context objContext, Request objRequest)
@@ -798,7 +800,7 @@ namespace A
 
 		private IForm GetLogonForm()
 		{
-			IForm form = null;
+			IForm? form = null;
 			if (!(Context.MainForm is ILogonForm))
 			{
 				Context.SuspendedMainForm = Context.MainForm;
@@ -818,7 +820,7 @@ namespace A
 				Context.MainForm = form;
 				Context.ActiveForm = form;
 			}
-			return form;
+			return form!;
 		}
 
 		private void InitializeSSOLogonAuthentication(IForm objLogonForm)
@@ -902,7 +904,7 @@ namespace A
 
 		public IForm GetMainForm(HostContext objHostContext)
 		{
-			IForm form = null;
+			IForm? form = null;
 			form = Context.MainForm;
 			if (form == null)
 			{
@@ -911,7 +913,7 @@ namespace A
 			else if (form is ILogonForm)
 			{
 				SessionRegistry.UnRegisterComponent(form);
-				form = null;
+				form = null!;
 				Context.MainForm = null;
 				Context.ActiveForm = null;
 				if (Context.SuspendedMainForm == null)
@@ -920,7 +922,7 @@ namespace A
 				}
 				else
 				{
-					IForm form2 = (Context.MainForm = Context.SuspendedMainForm);
+					IForm? form2 = (Context.MainForm = Context.SuspendedMainForm);
 					form = form2;
 					Context.ActiveForm = Context.SuspendedActiveForm;
 					Context.SuspendedMainForm = null;
@@ -937,7 +939,7 @@ namespace A
 				Context.MainForm = form;
 				Context.ActiveForm = form;
 			}
-			return form;
+			return form!;
 		}
 	}
 }
@@ -954,17 +956,17 @@ namespace Gizmox.WebGUI.Server
 
 		private HostContext mobjHostContext;
 
-		private Request mobjRequest;
+		private Request? mobjRequest;
 
-		private Response mobjResponse;
+		private Response? mobjResponse;
 
-		private Session mobjSession;
+		private Session? mobjSession;
 
-		private c1aa09394d9e776d366c1c429ca623754 mobjApplication;
+		private c1aa09394d9e776d366c1c429ca623754? mobjApplication;
 
-		private ICookies mobjCookies;
+		private ICookies? mobjCookies;
 
-		private ContextContainer mobjContextContainer;
+		private ContextContainer? mobjContextContainer;
 
 		private static string mstrLogonLocking;
 
@@ -974,19 +976,19 @@ namespace Gizmox.WebGUI.Server
 
 		private string mstrCapture = string.Empty;
 
-		private static IServer mobjServer;
+		private static IServer? mobjServer;
 
-		private IForm mobjTransferForm;
+		private IForm? mobjTransferForm;
 
 		private HostRequestInfo mobjRequestInfo;
 
-		private CultureInfo mobjCurrentUICulture;
+		private CultureInfo? mobjCurrentUICulture;
 
-		private ArrayList mobjCommands;
+		private ArrayList? mobjCommands;
 
-		private ClientContext mobjClientContext;
+		private ClientContext? mobjClientContext;
 
-		private Hashtable mobjCommandsHash;
+		private Hashtable? mobjCommandsHash;
 
 		private bool? mblnRightToLeft;
 
@@ -1004,7 +1006,7 @@ namespace Gizmox.WebGUI.Server
 
 		protected static readonly string mstrDynamicExtension;
 
-		private EventProcessor mobjEventProcessor;
+		private EventProcessor? mobjEventProcessor;
 
 		private ContextContainer CurrentContainer
 		{
@@ -1026,7 +1028,7 @@ namespace Gizmox.WebGUI.Server
 						mobjContextContainer = mobjSession.GetContextContainer(CurrentPage, CurrentPageInstance);
 					}
 				}
-				return mobjContextContainer;
+				return mobjContextContainer!;
 			}
 		}
 
@@ -1044,7 +1046,7 @@ namespace Gizmox.WebGUI.Server
 				{
 					mobjContextContainer = ((Session)Session).GetContextContainer(CurrentPage, CurrentPageInstance, blnCreateIfNotFound: false);
 				}
-				return mobjContextContainer;
+				return mobjContextContainer!;
 			}
 		}
 
@@ -1062,7 +1064,7 @@ namespace Gizmox.WebGUI.Server
 				{
 					mobjRequest = new Request(mobjHostContext, this, mobjRequestInfo);
 				}
-				return mobjRequest;
+				return mobjRequest!;
 			}
 		}
 
@@ -1078,7 +1080,7 @@ namespace Gizmox.WebGUI.Server
 				{
 					mobjServer = new c173574dfe7801dce5957ec1ae08dfabb(mobjHostContext);
 				}
-				return mobjServer;
+				return mobjServer!;
 			}
 		}
 
@@ -1090,7 +1092,7 @@ namespace Gizmox.WebGUI.Server
 				{
 					mobjResponse = new Response(mobjHostContext, this);
 				}
-				return mobjResponse;
+				return mobjResponse!;
 			}
 		}
 
@@ -1102,7 +1104,7 @@ namespace Gizmox.WebGUI.Server
 				{
 					mobjCookies = new Cookies(mobjHostContext, mobjRequestInfo);
 				}
-				return mobjCookies;
+				return mobjCookies!;
 			}
 		}
 
@@ -1126,7 +1128,7 @@ namespace Gizmox.WebGUI.Server
 						mobjHostContext.Application["WGApplication"] = (mobjApplication = new c1aa09394d9e776d366c1c429ca623754(mobjHostContext));
 					}
 				}
-				return mobjApplication;
+				return mobjApplication!;
 			}
 		}
 
@@ -1139,7 +1141,7 @@ namespace Gizmox.WebGUI.Server
 			get
 			{
 				EnsureSession();
-				return mobjSession;
+				return mobjSession!;
 			}
 		}
 
@@ -1205,7 +1207,7 @@ namespace Gizmox.WebGUI.Server
 			}
 		}
 
-		public IForm ActiveForm
+		public IForm? ActiveForm
 		{
 			get
 			{
@@ -1227,14 +1229,14 @@ namespace Gizmox.WebGUI.Server
 					/*OpCode not supported: LdMemberToken*/;
 					return;
 				}
-				CurrentContainer.ActiveForm = value;
+				CurrentContainer.ActiveForm = value!;
 				if (CurrentContainer.MainForm != null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
 				}
 				else
 				{
-					CurrentContainer.MainForm = value;
+					CurrentContainer.MainForm = value!;
 				}
 				if (EmulationService == null)
 				{
@@ -1247,7 +1249,7 @@ namespace Gizmox.WebGUI.Server
 			}
 		}
 
-		internal IEmulationService EmulationService
+		internal IEmulationService? EmulationService
 		{
 			get
 			{
@@ -1260,7 +1262,7 @@ namespace Gizmox.WebGUI.Server
 			}
 		}
 
-		public IForm SuspendedActiveForm
+		public IForm? SuspendedActiveForm
 		{
 			get
 			{
@@ -1279,14 +1281,14 @@ namespace Gizmox.WebGUI.Server
 				}
 				else
 				{
-					CurrentContainer.SuspendedActiveForm = value;
+					CurrentContainer.SuspendedActiveForm = value!;
 				}
 			}
 		}
 
 		internal bool IsRedirectToSSLRequired => mobjRequestInfo.IsRedirectToSSLRequired;
 
-		public IForm MainForm
+		public IForm? MainForm
 		{
 			get
 			{
@@ -1305,12 +1307,12 @@ namespace Gizmox.WebGUI.Server
 				}
 				else
 				{
-					CurrentContainer.MainForm = value;
+					CurrentContainer.MainForm = value!;
 				}
 			}
 		}
 
-		public IForm SuspendedMainForm
+		public IForm? SuspendedMainForm
 		{
 			get
 			{
@@ -1329,12 +1331,12 @@ namespace Gizmox.WebGUI.Server
 				}
 				else
 				{
-					CurrentContainer.SuspendedMainForm = value;
+					CurrentContainer.SuspendedMainForm = value!;
 				}
 			}
 		}
 
-		internal IForm TransferForm => mobjTransferForm;
+		internal IForm? TransferForm => mobjTransferForm;
 
 		public string Referrer
 		{
@@ -1343,7 +1345,7 @@ namespace Gizmox.WebGUI.Server
 				if (CurrentContainer == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return null;
+					return string.Empty;
 				}
 				return CurrentContainer.Referrer;
 			}
@@ -4423,11 +4425,11 @@ namespace Gizmox.WebGUI.Server
 	[Serializable]
 	internal class ContextContainer : SerializableObject, IApplicationContext, IContextClipboard, IContextParams, IEventHandler, ISessionRegistry, IDisposable
 	{
-		private static Dictionary<Type, bool> mobjValidComponents;
+		private static Dictionary<Type, bool>? mobjValidComponents;
 
 		private static object mobjValidComponentsLock;
 
-		private static Dictionary<string, Dictionary<Type, MappedFormInfo>> mobjMappedForms;
+		private static Dictionary<string, Dictionary<Type, MappedFormInfo>>? mobjMappedForms;
 
 		private static object mobjMappedFormsLock;
 
@@ -4474,23 +4476,23 @@ namespace Gizmox.WebGUI.Server
 		private static readonly SerializableProperty ClipboardDataObjectProperty;
 
 		[NonSerialized]
-		private IForm c041406373b776e9eedae420b2df5c769;
+		private IForm? c041406373b776e9eedae420b2df5c769;
 
-		private IDeviceIntegrator mobjDeviceIntegrator;
+		private IDeviceIntegrator? mobjDeviceIntegrator;
 
-		private Dictionary<string, FormAccessMode> mobjFormAccessModes;
-
-		[NonSerialized]
-		private IForm cc2ac04595cfc10712837b059af86e638;
+		private Dictionary<string, FormAccessMode>? mobjFormAccessModes;
 
 		[NonSerialized]
-		private IEmulationService c047ba2eb809594268824a28d315a9487;
+		private IForm? cc2ac04595cfc10712837b059af86e638;
 
 		[NonSerialized]
-		private IControl c7f59f6afcc1cae87717b1a7e44bd2b74;
+		private IEmulationService? c047ba2eb809594268824a28d315a9487;
 
 		[NonSerialized]
-		private string c93ed3bd0206ade21c68f4c15dbf65708;
+		private IControl? c7f59f6afcc1cae87717b1a7e44bd2b74;
+
+		[NonSerialized]
+		private string? c93ed3bd0206ade21c68f4c15dbf65708;
 
 		[NonSerialized]
 		private RequestProcessingState cda2bae3985e58061125209be457c6a7b;
@@ -4505,12 +4507,12 @@ namespace Gizmox.WebGUI.Server
 		private int c08de36444cd0b4618b04ed2f742996f0 = -1;
 
 		[NonSerialized]
-		private ArrayList cc9af67efd5e3701c34c235b7ec5f1f29;
+		private ArrayList? cc9af67efd5e3701c34c235b7ec5f1f29;
 
 		[NonSerialized]
 		private int c97914221e94add3b5c5fedd286e1ce12;
 
-		private ReadOnlyCollection<string> marrAvailableThemes;
+		private ReadOnlyCollection<string>? marrAvailableThemes;
 
 		private bool mblnIsTerminated;
 
@@ -4519,13 +4521,13 @@ namespace Gizmox.WebGUI.Server
 		private DateTime mobjPendingTerminationTimeStamp = DateTime.MaxValue;
 
 		[NonSerialized]
-		private NameValueCollection cba1c73d27874bcfa90be4c04e7fbe93f;
+		private NameValueCollection? cba1c73d27874bcfa90be4c04e7fbe93f;
 
 		[NonSerialized]
-		private NameValueCollection c8bee4159344556cb0ce1661b84398052;
+		private NameValueCollection? c8bee4159344556cb0ce1661b84398052;
 
 		[NonSerialized]
-		private Hashtable cf12f9b84144c3552a40d6130626735e9;
+		private Hashtable? cf12f9b84144c3552a40d6130626735e9;
 
 		[NonSerialized]
 		private bool c9c0b127d9609e396a2f14de32e3864d3;
@@ -4543,7 +4545,7 @@ namespace Gizmox.WebGUI.Server
 		private long c321de290f3a3775115d1677c9c8ad1e1 = 1L;
 
 		[NonSerialized]
-		private EventProcessor c0b80cda3b33a914716e26fe0bfa78d9f;
+		private EventProcessor? c0b80cda3b33a914716e26fe0bfa78d9f;
 
 		private DeviceOrientation menmStartupDeviceOrientation;
 
@@ -4571,36 +4573,36 @@ namespace Gizmox.WebGUI.Server
 
 		private MISCBrowserCapabilities menmMISCBrowserCapabilities = MISCBrowserCapabilities.Empty;
 
-		private string[] marrPreloadedResources;
+		private string[]? marrPreloadedResources;
 
-		private NameValueCollection mobjSSOLogonAuthentication;
+		private NameValueCollection? mobjSSOLogonAuthentication;
 
 		[NonSerialized]
-		private Graphics c5e1957f843f5e0211f8a582a420dc9e3;
+		private Graphics? c5e1957f843f5e0211f8a582a420dc9e3;
 
-		private string mstrBrowserId;
+		private string? mstrBrowserId;
 
 		private List<object> mobjNavigationForms = new List<object>();
 
-		private string mstrWebSocketConnectionId;
+		private string? mstrWebSocketConnectionId;
 
 		[NonSerialized]
-		private IEmulatorForm cc3a02d2829d86da7c1f0932ee7e98518;
+		private IEmulatorForm? cc3a02d2829d86da7c1f0932ee7e98518;
 
 		[NonSerialized]
-		private IEmulationDevice c5b3a0eee9a0456dd1877bb1b13c6403b;
+		private IEmulationDevice? c5b3a0eee9a0456dd1877bb1b13c6403b;
 
 		[NonSerialized]
-		private IProxyMasterPage cadc93c39478274021fdac7dc0df7676a;
+		private IProxyMasterPage? cadc93c39478274021fdac7dc0df7676a;
 
 		[NonSerialized]
 		private Dictionary<string, IProxyMasterPage> c585ed66edcd6768b169cc0ef7afa52b1 = new Dictionary<string, IProxyMasterPage>();
 
-		private Dictionary<Type, Dictionary<string, List<object>>> mobjVisualTemplatesData;
+		private Dictionary<Type, Dictionary<string, List<object>>>? mobjVisualTemplatesData;
 
-		private IForm mobjContextualToolbar;
+		private IForm? mobjContextualToolbar;
 
-		private WebSocketService mobjWebSocketService;
+		private WebSocketService? mobjWebSocketService;
 
 		private const int mintSerializableFieldCount = 10;
 
@@ -6473,8 +6475,12 @@ namespace A
 {
 	internal class c908eaefa54d6b5be30c4c863d79037e1
 	{
-		internal static byte[] cc2ad4aa851b5f88a873f3f558265da16(Stream c286e8b84f07343a2f7ce638bbe7e7941)
+		internal static byte[] cc2ad4aa851b5f88a873f3f558265da16(Stream? c286e8b84f07343a2f7ce638bbe7e7941)
 		{
+			if (c286e8b84f07343a2f7ce638bbe7e7941 == null)
+			{
+				return Array.Empty<byte>();
+			}
 			byte b = (byte)c286e8b84f07343a2f7ce638bbe7e7941.ReadByte();
 			byte[] array = new byte[c286e8b84f07343a2f7ce638bbe7e7941.Length - 1];
 			c286e8b84f07343a2f7ce638bbe7e7941.Read(array, 0, array.Length);
@@ -6484,7 +6490,7 @@ namespace A
 			}
 			else
 			{
-				DESCryptoServiceProvider dESCryptoServiceProvider = new DESCryptoServiceProvider();
+				using DES dESCryptoServiceProvider = DES.Create();
 				byte[] array2 = new byte[8];
 				Buffer.BlockCopy(array, 0, array2, 0, 8);
 				dESCryptoServiceProvider.IV = array2;
@@ -6507,7 +6513,11 @@ namespace A
 				}
 				else
 				{
-					array3 = Assembly.GetExecutingAssembly().GetName().GetPublicKeyToken();
+					byte[]? publicKeyToken = Assembly.GetExecutingAssembly().GetName().GetPublicKeyToken();
+					if (publicKeyToken != null && publicKeyToken.Length == 8)
+					{
+						array3 = publicKeyToken;
+					}
 				}
 				dESCryptoServiceProvider.Key = array3;
 				array = dESCryptoServiceProvider.CreateDecryptor().TransformFinalBlock(array, 16, array.Length - 16);
@@ -6551,7 +6561,7 @@ namespace A
 	{
 		private ILink cef1d1e7f26a27499c8e39883af099edf;
 
-		private ILinkParameters cbf23f3f8d49acbe9a181ea8d9d36cd19;
+		private ILinkParameters cbf23f3f8d49acbe9a181ea8d9d36cd19 = null!;
 
 		public ILink Link => cef1d1e7f26a27499c8e39883af099edf;
 
@@ -6574,7 +6584,7 @@ namespace Gizmox.WebGUI.Server
 	[Serializable]
 	internal class ContextTimers : IEventHandler, IRegisteredComponent, ITimerHandler
 	{
-		private Dictionary<int, ITimer> mobjTimers;
+		private Dictionary<int, ITimer>? mobjTimers;
 
 		private int mintUniqueTimerId;
 
@@ -6855,7 +6865,7 @@ namespace Gizmox.WebGUI.Server
 					flag = false;
 					break;
 				}
-				string value2 = null;
+				string? value2 = null;
 				HostCookie hostCookie;
 				if (!flag)
 				{
@@ -6983,7 +6993,7 @@ namespace A
 
 		public override void ProcessRequest(HostContext objHostContext)
 		{
-			IResponseWriter objXmlWriter = null;
+			IResponseWriter? objXmlWriter = null;
 			((IServerResponse)c8f695bda1002ddbedbc6a2bfcf6960a0.Response).WriteError(Source, Message, ref objXmlWriter);
 		}
 	}
@@ -7009,9 +7019,9 @@ namespace Gizmox.WebGUI.Server
 
 		private readonly int mintCursorPositionY;
 
-		private string[] mstrAttributeNames;
+		private string[] mstrAttributeNames = Array.Empty<string>();
 
-		private string[] mstrAttributeValues;
+		private string[] mstrAttributeValues = Array.Empty<string>();
 
 		private int mintAttributeLength;
 
@@ -7364,13 +7374,13 @@ namespace Gizmox.WebGUI.Server
 			}
 		}
 
-		private Thread mobjProcessingThread;
+		private Thread? mobjProcessingThread;
 
-		private c62f5849854222385ef56e1893b2527e8 mobjRequestProcessorInfo;
+		private c62f5849854222385ef56e1893b2527e8? mobjRequestProcessorInfo;
 
 		private Queue<IEvent> mobjProcessingQueue = new Queue<IEvent>();
 
-		private IEvent mobjCurrentProcessedEvent;
+		private IEvent? mobjCurrentProcessedEvent;
 
 		private Dictionary<IForm, Queue<IEvent>> mobjSuspendedQueues = new Dictionary<IForm, Queue<IEvent>>();
 
@@ -7552,7 +7562,7 @@ namespace Gizmox.WebGUI.Server
 
 		private void AttachThread(Thread objCurrentThread)
 		{
-			mobjRequestProcessorInfo = new c62f5849854222385ef56e1893b2527e8(Thread.CurrentThread, HttpContext.Current);
+			mobjRequestProcessorInfo = new c62f5849854222385ef56e1893b2527e8(Thread.CurrentThread, HttpContext.Current!);
 		}
 
 		internal void Enqueue(IEvent objEvent)
@@ -8467,11 +8477,11 @@ namespace Gizmox.WebGUI.Server
 
 		private bool mblnHasEvents;
 
-		private XPathDocument mobjDocument;
+		private XPathDocument mobjDocument = null!;
 
-		private XPathNavigator mobjNavigator;
+		private XPathNavigator mobjNavigator = null!;
 
-		private EventQueue mobjEvents;
+		private EventQueue mobjEvents = null!;
 
 		private HostRequestInfo mobjRequestInfo;
 
@@ -8576,7 +8586,7 @@ namespace Gizmox.WebGUI.Server
 
 		private string mstrControlsNamespace = WGConst.ControlsNamespace;
 
-		private ArrayList mobjTraces;
+		private ArrayList? mobjTraces;
 
 		private bool mblnTrace = true;
 
@@ -8721,7 +8731,7 @@ namespace Gizmox.WebGUI.Server
 			else
 			{
 				xmlTextWriter.WriteAttributeString("Refferer", Context.Referrer);
-				string[] allKeys = Context.Results.AllKeys;
+				string[] allKeys = Array.ConvertAll(Context.Results.AllKeys ?? Array.Empty<string>(), (string? key) => key ?? string.Empty);
 				for (int i = 0; i < allKeys.Length; i++)
 				{
 					/*OpCode not supported: LdMemberToken*/;
@@ -9085,7 +9095,7 @@ namespace Gizmox.WebGUI.Server
 
 		IHttpHandler IHttpHandlerFactory.GetHandler(HttpContext objHttpContext, string strRequestType, string strUrl, string strPathTranslated)
 		{
-			IHttpHandler httpHandler = null;
+			IHttpHandler? httpHandler = null;
 			HostContext objHostContext = (HostContext.Current = HttpHostContext.Create(objHttpContext));
 			httpHandler = GetHandler(objHostContext);
 			if (CommonUtils.IsMono)
@@ -9111,26 +9121,18 @@ namespace Gizmox.WebGUI.Server
 			}
 			goto IL_006f;
 			IL_006f:
-			return httpHandler;
+			return httpHandler!;
 		}
 
 		protected HostHttpHandler GetHandler(HostContext objHostContext)
 		{
-			HostHttpHandler hostHttpHandler = null;
 			Context context = CreateContext(objHostContext);
 			if (context.IsRedirectToSSLRequired)
 			{
 				RedirectToSSL(objHostContext);
-				return null;
+				return null!;
 			}
-			try
-			{
-				return GetHttpHandler(objHostContext, context);
-			}
-			catch (Exception ex)
-			{
-				throw;
-			}
+			return GetHttpHandler(objHostContext, context);
 		}
 
 		protected static void ApplyContentDispositionIfNeeded(HostContext objHttpContext, RequestType enmRequestType)
@@ -9193,7 +9195,7 @@ namespace Gizmox.WebGUI.Server
 				objHostContext.Response.Buffer = false;
 			}
 			ApplyContentDispositionIfNeeded(objHostContext, type);
-			HostHttpHandler result = null;
+			HostHttpHandler? result = null;
 			switch (type)
 			{
 			case RequestType.Content:
@@ -9250,12 +9252,12 @@ namespace Gizmox.WebGUI.Server
 				break;
 			}
 			}
-			return result;
+			return result!;
 		}
 
 		NameValueCollection IRouter.GetArguments(string strForm, string strInstance)
 		{
-			NameValueCollection result = null;
+			NameValueCollection? result = null;
 			ContextContainer contextContainer = new Session(null).GetContextContainer(strForm, strInstance);
 			if (contextContainer == null)
 			{
@@ -9265,12 +9267,12 @@ namespace Gizmox.WebGUI.Server
 			{
 				result = contextContainer.Arguments;
 			}
-			return result;
+			return result!;
 		}
 
 		NameValueCollection IRouter.GetResults(string strForm, string strInstance)
 		{
-			NameValueCollection result = null;
+			NameValueCollection? result = null;
 			ContextContainer contextContainer = new Session(null).GetContextContainer(strForm, strInstance);
 			if (contextContainer == null)
 			{
@@ -9280,7 +9282,7 @@ namespace Gizmox.WebGUI.Server
 			{
 				result = new ReadOnlyResultsProvider(contextContainer.Results);
 			}
-			return result;
+			return result!;
 		}
 	}
 }
@@ -9364,9 +9366,9 @@ namespace Gizmox.WebGUI.Server
 	[Serializable]
 	internal class Session : Gizmox.WebGUI.Common.Interfaces.ISession
 	{
-		private HostSessionState mobjHttpSession;
+		private HostSessionState? mobjHttpSession;
 
-		private SessionContainer mobjSessionContainer;
+		private SessionContainer? mobjSessionContainer;
 
 		private SessionContainer SessionContainer
 		{
@@ -9388,11 +9390,11 @@ namespace Gizmox.WebGUI.Server
 				{
 					mobjSessionContainer = new SessionContainer();
 				}
-				return mobjSessionContainer;
+				return mobjSessionContainer!;
 			}
 		}
 
-		public string SessionID => mobjHttpSession.SessionID;
+		public string SessionID => mobjHttpSession?.SessionID ?? string.Empty;
 
 		public bool IsLoggedOn
 		{
@@ -9422,11 +9424,11 @@ namespace Gizmox.WebGUI.Server
 		{
 			get
 			{
-				return mobjHttpSession[strProperty];
+				return mobjHttpSession![strProperty];
 			}
 			set
 			{
-				mobjHttpSession[strProperty] = value;
+				mobjHttpSession![strProperty] = value;
 			}
 		}
 
@@ -9454,7 +9456,7 @@ namespace Gizmox.WebGUI.Server
 
 		internal ContextContainer GetContextContainer(string strKey, string strInstance, bool blnCreateIfNotFound)
 		{
-			ContextContainer contextContainer = null;
+			ContextContainer? contextContainer = null;
 			string contextContainerKey = GetContextContainerKey(strKey, strInstance);
 			if (mobjHttpSession == null)
 			{
@@ -9477,7 +9479,7 @@ namespace Gizmox.WebGUI.Server
 					mobjHttpSession[contextContainerKey] = contextContainer;
 				}
 			}
-			return contextContainer;
+			return contextContainer!;
 		}
 
 		internal ContextContainer GetContextContainer(string strKey, string strInstance)
@@ -9487,7 +9489,7 @@ namespace Gizmox.WebGUI.Server
 
 		internal void DeleteContextContainer(string strKey, string strInstance)
 		{
-			mobjHttpSession.Remove(GetContextContainerKey(strKey, strInstance));
+			mobjHttpSession?.Remove(GetContextContainerKey(strKey, strInstance));
 		}
 
 		private string GetContextContainerKey(string strKey, string strInstance)
@@ -9510,7 +9512,7 @@ namespace Gizmox.WebGUI.Server
 		private LoginHelper c74879b6b4a4a3d7b0196475325109d8a = new LoginHelper();
 
 		[NonSerialized]
-		private CultureInfo c7ce8a52d648ad8c61c4d4cc0656bf66f;
+		private CultureInfo? c7ce8a52d648ad8c61c4d4cc0656bf66f;
 
 		protected override int SerializableDataInitialSize => 2;
 
@@ -9530,7 +9532,7 @@ namespace Gizmox.WebGUI.Server
 		{
 			get
 			{
-				return c7ce8a52d648ad8c61c4d4cc0656bf66f;
+				return c7ce8a52d648ad8c61c4d4cc0656bf66f ?? CultureInfo.CurrentUICulture;
 			}
 			set
 			{
@@ -9585,7 +9587,7 @@ namespace Gizmox.WebGUI.Server
 		{
 			private static readonly WaitHandle c77d3ddf1cce494581bdff10f3c299df4 = new ManualResetEvent(initialState: true);
 
-			public object AsyncState => null;
+			public object AsyncState => null!;
 
 			public WaitHandle AsyncWaitHandle => c77d3ddf1cce494581bdff10f3c299df4;
 
@@ -9612,7 +9614,11 @@ namespace Gizmox.WebGUI.Server
 			}
 			else
 			{
-				cf43726a9df8a68715ad349493cc1f936.ProcessRequest(HttpContext.Current);
+				HttpContext current = HttpContext.Current;
+				if (current != null)
+				{
+					cf43726a9df8a68715ad349493cc1f936.ProcessRequest(current);
+				}
 			}
 		}
 
@@ -9639,7 +9645,7 @@ namespace A
 	{
 		private string[] c729771ff2841b23a485df14168ad8c15;
 
-		private Type c798a533b1c141b902aef328d97cdfd46;
+		private Type c798a533b1c141b902aef328d97cdfd46 = typeof(object);
 
 		public override string Subject => c729771ff2841b23a485df14168ad8c15[2];
 
@@ -9673,7 +9679,7 @@ namespace A
 	}
 	internal class ce7877c7ee4c3060c535e119111a8c060
 	{
-		private static Type RouterType => Type.GetType("Gizmox.WebGUI.Server.Router,Gizmox.WebGUI.Server,Version=4.5.25701.0,Culture=neutral,PublicKeyToken=3de6eb684226c24d");
+		private static Type? RouterType => Type.GetType("Gizmox.WebGUI.Server.Router,Gizmox.WebGUI.Server,Version=4.5.25701.0,Culture=neutral,PublicKeyToken=3de6eb684226c24d");
 
 		internal static EventQueue GetEvents(Context objContext, string strEvents, out long lngLastRender)
 		{
@@ -9728,7 +9734,11 @@ namespace A
 			while (xPathNodeIterator.MoveNext())
 			{
 				/*OpCode not supported: LdMemberToken*/;
-				eventQueue.Enqueue(new Event(xPathNodeIterator.Current.Clone()));
+				XPathNavigator? current = xPathNodeIterator.Current;
+				if (current != null)
+				{
+					eventQueue.Enqueue(new Event(current.Clone()));
+				}
 			}
 			return eventQueue;
 		}
@@ -9743,9 +9753,9 @@ namespace A
 			return objCookie.HttpOnly;
 		}
 
-		internal static IRouter GetRouter()
+		internal static IRouter? GetRouter()
 		{
-			Type routerType = RouterType;
+			Type? routerType = RouterType;
 			if (!(routerType != null))
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -9970,13 +9980,13 @@ namespace Gizmox.WebGUI.Server.Resources
 				{
 					return;
 				}
-				string text = objHostContext.Request.QueryString["skin"];
+				string? text = objHostContext.Request.QueryString["skin"];
 				if (string.IsNullOrEmpty(text))
 				{
 					/*OpCode not supported: LdMemberToken*/;
 					return;
 				}
-				Type type = Type.GetType(text);
+				Type? type = Type.GetType(text);
 				if (!(type != null))
 				{
 					/*OpCode not supported: LdMemberToken*/;
@@ -9988,13 +9998,13 @@ namespace Gizmox.WebGUI.Server.Resources
 					/*OpCode not supported: LdMemberToken*/;
 					return;
 				}
-				PropertyInfo property = type.GetProperty(resource);
+				PropertyInfo? property = type.GetProperty(resource);
 				if (!(property != null))
 				{
 					/*OpCode not supported: LdMemberToken*/;
 					return;
 				}
-				object value = property.GetValue(skin, new object[0]);
+				object? value = property.GetValue(skin, new object[0]);
 				if (value == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
@@ -10008,24 +10018,24 @@ namespace Gizmox.WebGUI.Server.Resources
 			}
 		}
 
-		private Image GetFrameStyleImage(Skin objSkin, object objFrameStyle)
+		private Image? GetFrameStyleImage(Skin objSkin, object objFrameStyle)
 		{
-			Image result = null;
+			Image? result = null;
 			if (objFrameStyle == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
 			}
 			else
 			{
-				Image imageByFramePartProperty = GetImageByFramePartProperty(objSkin, objFrameStyle, "LeftTopStyle");
-				Image imageByFramePartProperty2 = GetImageByFramePartProperty(objSkin, objFrameStyle, "TopStyle");
-				Image imageByFramePartProperty3 = GetImageByFramePartProperty(objSkin, objFrameStyle, "RightTopStyle");
-				Image imageByFramePartProperty4 = GetImageByFramePartProperty(objSkin, objFrameStyle, "LeftStyle");
-				Image imageByFramePartProperty5 = GetImageByFramePartProperty(objSkin, objFrameStyle, "CenterStyle");
-				Image imageByFramePartProperty6 = GetImageByFramePartProperty(objSkin, objFrameStyle, "RightStyle");
-				Image imageByFramePartProperty7 = GetImageByFramePartProperty(objSkin, objFrameStyle, "LeftBottomStyle");
-				Image imageByFramePartProperty8 = GetImageByFramePartProperty(objSkin, objFrameStyle, "BottomStyle");
-				Image imageByFramePartProperty9 = GetImageByFramePartProperty(objSkin, objFrameStyle, "RightBottomStyle");
+				Image? imageByFramePartProperty = GetImageByFramePartProperty(objSkin, objFrameStyle, "LeftTopStyle");
+				Image? imageByFramePartProperty2 = GetImageByFramePartProperty(objSkin, objFrameStyle, "TopStyle");
+				Image? imageByFramePartProperty3 = GetImageByFramePartProperty(objSkin, objFrameStyle, "RightTopStyle");
+				Image? imageByFramePartProperty4 = GetImageByFramePartProperty(objSkin, objFrameStyle, "LeftStyle");
+				Image? imageByFramePartProperty5 = GetImageByFramePartProperty(objSkin, objFrameStyle, "CenterStyle");
+				Image? imageByFramePartProperty6 = GetImageByFramePartProperty(objSkin, objFrameStyle, "RightStyle");
+				Image? imageByFramePartProperty7 = GetImageByFramePartProperty(objSkin, objFrameStyle, "LeftBottomStyle");
+				Image? imageByFramePartProperty8 = GetImageByFramePartProperty(objSkin, objFrameStyle, "BottomStyle");
+				Image? imageByFramePartProperty9 = GetImageByFramePartProperty(objSkin, objFrameStyle, "RightBottomStyle");
 				if (imageByFramePartProperty != null)
 				{
 					if (imageByFramePartProperty2 == null)
@@ -10116,9 +10126,9 @@ namespace Gizmox.WebGUI.Server.Resources
 			return Math.Max(Math.Max(intSize1, intSize2), intSize3);
 		}
 
-		private Image GetImageByFramePartProperty(Skin objSkin, object objFrameStyle, string strFramePartProperty)
+		private Image? GetImageByFramePartProperty(Skin objSkin, object objFrameStyle, string strFramePartProperty)
 		{
-			Image result = null;
+			Image? result = null;
 			if (objSkin == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -10139,7 +10149,7 @@ namespace Gizmox.WebGUI.Server.Resources
 					object propertyValue2 = GetPropertyValue(propertyValue, "BackgroundImage");
 					if (propertyValue2 != null)
 					{
-						string text = Convert.ToString(GetPropertyValue(propertyValue2, "ResourceName"));
+						string? text = Convert.ToString(GetPropertyValue(propertyValue2, "ResourceName"));
 						if (string.IsNullOrEmpty(text))
 						{
 							/*OpCode not supported: LdMemberToken*/;
@@ -10154,12 +10164,12 @@ namespace Gizmox.WebGUI.Server.Resources
 			return result;
 		}
 
-		public object GetPropertyValue(object objInstance, string strProperty)
+		public object? GetPropertyValue(object? objInstance, string strProperty)
 		{
 			return GetPropertyValue(objInstance, strProperty, BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public);
 		}
 
-		public object GetPropertyValue(object objInstance, string strProperty, BindingFlags enmBindingFlags)
+		public object? GetPropertyValue(object? objInstance, string strProperty, BindingFlags enmBindingFlags)
 		{
 			if (objInstance == null)
 			{
@@ -10170,7 +10180,6 @@ namespace Gizmox.WebGUI.Server.Resources
 				PropertyInfo property = objInstance.GetType().GetProperty(strProperty, enmBindingFlags);
 				if (property != null)
 				{
-					object obj = null;
 					try
 					{
 						return property.GetValue(objInstance, new object[0]);
@@ -10241,21 +10250,21 @@ namespace Gizmox.WebGUI.Server.Resources
 		public override void ProcessRequest(HostContext objHostContext)
 		{
 			string resource = ((IRequestParams)mobjContext.Request).Resource;
-			string text = objHostContext.Request.QueryString["culture"];
+			string? text = objHostContext.Request.QueryString["culture"];
 			if (text != null && text != string.Empty)
 			{
-				string text2 = objHostContext.Request.QueryString["type"];
+				string? text2 = objHostContext.Request.QueryString["type"];
 				if (!string.IsNullOrEmpty(text2))
 				{
-					Type type = Type.GetType(text2);
+					Type? type = Type.GetType(text2);
 					if (!(type != null))
 					{
 						/*OpCode not supported: LdMemberToken*/;
 					}
 					else
 					{
-						System.Resources.ResourceManager resourceManager = null;
-						string text3 = objHostContext.Request.QueryString["basepath"];
+						System.Resources.ResourceManager? resourceManager = null;
+						string? text3 = objHostContext.Request.QueryString["basepath"];
 						if (string.IsNullOrEmpty(text3))
 						{
 							/*OpCode not supported: LdMemberToken*/;
@@ -10267,7 +10276,7 @@ namespace Gizmox.WebGUI.Server.Resources
 						}
 						if (resourceManager != null)
 						{
-							object obj = resourceManager.GetObject(resource, new CultureInfo(text));
+							object? obj = resourceManager.GetObject(resource, new CultureInfo(text));
 							if (obj == null)
 							{
 								/*OpCode not supported: LdMemberToken*/;
@@ -10277,7 +10286,7 @@ namespace Gizmox.WebGUI.Server.Resources
 								SetResponseCacheState(objHostContext);
 								if (obj.GetType() == typeof(string))
 								{
-									objHostContext.Response.ContentType = CommonUtils.GetMimeType(Convert.ToString(obj));
+									objHostContext.Response.ContentType = CommonUtils.GetMimeType(Convert.ToString(obj) ?? string.Empty);
 									objHostContext.Response.Write(Convert.ToString(obj));
 									return;
 								}
@@ -10324,17 +10333,17 @@ namespace Gizmox.WebGUI.Server.Resources.Readers
 
 		public string Resource => c2c89d19b44c14e9caa49181b8f41b29a;
 
-		public ManifestResourceInfo ResourceInfo => cd7bd2298ff38ed446dfc179283dce6bc.GetManifestResourceInfo(c2c89d19b44c14e9caa49181b8f41b29a);
+		public ManifestResourceInfo? ResourceInfo => cd7bd2298ff38ed446dfc179283dce6bc.GetManifestResourceInfo(c2c89d19b44c14e9caa49181b8f41b29a);
 
 		public EmbededResource(Assembly objAssembly, string strResource)
 		{
 			cd7bd2298ff38ed446dfc179283dce6bc = objAssembly;
-			c2c89d19b44c14e9caa49181b8f41b29a = objAssembly.FullName.Split(',')[0] + "." + strResource;
+			c2c89d19b44c14e9caa49181b8f41b29a = (objAssembly.FullName ?? string.Empty).Split(',')[0] + "." + strResource;
 		}
 
 		public virtual Stream ToStream()
 		{
-			return cd7bd2298ff38ed446dfc179283dce6bc.GetManifestResourceStream(c2c89d19b44c14e9caa49181b8f41b29a);
+			return cd7bd2298ff38ed446dfc179283dce6bc.GetManifestResourceStream(c2c89d19b44c14e9caa49181b8f41b29a)!;
 		}
 
 		public XmlDocument ToXml()
@@ -10446,7 +10455,7 @@ namespace Gizmox.WebGUI.Server.Providers
 
 		public ArgumentsProvider(HostRequest objHostRequest)
 		{
-			string[] allKeys = objHostRequest.QueryString.AllKeys;
+			string[] allKeys = Array.ConvertAll(objHostRequest.QueryString.AllKeys ?? Array.Empty<string>(), (string? key) => key ?? string.Empty);
 			for (int i = 0; i < allKeys.Length; i++)
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -10460,7 +10469,7 @@ namespace Gizmox.WebGUI.Server.Providers
 					base[text] = objHostRequest.QueryString[text];
 				}
 			}
-			allKeys = objHostRequest.Form.AllKeys;
+			allKeys = Array.ConvertAll(objHostRequest.Form.AllKeys ?? Array.Empty<string>(), (string? key) => key ?? string.Empty);
 			for (int i = 0; i < allKeys.Length; i++)
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -10472,12 +10481,12 @@ namespace Gizmox.WebGUI.Server.Providers
 					continue;
 				case "$mashuptoken":
 					/*OpCode not supported: LdMemberToken*/;
-					mstrMashupId = objHostRequest.Form[text2];
+					mstrMashupId = objHostRequest.Form[text2] ?? string.Empty;
 					continue;
 				case "$mashuptype":
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					string text3 = objHostRequest.Form[text2];
+					string? text3 = objHostRequest.Form[text2];
 					if (!(text3 == "modaldialog"))
 					{
 						/*OpCode not supported: LdMemberToken*/;
@@ -10523,11 +10532,11 @@ namespace Gizmox.WebGUI.Server.Hosting
 {
 	public class NativeHost : MarshalByRefObject, IRegisteredObject
 	{
-		private cbe9936ad5de9658f311b4f493232f253 cf3e5d8e1dfde533d35adce734e508a91;
+		private cbe9936ad5de9658f311b4f493232f253? cf3e5d8e1dfde533d35adce734e508a91;
 
-		private Thread c64e9b02c482ab4e9e7f9a6f359be56f2;
+		private Thread? c64e9b02c482ab4e9e7f9a6f359be56f2;
 
-		private NativeHostManager ced367db5b823e306bb2ee64f9bc70439;
+		private NativeHostManager? ced367db5b823e306bb2ee64f9bc70439;
 
 		private cbe9936ad5de9658f311b4f493232f253 HostProvider
 		{
@@ -10795,13 +10804,13 @@ namespace A
 	{
 		private cace92c1d33698dcd2e5827f7129bb7f3 cccaea3803161b3e9ae034a02762fc87f;
 
-		private string c979017224f4cb81e9bd78ccb00645982;
+		private string? c979017224f4cb81e9bd78ccb00645982;
 
 		private bool c92af6c8b49eb0cfa0aad3acd46f697a8 = true;
 
 		private HttpCacheability c59e1f2bb25a053d476118c5de9e86166 = HttpCacheability.NoCache;
 
-		private string cebe00dc6c575e43d568984f951b979f1;
+		private string? cebe00dc6c575e43d568984f951b979f1;
 
 		private DateTime c9b81ee94487e4ad313bee5bc8e42e82d = DateTime.Now;
 
@@ -10899,13 +10908,13 @@ namespace A
 	}
 	internal class cc5d4538b8a75eeeda8789c0af1e3f5cf : HostContext
 	{
-		private Hashtable cc2d9bcf218b471edb8b1315391cc93aa;
+		private Hashtable? cc2d9bcf218b471edb8b1315391cc93aa;
 
 		private readonly DateTime c3eed7f8af5c177bac639089eda675965 = DateTime.Now;
 
 		private readonly cc5493c4d24769facba3e8ccf0d9f6c9f cd0c51359af2cb24eafa122eb3f0c8d4a;
 
-		public override HttpContext HttpContext => null;
+		public override HttpContext HttpContext => null!;
 
 		public override IDictionary Items
 		{
@@ -10931,7 +10940,7 @@ namespace A
 		{
 			get
 			{
-				return Thread.CurrentPrincipal;
+				return Thread.CurrentPrincipal!;
 			}
 			set
 			{
@@ -10989,7 +10998,7 @@ namespace A
 
 		private bool c5ff0352e65738a36220606b95cb70c61;
 
-		private string c79fffda5dd11a5c19125206c0b124928;
+		private string c79fffda5dd11a5c19125206c0b124928 = string.Empty;
 
 		private bool c55ea7c90ef9b1675de1475390cbec476;
 
@@ -10997,15 +11006,15 @@ namespace A
 
 		private bool c34ab9ded77834aa7584eaada062b1048;
 
-		private c95df08bd4b9e4ffcc8088c4a1158cab5 c6b4fbb874fe140e33a0178edc055fa43;
+		private c95df08bd4b9e4ffcc8088c4a1158cab5? c6b4fbb874fe140e33a0178edc055fa43;
 
-		private string cfb88fd6448584cdcf273e5a1cc1ba7af;
+		private string cfb88fd6448584cdcf273e5a1cc1ba7af = string.Empty;
 
-		private string c01a12fa8cc5674fd3df41c39dcb99ccd;
+		private string c01a12fa8cc5674fd3df41c39dcb99ccd = string.Empty;
 
 		private bool ce7f87c55c5198659d568d4f73a115f19;
 
-		private string ca03b765fbf0a37c204832355dc830a32;
+		private string? ca03b765fbf0a37c204832355dc830a32;
 
 		internal bool Added
 		{
@@ -11082,7 +11091,7 @@ namespace A
 		{
 			get
 			{
-				return Values[key];
+				return Values[key] ?? string.Empty;
 			}
 			set
 			{
@@ -11137,7 +11146,7 @@ namespace A
 				if (c6b4fbb874fe140e33a0178edc055fa43 == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return ca03b765fbf0a37c204832355dc830a32;
+					return ca03b765fbf0a37c204832355dc830a32 ?? string.Empty;
 				}
 				return c6b4fbb874fe140e33a0178edc055fa43.ToString(urlencoded: false);
 			}
@@ -11459,7 +11468,7 @@ namespace A
 	}
 	internal class c4c3fb34cc40b22ec21c1274d148345e5 : HostFileCollection
 	{
-		private c8641b93435b8b4af13d1463b310513c9 c785fdb34d8ae3b30db65b308c251e6f9;
+		private c8641b93435b8b4af13d1463b310513c9? c785fdb34d8ae3b30db65b308c251e6f9;
 
 		public override string[] AllKeys
 		{
@@ -11492,7 +11501,7 @@ namespace A
 			get
 			{
 				EnsureStorage();
-				return c785fdb34d8ae3b30db65b308c251e6f9.Keys;
+				return c785fdb34d8ae3b30db65b308c251e6f9!.Keys;
 			}
 		}
 
@@ -11504,7 +11513,7 @@ namespace A
 				{
 					return (HostPostedFile)c785fdb34d8ae3b30db65b308c251e6f9[index];
 				}
-				return null;
+				return null!;
 			}
 		}
 
@@ -11515,7 +11524,7 @@ namespace A
 				if (c785fdb34d8ae3b30db65b308c251e6f9 == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return null;
+					return null!;
 				}
 				return (HostPostedFile)c785fdb34d8ae3b30db65b308c251e6f9[name];
 			}
@@ -11534,7 +11543,7 @@ namespace A
 			if (c785fdb34d8ae3b30db65b308c251e6f9 == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
-				return null;
+				return null!;
 			}
 			return (HostPostedFile)c785fdb34d8ae3b30db65b308c251e6f9.Get(name);
 		}
@@ -11545,7 +11554,7 @@ namespace A
 			{
 				return (HostPostedFile)c785fdb34d8ae3b30db65b308c251e6f9.Get(index);
 			}
-			return null;
+			return null!;
 		}
 
 		public override IEnumerator GetEnumerator()
@@ -11553,7 +11562,7 @@ namespace A
 			if (c785fdb34d8ae3b30db65b308c251e6f9 == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
-				return null;
+				return Array.Empty<object>().GetEnumerator();
 			}
 			return c785fdb34d8ae3b30db65b308c251e6f9.GetEnumerator();
 		}
@@ -11563,7 +11572,7 @@ namespace A
 			if (c785fdb34d8ae3b30db65b308c251e6f9 == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
-				return null;
+				return string.Empty;
 			}
 			return c785fdb34d8ae3b30db65b308c251e6f9.GetKey(index);
 		}
@@ -11571,7 +11580,7 @@ namespace A
 		internal void AddFile(string strName, c0392e356553c4f7784233271beeb65d8 objPostedFile)
 		{
 			EnsureStorage();
-			c785fdb34d8ae3b30db65b308c251e6f9.Add(strName, objPostedFile);
+			c785fdb34d8ae3b30db65b308c251e6f9!.Add(strName, objPostedFile);
 		}
 
 		private void EnsureStorage()
@@ -11610,9 +11619,9 @@ namespace A
 {
 	internal sealed class c8641b93435b8b4af13d1463b310513c9 : NameObjectCollectionBase
 	{
-		private c8097136eb8ff7ad5cea315298ffd25c8[] c2b5eacdd0775b8f3b877e66c16e12081;
+		private c8097136eb8ff7ad5cea315298ffd25c8[]? c2b5eacdd0775b8f3b877e66c16e12081;
 
-		private string[] cbfdabd1d2ef3eae59b5fbcb9dff3a28c;
+		private string[]? cbfdabd1d2ef3eae59b5fbcb9dff3a28c;
 
 		public string[] AllKeys
 		{
@@ -11624,9 +11633,9 @@ namespace A
 				}
 				else
 				{
-					cbfdabd1d2ef3eae59b5fbcb9dff3a28c = BaseGetAllKeys();
+					cbfdabd1d2ef3eae59b5fbcb9dff3a28c = Array.ConvertAll(BaseGetAllKeys() ?? Array.Empty<string>(), (string? key) => key ?? string.Empty);
 				}
-				return cbfdabd1d2ef3eae59b5fbcb9dff3a28c;
+				return cbfdabd1d2ef3eae59b5fbcb9dff3a28c ?? Array.Empty<string>();
 			}
 		}
 
@@ -11666,17 +11675,17 @@ namespace A
 
 		public c8097136eb8ff7ad5cea315298ffd25c8 Get(int index)
 		{
-			return (c8097136eb8ff7ad5cea315298ffd25c8)BaseGet(index);
+			return (c8097136eb8ff7ad5cea315298ffd25c8)BaseGet(index)!;
 		}
 
 		public c8097136eb8ff7ad5cea315298ffd25c8 Get(string name)
 		{
-			return (c8097136eb8ff7ad5cea315298ffd25c8)BaseGet(name);
+			return (c8097136eb8ff7ad5cea315298ffd25c8)BaseGet(name)!;
 		}
 
 		public string GetKey(int index)
 		{
-			return BaseGetKey(index);
+			return BaseGetKey(index) ?? string.Empty;
 		}
 
 		public void Clear()
@@ -11735,9 +11744,10 @@ namespace A
 			FillFromString(s, urlencoded: false, null);
 		}
 
-		internal void FillFromString(string s, bool urlencoded, Encoding encoding)
+		internal void FillFromString(string? s, bool urlencoded, Encoding? encoding)
 		{
-			int num = s?.Length ?? 0;
+			string text4 = s ?? string.Empty;
+			int num = text4.Length;
 			for (int i = 0; i < num; i++)
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -11746,7 +11756,7 @@ namespace A
 				for (; i < num; i++)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					char c = s[i];
+					char c = text4[i];
 					if (c != '=')
 					{
 						/*OpCode not supported: LdMemberToken*/;
@@ -11761,17 +11771,17 @@ namespace A
 						num3 = i;
 					}
 				}
-				string text = null;
-				string text2 = null;
+				string? text = null;
+				string? text2 = null;
 				if (num3 < 0)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					text2 = s.Substring(num2, i - num2);
+					text2 = text4.Substring(num2, i - num2);
 				}
 				else
 				{
-					text = s.Substring(num2, num3 - num2);
-					text2 = s.Substring(num3 + 1, i - num3 - 1);
+					text = text4.Substring(num2, num3 - num2);
+					text2 = text4.Substring(num3 + 1, i - num3 - 1);
 				}
 				if (!urlencoded)
 				{
@@ -11780,13 +11790,14 @@ namespace A
 				}
 				else
 				{
-					base.Add(HttpUtility.UrlDecode(text, encoding), HttpUtility.UrlDecode(text2, encoding));
+					Encoding effectiveEncoding = encoding ?? Encoding.UTF8;
+					base.Add(HttpUtility.UrlDecode(text, effectiveEncoding), HttpUtility.UrlDecode(text2, effectiveEncoding));
 				}
 				if (i != num - 1)
 				{
 					/*OpCode not supported: LdMemberToken*/;
 				}
-				else if (s[i] != '&')
+				else if (text4[i] != '&')
 				{
 					/*OpCode not supported: LdMemberToken*/;
 				}
@@ -11802,7 +11813,7 @@ namespace A
 			return ToString(urlencoded, null);
 		}
 
-		internal virtual string ToString(bool urlencoded, IDictionary excludeKeys)
+		internal virtual string ToString(bool urlencoded, IDictionary? excludeKeys)
 		{
 			int count = Count;
 			if (count != 0)
@@ -11823,7 +11834,7 @@ namespace A
 				for (int i = 0; i < count; i++)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					string text = GetKey(i);
+					string? text = GetKey(i);
 					if (flag)
 					{
 						if (text == null)
@@ -11846,7 +11857,7 @@ namespace A
 					}
 					else
 					{
-						text = HttpUtility.UrlEncode(text);
+						text = HttpUtility.UrlEncode(text) ?? string.Empty;
 					}
 					string text2;
 					if (!string.IsNullOrEmpty(text))
@@ -11884,7 +11895,7 @@ namespace A
 					case 1:
 					{
 						stringBuilder.Append(value);
-						string text3 = (string)arrayList[0];
+						string text3 = (string?)arrayList?[0] ?? string.Empty;
 						if (!urlencoded)
 						{
 							/*OpCode not supported: LdMemberToken*/;
@@ -11913,7 +11924,7 @@ namespace A
 							stringBuilder.Append('&');
 						}
 						stringBuilder.Append(value);
-						string text3 = (string)arrayList[j];
+						string text3 = (string?)arrayList?[j] ?? string.Empty;
 						if (!urlencoded)
 						{
 							/*OpCode not supported: LdMemberToken*/;
@@ -11932,9 +11943,9 @@ namespace A
 	}
 	internal abstract class cc5493c4d24769facba3e8ccf0d9f6c9f
 	{
-		private c2f083329b832bfcd1ac0ca00333517cf c7dd26c4bf4ef13b3d43278f21e941595;
+		private c2f083329b832bfcd1ac0ca00333517cf? c7dd26c4bf4ef13b3d43278f21e941595;
 
-		private ceef7f894921bcd269a4ecca3829f5747 c8c6f583cc37cdd8b5e849a68ce6d2c15;
+		private ceef7f894921bcd269a4ecca3829f5747? c8c6f583cc37cdd8b5e849a68ce6d2c15;
 
 		public c2f083329b832bfcd1ac0ca00333517cf Request
 		{
@@ -11948,7 +11959,7 @@ namespace A
 				{
 					c7dd26c4bf4ef13b3d43278f21e941595 = CreateRequestContext();
 				}
-				return c7dd26c4bf4ef13b3d43278f21e941595;
+				return c7dd26c4bf4ef13b3d43278f21e941595!;
 			}
 		}
 
@@ -11960,7 +11971,7 @@ namespace A
 				{
 					c8c6f583cc37cdd8b5e849a68ce6d2c15 = CreateResponseContext();
 				}
-				return c8c6f583cc37cdd8b5e849a68ce6d2c15;
+				return c8c6f583cc37cdd8b5e849a68ce6d2c15!;
 			}
 		}
 
@@ -11970,7 +11981,7 @@ namespace A
 	}
 	internal abstract class c2f083329b832bfcd1ac0ca00333517cf
 	{
-		private c17eb5257c817ec33d2ee18a3ea3e22dd cc8eb39cb40ff05d8aafe72f6a69a6158;
+		private c17eb5257c817ec33d2ee18a3ea3e22dd? cc8eb39cb40ff05d8aafe72f6a69a6158;
 
 		public abstract Uri Url { get; }
 
@@ -11994,7 +12005,7 @@ namespace A
 				{
 					cc8eb39cb40ff05d8aafe72f6a69a6158 = CreateHeaders();
 				}
-				return cc8eb39cb40ff05d8aafe72f6a69a6158;
+				return cc8eb39cb40ff05d8aafe72f6a69a6158!;
 			}
 		}
 
@@ -12006,7 +12017,7 @@ namespace A
 	}
 	internal abstract class ceef7f894921bcd269a4ecca3829f5747
 	{
-		private c17eb5257c817ec33d2ee18a3ea3e22dd cc8eb39cb40ff05d8aafe72f6a69a6158;
+		private c17eb5257c817ec33d2ee18a3ea3e22dd? cc8eb39cb40ff05d8aafe72f6a69a6158;
 
 		public c17eb5257c817ec33d2ee18a3ea3e22dd Headers
 		{
@@ -12016,7 +12027,7 @@ namespace A
 				{
 					cc8eb39cb40ff05d8aafe72f6a69a6158 = CreateHeaders();
 				}
-				return cc8eb39cb40ff05d8aafe72f6a69a6158;
+				return cc8eb39cb40ff05d8aafe72f6a69a6158!;
 			}
 		}
 
@@ -12126,19 +12137,19 @@ namespace A
 
 		private static c95df08bd4b9e4ffcc8088c4a1158cab5 c0b852293c693ba9ca31d3458642a206c;
 
-		private c4c3fb34cc40b22ec21c1274d148345e5 cb2fe01838ec5c70778e10d292b7224ad;
+		private c4c3fb34cc40b22ec21c1274d148345e5? cb2fe01838ec5c70778e10d292b7224ad;
 
-		private c95df08bd4b9e4ffcc8088c4a1158cab5 c24917fd69bff885cdff6c1d7ce684c36;
+		private c95df08bd4b9e4ffcc8088c4a1158cab5? c24917fd69bff885cdff6c1d7ce684c36;
 
 		private readonly c2f083329b832bfcd1ac0ca00333517cf c8365a5ef8bdaef6439f19319a8e47a43;
 
-		private c8a2e6509a4d765ea0a1dadc462172f91 c2b5ce7f7a0d2fd0cf5c029026ff5edce;
+		private c8a2e6509a4d765ea0a1dadc462172f91? c2b5ce7f7a0d2fd0cf5c029026ff5edce;
 
-		private Encoding c4564bdacf0e27874fdfe7cd843ec92cc;
+		private Encoding? c4564bdacf0e27874fdfe7cd843ec92cc;
 
-		private ce24e6cda64b98aa5c7b56212211ec57c[] c12b524e587e153de4721e94742d88ac9;
+		private ce24e6cda64b98aa5c7b56212211ec57c[]? c12b524e587e153de4721e94742d88ac9;
 
-		private c4ce1a7d86d5e0c4b51327c0a0619459b cfe8767fe1be955bf90ddf4c65417359f;
+		private c4ce1a7d86d5e0c4b51327c0a0619459b? cfe8767fe1be955bf90ddf4c65417359f;
 
 		public override string ContentType => GetRequestHeader(HttpRequestHeader.ContentType, "");
 
@@ -12167,7 +12178,7 @@ namespace A
 		{
 			get
 			{
-				string text = QueryString[key];
+				string? text = QueryString[key];
 				if (text == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
@@ -12184,13 +12195,13 @@ namespace A
 							{
 								return text;
 							}
-							return null;
+							return string.Empty;
 						}
 						return hostCookie.Value;
 					}
 					return text;
 				}
-				return text;
+				return text ?? string.Empty;
 			}
 		}
 
@@ -12241,7 +12252,7 @@ namespace A
 			}
 		}
 
-		internal cace92c1d33698dcd2e5827f7129bb7f3 Response
+		internal cace92c1d33698dcd2e5827f7129bb7f3? Response
 		{
 			get
 			{
@@ -12442,7 +12453,7 @@ namespace A
 			return cfe8767fe1be955bf90ddf4c65417359f;
 		}
 
-		private byte[] GetMultipartBoundary()
+		private byte[]? GetMultipartBoundary()
 		{
 			string attributeFromHeader = GetAttributeFromHeader(ContentType, "boundary");
 			if (attributeFromHeader == null)
@@ -12453,7 +12464,7 @@ namespace A
 			return Encoding.ASCII.GetBytes(attributeFromHeader.ToCharArray());
 		}
 
-		private static string GetAttributeFromHeader(string headerValue, string attrName)
+		private static string? GetAttributeFromHeader(string headerValue, string attrName)
 		{
 			if (headerValue != null)
 			{
@@ -12602,7 +12613,7 @@ namespace A
 			return null;
 		}
 
-		private Encoding GetEncodingFromHeaders()
+		private Encoding? GetEncodingFromHeaders()
 		{
 			if (UserAgent != null && CultureInfo.InvariantCulture.CompareInfo.IsPrefix(UserAgent, "UP"))
 			{
@@ -12631,7 +12642,7 @@ namespace A
 				{
 					return null;
 				}
-				Encoding result = null;
+				Encoding? result = null;
 				try
 				{
 					result = Encoding.GetEncoding(attributeFromHeader);
@@ -12751,7 +12762,7 @@ namespace A
 	}
 	internal class c8eb346db2ce88520a45fe2dd3036d3c5 : Stream
 	{
-		private c4ce1a7d86d5e0c4b51327c0a0619459b c037bcf050635121630a73c4c7d7aeaef;
+		private c4ce1a7d86d5e0c4b51327c0a0619459b c037bcf050635121630a73c4c7d7aeaef = null!;
 
 		private int c7170a3e9ede2d2c40a24d4ba8b8f609c;
 
@@ -12875,7 +12886,7 @@ namespace A
 
 		protected void Uninit()
 		{
-			c037bcf050635121630a73c4c7d7aeaef = null;
+			c037bcf050635121630a73c4c7d7aeaef = null!;
 			c6c8825a68bb355e4fb9316c36fb08eaf = 0;
 			c7170a3e9ede2d2c40a24d4ba8b8f609c = 0;
 			c7ce87c4c7e7486dd821581e5c37d9fc5 = 0;
@@ -12920,15 +12931,15 @@ namespace A
 
 		private int c560f589573e40b22638efcb9d2c24a9b = -1;
 
-		private string cd41b269ff26b68f08b0821e577fe3ba0;
+		private string? cd41b269ff26b68f08b0821e577fe3ba0;
 
 		private int cc649f32106cab286b21190a57474fb73 = -1;
 
 		private int cdfd1e1b18c8cd80871f4ada479b11107 = -1;
 
-		private string c0e35d7cb59ae343a5bd2f4706c28019f;
+		private string? c0e35d7cb59ae343a5bd2f4706c28019f;
 
-		private string c35b78a95cbdbd251fb576f8ba4b307e7;
+		private string? c35b78a95cbdbd251fb576f8ba4b307e7;
 
 		private int c7ce87c4c7e7486dd821581e5c37d9fc5;
 
@@ -12992,7 +13003,7 @@ namespace A
 			return true;
 		}
 
-		private string ExtractValueFromContentDispositionHeader(string l, int pos, string name)
+		private string? ExtractValueFromContentDispositionHeader(string l, int pos, string name)
 		{
 			string text = name + "=\"";
 			int num = CultureInfo.InvariantCulture.CompareInfo.IndexOf(l, text, pos, CompareOptions.IgnoreCase);
@@ -13087,7 +13098,7 @@ namespace A
 				}
 				if (c35b78a95cbdbd251fb576f8ba4b307e7 != null)
 				{
-					c2898891c9249c65a3c8aed938883e2b6.Add(new ce24e6cda64b98aa5c7b56212211ec57c(c35b78a95cbdbd251fb576f8ba4b307e7, c0e35d7cb59ae343a5bd2f4706c28019f, cd41b269ff26b68f08b0821e577fe3ba0, c037bcf050635121630a73c4c7d7aeaef, cdfd1e1b18c8cd80871f4ada479b11107, cc649f32106cab286b21190a57474fb73));
+					c2898891c9249c65a3c8aed938883e2b6.Add(new ce24e6cda64b98aa5c7b56212211ec57c(c35b78a95cbdbd251fb576f8ba4b307e7, c0e35d7cb59ae343a5bd2f4706c28019f ?? string.Empty, cd41b269ff26b68f08b0821e577fe3ba0 ?? string.Empty, c037bcf050635121630a73c4c7d7aeaef, cdfd1e1b18c8cd80871f4ada479b11107, cc649f32106cab286b21190a57474fb73));
 				}
 			}
 			while (!AtEndOfData());
@@ -13262,7 +13273,7 @@ namespace A
 
 		private int c73e4b844a19ec51658be6ff2a033ada0;
 
-		private c4d2d2c71a8107b35b7642b1e1ee418dc cf5686312a3110410e52e3cea82a5c56f;
+		private c4d2d2c71a8107b35b7642b1e1ee418dc? cf5686312a3110410e52e3cea82a5c56f;
 
 		private int c5d17b77f83523bb3b35b4d429ab55256;
 
@@ -13560,7 +13571,7 @@ namespace A
 	{
 		private readonly cc5d4538b8a75eeeda8789c0af1e3f5cf cf102aec84154bfa80dbf25fb36ea7b1e;
 
-		private c8a2e6509a4d765ea0a1dadc462172f91 c0951dea56eb7c6fcef9d0ff89e501ad5;
+		private c8a2e6509a4d765ea0a1dadc462172f91? c0951dea56eb7c6fcef9d0ff89e501ad5;
 
 		private int c43b1a704b23da52e05882fe387ddea4f = -1;
 
@@ -13570,19 +13581,19 @@ namespace A
 
 		private ceef7f894921bcd269a4ecca3829f5747 c0b291fa196233b38dd654b1a9b86d68c;
 
-		private c5ca4829f76d4d094a7528d975cdd02a3 c0188879500f864986585fe15bcb006d1;
+		private c5ca4829f76d4d094a7528d975cdd02a3? c0188879500f864986585fe15bcb006d1;
 
-		private TextWriter c7283a324743e8b98c8dfb64bd34244f8;
+		private TextWriter? c7283a324743e8b98c8dfb64bd34244f8;
 
 		private Encoding c4564bdacf0e27874fdfe7cd843ec92cc = Encoding.UTF8;
 
 		private bool cd93a432034cb723db2c915f775f979e0;
 
-		private List<cd94ec38370c382c3ef317f8e23e34525> c955c6c079a9e507ce85e15c235b21fef;
+		private List<cd94ec38370c382c3ef317f8e23e34525>? c955c6c079a9e507ce85e15c235b21fef;
 
 		private bool cc77c92d8719a2d4aa7946c176fa59c60;
 
-		private string cacdfb1289ad7489eaedfd2d163e2c3ed;
+		private string? cacdfb1289ad7489eaedfd2d163e2c3ed;
 
 		public override string ContentType
 		{
@@ -14030,7 +14041,7 @@ namespace A
 	{
 		private Stream c0188879500f864986585fe15bcb006d1;
 
-		private Stream c0397de0ae722c3af1103eb889d640d47;
+		private Stream? c0397de0ae722c3af1103eb889d640d47;
 
 		private cace92c1d33698dcd2e5827f7129bb7f3 ca037ad54e722dd36aa035c2e77246e8f;
 
@@ -14188,19 +14199,19 @@ namespace A
 	{
 		private c37d80acb6a34f4d02fce208bae287aba c32affe21b1ef4e1f6885b0a639b3a0d9 = new c37d80acb6a34f4d02fce208bae287aba();
 
-		private string cc91e97d53517bcba0b09372116e7bb25;
+		private string? cc91e97d53517bcba0b09372116e7bb25;
 
-		private string c1cbdbd29bc8538836f7e7855571fad5b;
+		private string c1cbdbd29bc8538836f7e7855571fad5b = string.Empty;
 
-		private string c45cb40604d7948845fdbd0dad607decd;
+		private string c45cb40604d7948845fdbd0dad607decd = string.Empty;
 
-		private string c931ef322369629b6d9fa306ddb5c8b11;
+		private string c931ef322369629b6d9fa306ddb5c8b11 = string.Empty;
 
-		private string c57bc24c36668acec41fa7b530f2d1ceb;
+		private string c57bc24c36668acec41fa7b530f2d1ceb = string.Empty;
 
-		private string c194b0af7078d2a03dabcbc41f050e7f5;
+		private string c194b0af7078d2a03dabcbc41f050e7f5 = string.Empty;
 
-		private string c23076895a07dab649ebe3196ed14a659;
+		private string c23076895a07dab649ebe3196ed14a659 = string.Empty;
 
 		private string TempDirectory
 		{
@@ -14222,11 +14233,11 @@ namespace A
 		public cd7828cf49a0345d31ec56391fc89818e()
 		{
 			AppDomain currentDomain = AppDomain.CurrentDomain;
-			c1cbdbd29bc8538836f7e7855571fad5b = (string)currentDomain.GetData(".appDomain");
-			c45cb40604d7948845fdbd0dad607decd = (string)currentDomain.GetData(".appId");
-			c931ef322369629b6d9fa306ddb5c8b11 = (string)currentDomain.GetData(".appPath");
-			c57bc24c36668acec41fa7b530f2d1ceb = (string)currentDomain.GetData(".appVPath");
-			c194b0af7078d2a03dabcbc41f050e7f5 = (string)currentDomain.GetData(".domainId");
+			c1cbdbd29bc8538836f7e7855571fad5b = currentDomain.GetData(".appDomain") as string ?? string.Empty;
+			c45cb40604d7948845fdbd0dad607decd = currentDomain.GetData(".appId") as string ?? string.Empty;
+			c931ef322369629b6d9fa306ddb5c8b11 = currentDomain.GetData(".appPath") as string ?? string.Empty;
+			c57bc24c36668acec41fa7b530f2d1ceb = currentDomain.GetData(".appVPath") as string ?? string.Empty;
+			c194b0af7078d2a03dabcbc41f050e7f5 = currentDomain.GetData(".domainId") as string ?? string.Empty;
 			c23076895a07dab649ebe3196ed14a659 = Path.Combine(c931ef322369629b6d9fa306ddb5c8b11, "bin");
 		}
 
@@ -14388,7 +14399,7 @@ namespace A
 	{
 		private readonly cc5d4538b8a75eeeda8789c0af1e3f5cf cf102aec84154bfa80dbf25fb36ea7b1e;
 
-		private c467aad5231514918e85bf3fe62b6cbb3 cc1aeb567ec4bbff3794af63bb9d8dba0;
+		private c467aad5231514918e85bf3fe62b6cbb3? cc1aeb567ec4bbff3794af63bb9d8dba0;
 
 		private static Dictionary<string, c467aad5231514918e85bf3fe62b6cbb3> c0522e7c67bb77713364449b1feca1cfa = new Dictionary<string, c467aad5231514918e85bf3fe62b6cbb3>();
 
@@ -14682,7 +14693,7 @@ namespace A
 	}
 	internal class c71d256837eaaf39075d8af87b6efab58 : NameObjectCollectionBase
 	{
-		public string[] AllKeys => BaseGetAllKeys();
+		public string[] AllKeys => Array.ConvertAll(BaseGetAllKeys() ?? Array.Empty<string>(), (string? key) => key ?? string.Empty);
 
 		public void Add(string name, object value)
 		{
@@ -14754,7 +14765,7 @@ namespace A
 	}
 	internal static class cd7567fabfab19f45801248f44cd80893
 	{
-		private static StringComparer cf3a3c41d8ca293a4151475a4d158870c;
+		private static StringComparer? cf3a3c41d8ca293a4151475a4d158870c;
 
 		internal static StringComparer CaseInsensitiveInvariantKeyComparer
 		{
@@ -14895,11 +14906,11 @@ namespace A
 	}
 	internal class c83f55bfaea118cbc7c5b104c28b0ead1 : cbe9936ad5de9658f311b4f493232f253
 	{
-		private HttpListener c39fceb55290094ddaf035dd7bff0bd8e;
+		private HttpListener c39fceb55290094ddaf035dd7bff0bd8e = null!;
 
 		private string c0013d26044511f18275b0f167fa07761;
 
-		private Thread c691590fd2de5de5543e233dcf8f10ac0;
+		private Thread c691590fd2de5de5543e233dcf8f10ac0 = null!;
 
 		public c83f55bfaea118cbc7c5b104c28b0ead1(string strRouterType)
 		{
@@ -14920,7 +14931,7 @@ namespace A
 			while (true)
 			{
 				HttpListenerContext context = c39fceb55290094ddaf035dd7bff0bd8e.GetContext();
-				Type type = null;
+				Type? type = null;
 				if (!string.IsNullOrEmpty(c0013d26044511f18275b0f167fa07761))
 				{
 					type = Type.GetType(c0013d26044511f18275b0f167fa07761);
@@ -14929,7 +14940,11 @@ namespace A
 				{
 					type = typeof(HttpWorker);
 				}
-				new Thread((Activator.CreateInstance(type, context) as HttpWorker).ProcessRequest).Start();
+				HttpWorker? httpWorker = Activator.CreateInstance(type, context) as HttpWorker;
+				if (httpWorker != null)
+				{
+					new Thread(httpWorker.ProcessRequest).Start();
+				}
 			}
 		}
 
@@ -14970,19 +14985,19 @@ namespace A
 	{
 		private HttpListenerRequest c9183a6b0110269721196beff8b1bff03;
 
-		private c8a2e6509a4d765ea0a1dadc462172f91 c2b5ce7f7a0d2fd0cf5c029026ff5edce;
+		private c8a2e6509a4d765ea0a1dadc462172f91? c2b5ce7f7a0d2fd0cf5c029026ff5edce;
 
-		public override Uri Url => c9183a6b0110269721196beff8b1bff03.Url;
+		public override Uri Url => c9183a6b0110269721196beff8b1bff03.Url ?? new Uri("about:blank");
 
 		public override string Method => c9183a6b0110269721196beff8b1bff03.HttpMethod;
 
 		public override NameValueCollection QueryString => c9183a6b0110269721196beff8b1bff03.QueryString;
 
-		public override string UserAgent => c9183a6b0110269721196beff8b1bff03.UserAgent;
+		public override string UserAgent => c9183a6b0110269721196beff8b1bff03.UserAgent ?? string.Empty;
 
 		public override Stream InputStream => c9183a6b0110269721196beff8b1bff03.InputStream;
 
-		public override string RawUrl => c9183a6b0110269721196beff8b1bff03.RawUrl;
+		public override string RawUrl => c9183a6b0110269721196beff8b1bff03.RawUrl ?? string.Empty;
 
 		internal c010ade5f91a750ddf0602225bb88ebf8(HttpListenerRequest objHttpListenerRequest)
 		{

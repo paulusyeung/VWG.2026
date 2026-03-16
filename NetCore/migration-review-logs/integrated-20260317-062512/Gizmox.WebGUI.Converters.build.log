@@ -1,0 +1,27 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Gizmox.WebGUI.Common -> C:\Projects\VWG\NetCore\Gizmox.WebGUI.Common\bin\Debug\net8.0-windows\Gizmox.WebGUI.Common.dll
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(67,95): warning CS8625: Cannot convert null literal to non-nullable reference type. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(74,20): warning CS8600: Converting null literal or possible null value to non-nullable type. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(78,95): warning CS8604: Possible null reference argument for parameter 'objHtmlSettings' in 'string FormatConverter.GetConverterdHtmlString(FormatConvertionType enmConvertFromType, Stream objStream, HtmlConvertionSettings objHtmlSettings, Dictionary<string, byte[]> objImagesIndexByImageKey)'. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(82,11): warning CS8603: Possible null reference return. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(84,10): warning CS8603: Possible null reference return. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(92,68): warning CS8600: Converting null literal or possible null value to non-nullable type. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(106,10): warning CS8603: Possible null reference return. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(123,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+  Gizmox.WebGUI.Converters -> C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\bin\Debug\net8.0-windows\Gizmox.WebGUI.Converters.dll
+
+Build succeeded.
+
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(67,95): warning CS8625: Cannot convert null literal to non-nullable reference type. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(74,20): warning CS8600: Converting null literal or possible null value to non-nullable type. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(78,95): warning CS8604: Possible null reference argument for parameter 'objHtmlSettings' in 'string FormatConverter.GetConverterdHtmlString(FormatConvertionType enmConvertFromType, Stream objStream, HtmlConvertionSettings objHtmlSettings, Dictionary<string, byte[]> objImagesIndexByImageKey)'. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(82,11): warning CS8603: Possible null reference return. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(84,10): warning CS8603: Possible null reference return. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(92,68): warning CS8600: Converting null literal or possible null value to non-nullable type. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(106,10): warning CS8603: Possible null reference return. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.decompiled.cs(123,49): warning CS8600: Converting null literal or possible null value to non-nullable type. [C:\Projects\VWG\NetCore\Gizmox.WebGUI.Converters\Gizmox.WebGUI.Converters.csproj]
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:09.16

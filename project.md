@@ -284,9 +284,9 @@ c:\Projects\VWG\NetCore\Gizmox.WebGUI.Common\
 ### Active Risks (Post-Compile Phase)
 
 #### 4.1 Warning Backlog
-**Status:** ⚠️ Open (non-blocking).
+**Status:** ⚠️ Reduced, still open on clean rebuild.
 
-Builds are green for all core libraries. First warning-reduction pass completed for nullable/obsolete hotspots in Server + Common shims, reducing Server warning volume from 990 to 896 while keeping zero compile errors. High-volume nullable flow warnings still remain in decompiled sources.
+Builds are green for all core libraries. Warning-reduction passes progressed from 990 -> 896 -> 814 -> 662 -> 610 -> 0 on incremental up-to-date direct `Gizmox.WebGUI.Server.csproj` builds, and from 670 -> 218 -> 191 on clean rebuilds, while maintaining zero compile errors.
 
 #### 4.2 Runtime Parity Validation
 **Status:** ⚠️ In progress.
@@ -322,7 +322,7 @@ Some legacy framework-heavy paths are intentionally simplified/guarded during mi
 | **Build (Forms)** | ✅ Complete | Builds on net8.0-windows (warnings only). |
 | **Build (Client)** | ✅ Complete | Option 1 complete; compiles after legacy WinForms shim compatibility fixes. |
 | **Build (Converters)** | ✅ Complete | Builds on net8.0-windows after TFM + assembly attribute alignment. |
-| **Build (Server)** | ✅ Complete | Compiles on net8.0-windows after decompilation artifact cleanup and shim alignment. |
+| **Build (Server)** | ✅ Complete | Compiles on net8.0-windows; current clean rebuild checkpoint is 191 warnings / 0 errors. |
 | **Hardening** | [/] In Progress | CI/CD, Playwright, Docker, BlazorPilot, runtime parity validation |
 
 ### Checkpoints Achieved
@@ -334,7 +334,7 @@ Some legacy framework-heavy paths are intentionally simplified/guarded during mi
 6. ✅ **Client Option 1 (Compile Unblock)** – Completed via interface alignment and legacy API compatibility shims.
 7. ✅ **Phase 4 Hardening Start** – CI/CD, Playwright, and Docker infrastructure established.
 8. ✅ **Server Compile Unblock** – Completed; core migration now at 5/5 compiling libraries.
-9. ✅ **Warning Reduction Pass #1** – Completed targeted cleanup for NETSDK1080/CS0618/SYSLIB0006/CA2200/CS8765/CS8767/CS8632.
+9. ✅ **Warning Reduction Passes #1-#5** – Completed targeted cleanup for NETSDK1080/CS0618/SYSLIB0006/CA2200/CS8765/CS8767/CS8632 and reduced clean Server rebuild warnings from 670 to 191 in this phase.
 
 ### What Works
 - Projects restore successfully (NuGet packages download correctly).
@@ -345,7 +345,7 @@ Some legacy framework-heavy paths are intentionally simplified/guarded during mi
 - Common, Forms, Converters, Client, and Server now compile successfully on .NET 8 (windows target where required).
 
 ### What Still Needs Work
-- Reduce remaining high-volume nullable flow warnings (primarily CS8618/CS8600/CS8603/CS8625/CS8604) across decompiled sources.
+- Run full NetCore integrated build/test to establish solution-wide warning posture after Server-focused warning cleanup.
 - Validate runtime behavior parity in Server request pipeline and legacy/guarded paths.
 - Identify standard replacements for remaining legacy WebForms behavior where runtime parity matters.
 
