@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -235,12 +235,12 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the ValueChanged event.
 		/// </summary>
-		private EventHandler ValueChangedHandler => (EventHandler)GetHandler(ValueChanged);
+		private EventHandler ValueChangedHandler => (EventHandler)GetHandler(ValueChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the ValueChangedQueued event.
 		/// </summary>
-		private EventHandler ValueChangedQueuedHandler => (EventHandler)GetHandler(ValueChangedQueued);
+		private EventHandler ValueChangedQueuedHandler => (EventHandler)GetHandler(ValueChangedQueuedEvent);
 
 		/// 
 		/// The size of the initiale serialization data array which is the optmized serialization graph.
@@ -254,7 +254,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the CheckedChangedQueued event.
 		/// </summary>
-		private EventHandler CheckedChangedQueuedHandler => (EventHandler)GetHandler(CheckedChangedQueued);
+		private EventHandler CheckedChangedQueuedHandler => (EventHandler)GetHandler(CheckedChangedQueuedEvent);
 
 		/// 
 		/// Gets the hanlder for the CheckedChanged event.
@@ -264,7 +264,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the CloseUp event.
 		/// </summary>
-		internal EventHandler CloseUpHandler => (EventHandler)GetHandler(CloseUp);
+		internal EventHandler CloseUpHandler => (EventHandler)GetHandler(CloseUpEvent);
 
 		/// 
 		/// Gets or sets the date/time value assigned to the control.
@@ -886,15 +886,15 @@ namespace Gizmox.WebGUI.Forms
 			CalendarFirstDayOfWeekProperty = SerializableProperty.Register("CalendarFirstDayOfWeek", typeof(Day), typeof(DateTimePicker), new SerializablePropertyMetadata(Day.Default));
 			EmptyDateYearProperty = SerializableProperty.Register("EmptyDateYear", typeof(int), typeof(DateTimePicker), new SerializablePropertyMetadata(0));
 			ShowCheckBoxProperty = SerializableProperty.Register("ShowCheckBox", typeof(bool), typeof(DateTimePicker), new SerializablePropertyMetadata(false));
-			CheckedChangedQueued = SerializableEvent.Register("CheckedChangedQueued", typeof(EventHandler), typeof(DateTimePicker));
+			CheckedChangedQueuedEvent = SerializableEvent.Register("CheckedChangedQueued", typeof(EventHandler), typeof(DateTimePicker));
 			CheckedChangedEvent = SerializableEvent.Register("CheckedChanged", typeof(EventHandler), typeof(DateTimePicker));
-			CloseUp = SerializableEvent.Register("CloseUp", typeof(EventHandler), typeof(DateTimePicker));
+			CloseUpEvent = SerializableEvent.Register("CloseUp", typeof(EventHandler), typeof(DateTimePicker));
 			mstrTimeFormat = "h:mm:ss tt";
 			mstrShortFormat = "M/d/yyyy";
 			mstrLongFormat = "dddd , MMMM dd, yyyy";
 			marrTokens = new char[8] { 'd', 'm', 'M', 'y', 's', 't', 'h', 'H' };
-			ValueChanged = SerializableEvent.Register("ValueChanged", typeof(EventHandler), typeof(DateTimePicker));
-			ValueChangedQueued = SerializableEvent.Register("ValueChangedQueued", typeof(EventHandler), typeof(DateTimePicker));
+			ValueChangedEvent = SerializableEvent.Register("ValueChanged", typeof(EventHandler), typeof(DateTimePicker));
+			ValueChangedQueuedEvent = SerializableEvent.Register("ValueChangedQueued", typeof(EventHandler), typeof(DateTimePicker));
 			MinDateTime = new DateTime(1753, 1, 1);
 			MaxDateTime = new DateTime(9998, 12, 31);
 			Config instance = Config.GetInstance();

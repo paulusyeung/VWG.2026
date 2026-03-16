@@ -165,11 +165,11 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the windows.
 		/// </summary>
-		public List<object> Windows
+		public List<DockingWindow> Windows
 		{
 			get
 			{
-				List<object> list = new List<object><object>();
+				List<DockingWindow> list = new List<DockingWindow>();
 				foreach (DockedTabPage tabPage in base.TabPages)
 				{
 					list.Add(tabPage.Window);
@@ -324,12 +324,12 @@ namespace Gizmox.WebGUI.Forms
 		void IDescriptable.ResetDescriptorsTree(ZoneType objType, DockStyle objDockingPosition)
 		{
 			((IPreventExtraction)this).DisableExtraction(blnDisable: true);
-			List windows = Windows;
+			List<DockingWindow> windows = Windows;
 			foreach (DockingWindow item in windows)
 			{
 				RemoveWindow(item);
 			}
-			mobjData = mobjData.CloneWithoutReferences();
+			mobjData = mobjData.CloneWithoutReferences<DockedTabControlDescriptor>();
 			((IPreventExtraction)this).DisableExtraction(blnDisable: false);
 		}
 

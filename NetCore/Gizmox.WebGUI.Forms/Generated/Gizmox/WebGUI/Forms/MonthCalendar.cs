@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -395,12 +395,12 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the DateChanged event.
 		/// </summary>
-		private EventHandler DateChangedHandler => (EventHandler)GetHandler(DateChanged);
+		private EventHandler DateChangedHandler => (EventHandler)GetHandler(DateChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the ValueChanged event.
 		/// </summary>
-		private EventHandler ValueChangedHandler => (EventHandler)GetHandler(ValueChanged);
+		private EventHandler ValueChangedHandler => (EventHandler)GetHandler(ValueChangedEvent);
 
 		/// Gets or sets the first day of the week as displayed in the month calendar.</summary>
 		/// One of the <see cref="T:Gizmox.WebGUI.Forms.Day"></see> values. The default is <see cref="F:Gizmox.WebGUI.Forms.Day.Default"></see>.</returns>
@@ -1173,7 +1173,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		private string GetBoldedDatesIndexes()
 		{
-			List<object> list = new List<object><object>();
+			List<string> list = new List<string>();
 			DateTime position = Position;
 			int num = DateTime.DaysInMonth(position.Year, position.Month);
 			int displayStartIndex = GetDisplayStartIndex();
@@ -1213,7 +1213,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		private DateTime[] GetAllBoldedDisplayedDates(DateTime objCurrentPosition, DateTime objBoldedMinDate, DateTime objBoldedMaxDate)
 		{
-			List<object> list = new List<object><object>();
+			List<DateTime> list = new List<DateTime>();
 			DateTime[] boldedDates = BoldedDates;
 			DateTime[] monthlyBoldedDates = MonthlyBoldedDates;
 			DateTime[] annuallyBoldedDates = AnnuallyBoldedDates;
@@ -1673,7 +1673,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objDate">The date to be displayed in bold.</param>
 		public void AddAnnuallyBoldedDate(DateTime objDate)
 		{
-			List<object> list = new List<object><object>();
+			List<DateTime> list = new List<DateTime>();
 			list.AddRange(AnnuallyBoldedDates);
 			list.Add(objDate);
 			AnnuallyBoldedDates = list.ToArray();
@@ -1685,7 +1685,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objDate">The date to be displayed in bold.</param>
 		public void AddBoldedDate(DateTime objDate)
 		{
-			List<object> list = new List<object><object>();
+			List<DateTime> list = new List<DateTime>();
 			list.AddRange(BoldedDates);
 			list.Add(objDate);
 			BoldedDates = list.ToArray();
@@ -1697,7 +1697,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objDate">The date to be displayed in bold.</param>
 		public void AddMonthlyBoldedDate(DateTime objDate)
 		{
-			List<object> list = new List<object><object>();
+			List<DateTime> list = new List<DateTime>();
 			list.AddRange(MonthlyBoldedDates);
 			list.Add(objDate);
 			MonthlyBoldedDates = list.ToArray();
@@ -1742,8 +1742,8 @@ namespace Gizmox.WebGUI.Forms
 
 		static MonthCalendar()
 		{
-			DateChanged = SerializableEvent.Register("DateChanged", typeof(EventHandler), typeof(MonthCalendar));
-			ValueChanged = SerializableEvent.Register("ValueChanged", typeof(EventHandler), typeof(MonthCalendar));
+			DateChangedEvent = SerializableEvent.Register("DateChanged", typeof(EventHandler), typeof(MonthCalendar));
+			ValueChangedEvent = SerializableEvent.Register("ValueChanged", typeof(EventHandler), typeof(MonthCalendar));
 		}
 	}
 }

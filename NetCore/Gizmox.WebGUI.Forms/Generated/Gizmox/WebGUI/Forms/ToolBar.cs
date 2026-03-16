@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -178,7 +178,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the ButtonClick event.
 		/// </summary>
-		internal ToolBarButtonClickEventHandler ButtonClickHandler => (ToolBarButtonClickEventHandler)GetHandler(ButtonClick);
+		internal ToolBarButtonClickEventHandler ButtonClickHandler => (ToolBarButtonClickEventHandler)GetHandler(ButtonClickEvent);
 
 		/// 
 		/// Gets the list of tags that client events are propogated to.

@@ -109,7 +109,7 @@ namespace Gizmox.WebGUI.Forms
 
 		private static readonly SerializableProperty mobjParentProperty = SerializableProperty.Register("mobjParent", typeof(ToolStripPanel), typeof(ToolStripPanelRow));
 
-		private static readonly SerializableProperty mobjControlsProperty = SerializableProperty.Register("mobjControls", typeof(List), typeof(ToolStripPanelRow));
+		private static readonly SerializableProperty mobjControlsProperty = SerializableProperty.Register("mobjControls", typeof(List<Control>), typeof(ToolStripPanelRow));
 
 		private static readonly SerializableProperty mobjPaddingProperty = SerializableProperty.Register("mobjPadding", typeof(Padding), typeof(ToolStripPanelRow));
 
@@ -139,11 +139,11 @@ namespace Gizmox.WebGUI.Forms
 			}
 		}
 
-		private List<object> mobjControls
+		private List<Control> mobjControls
 		{
 			get
 			{
-				return GetValue<List<object>>(mobjControlsProperty, null);
+				return GetValue<List<Control>>(mobjControlsProperty, null);
 			}
 			set
 			{
@@ -186,13 +186,13 @@ namespace Gizmox.WebGUI.Forms
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		[Browsable(false)]
 		[SRDescription("ControlControlsDescr")]
-		internal List<object> ControlsInternal
+		internal List<Control> ControlsInternal
 		{
 			get
 			{
 				if (mobjControls == null)
 				{
-					mobjControls = new List<object>();
+					mobjControls = new List<Control>();
 				}
 				return mobjControls;
 			}

@@ -153,7 +153,7 @@ namespace Gizmox.WebGUI.Forms.ContextualToolbar
 		{
 			get
 			{
-				return GetValue("ContextualToolbarFont", null);
+				return GetValue<ImageResourceReference>("ContextualToolbarFont", null);
 			}
 			set
 			{
@@ -173,7 +173,7 @@ namespace Gizmox.WebGUI.Forms.ContextualToolbar
 		{
 			get
 			{
-				return GetValue("ContextualToolbarForeColor", null);
+				return GetValue<ImageResourceReference>("ContextualToolbarForeColor", null);
 			}
 			set
 			{
@@ -193,7 +193,7 @@ namespace Gizmox.WebGUI.Forms.ContextualToolbar
 		{
 			get
 			{
-				return GetValue("ContextualToolbarBackColor", null);
+				return GetValue<ImageResourceReference>("ContextualToolbarBackColor", null);
 			}
 			set
 			{
@@ -213,7 +213,7 @@ namespace Gizmox.WebGUI.Forms.ContextualToolbar
 		{
 			get
 			{
-				return GetValue("ContextualToolbarDock", null);
+				return GetValue<ImageResourceReference>("ContextualToolbarDock", null);
 			}
 			set
 			{
@@ -233,7 +233,7 @@ namespace Gizmox.WebGUI.Forms.ContextualToolbar
 		{
 			get
 			{
-				return GetValue("ContextualToolbarDelete", null);
+				return GetValue<ImageResourceReference>("ContextualToolbarDelete", null);
 			}
 			set
 			{
@@ -253,7 +253,7 @@ namespace Gizmox.WebGUI.Forms.ContextualToolbar
 		{
 			get
 			{
-				return GetValue("ContextualToolbarActions", null);
+				return GetValue<ImageResourceReference>("ContextualToolbarActions", null);
 			}
 			set
 			{
@@ -273,7 +273,7 @@ namespace Gizmox.WebGUI.Forms.ContextualToolbar
 		{
 			get
 			{
-				return GetValue("ContextualToolbarAnchor", null);
+				return GetValue<ImageResourceReference>("ContextualToolbarAnchor", null);
 			}
 			set
 			{
@@ -293,7 +293,7 @@ namespace Gizmox.WebGUI.Forms.ContextualToolbar
 		{
 			get
 			{
-				return GetValue("ContextualToolbarVisualTemplates", null);
+				return GetValue<ImageResourceReference>("ContextualToolbarVisualTemplates", null);
 			}
 			set
 			{

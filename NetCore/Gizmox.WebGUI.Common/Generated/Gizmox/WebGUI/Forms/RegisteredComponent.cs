@@ -595,7 +595,7 @@ namespace Gizmox.WebGUI.Forms
 			}
 		}
 
-		internal static void MergeCriticalEventsWithObselete(ref CriticalEventsData objCriticalEventsData, EventTypes enmObseleteCriticalEvents)
+		public static void MergeCriticalEventsWithObselete(ref CriticalEventsData objCriticalEventsData, EventTypes enmObseleteCriticalEvents)
 		{
 			if (enmObseleteCriticalEvents != EventTypes.None)
 			{

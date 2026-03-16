@@ -168,6 +168,6 @@ namespace Gizmox.WebGUI.Forms
 
     /// <summary>Gets the status.</summary>
     /// <returns></returns>
-    public override List<StatusData> GetStatus() => this.mobjAdministrationTabs.SelectedTab is AdministrationTabPage selectedTab ? selectedTab.Content.ContentProperties.StatusData : (List<StatusData>) null;
+    public override List<Gizmox.WebGUI.Forms.Administration.Abstract.StatusData> GetStatus() => this.mobjAdministrationTabs.SelectedTab is AdministrationTabPage selectedTab ? selectedTab.Content.ContentProperties.StatusData : (List<Gizmox.WebGUI.Forms.Administration.Abstract.StatusData>) null;
   }
 }

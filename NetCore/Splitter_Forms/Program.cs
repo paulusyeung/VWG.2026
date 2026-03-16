@@ -29,10 +29,18 @@ class Program
         // ILSpy / decompiler artifact cleanup
         Console.WriteLine("Cleaning artifacts...");
         code = code.Replace("Gen_<", "<").Replace("Gen_(", "(");
-        code = code.Replace("ReadOnlyCollectionGen_", "ReadOnlyCollection<object>");
-        code = code.Replace("ListGen_", "List<object>");
-        code = code.Replace("ICollectionGen_", "ICollection<object>");
-        code = code.Replace("QueueGen_", "Queue<object>");
+        
+        // Use Regex to avoid double generics like List<object><object>
+        code = Regex.Replace(code, @"\bReadOnlyCollectionGen_(?!<)", "ReadOnlyCollection<object>");
+        code = Regex.Replace(code, @"\bListGen_(?!<)", "List<object>");
+        code = Regex.Replace(code, @"\bICollectionGen_(?!<)", "ICollection<object>");
+        code = Regex.Replace(code, @"\bQueueGen_(?!<)", "Queue<object>");
+
+        // Also handle the cases where they ARE followed by < (just remove the Gen_ prefix)
+        code = code.Replace("ReadOnlyCollectionGen_", "ReadOnlyCollection");
+        code = code.Replace("ListGen_", "List");
+        code = code.Replace("ICollectionGen_", "ICollection");
+        code = code.Replace("QueueGen_", "Queue");
 
         // Fix class X where Y : Z -> class X<Y> where Y : Z (constraint without type param)
         code = Regex.Replace(code, @"\bclass\s+(\w+)\s+where\s+(\w+)\s*:", "class $1<$2> where $2 :");
@@ -90,33 +98,41 @@ class Program
         code = Regex.Replace(code, @"\bT CloneWithoutReferences\(\)", "T CloneWithoutReferences<T>()");
 
         
-        // Unified generic inference for List, Collection, and Special Collections
-        // Use a lookbehind for common keywords to avoid matching property names (e.g. 'internal ListView List')
-        code = Regex.Replace(code, @"(?<=\b(?:public|private|protected|internal|static|readonly|new|partial|sealed|override|virtual|abstract)\s+|[:<,\(])\s*\b(List|Collection|ObservableCollection|SuspendableObservableCollection|UniqueObservableCollection)\b(?!\s*<)", (Match m) => {
-            string baseType = m.Groups[1].Value;
-            string prefix = code.Substring(0, m.Index);
-            
-            // Check if this instance is an inheritance base class
-            Match mClass = Regex.Match(prefix, @"public (?:sealed |partial |internal )?class\s+(\w+)\s*:\s*$", RegexOptions.Singleline);
-            if (mClass.Success)
-            {
-                string className = mClass.Groups[1].Value;
-                // Special cases where we can't infer from overrides
-                if (className == "ProxySet") return $"{baseType}<ProxyComponent>";
-                if (className == "ProxySets") return $"{baseType}<ProxySet>";
 
-                // Try smart inference from overrides
-                string body = code.Substring(m.Index);
-                if (body.Length > 10000) body = body.Substring(0, 10000);
-                Match mOverride = Regex.Match(body, @"protected override void (?:InsertItem|SetItem)\(int \w+, (\w+) \w+\)");
-                if (mOverride.Success)
-                {
-                    return $"{baseType}<{mOverride.Groups[1].Value}>";
-                }
+        // Fix specific method calls that need explicit type arguments
+        // GetContaxt calls
+        code = Regex.Replace(code, @"(\w+)\s*=\s*(\w+)\.GetContaxt\s*\(", (Match m) => {
+            string varName = m.Groups[1].Value;
+            string storeName = m.Groups[2].Value;
+            string typeArg = "object";
+            if (varName.Contains("contaxt"))
+            {
+                if (storeName.Contains("Entry")) typeArg = "Entry";
+                else if (storeName.Contains("DirectoryReader")) typeArg = "DirectoryReader";
+                else if (storeName.Contains("FileWriter")) typeArg = "FileEntry";
             }
+            return $"{varName} = {storeName}.GetContaxt<{typeArg}>(";
+        });
+
+        // TryGetError calls
+        code = Regex.Replace(code, @"DeviceEventArgs\.TryGetError\s*\(\s*(\w+)\s*,\s*out\s+((?:var\s+)?\w+)\s*\)", (Match m) => {
+            string eventVar = m.Groups[1].Value;
+            string outVarDecl = m.Groups[2].Value; // includes 'var ' if present
+            string outVar = outVarDecl.Replace("var ", "").Trim();
+            string typeArg = "EmptyDeviceEventArgs";
             
-            // Default fallback
-            return $"{baseType}<object>";
+            // Infer type from variable name or surrounding context if possible
+            if (outVar.Contains("args") || outVar.Contains("Event"))
+            {
+                // Common mapping in Gizmox
+                if (outVar.Contains("FileSystem")) typeArg = "Gizmox.WebGUI.Common.Device.FileManagement.FileSystemEventArgs";
+                else if (outVar.Contains("Metadata")) typeArg = "MetadataEventArgs";
+                else if (outVar.Contains("Entry")) typeArg = "EntryEventArgs";
+                else if (outVar.Contains("FileWriter")) typeArg = "FileWriterEventArgs";
+                else if (outVar.Contains("File")) typeArg = "FileEventArgs";
+                else if (outVar.Contains("Battery")) typeArg = "DeviceBatteryEventArgs";
+            }
+            return $"DeviceEventArgs.TryGetError<{typeArg}>({eventVar}, out {outVarDecl})";
         });
 
         // Fix more type-not-found issues like 'T' in non-generic context
@@ -161,6 +177,45 @@ class Program
             Directory.CreateDirectory(dir);
 
             string typeCode = type.ToFullString();
+
+            if (!(type is EnumDeclarationSyntax))
+            {
+                // Unified generic inference for List, Collection, and Special Collections
+                // Use a broader lookbehind to catch local variables and assignments, but avoid property names
+                // Negative lookahead (?!\s*[<.=,!]) ensures we don't match properties like 'if (List != null)'
+                typeCode = Regex.Replace(typeCode, @"(?m)(?<=\b(?:public|private|protected|internal|static|readonly|new|partial|sealed|override|virtual|abstract|var)\s+|[:<,\(\[]\s*|^[ \t]*)\b(List|Collection|ObservableCollection|SuspendableObservableCollection|UniqueObservableCollection)\b(?!\s*[<.=,!])(?!\s*\b(?:is|as)\b)(?<!\b(?:ArrayList|IList|ICollection|IEnumerable|BindingSource|AccessibleRole|BindingsCollection|View|CurrencyManager|BaseCollection|ToolBarButtonCollection)\s+)", (Match m) => {
+                    string baseType = m.Groups[1].Value;
+                    
+                    // Special cases where we can't infer from overrides
+                    if (className == "ProxySet") return $"{baseType}<ProxyComponent>";
+                    if (className == "ProxySets") return $"{baseType}<ProxySet>";
+
+                    // Try smart inference from overrides
+                    string body = typeCode.Substring(m.Index);
+                    if (body.Length > 10000) body = body.Substring(0, 10000);
+                    Match mOverride = Regex.Match(body, @"protected override void (InsertItem|SetItem)\(int \w+, (\w+) \w+\)");
+                    if (mOverride.Success)
+                    {
+                        return $"{baseType}<{mOverride.Groups[2].Value}>";
+                    }
+                    
+                    return $"{baseType}<object>";
+                });
+            }
+
+            // Fix GetHandler(EventName) -> GetHandler(EventNameEvent)
+            // This is needed because 'EventName' matches the event name itself, causing CS0079
+            typeCode = Regex.Replace(typeCode, @"GetHandler\((ParentChanged|Resize|TextChanged|CausesValidationChanged|TextChangedQueued|BindingContextChanged|BackgroundImageChanged|BackgroundImageLayoutChanged|FontChanged|ForeColorChanged|PaddingChanged|CursorChanged|VisibleChanged|HelpRequested|AutoSizeChanged|SizeChanged|ControlAdded|ControlRemoved|ControlEditing|MouseDown|MouseUp|DoubleClick|Click|ControlSelected|ControlDropped|MouseClick|KeyDown|KeyPress|KeyUp|GotFocus|LostFocus|Validated|Validating|SelectedIndexChanged|SelectedIndexChangedQueued|SelectionChangeCommitted|DropDown|DropDownClosed)\)", "GetHandler($1Event)");
+            
+            // Fix static event registrations in static constructor
+            if (className == "ComboBox")
+            {
+                typeCode = typeCode.Replace("SelectedIndexChangedQueued = SerializableEvent.Register", "SelectedIndexChangedQueuedEvent = SerializableEvent.Register");
+                typeCode = typeCode.Replace("SelectedIndexChanged = SerializableEvent.Register", "SelectedIndexChangedEvent = SerializableEvent.Register");
+                typeCode = typeCode.Replace("SelectionChangeCommitted = SerializableEvent.Register", "SelectionChangeCommittedEvent = SerializableEvent.Register");
+                typeCode = typeCode.Replace("DropDown = SerializableEvent.Register", "DropDownEvent = SerializableEvent.Register");
+                typeCode = typeCode.Replace("DropDownClosed = SerializableEvent.Register", "DropDownClosedEvent = SerializableEvent.Register");
+            }
 
             // --- Class-Specific Fixes ---
             // (Keeping the existing class-specific fixes logic)
@@ -211,6 +266,121 @@ class Program
             {
                 typeCode = typeCode.Replace("internal MultipleCallMethodStore<EventArgs>()", "internal MultipleCallMethodStore()");
             }
+
+            if (className == "ProxySet")
+            {
+                typeCode = typeCode.Replace(": List,", ": List<ProxyComponent>,");
+                typeCode = typeCode.Replace("new List()", "new List<ProxyComponent>()");
+            }
+
+            if (className == "ProxySets")
+            {
+                typeCode = typeCode.Replace(": List,", ": List<ProxySet>,");
+                typeCode = typeCode.Replace("new List()", "new List<ProxySet>()");
+            }
+
+            if (className == "Zone" || className == "DockedSplitContainer")
+            {
+                typeCode = typeCode.Replace("List<object> windows =", "List<DockingWindow> windows =");
+                typeCode = typeCode.Replace("List<object> Windows", "List<DockingWindow> Windows");
+                typeCode = typeCode.Replace("List<object> list =", "List<DockingWindow> list =");
+                typeCode = typeCode.Replace("new List<object>()", "new List<DockingWindow>()");
+                typeCode = typeCode.Replace("internal List<object>", "internal List<DockingWindow>");
+            }
+
+            // Fix potential property corruption (e.g., CurrencyManager.List, BindingSource.List)
+            // When 'List' (property) is used as an argument or receiver, it shouldn't have generic arguments
+            string classGeneric = "List<" + className + ">";
+            typeCode = typeCode.Replace("List<object>[", "List[");
+            typeCode = typeCode.Replace(classGeneric + "[", "List[");
+            typeCode = typeCode.Replace("(List<object>)", "(List)");
+            typeCode = typeCode.Replace("(" + classGeneric + ")", "(List)");
+            typeCode = typeCode.Replace("(List<object>,", "(List,");
+            typeCode = typeCode.Replace("(" + classGeneric + ",", "(List,");
+            typeCode = typeCode.Replace(", List<object>)", ", List)");
+            typeCode = typeCode.Replace(", " + classGeneric + ")", ", List)");
+
+            if (className == "AdministrationFooterPanel")
+            {
+                typeCode = typeCode.Replace("List<object> mobjLabels", "List<Label> mobjLabels");
+                typeCode = typeCode.Replace("mobjLabels = new List<object>()", "mobjLabels = new List<Label>()");
+                // Avoid duplicate public if already present
+                if (!typeCode.Contains("public void SetLabels"))
+                {
+                    typeCode = Regex.Replace(typeCode, @"void SetLabels\(List(<[^>]*>)? objDatas\)", "public void SetLabels(List<StatusData> objDatas)");
+                }
+                else
+                {
+                    typeCode = Regex.Replace(typeCode, @"public void SetLabels\(List(<[^>]*>)? objDatas\)", "public void SetLabels(List<StatusData> objDatas)");
+                }
+            }
+            if (className == "ContentProperties")
+            {
+                typeCode = Regex.Replace(typeCode, @"\bList(<[^>]*>)?\s+mobjStatusData\b", "List<StatusData> mobjStatusData");
+                typeCode = Regex.Replace(typeCode, @"\bpublic\s+List(<[^>]*>)?\s+StatusData\b", "public List<StatusData> StatusData");
+                typeCode = Regex.Replace(typeCode, @"\bnew\s+List(<[^>]*>)?\(\)", "new List<StatusData>()");
+            }
+
+            if (className == "ContentChangeNotifierUserControl")
+            {
+                typeCode = typeCode.Replace("ContentChanged = SerializableEvent.Register", "ContentChangedEvent = SerializableEvent.Register");
+            }
+            
+            // Clean global fix for GetStatus using placeholders to avoid doubling
+            if (typeCode.Contains("GetStatus()"))
+            {
+                typeCode = Regex.Replace(typeCode, @"public\s+(abstract|override|virtual)\s+\b(List(<[^>]*>)?|List)\s+GetStatus\(\)", "___SIGNATURE_GET_STATUS___($1)");
+                typeCode = typeCode.Replace("___SIGNATURE_GET_STATUS___(abstract)", "public abstract List<Gizmox.WebGUI.Forms.Administration.Abstract.StatusData> GetStatus()");
+                typeCode = typeCode.Replace("___SIGNATURE_GET_STATUS___(override)", "public override List<Gizmox.WebGUI.Forms.Administration.Abstract.StatusData> GetStatus()");
+                typeCode = typeCode.Replace("___SIGNATURE_GET_STATUS___(virtual)", "public virtual List<Gizmox.WebGUI.Forms.Administration.Abstract.StatusData> GetStatus() { return null; }");
+                
+                // Ensure using
+                if (!typeCode.Contains("using Gizmox.WebGUI.Forms.Administration.Abstract;")) {
+                     typeCode = typeCode.Replace("using System;", "using System;\nusing Gizmox.WebGUI.Forms.Administration.Abstract;");
+                }
+            }
+            
+            if (className == "Contact")
+            {
+                typeCode = typeCode.Replace("IList list = GetNullableProperty<List<object>>(strPropertyName);", "IList<T> list = (IList<T>)(object)GetNullableProperty<List<object>>(strPropertyName);");
+                
+                // ParseFromJson fixes
+                typeCode = typeCode.Replace("PhoneNumbers = new List<object>(array);", "PhoneNumbers = new List<ContactField>(array);");
+                typeCode = typeCode.Replace("URLs = new List<object>(array2);", "URLs = new List<ContactField>(array2);");
+                typeCode = typeCode.Replace("Emails = new List<object>(array3);", "Emails = new List<ContactField>(array3);");
+                typeCode = typeCode.Replace("Addresses = new List<object>(array4);", "Addresses = new List<ContactAddress>(array4);");
+                typeCode = typeCode.Replace("Organizations = new List<object>(array5);", "Organizations = new List<ContactOrganization>(array5);");
+                typeCode = typeCode.Replace("IMs = new List<object>(array6);", "IMs = new List<ContactField>(array6);");
+                typeCode = typeCode.Replace("Categories = new List<object>(array7);", "Categories = new List<ContactField>(array7);");
+                typeCode = typeCode.Replace("Photos = new List<object>(array8);", "Photos = new List<ContactField>(array8);");
+
+                // DeepCopy fixes
+                typeCode = typeCode.Replace("contact.Addresses = new List<object>(Addresses);", "contact.Addresses = new List<ContactAddress>(Addresses);");
+                typeCode = typeCode.Replace("contact.Emails = new List<object>(Emails);", "contact.Emails = new List<ContactField>(Emails);");
+                typeCode = typeCode.Replace("contact.Categories = new List<object>(Categories);", "contact.Categories = new List<ContactField>(Categories);");
+                typeCode = typeCode.Replace("contact.IMs = new List<object>(IMs);", "contact.IMs = new List<ContactField>(IMs);");
+                typeCode = typeCode.Replace("contact.Organizations = new List<object>(Organizations);", "contact.Organizations = new List<ContactOrganization>(Organizations);");
+                typeCode = typeCode.Replace("contact.PhoneNumbers = new List<object>(PhoneNumbers);", "contact.PhoneNumbers = new List<ContactField>(PhoneNumbers);");
+                typeCode = typeCode.Replace("contact.Photos = new List<object>(Photos);", "contact.Photos = new List<ContactField>(Photos);");
+                typeCode = typeCode.Replace("contact.URLs = new List<object>(URLs);", "contact.URLs = new List<ContactField>(URLs);");
+            }
+
+            if (className == "Contacts")
+            {
+                typeCode = typeCode.Replace("List<object> list = null;", "List<IContact> list = null;");
+                typeCode = typeCode.Replace("list = new List<object>();", "list = new List<IContact>();");
+            }
+            
+            // General fixes for overrides of GetStatus
+            if (typeCode.Contains("GetStatus()"))
+            {
+                typeCode = Regex.Replace(typeCode, @"public\s+override\s+\b(List(<[^>]*>)?|List)\s+GetStatus\(\)", "public override List<Gizmox.WebGUI.Forms.Administration.Abstract.StatusData> GetStatus()");
+                if (!typeCode.Contains("using Gizmox.WebGUI.Forms.Administration.Abstract;"))
+                {
+                    typeCode = typeCode.Replace("using System;", "using System;\nusing Gizmox.WebGUI.Forms.Administration.Abstract;");
+                }
+            }
+            typeCode = typeCode.Replace("List<global::Gizmox.WebGUI.Forms.Administration.Abstract.StatusData>", "List<StatusData>");
 
             if (className == "WatchedDeviceComponent")
             {
@@ -445,13 +615,10 @@ class Program
                 typeCode = typeCode.Replace("private MultipleCallMethodStore<EventArgs> MultipleCallMethodStore", "private MultipleCallMethodStore<GeolocationEventArgs> MultipleCallMethodStore");
             }
 
-            typeCode = typeCode.Replace("List<object>.", "List.");
-            typeCode = typeCode.Replace("List<object> is", "List is");
-            typeCode = typeCode.Replace("List<object> !=", "List !=");
-            typeCode = typeCode.Replace("List<object> ==", "List ==");
-            typeCode = typeCode.Replace("List<object>[", "List[");
-            typeCode = typeCode.Replace("List<object>,", "List,");
-            typeCode = typeCode.Replace("List<object>)", "List)");
+            // Clean up any remaining mangled patterns
+            typeCode = typeCode.Replace("List<object><object>", "List<object>");
+            typeCode = typeCode.Replace("()object", "()");
+            typeCode = typeCode.Replace("new List<object>()object", "new List<object>()");
 
             string[] eventNames = new string[] {
                 "AvailableChanged", "BackColorChanged", "Click", "DisplayStyleChanged",

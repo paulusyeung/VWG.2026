@@ -107,11 +107,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		{
 			get
 			{
-				return GetValuetypePropertyOrDefault("modificationTime");
+				return GetValuetypePropertyOrDefault<DateTime>("modificationTime");
 			}
 			set
 			{
-				AddValueTypeProperty("modificationTime", value);
+				AddValueTypeProperty<DateTime>("modificationTime", value);
 			}
 		}
 

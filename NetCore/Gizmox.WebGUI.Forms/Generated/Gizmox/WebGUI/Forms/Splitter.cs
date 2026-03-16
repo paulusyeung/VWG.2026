@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -123,7 +123,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the SplitterMoved event.
 		/// </summary>
-		private SplitterEventHandler SplitterMovedHandler => (SplitterEventHandler)GetHandler(SplitterMoved);
+		private SplitterEventHandler SplitterMovedHandler => (SplitterEventHandler)GetHandler(SplitterMovedEvent);
 
 		/// 
 		/// Gets or sets a value indicating whether in this instance the splitter is fixed or movable.
@@ -395,7 +395,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static Splitter()
 		{
-			SplitterMoved = SerializableEvent.Register("SplitterMoved", typeof(SplitterEventHandler), typeof(Splitter));
+			SplitterMovedEvent = SerializableEvent.Register("SplitterMoved", typeof(SplitterEventHandler), typeof(Splitter));
 			SplitterFixedProperty = SerializableProperty.Register("SplitterFixed", typeof(bool), typeof(Splitter), new SerializablePropertyMetadata(false));
 		}
 	}

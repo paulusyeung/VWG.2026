@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -127,7 +127,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the Load event.
 		/// </summary>
-		private EventHandler LoadHandler => (EventHandler)GetHandler(Load);
+		private EventHandler LoadHandler => (EventHandler)GetHandler(LoadEvent);
 
 		/// 
 		/// This property is not relevant for this class.
@@ -282,7 +282,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static UserControl()
 		{
-			Load = SerializableEvent.Register("Load", typeof(EventHandler), typeof(UserControl));
+			LoadEvent = SerializableEvent.Register("Load", typeof(EventHandler), typeof(UserControl));
 		}
 	}
 }

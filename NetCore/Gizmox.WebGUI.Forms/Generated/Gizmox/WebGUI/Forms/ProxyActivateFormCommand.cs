@@ -145,7 +145,7 @@ namespace Gizmox.WebGUI.Forms
 			{
 				return;
 			}
-			List<object> list = new List<object><object>(((IFormResolver)context).AccessibleForms);
+			List<object> list = new List<object>(((IFormResolver)context).AccessibleForms);
 			if (list == null)
 			{
 				return;

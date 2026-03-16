@@ -59,7 +59,6 @@ using Gizmox.WebGUI.Common.DeviceRepository;
 using Gizmox.WebGUI.Common.Extensibility;
 using Gizmox.WebGUI.Common.Gateways;
 using Gizmox.WebGUI.Common.Interfaces;
-using ITimer = Gizmox.WebGUI.Common.Interfaces.ITimer;
 using Gizmox.WebGUI.Common.Interfaces.Device;
 using Gizmox.WebGUI.Common.Interfaces.Device.Capture;
 using Gizmox.WebGUI.Common.Interfaces.Device.ContactsData;

@@ -116,7 +116,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the windows.
 		/// </summary>
-		public List<object> Windows
+		public List<DockingWindow> Windows
 		{
 			get
 			{
@@ -282,7 +282,7 @@ namespace Gizmox.WebGUI.Forms
 				if (blnAddListener)
 				{
 					zone.ZoneType = ZoneType.Float;
-					List<object> list = new List<object><object>();
+					List<Component> list = new List<Component>();
 					Component[] dragTargets = DragTargets;
 					foreach (Component component in dragTargets)
 					{

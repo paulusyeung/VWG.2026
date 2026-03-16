@@ -141,7 +141,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		/// </returns>
 		public static FileUploadEventArgs FromVWGEvent(IEvent objEvent)
 		{
-			if (DeviceEventArgs.TryGetError(objEvent, out var objEventArgs))
+			PhonegapFileUploadEventArgs objEventArgs;
+			if (DeviceEventArgs.TryGetError<PhonegapFileUploadEventArgs>(objEvent, out objEventArgs))
 			{
 				objEventArgs.mobjFileTransferError = FileTransferError.FromVWGEvent(objEvent);
 			}

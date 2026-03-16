@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -1116,7 +1116,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Owns the Apply event.
 		/// </summary>
-		protected static readonly SerializableEvent EventApply = SerializableEvent.Register("Event", typeof(Delegate), typeof(FontDialog));
+		protected static readonly SerializableEvent EventApplyEvent = SerializableEvent.Register("Event", typeof(Delegate), typeof(FontDialog));
 
 		private SerializableFont mobjFont;
 
@@ -1430,11 +1430,11 @@ namespace Gizmox.WebGUI.Forms
 		{
 			add
 			{
-				AddHandler(EventApply, value);
+				AddHandler(EventApplyEvent, value);
 			}
 			remove
 			{
-				RemoveHandler(EventApply, value);
+				RemoveHandler(EventApplyEvent, value);
 			}
 		}
 
@@ -1458,7 +1458,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="e">An <see cref="T:System.EventArgs"></see> that contains the data. </param>
 		protected override void OnApply(EventArgs e)
 		{
-			((EventHandler)GetHandler(EventApply))?.Invoke(this, e);
+			((EventHandler)GetHandler(EventApplyEvent))?.Invoke(this, e);
 		}
 
 		/// Resets all dialog box options to their default values.</summary>

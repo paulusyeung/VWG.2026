@@ -13,10 +13,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <!-- Itenso RTF libraries for format conversion -->
-    <PackageReference Include="Itenso.Rtf" Version="1.4.0" />
-    <PackageReference Include="Itenso.Rtf.Converter.Html" Version="1.4.0" />
-    <PackageReference Include="Itenso.Rtf.Converter.Image" Version="1.4.0" />
+    <Reference Include="Itenso.Sys">
+      <HintPath>..\lib\Itenso\Itenso.Sys.dll</HintPath>
+    </Reference>
+    <Reference Include="Itenso.Rtf.Parser">
+      <HintPath>..\lib\Itenso\Itenso.Rtf.Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="Itenso.Rtf.Interpreter">
+      <HintPath>..\lib\Itenso\Itenso.Rtf.Interpreter.dll</HintPath>
+    </Reference>
+    <Reference Include="Itenso.Rtf.Converter.Html">
+      <HintPath>..\lib\Itenso\Itenso.Rtf.Converter.Html.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

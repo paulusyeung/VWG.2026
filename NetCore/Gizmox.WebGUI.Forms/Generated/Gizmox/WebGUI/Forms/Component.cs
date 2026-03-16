@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -378,22 +378,22 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the DragDrop event.
 		/// </summary>
-		private DragEventHandler DragDropHandler => (DragEventHandler)GetHandler(DragDrop);
+		private DragEventHandler DragDropHandler => (DragEventHandler)GetHandler(DragDropEvent);
 
 		/// 
 		/// Gets the hanlder for the DragDrop event.
 		/// </summary>
-		private SwipeEventHandler SwipHandler => (SwipeEventHandler)GetHandler(Swipe);
+		private SwipeEventHandler SwipHandler => (SwipeEventHandler)GetHandler(SwipeEvent);
 
 		/// 
 		/// Gets the hanlder for the MenuClick event.
 		/// </summary>
-		private MenuEventHandler MenuClickHandler => (MenuEventHandler)GetHandler(MenuClick);
+		private MenuEventHandler MenuClickHandler => (MenuEventHandler)GetHandler(MenuClickEvent);
 
 		/// 
 		/// Gets the hanlder for the ContextMenuStripChanged event.
 		/// </summary>
-		private EventHandler ContextMenuStripChangedHandler => (EventHandler)GetHandler(ContextMenuStripChanged);
+		private EventHandler ContextMenuStripChangedHandler => (EventHandler)GetHandler(ContextMenuStripChangedEvent);
 
 		/// 
 		/// Renders the client events and behavior fields.
@@ -1328,7 +1328,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		protected override ClientEventList GetClientEvents()
 		{
-			ClientEventList proxyPropertyValue = GetProxyPropertyValue("ClientEvents", null);
+			ClientEventList proxyPropertyValue = GetProxyPropertyValue<ClientEventList>("ClientEvents", null);
 			if (proxyPropertyValue != null)
 			{
 				return proxyPropertyValue;
@@ -2210,9 +2210,9 @@ namespace Gizmox.WebGUI.Forms
 
 		static Component()
 		{
-			DragDrop = SerializableEvent.Register("DragDrop", typeof(DragEventHandler), typeof(Component));
-			Swipe = SerializableEvent.Register("Swipe", typeof(SwipeEventHandler), typeof(Component));
-			ContextMenuStripChanged = SerializableEvent.Register("ContextMenuStripChanged", typeof(EventHandler), typeof(Component));
+			DragDropEvent = SerializableEvent.Register("DragDrop", typeof(DragEventHandler), typeof(Component));
+			SwipeEvent = SerializableEvent.Register("Swipe", typeof(SwipeEventHandler), typeof(Component));
+			ContextMenuStripChangedEvent = SerializableEvent.Register("ContextMenuStripChanged", typeof(EventHandler), typeof(Component));
 			MenuClickEvent = SerializableEvent.Register("MenuClick", typeof(MenuEventHandler), typeof(Component));
 			LoadingMessageProperty = SerializableProperty.Register("LoadingMessage", typeof(string), typeof(Component), new SerializablePropertyMetadata(string.Empty));
 			ClientActionProperty = SerializableProperty.Register("ClientAction", typeof(RegisteredClientAction), typeof(Component), new SerializablePropertyMetadata(null));

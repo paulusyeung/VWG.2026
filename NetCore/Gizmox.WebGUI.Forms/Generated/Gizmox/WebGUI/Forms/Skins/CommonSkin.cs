@@ -1407,7 +1407,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 			PropertyDescriptorCollection propertyDescriptorCollection = base.FilterProperties(objPropertyDescriptorCollection, attributes);
 			if (propertyDescriptorCollection != null && GetType() != typeof(CommonSkin))
 			{
-				List<object> list = new List<object><object>();
+				List<PropertyDescriptor> list = new List<PropertyDescriptor>();
 				foreach (PropertyDescriptor item in propertyDescriptorCollection)
 				{
 					string name = item.Name;

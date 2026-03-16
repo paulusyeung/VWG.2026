@@ -297,7 +297,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.MediaComponents
 			case "error":
 				if (mobjErrorCallback != null)
 				{
-					DeviceEventArgs.TryGetError(objEvent, out var objEventArgs);
+					DeviceEventArgs.TryGetError<EmptyDeviceEventArgs>(objEvent, out var objEventArgs);
 					mobjErrorCallback(this, objEventArgs);
 				}
 				break;

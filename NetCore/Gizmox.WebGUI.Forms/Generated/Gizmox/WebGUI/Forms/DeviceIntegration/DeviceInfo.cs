@@ -111,7 +111,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the single call method store.
 		/// </summary>
-		private SingleCallMethodStore<DeviceInfoEventArgs> SingleCallMethodStore<DeviceInfoEventArgs>
+		private SingleCallMethodStore<DeviceInfoEventArgs> SingleCallMethodStore
 		{
 			get
 			{
@@ -149,7 +149,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		private DeviceInfoEventArgs GetArgumentsFromEvent(IEvent objEvent)
 		{
 			DeviceInfoEventArgs objEventArgs = null;
-			if (!DeviceEventArgs.TryGetError(objEvent, out objEventArgs) && objEvent["Name"] != null && objEvent["JavascriptVersion"] != null && objEvent["Platform"] != null && objEvent["UUID"] != null && objEvent["Version"] != null)
+			if (!DeviceEventArgs.TryGetError<DeviceInfoEventArgs>(objEvent, out objEventArgs) && objEvent["Name"] != null && objEvent["JavascriptVersion"] != null && objEvent["Platform"] != null && objEvent["UUID"] != null && objEvent["Version"] != null)
 			{
 				objEventArgs = new DeviceInfoEventArgs(objEvent["Name"].ToString(), objEvent["JavascriptVersion"].ToString(), objEvent["Platform"].ToString(), objEvent["UUID"].ToString(), objEvent["Version"].ToString());
 			}
@@ -165,9 +165,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 			base.FireEvent(objEvent);
 			string type = objEvent.Type;
 			DeviceInfoEventArgs argumentsFromEvent = GetArgumentsFromEvent(objEvent);
-			if (argumentsFromEvent != null && !string.IsNullOrEmpty(type) && SingleCallMethodStore<DeviceInfoEventArgs>.HasRegisteredMethod(type))
+			if (argumentsFromEvent != null && !string.IsNullOrEmpty(type) && SingleCallMethodStore.HasRegisteredMethod(type))
 			{
-				SingleCallMethodStore<DeviceInfoEventArgs>.InvokeSingleCallMethod(type, argumentsFromEvent);
+				SingleCallMethodStore.InvokeSingleCallMethod(type, argumentsFromEvent);
 			}
 		}
 
@@ -183,7 +183,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="objCallback">The obj callback.</param>
 		public void GetDeviceInfo(Action<DeviceInfoEventArgs> objCallback)
 		{
-			string text = SingleCallMethodStore<DeviceInfoEventArgs>.StoreSingleCallMethod(objCallback);
+			string text = SingleCallMethodStore.StoreSingleCallMethod(objCallback);
 			Invoke("DeviceIntegrator.DeviceInfo.getDeviceInfo", text);
 		}
 	}

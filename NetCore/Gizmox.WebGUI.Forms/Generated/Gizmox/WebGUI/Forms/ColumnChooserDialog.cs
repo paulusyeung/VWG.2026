@@ -253,9 +253,9 @@ namespace Gizmox.WebGUI.Forms
 
 			private DataGridView mobjDataGridView;
 
-			private Dictionary<HierarchicInfo, IEnumerable> mobjNodesIndexedByTheirHierarchyLevel;
+			private Dictionary<HierarchicInfo, IEnumerable<TreeNode>> mobjNodesIndexedByTheirHierarchyLevel;
 
-			private List<object> mobjRootNodeColumns;
+			private List<TreeNode> mobjRootNodeColumns;
 
 			private TreeView mobjTreeColumnsViewer;
 
@@ -276,8 +276,8 @@ namespace Gizmox.WebGUI.Forms
 				: base(objDialog)
 			{
 				mobjDataGridView = objDataGridView;
-				mobjNodesIndexedByTheirHierarchyLevel = new Dictionary<HierarchicInfo, IEnumerable>();
-				mobjRootNodeColumns = new List<object>();
+				mobjNodesIndexedByTheirHierarchyLevel = new Dictionary<HierarchicInfo, IEnumerable<TreeNode>>();
+				mobjRootNodeColumns = new List<TreeNode>();
 				InitializeComponent();
 				FillComboBoxFilter();
 				InitializeAndFillColumnsTree();
@@ -333,10 +333,10 @@ namespace Gizmox.WebGUI.Forms
 			/// </summary>
 			/// <param name="objInfos">The obj infos.</param>
 			/// <param name="objHierarchicNode">The obj hierarchic node.</param>
-			private void InitializeAndFillHierarchicColumns(ObservableCollection<object> objInfos, TreeNode objHierarchicNode)
+			private void InitializeAndFillHierarchicColumns(ObservableCollection<HierarchicInfo> objInfos, TreeNode objHierarchicNode)
 			{
 				HierarchicInfo hierarchicInfo = objInfos[0];
-				List value = InitializeAndFillSingleHierarchicColumns(objHierarchicNode.Nodes, hierarchicInfo);
+				List<TreeNode> value = InitializeAndFillSingleHierarchicColumns(objHierarchicNode.Nodes, hierarchicInfo);
 				mobjNodesIndexedByTheirHierarchyLevel.Add(hierarchicInfo, value);
 				if (objInfos.Count > 1)
 				{
@@ -350,10 +350,10 @@ namespace Gizmox.WebGUI.Forms
 			/// <param name="objHierarchicNodeCollection">The obj hierarchic node collection.</param>
 			/// <param name="objCurrentInfoLevel">The obj current info level.</param>
 			/// </returns>
-			private static List<object> InitializeAndFillSingleHierarchicColumns(TreeNodeCollection objHierarchicNodeCollection, HierarchicInfo objCurrentInfoLevel)
+			private static List<TreeNode> InitializeAndFillSingleHierarchicColumns(TreeNodeCollection objHierarchicNodeCollection, HierarchicInfo objCurrentInfoLevel)
 			{
-				IEnumerable columnNamesFromBindedSource = GetColumnNamesFromBindedSource(objCurrentInfoLevel.BindedSource);
-				List<object> list = new List<object><object>();
+				IEnumerable<string> columnNamesFromBindedSource = GetColumnNamesFromBindedSource(objCurrentInfoLevel.BindedSource);
+				List<TreeNode> list = new List<TreeNode>();
 				foreach (string item in columnNamesFromBindedSource)
 				{
 					bool blnInitialCheckedState = objCurrentInfoLevel.HiddenColumns.IndexOf(item) == -1;
@@ -369,7 +369,7 @@ namespace Gizmox.WebGUI.Forms
 			/// </summary>
 			/// <param name="objBindingSource">The obj binding source.</param>
 			/// </returns>
-			private static IEnumerable GetColumnNamesFromBindedSource(BindingSource objBindingSource)
+			private static IEnumerable<string> GetColumnNamesFromBindedSource(BindingSource objBindingSource)
 			{
 				foreach (PropertyDescriptor objColumnProperty in objBindingSource.CurrencyManager.GetItemProperties())
 				{
@@ -431,7 +431,7 @@ namespace Gizmox.WebGUI.Forms
 			{
 				object obj = mobjHierarchyFilter.Items[mobjHierarchyFilter.SelectedIndex];
 				bool flag = false;
-				IEnumerable enumerable = null;
+				IEnumerable<TreeNode> enumerable = null;
 				mobjTreeColumnsViewer.Nodes.Clear();
 				if (obj is AllHierarchys)
 				{

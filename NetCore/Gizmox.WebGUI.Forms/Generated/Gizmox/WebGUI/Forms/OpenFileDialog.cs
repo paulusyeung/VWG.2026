@@ -301,7 +301,7 @@ namespace Gizmox.WebGUI.Forms
 					{
 						arg2 = ((IContextMethodInvoker)Context).GetMethodName(base.CommonDialogOwner, "Upload_DisplayError");
 					}
-					objHostContext.Response.Write(string.Format("<BODY onload=\"parent.{0}(document.body.innerText);\">" + HttpUtility.HtmlEncode(ex.Message) + "</BODY></HTML>", arg2));
+					objHostContext.Response.Write(string.Format("<BODY onload=\"parent.{0}(document.body.innerText);\">" + global::System.Net.WebUtility.HtmlEncode(ex.Message) + "</BODY></HTML>", arg2));
 				}
 				return null;
 			}

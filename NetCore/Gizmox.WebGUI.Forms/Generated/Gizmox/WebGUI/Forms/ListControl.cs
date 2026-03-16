@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -803,42 +803,42 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the DataSourceChanged event.
 		/// </summary>
-		private EventHandler DataSourceChangedHandler => (EventHandler)GetHandler(DataSourceChanged);
+		private EventHandler DataSourceChangedHandler => (EventHandler)GetHandler(DataSourceChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the DisplayMemberChanged event.
 		/// </summary>
-		private EventHandler DisplayMemberChangedHandler => (EventHandler)GetHandler(DisplayMemberChanged);
+		private EventHandler DisplayMemberChangedHandler => (EventHandler)GetHandler(DisplayMemberChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the Format event.
 		/// </summary>
-		private ListControlConvertEventHandler FormatHandler => (ListControlConvertEventHandler)GetHandler(Format);
+		private ListControlConvertEventHandler FormatHandler => (ListControlConvertEventHandler)GetHandler(FormatEvent);
 
 		/// 
 		/// Gets the hanlder for the FormatInfoChanged event.
 		/// </summary>
-		private EventHandler FormatInfoChangedHandler => (EventHandler)GetHandler(FormatInfoChanged);
+		private EventHandler FormatInfoChangedHandler => (EventHandler)GetHandler(FormatInfoChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the FormatStringChanged event.
 		/// </summary>
-		private EventHandler FormatStringChangedHandler => (EventHandler)GetHandler(FormatStringChanged);
+		private EventHandler FormatStringChangedHandler => (EventHandler)GetHandler(FormatStringChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the FormattingEnabledChanged event.
 		/// </summary>
-		private EventHandler FormattingEnabledChangedHandler => (EventHandler)GetHandler(FormattingEnabledChanged);
+		private EventHandler FormattingEnabledChangedHandler => (EventHandler)GetHandler(FormattingEnabledChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the SelectedValueChanged event.
 		/// </summary>
-		protected EventHandler SelectedValueChangedHandler => (EventHandler)GetHandler(SelectedValueChanged);
+		protected EventHandler SelectedValueChangedHandler => (EventHandler)GetHandler(SelectedValueChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the ValueMemberChanged event.
 		/// </summary>
-		private EventHandler ValueMemberChangedHandler => (EventHandler)GetHandler(ValueMemberChanged);
+		private EventHandler ValueMemberChangedHandler => (EventHandler)GetHandler(ValueMemberChangedEvent);
 
 		/// 
 		/// Gets the color member changed handler.
@@ -1090,14 +1090,14 @@ namespace Gizmox.WebGUI.Forms
 			ValueMemberProperty = SerializableProperty.Register("ValueMember", typeof(BindingMemberInfo), typeof(ListControl), new SerializablePropertyMetadata(default(BindingMemberInfo)));
 			ColorMemberProperty = SerializableProperty.Register("ColorMember", typeof(string), typeof(ListControl), new SerializablePropertyMetadata(string.Empty));
 			ImageMemberProperty = SerializableProperty.Register("ImageMember", typeof(BindingMemberInfo), typeof(ListControl), new SerializablePropertyMetadata(default(BindingMemberInfo)));
-			DataSourceChanged = SerializableEvent.Register("DataSourceChanged", typeof(EventHandler), typeof(ListControl));
-			DisplayMemberChanged = SerializableEvent.Register("DisplayMemberChanged", typeof(EventHandler), typeof(ListControl));
-			Format = SerializableEvent.Register("Format", typeof(ListControlConvertEventHandler), typeof(ListControl));
-			FormatInfoChanged = SerializableEvent.Register("FormatInfoChanged", typeof(EventHandler), typeof(ListControl));
-			FormatStringChanged = SerializableEvent.Register("FormatStringChanged", typeof(EventHandler), typeof(ListControl));
+			DataSourceChangedEvent = SerializableEvent.Register("DataSourceChanged", typeof(EventHandler), typeof(ListControl));
+			DisplayMemberChangedEvent = SerializableEvent.Register("DisplayMemberChanged", typeof(EventHandler), typeof(ListControl));
+			FormatEvent = SerializableEvent.Register("Format", typeof(ListControlConvertEventHandler), typeof(ListControl));
+			FormatInfoChangedEvent = SerializableEvent.Register("FormatInfoChanged", typeof(EventHandler), typeof(ListControl));
+			FormatStringChangedEvent = SerializableEvent.Register("FormatStringChanged", typeof(EventHandler), typeof(ListControl));
 			FormattingEnabledChangedEvent = SerializableEvent.Register("FormattingEnabledChanged", typeof(EventHandler), typeof(ListControl));
-			SelectedValueChanged = SerializableEvent.Register("SelectedValueChanged", typeof(EventHandler), typeof(ListControl));
-			ValueMemberChanged = SerializableEvent.Register("ValueMemberChanged", typeof(EventHandler), typeof(ListControl));
+			SelectedValueChangedEvent = SerializableEvent.Register("SelectedValueChanged", typeof(EventHandler), typeof(ListControl));
+			ValueMemberChangedEvent = SerializableEvent.Register("ValueMemberChanged", typeof(EventHandler), typeof(ListControl));
 			ColorMemberChangedEvent = SerializableEvent.Register("ColorMemberChanged", typeof(EventHandler), typeof(ListControl));
 			ImageMemberChangedEvent = SerializableEvent.Register("ImageMemberChanged", typeof(EventHandler), typeof(ListControl));
 			StringTypeConverter = null;

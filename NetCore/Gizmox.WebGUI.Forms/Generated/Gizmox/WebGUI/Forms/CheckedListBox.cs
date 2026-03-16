@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -479,7 +479,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the ItemCheck event.
 		/// </summary>
-		private ItemCheckHandler ItemCheckHandler => (ItemCheckHandler)GetHandler(ItemCheck);
+		private ItemCheckHandler ItemCheckHandler => (ItemCheckHandler)GetHandler(ItemCheckEvent);
 
 		/// 
 		/// Gets the items of the <see cref="T:Gizmox.WebGUI.Forms.CheckedListBox"></see>.
@@ -782,10 +782,10 @@ namespace Gizmox.WebGUI.Forms
 		{
 			bool flag = false;
 			bool flag2 = false;
-			List<object> list = new List<object><object>(strIndexes.Split(','));
+			List<string> list = new List<string>(strIndexes.Split(','));
 			ObjectCollection items = Items;
 			int count = items.Count;
-			List<object> list2 = new List<object><object>(count);
+			List<bool> list2 = new List<bool>(count);
 			for (int i = 0; i < count; i++)
 			{
 				list2.Add(items.GetChecked(i));
@@ -976,7 +976,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static CheckedListBox()
 		{
-			ItemCheck = SerializableEvent.Register("ItemCheck", typeof(ItemCheckHandler), typeof(CheckedListBox));
+			ItemCheckEvent = SerializableEvent.Register("ItemCheck", typeof(ItemCheckHandler), typeof(CheckedListBox));
 		}
 	}
 }

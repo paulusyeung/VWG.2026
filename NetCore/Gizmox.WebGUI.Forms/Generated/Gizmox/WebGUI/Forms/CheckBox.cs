@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -175,7 +175,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the CheckedChangedQueued event.
 		/// </summary>
-		private EventHandler CheckedChangedQueuedHandler => (EventHandler)GetHandler(CheckedChangedQueued);
+		private EventHandler CheckedChangedQueuedHandler => (EventHandler)GetHandler(CheckedChangedQueuedEvent);
 
 		/// 
 		/// Gets the hanlder for the CheckStateChanged event.
@@ -185,12 +185,12 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the CheckStateChangedQueued event.
 		/// </summary>
-		private EventHandler CheckStateChangedQueuedHandler => (EventHandler)GetHandler(CheckStateChangedQueued);
+		private EventHandler CheckStateChangedQueuedHandler => (EventHandler)GetHandler(CheckStateChangedQueuedEvent);
 
 		/// 
 		/// Gets the hanlder for the AppearanceChanged event.
 		/// </summary>
-		private EventHandler AppearanceChangedHandler => (EventHandler)GetHandler(AppearanceChanged);
+		private EventHandler AppearanceChangedHandler => (EventHandler)GetHandler(AppearanceChangedEvent);
 
 		/// Gets or sets the horizontal and vertical alignment of the check mark on a <see cref="T:Gizmox.WebGUI.Forms.CheckBox"></see> control.</summary>
 		/// One of the <see cref="T:System.Drawing.ContentAlignment"></see> values. The default value is MiddleLeft.</returns>
@@ -820,11 +820,11 @@ namespace Gizmox.WebGUI.Forms
 
 		static CheckBox()
 		{
-			CheckStateChangedQueued = SerializableEvent.Register("CheckStateChangedQueued", typeof(EventHandler), typeof(CheckBox));
+			CheckStateChangedQueuedEvent = SerializableEvent.Register("CheckStateChangedQueued", typeof(EventHandler), typeof(CheckBox));
 			CheckStateChangedEvent = SerializableEvent.Register("CheckStateChanged", typeof(EventHandler), typeof(CheckBox));
-			CheckedChangedQueued = SerializableEvent.Register("CheckedChangedQueued", typeof(EventHandler), typeof(CheckBox));
+			CheckedChangedQueuedEvent = SerializableEvent.Register("CheckedChangedQueued", typeof(EventHandler), typeof(CheckBox));
 			CheckedChangedEvent = SerializableEvent.Register("CheckedChanged", typeof(EventHandler), typeof(CheckBox));
-			AppearanceChanged = SerializableEvent.Register("AppearanceChanged", typeof(EventHandler), typeof(CheckBox));
+			AppearanceChangedEvent = SerializableEvent.Register("AppearanceChanged", typeof(EventHandler), typeof(CheckBox));
 		}
 	}
 }

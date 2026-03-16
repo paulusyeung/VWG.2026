@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -833,12 +833,12 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the Collapse event.
 		/// </summary>
-		private EventHandler CollapseHandler => (EventHandler)GetHandler(Collapse);
+		private EventHandler CollapseHandler => (EventHandler)GetHandler(CollapseEvent);
 
 		/// 
 		/// Gets the hanlder for the Popup event.
 		/// </summary>
-		private EventHandler PopupHandler => (EventHandler)GetHandler(Popup);
+		private EventHandler PopupHandler => (EventHandler)GetHandler(PopupEvent);
 
 		/// 
 		/// Gets the menu items.
@@ -1223,8 +1223,8 @@ namespace Gizmox.WebGUI.Forms
 
 		static Menu()
 		{
-			Collapse = SerializableEvent.Register("Collapse", typeof(EventHandler), typeof(Menu));
-			Popup = SerializableEvent.Register("Popup", typeof(EventHandler), typeof(Menu));
+			CollapseEvent = SerializableEvent.Register("Collapse", typeof(EventHandler), typeof(Menu));
+			PopupEvent = SerializableEvent.Register("Popup", typeof(EventHandler), typeof(Menu));
 			ItemsProperty = SerializableProperty.Register("Items", typeof(MenuItemCollection), typeof(Menu));
 			IsRegisteredProperty = SerializableProperty.Register("IsRegistered", typeof(bool), typeof(Menu));
 			ReferenceCountProperty = SerializableProperty.Register("ReferenceCount", typeof(int), typeof(Menu));

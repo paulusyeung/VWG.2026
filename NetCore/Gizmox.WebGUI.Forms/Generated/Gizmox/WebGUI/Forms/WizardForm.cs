@@ -171,7 +171,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		private void InitializeSteps()
 		{
-			IList steps = GetSteps();
+			IList<WizardStep> steps = GetSteps();
 			WizardStep wizardStep = null;
 			for (int i = 0; i < steps.Count; i++)
 			{
@@ -342,7 +342,7 @@ namespace Gizmox.WebGUI.Forms
 			return panel;
 		}
 
-		protected abstract IList GetSteps();
+		protected abstract IList<WizardStep> GetSteps();
 
 		protected abstract void CompleteWizard();
 

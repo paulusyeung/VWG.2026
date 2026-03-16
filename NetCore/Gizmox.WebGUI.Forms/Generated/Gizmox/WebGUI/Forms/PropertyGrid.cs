@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -514,12 +514,12 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the PropertySortChanged event.
 		/// </summary>
-		private EventHandler PropertySortChangedHandler => (EventHandler)GetHandler(PropertySortChanged);
+		private EventHandler PropertySortChangedHandler => (EventHandler)GetHandler(PropertySortChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the PropertyTabChanged event.
 		/// </summary>
-		private PropertyTabChangedEventHandler PropertyTabChangedHandler => (PropertyTabChangedEventHandler)GetHandler(PropertyTabChanged);
+		private PropertyTabChangedEventHandler PropertyTabChangedHandler => (PropertyTabChangedEventHandler)GetHandler(PropertyTabChangedEvent);
 
 		/// 
 		/// Gets the list of tags that client events are propogated to.
@@ -532,22 +532,22 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the PropertyValueChanged event.
 		/// </summary>
-		private PropertyValueChangedEventHandler PropertyValueChangedHandler => (PropertyValueChangedEventHandler)GetHandler(PropertyValueChanged);
+		private PropertyValueChangedEventHandler PropertyValueChangedHandler => (PropertyValueChangedEventHandler)GetHandler(PropertyValueChangedEvent);
 
 		/// 
 		/// Gets the handler for the PropertyValueChanging event.
 		/// </summary>
-		private PropertyValueChangingEventHandler PropertyValueChangingHandler => (PropertyValueChangingEventHandler)GetHandler(PropertyValueChanging);
+		private PropertyValueChangingEventHandler PropertyValueChangingHandler => (PropertyValueChangingEventHandler)GetHandler(PropertyValueChangingEvent);
 
 		/// 
 		/// Gets the hanlder for the SelectedGridItemChanged event.
 		/// </summary>
-		private SelectedGridItemChangedEventHandler SelectedGridItemChangedHandler => (SelectedGridItemChangedEventHandler)GetHandler(SelectedGridItemChanged);
+		private SelectedGridItemChangedEventHandler SelectedGridItemChangedHandler => (SelectedGridItemChangedEventHandler)GetHandler(SelectedGridItemChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the SelectedObjectsChanged event.
 		/// </summary>
-		private EventHandler SelectedObjectsChangedHandler => (EventHandler)GetHandler(SelectedObjectsChanged);
+		private EventHandler SelectedObjectsChangedHandler => (EventHandler)GetHandler(SelectedObjectsChangedEvent);
 
 		/// 
 		/// Gets the showing type editor handler.
@@ -555,7 +555,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// The showing type editor handler.
 		/// </value>
-		private ShowingTypeEditorEventHandler ShowingTypeEditorHandler => (ShowingTypeEditorEventHandler)GetHandler(ShowingTypeEditor);
+		private ShowingTypeEditorEventHandler ShowingTypeEditorHandler => (ShowingTypeEditorEventHandler)GetHandler(ShowingTypeEditorEvent);
 
 		/// 
 		/// The size of the initiale serialization data array which is the optmized serialization graph.
@@ -2758,13 +2758,13 @@ namespace Gizmox.WebGUI.Forms
 
 		static PropertyGrid()
 		{
-			PropertySortChanged = SerializableEvent.Register("PropertySortChanged", typeof(EventHandler), typeof(PropertyGrid));
-			PropertyTabChanged = SerializableEvent.Register("PropertyTabChanged", typeof(PropertyTabChangedEventHandler), typeof(PropertyGrid));
-			PropertyValueChanged = SerializableEvent.Register("PropertyValueChanged", typeof(PropertyValueChangedEventHandler), typeof(PropertyGrid));
-			PropertyValueChanging = SerializableEvent.Register("PropertyValueChanging", typeof(PropertyValueChangingEventHandler), typeof(PropertyGrid));
-			SelectedGridItemChanged = SerializableEvent.Register("SelectedGridItemChanged", typeof(SelectedGridItemChangedEventHandler), typeof(PropertyGrid));
-			SelectedObjectsChanged = SerializableEvent.Register("SelectedObjectsChanged", typeof(EventHandler), typeof(PropertyGrid));
-			ShowingTypeEditor = SerializableEvent.Register("BeforeTypeEditorOpen", typeof(EventHandler), typeof(PropertyGrid));
+			PropertySortChangedEvent = SerializableEvent.Register("PropertySortChanged", typeof(EventHandler), typeof(PropertyGrid));
+			PropertyTabChangedEvent = SerializableEvent.Register("PropertyTabChanged", typeof(PropertyTabChangedEventHandler), typeof(PropertyGrid));
+			PropertyValueChangedEvent = SerializableEvent.Register("PropertyValueChanged", typeof(PropertyValueChangedEventHandler), typeof(PropertyGrid));
+			PropertyValueChangingEvent = SerializableEvent.Register("PropertyValueChanging", typeof(PropertyValueChangingEventHandler), typeof(PropertyGrid));
+			SelectedGridItemChangedEvent = SerializableEvent.Register("SelectedGridItemChanged", typeof(SelectedGridItemChangedEventHandler), typeof(PropertyGrid));
+			SelectedObjectsChangedEvent = SerializableEvent.Register("SelectedObjectsChanged", typeof(EventHandler), typeof(PropertyGrid));
+			ShowingTypeEditorEvent = SerializableEvent.Register("BeforeTypeEditorOpen", typeof(EventHandler), typeof(PropertyGrid));
 		}
 	}
 }

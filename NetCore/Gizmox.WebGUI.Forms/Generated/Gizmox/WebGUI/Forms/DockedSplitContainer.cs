@@ -126,11 +126,11 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the windows.
 		/// </summary>
-		public List<object> Windows
+		public List<DockingWindow> Windows
 		{
 			get
 			{
-				List list = HandleGetWindowsFromPanel(base.Panel1);
+				List<DockingWindow> list = HandleGetWindowsFromPanel(base.Panel1);
 				list.AddRange(HandleGetWindowsFromPanel(base.Panel2));
 				return list;
 			}
@@ -178,9 +178,9 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		/// <param name="objPanel">The obj panel.</param>
 		/// </returns>
-		private List<object> HandleGetWindowsFromPanel(SplitterPanel objPanel)
+		private List<DockingWindow> HandleGetWindowsFromPanel(SplitterPanel objPanel)
 		{
-			List<object> list = new List<object><object>();
+			List<DockingWindow> list = new List<DockingWindow>();
 			if (objPanel.Controls.Count == 1)
 			{
 				if (objPanel.Controls[0] is Zone)
@@ -253,7 +253,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objDockingPosition">The obj docking position.</param>
 		void IDescriptable.ResetDescriptorsTree(ZoneType objType, DockStyle objDockingPosition)
 		{
-			mobjData = mobjData.CloneWithoutReferences();
+			mobjData = mobjData.CloneWithoutReferences<DockedSplitContainerDescriptor>();
 			mobjManager.RegisterSplitContainer(this);
 			if (base.Panel1.Controls.Count == 1)
 			{

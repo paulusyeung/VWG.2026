@@ -365,7 +365,7 @@ namespace Gizmox.WebGUI.Forms
 
 		private int mintRowsHeightVisibleFrozen;
 
-		private List<object> mobjRowStates;
+		private List<DataGridViewElementStates> mobjRowStates;
 
 		/// Gets the number of rows in the collection.</summary>
 		/// The number of rows in the <see cref="T:Gizmox.WebGUI.Forms.DataGridViewRowCollection"></see>.</returns>
@@ -478,7 +478,7 @@ namespace Gizmox.WebGUI.Forms
 			InvalidateCachedRowCounts();
 			InvalidateCachedRowsHeights();
 			mobjDataGridView = objDataGridView;
-			mobjRowStates = new List<object>();
+			mobjRowStates = new List<DataGridViewElementStates>();
 			mobjItems = new RowArrayList(this);
 		}
 

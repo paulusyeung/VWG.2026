@@ -178,7 +178,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("TreeViewVisualTempalteButtonImageRTL", null);
+				return GetValue<ImageResourceReference>("TreeViewVisualTempalteButtonImageRTL", null);
 			}
 			set
 			{
@@ -198,7 +198,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("TreeViewVisualTempalteButtonImageLTR", null);
+				return GetValue<ImageResourceReference>("TreeViewVisualTempalteButtonImageLTR", null);
 			}
 			set
 			{
@@ -212,7 +212,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		/// 
 		/// The TreeView visual tempalte button image.
 		/// </value>
-		public BidirectionalSkinProperty<object> TreeViewVisualTempalteButtonImage => new BidirectionalSkinProperty<object>(this, "TreeViewVisualTempalteButtonImageLTR", "TreeViewVisualTempalteButtonImageRTL");
+		public BidirectionalSkinProperty<ImageResourceReference> TreeViewVisualTempalteButtonImage => new BidirectionalSkinProperty<ImageResourceReference>(this, "TreeViewVisualTempalteButtonImageLTR", "TreeViewVisualTempalteButtonImageRTL");
 
 		/// 
 		/// Gets the height of the TreeView visual template back button.
@@ -234,7 +234,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("TreeViewVisualTemplateNextLTR", null);
+				return GetValue<ImageResourceReference>("TreeViewVisualTemplateNextLTR", null);
 			}
 			set
 			{
@@ -252,7 +252,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("TreeViewVisualTemplateNextRTL", null);
+				return GetValue<ImageResourceReference>("TreeViewVisualTemplateNextRTL", null);
 			}
 			set
 			{
@@ -266,7 +266,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		/// 
 		/// The TreeView visual template next.
 		/// </value>
-		public BidirectionalSkinProperty<object> TreeViewVisualTemplateNext => new BidirectionalSkinProperty<object>(this, "TreeViewVisualTemplateNextLTR", "TreeViewVisualTemplateNextRTL");
+		public BidirectionalSkinProperty<ImageResourceReference> TreeViewVisualTemplateNext => new BidirectionalSkinProperty<ImageResourceReference>(this, "TreeViewVisualTemplateNextLTR", "TreeViewVisualTemplateNextRTL");
 
 		/// 
 		/// Gets or sets the TreeView visual template next witdh.

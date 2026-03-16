@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -118,19 +118,19 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the ButtonClick handler.
 		/// </summary>
 		/// The ButtonClick handler.</value>
-		private EventHandler ButtonClickHandler => (EventHandler)GetHandler(ButtonClick);
+		private EventHandler ButtonClickHandler => (EventHandler)GetHandler(ButtonClickEvent);
 
 		/// 
 		/// Gets the ButtonDoubleClick handler.
 		/// </summary>
 		/// The ButtonDoubleClick handler.</value>
-		private EventHandler ButtonDoubleClickHandler => (EventHandler)GetHandler(ButtonDoubleClick);
+		private EventHandler ButtonDoubleClickHandler => (EventHandler)GetHandler(ButtonDoubleClickEvent);
 
 		/// 
 		/// Gets the DefaultItemChanged handler.
 		/// </summary>
 		/// The DefaultItemChanged handler.</value>
-		private EventHandler DefaultItemChangedHandler => (EventHandler)GetHandler(DefaultItemChanged);
+		private EventHandler DefaultItemChangedHandler => (EventHandler)GetHandler(DefaultItemChangedEvent);
 
 		/// Gets or sets a value indicating whether default or custom <see cref="T:Gizmox.WebGUI.Forms.ToolTip"></see> text is displayed on the <see cref="T:Gizmox.WebGUI.Forms.ToolStripSplitButton"></see>.</summary> 
 		/// true if default <see cref="T:Gizmox.WebGUI.Forms.ToolTip"></see> text is displayed; otherwise, false. The default is true.</returns>
@@ -493,7 +493,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			ButtonClickEvent = SerializableEvent.Register("ButtonClick", typeof(EventHandler), typeof(ToolStripSplitButton));
 			ButtonDoubleClickEvent = SerializableEvent.Register("ButtonDoubleClick", typeof(EventHandler), typeof(ToolStripSplitButton));
-			DefaultItemChanged = SerializableEvent.Register("DefaultItemChanged", typeof(EventHandler), typeof(ToolStripSplitButton));
+			DefaultItemChangedEvent = SerializableEvent.Register("DefaultItemChanged", typeof(EventHandler), typeof(ToolStripSplitButton));
 		}
 	}
 }

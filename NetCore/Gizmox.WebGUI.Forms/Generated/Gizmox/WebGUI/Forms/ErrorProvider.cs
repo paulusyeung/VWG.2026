@@ -286,7 +286,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			if (disposing)
 			{
-				List<object> list = new List<object><object>();
+				List<object> list = new List<object>();
 				foreach (Control key in mobjControlWithErrorsMap.Keys)
 				{
 					list.Add(key);

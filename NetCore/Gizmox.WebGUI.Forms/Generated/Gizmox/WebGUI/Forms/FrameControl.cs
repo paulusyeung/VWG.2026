@@ -139,7 +139,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="arrArgs">The arugments to be passed to the method</param>
 		public void InvokeClientMethod(string strMember, params object[] arrArgs)
 		{
-			List<object> list = new List<object><object>();
+			List<object> list = new List<object>();
 			list.Add(ID.ToString());
 			list.Add(strMember);
 			list.AddRange(arrArgs);

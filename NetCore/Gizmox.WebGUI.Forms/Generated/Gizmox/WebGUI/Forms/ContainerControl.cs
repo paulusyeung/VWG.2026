@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -152,7 +152,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the AutoValidateChanged event.
 		/// </summary>
-		private EventHandler AutoValidateChangedHandler => (EventHandler)GetHandler(AutoValidateChanged);
+		private EventHandler AutoValidateChangedHandler => (EventHandler)GetHandler(AutoValidateChangedEvent);
 
 		/// 
 		/// Gets the inner most focused container control.
@@ -1033,7 +1033,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static ContainerControl()
 		{
-			AutoValidateChanged = SerializableEvent.Register("AutoValidateChanged", typeof(EventHandler), typeof(ContainerControl));
+			AutoValidateChangedEvent = SerializableEvent.Register("AutoValidateChanged", typeof(EventHandler), typeof(ContainerControl));
 			mintStateParentChanged = SerializableBitVector32.CreateMask(mintStateScalingChild);
 			mintStateProcessingMnemonic = SerializableBitVector32.CreateMask(mintStateValidating);
 			mintStateScalingChild = SerializableBitVector32.CreateMask(mintStateProcessingMnemonic);

@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -331,17 +331,17 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the CloseClick event.
 		/// </summary>
-		private EventHandler CloseClickHandler => (EventHandler)GetHandler(CloseClick);
+		private EventHandler CloseClickHandler => (EventHandler)GetHandler(CloseClickEvent);
 
 		/// 
 		/// Gets the hanlder for the SelectedIndexChanged event.
 		/// </summary>
-		private EventHandler SelectedIndexChangedHandler => (EventHandler)GetHandler(SelectedIndexChanged);
+		private EventHandler SelectedIndexChangedHandler => (EventHandler)GetHandler(SelectedIndexChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the SelectedIndexChanging event.
 		/// </summary>
-		private TabControlCancelEventHandler SelectedIndexChangingHandler => (TabControlCancelEventHandler)GetHandler(SelectedIndexChanging);
+		private TabControlCancelEventHandler SelectedIndexChangingHandler => (TabControlCancelEventHandler)GetHandler(SelectedIndexChangingEvent);
 
 		/// 
 		/// Gets or Sets value indication if the close button (when Appearance==TabAppearance.Workspace) 
@@ -366,12 +366,12 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the Collapse event.
 		/// </summary>
-		private EventHandler CollapseHandler => (EventHandler)GetHandler(Collapse);
+		private EventHandler CollapseHandler => (EventHandler)GetHandler(CollapseEvent);
 
 		/// 
 		/// Gets the hanlder for the Expand event.
 		/// </summary>
-		private EventHandler ExpandHandler => (EventHandler)GetHandler(Expand);
+		private EventHandler ExpandHandler => (EventHandler)GetHandler(ExpandEvent);
 
 		/// 
 		/// Gets or sets the select on right click.
@@ -1875,10 +1875,10 @@ namespace Gizmox.WebGUI.Forms
 		static TabControl()
 		{
 			CloseClickEvent = SerializableEvent.Register("CloseClick", typeof(EventHandler), typeof(TabControl));
-			SelectedIndexChanged = SerializableEvent.Register("SelectedIndexChanged", typeof(EventHandler), typeof(TabControl));
-			SelectedIndexChanging = SerializableEvent.Register("SelectedIndexChanging", typeof(TabControlCancelEventHandler), typeof(TabControl));
-			Collapse = SerializableEvent.Register("Collapse", typeof(EventHandler), typeof(TabControl));
-			Expand = SerializableEvent.Register("Expand", typeof(EventHandler), typeof(TabControl));
+			SelectedIndexChangedEvent = SerializableEvent.Register("SelectedIndexChanged", typeof(EventHandler), typeof(TabControl));
+			SelectedIndexChangingEvent = SerializableEvent.Register("SelectedIndexChanging", typeof(TabControlCancelEventHandler), typeof(TabControl));
+			CollapseEvent = SerializableEvent.Register("Collapse", typeof(EventHandler), typeof(TabControl));
+			ExpandEvent = SerializableEvent.Register("Expand", typeof(EventHandler), typeof(TabControl));
 		}
 	}
 }

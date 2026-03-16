@@ -88,7 +88,7 @@ namespace Gizmox.WebGUI.Forms.Administration.Abstract
         /// Gets the status.
         /// </summary>
         /// <returns></returns>
-        public abstract List<StatusData> GetStatus();
+        public abstract List<Gizmox.WebGUI.Forms.Administration.Abstract.StatusData> GetStatus();
 
         /// <summary>
         /// Occurs when [content changed].

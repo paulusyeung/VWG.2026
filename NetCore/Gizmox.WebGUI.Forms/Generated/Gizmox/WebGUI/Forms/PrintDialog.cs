@@ -149,7 +149,7 @@ namespace Gizmox.WebGUI.Forms
 				{
 					if (document != null)
 					{
-						List bitmapsList = document.BitmapsList;
+						List<Bitmap> bitmapsList = document.BitmapsList;
 						if (bitmapsList != null && bitmapsList.Count > 0)
 						{
 							if (strAction == "print")
@@ -173,7 +173,7 @@ namespace Gizmox.WebGUI.Forms
 			/// <param name="objHostContext">The obj host context.</param>
 			/// <param name="strAction">The STR action.</param>
 			/// <param name="objBitmapsList">The obj bitmaps list.</param>
-			private static void ProcessPageRequest(HostContext objHostContext, string strAction,List<object> objBitmapsList)
+			private static void ProcessPageRequest(HostContext objHostContext, string strAction, List<Bitmap> objBitmapsList)
 			{
 				int result = -1;
 				if (int.TryParse(strAction.Substring(4), out result) && result < objBitmapsList.Count)
@@ -195,7 +195,7 @@ namespace Gizmox.WebGUI.Forms
 			/// <param name="objHostContext">The obj host context.</param>
 			/// <param name="objPrintDocument">The obj print document.</param>
 			/// <param name="objBitmapsList">The obj bitmaps list.</param>
-			private static void ProcessPrintRequest(HostContext objHostContext, PrintDocument objPrintDocument,List<object> objBitmapsList)
+			private static void ProcessPrintRequest(HostContext objHostContext, PrintDocument objPrintDocument, List<Bitmap> objBitmapsList)
 			{
 				objHostContext.Response.ContentType = "text/html";
 				objHostContext.Response.Expires = -1;

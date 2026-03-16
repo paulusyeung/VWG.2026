@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -139,7 +139,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// The drop down handler.
 		/// </value>
-		private EventHandler DropDownHandler => (EventHandler)GetHandler(DropDown);
+		private EventHandler DropDownHandler => (EventHandler)GetHandler(DropDownEvent);
 
 		/// 
 		/// Gets the drop down closed handler.
@@ -147,13 +147,13 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// The drop down closed handler.
 		/// </value>
-		private EventHandler DropDownClosedHandler => (EventHandler)GetHandler(DropDownClosed);
+		private EventHandler DropDownClosedHandler => (EventHandler)GetHandler(DropDownClosedEvent);
 
 		/// 
 		/// Gets the SelectedIndexChanged handler.
 		/// </summary>
 		/// The SelectedIndexChanged handler.</value>
-		private EventHandler SelectedIndexChangedHandler => (EventHandler)GetHandler(SelectedIndexChanged);
+		private EventHandler SelectedIndexChangedHandler => (EventHandler)GetHandler(SelectedIndexChangedEvent);
 
 		/// Gets or sets the custom string collection to use when the <see cref="P:Gizmox.WebGUI.Forms.ToolStripComboBox.AutoCompleteSource"></see> property is set to <see cref="F:Gizmox.WebGUI.Forms.AutoCompleteSource.CustomSource"></see>.</summary> 
 		/// An <see cref="T:Gizmox.WebGUI.Forms.AutoCompleteStringCollection"></see> that contains the strings.</returns> 
@@ -903,9 +903,9 @@ namespace Gizmox.WebGUI.Forms
 
 		static ToolStripComboBox()
 		{
-			SelectedIndexChanged = SerializableEvent.Register("SelectedIndexChanged", typeof(EventHandler), typeof(ToolStripComboBox));
-			DropDown = SerializableEvent.Register("DropDown", typeof(EventHandler), typeof(ToolStripComboBox));
-			DropDownClosed = SerializableEvent.Register("DropDownClosed", typeof(EventHandler), typeof(ToolStripComboBox));
+			SelectedIndexChangedEvent = SerializableEvent.Register("SelectedIndexChanged", typeof(EventHandler), typeof(ToolStripComboBox));
+			DropDownEvent = SerializableEvent.Register("DropDown", typeof(EventHandler), typeof(ToolStripComboBox));
+			DropDownClosedEvent = SerializableEvent.Register("DropDownClosed", typeof(EventHandler), typeof(ToolStripComboBox));
 		}
 	}
 }

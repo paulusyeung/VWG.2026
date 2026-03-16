@@ -182,7 +182,7 @@ namespace Gizmox.WebGUI.Forms
 		private void UpdateContent(ContentChangeNotifierUserControl objControl)
 		{
 			string text = string.Empty;
-			List labels = null;
+			List<StatusData> labels = null;
 			if (objControl != null)
 			{
 				text = objControl.GetCurrentContentName();

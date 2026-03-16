@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -181,17 +181,17 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the BindingComplete event.
 		/// </summary>
-		private BindingCompleteEventHandler BindingCompleteHandler => (BindingCompleteEventHandler)GetHandler(BindingComplete);
+		private BindingCompleteEventHandler BindingCompleteHandler => (BindingCompleteEventHandler)GetHandler(BindingCompleteEvent);
 
 		/// 
 		/// Gets the hanlder for the Format event.
 		/// </summary>
-		private ConvertEventHandler FormatHandler => (ConvertEventHandler)GetHandler(Format);
+		private ConvertEventHandler FormatHandler => (ConvertEventHandler)GetHandler(FormatEvent);
 
 		/// 
 		/// Gets the hanlder for the Parse event.
 		/// </summary>
-		private ConvertEventHandler ParseHandler => (ConvertEventHandler)GetHandler(Parse);
+		private ConvertEventHandler ParseHandler => (ConvertEventHandler)GetHandler(ParseEvent);
 
 		private BindingManagerBase BindingManagerBaseInternal
 		{
@@ -1423,9 +1423,9 @@ namespace Gizmox.WebGUI.Forms
 
 		static Binding()
 		{
-			BindingComplete = SerializableEvent.Register("BindingComplete", typeof(BindingCompleteEventHandler), typeof(Binding));
-			Format = SerializableEvent.Register("Format", typeof(ConvertEventHandler), typeof(Binding));
-			Parse = SerializableEvent.Register("Parse", typeof(ConvertEventHandler), typeof(Binding));
+			BindingCompleteEvent = SerializableEvent.Register("BindingComplete", typeof(BindingCompleteEventHandler), typeof(Binding));
+			FormatEvent = SerializableEvent.Register("Format", typeof(ConvertEventHandler), typeof(Binding));
+			ParseEvent = SerializableEvent.Register("Parse", typeof(ConvertEventHandler), typeof(Binding));
 			BindingManagerBaseProperty = SerializableProperty.Register("BindingManagerBaseProperty", typeof(BindingManagerBase), typeof(Binding));
 			BoundProperty = SerializableProperty.Register("Bound", typeof(bool), typeof(Binding), new SerializablePropertyMetadata(false));
 			ControlProperty = SerializableProperty.Register("Control", typeof(IBindableComponent), typeof(Binding));

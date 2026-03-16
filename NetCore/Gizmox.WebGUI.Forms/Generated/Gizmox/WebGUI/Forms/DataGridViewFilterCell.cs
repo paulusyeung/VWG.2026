@@ -380,7 +380,7 @@ namespace Gizmox.WebGUI.Forms
 				{
 					return;
 				}
-				List filterComparisonOperator = GetFilterComparisonOperator(mobjOwningColumn.ValueType);
+				List<FilterComparisonOperator> filterComparisonOperator = GetFilterComparisonOperator(mobjOwningColumn.ValueType);
 				foreach (FilterComparisonOperator item in filterComparisonOperator)
 				{
 					MenuItem menuItem = new MenuItem(SR.GetString($"FilterComparisionOperator_{item.ToString()}"));
@@ -487,9 +487,9 @@ namespace Gizmox.WebGUI.Forms
 			/// </summary>
 			/// <param name="objColumnType">Type of the column.</param>
 			/// </returns>
-			internal static List<object> GetFilterComparisonOperator(Type objColumnType)
+			internal static List<FilterComparisonOperator> GetFilterComparisonOperator(Type objColumnType)
 			{
-				List<object> list = new List<object><object>();
+				List<FilterComparisonOperator> list = new List<FilterComparisonOperator>();
 				list.Add(FilterComparisonOperator.Equals);
 				list.Add(FilterComparisonOperator.NotEquals);
 				if (objColumnType != typeof(bool))

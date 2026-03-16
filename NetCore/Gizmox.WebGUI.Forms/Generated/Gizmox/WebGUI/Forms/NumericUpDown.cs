@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -403,7 +403,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the on value changed.
 		/// </summary>
 		/// The on value changed.</value>
-		private EventHandler ValueChangedHandler => (EventHandler)GetHandler(ValueChanged);
+		private EventHandler ValueChangedHandler => (EventHandler)GetHandler(ValueChangedEvent);
 
 		/// 
 		/// Gets or sets the space between the edges of 
@@ -940,7 +940,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static NumericUpDown()
 		{
-			ValueChanged = SerializableEvent.Register("ValueChanged", typeof(EventHandler), typeof(NumericUpDown));
+			ValueChangedEvent = SerializableEvent.Register("ValueChanged", typeof(EventHandler), typeof(NumericUpDown));
 			ThousandsSeparatorProperty = SerializableProperty.Register("ThousandsSeparator", typeof(bool), typeof(NumericUpDown), new SerializablePropertyMetadata(false));
 		}
 	}

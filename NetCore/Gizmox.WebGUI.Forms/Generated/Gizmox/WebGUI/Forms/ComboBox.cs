@@ -603,12 +603,12 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the selection change committed handler.
 		/// </summary>
-		private EventHandler SelectionChangeCommittedHandler => (EventHandler)GetHandler(SelectionChangeCommitted);
+		private EventHandler SelectionChangeCommittedHandler => (EventHandler)GetHandler(SelectionChangeCommittedEvent);
 
 		/// 
 		/// Gets the hanlder for the SelectedIndexChanged event.
 		/// </summary>
-		private EventHandler SelectedIndexChangedHandler => (EventHandler)GetHandler(SelectedIndexChanged);
+		private EventHandler SelectedIndexChangedHandler => (EventHandler)GetHandler(SelectedIndexChangedEvent);
 
 		/// Gets or sets the number of characters selected in the editable portion of the combo box.</summary>
 		/// The number of characters selected in the combo box.</returns>
@@ -665,7 +665,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the SelectedIndexChangedQueued event.
 		/// </summary>
-		private EventHandler SelectedIndexChangedQueuedHandler => (EventHandler)GetHandler(SelectedIndexChangedQueued);
+		private EventHandler SelectedIndexChangedQueuedHandler => (EventHandler)GetHandler(SelectedIndexChangedQueuedEvent);
 
 		/// 
 		/// Gets the drop down handler.
@@ -673,7 +673,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// The drop down handler.
 		/// </value>
-		private EventHandler DropDownHandler => (EventHandler)GetHandler(DropDown);
+		private EventHandler DropDownHandler => (EventHandler)GetHandler(DropDownEvent);
 
 		/// 
 		/// Gets the drop down closed handler.
@@ -681,7 +681,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// The drop down closed handler.
 		/// </value>
-		private EventHandler DropDownClosedHandler => (EventHandler)GetHandler(DropDownClosed);
+		private EventHandler DropDownClosedHandler => (EventHandler)GetHandler(DropDownClosedEvent);
 
 		/// 
 		/// The size of the initiale serialization data array which is the optmized serialization graph.
@@ -2365,16 +2365,16 @@ namespace Gizmox.WebGUI.Forms
 
 		static ComboBox()
 		{
-			SelectedIndexChangedQueued = SerializableEvent.Register("SelectedIndexChangedQueued", typeof(EventHandler), typeof(ComboBox));
-			SelectedIndexChanged = SerializableEvent.Register("SelectedIndexChanged", typeof(EventHandler), typeof(ComboBox));
-			SelectionChangeCommitted = SerializableEvent.Register("SelectionChangeCommitted", typeof(EventHandler), typeof(ComboBox));
+			SelectedIndexChangedQueuedEvent = SerializableEvent.Register("SelectedIndexChangedQueued", typeof(EventHandler), typeof(ComboBox));
+			SelectedIndexChangedEvent = SerializableEvent.Register("SelectedIndexChanged", typeof(EventHandler), typeof(ComboBox));
+			SelectionChangeCommittedEvent = SerializableEvent.Register("SelectionChangeCommitted", typeof(EventHandler), typeof(ComboBox));
 			IntegralHeightProperty = SerializableProperty.Register("IntegralHeight", typeof(bool), typeof(ComboBox), new SerializablePropertyMetadata(true));
 			SelectedTextProperty = SerializableProperty.Register("SelectedText", typeof(string), typeof(ComboBox));
 			MaxBoundDropDownItemsProperty = SerializableProperty.Register("MaxBindedDropDownItems", typeof(int), typeof(ComboBox), new SerializablePropertyMetadata(-1));
 			IsAutoCompleteProperty = SerializableProperty.Register("IsAutoComplete", typeof(bool), typeof(ComboBox), new SerializablePropertyMetadata(true));
 			DroppedDownProperty = SerializableProperty.Register("DroppedDown", typeof(bool), typeof(ComboBox), new SerializablePropertyMetadata(false));
-			DropDown = SerializableEvent.Register("DropDown", typeof(EventHandler), typeof(ComboBox));
-			DropDownClosed = SerializableEvent.Register("DropDownClosed", typeof(EventHandler), typeof(ComboBox));
+			DropDownEvent = SerializableEvent.Register("DropDown", typeof(EventHandler), typeof(ComboBox));
+			DropDownClosedEvent = SerializableEvent.Register("DropDownClosed", typeof(EventHandler), typeof(ComboBox));
 		}
 	}
 }

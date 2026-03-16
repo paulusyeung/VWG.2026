@@ -112,23 +112,23 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 
 		private int mintLastErrorCode;
 
-		private EventHandler mobjWriteEndCallback;
+		private EventHandler<EmptyDeviceEventArgs> mobjWriteEndCallback;
 
 		private KeyValuePair<string, object[]> mobjWriteEndClientCallbackData;
 
-		private EventHandler mobjWriteCallback;
+		private EventHandler<EmptyDeviceEventArgs> mobjWriteCallback;
 
 		private KeyValuePair<string, object[]> mobjWriteClientCallbackData;
 
-		private EventHandler mobjWriteStartCallback;
+		private EventHandler<EmptyDeviceEventArgs> mobjWriteStartCallback;
 
 		private KeyValuePair<string, object[]> mobjWriteStartClientCallbackData;
 
-		private EventHandler mobjErrorCallback;
+		private EventHandler<EmptyDeviceEventArgs> mobjErrorCallback;
 
 		private KeyValuePair<string, object[]> mobjErrorClientCallbackData;
 
-		private EventHandler mobjAbortCallback;
+		private EventHandler<EmptyDeviceEventArgs> mobjAbortCallback;
 
 		private KeyValuePair<string, object[]> mobjAbortClientCallbackData;
 
@@ -144,7 +144,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		{
 			get
 			{
-				return GetValuetypePropertyOrDefault("length");
+				return GetValuetypePropertyOrDefault<ulong>("length");
 			}
 			internal set
 			{
@@ -162,7 +162,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		{
 			get
 			{
-				return GetValuetypePropertyOrDefault("position");
+				return GetValuetypePropertyOrDefault<ulong>("position");
 			}
 			internal set
 			{
@@ -195,7 +195,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		{
 			get
 			{
-				int? nullableValueTypeProperty = GetNullableValueTypeProperty("readyState");
+				int? nullableValueTypeProperty = GetNullableValueTypeProperty<int>("readyState");
 				if (nullableValueTypeProperty.HasValue && Enum.IsDefined(typeof(ReaderReadyStateType), nullableValueTypeProperty))
 				{
 					return (ReadyStateType)nullableValueTypeProperty.Value;

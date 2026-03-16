@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -2671,7 +2671,7 @@ namespace Gizmox.WebGUI.Forms
 
 		private int minPerformLayoutCount = 0;
 
-		private ObservableCollection<object> mobjHierarchicInfos = null;
+		private ObservableCollection<HierarchicInfo> mobjHierarchicInfos = null;
 
 		private Dictionary<string, string> mobjRealFilteringDataMemberIndexByProposedFilteringDataMember;
 
@@ -2687,9 +2687,9 @@ namespace Gizmox.WebGUI.Forms
 
 		private bool mblnShowExpansionIndicator;
 
-		private ObservableCollection<object> mobjSystemHierarchicInfos = null;
+		private ObservableCollection<HierarchicInfo> mobjSystemHierarchicInfos = null;
 
-		private UniqueObservableCollection<object> mobjGroupingColumns;
+		private UniqueObservableCollection<string> mobjGroupingColumns;
 
 		private bool mblnShowGroupingDropArea;
 
@@ -2723,7 +2723,7 @@ namespace Gizmox.WebGUI.Forms
 
 		private IComparer mblnColumnChooserSorter;
 
-		private List<object> mobjHeadersFilterInfo = null;
+		private List<HeaderFilterInfo> mobjHeadersFilterInfo = null;
 
 		private static readonly SerializableEvent ColumnDividerDoubleClickEvent;
 
@@ -2801,32 +2801,32 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the column divider double click handler.
 		/// </summary>
-		private DataGridViewColumnDividerDoubleClickEventHandler ColumnDividerDoubleClickHandler => (DataGridViewColumnDividerDoubleClickEventHandler)GetHandler(ColumnDividerDoubleClick);
+		private DataGridViewColumnDividerDoubleClickEventHandler ColumnDividerDoubleClickHandler => (DataGridViewColumnDividerDoubleClickEventHandler)GetHandler(ColumnDividerDoubleClickEvent);
 
 		/// 
 		/// Gets the hanlder for the CurrentCellChanged event.
 		/// </summary>
-		private EventHandler CurrentCellChangedHandler => (EventHandler)GetHandler(CurrentCellChanged);
+		private EventHandler CurrentCellChangedHandler => (EventHandler)GetHandler(CurrentCellChangedEvent);
 
 		/// 
 		/// Gets the group header formatting handler.
 		/// </summary>
-		private GroupHeaderFormattingEventHandler GroupHeaderFormattingHandler => (GroupHeaderFormattingEventHandler)GetHandler(GroupHeaderFormatting);
+		private GroupHeaderFormattingEventHandler GroupHeaderFormattingHandler => (GroupHeaderFormattingEventHandler)GetHandler(GroupHeaderFormattingEvent);
 
 		/// 
 		/// Gets the grouping changed event handler.
 		/// </summary>
-		private GroupingChangedEventHandler GroupingChangedEventHandler => (GroupingChangedEventHandler)GetHandler(GroupingChanged);
+		private GroupingChangedEventHandler GroupingChangedEventHandler => (GroupingChangedEventHandler)GetHandler(GroupingChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the SelectionChanged event.
 		/// </summary>
-		private EventHandler SelectionChangedHandler => (EventHandler)GetHandler(SelectionChanged);
+		private EventHandler SelectionChangedHandler => (EventHandler)GetHandler(SelectionChangedEvent);
 
 		/// 
 		/// Gets the custom filter applying event handler.
 		/// </summary>
-		internal CustomFilterApplyingEventHandler CustomHeaderFilterClickedEventHandler => (CustomFilterApplyingEventHandler)GetHandler(CustomHeaderFilterClicked);
+		internal CustomFilterApplyingEventHandler CustomHeaderFilterClickedEventHandler => (CustomFilterApplyingEventHandler)GetHandler(CustomHeaderFilterClickedEvent);
 
 		/// 
 		/// Gets the list of tags that client events are propogated to.
@@ -4972,7 +4972,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the PagingChanged event.
 		/// </summary>
-		private EventHandler PagingChangedHandler => (EventHandler)GetHandler(PagingChanged);
+		private EventHandler PagingChangedHandler => (EventHandler)GetHandler(PagingChangedEvent);
 
 		/// 
 		/// Uses internal paging algorithem
@@ -5714,13 +5714,13 @@ namespace Gizmox.WebGUI.Forms
 		[Browsable(true)]
 		[EditorBrowsable(EditorBrowsableState.Always)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
-		public ObservableCollection<object> HierarchicInfos
+		public ObservableCollection<HierarchicInfo> HierarchicInfos
 		{
 			get
 			{
 				if (mobjHierarchicInfos == null)
 				{
-					HierarchicInfos = new ObservableCollection<object>();
+					HierarchicInfos = new ObservableCollection<HierarchicInfo>();
 				}
 				return mobjHierarchicInfos;
 			}
@@ -5754,13 +5754,13 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// The system hierarchic infos.
 		/// </value>
-		internal ObservableCollection<object> SystemHierarchicInfos
+		internal ObservableCollection<HierarchicInfo> SystemHierarchicInfos
 		{
 			get
 			{
 				if (mobjSystemHierarchicInfos == null)
 				{
-					SystemHierarchicInfos = new ObservableCollection<object>();
+					SystemHierarchicInfos = new ObservableCollection<HierarchicInfo>();
 				}
 				return mobjSystemHierarchicInfos;
 			}
@@ -5786,13 +5786,13 @@ namespace Gizmox.WebGUI.Forms
 		/// </value>
 		[Editor("Gizmox.WebGUI.Forms.Design.DataGridViewGroupingColumnsEditor, Gizmox.WebGUI.Forms.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=dd2a1fd4d120c769", typeof(UITypeEditor))]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
-		public UniqueObservableCollection<object> GroupingColumns
+		public UniqueObservableCollection<string> GroupingColumns
 		{
 			get
 			{
 				if (mobjGroupingColumns == null)
 				{
-					GroupingColumns = new UniqueObservableCollection<object>();
+					GroupingColumns = new UniqueObservableCollection<string>();
 				}
 				return mobjGroupingColumns;
 			}
@@ -6519,13 +6519,13 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the headers filter info.
 		/// </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
-		public List<object> HeadersFilterInfo
+		public List<HeaderFilterInfo> HeadersFilterInfo
 		{
 			get
 			{
 				if (mobjHeadersFilterInfo == null)
 				{
-					mobjHeadersFilterInfo = new List<object>();
+					mobjHeadersFilterInfo = new List<HeaderFilterInfo>();
 				}
 				return mobjHeadersFilterInfo;
 			}
@@ -8831,7 +8831,7 @@ namespace Gizmox.WebGUI.Forms
 			ResetDataBinding();
 			if (HideGroupedColumns)
 			{
-				UniqueObservableCollection<object> groupingColumns = GroupingColumns;
+				UniqueObservableCollection<string> groupingColumns = GroupingColumns;
 				DataGridViewColumnCollection columns = Columns;
 				foreach (string item in groupingColumns)
 				{
@@ -9565,7 +9565,7 @@ namespace Gizmox.WebGUI.Forms
 				{
 					array[i] = list[i - 1] as DataGridViewRow;
 				}
-				list = new List<object>(array);
+				list = new List<DataGridViewRow>(array);
 				blnContainsFrozeRows = true;
 			}
 			DataGridViewRowCollection rows = Rows;
@@ -9627,7 +9627,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		private IEnumerable GetRowBlocks()
 		{
-			List<object> list = new List<object><object>();
+			List<DataGridRowBlock> list = new List<DataGridRowBlock>();
 			bool blnContainsFrozeRows = false;
 			IList rows = GetRows(out blnContainsFrozeRows);
 			if (rows != null)
@@ -9638,14 +9638,14 @@ namespace Gizmox.WebGUI.Forms
 				}
 				else
 				{
-					List<object> list2 = new List<object><object>();
+					List<DataGridViewRow> list2 = new List<DataGridViewRow>();
 					blnContainsFrozeRows = false;
 					for (int i = 0; i < rows.Count; i++)
 					{
 						if (list2.Count == VirtualBlockSize)
 						{
 							list.Add(new DataGridRowBlock(this, list2, list.Count + 1, blnContainsFrozeRows));
-							list2 = new List<object>();
+							list2 = new List<DataGridViewRow>();
 							blnContainsFrozeRows = false;
 						}
 						if (rows[i] is DataGridViewRow dataGridViewRow && dataGridViewRow.GetVisible(dataGridViewRow.Index))
@@ -9804,7 +9804,7 @@ namespace Gizmox.WebGUI.Forms
 				DataGridViewColumn key = chosenRootColumn.Key;
 				if (key != null)
 				{
-					List<object> list = new List<object><object>();
+					List<DataGridViewColumn> list = new List<DataGridViewColumn>();
 					if (chosenRootColumn.Value.IsChanged)
 					{
 						key.Visible = chosenRootColumn.Value.IsChecked;
@@ -9839,8 +9839,8 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objColumnsState">The list.</param>
 		internal void UpdateSingleHierarchyColumnsVisibility(HierarchicInfo objInfo, List<KeyValuePair<DataGridViewColumn, ColumnCheckedStatus>> objColumnsState)
 		{
-			List<object> list = new List<object><object>();
-			List<object> list2 = new List<object><object>();
+			List<string> list = new List<string>();
+			List<string> list2 = new List<string>();
 			foreach (KeyValuePair<DataGridViewColumn, ColumnCheckedStatus> item in objColumnsState)
 			{
 				if (item.Value.IsChanged)
@@ -9864,7 +9864,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objInfo">The obj info.</param>
 		/// <param name="objVisibleItems">The obj visible items.</param>
 		/// <param name="objNotVisibleItems">The obj not visible items.</param>
-		private static void UpdateHierarchyInfosColumnsVisibility(HierarchicInfo objInfo,List<object> objVisibleItems,List<object> objNotVisibleItems)
+		private static void UpdateHierarchyInfosColumnsVisibility(HierarchicInfo objInfo, List<string> objVisibleItems, List<string> objNotVisibleItems)
 		{
 			objInfo.HiddenColumns.SuspendCollectionChangeNotification();
 			objInfo.HiddenColumns.AddRange(objNotVisibleItems);
@@ -9879,8 +9879,8 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objColumnsState">The list.</param>
 		internal void UpdateSingleHierarchyColumnsVisibility(HierarchicInfo objInfo, List<KeyValuePair<string, ColumnCheckedStatus>> objColumnsState)
 		{
-			List<object> list = new List<object><object>();
-			List<object> list2 = new List<object><object>();
+			List<string> list = new List<string>();
+			List<string> list2 = new List<string>();
 			foreach (KeyValuePair<string, ColumnCheckedStatus> item in objColumnsState)
 			{
 				if (item.Value.IsChanged)
@@ -14498,7 +14498,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		internal HeaderFilterInfo GetColumnHeaderInfo(DataGridViewColumn objDataGridViewColumn)
 		{
-			List list = mobjHeadersFilterInfo;
+			List<HeaderFilterInfo> list = mobjHeadersFilterInfo;
 			if (list != null)
 			{
 				foreach (HeaderFilterInfo item in list)
@@ -17031,7 +17031,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the relevant hierarchic infos.
 		/// </summary>
 		/// </returns>
-		public ObservableCollection<object> GetRelevantHierarchicInfos()
+		public ObservableCollection<HierarchicInfo> GetRelevantHierarchicInfos()
 		{
 			if (SystemHierarchicInfos.Count > 0)
 			{
@@ -17065,7 +17065,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Called when [column chooser columns visibility changed].
 		/// </summary>
 		/// <param name="objChangedColumnsVisibility">The obj changed columns visibility.</param>
-		internal void OnColumnChooserColumnsVisibilityChanged(List<object> objChangedColumnsVisibility)
+		internal void OnColumnChooserColumnsVisibilityChanged(List<DataGridViewColumn> objChangedColumnsVisibility)
 		{
 			if (objChangedColumnsVisibility.Count > 0 && GetHandler(EVENT_COLUMNCHOOSERCOLUMNSVISIBILITYCHANGED) is ColumnChooserColumnsVisibilityChangedHandler columnChooserColumnsVisibilityChangedHandler)
 			{
@@ -17128,7 +17128,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		internal BindingSource GetClonedBindingSourceWithFilterForNextLevel(DataGridViewRow objRow)
 		{
-			ObservableCollection<object> relevantHierarchicInfos = GetRelevantHierarchicInfos();
+			ObservableCollection<HierarchicInfo> relevantHierarchicInfos = GetRelevantHierarchicInfos();
 			if (relevantHierarchicInfos.Count > 0)
 			{
 				HierarchicInfo objNextInfoLevel = relevantHierarchicInfos[0];
@@ -17170,7 +17170,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		internal string GetFilterForRowChildGrid(DataGridViewRow objRow)
 		{
-			ObservableCollection<object> relevantHierarchicInfos = GetRelevantHierarchicInfos();
+			ObservableCollection<HierarchicInfo> relevantHierarchicInfos = GetRelevantHierarchicInfos();
 			if (relevantHierarchicInfos.Count > 0)
 			{
 				HierarchicInfo hierarchicInfo = relevantHierarchicInfos[0];
@@ -17923,7 +17923,7 @@ namespace Gizmox.WebGUI.Forms
 			}
 			mobjDataGridViewFilterRow.DataGridViewInternal = null;
 			mobjDataGridViewFilterRow.HeaderCell.DataGridViewInternal = this;
-			List<object> list = new List<object><object>();
+			List<object> list = new List<object>();
 			if (mobjDataGridViewFilterRow.Cells != null)
 			{
 				if (bindingSource != null)
@@ -20600,7 +20600,7 @@ namespace Gizmox.WebGUI.Forms
 			DataGridViewRowCollection rows = Rows;
 			if (UseInternalPaging)
 			{
-				List<object> list = new List<object><object>();
+				List<object> list = new List<object>();
 				int num = (CurrentPage - 1) * ItemsPerPage;
 				int i = 0;
 				int num2 = -1;
@@ -21288,12 +21288,12 @@ namespace Gizmox.WebGUI.Forms
 		static DataGridView()
 		{
 			ColumnDividerDoubleClickEvent = SerializableEvent.Register("ColumnDividerDoubleClick", typeof(DataGridViewColumnDividerDoubleClickEventHandler), typeof(DataGridView));
-			CurrentCellChanged = SerializableEvent.Register("CurrentCellChanged", typeof(EventHandler), typeof(DataGridView));
-			GroupHeaderFormatting = SerializableEvent.Register("GroupHeaderFormatting", typeof(GroupHeaderFormattingEventHandler), typeof(DataGridView));
-			GroupingChanged = SerializableEvent.Register("GroupingChangedEvent", typeof(GroupingChangedEventHandler), typeof(DataGridView));
-			SelectionChanged = SerializableEvent.Register("SelectionChanged", typeof(EventHandler), typeof(DataGridView));
-			CustomHeaderFilterClicked = SerializableEvent.Register("CustomHeaderFilterClickedEvent", typeof(CustomFilterApplyingEventHandler), typeof(DataGridView));
-			PagingChanged = SerializableEvent.Register("PagingChanged", typeof(EventHandler), typeof(DataGridView));
+			CurrentCellChangedEvent = SerializableEvent.Register("CurrentCellChanged", typeof(EventHandler), typeof(DataGridView));
+			GroupHeaderFormattingEvent = SerializableEvent.Register("GroupHeaderFormatting", typeof(GroupHeaderFormattingEventHandler), typeof(DataGridView));
+			GroupingChangedEvent = SerializableEvent.Register("GroupingChangedEvent", typeof(GroupingChangedEventHandler), typeof(DataGridView));
+			SelectionChangedEvent = SerializableEvent.Register("SelectionChanged", typeof(EventHandler), typeof(DataGridView));
+			CustomHeaderFilterClickedEvent = SerializableEvent.Register("CustomHeaderFilterClickedEvent", typeof(CustomFilterApplyingEventHandler), typeof(DataGridView));
+			PagingChangedEvent = SerializableEvent.Register("PagingChanged", typeof(EventHandler), typeof(DataGridView));
 		}
 	}
 }

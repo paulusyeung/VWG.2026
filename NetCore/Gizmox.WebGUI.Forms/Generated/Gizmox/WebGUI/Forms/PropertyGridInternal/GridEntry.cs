@@ -2381,9 +2381,9 @@ namespace Gizmox.WebGUI.Forms.PropertyGridInternal
 					objWriter.WriteAttributeString("TP", "D");
 				}
 			}
-			if (UITypeEditor is ColorEditor)
+			if (UITypeEditor is Gizmox.WebGUI.Forms.Design.ColorEditor)
 			{
-				ColorEditor colorEditor = (ColorEditor)UITypeEditor;
+				Gizmox.WebGUI.Forms.Design.ColorEditor colorEditor = (Gizmox.WebGUI.Forms.Design.ColorEditor)UITypeEditor;
 				objWriter.WriteAttributeString("CO", CommonUtils.GetHtmlColor((Color)colorEditor.GetEditorValueFromPropertyValueInternal(PropertyValue)));
 			}
 			objWriter.WriteAttributeString("DP", mintPropertyDepth.ToString());
@@ -2406,9 +2406,9 @@ namespace Gizmox.WebGUI.Forms.PropertyGridInternal
 			if (IsDirtyAttributes(lngRequestID, AttributeType.Redraw) || IsDirtyAttributes(lngRequestID, AttributeType.Control))
 			{
 				objWriter.WriteAttributeText("VLB", HasValue ? GetPropertyTextValue() : "", (TextFilter)5);
-				if (UITypeEditor is ColorEditor)
+				if (UITypeEditor is Gizmox.WebGUI.Forms.Design.ColorEditor)
 				{
-					ColorEditor colorEditor = (ColorEditor)UITypeEditor;
+					Gizmox.WebGUI.Forms.Design.ColorEditor colorEditor = (Gizmox.WebGUI.Forms.Design.ColorEditor)UITypeEditor;
 					objWriter.WriteAttributeString("CO", CommonUtils.GetHtmlColor((Color)colorEditor.GetEditorValueFromPropertyValueInternal(PropertyValue)));
 				}
 			}

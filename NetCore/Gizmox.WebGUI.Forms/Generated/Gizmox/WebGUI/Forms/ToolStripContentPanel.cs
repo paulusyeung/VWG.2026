@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -116,7 +116,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the Load handler.
 		/// </summary>
 		/// The Load handler.</value>
-		private EventHandler LoadHandler => (EventHandler)GetHandler(Load);
+		private EventHandler LoadHandler => (EventHandler)GetHandler(LoadEvent);
 
 		/// This property is not relevant to this class.</summary>
 		/// An <see cref="T:System.Windows.Forms.AnchorStyles"></see>.</returns>
@@ -528,7 +528,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static ToolStripContentPanel()
 		{
-			Load = SerializableEvent.Register("Load", typeof(EventHandler), typeof(ToolStripContentPanel));
+			LoadEvent = SerializableEvent.Register("Load", typeof(EventHandler), typeof(ToolStripContentPanel));
 		}
 	}
 }

@@ -222,7 +222,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <exception cref="T:System.ArgumentNullException">dest is null.</exception>
 		public void CopyTo(Array objDestArray, int index)
 		{
-			List<object> list = new List<object><object>();
+			List<object> list = new List<object>();
 			foreach (ProxyComponent component in mobjProxyTabControl.Components)
 			{
 				list.Add(component);

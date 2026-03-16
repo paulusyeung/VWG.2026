@@ -289,7 +289,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objVisualTemplateValues">The object visual template values.</param>
 		internal override void ConvertFromString(List<object> objVisualTemplateValues)
 		{
-			if (objVisualTemplateValues.Count == 5 && bool.TryParse(objVisualTemplateValues[0], out var result) && int.TryParse(objVisualTemplateValues[1], out var result2) && int.TryParse(objVisualTemplateValues[2], out var result3))
+			if (objVisualTemplateValues.Count == 5 && bool.TryParse(objVisualTemplateValues[0]?.ToString(), out var result) && int.TryParse(objVisualTemplateValues[1]?.ToString(), out var result2) && int.TryParse(objVisualTemplateValues[2]?.ToString(), out var result3))
 			{
 				mblnShowCheckBoxLabel = result;
 				mintSwitchWidth = result2;
@@ -297,8 +297,8 @@ namespace Gizmox.WebGUI.Forms
 				{
 					menmCheckBoxSwitchVisualTemplateSwitchSizing = (CheckBoxSwitchVisualTemplateSwitchSizing)result3;
 				}
-				mstrUnCheckedText = objVisualTemplateValues[3];
-				mstrCheckedText = objVisualTemplateValues[4];
+				mstrUnCheckedText = objVisualTemplateValues[3]?.ToString();
+				mstrCheckedText = objVisualTemplateValues[4]?.ToString();
 			}
 		}
 

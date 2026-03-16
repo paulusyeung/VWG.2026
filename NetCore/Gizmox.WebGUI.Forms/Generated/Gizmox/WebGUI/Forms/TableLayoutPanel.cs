@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -134,7 +134,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		private static SerializableProperty LayoutSettingsProperty = SerializableProperty.Register("LayoutSettings", typeof(TableLayoutSettings), typeof(TableLayoutPanel), new SerializablePropertyMetadata(null));
 
-		private static readonly SerializableEvent EventCellPaint = SerializableEvent.Register("Event", typeof(Delegate), typeof(TableLayoutPanel));
+		private static readonly SerializableEvent EventCellPaintEvent = SerializableEvent.Register("Event", typeof(Delegate), typeof(TableLayoutPanel));
 
 		private BorderStyle menmBorderStyle = BorderStyle.None;
 
@@ -372,11 +372,11 @@ namespace Gizmox.WebGUI.Forms
 		{
 			add
 			{
-				AddHandler(EventCellPaint, value);
+				AddHandler(EventCellPaintEvent, value);
 			}
 			remove
 			{
-				RemoveHandler(EventCellPaint, value);
+				RemoveHandler(EventCellPaintEvent, value);
 			}
 		}
 
@@ -405,8 +405,8 @@ namespace Gizmox.WebGUI.Forms
 			int intNewRowNum = 0;
 			int intNewColNum = 0;
 			GetNewColAndRowCount(out intNewRowNum, out intNewColNum);
-			List<object> objRowsCells = new List<object><object>();
-			List<object> objColumnsCells = new List<object><object>();
+			List<TableLayoutPanelCellStyle> objRowsCells = new List<TableLayoutPanelCellStyle>();
+			List<TableLayoutPanelCellStyle> objColumnsCells = new List<TableLayoutPanelCellStyle>();
 			CalculateColAndRowStyle(intNewRowNum, intNewColNum, objRowsCells, objColumnsCells);
 			int num = 0;
 			for (num = 0; num < intNewColNum; num++)
@@ -460,7 +460,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objWriter">The obj writer.</param>
 		/// <param name="objColumnsCells">The obj columns cells.</param>
 		/// <param name="intInd">The int ind.</param>
-		private static void RenderColumnsPositionAttributes(IResponseWriter objWriter,List<object> objColumnsCells, int intInd)
+		private static void RenderColumnsPositionAttributes(IResponseWriter objWriter, List<TableLayoutPanelCellStyle> objColumnsCells, int intInd)
 		{
 			if (objColumnsCells.Count > intInd)
 			{
@@ -477,7 +477,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objWriter">The obj writer.</param>
 		/// <param name="objRowsCells">The obj rows cells.</param>
 		/// <param name="intInd">The int ind.</param>
-		private static void RenderRowsPositionAttributes(IResponseWriter objWriter,List<object> objRowsCells, int intInd)
+		private static void RenderRowsPositionAttributes(IResponseWriter objWriter, List<TableLayoutPanelCellStyle> objRowsCells, int intInd)
 		{
 			if (objRowsCells.Count > intInd)
 			{
@@ -525,7 +525,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="intNewColNum">The int new col num.</param>
 		/// <param name="objRowsCells">The obj rows cells.</param>
 		/// <param name="objColumnsCells">The obj columns cells.</param>
-		private void CalculateColAndRowStyle(int intNewRowNum, int intNewColNum,List<object> objRowsCells,List<object> objColumnsCells)
+		private void CalculateColAndRowStyle(int intNewRowNum, int intNewColNum, List<TableLayoutPanelCellStyle> objRowsCells, List<TableLayoutPanelCellStyle> objColumnsCells)
 		{
 			float num = 0f;
 			float num2 = 0f;
@@ -1310,7 +1310,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="e">The <see cref="T:Gizmox.WebGUI.Forms.TableLayoutCellPaintEventArgs" /> instance containing the event data.</param>
 		protected virtual void OnCellPaint(TableLayoutCellPaintEventArgs e)
 		{
-			((TableLayoutCellPaintEventHandler)GetHandler(EventCellPaint))?.Invoke(this, e);
+			((TableLayoutCellPaintEventHandler)GetHandler(EventCellPaintEvent))?.Invoke(this, e);
 		}
 
 		/// 

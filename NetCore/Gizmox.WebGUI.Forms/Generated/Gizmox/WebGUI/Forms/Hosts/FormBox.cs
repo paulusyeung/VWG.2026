@@ -108,7 +108,7 @@ namespace Gizmox.WebGUI.Forms.Hosts
 	[Designer("Gizmox.WebGUI.Forms.Design.FormBoxDesigner, Gizmox.WebGUI.Forms.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=dd2a1fd4d120c769")]
 	[ToolboxItem("System.Web.UI.Design.WebControlToolboxItem, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 	[ToolboxData("<{0}:FormBox runat=server></{0}:FormBox>")]
-	public class FormBox : WebControl
+	public class FormBox : System.Web.UI.WebControls.WebControl
 	{
 		/// 
 		///
@@ -125,6 +125,8 @@ namespace Gizmox.WebGUI.Forms.Hosts
 		///
 		/// </summary>
 		private string mstrInstance = "";
+
+		private string mstrForm = string.Empty;
 
 		private IRouter mobjRouter = null;
 
@@ -163,15 +165,11 @@ namespace Gizmox.WebGUI.Forms.Hosts
 		{
 			get
 			{
-				if (ViewState["Form"] != null)
-				{
-					return Convert.ToString(ViewState["Form"]);
-				}
-				return string.Empty;
+				return mstrForm ?? string.Empty;
 			}
 			set
 			{
-				ViewState["Form"] = value;
+				mstrForm = value ?? string.Empty;
 			}
 		}
 
@@ -278,7 +276,6 @@ namespace Gizmox.WebGUI.Forms.Hosts
 		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.Hosts.FormBox" /> class.
 		/// </summary>
 		public FormBox()
-			: base("IFRAME")
 		{
 		}
 
@@ -286,7 +283,7 @@ namespace Gizmox.WebGUI.Forms.Hosts
 		/// Adds HTML attributes and styles that need to be rendered to the specified <see cref="T:System.Web.UI.HtmlTextWriterTag" />. This method is used primarily by control developers.
 		/// </summary>
 		/// <param name="objWriter">A <see cref="T:System.Web.UI.HtmlTextWriter" /> that represents the output stream to render HTML content on the client.</param>
-		protected override void AddAttributesToRender(HtmlTextWriter objWriter)
+		protected override void AddAttributesToRender(System.Web.UI.HtmlTextWriter objWriter)
 		{
 			if (!string.IsNullOrEmpty(Form))
 			{
@@ -303,10 +300,10 @@ namespace Gizmox.WebGUI.Forms.Hosts
 				{
 					text = text.Substring(1);
 				}
-				objWriter.AddAttribute("src", ResolveClientUrl($"~/{Form}{TypeExtension}?{text}"));
+				objWriter.WriteAttribute("src", $"/{Form}{TypeExtension}?{text}");
 			}
-			objWriter.AddAttribute("allowtransparency", "yes");
-			objWriter.AddAttribute("frameborder", "no");
+			objWriter.WriteAttribute("allowtransparency", "yes");
+			objWriter.WriteAttribute("frameborder", "no");
 			base.AddAttributesToRender(objWriter);
 		}
 

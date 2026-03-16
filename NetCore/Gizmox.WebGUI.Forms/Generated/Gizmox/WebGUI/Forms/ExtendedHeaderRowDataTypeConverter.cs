@@ -141,7 +141,7 @@ namespace Gizmox.WebGUI.Forms
 			if (objDestinationType == typeof(InstanceDescriptor) && objValue is ExtendedHeaderRowData)
 			{
 				ExtendedHeaderRowData extendedHeaderRowData = objValue as ExtendedHeaderRowData;
-				List list = null;
+				List<object> list = null;
 				ConstructorInfo constructorInfo = null;
 				if (extendedHeaderRowData.HeightSizeMode == HeightMode.Custom)
 				{

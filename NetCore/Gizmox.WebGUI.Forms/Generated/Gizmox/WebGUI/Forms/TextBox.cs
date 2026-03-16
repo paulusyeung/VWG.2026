@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -152,7 +152,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the hanlder for the EnterKeyDown event.
 		/// </summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		protected KeyEventHandler EnterKeyDownHandler => (KeyEventHandler)GetHandler(EnterKeyDown);
+		protected KeyEventHandler EnterKeyDownHandler => (KeyEventHandler)GetHandler(EnterKeyDownEvent);
 
 		/// Gets or sets how text is aligned in a <see cref="T:Gizmox.WebGUI.Forms.TextBox"></see> control.</summary>
 		/// One of the <see cref="T:Gizmox.WebGUI.Forms.HorizontalAlignment"></see> enumeration values that specifies how text is aligned in the control. The default is HorizontalAlignment.Left.</returns>

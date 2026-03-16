@@ -1515,7 +1515,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		protected internal override IList GetComponentOffsprings(string strOffspringTypeName)
 		{
-			List<object> list = new List<object><object>();
+			List<object> list = new List<object>();
 			list.Add(Control);
 			return list;
 		}

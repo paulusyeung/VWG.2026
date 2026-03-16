@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -303,7 +303,7 @@ namespace Gizmox.WebGUI.Forms
 			/// 
 			/// The owner tab control
 			/// </summary>
-			internal List<object> mobjList = null;
+			internal List<ListBoxItem> mobjList = null;
 
 			/// 
 			/// The object collection parent control
@@ -379,7 +379,7 @@ namespace Gizmox.WebGUI.Forms
 			/// <param name="objParent">The <see cref="T:Gizmox.WebGUI.Forms.ListBox"></see> that owns the collection. </param>
 			internal ObjectCollection(ListBox objParent)
 			{
-				mobjList = new List<object>();
+				mobjList = new List<ListBoxItem>();
 				mobjParent = objParent;
 			}
 
@@ -602,7 +602,7 @@ namespace Gizmox.WebGUI.Forms
 			/// <param name="objReader">The serialization reader.</param>
 			internal void OnSerializableObjectDeserializing(SerializationReader objReader)
 			{
-				mobjList = new List<object>();
+				mobjList = new List<ListBoxItem>();
 				int num = objReader.ReadInt32();
 				for (int i = 0; i < num; i++)
 				{
@@ -617,7 +617,7 @@ namespace Gizmox.WebGUI.Forms
 			/// </summary>
 			internal void ClearSelectedItems()
 			{
-				List list = mobjList.FindAll((ListBoxItem objListBoxItem) => objListBoxItem.Selected);
+				List<ListBoxItem> list = mobjList.FindAll((ListBoxItem objListBoxItem) => objListBoxItem.Selected);
 				if (list == null)
 				{
 					return;
@@ -1454,7 +1454,7 @@ namespace Gizmox.WebGUI.Forms
 		/// The cached Selected indexes
 		/// </summary>
 		[NonSerialized]
-		private List<object> mobjCachedSelectedIndexes = null;
+		private List<int> mobjCachedSelectedIndexes = null;
 
 		/// 
 		/// The list box items
@@ -1470,7 +1470,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the SelectedIndexChanged event.
 		/// </summary>
-		private EventHandler SelectedIndexChangedHandler => (EventHandler)GetHandler(SelectedIndexChanged);
+		private EventHandler SelectedIndexChangedHandler => (EventHandler)GetHandler(SelectedIndexChangedEvent);
 
 		/// 
 		/// The size of the initiale serialization data array which is the optmized serialization graph.
@@ -1724,7 +1724,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the internal selected array list
 		/// </summary>
-		internal List<object> SelectedIndexesInternal
+		internal List<int> SelectedIndexesInternal
 		{
 			get
 			{
@@ -2230,7 +2230,7 @@ namespace Gizmox.WebGUI.Forms
 		private void SelectIndexes(string strIndexes)
 		{
 			bool flag = false;
-			List<object> list = new List<object><object>(strIndexes.Split(','));
+			List<object> list = new List<object>(strIndexes.Split(','));
 			ObjectCollection items = Items;
 			int count = items.Count;
 			for (int i = 0; i < count; i++)
@@ -2597,7 +2597,7 @@ namespace Gizmox.WebGUI.Forms
 				return;
 			}
 			mobjCachedSelectedItems = new ArrayList();
-			mobjCachedSelectedIndexes = new List<object>();
+			mobjCachedSelectedIndexes = new List<int>();
 			ObjectCollection items = Items;
 			for (int i = 0; i < items.Count; i++)
 			{
@@ -2620,7 +2620,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static ListBox()
 		{
-			SelectedIndexChanged = SerializableEvent.Register("SelectedIndexChanged", typeof(EventHandler), typeof(ListBox));
+			SelectedIndexChangedEvent = SerializableEvent.Register("SelectedIndexChanged", typeof(EventHandler), typeof(ListBox));
 		}
 	}
 }

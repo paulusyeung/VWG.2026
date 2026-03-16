@@ -1167,7 +1167,7 @@ namespace Gizmox.WebGUI.Forms
 				return;
 			}
 			DataGridView rootGrid = objDataGridView.RootGrid;
-			List<object> list = new List<object><object>();
+			List<DataGridViewColumn> list = new List<DataGridViewColumn>();
 			foreach (DataGridViewColumn column in objDataGridView.Columns)
 			{
 				string dataPropertyName = column.DataPropertyName;
@@ -1208,9 +1208,9 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		/// <param name="objDataGridViewColumns">The obj data grid view columns.</param>
 		/// </returns>
-		private UniqueObservableCollection<object> GetGroupingColumnsWithoutRoot(UniqueObservableCollection<object> objDataGridViewColumns)
+		private UniqueObservableCollection<string> GetGroupingColumnsWithoutRoot(UniqueObservableCollection<string> objDataGridViewColumns)
 		{
-			UniqueObservableCollection<object> uniqueObservableCollection = new UniqueObservableCollection<object>();
+			UniqueObservableCollection<string> uniqueObservableCollection = new UniqueObservableCollection<string>();
 			for (int i = 1; i < objDataGridViewColumns.Count; i++)
 			{
 				uniqueObservableCollection.Add(objDataGridViewColumns[i]);
@@ -1233,7 +1233,7 @@ namespace Gizmox.WebGUI.Forms
 			hierarchicDataGridView.GroupingColumns = GetGroupingColumnsWithoutRoot(dataGridView.GroupingColumns);
 			hierarchicDataGridView.SystemHierarchicInfos = HierarchicInfo.GetClonedInfos(dataGridView.SystemHierarchicInfos, blnIncludeRoot: false);
 			dataGridView.SuspendLayout();
-			ObservableCollection<object> hierarchicInfos = dataGridView.HierarchicInfos;
+			ObservableCollection<HierarchicInfo> hierarchicInfos = dataGridView.HierarchicInfos;
 			dataGridView.ResumeLayout();
 			if (dataGridView.RootGrid.SystemHierarchicInfos.Count > dataGridView.HierarchyLevel)
 			{
@@ -1243,7 +1243,7 @@ namespace Gizmox.WebGUI.Forms
 			{
 				hierarchicDataGridView.HierarchicInfos = HierarchicInfo.GetClonedInfos(hierarchicInfos, blnIncludeRoot: false);
 			}
-			ObservableCollection<object> relevantHierarchicInfos = base.DataGridView.GetRelevantHierarchicInfos();
+			ObservableCollection<HierarchicInfo> relevantHierarchicInfos = base.DataGridView.GetRelevantHierarchicInfos();
 			hierarchicDataGridView.BindingContext = dataGridView.BindingContext;
 			hierarchicDataGridView.DataSource = dataGridView.GetClonedBindingSourceWithFilterForNextLevel(this);
 			if (relevantHierarchicInfos.Count > 0)

@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -136,7 +136,7 @@ namespace Gizmox.WebGUI.Forms.Administration.Abstract
 		/// Gets the status.
 		/// </summary>
 		/// </returns>
-		public abstract List<object> GetStatus();
+		public abstract List<Gizmox.WebGUI.Forms.Administration.Abstract.StatusData> GetStatus();
 
 		/// 
 		/// Called when [content changed].
@@ -144,7 +144,7 @@ namespace Gizmox.WebGUI.Forms.Administration.Abstract
 		/// <param name="strContentName">Name of the string content.</param>
 		protected void OnContentChanged()
 		{
-			if (GetHandler(ContentChanged) is EventHandler eventHandler)
+			if (GetHandler(ContentChangedEvent) is EventHandler eventHandler)
 			{
 				eventHandler(this, EventArgs.Empty);
 			}
@@ -152,7 +152,7 @@ namespace Gizmox.WebGUI.Forms.Administration.Abstract
 
 		static ContentChangeNotifierUserControl()
 		{
-			ContentChanged = SerializableEvent.Register("ContentChangedEvent", typeof(EventHandler), typeof(ContentChangeNotifierUserControl));
+			ContentChangedEvent = SerializableEvent.Register("ContentChangedEvent", typeof(EventHandler), typeof(ContentChangeNotifierUserControl));
 		}
 	}
 }

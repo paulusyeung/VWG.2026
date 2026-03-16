@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -258,13 +258,13 @@ namespace Gizmox.WebGUI.Forms
 				{
 					mobjSite.Container.Remove(this);
 				}
-				((EventHandler)GetHandler(Disposed))?.Invoke(this, EventArgs.Empty);
+				((EventHandler)GetHandler(DisposedEvent))?.Invoke(this, EventArgs.Empty);
 			}
 		}
 
 		static ContextualTabGroup()
 		{
-			Disposed = SerializableEvent.Register("DisposedEvent", typeof(EventHandler), typeof(ContextualTabGroup));
+			DisposedEvent = SerializableEvent.Register("DisposedEvent", typeof(EventHandler), typeof(ContextualTabGroup));
 		}
 	}
 }

@@ -115,7 +115,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.Abstract
 		{
 			private object mobjContext;
 
-			private EventHandler mobjHandler;
+			private EventHandler<TEventArgsType> mobjHandler;
 
 			/// 
 			/// Gets the context.
@@ -125,14 +125,14 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.Abstract
 			/// 
 			/// Gets the handler.
 			/// </summary>
-			internal EventHandler Handler => mobjHandler;
+			internal EventHandler<TEventArgsType> Handler => mobjHandler;
 
 			/// 
 			/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.DeviceIntegration.Abstract.SingleCallMethodStore`1.ContextualData`1" /> class.
 			/// </summary>
 			/// <param name="objContext">The obj context.</param>
 			/// <param name="objHandler">The obj handler.</param>
-			public ContextualData(object objContext, EventHandler objHandler)
+			public ContextualData(object objContext, EventHandler<TEventArgsType> objHandler)
 			{
 				mobjContext = objContext;
 				mobjHandler = objHandler;
@@ -142,7 +142,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.Abstract
 		/// 
 		/// Stores typed EventHandlers by key. 
 		/// </summary>
-		private Dictionary<string, Action> mobjMethodsIndexByMethodKey;
+		private Dictionary<string, Action<TEventArgsType>> mobjMethodsIndexByMethodKey;
 
 		private Dictionary<string, ContextualData> mobjContextualMethodsIndexByMethodKey;
 
@@ -164,13 +164,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.Abstract
 		/// 
 		/// Gets the methods store.
 		/// </summary>
-		private Dictionary<string, Action> Methods
+		private Dictionary<string, Action<TEventArgsType>> Methods
 		{
 			get
 			{
 				if (mobjMethodsIndexByMethodKey == null)
 				{
-					mobjMethodsIndexByMethodKey = new Dictionary<string, Action>();
+					mobjMethodsIndexByMethodKey = new Dictionary<string, Action<TEventArgsType>>();
 				}
 				return mobjMethodsIndexByMethodKey;
 			}
@@ -188,12 +188,12 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.Abstract
 		/// </summary>
 		/// <param name="objMethod">The method.</param>
 		/// </returns>
-		internal string StoreSingleCallMethod(Action objMethod)
+		internal string StoreSingleCallMethod(Action<TEventArgsType> objMethod)
 		{
 			return StoreSingleCallMethod(null, objMethod);
 		}
 
-		internal string StoreContextualSingleCallMethod(object objThis, string strPrefix, EventHandler objMethod)
+		internal string StoreContextualSingleCallMethod(object objThis, string strPrefix, EventHandler<TEventArgsType> objMethod)
 		{
 			if (objMethod != null)
 			{
@@ -213,7 +213,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.Abstract
 		/// </summary>
 		/// <param name="objMethod">The method.</param>
 		/// </returns>
-		internal string StoreSingleCallMethod(string strPrefix, Action objMethod)
+		internal string StoreSingleCallMethod(string strPrefix, Action<TEventArgsType> objMethod)
 		{
 			if (objMethod != null)
 			{

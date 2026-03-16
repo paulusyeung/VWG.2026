@@ -131,7 +131,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the media event args store.
 		/// </summary>
-		internal SingleCallMethodStore<EventArgs> MediaEventArgsStore
+		internal SingleCallMethodStore<MediaEventArgs> MediaEventArgsStore
 		{
 			get
 			{
@@ -381,14 +381,14 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 			}
 		}
 
-		public void AddPositionChanged(Media objMedia, Action objAction)
+		public void AddPositionChanged(Media objMedia, Action<MediaPositionEventArgs> objAction)
 		{
 			MultipleCallMethodStore<MediaPositionEventArgs> positionChangedStore = GetPositionChangedStore(objMedia);
 			positionChangedStore.AddMultipleCallMethod(objAction);
 			objMedia.Update();
 		}
 
-		public void RemovePositionChanged(Media objMedia, Action objAction)
+		public void RemovePositionChanged(Media objMedia, Action<MediaPositionEventArgs> objAction)
 		{
 			MultipleCallMethodStore<MediaPositionEventArgs> positionChangedStore = GetPositionChangedStore(objMedia);
 			positionChangedStore.RemoveMultipleCallMethod(objAction);
@@ -404,7 +404,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objMedia">The obj media.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		internal void GetCurrentPosition(Media objMedia, EventHandler objCallback)
+		internal void GetCurrentPosition(Media objMedia, EventHandler<MediaPositionEventArgs> objCallback)
 		{
 			Invoke("DeviceIntegrator.Media.getCurrentPosition", objMedia.GetHashCode().ToString(), MediaPositionEventArgsStore.StoreContextualSingleCallMethod(objMedia, "pos", objCallback));
 		}

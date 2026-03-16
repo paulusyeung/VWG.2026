@@ -106,18 +106,18 @@ namespace Gizmox.WebGUI.Forms
 	[Serializable]
 	public class ColumnChooserColumnsVisibilityChangedEventArgs : EventArgs
 	{
-		private List<object> mobjChangedColumnsVisibility;
+		private List<DataGridViewColumn> mobjChangedColumnsVisibility;
 
 		/// 
 		/// Gets the changed columns visibility.
 		/// </summary>
-		public List<object> ChangedColumnsVisibility => mobjChangedColumnsVisibility;
+		public List<DataGridViewColumn> ChangedColumnsVisibility => mobjChangedColumnsVisibility;
 
 		/// 
 		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.ColumnChooserColumnsVisibilityChangedEventArgs" /> class.
 		/// </summary>
 		/// <param name="objChangedColumnsVisibility">The obj changed columns visibility.</param>
-		public ColumnChooserColumnsVisibilityChangedEventArgs(List<object> objChangedColumnsVisibility)
+		public ColumnChooserColumnsVisibilityChangedEventArgs(List<DataGridViewColumn> objChangedColumnsVisibility)
 		{
 			mobjChangedColumnsVisibility = objChangedColumnsVisibility;
 		}

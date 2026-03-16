@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -893,7 +893,7 @@ namespace Gizmox.WebGUI.Forms
 			marrSerializedDataViewNewRowValues = null;
 			try
 			{
-				if (List != null && List.GetType() == typeof(DataView) && Position >= 0 && Position <List.Count && ((DataRowView)this[Position]).IsNew)
+				if (List != null && List.GetType() == typeof(DataView) && Position >= 0 && Position < List.Count && ((DataRowView)this[Position]).IsNew)
 				{
 					marrSerializedDataViewNewRowValues = ((DataRowView)this[Position]).Row.ItemArray;
 				}
@@ -1228,7 +1228,7 @@ namespace Gizmox.WebGUI.Forms
 			{
 				if (mblnIsBindingList)
 				{
-					obj = (List<object> as IBindingList).AddNew();
+					obj = (List as IBindingList).AddNew();
 					Position = Count - 1;
 					return obj;
 				}
@@ -1272,7 +1272,7 @@ namespace Gizmox.WebGUI.Forms
 			{
 				if (mblnIsBindingList)
 				{
-					obj = (List<object> as IBindingList).AddNew();
+					obj = (List as IBindingList).AddNew();
 					Position = Count - 1;
 					return obj;
 				}

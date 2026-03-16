@@ -112,9 +112,9 @@ namespace Gizmox.WebGUI.Forms
 
 		private DockingManager mobjManager;
 
-		private List<List<object>> mobjAllZoneGroups;
+		private List<List<Zone>> mobjAllZoneGroups;
 
-		private Dictionary<DockingWindowName,List<object>> mobjZonesIndexByWindowName;
+		private Dictionary<DockingWindowName, List<Zone>> mobjZonesIndexByWindowName;
 
 		private Dictionary<long, Zone> mobjZonesIndexByZoneID;
 
@@ -136,7 +136,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// The name of the zones index by window.
 		/// </value>
-		internal Dictionary<DockingWindowName,List<object>> ZonesIndexByWindowName
+		internal Dictionary<DockingWindowName, List<Zone>> ZonesIndexByWindowName
 		{
 			get
 			{
@@ -154,7 +154,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// The unique zone groups.
 		/// </value>
-		public List<List<object>> AllZoneGroups
+		public List<List<Zone>> AllZoneGroups
 		{
 			get
 			{
@@ -173,9 +173,9 @@ namespace Gizmox.WebGUI.Forms
 		public DockedHiddenZonesPanel(DockingManager objManager)
 		{
 			mobjData = new DockedHiddenZonePanelDescriptor();
-			mobjAllZoneGroups = new List<List<object>>();
+			mobjAllZoneGroups = new List<List<Zone>>();
 			mobjManager = objManager;
-			mobjZonesIndexByWindowName = new Dictionary<DockingWindowName,List<object>>(DockingWindowName.DockedWindowNameEqulityComparer);
+			mobjZonesIndexByWindowName = new Dictionary<DockingWindowName, List<Zone>>(DockingWindowName.DockedWindowNameEqulityComparer);
 			mobjZonesIndexByZoneID = new Dictionary<long, Zone>();
 			base.Visible = false;
 			CustomStyle = "DockedHiddenZonesPanelSkin";
@@ -214,7 +214,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Adds the new zones.
 		/// </summary>
 		/// <param name="objHiddenZones">The obj hidden zones.</param>
-		internal void AddNewZones(List<object> objHiddenZones)
+		internal void AddNewZones(List<Zone> objHiddenZones)
 		{
 			foreach (Zone objHiddenZone in objHiddenZones)
 			{
@@ -298,11 +298,11 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		/// <param name="objDockedWindow">The obj docked window.</param>
 		/// </returns>
-		internal List<object> RemoveAndReturnHiddenWindows(DockingWindow objDockedWindow)
+		internal List<DockingWindow> RemoveAndReturnHiddenWindows(DockingWindow objDockedWindow)
 		{
-			List list = mobjZonesIndexByWindowName[objDockedWindow.WindowName];
+			List<Zone> list = mobjZonesIndexByWindowName[objDockedWindow.WindowName];
 			mobjAllZoneGroups.Remove(list);
-			List<object> list2 = new List<object><object>();
+			List<DockingWindow> list2 = new List<DockingWindow>();
 			Zone[] array = list.ToArray();
 			Zone[] array2 = array;
 			foreach (Zone zone in array2)

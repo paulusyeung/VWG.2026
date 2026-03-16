@@ -109,7 +109,7 @@ namespace Gizmox.WebGUI.Forms
 		[NonSerialized]
 		private DockingManager mobjManager;
 
-		private List<object> mobjRootZoneWindows;
+		private List<DockedWindowDescriptor> mobjRootZoneWindows;
 
 		private DockedHiddenZonePanelDescriptor mobjBottomHiddenWindowsDescriptor;
 
@@ -119,11 +119,11 @@ namespace Gizmox.WebGUI.Forms
 
 		private DockedHiddenZonePanelDescriptor mobjTopHiddenWindowsDescriptor;
 
-		private List<object> mobjDockedWindowsDescriptor;
+		private List<DockedWindowDescriptor> mobjDockedWindowsDescriptor;
 
-		private List<object> mobjFloatedWindowsDescriptor;
+		private List<DockedWindowDescriptor> mobjFloatedWindowsDescriptor;
 
-		private List<object> mobjHiddenWindowsDescriptor;
+		private List<DockedWindowDescriptor> mobjHiddenWindowsDescriptor;
 
 		private bool mblnAllowShowDropDownButton;
 
@@ -170,7 +170,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the docked windows descriptor.
 		/// </summary>
-		internal List<object> DockedWindowsDescriptor => mobjDockedWindowsDescriptor;
+		internal List<DockedWindowDescriptor> DockedWindowsDescriptor => mobjDockedWindowsDescriptor;
 
 		/// 
 		/// Gets or sets the floated windows descriptor.
@@ -178,12 +178,12 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// The floated windows descriptor.
 		/// </value>
-		public List<object> FloatedWindowsDescriptor => mobjFloatedWindowsDescriptor;
+		public List<DockedWindowDescriptor> FloatedWindowsDescriptor => mobjFloatedWindowsDescriptor;
 
 		/// 
 		/// Gets the hidden windows descriptor.
 		/// </summary>
-		internal List<object> HiddenWindowsDescriptor => mobjHiddenWindowsDescriptor;
+		internal List<DockedWindowDescriptor> HiddenWindowsDescriptor => mobjHiddenWindowsDescriptor;
 
 		/// 
 		/// Gets or sets the name of the form descriptor index by window.
@@ -466,10 +466,10 @@ namespace Gizmox.WebGUI.Forms
 		internal DockedManagerDescriptor(DockingManager objManager)
 		{
 			mobjManager = objManager;
-			mobjRootZoneWindows = new List<object>();
-			mobjFloatedWindowsDescriptor = new List<object>();
-			mobjDockedWindowsDescriptor = new List<object>();
-			mobjHiddenWindowsDescriptor = new List<object>();
+			mobjRootZoneWindows = new List<DockedWindowDescriptor>();
+			mobjFloatedWindowsDescriptor = new List<DockedWindowDescriptor>();
+			mobjDockedWindowsDescriptor = new List<DockedWindowDescriptor>();
+			mobjHiddenWindowsDescriptor = new List<DockedWindowDescriptor>();
 			mobjFormDescriptorIndexByWindowName = new Dictionary<DockingWindowName, DockedFormDescriptor>(DockingWindowName.DockedWindowNameEqulityComparer);
 			mobjWindowPlaceHoldersForDockedZonesIndexByWindowName = new Dictionary<DockingWindowName, DockedWindowPlaceHolderDescriptor>(DockingWindowName.DockedWindowNameEqulityComparer);
 			mobjWindowPlaceHoldersForFloatZonesIndexByWindowName = new Dictionary<DockingWindowName, DockedWindowPlaceHolderDescriptor>(DockingWindowName.DockedWindowNameEqulityComparer);
@@ -519,10 +519,10 @@ namespace Gizmox.WebGUI.Forms
 		/// Removes the and return docked windows descriptors.
 		/// </summary>
 		/// </returns>
-		internal List<object> RemoveAndReturnDockedWindowsDescriptors()
+		internal List<DockedWindowDescriptor> RemoveAndReturnDockedWindowsDescriptors()
 		{
-			List result = mobjDockedWindowsDescriptor;
-			mobjDockedWindowsDescriptor = new List<object>();
+			List<DockedWindowDescriptor> result = mobjDockedWindowsDescriptor;
+			mobjDockedWindowsDescriptor = new List<DockedWindowDescriptor>();
 			return result;
 		}
 
@@ -530,10 +530,10 @@ namespace Gizmox.WebGUI.Forms
 		/// Removes the and return docked windows descriptors.
 		/// </summary>
 		/// </returns>
-		internal List<object> RemoveAndReturnRootWindows()
+		internal List<DockedWindowDescriptor> RemoveAndReturnRootWindows()
 		{
-			List result = mobjRootZoneWindows;
-			mobjRootZoneWindows = new List<object>();
+			List<DockedWindowDescriptor> result = mobjRootZoneWindows;
+			mobjRootZoneWindows = new List<DockedWindowDescriptor>();
 			return result;
 		}
 
@@ -541,10 +541,10 @@ namespace Gizmox.WebGUI.Forms
 		/// Removes the and return float windows descriptors.
 		/// </summary>
 		/// </returns>
-		internal List<object> RemoveAndReturnFloatWindowsDescriptors()
+		internal List<DockedWindowDescriptor> RemoveAndReturnFloatWindowsDescriptors()
 		{
-			List result = mobjFloatedWindowsDescriptor;
-			mobjFloatedWindowsDescriptor = new List<object>();
+			List<DockedWindowDescriptor> result = mobjFloatedWindowsDescriptor;
+			mobjFloatedWindowsDescriptor = new List<DockedWindowDescriptor>();
 			return result;
 		}
 
@@ -552,10 +552,10 @@ namespace Gizmox.WebGUI.Forms
 		/// Removes the and return hidden windows descriptors.
 		/// </summary>
 		/// </returns>
-		internal List<object> RemoveAndReturnHiddenWindowsDescriptors()
+		internal List<DockedWindowDescriptor> RemoveAndReturnHiddenWindowsDescriptors()
 		{
-			List result = mobjHiddenWindowsDescriptor;
-			mobjHiddenWindowsDescriptor = new List<object>();
+			List<DockedWindowDescriptor> result = mobjHiddenWindowsDescriptor;
+			mobjHiddenWindowsDescriptor = new List<DockedWindowDescriptor>();
 			return result;
 		}
 

@@ -169,7 +169,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		/// <param name="objList">The obj list.</param>
 		/// </returns>
-		public abstract bool DoNavigation(IContext objContext,List<object> objList, Form objForm);
+		public abstract bool DoNavigation(IContext objContext, List<object> objList, Form objForm);
 
 		/// 
 		/// Executes action.
@@ -192,7 +192,7 @@ namespace Gizmox.WebGUI.Forms
 			}
 			if ((menmNavigationCommandTarget == NavigationCommandTarget.Form || (!flag && menmNavigationCommandTarget == NavigationCommandTarget.FullNavigation)) && context.FullScreenMode)
 			{
-				List<object> objList = new List<object><object>(((IFormResolver)context).AccessibleForms);
+				List<object> objList = new List<object>(((IFormResolver)context).AccessibleForms);
 				if (context.ActiveForm is Form objForm)
 				{
 					DoNavigation(context, objList, objForm);
@@ -207,7 +207,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		protected override PropertyDescriptorCollection GetFilteredCustomProperties(PropertyDescriptorCollection objPropertyDescriptorCollection)
 		{
-			List<object> list = new List<object><object>();
+			List<PropertyDescriptor> list = new List<PropertyDescriptor>();
 			foreach (PropertyDescriptor item in objPropertyDescriptorCollection)
 			{
 				bool flag = true;

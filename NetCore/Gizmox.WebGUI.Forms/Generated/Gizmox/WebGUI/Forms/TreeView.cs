@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -378,7 +378,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the item drag handler.
 		/// </summary>
 		/// The item drag handler.</value>
-		internal ItemDragEventHandler ItemDragHandler => (ItemDragEventHandler)GetHandler(ItemDrag);
+		internal ItemDragEventHandler ItemDragHandler => (ItemDragEventHandler)GetHandler(ItemDragEvent);
 
 		/// 
 		/// Gets the default full row select.
@@ -2245,17 +2245,17 @@ namespace Gizmox.WebGUI.Forms
 
 		static TreeView()
 		{
-			BeforeSelect = SerializableEvent.Register("BeforeSelect", typeof(TreeViewCancelEventHandler), typeof(TreeView));
+			BeforeSelectEvent = SerializableEvent.Register("BeforeSelect", typeof(TreeViewCancelEventHandler), typeof(TreeView));
 			AfterSelectEvent = SerializableEvent.Register("AfterSelect", typeof(TreeViewEventHandler), typeof(TreeView));
 			AfterLabelEditEvent = SerializableEvent.Register("AfterLabelEdit", typeof(NodeLabelEditEventHandler), typeof(TreeView));
-			BeforeLabelEdit = SerializableEvent.Register("BeforeLabelEdit", typeof(NodeLabelEditEventHandler), typeof(TreeView));
-			BeforeExpand = SerializableEvent.Register("BeforeExpand", typeof(TreeViewCancelEventHandler), typeof(TreeView));
-			BeforeCheck = SerializableEvent.Register("BeforeCheck", typeof(TreeViewCancelEventHandler), typeof(TreeView));
-			BeforeCollapse = SerializableEvent.Register("BeforeCollapse", typeof(TreeViewCancelEventHandler), typeof(TreeView));
-			AfterCheck = SerializableEvent.Register("AfterCheck", typeof(TreeViewEventHandler), typeof(TreeView));
-			AfterExpand = SerializableEvent.Register("AfterExpand", typeof(TreeViewEventHandler), typeof(TreeView));
-			AfterCollapse = SerializableEvent.Register("AfterCollapse", typeof(TreeViewEventHandler), typeof(TreeView));
-			ItemDrag = SerializableEvent.Register("ItemDrag", typeof(ItemDragEventHandler), typeof(TreeView));
+			BeforeLabelEditEvent = SerializableEvent.Register("BeforeLabelEdit", typeof(NodeLabelEditEventHandler), typeof(TreeView));
+			BeforeExpandEvent = SerializableEvent.Register("BeforeExpand", typeof(TreeViewCancelEventHandler), typeof(TreeView));
+			BeforeCheckEvent = SerializableEvent.Register("BeforeCheck", typeof(TreeViewCancelEventHandler), typeof(TreeView));
+			BeforeCollapseEvent = SerializableEvent.Register("BeforeCollapse", typeof(TreeViewCancelEventHandler), typeof(TreeView));
+			AfterCheckEvent = SerializableEvent.Register("AfterCheck", typeof(TreeViewEventHandler), typeof(TreeView));
+			AfterExpandEvent = SerializableEvent.Register("AfterExpand", typeof(TreeViewEventHandler), typeof(TreeView));
+			AfterCollapseEvent = SerializableEvent.Register("AfterCollapse", typeof(TreeViewEventHandler), typeof(TreeView));
+			ItemDragEvent = SerializableEvent.Register("ItemDrag", typeof(ItemDragEventHandler), typeof(TreeView));
 		}
 	}
 }

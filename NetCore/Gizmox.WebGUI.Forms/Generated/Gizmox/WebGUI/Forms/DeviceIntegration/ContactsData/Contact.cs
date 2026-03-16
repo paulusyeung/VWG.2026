@@ -115,7 +115,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		{
 			get
 			{
-				return GetNullableValueTypeProperty("id");
+				return GetNullableValueTypeProperty<uint>("id");
 			}
 			set
 			{
@@ -133,7 +133,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		{
 			get
 			{
-				return GetNullableProperty("displayName");
+				return GetNullableProperty<string>("displayName");
 			}
 			set
 			{
@@ -151,7 +151,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		{
 			get
 			{
-				return GetNullableProperty("name");
+				return GetNullableProperty<ContactName>("name");
 			}
 			set
 			{
@@ -169,7 +169,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		{
 			get
 			{
-				return GetNullableProperty("nickname");
+				return GetNullableProperty<string>("nickname");
 			}
 			set
 			{
@@ -184,7 +184,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		{
 			get
 			{
-				return GetContactsCollectionProperty("phoneNumbers");
+				return GetContactsCollectionProperty<ContactField>("phoneNumbers");
 			}
 			internal set
 			{
@@ -199,7 +199,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		{
 			get
 			{
-				return GetContactsCollectionProperty("emails");
+				return GetContactsCollectionProperty<ContactField>("emails");
 			}
 			internal set
 			{
@@ -214,7 +214,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		{
 			get
 			{
-				return GetContactsCollectionProperty("addresses");
+				return GetContactsCollectionProperty<ContactAddress>("addresses");
 			}
 			internal set
 			{
@@ -229,10 +229,10 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		{
 			get
 			{
-				IList list = GetNullableProperty<List<object>>("ims");
+				IList<ContactField> list = GetNullableProperty<List<ContactField>>("ims");
 				if (list == null)
 				{
-					list = new List<object>();
+					list = new List<ContactField>();
 					SetNullableProperty("ims", list);
 				}
 				return list;
@@ -250,7 +250,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		{
 			get
 			{
-				return GetContactsCollectionProperty("organizations");
+				return GetContactsCollectionProperty<ContactOrganization>("organizations");
 			}
 			internal set
 			{
@@ -268,7 +268,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		{
 			get
 			{
-				return GetNullableValueTypeProperty("birthday");
+				return GetNullableValueTypeProperty<DateTime>("birthday");
 			}
 			set
 			{
@@ -286,7 +286,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		{
 			get
 			{
-				return GetNullableProperty("note");
+				return GetNullableProperty<string>("note");
 			}
 			set
 			{
@@ -301,7 +301,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		{
 			get
 			{
-				return GetContactsCollectionProperty("photos");
+				return GetContactsCollectionProperty<ContactField>("photos");
 			}
 			internal set
 			{
@@ -316,7 +316,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		{
 			get
 			{
-				return GetContactsCollectionProperty("categories");
+				return GetContactsCollectionProperty<ContactField>("categories");
 			}
 			internal set
 			{
@@ -331,7 +331,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		{
 			get
 			{
-				return GetContactsCollectionProperty("urls");
+				return GetContactsCollectionProperty<ContactField>("urls");
 			}
 			internal set
 			{
@@ -377,10 +377,10 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		/// </returns>
 		private IList<T> GetContactsCollectionProperty<T>(string strPropertyName) where T : class
 		{
-			IList list = GetNullableProperty<List<object>>(strPropertyName);
+			IList<T> list = GetNullableProperty<List<T>>(strPropertyName);
 			if (list == null)
 			{
-				list = new List<object>();
+				list = new List<T>();
 				SetNullableProperty(strPropertyName, list);
 			}
 			return list;
@@ -393,70 +393,62 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		/// </returns>
 		public void ParseFromJson(string strContact)
 		{
-			JObject jObject = JsonUtils.Deserialize(strContact);
+			JObject jObject = JsonUtils.Deserialize<JObject>(strContact);
 			if (jObject == null)
 			{
 				return;
 			}
-			if (jObject.Value("id") != null)
+			if (jObject.Value<string>("id") != null)
 			{
-				ID = jObject.Value("id");
+				ID = jObject.Value<uint?>("id");
 			}
-			DisplayName = jObject.Value("displayName");
-			Note = jObject.Value("note");
-			Nickname = jObject.Value("nickname");
-			if (jObject.Value("birthday") != null)
+			DisplayName = jObject.Value<string>("displayName");
+			Note = jObject.Value<string>("note");
+			Nickname = jObject.Value<string>("nickname");
+			if (jObject.Value<string>("birthday") != null)
 			{
-				jObject.Value("birthday");
-				if (true)
-				{
-					Birthday = jObject.Value("birthday");
-				}
-				else
-				{
-					Birthday = JsonUtils.Deserialize(jObject.Value("birthday"));
-				}
+				Birthday = jObject.Value<DateTime?>("birthday");
 			}
-			Name = JsonUtils.Deserialize(jObject["name"].ToString());
+			Name = JsonUtils.Deserialize<ContactName>(jObject["name"].ToString());
 			ContactField[] array = JsonUtils.Deserialize<ContactField[]>(jObject["phoneNumbers"].ToString());
 			if (array != null)
 			{
-				PhoneNumbers = new List<object>(array);
+				PhoneNumbers = new List<ContactField>(array);
 			}
 			ContactField[] array2 = JsonUtils.Deserialize<ContactField[]>(jObject["urls"].ToString());
 			if (array2 != null)
 			{
-				URLs = new List<object>(array2);
+				URLs = new List<ContactField>(array2);
 			}
 			ContactField[] array3 = JsonUtils.Deserialize<ContactField[]>(jObject["emails"].ToString());
 			if (array3 != null)
 			{
-				Emails = new List<object>(array3);
+				Emails = new List<ContactField>(array3);
 			}
 			ContactAddress[] array4 = JsonUtils.Deserialize<ContactAddress[]>(jObject["addresses"].ToString());
 			if (array4 != null)
 			{
-				Addresses = new List<object>(array4);
+				Addresses = new List<ContactAddress>(array4);
 			}
 			ContactOrganization[] array5 = JsonUtils.Deserialize<ContactOrganization[]>(jObject["organizations"].ToString());
 			if (array5 != null)
 			{
-				Organizations = new List<object>(array5);
+				Organizations = new List<ContactOrganization>(array5);
 			}
 			ContactField[] array6 = JsonUtils.Deserialize<ContactField[]>(jObject["ims"].ToString());
 			if (array6 != null)
 			{
-				IMs = new List<object>(array6);
+				IMs = new List<ContactField>(array6);
 			}
 			ContactField[] array7 = JsonUtils.Deserialize<ContactField[]>(jObject["categories"].ToString());
 			if (array7 != null)
 			{
-				Categories = new List<object>(array7);
+				Categories = new List<ContactField>(array7);
 			}
 			ContactField[] array8 = JsonUtils.Deserialize<ContactField[]>(jObject["photos"].ToString());
 			if (array8 != null)
 			{
-				Photos = new List<object>(array8);
+				Photos = new List<ContactField>(array8);
 			}
 		}
 
@@ -496,14 +488,14 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.ContactsData
 		private IContact DeepCopy()
 		{
 			Contact contact = new Contact(mobjContacts);
-			contact.Addresses = new List<object>(Addresses);
-			contact.Emails = new List<object>(Emails);
-			contact.Categories = new List<object>(Categories);
-			contact.IMs = new List<object>(IMs);
-			contact.Organizations = new List<object>(Organizations);
-			contact.PhoneNumbers = new List<object>(PhoneNumbers);
-			contact.Photos = new List<object>(Photos);
-			contact.URLs = new List<object>(URLs);
+			contact.Addresses = new List<ContactAddress>(Addresses);
+			contact.Emails = new List<ContactField>(Emails);
+			contact.Categories = new List<ContactField>(Categories);
+			contact.IMs = new List<ContactField>(IMs);
+			contact.Organizations = new List<ContactOrganization>(Organizations);
+			contact.PhoneNumbers = new List<ContactField>(PhoneNumbers);
+			contact.Photos = new List<ContactField>(Photos);
+			contact.URLs = new List<ContactField>(URLs);
 			contact.Name = new ContactName();
 			contact.Name.Formatted = Name.Formatted;
 			contact.Name.Family = Name.Family;

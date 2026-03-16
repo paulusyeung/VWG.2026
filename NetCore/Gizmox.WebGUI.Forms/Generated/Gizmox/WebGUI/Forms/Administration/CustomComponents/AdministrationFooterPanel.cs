@@ -128,21 +128,21 @@ namespace Gizmox.WebGUI.Forms.Administration.CustomComponents
 		/// 
 		/// The mobj labels
 		/// </summary>
-		private List<object> mobjLabels;
+		private List<Label> mobjLabels;
 
 		/// 
 		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.Administration.CustomComponents.AdministrationFooterPanel" /> class.
 		/// </summary>
 		public AdministrationFooterPanel()
 		{
-			mobjLabels = new List<object>();
+			mobjLabels = new List<Label>();
 		}
 
 		/// 
 		/// Sets the labels.
 		/// </summary>
 		/// <param name="objDatas">The object datas.</param>
-		public void SetLabels(List<object> objDatas)
+		public void SetLabels(List<StatusData> objDatas)
 		{
 			if (objDatas != null)
 			{

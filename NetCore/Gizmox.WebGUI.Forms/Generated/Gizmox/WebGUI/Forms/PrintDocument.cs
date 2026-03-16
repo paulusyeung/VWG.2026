@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -115,7 +115,7 @@ namespace Gizmox.WebGUI.Forms
 
 		private PrinterSettings mobjPrinterSettings = null;
 
-		private List<object> mobjBitmapsList = null;
+		private List<Bitmap> mobjBitmapsList = null;
 
 		private Dictionary<PrintPageEventArgs, Graphics> mobjGraphicsDictionary = null;
 
@@ -133,13 +133,13 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the bitmaps list.
 		/// </summary>
 		/// The bitmaps list.</value>
-		internal List<object> BitmapsList
+		internal List<Bitmap> BitmapsList
 		{
 			get
 			{
 				if (mobjBitmapsList == null)
 				{
-					mobjBitmapsList = new List<object>();
+					mobjBitmapsList = new List<Bitmap>();
 				}
 				return mobjBitmapsList;
 			}
@@ -165,7 +165,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the begin print handler.
 		/// </summary>
 		/// The begin print handler.</value>
-		private PrintEventHandler BeginPrintHandler => (PrintEventHandler)GetHandler(BeginPrint);
+		private PrintEventHandler BeginPrintHandler => (PrintEventHandler)GetHandler(BeginPrintEvent);
 
 		/// 
 		/// Gets or sets the default page settings.
@@ -217,7 +217,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the end print handler.
 		/// </summary>
 		/// The end print handler.</value>
-		private PrintEventHandler EndPrintHandler => (PrintEventHandler)GetHandler(EndPrint);
+		private PrintEventHandler EndPrintHandler => (PrintEventHandler)GetHandler(EndPrintEvent);
 
 		/// 
 		/// Gets or sets a value indicating whether [origin at margins].
@@ -286,13 +286,13 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the print page handler.
 		/// </summary>
 		/// The print page handler.</value>
-		private PrintPageEventHandler PrintPageHandler => (PrintPageEventHandler)GetHandler(PrintPage);
+		private PrintPageEventHandler PrintPageHandler => (PrintPageEventHandler)GetHandler(PrintPageEvent);
 
 		/// 
 		/// Gets the begin print handler.
 		/// </summary>
 		/// The begin print handler.</value>
-		private QueryPageSettingsEventHandler QueryPageSettingsHandler => (QueryPageSettingsEventHandler)GetHandler(QueryPageSettings);
+		private QueryPageSettingsEventHandler QueryPageSettingsHandler => (QueryPageSettingsEventHandler)GetHandler(QueryPageSettingsEvent);
 
 		/// 
 		/// Occurs when [begin print].
@@ -512,10 +512,10 @@ namespace Gizmox.WebGUI.Forms
 
 		static PrintDocument()
 		{
-			BeginPrint = SerializableEvent.Register("BeginPrint", typeof(PrintEventHandler), typeof(PrintDocument));
-			EndPrint = SerializableEvent.Register("EndPrint", typeof(PrintEventHandler), typeof(PrintDocument));
-			PrintPage = SerializableEvent.Register("PrintPage", typeof(PrintPageEventHandler), typeof(PrintDocument));
-			QueryPageSettings = SerializableEvent.Register("QueryPageSettings", typeof(QueryPageSettingsEventHandler), typeof(PrintDocument));
+			BeginPrintEvent = SerializableEvent.Register("BeginPrint", typeof(PrintEventHandler), typeof(PrintDocument));
+			EndPrintEvent = SerializableEvent.Register("EndPrint", typeof(PrintEventHandler), typeof(PrintDocument));
+			PrintPageEvent = SerializableEvent.Register("PrintPage", typeof(PrintPageEventHandler), typeof(PrintDocument));
+			QueryPageSettingsEvent = SerializableEvent.Register("QueryPageSettings", typeof(QueryPageSettingsEventHandler), typeof(PrintDocument));
 		}
 	}
 }

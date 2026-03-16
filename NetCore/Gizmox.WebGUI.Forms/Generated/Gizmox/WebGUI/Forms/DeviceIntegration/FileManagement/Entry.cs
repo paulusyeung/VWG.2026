@@ -120,11 +120,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		{
 			get
 			{
-				return GetValuetypePropertyOrDefault("isFile");
+				return GetValuetypePropertyOrDefault<bool>("isFile");
 			}
 			set
 			{
-				AddValueTypeProperty("isFile", value);
+				AddValueTypeProperty<bool>("isFile", value);
 			}
 		}
 
@@ -138,11 +138,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		{
 			get
 			{
-				return GetValuetypePropertyOrDefault("isDirectory");
+				return GetValuetypePropertyOrDefault<bool>("isDirectory");
 			}
 			set
 			{
-				AddValueTypeProperty("isDirectory", value);
+				AddValueTypeProperty<bool>("isDirectory", value);
 			}
 		}
 
@@ -156,11 +156,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		{
 			get
 			{
-				return GetNullableProperty("name");
+				return GetNullableProperty<string>("name");
 			}
 			set
 			{
-				SetNullableProperty("name", value);
+				SetNullableProperty<string>("name", value);
 			}
 		}
 
@@ -174,11 +174,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		{
 			get
 			{
-				return GetNullableProperty("fullPath");
+				return GetNullableProperty<string>("fullPath");
 			}
 			set
 			{
-				SetNullableProperty("fullPath", value);
+				SetNullableProperty<string>("fullPath", value);
 			}
 		}
 

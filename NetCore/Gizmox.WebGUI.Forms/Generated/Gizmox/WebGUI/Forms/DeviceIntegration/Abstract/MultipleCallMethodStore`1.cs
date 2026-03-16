@@ -110,7 +110,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.Abstract
 		/// 
 		/// Multiple-call event handler.
 		/// </summary>
-		private Action mobjMultipleCallMethods;
+		private Action<TEventArgsType> mobjMultipleCallMethods;
 
 		/// 
 		/// Invokes the multiple call method.
@@ -128,18 +128,18 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.Abstract
 		/// Adds the multiple call method.
 		/// </summary>
 		/// <param name="objMethod">The obj method.</param>
-		internal void AddMultipleCallMethod(Action objMethod)
+		internal void AddMultipleCallMethod(Action<TEventArgsType> objMethod)
 		{
-			mobjMultipleCallMethods = (Action)Delegate.Combine(mobjMultipleCallMethods, objMethod);
+			mobjMultipleCallMethods = (Action<TEventArgsType>)Delegate.Combine(mobjMultipleCallMethods, objMethod);
 		}
 
 		/// 
 		/// Removes the multiple call method.
 		/// </summary>
 		/// <param name="objMethod">The obj method.</param>
-		internal void RemoveMultipleCallMethod(Action objMethod)
+		internal void RemoveMultipleCallMethod(Action<TEventArgsType> objMethod)
 		{
-			mobjMultipleCallMethods = (Action)Delegate.Remove(mobjMultipleCallMethods, objMethod);
+			mobjMultipleCallMethods = (Action<TEventArgsType>)Delegate.Remove(mobjMultipleCallMethods, objMethod);
 		}
 
 		/// 

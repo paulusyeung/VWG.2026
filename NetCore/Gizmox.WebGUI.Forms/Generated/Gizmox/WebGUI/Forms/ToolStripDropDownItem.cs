@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -120,25 +120,25 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the DropDownClosed handler.
 		/// </summary>
 		/// The DropDownClosed handler.</value>
-		private EventHandler DropDownClosedHandler => (EventHandler)GetHandler(DropDownClosed);
+		private EventHandler DropDownClosedHandler => (EventHandler)GetHandler(DropDownClosedEvent);
 
 		/// 
 		/// Gets the DropDownItemClicked handler.
 		/// </summary>
 		/// The DropDownItemClicked handler.</value>
-		private ToolStripItemClickedEventHandler DropDownItemClickedHandler => (ToolStripItemClickedEventHandler)GetHandler(DropDownItemClicked);
+		private ToolStripItemClickedEventHandler DropDownItemClickedHandler => (ToolStripItemClickedEventHandler)GetHandler(DropDownItemClickedEvent);
 
 		/// 
 		/// Gets the DropDownOpened handler.
 		/// </summary>
 		/// The DropDownOpened handler.</value>
-		private EventHandler DropDownOpenedHandler => (EventHandler)GetHandler(DropDownOpened);
+		private EventHandler DropDownOpenedHandler => (EventHandler)GetHandler(DropDownOpenedEvent);
 
 		/// 
 		/// Gets the DropDownOpening handler.
 		/// </summary>
 		/// The DropDownOpening handler.</value>
-		private EventHandler DropDownOpeningHandler => (EventHandler)GetHandler(DropDownOpening);
+		private EventHandler DropDownOpeningHandler => (EventHandler)GetHandler(DropDownOpeningEvent);
 
 		private ToolStripDropDown mobjDropDown
 		{
@@ -523,7 +523,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			if (strOffspringTypeName == "Gizmox.WebGUI.Forms.ToolStripDropDown")
 			{
-				List<object> list = new List<object><object>();
+				List<object> list = new List<object>();
 				list.Add(DropDown);
 				return list;
 			}
@@ -585,10 +585,10 @@ namespace Gizmox.WebGUI.Forms
 
 		static ToolStripDropDownItem()
 		{
-			DropDownOpened = SerializableEvent.Register("DropDownOpened", typeof(EventHandler), typeof(ToolStripDropDownItem));
-			DropDownOpening = SerializableEvent.Register("DropDownOpening", typeof(EventHandler), typeof(ToolStripDropDownItem));
-			DropDownItemClicked = SerializableEvent.Register("DropDownItemClicked", typeof(ToolStripItemClickedEventHandler), typeof(ToolStripDropDownItem));
-			DropDownClosed = SerializableEvent.Register("DropDownClosed", typeof(EventHandler), typeof(ToolStripDropDownItem));
+			DropDownOpenedEvent = SerializableEvent.Register("DropDownOpened", typeof(EventHandler), typeof(ToolStripDropDownItem));
+			DropDownOpeningEvent = SerializableEvent.Register("DropDownOpening", typeof(EventHandler), typeof(ToolStripDropDownItem));
+			DropDownItemClickedEvent = SerializableEvent.Register("DropDownItemClicked", typeof(ToolStripItemClickedEventHandler), typeof(ToolStripDropDownItem));
+			DropDownClosedEvent = SerializableEvent.Register("DropDownClosed", typeof(EventHandler), typeof(ToolStripDropDownItem));
 		}
 	}
 }

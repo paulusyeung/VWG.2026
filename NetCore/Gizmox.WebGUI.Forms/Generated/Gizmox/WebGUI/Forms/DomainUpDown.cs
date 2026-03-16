@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -381,7 +381,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the selected item changed handler.
 		/// </summary>
 		/// The selected item changed handler.</value>
-		private EventHandler SelectedItemChangedHandler => (EventHandler)GetHandler(SelectedItemChanged);
+		private EventHandler SelectedItemChangedHandler => (EventHandler)GetHandler(SelectedItemChangedEvent);
 
 		/// Gets or sets a value indicating whether the item collection is sorted.</summary>
 		/// true if the item collection is sorted; otherwise, false. The default value is false.</returns>
@@ -843,7 +843,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static DomainUpDown()
 		{
-			SelectedItemChanged = SerializableEvent.Register("SelectedItemChanged", typeof(EventHandler), typeof(DomainUpDown));
+			SelectedItemChangedEvent = SerializableEvent.Register("SelectedItemChanged", typeof(EventHandler), typeof(DomainUpDown));
 			WrapProperty = SerializableProperty.Register("Wrap", typeof(bool), typeof(DomainUpDown), new SerializablePropertyMetadata(false));
 		}
 	}

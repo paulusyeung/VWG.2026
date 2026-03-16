@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -180,7 +180,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the ItemAdded event.
 		/// </summary>
-		private ToolStripItemEventHandler ItemAddedHandler => (ToolStripItemEventHandler)GetHandler(ItemAdded);
+		private ToolStripItemEventHandler ItemAddedHandler => (ToolStripItemEventHandler)GetHandler(ItemAddedEvent);
 
 		/// 
 		/// Gets the hanlder for the ItemClicked event.
@@ -190,12 +190,12 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the ItemRemoved event.
 		/// </summary>
-		private ToolStripItemEventHandler ItemRemovedHandler => (ToolStripItemEventHandler)GetHandler(ItemRemoved);
+		private ToolStripItemEventHandler ItemRemovedHandler => (ToolStripItemEventHandler)GetHandler(ItemRemovedEvent);
 
 		/// 
 		/// Gets the hanlder for the LayoutStyleChanged event.
 		/// </summary>
-		private EventHandler LayoutStyleChangedHandler => (EventHandler)GetHandler(LayoutStyleChanged);
+		private EventHandler LayoutStyleChangedHandler => (EventHandler)GetHandler(LayoutStyleChangedEvent);
 
 		private ToolStripItemCollection mobjToolStripItemCollection
 		{
@@ -2105,9 +2105,9 @@ namespace Gizmox.WebGUI.Forms
 
 		static ToolStrip()
 		{
-			LayoutStyleChanged = SerializableEvent.Register("LayoutStyleChanged", typeof(EventHandler), typeof(ToolStrip));
-			ItemAdded = SerializableEvent.Register("ItemAdded", typeof(ToolStripItemEventHandler), typeof(ToolStrip));
-			ItemRemoved = SerializableEvent.Register("ItemRemoved", typeof(ToolStripItemEventHandler), typeof(ToolStrip));
+			LayoutStyleChangedEvent = SerializableEvent.Register("LayoutStyleChanged", typeof(EventHandler), typeof(ToolStrip));
+			ItemAddedEvent = SerializableEvent.Register("ItemAdded", typeof(ToolStripItemEventHandler), typeof(ToolStrip));
+			ItemRemovedEvent = SerializableEvent.Register("ItemRemoved", typeof(ToolStripItemEventHandler), typeof(ToolStrip));
 		}
 	}
 }

@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -244,9 +244,9 @@ namespace Gizmox.WebGUI.Forms
 
 		internal static readonly SerializableEvent EVENT_WINDOWSSTATECHANGED = SerializableEvent.Register("Event", typeof(Delegate), typeof(DockingManager));
 
-		private List<object> mobjAllZones;
+		private List<Zone> mobjAllZones;
 
-		private List<object> mobjLiveFormsIds;
+		private List<long> mobjLiveFormsIds;
 
 		private DockedManagerDescriptor mobjData;
 
@@ -820,7 +820,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <typeparam name="T"></typeparam>
 		/// <param name="collection">The collection.</param>
 		/// </returns>
-		private IEnumerable CopyCollection(ICollection collection)
+		private IEnumerable<T> CopyCollection<T>(ICollection<T> collection)
 		{
 			T[] array = new T[collection.Count];
 			collection.CopyTo(array, 0);
@@ -832,7 +832,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		public void UnpinAll()
 		{
-			List<object> list = new List<object><object>();
+			List<Zone> list = new List<Zone>();
 			foreach (Zone mobjAllZone in mobjAllZones)
 			{
 				if (mobjAllZone.ZoneType == ZoneType.Dock)
@@ -1239,7 +1239,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Loads the hidden windows.
 		/// </summary>
 		/// <param name="objHiddenWindows">The obj hidden windows.</param>
-		private void LoadHiddenWindows(List<object> objHiddenWindows)
+		private void LoadHiddenWindows(List<DockedWindowDescriptor> objHiddenWindows)
 		{
 			LoadWindows(objHiddenWindows, DockState.Hidden, DockStyle.Fill);
 		}
@@ -1284,7 +1284,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			if (mobjData.WindowPlaceHoldersForDockedZonesIndexByWindowName.TryGetValue(objWindow.WindowName, out var value))
 			{
-				List descriptorTrace = DockedManagerHelper.GetDescriptorTrace(value, blnWithCurrent: false);
+				List<DockedObjectDescriptor> descriptorTrace = DockedManagerHelper.GetDescriptorTrace(value, blnWithCurrent: false);
 				DockedManagerHelper.LoadWindowFromTrace(this, objWindow, descriptorTrace, this, DockState.Dock);
 			}
 			else
@@ -1299,7 +1299,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objWindow">The obj window.</param>
 		private void AddFloatWindow(DockingWindow objWindow)
 		{
-			List list = null;
+			List<DockedObjectDescriptor> list = null;
 			if (mobjData.WindowPlaceHoldersForFloatZonesIndexByWindowName.TryGetValue(objWindow.WindowName, out var value))
 			{
 				list = DockedManagerHelper.GetDescriptorTrace(value, blnWithCurrent: false);
@@ -1321,7 +1321,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		private Component[] GetAllZonesAsComponentsList(long lngFormId)
 		{
-			List<object> list = new List<object><object>();
+			List<Component> list = new List<Component>();
 			foreach (Zone mobjAllZone in mobjAllZones)
 			{
 				if (mobjAllZone.OwningFormId != lngFormId)
@@ -1401,11 +1401,11 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objDescriptor">The obj descriptor.</param>
 		private void InitializeDockedManager(DockedManagerDescriptor objDescriptor)
 		{
-			mobjAllZones = new List<object>();
+			mobjAllZones = new List<Zone>();
 			mobjDockedWindowsCollection = CreateCollection();
 			mobjDockedWindowsCollection.Manager = this;
 			InitializeDescriptor(objDescriptor);
-			mobjLiveFormsIds = new List<object>();
+			mobjLiveFormsIds = new List<long>();
 			mobjDockedSplitContainersIndexByDockedSplitContainerDescriptor = new Dictionary<DockedSplitContainerDescriptor, DockedSplitContainer>();
 			mobjDockedFormsIdsIndexByDockedFormsUniqueId = new Dictionary<string, long>();
 			InitializeComponenet(objDescriptor);
@@ -1462,13 +1462,13 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		/// <param name="objWindowDescriptorsGroups">The obj window descriptors groups.</param>
 		/// <param name="objDockStyle">The obj dock style.</param>
-		private void LoadAutoHiddenWindows(List<List<object>> objWindowDescriptorsGroups, DockStyle objDockStyle)
+		private void LoadAutoHiddenWindows(List<List<DockedWindowDescriptor>> objWindowDescriptorsGroups, DockStyle objDockStyle)
 		{
 			if (objWindowDescriptorsGroups == null)
 			{
 				return;
 			}
-			foreach (List<object> objWindowDescriptorsGroup in objWindowDescriptorsGroups)
+			foreach (List<DockedWindowDescriptor> objWindowDescriptorsGroup in objWindowDescriptorsGroups)
 			{
 				LoadWindows(objWindowDescriptorsGroup, DockState.AutoHide, objDockStyle);
 			}
@@ -1480,9 +1480,9 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objDockedWindowDescriptors">The docked window descriptors.</param>
 		/// <param name="objDockState">The dock state .</param>
 		/// <param name="objDockStyle">The dock style.</param>
-		private void LoadWindows(List<object> objDockedWindowDescriptors, DockState objDockState, DockStyle objDockStyle)
+		private void LoadWindows(List<DockedWindowDescriptor> objDockedWindowDescriptors, DockState objDockState, DockStyle objDockStyle)
 		{
-			List<object> list = new List<object><object>();
+			List<DockingWindow> list = new List<DockingWindow>();
 			foreach (DockedWindowDescriptor objDockedWindowDescriptor in objDockedWindowDescriptors)
 			{
 				Type windowType = objDockedWindowDescriptor.WindowType;
@@ -1511,7 +1511,7 @@ namespace Gizmox.WebGUI.Forms
 		private void objDocekdForm_FormClosed(object sender, FormClosedEventArgs e)
 		{
 			DockedForm dockedForm = sender as DockedForm;
-			List windows = dockedForm.Windows;
+			List<DockingWindow> windows = dockedForm.Windows;
 			if (windows != null)
 			{
 				DockingWindow[] array = windows.ToArray();
@@ -1814,7 +1814,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="enmPanelSide">The enm panel side.</param>
 		internal void AutoHideWindows(DockStyle enmPanelSide, params DockingWindow[] objWindows)
 		{
-			List<object> list = new List<object><object>();
+			List<Zone> list = new List<Zone>();
 			foreach (DockingWindow dockingWindow in objWindows)
 			{
 				Zone zone = new Zone(this, ZoneType.Hidden);

@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -558,19 +558,19 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the closed handler.
 		/// </summary>
 		/// The closed handler.</value>
-		private ToolStripDropDownClosedEventHandler ClosedHandler => (ToolStripDropDownClosedEventHandler)GetHandler(Closed);
+		private ToolStripDropDownClosedEventHandler ClosedHandler => (ToolStripDropDownClosedEventHandler)GetHandler(ClosedEvent);
 
 		/// 
 		/// Gets the opened handler.
 		/// </summary>
 		/// The opened handler.</value>
-		private EventHandler OpenedHandler => (EventHandler)GetHandler(Opened);
+		private EventHandler OpenedHandler => (EventHandler)GetHandler(OpenedEvent);
 
 		/// 
 		/// Gets the opening handler.
 		/// </summary>
 		/// The opening handler.</value>
-		private CancelEventHandler OpeningHandler => (CancelEventHandler)GetHandler(Opening);
+		private CancelEventHandler OpeningHandler => (CancelEventHandler)GetHandler(OpeningEvent);
 
 		private bool mblnAutoClose
 		{
@@ -2015,9 +2015,9 @@ namespace Gizmox.WebGUI.Forms
 
 		static ToolStripDropDown()
 		{
-			Closed = SerializableEvent.Register("Closed", typeof(ToolStripDropDownClosedEventHandler), typeof(ToolStripDropDown));
-			Opened = SerializableEvent.Register("Opened", typeof(EventHandler), typeof(ToolStripDropDown));
-			Opening = SerializableEvent.Register("Opening", typeof(CancelEventHandler), typeof(ToolStripDropDown));
+			ClosedEvent = SerializableEvent.Register("Closed", typeof(ToolStripDropDownClosedEventHandler), typeof(ToolStripDropDown));
+			OpenedEvent = SerializableEvent.Register("Opened", typeof(EventHandler), typeof(ToolStripDropDown));
+			OpeningEvent = SerializableEvent.Register("Opening", typeof(CancelEventHandler), typeof(ToolStripDropDown));
 		}
 	}
 }

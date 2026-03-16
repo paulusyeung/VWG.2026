@@ -190,7 +190,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </returns>
 		private MediaFileDataEventArgs CreateMediaFileDataEventArgs(IEvent objEvent)
 		{
-			if (!DeviceEventArgs.TryGetError(objEvent, out var objEventArgs))
+			if (!DeviceEventArgs.TryGetError<MediaFileDataEventArgs>(objEvent, out var objEventArgs))
 			{
 				return new MediaFileDataEventArgs(MediaFileData.FromVWGEvent(objEvent));
 			}
@@ -204,7 +204,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </returns>
 		private CaptureEventArgs GetCaptureEventArgs(IEvent objEvent)
 		{
-			if (!DeviceEventArgs.TryGetError(objEvent, out var objEventArgs))
+			if (!DeviceEventArgs.TryGetError<CaptureEventArgs>(objEvent, out var objEventArgs))
 			{
 				IMediaFile[] arrCapturedFiles = MediaFile.ParseFromVWGEvent(objEvent, this);
 				return new CaptureEventArgs(arrCapturedFiles);

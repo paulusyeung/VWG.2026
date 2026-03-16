@@ -133,7 +133,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the empty args store.
 		/// </summary>
-		internal SingleCallMethodStore<EventArgs> FileDownloadEventArgsStore
+		internal SingleCallMethodStore<FileDownloadEventArgs> FileDownloadEventArgsStore
 		{
 			get
 			{
@@ -148,7 +148,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the empty args store.
 		/// </summary>
-		internal SingleCallMethodStore<EventArgs> EmptyArgsStore
+		internal SingleCallMethodStore<EmptyDeviceEventArgs> EmptyArgsStore
 		{
 			get
 			{
@@ -232,7 +232,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 			}
 			case "entry":
 			{
-				Entry contaxt2 = mobjEntryEventArgsStore.GetContaxt(keyValuePair.Value);
+				Entry contaxt2 = mobjEntryEventArgsStore.GetContaxt<Entry>(keyValuePair.Value);
 				EntryEventArgs args8 = CraeteEntryEventArgs(objEvent, contaxt2.FileSystem);
 				mobjEntryEventArgsStore.InvokeContextualMethod(keyValuePair.Value, args8);
 				break;
@@ -245,7 +245,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 			}
 			case "readDirectory":
 			{
-				DirectoryReader contaxt = mobjDirectoryReaderEventArgsStore.GetContaxt(keyValuePair.Value);
+				DirectoryReader contaxt = mobjDirectoryReaderEventArgsStore.GetContaxt<DirectoryReader>(keyValuePair.Value);
 				DirectoryReaderEventArgs args7 = CreateDirectoryReaderEventArgs(objEvent, contaxt.Directory.FileSystem);
 				mobjDirectoryReaderEventArgsStore.InvokeContextualMethod(keyValuePair.Value, args7);
 				break;
@@ -253,7 +253,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 			case "removerec":
 			case "remove":
 			{
-				if (!DeviceEventArgs.TryGetError(objEvent, out var objEventArgs))
+				if (!DeviceEventArgs.TryGetError<EmptyDeviceEventArgs>(objEvent, out var objEventArgs))
 				{
 					objEventArgs = new EmptyDeviceEventArgs();
 				}
@@ -262,7 +262,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 			}
 			case "getFileWriter":
 			{
-				FileEntry contaxt3 = mobjFileWriterEventArgsStore.GetContaxt(keyValuePair.Value);
+				FileEntry contaxt3 = mobjFileWriterEventArgsStore.GetContaxt<FileEntry>(keyValuePair.Value);
 				FileWriterEventArgs args10 = CreateFileWriterEventArgs(objEvent, contaxt3);
 				mobjFileWriterEventArgsStore.InvokeContextualMethod(keyValuePair.Value, args10);
 				break;
@@ -348,10 +348,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </returns>
 		private FileWriterEventArgs CreateFileWriterEventArgs(IEvent objEvent, FileEntry objFileEntryContext)
 		{
-			if (!DeviceEventArgs.TryGetError(objEvent, out var objEventArgs))
-			{
-				return new FileWriterEventArgs(FileWriter.FromVWGEvent(objEvent, objFileEntryContext, this));
-			}
+			FileWriterEventArgs objEventArgs;
+			if (!DeviceEventArgs.TryGetError<FileWriterEventArgs>(objEvent, out objEventArgs))
+				objEventArgs = new FileWriterEventArgs(FileWriter.FromVWGEvent(objEvent, objFileEntryContext, this));
 			return objEventArgs;
 		}
 
@@ -362,10 +361,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </returns>
 		private FileEventArgs CreateFileEventArgsArguments(IEvent objEvent)
 		{
-			if (!DeviceEventArgs.TryGetError(objEvent, out var objEventArgs))
-			{
-				return new FileEventArgs(DeviceFile.FromVWGEvent(objEvent));
-			}
+			FileEventArgs objEventArgs;
+			if (!DeviceEventArgs.TryGetError<FileEventArgs>(objEvent, out objEventArgs))
+				objEventArgs = new FileEventArgs(DeviceFile.FromVWGEvent(objEvent));
 			return objEventArgs;
 		}
 
@@ -377,8 +375,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </returns>
 		private DirectoryReaderEventArgs CreateDirectoryReaderEventArgs(IEvent objEvent, IFileSystem objFileSystem)
 		{
-			List<object> list = new List<object><object>();
-			if (!DeviceEventArgs.TryGetError(objEvent, out var objEventArgs))
+			DirectoryReaderEventArgs objEventArgs;
+			List<IEntry> list = new List<IEntry>();
+			if (!DeviceEventArgs.TryGetError<DirectoryReaderEventArgs>(objEvent, out objEventArgs))
 			{
 				if (int.TryParse(objEvent["count"], out var result))
 				{
@@ -390,18 +389,18 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 						{
 							if (flag.Value)
 							{
-								list.Add(DirectoryEntry.FromVWGEvent(strPrefix, objEvent, this, objFileSystem));
+								list.Add((IEntry)DirectoryEntry.FromVWGEvent(strPrefix, objEvent, this, objFileSystem));
 							}
 							else
 							{
-								list.Add(FileEntry.FromVWGEvent(strPrefix, objEvent, this, objFileSystem));
+								list.Add((IEntry)FileEntry.FromVWGEvent(strPrefix, objEvent, this, objFileSystem));
 							}
 						}
 					}
 				}
-				return new DirectoryReaderEventArgs(list.ToArray());
+				objEventArgs = new DirectoryReaderEventArgs(list.ToArray());
 			}
-			return objEventArgs;
+			return objEventArgs!;
 		}
 
 		/// 
@@ -411,10 +410,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </returns>
 		private ToUrlEventArgs CreateToUrlArguments(IEvent objEvent)
 		{
-			if (!DeviceEventArgs.TryGetError(objEvent, out var objEventArgs))
-			{
-				return ToUrlEventArgs.FromVWGEvent(objEvent);
-			}
+			ToUrlEventArgs objEventArgs;
+			if (!DeviceEventArgs.TryGetError<ToUrlEventArgs>(objEvent, out objEventArgs))
+				objEventArgs = ToUrlEventArgs.FromVWGEvent(objEvent);
 			return objEventArgs;
 		}
 
@@ -426,19 +424,20 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </returns>
 		private EntryEventArgs CraeteEntryEventArgs(IEvent objEvent, IFileSystem objFileSystem)
 		{
-			if (!DeviceEventArgs.TryGetError(objEvent, out var objEventArgs))
+			EntryEventArgs objEventArgs;
+			if (!DeviceEventArgs.TryGetError<EntryEventArgs>(objEvent, out objEventArgs))
 			{
 				bool? flag = Entry.IsEntryDirectoryFromVwgEvent("", objEvent);
 				if (flag.HasValue)
 				{
 					if (flag.Value)
 					{
-						return new EntryEventArgs(DirectoryEntry.FromVWGEvent(objEvent, this, objFileSystem));
+						objEventArgs = new EntryEventArgs(DirectoryEntry.FromVWGEvent(objEvent, this, objFileSystem));
 					}
-					return new EntryEventArgs(FileEntry.FromVWGEvent(objEvent, this, objFileSystem));
+					else objEventArgs = new EntryEventArgs(FileEntry.FromVWGEvent(objEvent, this, objFileSystem));
 				}
 			}
-			return objEventArgs;
+			return objEventArgs!;
 		}
 
 		/// 
@@ -448,11 +447,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </returns>
 		private MetadataEventArgs CreateMetadataEventArguments(IEvent objEvent)
 		{
-			if (!DeviceEventArgs.TryGetError(objEvent, out var objEventArgs))
-			{
-				EntryMetadata objMetadata = EntryMetadata.CreateFromVWGEvent(objEvent);
-				return new MetadataEventArgs(objMetadata);
-			}
+			MetadataEventArgs objEventArgs;
+			if (!DeviceEventArgs.TryGetError<MetadataEventArgs>(objEvent, out objEventArgs))
+				objEventArgs = new MetadataEventArgs(EntryMetadata.CreateFromVWGEvent(objEvent));
 			return objEventArgs;
 		}
 
@@ -502,7 +499,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="entry">The entry.</param>
 		/// <param name="objHandler">The obj handler.</param>
-		internal void GetEntryMetadata(Entry entry, EventHandler objHandler)
+		internal void GetEntryMetadata(Entry entry, EventHandler<MetadataEventArgs> objHandler)
 		{
 			if (mobjEntryMetadataEventStore == null)
 			{
@@ -519,7 +516,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="strFilePath">The STR file path.</param>
 		/// <param name="objOptions">The obj options.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		internal void GetDirectory(DirectoryEntry objDirectoryEntry, string strFilePath, FlagsOptions objOptions, EventHandler objCallback)
+		internal void GetDirectory(DirectoryEntry objDirectoryEntry, string strFilePath, FlagsOptions objOptions, EventHandler<EntryEventArgs> objCallback)
 		{
 			string text = EntryEventArgsStore.StoreContextualSingleCallMethod(objDirectoryEntry, "entry", objCallback);
 			Invoke("DeviceIntegrator.FileManager.getDirectoryByPath", objDirectoryEntry.FullPath, strFilePath, CommonUtils.GetClientJsonObject(objOptions), text);
@@ -532,7 +529,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="strFilePath">The STR file path.</param>
 		/// <param name="objOptions">The obj options.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		internal void GetFile(DirectoryEntry objDirectoryEntry, string strFilePath, FlagsOptions objOptions, EventHandler objCallback)
+		internal void GetFile(DirectoryEntry objDirectoryEntry, string strFilePath, FlagsOptions objOptions, EventHandler<EntryEventArgs> objCallback)
 		{
 			string text = EntryEventArgsStore.StoreContextualSingleCallMethod(objDirectoryEntry, "entry", objCallback);
 			Invoke("DeviceIntegrator.FileManager.getFileByPath", objDirectoryEntry.FullPath, strFilePath, CommonUtils.GetClientJsonObject(objOptions), text);
@@ -546,7 +543,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="objParentDirectory">The obj parent directory.</param>
 		/// <param name="strNewName">New name of the STR.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		internal void ChangeFileLocation(string strChangeType, Entry objEntry, IDirectoryEntry objParentDirectory, string strNewName, EventHandler objCallback)
+		internal void ChangeFileLocation(string strChangeType, Entry objEntry, IDirectoryEntry objParentDirectory, string strNewName, EventHandler<EntryEventArgs> objCallback)
 		{
 			Invoke(arrArguments: new object[5]
 			{
@@ -563,7 +560,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objEntry">The obj entry.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		internal void GetParent(Entry objEntry, EventHandler objCallback)
+		internal void GetParent(Entry objEntry, EventHandler<EntryEventArgs> objCallback)
 		{
 			Invoke("DeviceIntegrator.FileManager.getParentByPath", objEntry.FullPath, objEntry.IsDirectory, EntryEventArgsStore.StoreContextualSingleCallMethod(objEntry, "entry", objCallback));
 		}
@@ -573,7 +570,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objEntry">The obj entry.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		internal void Remove(Entry objEntry, EventHandler objCallback)
+		internal void Remove(Entry objEntry, EventHandler<EmptyDeviceEventArgs> objCallback)
 		{
 			Invoke("DeviceIntegrator.FileManager.removeByPath", objEntry.FullPath, objEntry.IsDirectory, EmptyArgsStore.StoreContextualSingleCallMethod(objEntry, "remove", objCallback));
 		}
@@ -583,7 +580,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objEntry">The obj entry.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		internal void ToUrl(Entry objEntry, EventHandler objCallback)
+		internal void ToUrl(Entry objEntry, EventHandler<ToUrlEventArgs> objCallback)
 		{
 			if (mobjToUrlEventArgsStore == null)
 			{
@@ -598,7 +595,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="objEntry">The obj entry.</param>
 		/// <param name="objValues">The obj values.</param>
 		/// <param name="objHandler">The obj handler.</param>
-		internal void SetMetadata(Entry objEntry, MetadataDictionary objValues, EventHandler objHandler)
+		internal void SetMetadata(Entry objEntry, MetadataDictionary objValues, EventHandler<EmptyDeviceEventArgs> objHandler)
 		{
 			Invoke("DeviceIntegrator.FileManager.setMetadataByPath", objEntry.FullPath, objEntry.IsDirectory, CommonUtils.GetClientJsonObject(objValues), EmptyArgsStore.StoreContextualSingleCallMethod(objEntry, "setmeta", objHandler));
 		}
@@ -608,7 +605,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objDirectoryReader">The obj directory reader.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		internal void ReadEntries(DirectoryReader objDirectoryReader, EventHandler objCallback)
+		internal void ReadEntries(DirectoryReader objDirectoryReader, EventHandler<DirectoryReaderEventArgs> objCallback)
 		{
 			if (mobjDirectoryReaderEventArgsStore == null)
 			{
@@ -622,7 +619,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objDirectoryEntry">The obj directory entry.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		internal void RemoveRecursively(DirectoryEntry objDirectoryEntry, EventHandler objCallback)
+		internal void RemoveRecursively(DirectoryEntry objDirectoryEntry, EventHandler<EmptyDeviceEventArgs> objCallback)
 		{
 			Invoke("DeviceIntegrator.FileManager.removeRecursively", objDirectoryEntry.FullPath, EmptyArgsStore.StoreContextualSingleCallMethod(objDirectoryEntry, "removerec", objCallback));
 		}
@@ -632,7 +629,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objFileEntry">The obj file entry.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		internal void GetFile(FileEntry objFileEntry, EventHandler objCallback)
+		internal void GetFile(FileEntry objFileEntry, EventHandler<FileEventArgs> objCallback)
 		{
 			if (mobjFileEventArgsStore == null)
 			{
@@ -646,7 +643,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// </summary>
 		/// <param name="objFileEntry">The obj file entry.</param>
 		/// <param name="objCallback">The obj callback.</param>
-		internal void CreateWriter(FileEntry objFileEntry, EventHandler objCallback)
+		internal void CreateWriter(FileEntry objFileEntry, EventHandler<FileWriterEventArgs> objCallback)
 		{
 			if (mobjFileWriterEventArgsStore == null)
 			{

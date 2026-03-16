@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -170,7 +170,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the value changed handler.
 		/// </summary>
 		/// The value changed handler.</value>
-		private EventHandler ValueChangedHandler => (EventHandler)GetHandler(ValueChanged);
+		private EventHandler ValueChangedHandler => (EventHandler)GetHandler(ValueChangedEvent);
 
 		/// 
 		/// Gets or sets a value to be added to or subtracted from the <see cref="P:Gizmox.WebGUI.Forms.TrackBar.Value"></see> property when the scroll box is moved a large distance.
@@ -743,7 +743,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static TrackBar()
 		{
-			ValueChanged = SerializableEvent.Register("ValueChanged", typeof(EventHandler), typeof(TrackBar));
+			ValueChangedEvent = SerializableEvent.Register("ValueChanged", typeof(EventHandler), typeof(TrackBar));
 		}
 	}
 }

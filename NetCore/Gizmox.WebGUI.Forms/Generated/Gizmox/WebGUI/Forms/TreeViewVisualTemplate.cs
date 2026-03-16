@@ -307,10 +307,11 @@ namespace Gizmox.WebGUI.Forms
 		{
 			if (objVisualTemplateValues.Count == 4)
 			{
-				mblnUseTreeViewOriginalFont = ((!string.IsNullOrEmpty(objVisualTemplateValues[0]) && objVisualTemplateValues[0] == "1") ? true : false);
-				int.TryParse(objVisualTemplateValues[1], out mintItemHeight);
-				int.TryParse(objVisualTemplateValues[2], out mintBackButtonHeight);
-				mstrDefaultBackButtonText = objVisualTemplateValues[3];
+				string text = objVisualTemplateValues[0] as string;
+				mblnUseTreeViewOriginalFont = !string.IsNullOrEmpty(text) && text == "1";
+				int.TryParse(objVisualTemplateValues[1] as string, out mintItemHeight);
+				int.TryParse(objVisualTemplateValues[2] as string, out mintBackButtonHeight);
+				mstrDefaultBackButtonText = objVisualTemplateValues[3] as string;
 			}
 		}
 

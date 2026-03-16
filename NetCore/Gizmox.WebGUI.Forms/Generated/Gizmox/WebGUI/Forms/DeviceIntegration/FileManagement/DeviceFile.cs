@@ -110,7 +110,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		{
 			get
 			{
-				return GetNullableProperty("fullPath");
+				return GetNullableProperty<string>("fullPath");
 			}
 			internal set
 			{
@@ -125,7 +125,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		{
 			get
 			{
-				long valuetypePropertyOrDefault = GetValuetypePropertyOrDefault("lastModifiedDate");
+				long valuetypePropertyOrDefault = GetValuetypePropertyOrDefault<long>("lastModifiedDate");
 				if (valuetypePropertyOrDefault != 0)
 				{
 					return new DateTime(valuetypePropertyOrDefault * 10000 + 621355968000000000L);
@@ -145,7 +145,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		{
 			get
 			{
-				return GetNullableProperty("name");
+				return GetNullableProperty<string>("name");
 			}
 			internal set
 			{
@@ -160,7 +160,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		{
 			get
 			{
-				return GetValuetypePropertyOrDefault("size");
+				return GetValuetypePropertyOrDefault<ulong>("size");
 			}
 			internal set
 			{
@@ -175,7 +175,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		{
 			get
 			{
-				return GetNullableProperty("type");
+				return GetNullableProperty<string>("type");
 			}
 			internal set
 			{

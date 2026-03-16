@@ -216,7 +216,7 @@ namespace Gizmox.WebGUI.Forms
 		internal override void ConvertFromString(List<object> objVisualTemplateValues)
 		{
 			int result = 0;
-			if (objVisualTemplateValues.Count == 1 && int.TryParse(objVisualTemplateValues[0], out result) && Enum.IsDefined(typeof(NativeDateTimePickerVisualTemplateFormat), result))
+			if (objVisualTemplateValues.Count == 1 && int.TryParse(objVisualTemplateValues[0] as string, out result) && Enum.IsDefined(typeof(NativeDateTimePickerVisualTemplateFormat), result))
 			{
 				menmNativeDateTimePickerVisualTemplateFormat = (NativeDateTimePickerVisualTemplateFormat)result;
 			}

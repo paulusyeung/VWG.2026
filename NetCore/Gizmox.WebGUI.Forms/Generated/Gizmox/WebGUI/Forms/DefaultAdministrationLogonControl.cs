@@ -424,7 +424,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the status.
 		/// </summary>
 		/// </returns>
-		public override List<object> GetStatus()
+		public override List<Gizmox.WebGUI.Forms.Administration.Abstract.StatusData> GetStatus()
 		{
 			return null;
 		}

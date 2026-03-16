@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -145,7 +145,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the AppearanceChanged event.
 		/// </summary>
-		private EventHandler AppearanceChangedHandler => (EventHandler)GetHandler(AppearanceChanged);
+		private EventHandler AppearanceChangedHandler => (EventHandler)GetHandler(AppearanceChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the CheckedChanged event.
@@ -583,7 +583,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static RadioButton()
 		{
-			AppearanceChanged = SerializableEvent.Register("AppearanceChanged", typeof(EventHandler), typeof(RadioButton));
+			AppearanceChangedEvent = SerializableEvent.Register("AppearanceChanged", typeof(EventHandler), typeof(RadioButton));
 			CheckedChangedEvent = SerializableEvent.Register("CheckedChanged", typeof(EventHandler), typeof(RadioButton));
 		}
 	}

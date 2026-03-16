@@ -176,7 +176,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="strMessage">The STR message.</param>
 		public void Alert(string strMessage)
 		{
-			Alert(strMessage, null, mobjAlertStore.StoreSingleCallMethod("alert", GetNullAction()));
+			Alert(strMessage, null, mobjAlertStore.StoreSingleCallMethod("alert", GetNullAction<EmptyDeviceEventArgs>()));
 		}
 
 		/// 
@@ -213,7 +213,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="strMessage">The STR message.</param>
 		public void Confirm(string strMessage)
 		{
-			Confirm(strMessage, null, GetNullAction());
+			Confirm(strMessage, null, GetNullAction<ConfirmEventArgs>());
 		}
 
 		/// 
@@ -251,7 +251,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="intTimes">The int times.</param>
 		public void Beep(int intTimes)
 		{
-			Beep(intTimes, GetNullAction());
+			Beep(intTimes, GetNullAction<EmptyDeviceEventArgs>());
 		}
 
 		/// 
@@ -286,7 +286,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="intDuirationInMilliseconds">The int duiration in milliseconds.</param>
 		public void Vibrate(int intDuirationInMilliseconds)
 		{
-			Vibrate(intDuirationInMilliseconds, GetNullAction());
+			Vibrate(intDuirationInMilliseconds, GetNullAction<EmptyDeviceEventArgs>());
 		}
 
 		/// 
@@ -338,7 +338,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// This method is used just for preventing conflicting between overload methods.
 		/// </summary>
-		private Action<EmptyDeviceEventArgs> GetNullAction()
+		private Action<T> GetNullAction<T>()
 		{
 			return null;
 		}

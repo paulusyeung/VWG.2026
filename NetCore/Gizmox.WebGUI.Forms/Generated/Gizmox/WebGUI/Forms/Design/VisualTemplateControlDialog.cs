@@ -162,7 +162,7 @@ namespace Gizmox.WebGUI.Forms.Design
 				{
 					return;
 				}
-				List controlVisualTemplateTypes = visualTemplateControlDialog.GetControlVisualTemplateTypes();
+				List<Type> controlVisualTemplateTypes = visualTemplateControlDialog.GetControlVisualTemplateTypes();
 				VisualTemplate visualTemplate = visualTemplateControlDialog.VisualTemplate;
 				ImageList imageList = new ImageList();
 				ListViewItem listViewItem = new ListViewItem();
@@ -482,7 +482,7 @@ namespace Gizmox.WebGUI.Forms.Design
 		/// Gets the control visual template types.
 		/// </summary>
 		/// </returns>
-		private List<object> GetControlVisualTemplateTypes()
+		private List<Type> GetControlVisualTemplateTypes()
 		{
 			return mobjVisualTemplateService.GetVisualTemplates(mobjControlType);
 		}

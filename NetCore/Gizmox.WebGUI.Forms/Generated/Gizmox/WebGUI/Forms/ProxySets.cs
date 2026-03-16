@@ -104,7 +104,7 @@ namespace Gizmox.WebGUI.Forms
 	///
 	/// </summary>
 	[Serializable]
-	public class ProxySets :List<ProxySet>
+	public class ProxySets : List<ProxySet>
 	{
 		/// 
 		/// Initializes a new instance of the <see cref="T:Gizmox.WebGUI.Forms.ProxySets" /> class.

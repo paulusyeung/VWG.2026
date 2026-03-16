@@ -1669,7 +1669,7 @@ namespace Gizmox.WebGUI.Forms.Layout
 
 		internal static ContainerInfo GetContainerInfo(IArrangedElement objContainer)
 		{
-			ContainerInfo containerInfo = objContainer.GetValue(Control.ContainerInfoProperty);
+			ContainerInfo containerInfo = objContainer.GetValue<ContainerInfo>(Control.ContainerInfoProperty);
 			if (containerInfo == null)
 			{
 				containerInfo = new ContainerInfo(objContainer);
@@ -1710,7 +1710,7 @@ namespace Gizmox.WebGUI.Forms.Layout
 
 		internal static LayoutInfo GetLayoutInfo(IArrangedElement objElement)
 		{
-			LayoutInfo layoutInfo = objElement.GetValue(Control.LayoutInfoProperty);
+			LayoutInfo layoutInfo = objElement.GetValue<LayoutInfo>(Control.LayoutInfoProperty);
 			if (layoutInfo == null)
 			{
 				layoutInfo = new LayoutInfo(objElement);

@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -567,7 +567,7 @@ namespace Gizmox.WebGUI.Forms
 			/// 
 			///
 			/// </summary>
-			private List<object> mobjGroupedItems = null;
+			private List<ListViewItem> mobjGroupedItems = null;
 
 			/// 
 			/// Gets the count.
@@ -727,8 +727,8 @@ namespace Gizmox.WebGUI.Forms
 				{
 					return;
 				}
-				mobjGroupedItems = new List<object>();
-				List<object> list = new List<object><object>();
+				mobjGroupedItems = new List<ListViewItem>();
+				List<ListViewGroup> list = new List<ListViewGroup>();
 				list.Add(null);
 				if (ListView == null)
 				{
@@ -2679,7 +2679,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// The list view Column Reordered Serializable Event
 		/// </summary>
-		private static readonly SerializableEvent EventColumnReordered = SerializableEvent.Register("Event", typeof(Delegate), typeof(ListView));
+		private static readonly SerializableEvent EventColumnReorderedEvent = SerializableEvent.Register("Event", typeof(Delegate), typeof(ListView));
 
 		/// 
 		/// The SelectedIndexChanged event registration.
@@ -2722,7 +2722,7 @@ namespace Gizmox.WebGUI.Forms
 		/// the original item sorting
 		/// </summary>
 		[NonSerialized]
-		private List<object> mobjOriginalItemSorting;
+		private List<ListViewItem> mobjOriginalItemSorting;
 
 		/// 
 		/// The group collection
@@ -2738,17 +2738,17 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the SelectedIndexChanged event.
 		/// </summary>
-		private EventHandler SelectedIndexChangedHandler => (EventHandler)GetHandler(SelectedIndexChanged);
+		private EventHandler SelectedIndexChangedHandler => (EventHandler)GetHandler(SelectedIndexChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the ItemCheck event.
 		/// </summary>
-		private ItemCheckHandler ItemCheckHandler => (ItemCheckHandler)GetHandler(ItemCheck);
+		private ItemCheckHandler ItemCheckHandler => (ItemCheckHandler)GetHandler(ItemCheckEvent);
 
 		/// 
 		/// Gets the hanlder for the ColumnWidthChanged event.
 		/// </summary>
-		private ColumnWidthChangedEventHandler ColumnWidthChangedHandler => (ColumnWidthChangedEventHandler)GetHandler(ColumnWidthChanged);
+		private ColumnWidthChangedEventHandler ColumnWidthChangedHandler => (ColumnWidthChangedEventHandler)GetHandler(ColumnWidthChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the AfterLabelEdit event.
@@ -2758,7 +2758,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the BeforeLabelEdit event.
 		/// </summary>
-		private LabelEditEventHandler BeforeLabelEditHandler => (LabelEditEventHandler)GetHandler(BeforeLabelEdit);
+		private LabelEditEventHandler BeforeLabelEditHandler => (LabelEditEventHandler)GetHandler(BeforeLabelEditEvent);
 
 		/// 
 		/// Gets or sets a value indicating whether [allow column reorder].
@@ -4167,11 +4167,11 @@ namespace Gizmox.WebGUI.Forms
 		{
 			add
 			{
-				AddHandler(EventColumnReordered, value);
+				AddHandler(EventColumnReorderedEvent, value);
 			}
 			remove
 			{
-				RemoveHandler(EventColumnReordered, value);
+				RemoveHandler(EventColumnReorderedEvent, value);
 			}
 		}
 
@@ -4219,7 +4219,7 @@ namespace Gizmox.WebGUI.Forms
 			SetState(ControlState.AutoScroll, blnValue: true);
 			mobjColumns = new ColumnHeaderCollection(this);
 			mobjItems = new ListViewItemCollection(this);
-			mobjOriginalItemSorting = new List<object>();
+			mobjOriginalItemSorting = new List<ListViewItem>();
 		}
 
 		/// 
@@ -4987,7 +4987,7 @@ namespace Gizmox.WebGUI.Forms
 				if (displayIndex != num5)
 				{
 					ColumnReorderedEventArgs e = new ColumnReorderedEventArgs(displayIndex, num5, Columns[num3]);
-					((ColumnReorderedEventHandler)GetHandler(EventColumnReordered))?.Invoke(this, e);
+					((ColumnReorderedEventHandler)GetHandler(EventColumnReorderedEvent))?.Invoke(this, e);
 					if (!e.Cancel)
 					{
 						Columns[num3].DisplayIndex = num5;
@@ -5167,7 +5167,7 @@ namespace Gizmox.WebGUI.Forms
 					num2 = listViewOrederedItems.Count - 1;
 				}
 			}
-			List<object> list = new List<object><object>(num2 + 1 - num);
+			List<bool> list = new List<bool>(num2 + 1 - num);
 			for (int i = num; i <= num2; i++)
 			{
 				list.Add(listViewOrederedItems[i].InternalChecked);
@@ -6167,7 +6167,7 @@ namespace Gizmox.WebGUI.Forms
 			mobjColumns = new ColumnHeaderCollection(this, objReader.ReadArray());
 			mobjItems = new ListViewItemCollection(this, objReader.ReadArray());
 			mobjGroups = new ListViewGroupCollection(this, objReader.ReadArray());
-			mobjOriginalItemSorting = new List<object>(objReader.ReadArray());
+			mobjOriginalItemSorting = new List<ListViewItem>(objReader.ReadArray<ListViewItem>());
 		}
 
 		/// 
@@ -6262,11 +6262,11 @@ namespace Gizmox.WebGUI.Forms
 
 		static ListView()
 		{
-			SelectedIndexChanged = SerializableEvent.Register("SelectedIndexChanged", typeof(EventHandler), typeof(ListView));
-			ItemCheck = SerializableEvent.Register("ItemCheck", typeof(ItemCheckHandler), typeof(ListView));
-			ColumnWidthChanged = SerializableEvent.Register("ColumnWidthChanged", typeof(ColumnWidthChangedEventHandler), typeof(ListView));
+			SelectedIndexChangedEvent = SerializableEvent.Register("SelectedIndexChanged", typeof(EventHandler), typeof(ListView));
+			ItemCheckEvent = SerializableEvent.Register("ItemCheck", typeof(ItemCheckHandler), typeof(ListView));
+			ColumnWidthChangedEvent = SerializableEvent.Register("ColumnWidthChanged", typeof(ColumnWidthChangedEventHandler), typeof(ListView));
 			AfterLabelEditEvent = SerializableEvent.Register("AfterLabelEdit", typeof(LabelEditEventHandler), typeof(ListView));
-			BeforeLabelEdit = SerializableEvent.Register("BeforeLabelEdit", typeof(LabelEditEventHandler), typeof(ListView));
+			BeforeLabelEditEvent = SerializableEvent.Register("BeforeLabelEdit", typeof(LabelEditEventHandler), typeof(ListView));
 			HeaderAutoResizeStyleProperty = SerializableProperty.Register("HeaderAutoResizeStyle", typeof(ColumnHeaderAutoResizeStyle), typeof(ListView), new SerializablePropertyMetadata(ColumnHeaderAutoResizeStyle.None));
 		}
 	}

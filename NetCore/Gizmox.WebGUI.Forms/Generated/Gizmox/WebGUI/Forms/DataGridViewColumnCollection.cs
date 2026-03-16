@@ -639,7 +639,7 @@ namespace Gizmox.WebGUI.Forms
 				return mintColumnsWidthVisibleFrozen;
 			}
 			int num = 0;
-			for (int i = 0; i <List.Count; i++)
+			for (int i = 0; i < List.Count; i++)
 			{
 				if (((DataGridViewColumn)List[i]).StateIncludes(enmIncludeFilter))
 				{

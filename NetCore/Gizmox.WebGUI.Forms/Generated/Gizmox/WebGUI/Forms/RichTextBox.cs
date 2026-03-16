@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -140,12 +140,12 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the HtmlChanged event.
 		/// </summary>
-		private EventHandler HtmlChangedHandler => (EventHandler)GetHandler(HtmlChanged);
+		private EventHandler HtmlChangedHandler => (EventHandler)GetHandler(HtmlChangedEvent);
 
 		/// 
 		/// Gets the hanlder for the HtmlChangeQueued event.
 		/// </summary>
-		private EventHandler HtmlChangeQueuedHandler => (EventHandler)GetHandler(HtmlChangeQueued);
+		private EventHandler HtmlChangeQueuedHandler => (EventHandler)GetHandler(HtmlChangeQueuedEvent);
 
 		/// 
 		/// Gets or sets a value indicating whether text box is multi line.
@@ -290,11 +290,11 @@ namespace Gizmox.WebGUI.Forms
 		{
 			add
 			{
-				AddCriticalHandler(HtmlChanged, value);
+				AddCriticalHandler(HtmlChangedEvent, value);
 			}
 			remove
 			{
-				RemoveCriticalHandler(HtmlChanged, value);
+				RemoveCriticalHandler(HtmlChangedEvent, value);
 			}
 		}
 
@@ -363,7 +363,7 @@ namespace Gizmox.WebGUI.Forms
 			}
 			if (objFileType == RichTextBoxStreamType.RichText)
 			{
-				IFormatConverter provider = CommonUtils.GetProvider(GetDefaultFormatConverterString(), blnIsCache: true);
+				IFormatConverter provider = CommonUtils.GetProvider<IFormatConverter>(GetDefaultFormatConverterString(), blnIsCache: true);
 				if (provider != null)
 				{
 					HtmlConvertionSettings htmlConvertionSettings = new HtmlConvertionSettings();
@@ -534,7 +534,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			if (!string.IsNullOrEmpty(strValue))
 			{
-				string text = HttpUtility.HtmlDecode(strValue);
+				string text = global::System.Net.WebUtility.HtmlDecode(strValue);
 				string[] array = new string[15]
 				{
 					"&bs;", "<br />", "", "", "<hr />", "</p>", "</td>", "</tr>", "</td>", "<([^<])*>",
@@ -564,7 +564,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			if (!string.IsNullOrEmpty(strValue))
 			{
-				string text = HttpUtility.HtmlEncode(strValue);
+				string text = global::System.Net.WebUtility.HtmlEncode(strValue);
 				text = text.Replace("\r\n", "<br/>");
 				text = text.Replace("\r", "<br/>");
 				text = text.Replace("\n", "<br/>");
@@ -576,8 +576,8 @@ namespace Gizmox.WebGUI.Forms
 
 		static RichTextBox()
 		{
-			HtmlChanged = SerializableEvent.Register("HtmlChanged", typeof(EventHandler), typeof(RichTextBox));
-			HtmlChangeQueued = SerializableEvent.Register("HtmlChangeQueued", typeof(EventHandler), typeof(RichTextBox));
+			HtmlChangedEvent = SerializableEvent.Register("HtmlChanged", typeof(EventHandler), typeof(RichTextBox));
+			HtmlChangeQueuedEvent = SerializableEvent.Register("HtmlChangeQueued", typeof(EventHandler), typeof(RichTextBox));
 		}
 	}
 }

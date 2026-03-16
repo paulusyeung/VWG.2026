@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -1060,7 +1060,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the AfterLabelEdit event.
 		/// </summary>
-		private LabelEditEventHandler AfterLabelEditHandler => (LabelEditEventHandler)GetHandler(AfterLabelEdit);
+		private LabelEditEventHandler AfterLabelEditHandler => (LabelEditEventHandler)GetHandler(AfterLabelEditEvent);
 
 		/// 
 		/// The size of the initiale serialization data array which is the optmized serialization graph.
@@ -2034,7 +2034,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objProcessor">The processor.</param>
 		internal virtual void RenderDirtyItem(IContext objContext, IResponseWriter objWriter, ListView.ItemRenderingProcessor objProcessor, long lngRequestID)
 		{
-			List list = null;
+			List<object> list = null;
 			bool useItemStyleForSubItems = UseItemStyleForSubItems;
 			if (lngRequestID == 0L || objProcessor.View == View.Details)
 			{
@@ -2300,7 +2300,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		protected internal override IList GetComponentOffsprings(string strOffspringTypeName)
 		{
-			List<object> list = new List<object><object>();
+			List<object> list = new List<object>();
 			foreach (ListViewSubItem subItem in SubItems)
 			{
 				if (subItem is ListViewSubControlItem listViewSubControlItem)
@@ -2346,7 +2346,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static ListViewItem()
 		{
-			AfterLabelEdit = SerializableEvent.Register("AfterLabelEdit", typeof(LabelEditEventHandler), typeof(ListViewItem));
+			AfterLabelEditEvent = SerializableEvent.Register("AfterLabelEdit", typeof(LabelEditEventHandler), typeof(ListViewItem));
 		}
 	}
 }

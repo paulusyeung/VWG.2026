@@ -119,7 +119,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the Accelerometer single-call methods store.
 		/// </summary>
-		private SingleCallMethodStore<AccelerometerEventArgs> SingleCallMethodStore<AccelerometerEventArgs>
+		private SingleCallMethodStore<AccelerometerEventArgs> SingleCallMethodStore
 		{
 			get
 			{
@@ -134,7 +134,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the Accelerometer multiple-call method store.
 		/// </summary>
-		private MultipleCallMethodStore<AccelerometerEventArgs> MultipleCallMethodStore<AccelerometerEventArgs>
+		private MultipleCallMethodStore<AccelerometerEventArgs> MultipleCallMethodStore
 		{
 			get
 			{
@@ -153,12 +153,12 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		{
 			add
 			{
-				MultipleCallMethodStore<AccelerometerEventArgs>.AddMultipleCallMethod(value);
+				MultipleCallMethodStore.AddMultipleCallMethod(value);
 				Update();
 			}
 			remove
 			{
-				MultipleCallMethodStore<AccelerometerEventArgs>.RemoveMultipleCallMethod(value);
+				MultipleCallMethodStore.RemoveMultipleCallMethod(value);
 				Update();
 			}
 		}
@@ -178,7 +178,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="objCallback">The obj callback.</param>
 		public void GetCurrentAcceleration(Action<AccelerometerEventArgs> objCallback)
 		{
-			string text = SingleCallMethodStore<AccelerometerEventArgs>.StoreSingleCallMethod(objCallback);
+			string text = SingleCallMethodStore.StoreSingleCallMethod(objCallback);
 			Invoke("DeviceIntegrator.Accelerometer.getCurrentAcceleration", text);
 		}
 
@@ -190,7 +190,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		private AccelerometerEventArgs GetArgumentsFromEvent(IEvent objEvent)
 		{
 			AccelerometerEventArgs objEventArgs = null;
-			if (!DeviceEventArgs.TryGetError(objEvent, out objEventArgs))
+			if (!DeviceEventArgs.TryGetError<AccelerometerEventArgs>(objEvent, out objEventArgs))
 			{
 				string strTimeStamp = string.Empty;
 				string empty = string.Empty;
@@ -221,9 +221,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 				{
 					OnAccelerationChanged(argumentsFromEvent);
 				}
-				else if (!string.IsNullOrEmpty(type) && SingleCallMethodStore<AccelerometerEventArgs>.HasRegisteredMethod(type))
+				else if (!string.IsNullOrEmpty(type) && SingleCallMethodStore.HasRegisteredMethod(type))
 				{
-					SingleCallMethodStore<AccelerometerEventArgs>.InvokeSingleCallMethod(type, argumentsFromEvent);
+					SingleCallMethodStore.InvokeSingleCallMethod(type, argumentsFromEvent);
 				}
 			}
 		}
@@ -234,7 +234,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="objArguments">The <see cref="T:Gizmox.WebGUI.Common.Device.Accelerometer.AccelerometerEventArgs" /> instance containing the event data.</param>
 		private void OnAccelerationChanged(AccelerometerEventArgs objArguments)
 		{
-			MultipleCallMethodStore<AccelerometerEventArgs>.InvokeMultipleCallMethods(objArguments);
+			MultipleCallMethodStore.InvokeMultipleCallMethods(objArguments);
 		}
 
 		/// 
@@ -244,7 +244,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		public override CriticalEventsData GetCriticalEventsData()
 		{
 			CriticalEventsData criticalEventsData = new CriticalEventsData();
-			if (MultipleCallMethodStore<AccelerometerEventArgs>.HasEventListeners())
+			if (MultipleCallMethodStore.HasEventListeners())
 			{
 				criticalEventsData.Set("DAC");
 			}

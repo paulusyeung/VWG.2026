@@ -144,11 +144,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		{
 			get
 			{
-				return GetNullableProperty("name");
+				return GetNullableProperty<string>("name");
 			}
 			set
 			{
-				SetNullableProperty("name", value);
+				SetNullableProperty<string>("name", value);
 			}
 		}
 
@@ -162,11 +162,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.FileManagement
 		{
 			get
 			{
-				return GetNullableProperty("root");
+				return (IDirectoryEntry)GetNullableProperty<DirectoryEntry>("root");
 			}
 			set
 			{
-				SetNullableProperty("root", value);
+				SetNullableProperty<IDirectoryEntry>("root", value);
 			}
 		}
 

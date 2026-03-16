@@ -111,10 +111,6 @@ namespace Gizmox.WebGUI.Forms
 	[ClientController("Gizmox.WebGUI.Client.Controllers.ToolStripItemController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]
 	public abstract class ToolStripItem : Component, IDropTarget, IArrangedElement, IComponent, IDisposable, IRegisteredComponentMember, IEventHandler, ISkinable
 	{
-        // Explicit IArrangedElement implementations (CS0737 fix - SerializableObject.GetValue/SetValue are not public)
-        T IArrangedElement.GetValue<T>(Gizmox.WebGUI.Common.Interfaces.SerializableProperty key) => GetValue<T>(key);
-        void IArrangedElement.SetValue<T>(Gizmox.WebGUI.Common.Interfaces.SerializableProperty key, T value) => SetValue(key, value);
-
 		private static readonly SerializableProperty mobjParentProperty = SerializableProperty.Register("mobjParent", typeof(ToolStrip), typeof(ToolStripItem));
 
 		private static readonly SerializableProperty mobjOwnerProperty = SerializableProperty.Register("mobjOwner", typeof(ToolStrip), typeof(ToolStripItem));

@@ -287,7 +287,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			if (strPropertyName == "TabPages")
 			{
-				List<object> list = new List<object><object>();
+				List<object> list = new List<object>();
 				foreach (ProxyTabPage item2 in (IEnumerable)TabPages)
 				{
 					if (item2.SourceComponent is TabPage item)

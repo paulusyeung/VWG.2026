@@ -305,7 +305,7 @@ namespace Gizmox.WebGUI.Forms
 				ListViewVisualTemplate listViewVisualTemplate = new ListViewVisualTemplate();
 				listViewVisualTemplate.ListViewVisualTemplateGroupingStyle = ListViewVisualTemplateGroupingStyleEnum.AlphabetGrouping;
 				StringBuilder stringBuilder = new StringBuilder();
-				List<object> list = new List<object><object>();
+				List<object> list = new List<object>();
 				foreach (ColumnHeader sortingColumn in listView.SortingColumns)
 				{
 					if (sortingColumn.Type == ListViewColumnType.Number || sortingColumn.Type == ListViewColumnType.Text || sortingColumn.Type == ListViewColumnType.Date)
@@ -347,7 +347,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			int result = 0;
 			int result2 = 0;
-			if (objVisualTemplateValues.Count == 4 && int.TryParse(objVisualTemplateValues[0], out result) && int.TryParse(objVisualTemplateValues[1], out result2))
+			if (objVisualTemplateValues.Count == 4 && int.TryParse(objVisualTemplateValues[0]?.ToString(), out result) && int.TryParse(objVisualTemplateValues[1]?.ToString(), out result2))
 			{
 				if (Enum.IsDefined(typeof(ListViewVisualTemplateGroupingStyleEnum), result))
 				{
@@ -357,17 +357,17 @@ namespace Gizmox.WebGUI.Forms
 				{
 					menmListViewVisualTemplateRowTemplateEnum = (ListViewVisualTemplateRowTemplateEnum)result2;
 				}
-				if (!string.IsNullOrEmpty(objVisualTemplateValues[2]))
+				if (!string.IsNullOrEmpty(objVisualTemplateValues[2]?.ToString()))
 				{
-					mstrListViewVisualTemplateRowCustomStyleName = objVisualTemplateValues[2];
+					mstrListViewVisualTemplateRowCustomStyleName = objVisualTemplateValues[2]?.ToString();
 				}
 				else
 				{
 					mstrListViewVisualTemplateRowCustomStyleName = string.Empty;
 				}
-				if (!string.IsNullOrEmpty(objVisualTemplateValues[3]))
+				if (!string.IsNullOrEmpty(objVisualTemplateValues[3]?.ToString()))
 				{
-					mstrColumnNumberNewOrder = objVisualTemplateValues[3].Replace('~', '|');
+					mstrColumnNumberNewOrder = objVisualTemplateValues[3]!.ToString()!.Replace('~', '|');
 				}
 				else
 				{

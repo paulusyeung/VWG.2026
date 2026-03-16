@@ -114,7 +114,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the Connection single-call methods store.
 		/// </summary>
-		private SingleCallMethodStore<EventArgs> SingleCallMethodStore<ConnectionEventArgs>
+		private SingleCallMethodStore<ConnectionEventArgs> SingleCallMethodStore
 		{
 			get
 			{
@@ -152,7 +152,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		private ConnectionEventArgs GetArgumentsFromEvent(IEvent objEvent)
 		{
 			ConnectionEventArgs objEventArgs = null;
-			if (!DeviceEventArgs.TryGetError(objEvent, out objEventArgs) && objEvent["NetworkState"] != null)
+			if (!DeviceEventArgs.TryGetError<ConnectionEventArgs>(objEvent, out objEventArgs) && objEvent["NetworkState"] != null)
 			{
 				objEventArgs = new ConnectionEventArgs(objEvent["NetworkState"].ToString());
 			}
@@ -174,9 +174,9 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 			base.FireEvent(objEvent);
 			string type = objEvent.Type;
 			ConnectionEventArgs argumentsFromEvent = GetArgumentsFromEvent(objEvent);
-			if (argumentsFromEvent != null && !string.IsNullOrEmpty(type) && SingleCallMethodStore<ConnectionEventArgs>.HasRegisteredMethod(type))
+			if (argumentsFromEvent != null && !string.IsNullOrEmpty(type) && SingleCallMethodStore.HasRegisteredMethod(type))
 			{
-				SingleCallMethodStore<ConnectionEventArgs>.InvokeSingleCallMethod(type, argumentsFromEvent);
+				SingleCallMethodStore.InvokeSingleCallMethod(type, argumentsFromEvent);
 			}
 		}
 
@@ -186,7 +186,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="objCallback">The obj callback.</param>
 		public void GetConnection(Action<ConnectionEventArgs> objCallback)
 		{
-			string text = SingleCallMethodStore<ConnectionEventArgs>.StoreSingleCallMethod(objCallback);
+			string text = SingleCallMethodStore.StoreSingleCallMethod(objCallback);
 			Invoke("DeviceIntegrator.Connection.getConnection", text);
 		}
 	}

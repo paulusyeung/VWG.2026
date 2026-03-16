@@ -217,7 +217,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		private void PopulateTabs()
 		{
-			List supportedAdministrationContent = GetSupportedAdministrationContent();
+			List<AdministrationContent> supportedAdministrationContent = GetSupportedAdministrationContent();
 			supportedAdministrationContent.Sort(new AdministrationContent.AdministrationContentSorter());
 			foreach (AdministrationContent item in supportedAdministrationContent)
 			{
@@ -230,10 +230,10 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the content of the supported administration.
 		/// </summary>
 		/// </returns>
-		private List<object> GetSupportedAdministrationContent()
+		private List<AdministrationContent> GetSupportedAdministrationContent()
 		{
-			List<object> list = new List<object><object>();
-			List administrationContentTypesList = GetAdministrationContentTypesList();
+			List<AdministrationContent> list = new List<AdministrationContent>();
+			List<Type> administrationContentTypesList = GetAdministrationContentTypesList();
 			foreach (Type item2 in administrationContentTypesList)
 			{
 				if (item2 != null && Activator.CreateInstance(item2) is AdministrationContent item)
@@ -248,9 +248,9 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the administration content types list.
 		/// </summary>
 		/// </returns>
-		private List<object> GetAdministrationContentTypesList()
+		private List<Type> GetAdministrationContentTypesList()
 		{
-			List<object> list = new List<object><object>();
+			List<Type> list = new List<Type>();
 			Type[] types = GetType().Assembly.GetTypes();
 			foreach (Type type in types)
 			{
@@ -310,7 +310,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the status.
 		/// </summary>
 		/// </returns>
-		public override List<object> GetStatus()
+		public override List<Gizmox.WebGUI.Forms.Administration.Abstract.StatusData> GetStatus()
 		{
 			if (mobjAdministrationTabs.SelectedTab is AdministrationTabPage administrationTabPage)
 			{

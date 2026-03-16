@@ -123,7 +123,7 @@ namespace Gizmox.WebGUI.Forms.Administration
 		/// 
 		/// The mobj status data
 		/// </summary>
-		private List<object> mobjStatusData;
+		private List<StatusData> mobjStatusData;
 
 		/// 
 		/// Gets or sets a value indicating whether [full screen].
@@ -167,7 +167,7 @@ namespace Gizmox.WebGUI.Forms.Administration
 		/// 
 		/// The status data.
 		/// </value>
-		public List<object> StatusData
+		public List<StatusData> StatusData
 		{
 			get
 			{

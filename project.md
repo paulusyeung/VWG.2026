@@ -1,7 +1,7 @@
 # Gizmox.WebGUI .NET Framework → .NET 8 LTS Migration Project
 
 **Project Start Date:** March 2026  
-**Current Status:** In Progress – API Compatibility Phase  
+**Current Status:** In Progress – API Compatibility & Hardening Phase  
 **Target Framework:** .NET 8 LTS (supported until November 2026+)
 
 ---
@@ -192,7 +192,7 @@ Created files targeting `.NET 8.0-windows` (required for System.Drawing):
 
 ---
 
-### Phase 4: Initial Build & Error Analysis (In Progress)
+### Phase 4: Initial Build & Error Analysis (Completed Phase 4a)
 
 #### Build Attempt 1: `Gizmox.WebGUI.Common`
 - **Command:** `dotnet build -c Release`
@@ -263,78 +263,53 @@ c:\Projects\VWG\NetCore\Gizmox.WebGUI.Common\
 
 ---
 
+### Phase 4e: Hardening & Production Preparation (March 2026 – In Progress)
+
+#### CI/CD & Automation
+- **GitHub Actions** – Added `dotnet-test.yml` for automated builds and testing.
+- **Playwright Integration** – Added E2E tests for `BlazorPilot`.
+- **Quality Gates** – Integrated `dotnet format` and vulnerability scanning.
+
+#### Containerization
+- **Docker** – Added `Dockerfile` for `Gizmox.WebGUI.BlazorPilot`.
+- **Registry** – Configured publishing to GitHub Container Registry (GHCR).
+
+#### BlazorPilot Project
+- **Pilot App** – Created `Gizmox.WebGUI.BlazorPilot` as a modern host for Gizmox components.
+- **Status** – Serving as the integration point for hardening and testing.
+
+---
+
 ## 4. What Remains Unresolved
 
 ### Critical Blockers (Must Fix Before Build Success)
 
-**Note:** Phase 4b added comprehensive System.Web shims (see §3 Phase 4b). The following items may still need fixes or refinements.
+**Note:** Phase 4b added comprehensive System.Web shims. However, downstream libraries remain blocked by significant issues.
 
 #### 4.1 System.Web HTTP Runtime
-**Status:** ✅ Shims created. May need additional members as errors surface.
-**Originally Missing Types (now stubbed):**
-- `HttpContext` (current request context)
-- `HttpRequest`, `HttpResponse` (request/response objects)
-- `HttpApplication`, `HttpApplicationState` (app-level state store)
-- `HttpCookie`, `HttpCookieCollection` (cookie management)
-- `HttpPostedFile`, `HttpFileCollection` (file upload)
-- `HttpServerUtility` (URL encoding, HTML encode utilities)
-- `HttpCachePolicy`, `HttpCacheRevalidation` (response caching)
-- `HttpCacheability` enum (public/private/no-cache directives)
-
-**Impact:** Core HTTP request/response handling; any HTTP handler or code accessing `HttpContext.Current` will fail.
-
-**Typical Patterns Found:**
-```csharp
-// Framework code:
-public HttpContext CurrentContext { get; }  // Can't resolve HttpContext type
-
-// Would need to become:
-public Microsoft.AspNetCore.Http.HttpContext CurrentContext { get; }  // Different API surface
-```
-
-**Migration Strategy:**
-- Option A: Create thin wrapper classes matching expected interface (immediate compile, runtime failures likely).
-- Option B: Refactor code to use ASP.NET Core abstractions (`IHttpContextAccessor`, `HttpContext` from `Microsoft.AspNetCore.Http`).
-- Option C: Stub types that raise `NotImplementedException` (deferred migration).
+**Status:** ✅ Shims created and verified in `Common` integration tests.
 
 ---
 
-#### 4.2 System.Web.UI (WebForms Controls & Rendering)
-**Status:** ✅ Minimal shims (HtmlTextWriter, Control). Full WebControl/Page/UserControl not implemented.
-**Missing/Stubbed Types:**
-- `HtmlTextWriter` (output rendering pipeline)
-- `Control`, `WebControl` (base form control)
-- `Page`, `UserControl` (WebForms page lifecycle)
-- All built-in controls (`Button`, `TextBox`, `GridView`, etc.)
-- `IHttpHandler`, `IRequiresSessionState` (WebForms interfaces)
-
-**Impact:** If code inherits from WebForms controls or uses `HtmlTextWriter`, **full rewrite to Blazor/Razor Pages is needed**.
-
-**Current Finding:** Decompiled code includes WebForms attributes and references, indicating the library provides or consumes WebForms infrastructure.
+#### 4.2 Gizmox.WebGUI.Forms Syntax Errors
+**Status:** ❌ Blocked (172 Errors).
+**Issue:** The splitter process introduced syntax errors in generated code:
+- Invalid generic constructs: `List<object><object>`.
+- Invalid expression terms: `new List<object>()object`.
+- These errors prevent `Forms` from building, which in turn blocks `Client`.
 
 ---
 
-#### 4.3 Design-Time Attributes & Type Editors
-**Missing Types:**
-- `UITypeEditor` (property grid editor plugins)
-- `ToolboxBitmapAttribute` (VS toolbox display metadata)
-- `ToolboxItem` (component design support)
-- Various System.ComponentModel.Design.* types
-
-**Impact:** Design-time UI is obsolete in .NET Core; attributes become dead code, but presence causes compilation errors.
-
-**Solution:** Comment out or remove attribute declarations and method signatures.
+#### 4.3 Gizmox.WebGUI.Server Compatibility
+**Status:** ❌ Blocked.
+**Issue:** `Server` project targets `net8.0` but depends on `Common` which targets `net8.0-windows7.0` (for System.Drawing).
+**Solution:** Align TFM of `Server` to `net8.0-windows`.
 
 ---
 
-#### 4.4 Code Access Security (CAS)
-**Status:** ✅ Addressed – wrapped SecurityManager/SecurityPermission in try-catch; NoWarn for SYSLIB0003.
-**Remaining:** UIPermission attributes may still warn; suppress if needed.
-
----
-
-#### 4.5 Assembly Metadata Conflicts
-**Status:** ✅ Fixed – decompiled assembly attributes removed; SDK auto-generates them.
+#### 4.4 Gizmox.WebGUI.Converters Missing Packages
+**Status:** ❌ Blocked.
+**Issue:** Missing `Itenso.Rtf` NuGet packages in the environment.
 
 ---
 
@@ -447,16 +422,19 @@ cd Gizmox.WebGUI.Client/Splitter && dotnet run -c Release
 | **Build (Common)** | ✅ Complete | 0 errors. Project successfully builds on .NET 8. |
 | **Client Split** | ✅ Complete | 157 types in Generated\; csproj updated |
 | **Forms Split** | ✅ Complete | 1125 types in Generated\; splitter improved with ILSpy cleanup |
-| **Build (Forms)** | ⏳ In Progress | Splitter fixes applied; some errors remain (Device interfaces, SingleCallMethodStore type args) |
-| **Build (Client)** | ⏳ Blocked | Depends on Forms |
-| **Build (Converters, Server)** | ⏳ Queued | |
+| **Build (Forms)** | ❌ Blocked | 172 syntax errors in generated code |
+| **Build (Client)** | ❌ Blocked | Depends on Forms |
+| **Build (Converters)** | ❌ Blocked | Missing NuGet packages |
+| **Build (Server)** | ❌ Blocked | TFM mismatch (net8.0 vs net8.0-windows) |
+| **Hardening** | [/] In Progress | CI/CD, Playwright, Docker, BlazorPilot |
 
 ### Checkpoints Achieved
 1. ✅ **Legal/Licensing Clearance** – Decompilation justified by statutory interoperability exceptions.
 2. ✅ **Technical Feasibility** – Decompilation works; code is clean and recompileable.
 3. ✅ **Project Scaffolding** – SDK-style projects exist and can be iterated on.
 4. ✅ **System.Web Shims** – Comprehensive stub layer created and refined to resolve API incompatibilities.
-5. ✅ **Compilation Phase (Common)** – `Gizmox.WebGUI.Common` successfully builds with 0 errors.
+5. ✅ **Compilation Phase (Common)** – `Gizmox.WebGUI.Common` successfully builds and passes tests.
+6. ✅ **Phase 4 Hardening Start** – CI/CD, Playwright, and Docker infrastructure established.
 
 ### What Works
 - Projects restore successfully (NuGet packages download correctly).
@@ -475,16 +453,16 @@ cd Gizmox.WebGUI.Client/Splitter && dotnet run -c Release
 
 ### Immediate Actions (Next 1–2 iterations)
 
-### Immediate Actions (Next 1–2 iterations)
+#### Step 1: Fix Forms Splitter Syntax Errors
+**Goal:** Resolve the 172 syntax errors that block `Forms` and `Client`.
+**Process:**
+1. Identify specific patterns in `Splitter_Forms` that generate `List<object><object>` and similar invalid constructs.
+2. Update the splitter script to produce clean C# syntax.
+3. Re-run splitter and verify `Forms` build.
 
-#### Step 1: Split Remaining Monolithic Files
-**Goal:** We successfully split `Gizmox.WebGUI.Common.decompiled.cs` into 689 individual files! This strategy should be replicated for the remaining 4 libraries.
-
-**Approach:**
-1. Use the Roslyn `Splitter` script we wrote to parse the remaining `*.decompiled.cs` files (Client, Forms, etc.).
-2. The script extracts all namespace declarations and class definitions and correctly creates a managed folder structure.
-
-**Benefit:** Makes targeted fixes, code navigation, and future refactoring significantly easier.
+#### Step 2: Resolve Project Configuration Issues
+1. Update `Gizmox.WebGUI.Server.csproj` to target `net8.0-windows`.
+2. Locate and add `Itenso.Rtf` packages for `Converters`.
 
 ---
 
@@ -658,7 +636,7 @@ Converters:  177 lines     (RTF→HTML utility, simplest)
 ## 10. Contact & Escalation
 
 **Project Owner:** [User Name]  
-**Last Updated:** March 6, 2026  
+**Last Updated:** March 15, 2026  
 **Next Review:** After Forms builds; then Client, Converters, Server
 
 **Open Questions for Clarification:**

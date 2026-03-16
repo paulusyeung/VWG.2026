@@ -156,7 +156,7 @@ namespace Gizmox.WebGUI.Forms
 		private PropertyDescriptorCollection GetCustomProperties(Attribute[] attributes)
 		{
 			PropertyDescriptorCollection properties = TypeDescriptor.GetProperties(this, attributes, noCustomTypeDesc: true);
-			List<object> list = new List<object><object>();
+			List<PropertyDescriptor> list = new List<PropertyDescriptor>();
 			foreach (PropertyDescriptor item in properties)
 			{
 				bool flag = true;

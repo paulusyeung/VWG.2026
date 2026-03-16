@@ -1031,7 +1031,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </returns>
 		protected virtual PropertyDescriptorCollection GetProxyComponentProperties(Attribute[] arrAttributes)
 		{
-			List<object> list = new List<object><object>();
+			List<PropertyDescriptor> list = new List<PropertyDescriptor>();
 			Component sourceComponent = SourceComponent;
 			if (sourceComponent != null)
 			{

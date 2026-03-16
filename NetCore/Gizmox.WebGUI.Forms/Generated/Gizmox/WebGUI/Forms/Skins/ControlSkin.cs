@@ -144,7 +144,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		{
 			get
 			{
-				return GetValue("VisualEffect", null);
+				return GetValue<VisualEffectValue>("VisualEffect", null);
 			}
 			set
 			{

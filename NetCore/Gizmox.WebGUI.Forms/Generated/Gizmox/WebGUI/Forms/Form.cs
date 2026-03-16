@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -2122,17 +2122,17 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the ObservableItemInserted event.
 		/// </summary>
-		private ObservableListEventHandler ObservableItemInsertedHandler => (ObservableListEventHandler)GetHandler(ObservableItemInserted);
+		private ObservableListEventHandler ObservableItemInsertedHandler => (ObservableListEventHandler)GetHandler(ObservableItemInsertedEvent);
 
 		/// 
 		/// Gets the hanlder for the ObservableItemRemoved event.
 		/// </summary>
-		private ObservableListEventHandler ObservableItemRemovedHandler => (ObservableListEventHandler)GetHandler(ObservableItemRemoved);
+		private ObservableListEventHandler ObservableItemRemovedHandler => (ObservableListEventHandler)GetHandler(ObservableItemRemovedEvent);
 
 		/// 
 		/// Gets the hanlder for the ObservableListCleared event.
 		/// </summary>
-		private EventHandler ObservableListClearedHandler => (EventHandler)GetHandler(ObservableListCleared);
+		private EventHandler ObservableListClearedHandler => (EventHandler)GetHandler(ObservableListClearedEvent);
 
 		IProxyForm IFormParams.ProxyForm
 		{
@@ -3506,7 +3506,7 @@ namespace Gizmox.WebGUI.Forms
 			Type type = Type.GetType(strOffspringTypeName);
 			if (type != null && CommonUtils.IsTypeOrSubType(type, typeof(MainMenu)))
 			{
-				List<object> list = new List<object><object>();
+				List<object> list = new List<object>();
 				list.Add(Menu);
 				return list;
 			}
@@ -4895,20 +4895,20 @@ namespace Gizmox.WebGUI.Forms
 
 		static Form()
 		{
-			Load = SerializableEvent.Register("Load", typeof(EventHandler), typeof(Form));
-			Closed = SerializableEvent.Register("Closed", typeof(EventHandler), typeof(Form));
-			Closing = SerializableEvent.Register("Closing", typeof(CancelEventHandler), typeof(Form));
-			FormClosing = SerializableEvent.Register("FormClosing", typeof(FormClosingEventHandler), typeof(Form));
-			FormClosed = SerializableEvent.Register("FormClosed", typeof(FormClosedEventHandler), typeof(Form));
-			Activated = SerializableEvent.Register("Activated", typeof(EventHandler), typeof(Form));
-			Deactivate = SerializableEvent.Register("Deactivate", typeof(EventHandler), typeof(Form));
-			OrientationChanged = SerializableEvent.Register("OrientationChange", typeof(OrientationChangedEventHandler), typeof(Form));
+			LoadEvent = SerializableEvent.Register("Load", typeof(EventHandler), typeof(Form));
+			ClosedEvent = SerializableEvent.Register("Closed", typeof(EventHandler), typeof(Form));
+			ClosingEvent = SerializableEvent.Register("Closing", typeof(CancelEventHandler), typeof(Form));
+			FormClosingEvent = SerializableEvent.Register("FormClosing", typeof(FormClosingEventHandler), typeof(Form));
+			FormClosedEvent = SerializableEvent.Register("FormClosed", typeof(FormClosedEventHandler), typeof(Form));
+			ActivatedEvent = SerializableEvent.Register("Activated", typeof(EventHandler), typeof(Form));
+			DeactivateEvent = SerializableEvent.Register("Deactivate", typeof(EventHandler), typeof(Form));
+			OrientationChangedEvent = SerializableEvent.Register("OrientationChange", typeof(OrientationChangedEventHandler), typeof(Form));
 			GeographicLocationChangedEvent = SerializableEvent.Register("GeographicLocationChanged", typeof(GeographicLocationChangedEventHandler), typeof(Form));
 			ModalMaskProperty = SerializableProperty.Register("ModalMask", typeof(bool), typeof(Form), new SerializablePropertyMetadata(true));
-			ObservableItemAdded = SerializableEvent.Register("ObservableItemAdded", typeof(ObservableListEventHandler), typeof(Form));
-			ObservableItemInserted = SerializableEvent.Register("ObservableItemInserted", typeof(ObservableListEventHandler), typeof(Form));
-			ObservableItemRemoved = SerializableEvent.Register("ObservableItemRemoved", typeof(ObservableListEventHandler), typeof(Form));
-			ObservableListCleared = SerializableEvent.Register("ObservableListCleared", typeof(EventHandler), typeof(Form));
+			ObservableItemAddedEvent = SerializableEvent.Register("ObservableItemAdded", typeof(ObservableListEventHandler), typeof(Form));
+			ObservableItemInsertedEvent = SerializableEvent.Register("ObservableItemInserted", typeof(ObservableListEventHandler), typeof(Form));
+			ObservableItemRemovedEvent = SerializableEvent.Register("ObservableItemRemoved", typeof(ObservableListEventHandler), typeof(Form));
+			ObservableListClearedEvent = SerializableEvent.Register("ObservableListCleared", typeof(EventHandler), typeof(Form));
 		}
 	}
 }

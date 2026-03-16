@@ -209,13 +209,13 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.CaptureComponents
 					string text = objEvent["cap" + i];
 					if (!string.IsNullOrEmpty(text))
 					{
-						JObject jObject = JsonUtils.Deserialize(text);
+						JObject jObject = JsonUtils.Deserialize<JObject>(text);
 						MediaFile mediaFile = new MediaFile(objCaptureComponent);
-						mediaFile.Name = jObject.Value("name");
-						mediaFile.FullPath = jObject.Value("fullPath");
-						mediaFile.Type = jObject.Value("type");
-						mediaFile.LastModifiedDate = jObject.Value("lastModifiedDate");
-						mediaFile.Size = jObject.Value("size");
+						mediaFile.Name = jObject.Value<string>("name");
+						mediaFile.FullPath = jObject.Value<string>("fullPath");
+						mediaFile.Type = jObject.Value<string>("type");
+						mediaFile.LastModifiedDate = jObject.Value<DateTime>("lastModifiedDate");
+						mediaFile.Size = jObject.Value<ulong>("size");
 						array[i] = mediaFile;
 					}
 				}

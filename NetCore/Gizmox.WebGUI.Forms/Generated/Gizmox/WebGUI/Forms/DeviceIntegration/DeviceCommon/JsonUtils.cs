@@ -111,7 +111,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.DeviceCommon
 		/// </returns>
 		public static T Deserialize<T>(string strJSON)
 		{
-			return JsonConvert.DeserializeObject(strJSON);
+			return JsonConvert.DeserializeObject<T>(strJSON);
 		}
 
 		/// 

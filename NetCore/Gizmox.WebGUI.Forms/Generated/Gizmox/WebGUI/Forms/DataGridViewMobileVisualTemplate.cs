@@ -120,7 +120,7 @@ namespace Gizmox.WebGUI.Forms
 
 		private int? mintCalculatedBottomMenuHeight = null;
 
-		private List<object> mobjFilterOperators = null;
+		private List<string> mobjFilterOperators = null;
 
 		/// 
 		/// Gets or sets the new column order.
@@ -264,8 +264,8 @@ namespace Gizmox.WebGUI.Forms
 				{
 					break;
 				}
-				List filterComparisonOperator = DataGridViewFilterCell.DataGridViewFilterControl.GetFilterComparisonOperator(dataGridViewFilterCell.OwningColumn.ValueType);
-				mobjFilterOperators = new List<object>();
+				List<FilterComparisonOperator> filterComparisonOperator = DataGridViewFilterCell.DataGridViewFilterControl.GetFilterComparisonOperator(dataGridViewFilterCell.OwningColumn.ValueType);
+				mobjFilterOperators = new List<string>();
 				{
 					foreach (FilterComparisonOperator item in filterComparisonOperator)
 					{
@@ -279,7 +279,7 @@ namespace Gizmox.WebGUI.Forms
 				{
 					DataGridViewFilterRow filterRow2 = dataGridView.FilterRow;
 					DataGridViewFilterCell dataGridViewFilterCell2 = filterRow2.Cells[memberPosition.X] as DataGridViewFilterCell;
-					List filterComparisonOperator2 = DataGridViewFilterCell.DataGridViewFilterControl.GetFilterComparisonOperator(dataGridViewFilterCell2.OwningColumn.ValueType);
+					List<FilterComparisonOperator> filterComparisonOperator2 = DataGridViewFilterCell.DataGridViewFilterControl.GetFilterComparisonOperator(dataGridViewFilterCell2.OwningColumn.ValueType);
 					string s = objEvent["VLB"];
 					if (int.TryParse(s, out var result) && result < filterComparisonOperator2.Count)
 					{

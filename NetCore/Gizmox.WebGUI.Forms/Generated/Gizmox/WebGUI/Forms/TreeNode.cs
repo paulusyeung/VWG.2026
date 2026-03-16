@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -305,17 +305,17 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the NodeMouseDoubleClick event.
 		/// </summary>
-		private TreeNodeMouseClickEventHandler NodeMouseDoubleClickHandler => (TreeNodeMouseClickEventHandler)GetHandler(NodeMouseDoubleClick);
+		private TreeNodeMouseClickEventHandler NodeMouseDoubleClickHandler => (TreeNodeMouseClickEventHandler)GetHandler(NodeMouseDoubleClickEvent);
 
 		/// 
 		/// Gets the hanlder for the NodeMouseClick event.
 		/// </summary>
-		private TreeNodeMouseClickEventHandler NodeMouseClickHandler => (TreeNodeMouseClickEventHandler)GetHandler(NodeMouseClick);
+		private TreeNodeMouseClickEventHandler NodeMouseClickHandler => (TreeNodeMouseClickEventHandler)GetHandler(NodeMouseClickEvent);
 
 		/// 
 		/// Gets the hanlder for the BeforeSelect event.
 		/// </summary>
-		private TreeViewCancelEventHandler BeforeSelectHandler => (TreeViewCancelEventHandler)GetHandler(BeforeSelect);
+		private TreeViewCancelEventHandler BeforeSelectHandler => (TreeViewCancelEventHandler)GetHandler(BeforeSelectEvent);
 
 		/// 
 		/// Gets the hanlder for the BeforeLabelEdit event.
@@ -325,32 +325,32 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the BeforeExpand event.
 		/// </summary>
-		private TreeViewCancelEventHandler BeforeExpandHandler => (TreeViewCancelEventHandler)GetHandler(BeforeExpand);
+		private TreeViewCancelEventHandler BeforeExpandHandler => (TreeViewCancelEventHandler)GetHandler(BeforeExpandEvent);
 
 		/// 
 		/// Gets the hanlder for the AfterExpand event.
 		/// </summary>
-		private TreeViewEventHandler AfterExpandHandler => (TreeViewEventHandler)GetHandler(AfterExpand);
+		private TreeViewEventHandler AfterExpandHandler => (TreeViewEventHandler)GetHandler(AfterExpandEvent);
 
 		/// 
 		/// Gets the hanlder for the BeforeCheck event.
 		/// </summary>
-		private TreeViewCancelEventHandler BeforeCheckHandler => (TreeViewCancelEventHandler)GetHandler(BeforeCheck);
+		private TreeViewCancelEventHandler BeforeCheckHandler => (TreeViewCancelEventHandler)GetHandler(BeforeCheckEvent);
 
 		/// 
 		/// Gets the hanlder for the AfterCheck event.
 		/// </summary>
-		private TreeViewEventHandler AfterCheckHandler => (TreeViewEventHandler)GetHandler(AfterCheck);
+		private TreeViewEventHandler AfterCheckHandler => (TreeViewEventHandler)GetHandler(AfterCheckEvent);
 
 		/// 
 		/// Gets the hanlder for the AfterCollapse event.
 		/// </summary>
-		private TreeViewEventHandler AfterCollapseHandler => (TreeViewEventHandler)GetHandler(AfterCollapse);
+		private TreeViewEventHandler AfterCollapseHandler => (TreeViewEventHandler)GetHandler(AfterCollapseEvent);
 
 		/// 
 		/// Gets the hanlder for the BeforeCollapse event.
 		/// </summary>
-		private TreeViewCancelEventHandler BeforeCollapseHandler => (TreeViewCancelEventHandler)GetHandler(BeforeCollapse);
+		private TreeViewCancelEventHandler BeforeCollapseHandler => (TreeViewCancelEventHandler)GetHandler(BeforeCollapseEvent);
 
 		/// 
 		/// Gets the hanlder for the AfterLabelEdit event.
@@ -360,7 +360,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the AfterSelect event.
 		/// </summary>
-		private TreeViewEventHandler AfterSelectHandler => (TreeViewEventHandler)GetHandler(AfterSelect);
+		private TreeViewEventHandler AfterSelectHandler => (TreeViewEventHandler)GetHandler(AfterSelectEvent);
 
 		/// 
 		/// This is a recursive function that loop through a control and all of its parents
@@ -2713,16 +2713,16 @@ namespace Gizmox.WebGUI.Forms
 		{
 			NodeMouseDoubleClickEvent = SerializableEvent.Register("NodeMouseDoubleClick", typeof(TreeNodeMouseClickEventHandler), typeof(TreeNode));
 			NodeMouseClickEvent = SerializableEvent.Register("NodeMouseClick", typeof(TreeNodeMouseClickEventHandler), typeof(TreeNode));
-			BeforeSelect = SerializableEvent.Register("BeforeSelect", typeof(TreeViewCancelEventHandler), typeof(TreeNode));
-			BeforeLabelEdit = SerializableEvent.Register("BeforeLabelEdit", typeof(NodeLabelEditEventHandler), typeof(TreeNode));
-			BeforeExpand = SerializableEvent.Register("BeforeExpand", typeof(TreeViewCancelEventHandler), typeof(TreeNode));
-			AfterExpand = SerializableEvent.Register("AfterExpand", typeof(TreeViewEventHandler), typeof(TreeNode));
-			BeforeCheck = SerializableEvent.Register("BeforeCheck", typeof(TreeViewCancelEventHandler), typeof(TreeNode));
-			AfterCheck = SerializableEvent.Register("AfterCheck", typeof(TreeViewEventHandler), typeof(TreeNode));
-			AfterCollapse = SerializableEvent.Register("AfterCollapse", typeof(TreeViewEventHandler), typeof(TreeNode));
-			BeforeCollapse = SerializableEvent.Register("BeforeCollapse", typeof(TreeViewCancelEventHandler), typeof(TreeNode));
-			AfterLabelEdit = SerializableEvent.Register("AfterLabelEdit", typeof(NodeLabelEditEventHandler), typeof(TreeNode));
-			AfterSelect = SerializableEvent.Register("AfterSelect", typeof(TreeViewEventHandler), typeof(TreeNode));
+			BeforeSelectEvent = SerializableEvent.Register("BeforeSelect", typeof(TreeViewCancelEventHandler), typeof(TreeNode));
+			BeforeLabelEditEvent = SerializableEvent.Register("BeforeLabelEdit", typeof(NodeLabelEditEventHandler), typeof(TreeNode));
+			BeforeExpandEvent = SerializableEvent.Register("BeforeExpand", typeof(TreeViewCancelEventHandler), typeof(TreeNode));
+			AfterExpandEvent = SerializableEvent.Register("AfterExpand", typeof(TreeViewEventHandler), typeof(TreeNode));
+			BeforeCheckEvent = SerializableEvent.Register("BeforeCheck", typeof(TreeViewCancelEventHandler), typeof(TreeNode));
+			AfterCheckEvent = SerializableEvent.Register("AfterCheck", typeof(TreeViewEventHandler), typeof(TreeNode));
+			AfterCollapseEvent = SerializableEvent.Register("AfterCollapse", typeof(TreeViewEventHandler), typeof(TreeNode));
+			BeforeCollapseEvent = SerializableEvent.Register("BeforeCollapse", typeof(TreeViewCancelEventHandler), typeof(TreeNode));
+			AfterLabelEditEvent = SerializableEvent.Register("AfterLabelEdit", typeof(NodeLabelEditEventHandler), typeof(TreeNode));
+			AfterSelectEvent = SerializableEvent.Register("AfterSelect", typeof(TreeViewEventHandler), typeof(TreeNode));
 		}
 	}
 }

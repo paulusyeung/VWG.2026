@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -192,7 +192,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// Gets the hanlder for the RefreshItems event.
 		/// </summary>
-		private EventHandler RefreshItemsHandler => (EventHandler)GetHandler(RefreshItems);
+		private EventHandler RefreshItemsHandler => (EventHandler)GetHandler(RefreshItemsEvent);
 
 		/// Gets or sets the <see cref="T:Gizmox.WebGUI.Forms.ToolBarButton"></see> that represents the Add New button.</summary>
 		/// A <see cref="T:Gizmox.WebGUI.Forms.ToolBarButton"></see> that represents the Add New button for the <see cref="T:Gizmox.WebGUI.Forms.BindingSource"></see>. The default is null.</returns>
@@ -874,7 +874,7 @@ namespace Gizmox.WebGUI.Forms
 
 		static BindingNavigator()
 		{
-			RefreshItems = SerializableEvent.Register("RefreshItems", typeof(EventHandler), typeof(BindingNavigator));
+			RefreshItemsEvent = SerializableEvent.Register("RefreshItems", typeof(EventHandler), typeof(BindingNavigator));
 		}
 	}
 }

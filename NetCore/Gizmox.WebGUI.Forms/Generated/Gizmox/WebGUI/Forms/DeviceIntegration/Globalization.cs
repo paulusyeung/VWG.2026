@@ -123,7 +123,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// 
 		/// Gets the Connection single-call methods store.
 		/// </summary>
-		private SingleCallMethodStore<GlobalizationEventArgs> SingleCallMethodStore<GlobalizationEventArgs>
+		private SingleCallMethodStore<GlobalizationEventArgs> SingleCallMethodStore
 		{
 			get
 			{
@@ -248,7 +248,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="objOptions">The obj options.</param>
 		public void dateToString(DateTime objDateTime, Action<GlobalizationEventArgs> objCallback, GlobalizationDateOptions objOptions)
 		{
-			string text = SingleCallMethodStore<GlobalizationEventArgs>.StoreSingleCallMethod("datobj", objCallback);
+			string text = SingleCallMethodStore.StoreSingleCallMethod("datobj", objCallback);
 			Invoke("DeviceIntegrator.Globalization.dateToString", objDateTime, text);
 		}
 
@@ -309,7 +309,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="objCallback">The obj callback.</param>
 		public void isDayLightSavingsTime(DateTime objDateTime, Action<GlobalizationEventArgs> objCallback)
 		{
-			string text = SingleCallMethodStore<GlobalizationEventArgs>.StoreSingleCallMethod("gen", objCallback);
+			string text = SingleCallMethodStore.StoreSingleCallMethod("gen", objCallback);
 			Invoke("DeviceIntegrator.Globalization.isDayLightSavingsTime", objDateTime, text);
 		}
 
@@ -321,7 +321,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		/// <param name="objOptions">The obj options.</param>
 		public void numberToString(double dblNumber, Action<GlobalizationEventArgs> objCallback, GlobalizationNumberOptions objOptions)
 		{
-			string text = SingleCallMethodStore<GlobalizationEventArgs>.StoreSingleCallMethod("gen", objCallback);
+			string text = SingleCallMethodStore.StoreSingleCallMethod("gen", objCallback);
 			Invoke("DeviceIntegrator.Globalization.numberToString", dblNumber, text, CommonUtils.GetClientJsonObject(objOptions));
 		}
 
@@ -339,7 +339,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 
 		public void stringToNumber(string strStringInput, Action<GlobalizationEventArgs> objCallback, GlobalizationNumberOptions objOptions)
 		{
-			string text = SingleCallMethodStore<GlobalizationEventArgs>.StoreSingleCallMethod("gen", objCallback);
+			string text = SingleCallMethodStore.StoreSingleCallMethod("gen", objCallback);
 			Invoke("DeviceIntegrator.Globalization.stringToNumber", strStringInput, text, CommonUtils.GetClientJsonObject(objOptions));
 		}
 
@@ -446,7 +446,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		private GlobalizationDateEventArgs GetDateEventArgs(IEvent objEvent)
 		{
 			GlobalizationDateEventArgs objEventArgs = null;
-			if (!DeviceEventArgs.TryGetError(objEvent, out objEventArgs) && !string.IsNullOrEmpty(objEvent["ReturnValue"]))
+			if (!DeviceEventArgs.TryGetError<GlobalizationDateEventArgs>(objEvent, out objEventArgs) && !string.IsNullOrEmpty(objEvent["ReturnValue"]))
 			{
 				string[] array = objEvent["ReturnValue"].Split(',');
 				int.TryParse(array[6], out var result);
@@ -463,10 +463,10 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		private GlobalizationListEventArgs GetListEventArgs(IEvent objEvent)
 		{
 			GlobalizationListEventArgs objEventArgs = null;
-			if (!DeviceEventArgs.TryGetError(objEvent, out objEventArgs) && !string.IsNullOrEmpty(objEvent["ReturnValue"]))
+			if (!DeviceEventArgs.TryGetError<GlobalizationListEventArgs>(objEvent, out objEventArgs) && !string.IsNullOrEmpty(objEvent["ReturnValue"]))
 			{
 				string[] collection = objEvent["ReturnValue"].Split(',');
-				objEventArgs = new GlobalizationListEventArgs(new List<object>(collection));
+				objEventArgs = new GlobalizationListEventArgs(new List<string>(collection));
 			}
 			return objEventArgs;
 		}
@@ -479,7 +479,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		private GlobalizationCurrencyPatternEventArgs GetCurrencyPatternEventArgs(IEvent objEvent)
 		{
 			GlobalizationCurrencyPatternEventArgs objEventArgs = null;
-			if (!DeviceEventArgs.TryGetError(objEvent, out objEventArgs))
+			if (!DeviceEventArgs.TryGetError<GlobalizationCurrencyPatternEventArgs>(objEvent, out objEventArgs))
 			{
 				string strPattern = objEvent["pattern"];
 				string strCode = objEvent["code"];
@@ -500,7 +500,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		private GlobalizationNumberPatternEventArgs GetNumberPatternEventArgs(IEvent objEvent)
 		{
 			GlobalizationNumberPatternEventArgs objEventArgs = null;
-			if (!DeviceEventArgs.TryGetError(objEvent, out objEventArgs))
+			if (!DeviceEventArgs.TryGetError<GlobalizationNumberPatternEventArgs>(objEvent, out objEventArgs))
 			{
 				string strPattern = objEvent["pattern"];
 				string strFraction = objEvent["fraction"];
@@ -523,7 +523,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		private GlobalizationDatePatternEventArgs GetDatePatternEventArgs(IEvent objEvent)
 		{
 			GlobalizationDatePatternEventArgs objEventArgs = null;
-			if (!DeviceEventArgs.TryGetError(objEvent, out objEventArgs))
+			if (!DeviceEventArgs.TryGetError<GlobalizationDatePatternEventArgs>(objEvent, out objEventArgs))
 			{
 				string strPattern = objEvent["pattern"];
 				string strTimezone = objEvent["timezone"];
@@ -542,7 +542,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		private GlobalizationEventArgs GetGeneralEventArgs(IEvent objEvent)
 		{
 			GlobalizationEventArgs objEventArgs = null;
-			if (!DeviceEventArgs.TryGetError(objEvent, out objEventArgs) && !string.IsNullOrEmpty(objEvent["ReturnValue"]))
+			if (!DeviceEventArgs.TryGetError<GlobalizationEventArgs>(objEvent, out objEventArgs) && !string.IsNullOrEmpty(objEvent["ReturnValue"]))
 			{
 				objEventArgs = new GlobalizationEventArgs(objEvent["ReturnValue"]);
 			}
@@ -557,7 +557,7 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		private GlobalizationInfoEventArgs GetGlobalizationInfoEventArgs(IEvent objEvent)
 		{
 			GlobalizationInfoEventArgs objEventArgs = null;
-			if (!DeviceEventArgs.TryGetError(objEvent, out objEventArgs))
+			if (!DeviceEventArgs.TryGetError<GlobalizationInfoEventArgs>(objEvent, out objEventArgs))
 			{
 				objEventArgs = new GlobalizationInfoEventArgs(objEvent["PreferredLanguage"], objEvent["LocaleName"], objEvent["FirstDayOfWeek"]);
 			}

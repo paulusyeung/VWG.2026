@@ -1,4 +1,4 @@
-#define DEBUG
+﻿#define DEBUG
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -210,7 +210,7 @@ namespace Gizmox.WebGUI.Virtualization.Management
 		/// 
 		/// The component double handler.
 		/// </value>
-		private EventHandler ComponentDoubleHandler => GetHandler(ComponentDoubleClick) as EventHandler;
+		private EventHandler ComponentDoubleHandler => GetHandler(ComponentDoubleClickEvent) as EventHandler;
 
 		/// 
 		/// Occurs when [node mouse double click].

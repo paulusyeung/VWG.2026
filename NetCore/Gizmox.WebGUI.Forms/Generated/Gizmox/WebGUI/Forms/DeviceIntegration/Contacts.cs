@@ -218,15 +218,15 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		private FindContactsEventArgs GetFindEventArgs(IEvent objEvent)
 		{
 			FindContactsEventArgs objEventArgs = null;
-			if (!DeviceEventArgs.TryGetError(objEvent, out objEventArgs))
+			if (!DeviceEventArgs.TryGetError<FindContactsEventArgs>(objEvent, out objEventArgs))
 			{
 				string text = objEvent["contacts"];
-				List list = null;
+				List<IContact> list = null;
 				if (!string.IsNullOrEmpty(text))
 				{
 					if (int.TryParse(text, out var result))
 					{
-						list = new List<object>();
+						list = new List<IContact>();
 						for (int i = 0; i < result; i++)
 						{
 							Contact contact = new Contact(this);

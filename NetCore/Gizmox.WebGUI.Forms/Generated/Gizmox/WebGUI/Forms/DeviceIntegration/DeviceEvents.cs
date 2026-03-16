@@ -627,8 +627,8 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration
 		{
 			base.FireEvent(objEvent);
 			string type = objEvent.Type;
-			MultipleCallMethodStore<DeviceEventArgs> multipleCallMethodStore = null;
-			MultipleCallMethodStore<DeviceEventArgs> multipleCallMethodStore2 = null;
+			MultipleCallMethodStore<EmptyDeviceEventArgs> multipleCallMethodStore = null;
+			MultipleCallMethodStore<DeviceBatteryEventArgs> multipleCallMethodStore2 = null;
 			switch (type)
 			{
 			case "DPA":

@@ -113,11 +113,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.StorageComponents
 		{
 			get
 			{
-				return GetNullableValueTypeProperty("insertId");
+				return GetNullableValueTypeProperty<uint>("insertId");
 			}
 			internal set
 			{
-				AddNullableValueTypeProperty("insertId", value);
+				AddNullableValueTypeProperty<uint>("insertId", value);
 			}
 		}
 
@@ -128,11 +128,11 @@ namespace Gizmox.WebGUI.Forms.DeviceIntegration.StorageComponents
 		{
 			get
 			{
-				return GetNullableValueTypeProperty("rowsAffected");
+				return GetNullableValueTypeProperty<uint>("rowsAffected");
 			}
 			internal set
 			{
-				AddNullableValueTypeProperty("rowsAffected", value);
+				AddNullableValueTypeProperty<uint>("rowsAffected", value);
 			}
 		}
 

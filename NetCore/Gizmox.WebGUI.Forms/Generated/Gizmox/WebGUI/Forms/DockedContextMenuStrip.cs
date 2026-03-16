@@ -252,7 +252,7 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="e">The <see cref="T:System.EventArgs" /> instance containing the event data.</param>
 		private void mobjDockAll_Click(object sender, EventArgs e)
 		{
-			List list = mobjZone.RemoveAndReturnAllWindows();
+			List<DockingWindow> list = mobjZone.RemoveAndReturnAllWindows();
 			mobjManager.AddDockedWindowsInRootPosition((Relation)(sender as ToolStripMenuItem).Tag, list.ToArray());
 		}
 

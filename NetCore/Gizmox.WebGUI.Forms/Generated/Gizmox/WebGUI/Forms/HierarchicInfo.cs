@@ -111,13 +111,13 @@ namespace Gizmox.WebGUI.Forms
 
 		private BindingSource mobjBindedSource;
 
-		private ObservableCollection<object> mobjFilteringDataMembers;
+		private ObservableCollection<FilterRelation> mobjFilteringDataMembers;
 
-		private List<object> mobjKeys;
+		private List<string> mobjKeys;
 
 		private ISite mobjSite;
 
-		private SuspendableObservableCollection<object> mobjHiddenColumns;
+		private SuspendableObservableCollection<string> mobjHiddenColumns;
 
 		private string mstrHierarchyName;
 
@@ -125,13 +125,13 @@ namespace Gizmox.WebGUI.Forms
 		/// Gets the hidden columns indicator.
 		/// </summary>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
-		public SuspendableObservableCollection<object> HiddenColumns
+		public SuspendableObservableCollection<string> HiddenColumns
 		{
 			get
 			{
 				if (mobjHiddenColumns == null)
 				{
-					mobjHiddenColumns = new SuspendableObservableCollection<object>();
+					mobjHiddenColumns = new SuspendableObservableCollection<string>();
 				}
 				return mobjHiddenColumns;
 			}
@@ -162,13 +162,13 @@ namespace Gizmox.WebGUI.Forms
 		/// The filtering data members.
 		/// </value>
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
-		public ObservableCollection<object> FilteringDataMembers
+		public ObservableCollection<FilterRelation> FilteringDataMembers
 		{
 			get
 			{
 				if (mobjFilteringDataMembers == null)
 				{
-					FilteringDataMembers = new ObservableCollection<object>();
+					FilteringDataMembers = new ObservableCollection<FilterRelation>();
 				}
 				return mobjFilteringDataMembers;
 			}
@@ -191,7 +191,7 @@ namespace Gizmox.WebGUI.Forms
 		/// 
 		/// The keys.
 		/// </value>
-		internal List<object> Keys => mobjKeys;
+		internal List<string> Keys => mobjKeys;
 
 		/// 
 		/// Gets or sets the binded source.
@@ -260,9 +260,9 @@ namespace Gizmox.WebGUI.Forms
 		/// <param name="objHierarchicInfos">The obj hierarchic infos.</param>
 		/// <param name="blnIncludeRoot">if set to true</c> [includes root info].</param>
 		/// </returns>
-		internal static ObservableCollection<object> GetClonedInfos(ObservableCollection<object> objHierarchicInfos, bool blnIncludeRoot)
+		internal static ObservableCollection<HierarchicInfo> GetClonedInfos(ObservableCollection<HierarchicInfo> objHierarchicInfos, bool blnIncludeRoot)
 		{
-			ObservableCollection<object> observableCollection = new ObservableCollection<object>();
+			ObservableCollection<HierarchicInfo> observableCollection = new ObservableCollection<HierarchicInfo>();
 			int num = ((!blnIncludeRoot) ? 1 : 0);
 			for (int i = num; i < objHierarchicInfos.Count; i++)
 			{
@@ -276,7 +276,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		public HierarchicInfo()
 		{
-			mobjKeys = new List<object>();
+			mobjKeys = new List<string>();
 		}
 
 		/// 
@@ -299,7 +299,7 @@ namespace Gizmox.WebGUI.Forms
 		/// </summary>
 		/// <param name="objFilteringDataMembers">The obj filtering data members.</param>
 		/// <param name="blnAttach">if set to true</c> [BLN attach].</param>
-		private void AttachDetachEventsFromFilteringMembers(ObservableCollection<object> objFilteringDataMembers, bool blnAttach)
+		private void AttachDetachEventsFromFilteringMembers(ObservableCollection<FilterRelation> objFilteringDataMembers, bool blnAttach)
 		{
 			if (objFilteringDataMembers == null || DesignMode)
 			{

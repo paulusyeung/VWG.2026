@@ -259,7 +259,7 @@ namespace Gizmox.WebGUI.Forms
         /// Gets the status.
         /// </summary>
         /// <returns></returns>
-        public override List<StatusData> GetStatus()
+        public override List<Gizmox.WebGUI.Forms.Administration.Abstract.StatusData> GetStatus()
         {
             AdministrationTabPage objPage = mobjAdministrationTabs.SelectedTab as AdministrationTabPage;
             if (objPage != null)
