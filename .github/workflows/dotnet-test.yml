@@ -61,7 +61,7 @@ jobs:
           reportgenerator -reports:coverage-common.opencover.xml;coverage-blazorpilot.opencover.xml -targetdir:coverage-report -reporttypes:HtmlInline_AzurePipelines;TextSummary
 
       - name: Upload coverage artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           name: coverage-report
           path: coverage-report
