@@ -1,0 +1,10 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Gizmox.WebGUI.Common -> C:\Projects\VWG\NetCore\Gizmox.WebGUI.Common\bin\Debug\net8.0-windows\Gizmox.WebGUI.Common.dll
+  Gizmox.WebGUI.Server -> C:\Projects\VWG\NetCore\Gizmox.WebGUI.Server\bin\Debug\net8.0-windows\Gizmox.WebGUI.Server.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:20.89

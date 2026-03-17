@@ -7,10 +7,14 @@
     <AssemblyName>Gizmox.WebGUI.Common</AssemblyName>
     <RootNamespace>Gizmox.WebGUI.Common</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
-    <NoWarn>$(NoWarn);CS0618;SYSLIB0003;SYSLIB0011;SYSLIB0023</NoWarn>
+    <NoWarn>$(NoWarn);CS0168;CS0169;CS0219;CS0414;CS0618;CS0649;CS0659;CS0675;SYSLIB0003;SYSLIB0011;SYSLIB0012;SYSLIB0021;SYSLIB0022;SYSLIB0023;SYSLIB0041;SYSLIB0050;SYSLIB0051</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="Generated/**/*.cs">
+      <NoWarn>CS0168;CS0169;CS0219;CS0414;CS0649;CS0659;CS0675;SYSLIB0012;SYSLIB0021;SYSLIB0022;SYSLIB0041;SYSLIB0050;SYSLIB0051</NoWarn>
+    </Compile>
+
     <!-- Core .NET packages -->
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />

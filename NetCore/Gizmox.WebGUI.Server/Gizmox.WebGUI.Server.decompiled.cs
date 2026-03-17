@@ -48,6 +48,10 @@ using Gizmox.WebGUI.Common.Interfaces.Emulation;
 using Gizmox.WebGUI.Common.Resources;
 using Gizmox.WebGUI.Common.Trace;
 using Gizmox.WebGUI.Common.WebSockets;
+
+#pragma warning disable CS0169
+#pragma warning disable CS0414
+#pragma warning disable CS0649
 using Gizmox.WebGUI.Forms;
 using Gizmox.WebGUI.Forms.Client;
 using Gizmox.WebGUI.Forms.Hosting;
@@ -215,7 +219,7 @@ namespace A
 			objHostContext.Response.Cache.SetNoStore();
 			bool flag = true;
 			bool traceEnabled = CommonSwitches.TraceEnabled;
-			IResponseWriter? objXmlWriter = null;
+			IResponseWriter objXmlWriter = null!;
 			Global.Context = Context;
 			bool flag2 = Context.ManagePendingTermination();
 			try
@@ -415,7 +419,7 @@ namespace A
 							intNextInvokationTime = context.InvokeTimers(DateTime.Now.Ticks);
 						}
 					}
-					HandleResponse(ref objXmlWriter, serverResponse, requestParams, ref lngTimeMarker, intNextInvokationTime, form, blnFullResponse: true);
+					HandleResponse(ref objXmlWriter, serverResponse, requestParams, ref lngTimeMarker, intNextInvokationTime, form!, blnFullResponse: true);
 				}
 				else
 				{
@@ -449,7 +453,7 @@ namespace A
 					if (!Context.IsTransfered)
 					{
 						/*OpCode not supported: LdMemberToken*/;
-						HandleResponse(ref objXmlWriter, serverResponse, requestParams, ref lngTimeMarker, intNextInvokationTime, form, blnFullResponse);
+						HandleResponse(ref objXmlWriter, serverResponse, requestParams, ref lngTimeMarker, intNextInvokationTime, form!, blnFullResponse);
 					}
 					else
 					{
@@ -775,9 +779,9 @@ namespace A
 					mainForm.Dispose();
 				}
 			}
-			Context.MainForm = transferForm;
+			Context!.MainForm = transferForm;
 			Context.ActiveForm = transferForm;
-			transferForm?.SetContext(Context);
+			transferForm?.SetContext(Context!);
 		}
 
 		private void ProcessClientTracing(Context objContext, Request objRequest)
@@ -1445,7 +1449,7 @@ namespace Gizmox.WebGUI.Server
 				}
 				goto IL_0089;
 				IL_0089:
-				return mobjCurrentUICulture;
+				return mobjCurrentUICulture!;
 			}
 			set
 			{
@@ -1765,7 +1769,7 @@ namespace Gizmox.WebGUI.Server
 				if (CurrentContainer == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return null;
+					return null!;
 				}
 				return CurrentContainer[strKey];
 			}
@@ -1789,7 +1793,7 @@ namespace Gizmox.WebGUI.Server
 				if (CurrentContainer == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return null;
+					return null!;
 				}
 				return CurrentContainer.Arguments;
 			}
@@ -1813,7 +1817,7 @@ namespace Gizmox.WebGUI.Server
 				if (CurrentContainer == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return null;
+					return null!;
 				}
 				NameValueCollection nameValueCollection = CurrentContainer.Results;
 				if (nameValueCollection != null)
@@ -1837,7 +1841,7 @@ namespace Gizmox.WebGUI.Server
 				if (currentContainer == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return null;
+					return null!;
 				}
 				return currentContainer.Timers;
 			}
@@ -1868,7 +1872,7 @@ namespace Gizmox.WebGUI.Server
 				if (CurrentContainer == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return null;
+					return null!;
 				}
 				return ((IContextParams)CurrentContainer).SSOData;
 			}
@@ -2107,7 +2111,7 @@ namespace Gizmox.WebGUI.Server
 				if (CurrentContainer == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return null;
+					return null!;
 				}
 				return CurrentContainer.EmulatorForm;
 			}
@@ -2131,7 +2135,7 @@ namespace Gizmox.WebGUI.Server
 				if (mobjRequestInfo == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return null;
+					return null!;
 				}
 				return mobjRequestInfo.PageName;
 			}
@@ -2141,7 +2145,7 @@ namespace Gizmox.WebGUI.Server
 		{
 			get
 			{
-				return null;
+				return null!;
 			}
 		}
 
@@ -2152,7 +2156,7 @@ namespace Gizmox.WebGUI.Server
 				if (CurrentContainer == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return null;
+					return null!;
 				}
 				return CurrentContainer.EmulationDevice;
 			}
@@ -2176,7 +2180,7 @@ namespace Gizmox.WebGUI.Server
 				if (CurrentContainer == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return null;
+					return null!;
 				}
 				return CurrentContainer.ActiveProxyMasterPage;
 			}
@@ -2201,7 +2205,7 @@ namespace Gizmox.WebGUI.Server
 				{
 					return CurrentContainer.NameProxyMasterPageMap;
 				}
-				return null;
+				return null!;
 			}
 		}
 
@@ -2213,7 +2217,7 @@ namespace Gizmox.WebGUI.Server
 				if (currentContainer == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return null;
+					return null!;
 				}
 				return currentContainer.ContextualToolbar;
 			}
@@ -2277,7 +2281,7 @@ namespace Gizmox.WebGUI.Server
 				if (CurrentContainer == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return null;
+					return null!;
 				}
 				return CurrentContainer.WebSocketConnectionId;
 			}
@@ -2638,7 +2642,10 @@ namespace Gizmox.WebGUI.Server
 		internal void LoadInitializationData(NameValueCollection objData)
 		{
 			MainForm = null;
-			mobjContextContainer.CurrentTheme = null;
+			if (mobjContextContainer != null)
+			{
+				mobjContextContainer.CurrentTheme = null!;
+			}
 			CurrentContainer.LoadInitializationData(objData);
 		}
 
@@ -2676,7 +2683,7 @@ namespace Gizmox.WebGUI.Server
 			if (CurrentContainer == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
-				return null;
+				return null!;
 			}
 			if (CurrentContainer.DeviceIntegrator != null)
 			{
@@ -2703,7 +2710,7 @@ namespace Gizmox.WebGUI.Server
 
 		public void OpenLink(ILink objLink)
 		{
-			OpenLink(objLink, null);
+			OpenLink(objLink, null!);
 		}
 
 		public void OpenLink(ILink objLink, ILinkParameters objLinkParameters)
@@ -2718,7 +2725,7 @@ namespace Gizmox.WebGUI.Server
 			}
 			else
 			{
-				IRouter router = ce7877c7ee4c3060c535e119111a8c060.GetRouter();
+				IRouter? router = ce7877c7ee4c3060c535e119111a8c060.GetRouter();
 				if (router == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
@@ -2750,7 +2757,7 @@ namespace Gizmox.WebGUI.Server
 				objLinkParameters.Form.Clear();
 				objLinkParameters.QueryString["vwginstance"] = formLink.FormInstance;
 			}
-			((IContextMethodInvoker)this).InvokeMethod((ISkinable)null, InvokationUniqueness.None, "Forms_OpenLink", new object[5]
+			((IContextMethodInvoker)this).InvokeMethod((ISkinable)null!, InvokationUniqueness.None, "Forms_OpenLink", new object[5]
 			{
 				GetLinkUrl(objLink, objLinkParameters),
 				GetLinkTarget(objLinkParameters),
@@ -2760,7 +2767,7 @@ namespace Gizmox.WebGUI.Server
 			});
 		}
 
-		private string GetLinkUrl(ILink objLink, ILinkParameters objLinkParameters)
+		private string GetLinkUrl(ILink objLink, ILinkParameters? objLinkParameters)
 		{
 			string url = objLink.Url;
 			if (objLinkParameters == null)
@@ -2799,7 +2806,7 @@ namespace Gizmox.WebGUI.Server
 			return stringBuilder.ToString();
 		}
 
-		private string GetLinkTarget(ILinkParameters objLinkParameters)
+		private string GetLinkTarget(ILinkParameters? objLinkParameters)
 		{
 			if (objLinkParameters != null)
 			{
@@ -2809,7 +2816,7 @@ namespace Gizmox.WebGUI.Server
 			return "_blank";
 		}
 
-		private string GetOpenLinkArguments(ILinkParameters objLinkParameters)
+		private string GetOpenLinkArguments(ILinkParameters? objLinkParameters)
 		{
 			StringBuilder stringBuilder = new StringBuilder();
 			if (objLinkParameters == null)
@@ -2923,7 +2930,7 @@ namespace Gizmox.WebGUI.Server
 			goto IL_01f1;
 		}
 
-		private string GetOpenLinkMode(ILinkParameters objLinkParameters)
+		private string GetOpenLinkMode(ILinkParameters? objLinkParameters)
 		{
 			if (objLinkParameters == null)
 			{
@@ -2977,8 +2984,9 @@ namespace Gizmox.WebGUI.Server
 
 		public void Transfer(IForm objForm)
 		{
-			MainForm.Close();
-			if (!MainForm.IsClosed)
+			IForm mainForm = MainForm!;
+			mainForm.Close();
+			if (!mainForm.IsClosed)
 			{
 				/*OpCode not supported: LdMemberToken*/;
 				return;
@@ -3767,7 +3775,7 @@ namespace Gizmox.WebGUI.Server
 
 		internal IForm CreateMainForm()
 		{
-			IForm form = null;
+			IForm? form = null;
 			string currentPage = CurrentPage;
 			string applicationMode = HostRuntime.Config.GetApplicationMode(currentPage);
 			string application = HostRuntime.Config.GetApplication(currentPage);
@@ -3777,7 +3785,7 @@ namespace Gizmox.WebGUI.Server
 			}
 			else
 			{
-				Type type = Type.GetType(application, throwOnError: false);
+				Type? type = Type.GetType(application, throwOnError: false);
 				if (!(type != null))
 				{
 					/*OpCode not supported: LdMemberToken*/;
@@ -3806,25 +3814,27 @@ namespace Gizmox.WebGUI.Server
 			{
 				((IFormResolver)this).RegisterForm(form);
 			}
-			return form;
+			return form!;
 		}
 
 		private IForm GetFactoredForm(Type objFormType)
 		{
-			return (IForm)GetType().GetInterface("IContext").GetMethod("CreateForm").MakeGenericMethod(objFormType)
-				.Invoke(this, new object[1]);
+			Type type = GetType().GetInterface("IContext") ?? throw new InvalidOperationException("IContext interface was not found.");
+			MethodInfo methodInfo = type.GetMethod("CreateForm") ?? throw new MissingMethodException(type.FullName, "CreateForm");
+			object? obj = methodInfo.MakeGenericMethod(objFormType).Invoke(this, new object[1]);
+			return (IForm)obj!;
 		}
 
 		internal IForm CreateLogonForm()
 		{
-			IForm form = null;
+			IForm? form = null;
 			Monitor.Enter(mstrLogonLocking);
 			try
 			{
-				string text = AuthenticationFormType;
+				string? text = AuthenticationFormType;
 				if (!string.IsNullOrEmpty(text))
 				{
-					Type type = Type.GetType(text, throwOnError: false);
+					Type? type = Type.GetType(text, throwOnError: false);
 					if (type != null)
 					{
 						IForm factoredForm = GetFactoredForm(type);
@@ -3845,14 +3855,14 @@ namespace Gizmox.WebGUI.Server
 							}
 						}
 					}
-					form = CreateForm(CurrentPage, text);
+					form = CreateForm(CurrentPage, text!);
 					if (!(form is ILogonForm))
 					{
 						throw new Exception("Logon form must implement the ILogonForm interface.");
 					}
 				}
 			}
-			catch (Exception ex)
+			catch (Exception)
 			{
 				throw;
 			}
@@ -3860,19 +3870,19 @@ namespace Gizmox.WebGUI.Server
 			{
 				Monitor.Exit(mstrLogonLocking);
 			}
-			return form;
+			return form!;
 		}
 
 		private IForm CreateForm(string strPage, string strType, params object[] arrArguments)
 		{
-			IForm form = null;
+			IForm? form = null;
 			if (string.IsNullOrEmpty(strType))
 			{
 				/*OpCode not supported: LdMemberToken*/;
 			}
 			else
 			{
-				Type type = Type.GetType(strType, throwOnError: false);
+				Type? type = Type.GetType(strType, throwOnError: false);
 				if (type == null)
 				{
 					throw new Exception($"Could not find form type {strType}.");
@@ -3892,11 +3902,11 @@ namespace Gizmox.WebGUI.Server
 					}
 					else
 					{
-						form = MainForm;
+						form = MainForm!;
 					}
 				}
 			}
-			return form;
+			return form!;
 		}
 
 		private IForm CreateFormWithFactory(Type objFormType, string strPage, params object[] arrArguments)
@@ -3920,7 +3930,7 @@ namespace Gizmox.WebGUI.Server
 					/*OpCode not supported: LdMemberToken*/;
 				}
 			}
-			return null;
+			return null!;
 		}
 
 		void IEventHandler.FireEvent(IEvent objEvent)
@@ -4070,7 +4080,7 @@ namespace Gizmox.WebGUI.Server
 				/*OpCode not supported: LdMemberToken*/;
 				return;
 			}
-			((IContextMethodInvoker)this).InvokeMethod((ISkinable)null, InvokationUniqueness.Global, "Bookmarks_SetBookmark", new object[2] { CurrentContainer.CurrentBookmarkID, strTitle });
+			((IContextMethodInvoker)this).InvokeMethod((ISkinable)null!, InvokationUniqueness.Global, "Bookmarks_SetBookmark", new object[2] { CurrentContainer.CurrentBookmarkID, strTitle });
 		}
 
 		void IApplicationContext.SetFocused(IControl objControl, bool blnInvokeFocusCommand)
@@ -4090,7 +4100,7 @@ namespace Gizmox.WebGUI.Server
 			if (ApplicationContext == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
-				return null;
+				return null!;
 			}
 			return ApplicationContext.GetFocused();
 		}
@@ -4123,7 +4133,7 @@ namespace Gizmox.WebGUI.Server
 			{
 				return ContextClipboard.GetDataObject();
 			}
-			return null;
+			return null!;
 		}
 
 		void IContextClipboard.Clear()
@@ -4166,7 +4176,7 @@ namespace Gizmox.WebGUI.Server
 			if (CurrentContainer == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
-				return null;
+				return null!;
 			}
 			return CurrentContainer.GetBrowserParentId(strBrowserId);
 		}
@@ -4176,7 +4186,7 @@ namespace Gizmox.WebGUI.Server
 			if (CurrentContainer == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
-				return null;
+				return null!;
 			}
 			return CurrentContainer.GetBrowserId(objContext);
 		}
@@ -4189,7 +4199,7 @@ namespace Gizmox.WebGUI.Server
 			{
 				/*OpCode not supported: LdMemberToken*/;
 				IEvent current = enumerator.Current;
-				IEventHandler eventHandler = null;
+				IEventHandler? eventHandler = null;
 				if (!(current.Source == "0"))
 				{
 					/*OpCode not supported: LdMemberToken*/;
@@ -4223,9 +4233,9 @@ namespace Gizmox.WebGUI.Server
 
 		internal long GetActiveFormId()
 		{
-			IForm activeForm = ActiveForm;
-			IFormParams formParams = activeForm as IFormParams;
-			long iD = activeForm.ID;
+			IForm? activeForm = ActiveForm;
+			IFormParams? formParams = activeForm as IFormParams;
+			long iD = activeForm?.ID ?? 0L;
 			if (formParams == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -4243,13 +4253,13 @@ namespace Gizmox.WebGUI.Server
 
 		void IContextPipeline.GenerateResponse(TextWriter objOutput, long lngRequestId)
 		{
-			IServerResponse obj = Response as IServerResponse;
+			IServerResponse? obj = Response as IServerResponse;
 			IResponseWriter objXmlWriter = new ce018c227db41322d626ccf24fa858c9c(objOutput);
 			int intNextInvokationTime = 0;
 			bool flag = false;
-			MainForm.PreRenderForm(this, lngRequestId);
-			obj.Start(DateTime.Now.Ticks, intNextInvokationTime, ref objXmlWriter, flag, GetActiveFormId());
-			IForm mainForm = MainForm;
+			IForm mainForm = MainForm!;
+			mainForm.PreRenderForm(this, lngRequestId);
+			obj!.Start(DateTime.Now.Ticks, intNextInvokationTime, ref objXmlWriter, flag, GetActiveFormId());
 			IResponseWriter objWriter = objXmlWriter;
 			long lngRequestID;
 			if (flag)
@@ -4264,7 +4274,7 @@ namespace Gizmox.WebGUI.Server
 			mainForm.RenderForm(this, objWriter, lngRequestID);
 			VWGClientContext.Current.RenderMethodInvokes(this, objXmlWriter);
 			obj.End(objXmlWriter);
-			MainForm.PostRenderForm(this, lngRequestId);
+			mainForm.PostRenderForm(this, lngRequestId);
 		}
 
 		IEnumerator ISessionRegistry.GetEnumerator()
@@ -4346,7 +4356,7 @@ namespace Gizmox.WebGUI.Server
 					/*OpCode not supported: LdMemberToken*/;
 					return;
 				}
-				IEventHandler eventHandler = null;
+				IEventHandler? eventHandler = null;
 				eventHandler = ((!(objEvent.Source == "0")) ? ((IEventHandler)sessionRegistry.GetRegisteredComponent(objEvent.Source)) : ((IEventHandler)this));
 				if (eventHandler == null)
 				{
@@ -4385,7 +4395,7 @@ namespace Gizmox.WebGUI.Server
 			if (!(ConfigHelper.ModalDialogEmulationMode.ToLower() == "onthread"))
 			{
 				/*OpCode not supported: LdMemberToken*/;
-				return null;
+				return null!;
 			}
 			return GetEventProcessor();
 		}
@@ -4636,7 +4646,7 @@ namespace Gizmox.WebGUI.Server
 		{
 			get
 			{
-				return cc2ac04595cfc10712837b059af86e638;
+				return cc2ac04595cfc10712837b059af86e638!;
 			}
 			set
 			{
@@ -4660,7 +4670,7 @@ namespace Gizmox.WebGUI.Server
 		{
 			get
 			{
-				return c041406373b776e9eedae420b2df5c769;
+				return c041406373b776e9eedae420b2df5c769!;
 			}
 			set
 			{
@@ -4705,7 +4715,7 @@ namespace Gizmox.WebGUI.Server
 		{
 			get
 			{
-				return cc3a02d2829d86da7c1f0932ee7e98518;
+				return cc3a02d2829d86da7c1f0932ee7e98518!;
 			}
 			set
 			{
@@ -4717,7 +4727,7 @@ namespace Gizmox.WebGUI.Server
 		{
 			get
 			{
-				return c5b3a0eee9a0456dd1877bb1b13c6403b;
+				return c5b3a0eee9a0456dd1877bb1b13c6403b!;
 			}
 			set
 			{
@@ -4729,7 +4739,7 @@ namespace Gizmox.WebGUI.Server
 		{
 			get
 			{
-				return cadc93c39478274021fdac7dc0df7676a;
+				return cadc93c39478274021fdac7dc0df7676a!;
 			}
 			set
 			{
@@ -4921,9 +4931,9 @@ namespace Gizmox.WebGUI.Server
 				if (cf12f9b84144c3552a40d6130626735e9 != null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return cf12f9b84144c3552a40d6130626735e9[strKey];
+					return cf12f9b84144c3552a40d6130626735e9[strKey]!;
 				}
-				return null;
+				return null!;
 			}
 			set
 			{
@@ -5120,7 +5130,7 @@ namespace Gizmox.WebGUI.Server
 				if (info == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return null;
+					return null!;
 				}
 				return info.PageName;
 			}
@@ -5130,7 +5140,7 @@ namespace Gizmox.WebGUI.Server
 		{
 			get
 			{
-				return null;
+				return Array.Empty<string>();
 			}
 		}
 
@@ -5140,7 +5150,7 @@ namespace Gizmox.WebGUI.Server
 		{
 			get
 			{
-				return mobjSSOLogonAuthentication;
+				return mobjSSOLogonAuthentication!;
 			}
 			set
 			{
@@ -5267,13 +5277,13 @@ namespace Gizmox.WebGUI.Server
 			}
 		}
 
-		string IContextParams.BrowserId => mstrBrowserId;
+		string IContextParams.BrowserId => mstrBrowserId ?? string.Empty;
 
 		IForm IContextParams.ContextualToolbar
 		{
 			get
 			{
-				return mobjContextualToolbar;
+				return mobjContextualToolbar!;
 			}
 			set
 			{
@@ -5285,7 +5295,7 @@ namespace Gizmox.WebGUI.Server
 		{
 			get
 			{
-				return mobjDeviceIntegrator;
+				return mobjDeviceIntegrator!;
 			}
 			set
 			{
@@ -5330,7 +5340,7 @@ namespace Gizmox.WebGUI.Server
 		{
 			get
 			{
-				return mstrWebSocketConnectionId;
+				return mstrWebSocketConnectionId ?? string.Empty;
 			}
 			set
 			{
@@ -5363,8 +5373,8 @@ namespace Gizmox.WebGUI.Server
 				}
 				else
 				{
-					Type type = Type.GetType(string.Format("{0}, {1}", "Gizmox.WebGUI.Server.Emulation.EmulationService", CommonUtils.GetFullAssemblyName("Gizmox.WebGUI.Emulation")));
-					if (!(type != null))
+					Type? type = Type.GetType(string.Format("{0}, {1}", "Gizmox.WebGUI.Server.Emulation.EmulationService", CommonUtils.GetFullAssemblyName("Gizmox.WebGUI.Emulation")));
+					if (type == null)
 					{
 						/*OpCode not supported: LdMemberToken*/;
 					}
@@ -5373,7 +5383,7 @@ namespace Gizmox.WebGUI.Server
 						c047ba2eb809594268824a28d315a9487 = Activator.CreateInstance(type) as IEmulationService;
 					}
 				}
-				return c047ba2eb809594268824a28d315a9487;
+				return c047ba2eb809594268824a28d315a9487!;
 			}
 		}
 
@@ -5751,7 +5761,7 @@ namespace Gizmox.WebGUI.Server
 
 		IControl IApplicationContext.GetFocused()
 		{
-			return c7f59f6afcc1cae87717b1a7e44bd2b74;
+			return c7f59f6afcc1cae87717b1a7e44bd2b74!;
 		}
 
 		bool IApplicationContext.IsFocused(IControl objControl)
@@ -5840,17 +5850,18 @@ namespace Gizmox.WebGUI.Server
 				/*OpCode not supported: LdMemberToken*/;
 				return true;
 			}
+			Dictionary<Type, bool> dictionary = mobjValidComponents ?? (mobjValidComponents = new Dictionary<Type, bool>());
 			Type type = objComponent.GetType();
-			if (mobjValidComponents.ContainsKey(type))
+			if (dictionary.ContainsKey(type))
 			{
-				return mobjValidComponents[type];
+				return dictionary[type];
 			}
 			object obj = mobjValidComponentsLock;
 			bool lockTaken = false;
 			try
 			{
 				Monitor.Enter(obj, ref lockTaken);
-				if (!mobjValidComponents.ContainsKey(type))
+				if (!dictionary.ContainsKey(type))
 				{
 					/*OpCode not supported: LdMemberToken*/;
 					Type[] registeredControls = HostRuntime.Config.RegisteredControls;
@@ -5861,11 +5872,11 @@ namespace Gizmox.WebGUI.Server
 							/*OpCode not supported: LdMemberToken*/;
 							continue;
 						}
-						return mobjValidComponents[type] = true;
+						return dictionary[type] = true;
 					}
-					return mobjValidComponents[type] = false;
+					return dictionary[type] = false;
 				}
-				return mobjValidComponents[type];
+				return dictionary[type];
 			}
 			finally
 			{
@@ -5941,7 +5952,7 @@ namespace Gizmox.WebGUI.Server
 			{
 				return ((ISessionRegistry)this).GetRegisteredComponent(result);
 			}
-			return null;
+			return null!;
 		}
 
 		public IRegisteredComponent GetRegisteredComponent(long lngComponentId)
@@ -5949,7 +5960,7 @@ namespace Gizmox.WebGUI.Server
 			if (!c6cde426f87a1b2ca1cf005c54ff47761.ContainsKey(lngComponentId))
 			{
 				/*OpCode not supported: LdMemberToken*/;
-				return null;
+				return null!;
 			}
 			return c6cde426f87a1b2ca1cf005c54ff47761[lngComponentId];
 		}
@@ -5974,18 +5985,18 @@ namespace Gizmox.WebGUI.Server
 					num = 0;
 				}
 				menmStartupDeviceOrientation = (DeviceOrientation)num;
-				mintScreenAvailableHeight = int.Parse(objData["SAH"]);
-				mintScreenAvailableWidth = int.Parse(objData["SAW"]);
-				mintScreenHeight = int.Parse(objData["SCH"]);
-				mintScreenWidth = int.Parse(objData["SCW"]);
-				mintScreenColorDepth = int.Parse(objData["SCD"]);
-				string text = objData["SDPR"];
+				mintScreenAvailableHeight = int.Parse(objData["SAH"]!);
+				mintScreenAvailableWidth = int.Parse(objData["SAW"]!);
+				mintScreenHeight = int.Parse(objData["SCH"]!);
+				mintScreenWidth = int.Parse(objData["SCW"]!);
+				mintScreenColorDepth = int.Parse(objData["SCD"]!);
+				string? text = objData["SDPR"];
 				if (!string.IsNullOrEmpty(text) && CommonUtils.TryParse(text, out double dblValue))
 				{
 					mintScreenDevicePixelRatio = Convert.ToInt32(dblValue);
 				}
-				mintBrowserHeight = int.Parse(objData["BRH"]);
-				mintBrowserWidth = int.Parse(objData["BRW"]);
+				mintBrowserHeight = int.Parse(objData["BRH"]!);
+				mintBrowserWidth = int.Parse(objData["BRW"]!);
 			}
 			catch
 			{
@@ -6118,9 +6129,9 @@ namespace Gizmox.WebGUI.Server
 			return GetMappedFormInfo(objSourceFormType, mstrBrowserId);
 		}
 
-		private MappedFormInfo GetMappedFormInfo(Type objSourceFormType, string strBrowserId)
+		private MappedFormInfo GetMappedFormInfo(Type objSourceFormType, string? strBrowserId)
 		{
-			MappedFormInfo mappedFormInfo = null;
+			MappedFormInfo? mappedFormInfo = null;
 			if (strBrowserId == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -6222,7 +6233,7 @@ namespace Gizmox.WebGUI.Server
 			catch
 			{
 			}
-			return null;
+			return null!;
 		}
 
 		internal string GetBrowserId(HostContext objContext)
@@ -6239,7 +6250,7 @@ namespace Gizmox.WebGUI.Server
 			catch
 			{
 			}
-			return null;
+			return null!;
 		}
 
 		void IContextParams.InvokeComponentMessage(object sender, ComponentMessageEventArgs e)
@@ -6260,7 +6271,7 @@ namespace Gizmox.WebGUI.Server
 
 		FormAccessMode IContextParams.GetFormAccessMode(IForm objForm)
 		{
-			string fullName = objForm.GetType().FullName;
+			string fullName = objForm.GetType().FullName ?? objForm.GetType().Name;
 			if (!FormAccessModes.ContainsKey(fullName))
 			{
 				IFormsSecurityProvider provider = CommonUtils.GetProvider<IFormsSecurityProvider>("Gizmox.WebGUI.Common.Forms.Security.SimpleSecurityProvider, Gizmox.WebGUI.Common", blnIsCache: true);
@@ -6397,7 +6408,7 @@ namespace Gizmox.WebGUI.Server
 
 		private void HandleCustomErrors(Exception objException)
 		{
-			CustomErrorsSection customErrorsSection = null;
+			CustomErrorsSection? customErrorsSection = null;
 			try
 			{
 				customErrorsSection = ConfigurationManager.GetSection("system.web/customErrors") as CustomErrorsSection;
@@ -6412,7 +6423,7 @@ namespace Gizmox.WebGUI.Server
 				return;
 			}
 			string text = customErrorsSection.DefaultRedirect;
-			CustomError customError = customErrorsSection.Errors[GetHttpCodeForException(objException).ToString(CultureInfo.InvariantCulture)];
+			CustomError? customError = customErrorsSection.Errors[GetHttpCodeForException(objException).ToString(CultureInfo.InvariantCulture)];
 			if (customError == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -7448,7 +7459,7 @@ namespace Gizmox.WebGUI.Server
 				/*OpCode not supported: LdMemberToken*/;
 				return;
 			}
-			IEventHandler eventHandler = null;
+			IEventHandler? eventHandler = null;
 			if (!(objEvent.Source == "0"))
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -7833,7 +7844,7 @@ namespace A
 		public override void ProcessRequest(HostContext context)
 		{
 			string arg = "";
-			string text = context.Request.QueryString["method"];
+			string? text = context.Request.QueryString["method"];
 			if (!(text == "token"))
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -7979,7 +7990,7 @@ namespace Gizmox.WebGUI.Server
 				else
 				{
 					VerboseRecord.Write(this, "Server/Context/Arguments", "Setting", "Setting the 'Context.Arguments' property to reflect external arguments.");
-					Context.Referrer = objHostContext.Request.Form["Referrer"];
+					Context.Referrer = objHostContext.Request.Form["Referrer"] ?? string.Empty;
 				}
 				if (requestParams.IsUserPostback)
 				{
@@ -7997,7 +8008,7 @@ namespace Gizmox.WebGUI.Server
 						objHostContext.Response.Expires = -1;
 						objHostContext.Response.Cache.SetCacheability(HttpCacheability.NoCache);
 						objHostContext.Response.ContentType = "text/html";
-						string text = null;
+						string? text = null;
 						if (!IsSupportedBrowser(objHostContext))
 						{
 							if (Context.RenderStaticSEOContent(objHostContext))
@@ -8046,7 +8057,7 @@ namespace Gizmox.WebGUI.Server
 				}
 				objHostContext.Response.Redirect(text2);
 			}
-			catch (Exception ex)
+			catch (Exception)
 			{
 				throw;
 			}
@@ -8064,7 +8075,7 @@ namespace Gizmox.WebGUI.Server
 			{
 				return;
 			}
-			string value = request.QueryString["vwgssologonpost"];
+			string? value = request.QueryString["vwgssologonpost"];
 			if (string.IsNullOrEmpty(value))
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -8112,7 +8123,7 @@ namespace Gizmox.WebGUI.Server
 				}
 				else
 				{
-					string value = request.QueryString["vwgssologon"];
+					string? value = request.QueryString["vwgssologon"];
 					if (string.IsNullOrEmpty(value))
 					{
 						/*OpCode not supported: LdMemberToken*/;
@@ -8137,8 +8148,8 @@ namespace Gizmox.WebGUI.Server
 							}
 							else
 							{
-								Type type = Type.GetType(authenticationFormType);
-								if (!(type != null))
+								Type? type = Type.GetType(authenticationFormType);
+								if (type == null)
 								{
 									/*OpCode not supported: LdMemberToken*/;
 								}
@@ -8230,7 +8241,7 @@ namespace Gizmox.WebGUI.Server
 														htmlTextWriter.WriteBeginTag("input");
 														htmlTextWriter.WriteAttribute("id", current.FieldName);
 														htmlTextWriter.WriteAttribute("name", current.FieldName);
-														htmlTextWriter.WriteAttribute("type", Convert.ToString(current.FieldType).ToLower());
+														htmlTextWriter.WriteAttribute("type", (Convert.ToString(current.FieldType) ?? string.Empty).ToLowerInvariant());
 														htmlTextWriter.Write("/>");
 																	htmlTextWriter.Write("<br/>");
 													}
@@ -8263,16 +8274,16 @@ namespace Gizmox.WebGUI.Server
 			{
 				return;
 			}
-			string s = objHostContext.Request.Form["SCH"];
-			string s2 = objHostContext.Request.Form["SCW"];
-			string s3 = objHostContext.Request.Form["SAW"];
-			string s4 = objHostContext.Request.Form["SAW"];
-			string s5 = objHostContext.Request.Form["SCD"];
-			string s6 = objHostContext.Request.Form["BRH"];
-			string s7 = objHostContext.Request.Form["BRW"];
-			string s8 = objHostContext.Request.Form["CSS3"];
-			string s9 = objHostContext.Request.Form["H5"];
-			string s10 = objHostContext.Request.Form["MSC"];
+			string? s = objHostContext.Request.Form["SCH"];
+			string? s2 = objHostContext.Request.Form["SCW"];
+			string? s3 = objHostContext.Request.Form["SAW"];
+			string? s4 = objHostContext.Request.Form["SAW"];
+			string? s5 = objHostContext.Request.Form["SCD"];
+			string? s6 = objHostContext.Request.Form["BRH"];
+			string? s7 = objHostContext.Request.Form["BRW"];
+			string? s8 = objHostContext.Request.Form["CSS3"];
+			string? s9 = objHostContext.Request.Form["H5"];
+			string? s10 = objHostContext.Request.Form["MSC"];
 			int result = -1;
 			int result2 = -1;
 			int result3 = -1;
@@ -8829,7 +8840,7 @@ namespace Gizmox.WebGUI.Server
 
 		public void WriteException(Exception objException, ref IResponseWriter objResponseWriter)
 		{
-			WriteError(objException.Source, objException.Message, ref objResponseWriter);
+			WriteError(objException.Source ?? string.Empty, objException.Message, ref objResponseWriter);
 		}
 	}
 }
@@ -9162,7 +9173,7 @@ namespace Gizmox.WebGUI.Server
 					return;
 				}
 			}
-			string text = objHttpContext.Request.QueryString["content-disposition"];
+			string? text = objHttpContext.Request.QueryString["content-disposition"];
 			if (string.IsNullOrEmpty(text))
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -9258,7 +9269,7 @@ namespace Gizmox.WebGUI.Server
 		NameValueCollection IRouter.GetArguments(string strForm, string strInstance)
 		{
 			NameValueCollection? result = null;
-			ContextContainer contextContainer = new Session(null).GetContextContainer(strForm, strInstance);
+			ContextContainer contextContainer = new Session(null!).GetContextContainer(strForm, strInstance);
 			if (contextContainer == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -9273,7 +9284,7 @@ namespace Gizmox.WebGUI.Server
 		NameValueCollection IRouter.GetResults(string strForm, string strInstance)
 		{
 			NameValueCollection? result = null;
-			ContextContainer contextContainer = new Session(null).GetContextContainer(strForm, strInstance);
+			ContextContainer contextContainer = new Session(null!).GetContextContainer(strForm, strInstance);
 			if (contextContainer == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -9614,7 +9625,7 @@ namespace Gizmox.WebGUI.Server
 			}
 			else
 			{
-				HttpContext current = HttpContext.Current;
+				HttpContext? current = HttpContext.Current;
 				if (current != null)
 				{
 					cf43726a9df8a68715ad349493cc1f936.ProcessRequest(current);
@@ -9796,7 +9807,7 @@ namespace Gizmox.WebGUI.Server.Resources
 		public override void ProcessRequest(HostContext objHostContext)
 		{
 			string text = ((IRequestParams)c8f695bda1002ddbedbc6a2bfcf6960a0.Request).Resource;
-			string text2 = objHostContext.Request.QueryString["assembly"];
+			string? text2 = objHostContext.Request.QueryString["assembly"];
 			if (text2 == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -10010,7 +10021,7 @@ namespace Gizmox.WebGUI.Server.Resources
 					/*OpCode not supported: LdMemberToken*/;
 					return;
 				}
-				Image frameStyleImage = GetFrameStyleImage(skin, value);
+				Image? frameStyleImage = GetFrameStyleImage(skin, value);
 				if (frameStyleImage != null)
 				{
 					WriteImage(objHostContext, frameStyleImage);
@@ -10143,10 +10154,10 @@ namespace Gizmox.WebGUI.Server.Resources
 			}
 			else
 			{
-				object propertyValue = GetPropertyValue(objFrameStyle, strFramePartProperty);
+				object? propertyValue = GetPropertyValue(objFrameStyle, strFramePartProperty);
 				if (propertyValue != null)
 				{
-					object propertyValue2 = GetPropertyValue(propertyValue, "BackgroundImage");
+					object? propertyValue2 = GetPropertyValue(propertyValue, "BackgroundImage");
 					if (propertyValue2 != null)
 					{
 						string? text = Convert.ToString(GetPropertyValue(propertyValue2, "ResourceName"));
@@ -10177,7 +10188,7 @@ namespace Gizmox.WebGUI.Server.Resources
 			}
 			else
 			{
-				PropertyInfo property = objInstance.GetType().GetProperty(strProperty, enmBindingFlags);
+				PropertyInfo? property = objInstance.GetType().GetProperty(strProperty, enmBindingFlags);
 				if (property != null)
 				{
 					try
@@ -10448,6 +10459,7 @@ namespace Gizmox.WebGUI.Server.Providers
 		{
 		}
 
+#pragma warning disable SYSLIB0051
 		protected ArgumentsProvider(SerializationInfo info, StreamingContext context)
 			: base(info, context)
 		{
@@ -10526,6 +10538,7 @@ namespace Gizmox.WebGUI.Server.Providers
 			: base(info, context)
 		{
 		}
+#pragma warning restore SYSLIB0051
 	}
 }
 namespace Gizmox.WebGUI.Server.Hosting
@@ -10617,7 +10630,7 @@ namespace Gizmox.WebGUI.Server.Hosting
 
 		private void StopManager()
 		{
-			Thread thread = c64e9b02c482ab4e9e7f9a6f359be56f2;
+			Thread? thread = c64e9b02c482ab4e9e7f9a6f359be56f2;
 			if (thread == null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
@@ -11870,7 +11883,7 @@ namespace A
 						text2 = string.Empty;
 					}
 					string value = text2;
-					ArrayList arrayList = (ArrayList)BaseGet(i);
+					ArrayList? arrayList = (ArrayList?)BaseGet(i);
 					int num2;
 					if (arrayList != null)
 					{
@@ -12379,7 +12392,7 @@ namespace A
 			}
 			else
 			{
-				byte[] multipartBoundary = GetMultipartBoundary();
+				byte[]? multipartBoundary = GetMultipartBoundary();
 				if (multipartBoundary == null)
 				{
 					return new ce24e6cda64b98aa5c7b56212211ec57c[0];
@@ -12455,7 +12468,7 @@ namespace A
 
 		private byte[]? GetMultipartBoundary()
 		{
-			string attributeFromHeader = GetAttributeFromHeader(ContentType, "boundary");
+			string? attributeFromHeader = GetAttributeFromHeader(ContentType, "boundary");
 			if (attributeFromHeader == null)
 			{
 				return null;
@@ -12617,7 +12630,7 @@ namespace A
 		{
 			if (UserAgent != null && CultureInfo.InvariantCulture.CompareInfo.IsPrefix(UserAgent, "UP"))
 			{
-				string text = Headers["x-up-devcap-post-charset"];
+				string? text = Headers["x-up-devcap-post-charset"];
 				if (string.IsNullOrEmpty(text))
 				{
 					/*OpCode not supported: LdMemberToken*/;
@@ -12637,7 +12650,7 @@ namespace A
 			if (contentType != null)
 			{
 				/*OpCode not supported: LdMemberToken*/;
-				string attributeFromHeader = GetAttributeFromHeader(contentType, "charset");
+				string? attributeFromHeader = GetAttributeFromHeader(contentType, "charset");
 				if (attributeFromHeader == null)
 				{
 					return null;
@@ -12825,7 +12838,7 @@ namespace A
 				/*OpCode not supported: LdMemberToken*/;
 				return c037bcf050635121630a73c4c7d7aeaef.GetAsByteArray(c6c8825a68bb355e4fb9316c36fb08eaf, c7170a3e9ede2d2c40a24d4ba8b8f609c);
 			}
-			return null;
+			return null!;
 		}
 
 		protected void Init(c4ce1a7d86d5e0c4b51327c0a0619459b data, int offset, int length)
@@ -13185,7 +13198,6 @@ namespace A
 			internal c4d2d2c71a8107b35b7642b1e1ee418dc()
 			{
 				string text = Path.Combine(HostRuntime.CodegenDir, "uploads");
-				new FileIOPermission(FileIOPermissionAccess.AllAccess, text).Assert();
 				if (Directory.Exists(text))
 				{
 					/*OpCode not supported: LdMemberToken*/;
@@ -13615,7 +13627,7 @@ namespace A
 				if (c5ca4829f76d4d094a7528d975cdd02a4 == null)
 				{
 					/*OpCode not supported: LdMemberToken*/;
-					return null;
+						return null!;
 				}
 				return c5ca4829f76d4d094a7528d975cdd02a4.ResponseFilter;
 			}
@@ -14550,8 +14562,8 @@ namespace A
 
 		private c467aad5231514918e85bf3fe62b6cbb3 GetSessionStorage(cc5d4538b8a75eeeda8789c0af1e3f5cf objNativeHostContext)
 		{
-			c467aad5231514918e85bf3fe62b6cbb3 value = null;
-			string sessionIDFromRequest = GetSessionIDFromRequest(objNativeHostContext);
+			c467aad5231514918e85bf3fe62b6cbb3? value = null;
+			string? sessionIDFromRequest = GetSessionIDFromRequest(objNativeHostContext);
 			if (!string.IsNullOrEmpty(sessionIDFromRequest))
 			{
 				if (c0522e7c67bb77713364449b1feca1cfa.TryGetValue(sessionIDFromRequest, out value))
@@ -14598,7 +14610,7 @@ namespace A
 					objNativeHostContext.Response.Cookies.Add(CreateSessionCookie(objNativeHostContext, value.SessionID));
 				}
 			}
-			return value;
+			return value!;
 		}
 
 		private cf7ad5d0b2c305a159d5fa4d6a6d7532d CreateSessionCookie(cc5d4538b8a75eeeda8789c0af1e3f5cf objNativeHostContext, string strSessionID)
@@ -14609,7 +14621,7 @@ namespace A
 			return obj;
 		}
 
-		private static string GetSessionIDFromRequest(cc5d4538b8a75eeeda8789c0af1e3f5cf objNativeHostContext)
+		private static string? GetSessionIDFromRequest(cc5d4538b8a75eeeda8789c0af1e3f5cf objNativeHostContext)
 		{
 			return objNativeHostContext.Request.Cookies["ASP.NET_SessionId"]?.Value;
 		}
@@ -14707,17 +14719,17 @@ namespace A
 
 		public object Get(int index)
 		{
-			return BaseGet(index);
+			return BaseGet(index)!;
 		}
 
 		public object Get(string name)
 		{
-			return BaseGet(name);
+			return BaseGet(name)!;
 		}
 
 		public string GetKey(int index)
 		{
-			return BaseGetKey(index);
+			return BaseGetKey(index)!;
 		}
 
 		internal void Remove(string name)
@@ -15060,7 +15072,7 @@ namespace A
 		{
 			get
 			{
-				return c856db71de6d644b695f46065b38f7d98.ContentEncoding;
+				return c856db71de6d644b695f46065b38f7d98.ContentEncoding!;
 			}
 			set
 			{
@@ -15072,7 +15084,7 @@ namespace A
 		{
 			get
 			{
-				return c856db71de6d644b695f46065b38f7d98.ContentType;
+				return c856db71de6d644b695f46065b38f7d98.ContentType!;
 			}
 			set
 			{
@@ -15136,7 +15148,7 @@ namespace A
 		{
 			get
 			{
-				return cc8eb39cb40ff05d8aafe72f6a69a6158[header];
+				return cc8eb39cb40ff05d8aafe72f6a69a6158[header]!;
 			}
 			set
 			{
@@ -15148,7 +15160,7 @@ namespace A
 		{
 			get
 			{
-				return cc8eb39cb40ff05d8aafe72f6a69a6158[header];
+				return cc8eb39cb40ff05d8aafe72f6a69a6158[header]!;
 			}
 			set
 			{
@@ -15206,7 +15218,7 @@ namespace Gizmox.WebGUI.Server.Hosting.Providers
 				}
 				catch (Exception ex)
 				{
-					HostException ex2 = ex as HostException;
+					HostException? ex2 = ex as HostException;
 					if (ex2 == null)
 					{
 						ex2 = new HostException(ex.Message, ex);

@@ -79,14 +79,14 @@ Complete the migration from .NET Framework 4.5.2 to .NET 8 for core libraries un
   - `HttpContext.Current` setter visibility for cross-assembly usage.
 - Removed duplicate HttpUtility shim from Common to resolve type ambiguity with framework `System.Web.HttpUtility`.
 
-### 7) Warning Reduction Passes #1-#5 (Nullable + Obsolete Hotspots)
+### 7) Warning Reduction Passes #1-#15 (Nullable + Obsolete Hotspots)
 - Rebuilt `NetCore/Gizmox.WebGUI.Server/Gizmox.WebGUI.Server.csproj` and re-baselined warnings.
 - Warning trajectory across iterative batches:
   - `990` -> `896` (pass #1)
   - `896` -> `814` (pass #2)
   - `814` -> `662` -> `610` -> `0` (pass #3, incremental up-to-date build output)
-  - clean rebuild baselines in this session: `670` -> `218` -> `191` (passes #4-#5)
-- Current checkpoint for clean Server rebuild path: `191 Warning(s)`, `0 Error(s)`.
+  - clean rebuild baselines in this session: `670` -> `218` -> `191` -> `161` -> `140` -> `126` -> `110` -> `98` -> `84` -> `73` -> `48` -> `31` -> `0` (passes #4-#15)
+- Current checkpoint for clean Server rebuild path: `0 Warning(s)`, `0 Error(s)`.
 - Note: an incremental up-to-date direct Server build can report `0 Warning(s)` because projects are not recompiled.
 - Eliminated targeted warning categories in this pass:
   - `NETSDK1080` -> removed redundant `Microsoft.AspNetCore.App` package reference.
@@ -99,7 +99,7 @@ Complete the migration from .NET Framework 4.5.2 to .NET 8 for core libraries un
 
 ## Current Remaining Blockers
 1. No compile blockers for the five core libraries.
-2. Clean rebuild warning backlog remains in Server (`191` current baseline; mostly nullable flow categories `CS8600`/`CS8603`/`CS8604`/`CS8602`).
+2. Direct Server clean rebuild warning backlog is resolved (`0 Warning(s)`, `0 Error(s)`); solution-wide validation remains recommended.
 3. Solution-wide warning posture still needs full integrated validation.
 4. Runtime parity still needs validation in Server request paths and legacy feature branches.
 

@@ -284,9 +284,9 @@ c:\Projects\VWG\NetCore\Gizmox.WebGUI.Common\
 ### Active Risks (Post-Compile Phase)
 
 #### 4.1 Warning Backlog
-**Status:** ⚠️ Reduced, still open on clean rebuild.
+**Status:** ✅ Resolved for direct clean Server rebuild path.
 
-Builds are green for all core libraries. Warning-reduction passes progressed from 990 -> 896 -> 814 -> 662 -> 610 -> 0 on incremental up-to-date direct `Gizmox.WebGUI.Server.csproj` builds, and from 670 -> 218 -> 191 on clean rebuilds, while maintaining zero compile errors.
+Builds remain green for all core libraries. Warning-reduction passes progressed from 990 -> 896 -> 814 -> 662 -> 610 -> 0 on incremental up-to-date direct `Gizmox.WebGUI.Server.csproj` builds, and from 670 -> 218 -> 191 -> 161 -> 140 -> 126 -> 110 -> 98 -> 84 -> 73 -> 48 -> 31 -> 0 on clean rebuilds, while maintaining zero compile errors.
 
 #### 4.2 Runtime Parity Validation
 **Status:** ⚠️ In progress.
@@ -322,7 +322,7 @@ Some legacy framework-heavy paths are intentionally simplified/guarded during mi
 | **Build (Forms)** | ✅ Complete | Builds on net8.0-windows (warnings only). |
 | **Build (Client)** | ✅ Complete | Option 1 complete; compiles after legacy WinForms shim compatibility fixes. |
 | **Build (Converters)** | ✅ Complete | Builds on net8.0-windows after TFM + assembly attribute alignment. |
-| **Build (Server)** | ✅ Complete | Compiles on net8.0-windows; current clean rebuild checkpoint is 191 warnings / 0 errors. |
+| **Build (Server)** | ✅ Complete | Compiles on net8.0-windows; current clean rebuild checkpoint is 0 warnings / 0 errors. |
 | **Hardening** | [/] In Progress | CI/CD, Playwright, Docker, BlazorPilot, runtime parity validation |
 
 ### Checkpoints Achieved
@@ -334,7 +334,7 @@ Some legacy framework-heavy paths are intentionally simplified/guarded during mi
 6. ✅ **Client Option 1 (Compile Unblock)** – Completed via interface alignment and legacy API compatibility shims.
 7. ✅ **Phase 4 Hardening Start** – CI/CD, Playwright, and Docker infrastructure established.
 8. ✅ **Server Compile Unblock** – Completed; core migration now at 5/5 compiling libraries.
-9. ✅ **Warning Reduction Passes #1-#5** – Completed targeted cleanup for NETSDK1080/CS0618/SYSLIB0006/CA2200/CS8765/CS8767/CS8632 and reduced clean Server rebuild warnings from 670 to 191 in this phase.
+9. ✅ **Warning Reduction Passes #1-#15** – Completed targeted cleanup for NETSDK1080/CS0618/SYSLIB0006/CA2200/CS8765/CS8767/CS8632 plus additional nullable-flow reductions, and reduced clean Server rebuild warnings from 670 to 0 in this phase.
 
 ### What Works
 - Projects restore successfully (NuGet packages download correctly).
