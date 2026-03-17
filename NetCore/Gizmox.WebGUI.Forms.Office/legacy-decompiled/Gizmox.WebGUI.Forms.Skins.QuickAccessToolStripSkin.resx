@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.xslt:PresentationDrawingEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.xslt:PresentationEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.jqt.js:FileName" xml:space="preserve"><value>D:\My Work\branches\10.0.5\Net4.5.2\Private\Core\Gizmox.WebGUI.Forms.Office\obj\Commercial Deployment\QuickAccessToolStripSkin.ToolStrip.jqt.js</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.css:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAACvAwAAAAAAAAAAAAARAAAAAQAAABEAAAAHAAAAFQAAAAMAAAADAAAAGAAAABMAAAAH
+AAAALAAAAAIAAAAHAAAALwAAAAQAAAARAAAANAAAAA4AAAAHAAAARQAAAAMAAAADAAAASAAAABAA
+AAAHAAAAWQAAAAIAAAAHAAAAXAAAAAQAAAARAAAAYQAAABQAAAAHAAAAeAAAAAMAAAADAAAAewAA
+ABYAAAAHAAAAkgAAAAMAAAAHAAAAlgAAAAQAAAARAAAAmwAAABAAAAAHAAAArgAAAAMAAAADAAAA
+sQAAABIAAAAHAAAAxAAAAAIAAAAHAAAAxwAAAAQAAAARAAAAzAAAABIAAAAHAAAA4QAAAAMAAAAD
+AAAA5AAAABQAAAAHAAAA+QAAAAMAAAAHAAAA/QAAAAQAAAARAAAAAgEAAA8AAAAHAAAAFAEAAAMA
+AAADAAAAFwEAABEAAAAHAAAAKQEAAAMAAAAHAAAALQEAAAQAAAARAAAAMgEAABUAAAAHAAAASgEA
+AAMAAAADAAAATQEAABcAAAAHAAAAZQEAAAQAAAAHAAAAagEAAAQAAAARAAAAbwEAAA0AAAAHAAAA
+fwEAAAMAAAADAAAAggEAAA8AAAAHAAAAkgEAAAIAAAAHAAAAlQEAAAQAAAARAAAAmgEAABAAAAAH
+AAAArQEAAAMAAAADAAAAsAEAABIAAAAHAAAAwwEAAAIAAAAHAAAAxgEAAAQAAAARAAAAywEAAB8A
+AAAHAAAA7QEAAAMAAAADAAAA8AEAACIAAAAHAAAAEwIAAAMAAAADAAAAHQIAACMAAAAHAAAAQwIA
+AAIAAAAHAAAARgIAAAQAAAARAAAASwIAACEAAAAHAAAAbwIAAAMAAAADAAAAcgIAACQAAAAHAAAA
+lwIAAAMAAAADAAAAoAIAACQAAAAHAAAAxwIAAAIAAAAHAAAAygIAAAQAAAARAAAAzwIAABcAAAAH
+AAAA6QIAAAMAAAADAAAA7AIAABoAAAAHAAAABwMAAAMAAAADAAAAEAMAABoAAAAHAAAALQMAAAMA
+AAAHAAAAPAMAAAIAAAAHAAAAPwMAAAQAAAARAAAARAMAABUAAAAHAAAAXAMAAAMAAAADAAAAXwMA
+ABgAAAAHAAAAeAMAAAMAAAADAAAAggMAABkAAAAHAAAAngMAAAMAAAAHAAAArAMAAAIAAAAAAAAA
+LlRvb2xTdHJpcC1Ub3BMZWZ0DQp7DQoJW1NraW4uTGVmdFRvcFN0eWxlXTsNCn0NCg0KLlRvb2xT
+dHJpcC1MZWZ0DQp7DQoJW1NraW4uTGVmdFN0eWxlXTsNCn0NCg0KLlRvb2xTdHJpcC1Cb3R0b21M
+ZWZ0DQp7DQoJW1NraW4uTGVmdEJvdHRvbVN0eWxlXTsgDQp9DQoNCi5Ub29sU3RyaXAtQ2VudGVy
+DQp7DQoJW1NraW4uQ2VudGVyU3R5bGVdOw0KfQ0KDQouVG9vbFN0cmlwLVRvcFJpZ2h0DQp7DQoJ
+W1NraW4uUmlnaHRUb3BTdHlsZV07IA0KfQ0KDQouVG9vbFN0cmlwLVJpZ2h0DQp7DQoJW1NraW4u
+UmlnaHRTdHlsZV07IA0KfQ0KDQouVG9vbFN0cmlwLUJvdHRvbVJpZ2h0DQp7DQoJW1NraW4uUmln
+aHRCb3R0b21TdHlsZV07ICANCn0NCg0KLlRvb2xTdHJpcC1Ub3ANCnsNCglbU2tpbi5Ub3BTdHls
+ZV07DQp9DQoNCi5Ub29sU3RyaXAtQm90dG9tDQp7DQoJW1NraW4uQm90dG9tU3R5bGVdOw0KfQ0K
+DQouVG9vU3RyaXAtVmVydGljYWxEcm9wRG93bkJ1dHRvbg0Kew0KCVtTa2luLlZlcnRpY2FsRHJv
+cERvd25CdXR0b25TdHlsZV07DQoJaGVpZ2h0OltTa2luLlZlcnRpY2FsRHJvcERvd25CdXR0b25I
+ZWlnaHRdcHg7DQp9DQoNCi5Ub29TdHJpcC1Ib3Jpem9udGFsRHJvcERvd25CdXR0b24NCnsNCglb
+U2tpbi5Ib3Jpem9udGFsRHJvcERvd25CdXR0b25TdHlsZV07DQoJd2lkdGg6W1NraW4uSG9yaXpv
+bnRhbERyb3BEb3duQnV0dG9uV2lkdGhdcHg7DQp9DQoNCi5Ub29TdHJpcC1Ib3Jpem9udGFsR3Jp
+cA0Kew0KCVtTa2luLkhvcml6b250YWxHcmlwU3R5bGVdOw0KCXdpZHRoOltTa2luLkhvcml6b250
+YWxHcmlwV2lkdGhdcHg7DQoJaGVpZ2h0OjEwMCU7DQp9DQoNCi5Ub29TdHJpcC1WZXJ0aWNhbEdy
+aXANCnsNCglbU2tpbi5WZXJ0aWNhbEdyaXBTdHlsZV07DQoJaGVpZ2h0OltTa2luLlZlcnRpY2Fs
+R3JpcEhlaWdodF1weDsNCgl3aWR0aDoxMDAlOw0KfQ==</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.xslt:Presentation" xml:space="preserve"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.css:CompilerActions" xml:space="preserve"><value>7</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.css:FileName" xml:space="preserve"><value>QuickAccessToolStripSkin.ToolStrip.css</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.jqt.js:PresentationDrawingEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>2</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.jqt.js:Visible" xml:space="preserve"><value>False</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.xslt:CompilerActions" xml:space="preserve"><value>7</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.css" xml:space="preserve"><value>StyleSheetResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.jqt.js:Inheritance" xml:space="preserve"><value>NotInherited</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.jqt.js:ContentType" xml:space="preserve"><value /></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.jqt.js:PresentationRole" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>101</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.jqt.js" xml:space="preserve"><value>JQTResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.xslt:PresentationRole" xml:space="preserve"><value>103</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.jqt.js:PresentationEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.css:PresentationRole" xml:space="preserve"><value>102</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.xslt:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAAChBwAAAAAAAAQAAAAEAAAAQldDPXdnY29udHJvbHMmeHNsPWh0dHAlM2ElMmYlMmZ3
+d3cudzMub3JnJTJmMTk5OSUyZlhTTCUyZlRyYW5zZm9ybQAAAAAMAAAAAAAAAI4AAAAHAAAAjwAA
+AAUAAAAGAAAAlAAAADIAAAAHAAAAxwAAAAMAAAAJAAAA4gAAAA4AAAAIAAAA8gAAABAAAAAHAAAA
+MwEAAAUAAAATAAAASQEAAAwAAAAHAAAAWgEAAAUAAAAVAAAAeAEAABMAAAAHAAAAjgEAAAcAAAAS
+AAAAqwEAABIAAAAQAAAAyAEAABQAAAAHAAAA4QEAAAcAAAASAAAA/gEAAAwAAAAQAAAAFQIAAA4A
+AAAHAAAAKAIAAAcAAAASAAAARQIAAA8AAAAQAAAAXwIAABEAAAAHAAAAdQIAAAcAAAASAAAAkgIA
+AAsAAAAQAAAAqAIAAA0AAAAHAAAAugIAAAcAAAASAAAA1wIAABAAAAAQAAAA8gIAABIAAAAHAAAA
+CQMAAAcAAAASAAAAJgMAAA0AAAAQAAAAPgMAAA8AAAAHAAAAUgMAAAcAAAASAAAAbwMAABMAAAAQ
+AAAAjQMAABUAAAAHAAAApwMAAAcAAAASAAAAxAMAAA4AAAAQAAAA3QMAABAAAAAHAAAA8gMAAAcA
+AAASAAAADwQAAA4AAAAQAAAAKAQAABAAAAAHAAAAPQQAAAcAAAASAAAAWgQAABEAAAADAAAAdQQA
+ABUAAAAHAAAAjgQAAAcAAAASAAAAqwQAABIAAAADAAAAxwQAABYAAAAHAAAA4gQAAAcAAAASAAAA
+/wQAABEAAAAHAAAAEgUAAAEAAAADAAAAGwUAABUAAAAHAAAANAUAAAcAAAASAAAAUQUAABQAAAAH
+AAAAZwUAAAEAAAADAAAAcAUAABgAAAAHAAAAjAUAAAcAAAASAAAAqQUAAAwAAAASAAAAwAUAAAwA
+AAAHAAAA0QUAAAUAAAAHAAAA6wUAAAYAAAAHAAAAAQYAAAUAAAAJAAAAHgYAAA4AAAAIAAAALgYA
+ABAAAAAHAAAAegYAAAUAAAAVAAAAmAYAAB4AAAAHAAAAugYAAAMAAAAHAAAAzQYAAAUAAAAJAAAA
+6gYAAA4AAAAIAAAA+gYAABAAAAAHAAAAPgcAAAUAAAAVAAAAXAcAABcAAAAHAAAAeAcAAAMAAAAH
+AAAAiwcAAAMAAAAMAAAAjgcAABEAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0i
+VVRGLTgiID8+DQo8eHNsOnN0eWxlc2hlZXQgdmVyc2lvbj0iMS4wIgl4bWxuczp4c2w9Imh0dHA6
+Ly93d3cudzMub3JnLzE5OTkvWFNML1RyYW5zZm9ybSIgeG1sbnM6V0M9IndnY29udHJvbHMiPg0K
+DQogIDwhLS0gVGhlIGN1c3RvbSBzdHlsZSBUb29sU3RyaXAgbWF0Y2ggdGVtcGxhdGUgLS0+DQog
+IDx4c2w6dGVtcGxhdGUgbWF0Y2g9IldDOlRhZ3MuVG9vbFN0cmlwW0BBdHRyLkN1c3RvbVN0eWxl
+PSdRdWlja0FjY2Vzc1Rvb2xTdHJpcFNraW4nXSIgbW9kZT0ibW9kQ29udGVudCI+DQogICAgPHhz
+bDpwYXJhbSBuYW1lPSJwcm1Jc0VuYWJsZWQiIC8+DQogICAgPHhzbDpjYWxsLXRlbXBsYXRlIG5h
+bWU9InRwbERyYXdUb29sU3RyaXBBUEkiPg0KICAgICAgPHhzbDp3aXRoLXBhcmFtIG5hbWU9InBy
+bUxlZnRCb3R0b21DbGFzcyIgc2VsZWN0PSInVG9vbFN0cmlwLUJvdHRvbUxlZnQnIi8+DQogICAg
+ICA8eHNsOndpdGgtcGFyYW0gbmFtZT0icHJtTGVmdENsYXNzIiBzZWxlY3Q9IidUb29sU3RyaXAt
+TGVmdCciLz4NCiAgICAgIDx4c2w6d2l0aC1wYXJhbSBuYW1lPSJwcm1MZWZ0VG9wQ2xhc3MiIHNl
+bGVjdD0iJ1Rvb2xTdHJpcC1Ub3BMZWZ0JyIvPg0KICAgICAgPHhzbDp3aXRoLXBhcmFtIG5hbWU9
+InBybVRvcENsYXNzIiBzZWxlY3Q9IidUb29sU3RyaXAtVG9wJyIvPg0KICAgICAgPHhzbDp3aXRo
+LXBhcmFtIG5hbWU9InBybVJpZ2h0VG9wQ2xhc3MiIHNlbGVjdD0iJ1Rvb2xTdHJpcC1Ub3BSaWdo
+dCciLz4NCiAgICAgIDx4c2w6d2l0aC1wYXJhbSBuYW1lPSJwcm1SaWdodENsYXNzIiBzZWxlY3Q9
+IidUb29sU3RyaXAtUmlnaHQnIi8+DQogICAgICA8eHNsOndpdGgtcGFyYW0gbmFtZT0icHJtUmln
+aHRCb3R0b21DbGFzcyIgc2VsZWN0PSInVG9vbFN0cmlwLUJvdHRvbVJpZ2h0JyIvPg0KICAgICAg
+PHhzbDp3aXRoLXBhcmFtIG5hbWU9InBybUJvdHRvbUNsYXNzIiBzZWxlY3Q9IidUb29sU3RyaXAt
+Qm90dG9tJyIvPg0KICAgICAgPHhzbDp3aXRoLXBhcmFtIG5hbWU9InBybUNlbnRlckNsYXNzIiBz
+ZWxlY3Q9IidUb29sU3RyaXAtQ2VudGVyJyIvPg0KICAgICAgPHhzbDp3aXRoLXBhcmFtIG5hbWU9
+InBybUxlZnRGcmFtZVdpZHRoIiBzZWxlY3Q9IltTa2luLkxlZnRGcmFtZVdpZHRoXSIvPg0KICAg
+ICAgPHhzbDp3aXRoLXBhcmFtIG5hbWU9InBybVJpZ2h0RnJhbWVXaWR0aCIgc2VsZWN0PSJbU2tp
+bi5SaWdodEZyYW1lV2lkdGhdIiAvPg0KICAgICAgPHhzbDp3aXRoLXBhcmFtIG5hbWU9InBybVRv
+cEZyYW1lSGVpZ2h0IiAgc2VsZWN0PSJbU2tpbi5Ub3BGcmFtZUhlaWdodF0iLz4NCiAgICAgIDx4
+c2w6d2l0aC1wYXJhbSBuYW1lPSJwcm1Cb3R0b21GcmFtZUhlaWdodCIgIHNlbGVjdD0iW1NraW4u
+Qm90dG9tRnJhbWVIZWlnaHRdIi8+DQogICAgICA8eHNsOndpdGgtcGFyYW0gbmFtZT0icHJtSXNF
+bmFibGVkIiBzZWxlY3Q9IiRwcm1Jc0VuYWJsZWQiIC8+DQogICAgPC94c2w6Y2FsbC10ZW1wbGF0
+ZT4gICANCiAgPC94c2w6dGVtcGxhdGU+DQoNCiAgPHhzbDp0ZW1wbGF0ZSBtYXRjaD0iV0M6VGFn
+cy5Ub29sU3RyaXBbQEF0dHIuQ3VzdG9tU3R5bGU9J1F1aWNrQWNjZXNzVG9vbFN0cmlwU2tpbidd
+IiBtb2RlPSJtb2RGcmFtZUNlbnRlckNvbnRlbnQiPg0KICAgIDx4c2w6Y2FsbC10ZW1wbGF0ZSBu
+YW1lPSJ0cGxEcmF3VG9vbFN0cmlwQ2VudGVyRnJhbWVBUEkiLz4NCiAgPC94c2w6dGVtcGxhdGU+
+DQoNCiAgPHhzbDp0ZW1wbGF0ZSBtYXRjaD0iV0M6VGFncy5Ub29sU3RyaXBbQEF0dHIuQ3VzdG9t
+U3R5bGU9J1F1aWNrQWNjZXNzVG9vbFN0cmlwU2tpbiddIiBtb2RlPSJtb2RBcHBseVN0eWxlIj4N
+CiAgICA8eHNsOmNhbGwtdGVtcGxhdGUgbmFtZT0idHBsQXBwbHlUb29sU3RyaXBTdHlsZXMiIC8+
+DQogIDwveHNsOnRlbXBsYXRlPg0KDQo8L3hzbDpzdHlsZXNoZWV0Pg0K</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.css:PresentationEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.css:Presentation" xml:space="preserve"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.jqt.js:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAADICgAAAAAAAAAAAAAHAAAAAQAAAAEAAAAGAAAAAgAAAM0BAAAHAAAAzwEAAAEAAAAJ
+AAAA5QEAAA4AAAAIAAAA9QEAABAAAAAHAAAAIwIAAAEAAAAHAAAAMQIAAAEAAAAZAAAAOgIAAAEA
+AAALAAAAOwIAAAkAAAAHAAAARQIAAAEAAAALAAAARgIAAAoAAAAHAAAAUQIAAAEAAAALAAAAUgIA
+AAcAAAAaAAAAWQIAAAEAAAAHAAAAWgIAAAEAAAAXAAAAWwIAAAEAAAAHAAAAXAIAAAUAAAAHAAAA
+cwIAAAEAAAAOAAAAdAIAAAcAAAAHAAAAiQIAAAUAAAAGAAAAjgIAACoAAAAHAAAAuAIAAAIAAAAe
+AAAAzQIAABMAAAAHAAAA4gIAAAEAAAAHAAAA6AIAAAEAAAAOAAAA6QIAAAkAAAAHAAAA8wIAAAEA
+AAAHAAAA9QIAAAQAAAAHAAAADQMAAAEAAAAQAAAADwMAABQAAAAHAAAAJQMAAAQAAAAHAAAANwMA
+AAEAAAAQAAAAOQMAAA4AAAAHAAAASQMAAAQAAAAHAAAAXgMAAAEAAAAQAAAAYAMAABEAAAAHAAAA
+cwMAAAQAAAAHAAAAhAMAAAEAAAAQAAAAhgMAAA0AAAAHAAAAlQMAAAQAAAAHAAAAqwMAAAEAAAAQ
+AAAArQMAABIAAAAHAAAAwQMAAAQAAAAHAAAA1AMAAAEAAAAQAAAA1gMAAA8AAAAHAAAA5wMAAAQA
+AAAHAAAAAAQAAAEAAAAQAAAAAgQAABUAAAAHAAAAGQQAAAQAAAAHAAAALQQAAAEAAAAQAAAALwQA
+ABAAAAAHAAAAQQQAAAQAAAAHAAAAVQQAAAEAAAAQAAAAVwQAABAAAAAHAAAAaQQAAAQAAAAHAAAA
+gAQAAAEAAAADAAAAgQQAABUAAAAHAAAAlwQAAAQAAAAHAAAArwQAAAEAAAADAAAAsAQAABYAAAAH
+AAAAxwQAAAQAAAAHAAAA3gQAAAEAAAADAAAA3wQAABUAAAAHAAAA9QQAAAQAAAAHAAAADwUAAAEA
+AAADAAAAEAUAABgAAAAHAAAAKQUAAAQAAAAHAAAAOwUAAAEAAAAHAAAASQUAAAIAAAAHAAAATgUA
+AAIAAAAYAAAAUAUAAAEAAAAHAAAAUwUAAAIAAAAGAAAAVQUAAJcBAAAHAAAA7AYAAAEAAAAJAAAA
+AgcAAA4AAAAIAAAAEgcAABAAAAAHAAAAQAcAAAEAAAAHAAAAWQcAAAEAAAAZAAAAYgcAAAEAAAAL
+AAAAYwcAAAkAAAAHAAAAbQcAAAEAAAALAAAAbgcAAAoAAAAHAAAAeQcAAAEAAAALAAAAegcAAAcA
+AAAaAAAAgQcAAAEAAAAHAAAAggcAAAEAAAAXAAAAgwcAAAEAAAAHAAAAhAcAAAcAAAAGAAAAiwcA
+ADUAAAAHAAAAwAcAAAIAAAAeAAAA1QcAAB4AAAAHAAAA9QcAAAEAAAAHAAAA+wcAAAEAAAAOAAAA
+/AcAAAkAAAAHAAAABwgAAAIAAAAYAAAACQgAAAEAAAAHAAAADAgAAAIAAAAGAAAADggAAJcBAAAH
+AAAApQkAAAEAAAAJAAAAuwkAAA4AAAAIAAAAywkAABAAAAAHAAAA+QkAAAEAAAAHAAAACgoAAAEA
+AAAZAAAAEwoAAAEAAAALAAAAFAoAAAkAAAAHAAAAHgoAAAEAAAALAAAAHwoAAAoAAAAHAAAAKgoA
+AAEAAAALAAAAKwoAAAcAAAAaAAAAMgoAAAEAAAAHAAAAMwoAAAEAAAAXAAAANAoAAAEAAAAHAAAA
+NQoAAAcAAAAGAAAAPAoAAC4AAAAHAAAAagoAAAIAAAAeAAAAfwoAABcAAAAHAAAAmAoAAAEAAAAH
+AAAAngoAAAEAAAAOAAAAnwoAAAkAAAAHAAAAqgoAAAIAAAAYAAAArAoAAAEAAAAHAAAArwoAAAIA
+AAAGAAAAsQoAABAAAAAHAAAAwQoAAAcAAAAAAAAADQovLy8gPHRlbXBsYXRlIGZvcj0iV0M6VGFn
+cy5Ub29sU3RyaXBbQEF0dHIuQ3VzdG9tU3R5bGU9J1F1aWNrQWNjZXNzVG9vbFN0cmlwU2tpbidd
+Ij4NCi8vLyA8c3VtbWFyeT4NCi8vLyBUaGUgY3VzdG9tIHN0eWxlIFRvb2xTdHJpcCBtYXRjaCB0
+ZW1wbGF0ZQ0KLy8vIDwvc3VtbWFyeT4NCi8vLyA8cGFyYW0gbmFtZT0ib2JqV3JpdGVyIj5UaGUg
+YnVmZmVyIG9iamVjdCB3aGljaCB3aWxsIGJlIHVzZWQgYXMgd3JpdGVyIGZvciBKUyBjb2RlLjwv
+cGFyYW0+DQovLy8gPHBhcmFtIG5hbWU9Im9iakNvbnRleHQiPkEgY29udGV4dCBvYmplY3Qgd2hp
+Y2ggaG9sZHMgZ2xvYmFsIGluZm9ybWF0aW9uLjwvcGFyYW0+DQovLy8gPHBhcmFtIG5hbWU9Im9i
+akFyZ3MiPkFyZ3VtZW50cyB0aGF0IGJlZW4gc2VudCB0byB0aGlzIHRlbXBsYXRlOg0KLy8vICog
+b2JqQXJncy5wcm1Jc0VuYWJsZWQgLQ0KLy8vIDwvcGFyYW0+DQokLmpxdHJlZ3RlbXBsYXRlKCJX
+QzpUYWdzLlRvb2xTdHJpcFtAQXR0ci5DdXN0b21TdHlsZT0nUXVpY2tBY2Nlc3NUb29sU3RyaXBT
+a2luJ10iLCAibW9kQ29udGVudCIsIGZ1bmN0aW9uKG9ialdyaXRlciwgb2JqQ29udGV4dCwgb2Jq
+QXJncykgew0KDQoJdmFyIHBybUlzRW5hYmxlZCA9IG9iakFyZ3MucHJtSXNFbmFibGVkOw0KDQoJ
+Ly8gQ2FsbCB0aGUgdHBsRHJhd1Rvb2xTdHJpcEFQSSB0ZW1wbGF0ZS4NCgkkLmpxdGNhbGx0ZW1w
+bGF0ZSgidHBsRHJhd1Rvb2xTdHJpcEFQSSIsIHRoaXMsIG9ialdyaXRlciwgew0KCQlwcm1MZWZ0
+Qm90dG9tQ2xhc3MgOiAiVG9vbFN0cmlwLUJvdHRvbUxlZnQiLA0KCQlwcm1MZWZ0Q2xhc3MgOiAi
+VG9vbFN0cmlwLUxlZnQiLA0KCQlwcm1MZWZ0VG9wQ2xhc3MgOiAiVG9vbFN0cmlwLVRvcExlZnQi
+LA0KCQlwcm1Ub3BDbGFzcyA6ICJUb29sU3RyaXAtVG9wIiwNCgkJcHJtUmlnaHRUb3BDbGFzcyA6
+ICJUb29sU3RyaXAtVG9wUmlnaHQiLA0KCQlwcm1SaWdodENsYXNzIDogIlRvb2xTdHJpcC1SaWdo
+dCIsDQoJCXBybVJpZ2h0Qm90dG9tQ2xhc3MgOiAiVG9vbFN0cmlwLUJvdHRvbVJpZ2h0IiwNCgkJ
+cHJtQm90dG9tQ2xhc3MgOiAiVG9vbFN0cmlwLUJvdHRvbSIsDQoJCXBybUNlbnRlckNsYXNzIDog
+IlRvb2xTdHJpcC1DZW50ZXIiLA0KCQlwcm1MZWZ0RnJhbWVXaWR0aCA6IFtTa2luLkxlZnRGcmFt
+ZVdpZHRoXSwNCgkJcHJtUmlnaHRGcmFtZVdpZHRoIDogW1NraW4uUmlnaHRGcmFtZVdpZHRoXSwN
+CgkJcHJtVG9wRnJhbWVIZWlnaHQgOiBbU2tpbi5Ub3BGcmFtZUhlaWdodF0sDQoJCXBybUJvdHRv
+bUZyYW1lSGVpZ2h0IDogW1NraW4uQm90dG9tRnJhbWVIZWlnaHRdLA0KCQlwcm1Jc0VuYWJsZWQg
+OiBwcm1Jc0VuYWJsZWQNCgl9KTsNCn0pOw0KLy8vIDwvdGVtcGxhdGU+DQoNCg0KDQovLy8gPHRl
+bXBsYXRlIGZvcj0iV0M6VGFncy5Ub29sU3RyaXBbQEF0dHIuQ3VzdG9tU3R5bGU9J1F1aWNrQWNj
+ZXNzVG9vbFN0cmlwU2tpbiddIj4NCi8vLyA8c3VtbWFyeT4NCi8vLyANCi8vLyA8L3N1bW1hcnk+
+DQovLy8gPHBhcmFtIG5hbWU9Im9ialdyaXRlciI+VGhlIGJ1ZmZlciBvYmplY3Qgd2hpY2ggd2ls
+bCBiZSB1c2VkIGFzIHdyaXRlciBmb3IgSlMgY29kZS48L3BhcmFtPg0KLy8vIDxwYXJhbSBuYW1l
+PSJvYmpDb250ZXh0Ij5BIGNvbnRleHQgb2JqZWN0IHdoaWNoIGhvbGRzIGdsb2JhbCBpbmZvcm1h
+dGlvbi48L3BhcmFtPg0KLy8vIDxwYXJhbSBuYW1lPSJvYmpBcmdzIj5Bcmd1bWVudHMgdGhhdCBi
+ZWVuIHNlbnQgdG8gdGhpcyB0ZW1wbGF0ZS48L3BhcmFtPg0KJC5qcXRyZWd0ZW1wbGF0ZSgiV0M6
+VGFncy5Ub29sU3RyaXBbQEF0dHIuQ3VzdG9tU3R5bGU9J1F1aWNrQWNjZXNzVG9vbFN0cmlwU2tp
+biddIiwgIm1vZEZyYW1lQ2VudGVyQ29udGVudCIsIGZ1bmN0aW9uKG9ialdyaXRlciwgb2JqQ29u
+dGV4dCwgb2JqQXJncykgew0KDQoNCgkvLyBDYWxsIHRoZSB0cGxEcmF3VG9vbFN0cmlwQ2VudGVy
+RnJhbWVBUEkgdGVtcGxhdGUuDQoJJC5qcXRjYWxsdGVtcGxhdGUoInRwbERyYXdUb29sU3RyaXBD
+ZW50ZXJGcmFtZUFQSSIsIHRoaXMsIG9ialdyaXRlcik7DQp9KTsNCi8vLyA8L3RlbXBsYXRlPg0K
+DQoNCg0KLy8vIDx0ZW1wbGF0ZSBmb3I9IldDOlRhZ3MuVG9vbFN0cmlwW0BBdHRyLkN1c3RvbVN0
+eWxlPSdRdWlja0FjY2Vzc1Rvb2xTdHJpcFNraW4nXSI+DQovLy8gPHN1bW1hcnk+DQovLy8gDQov
+Ly8gPC9zdW1tYXJ5Pg0KLy8vIDxwYXJhbSBuYW1lPSJvYmpXcml0ZXIiPlRoZSBidWZmZXIgb2Jq
+ZWN0IHdoaWNoIHdpbGwgYmUgdXNlZCBhcyB3cml0ZXIgZm9yIEpTIGNvZGUuPC9wYXJhbT4NCi8v
+LyA8cGFyYW0gbmFtZT0ib2JqQ29udGV4dCI+QSBjb250ZXh0IG9iamVjdCB3aGljaCBob2xkcyBn
+bG9iYWwgaW5mb3JtYXRpb24uPC9wYXJhbT4NCi8vLyA8cGFyYW0gbmFtZT0ib2JqQXJncyI+QXJn
+dW1lbnRzIHRoYXQgYmVlbiBzZW50IHRvIHRoaXMgdGVtcGxhdGUuPC9wYXJhbT4NCiQuanF0cmVn
+dGVtcGxhdGUoIldDOlRhZ3MuVG9vbFN0cmlwW0BBdHRyLkN1c3RvbVN0eWxlPSdRdWlja0FjY2Vz
+c1Rvb2xTdHJpcFNraW4nXSIsICJtb2RBcHBseVN0eWxlIiwgZnVuY3Rpb24ob2JqV3JpdGVyLCBv
+YmpDb250ZXh0LCBvYmpBcmdzKSB7DQoNCg0KCS8vIENhbGwgdGhlIHRwbEFwcGx5VG9vbFN0cmlw
+U3R5bGVzIHRlbXBsYXRlLg0KCSQuanF0Y2FsbHRlbXBsYXRlKCJ0cGxBcHBseVRvb2xTdHJpcFN0
+eWxlcyIsIHRoaXMsIG9ialdyaXRlcik7DQp9KTsNCi8vLyA8L3RlbXBsYXRlPg0KDQoNCg0K</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.jqt.js:Presentation" xml:space="preserve"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.xslt:FileName" xml:space="preserve"><value>QuickAccessToolStripSkin.ToolStrip.xslt</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.xslt" xml:space="preserve"><value>TemplateResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.xslt:ContentType" xml:space="preserve"><value /></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.css:ContentType" xml:space="preserve"><value /></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.QuickAccessToolStripSkin:ToolStrip.jqt.js:CompilerActions" xml:space="preserve"><value>7</value></data>
+  </root>

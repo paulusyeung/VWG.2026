@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.htm:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAAABAgAAAAAAAAAAAAAEAAAADAAAABAAAAAHAAAAHwAAAAIAAAAHAAAAKAAAAAMAAAAH
+AAAAOwAAAAMAAAADAAAASwAAAAsAAAACAAAAcwAAAAQAAAAHAAAAgwAAAAMAAAADAAAAkwAAAAsA
+AAACAAAAvAAAAAQAAAAHAAAAzAAAAAMAAAADAAAA2wAAAAsAAAACAAAABQEAAAQAAAAHAAAAMAEA
+AAkAAAACAAAAWwEAAAQAAAAHAAAAawEAAAIAAAAHAAAAdQEAAAIAAAAOAAAAhQEAABkAAAAOAAAA
+rAEAABgAAAAHAAAA6wEAAAQAAAAHAAAA9wEAAAEAAAAHAAAAAAIAAAEAAAAAAAAAPEhUTUwgbGFu
+Zz0iQ29udGV4dC5MYW5ndWFnZSI+DQoJPEhFQUQ+DQoJCTxUSVRMRT48L1RJVExFPg0KCQk8U0NS
+SVBUIHNyYz0iW1NraW4uUGF0aF1SaWNoVGV4dEVkaXRvci5GcmFtZUNvbW1vbi5qcy53Z3giPjwv
+U0NSSVBUPg0KCQk8U0NSSVBUIHNyYz0iW1NraW4uUGF0aF1SaWNoVGV4dEVkaXRvci5GcmFtZUJy
+b3dzZXIuanMud2d4Ij48L1NDUklQVD4NCgkJPExJTksgaHJlZj0iW1NraW4uUGF0aF1SaWNoVGV4
+dEVkaXRvci5GcmFtZUJyb3dzZXIuY3NzLndneCIgdHlwZT10ZXh0L2NzcyByZWw9c3R5bGVzaGVl
+dD48L0xJTks+DQogICAgICAgIDxzY3JpcHQgc3JjPSJSZXNvdXJjZXMuSW5jbHVkZXMuanMud2d4
+Ij48L3NjcmlwdD4NCgk8L0hFQUQ+DQoJPEJPRFkgb25sb2FkPSJSaWNoVGV4dEVkaXRvcl9Jbml0
+aWFsaXplKCkiIG9udW5sb2FkPSJSaWNoVGV4dEVkaXRvcl9UZXJtaW5hdGUoKSIgc3R5bGU9Im1h
+cmdpbjoycHg7b3ZlcmZsb3c6YXV0bzsiPg0KDQoJPC9CT0RZPg0KPC9IVE1MPg0K</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.css:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAABYAQAAAAAAAAAAAAARAAAAAQAAABMAAAAHAAAAFwAAAAgAAAAHAAAAIAAAAAQAAAAR
+AAAAJQAAABwAAAAHAAAARAAAAAYAAAADAAAASgAAACQAAAAHAAAAbwAAAAIAAAAHAAAAcgAAAAQA
+AAAHAAAAfQAAAAcAAAAHAAAAkwAAAAMAAAAHAAAAlwAAAAQAAAAHAAAAvwAAAAIAAAAHAAAAwgAA
+AAYAAAAHAAAA3QAAAAYAAAAHAAAA8AAAAAcAAAAHAAAABgEAAAcAAAAHAAAALwEAAAYAAAAHAAAA
+PwEAAAYAAAAHAAAAUgEAAAIAAAAHAAAAVQEAAAMAAAAAAAAALlJpY2hUZXh0RWRpdG9yLUJvZHkN
+CnsNCiAgICANCn0NCg0KLlJpY2hUZXh0RWRpdG9yLUJvZHlfRGlzYWJsZWQNCnsNCiAgICBbU2tp
+bi5Db250cm9sVGV4dEJhY2tncm91bmREaXNhYmxlZF07DQp9DQoNCmh0bWwNCnsgDQogICAgb3Zl
+cmZsb3c6IGF1dG87IA0KfQ0KDQouUmljaFRleHRFZGl0b3JfTm9uU2Nyb2xsQmFyU3VwcG9ydCAN
+CnsNCiAgICB3b3JkLWJyZWFrOmJyZWFrLWFsbDsNCiAgICBoZWlnaHQ6IDEwMCU7IA0KICAgIG92
+ZXJmbG93OiBhdXRvOyANCiAgICAtd2Via2l0LW92ZXJmbG93LXNjcm9sbGluZzogdG91Y2g7DQog
+ICAgbWFyZ2luOiAwOw0KICAgIHBhZGRpbmc6IDhweDsNCn0gDQo=</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.css:FileName" xml:space="preserve"><value>RichTextEditorSkin.RichTextEditor.css</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.ie.js:AccessName" xml:space="preserve"><value>RichTextEditor.FrameCommon.js</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.css:PresentationRole" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>102</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.css:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAACbAAAAAAAAAAAAAAARAAAAAwAAABYAAAAHAAAAHAAAAAMAAAAHAAAAOAAAAAMAAAAH
+AAAATAAAAAIAAAAHAAAATwAAAAQAAAARAAAAVAAAAB8AAAAHAAAAdgAAAAYAAAADAAAAfAAAABsA
+AAAHAAAAmAAAAAIAAAAAAAAADQouUmljaFRleHRFZGl0b3ItQ29udHJvbA0Kew0KCWJvcmRlcjox
+cHggc29saWQgIzZGOUREOTsNCgliYWNrZ3JvdW5kOndoaXRlOw0KfQ0KDQouUmljaFRleHRFZGl0
+b3ItQ29udHJvbF9EaXNhYmxlZA0Kew0KICAgIFtTa2luLkNvbnRyb2xEaXNhYmxlZFN0eWxlXTsN
+Cn0=</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.moz.js:Presentation" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.moz.js:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAAAAAAAAAAAAAAAAAAAAAAAA</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.jqt.js:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAAAkBwAAAAAAAAAAAAAHAAAAAQAAAAEAAAAGAAAAAgAAAGsBAAAHAAAAbQEAAAEAAAAH
+AAAAiAEAAAEAAAAHAAAAlgEAAAEAAAAZAAAAnwEAAAEAAAALAAAAoAEAAAkAAAAHAAAAqgEAAAEA
+AAALAAAAqwEAAAoAAAAHAAAAtgEAAAEAAAALAAAAtwEAAAcAAAAaAAAAvgEAAAEAAAAHAAAAvwEA
+AAEAAAAXAAAAwAEAAAEAAAAHAAAAwQEAAAUAAAAHAAAA2AEAAAEAAAAOAAAA2QEAAAcAAAAHAAAA
+7gEAAAMAAAAPAAAA9QEAAAUAAAAHAAAA/AEAAAEAAAAHAAAADQIAAAEAAAAGAAAADgIAABYAAAAH
+AAAAJAIAAAIAAAAHAAAANwIAAAEAAAAHAAAATwIAAAEAAAAZAAAAWAIAAAEAAAALAAAAWQIAAAkA
+AAAaAAAAYgIAAAEAAAAXAAAAYwIAAAEAAAAHAAAAZAIAAAYAAAAGAAAAagIAACcAAAAHAAAAkQIA
+AAMAAAAeAAAApwIAABAAAAAHAAAAuQIAAAEAAAAHAAAAvwIAAAEAAAAOAAAAwAIAAAkAAAAHAAAA
+ywIAAAMAAAAYAAAAzgIAAAEAAAAHAAAA0QIAAAMAAAAHAAAA5wIAAAEAAAAHAAAA/wIAAAEAAAAZ
+AAAACAMAAAEAAAALAAAACQMAAAkAAAAaAAAAEgMAAAEAAAAXAAAAEwMAAAEAAAAHAAAAFAMAAAYA
+AAAGAAAAGgMAACkAAAAHAAAAQwMAAAMAAAAeAAAAWQMAABIAAAAHAAAAbQMAAAEAAAAHAAAAcwMA
+AAEAAAAOAAAAdAMAAAkAAAAHAAAAfwMAAAMAAAAYAAAAggMAAAEAAAAHAAAAhQMAAAMAAAAOAAAA
+iAMAAAkAAAAHAAAArwMAAAQAAAAOAAAAswMAAAkAAAAHAAAA0QMAAAEAAAAQAAAA0wMAABYAAAAH
+AAAA6wMAAAEAAAAHAAAA7gMAAAQAAAAGAAAA8gMAACAAAAAHAAAAEgQAAAMAAAAHAAAAJwQAAAEA
+AAAHAAAALQQAAAUAAAAOAAAAMgQAAAkAAAAQAAAARAQAABYAAAAHAAAAZgQAAAQAAAAHAAAAawQA
+AAMAAAAOAAAAbgQAAAkAAAAHAAAAjAQAAAMAAAAOAAAAjwQAAAkAAAAHAAAAqwQAAAEAAAAHAAAA
+uAQAAAEAAAAOAAAAuQQAAAUAAAAHAAAAvwQAAAEAAAAHAAAAzAQAAAEAAAAHAAAA2QQAAAEAAAAD
+AAAA2wQAAAsAAAACAAAABQUAAAQAAAAHAAAADwUAAAEAAAAOAAAAEAUAAAUAAAAHAAAAFgUAAAEA
+AAAHAAAAJQUAAAEAAAAHAAAANAUAAAEAAAAQAAAANgUAAA0AAAAQAAAARAUAABgAAAAQAAAAXQUA
+AA8AAAAQAAAAbQUAABQAAAAOAAAApgUAAAcAAAAOAAAArgUAABgAAAAHAAAAzgUAAAEAAAAIAAAA
+2gUAAAcAAAAHAAAA5AUAAAEAAAAHAAAA8wUAAAYAAAAGAAAA+QUAACAAAAAHAAAAGQYAAAMAAAAO
+AAAAHwYAAAoAAAAHAAAASQYAAAEAAAAHAAAATwYAAAUAAAAOAAAAVAYAAAkAAAAHAAAAgAYAAAUA
+AAAOAAAAhQYAAAkAAAAHAAAAugYAAAQAAAAHAAAAvwYAAAQAAAAOAAAAwwYAAAkAAAAHAAAA4gYA
+AAMAAAAOAAAA5QYAAAkAAAAHAAAABQcAAAIAAAAYAAAABwcAAAEAAAAHAAAACgcAAAIAAAAGAAAA
+DAcAABAAAAAHAAAAHAcAAAcAAAAAAAAADQovLy8gPHRlbXBsYXRlIGZvcj0iV0M6UlRFIj4NCi8v
+LyA8c3VtbWFyeT4NCi8vLyANCi8vLyA8L3N1bW1hcnk+DQovLy8gPHBhcmFtIG5hbWU9Im9ialdy
+aXRlciI+VGhlIGJ1ZmZlciBvYmplY3Qgd2hpY2ggd2lsbCBiZSB1c2VkIGFzIHdyaXRlciBmb3Ig
+SlMgY29kZS48L3BhcmFtPg0KLy8vIDxwYXJhbSBuYW1lPSJvYmpDb250ZXh0Ij5BIGNvbnRleHQg
+b2JqZWN0IHdoaWNoIGhvbGRzIGdsb2JhbCBpbmZvcm1hdGlvbi48L3BhcmFtPg0KLy8vIDxwYXJh
+bSBuYW1lPSJvYmpBcmdzIj5Bcmd1bWVudHMgdGhhdCBiZWVuIHNlbnQgdG8gdGhpcyB0ZW1wbGF0
+ZToNCi8vLyAqIG9iakFyZ3MucHJtSXNFbmFibGVkIC0NCi8vLyA8L3BhcmFtPg0KJC5qcXRyZWd0
+ZW1wbGF0ZSgiV0M6UlRFIiwgIm1vZENvbnRlbnQiLCBmdW5jdGlvbihvYmpXcml0ZXIsIG9iakNv
+bnRleHQsIG9iakFyZ3MpIHsNCg0KCXZhciBwcm1Jc0VuYWJsZWQgPSBvYmpBcmdzLnBybUlzRW5h
+YmxlZDsNCgl2YXIgc3RySWQgPSB0aGlzLmF0dHIoIklkIik7IC8vIEdlbmVyYXRlZCB2YXJpYWJs
+ZQ0KCXZhciB2YXJVcmxUaGVtZSA9ICQuanF0ZXhlY3RlbXBsYXRlKHRoaXMsIGZ1bmN0aW9uKG9i
+aldyaXRlcil7DQoNCgkJLy8gQ2FsbCB0aGUgdHBsV3JpdGVUaGVtZVVybCB0ZW1wbGF0ZS4NCgkJ
+JC5qcXRjYWxsdGVtcGxhdGUoInRwbFdyaXRlVGhlbWVVcmwiLCB0aGlzLCBvYmpXcml0ZXIpOw0K
+CX0pOw0KCXZhciB2YXJDbGFzc1RoZW1lID0gJC5qcXRleGVjdGVtcGxhdGUodGhpcywgZnVuY3Rp
+b24ob2JqV3JpdGVyKXsNCg0KCQkvLyBDYWxsIHRoZSB0cGxXcml0ZVRoZW1lQ2xhc3MgdGVtcGxh
+dGUuDQoJCSQuanF0Y2FsbHRlbXBsYXRlKCJ0cGxXcml0ZVRoZW1lQ2xhc3MiLCB0aGlzLCBvYmpX
+cml0ZXIpOw0KCX0pOw0KCW9ialdyaXRlci53cml0ZVN0YXJ0QXR0cmlidXRlKCJjbGFzcyIpOw0K
+CQlvYmpXcml0ZXIud3JpdGUodmFyQ2xhc3NUaGVtZSwgIlJpY2hUZXh0RWRpdG9yLUNvbnRyb2wi
+DQopOw0KCQkvLyB0b2RvOiBhZGQgZ2VuZXJhdGVkIGNvbW1lbnRzDQoJCWlmKHBybUlzRW5hYmxl
+ZCA9PSAiMCIpew0KCQkJb2JqV3JpdGVyLndyaXRlKCIgUmljaFRleHRFZGl0b3ItQ29udHJvbF9E
+aXNhYmxlZCIpOw0KCQl9DQoJb2JqV3JpdGVyLndyaXRlRW5kQXR0cmlidXRlKCk7DQoJb2JqV3Jp
+dGVyLndyaXRlVGFnKCJJRlJBTUUiLCAiaWQ9XCJUUkdfIiwgc3RySWQsICJcIiBzcmM9XCIiLCB2
+YXJVcmxUaGVtZSwgIltTa2luLlBhdGhdUmljaFRleHRFZGl0b3IuRnJhbWVCcm93c2VyLmh0bS53
+Z3g/aWQ9Iiwgc3RySWQsICJcIiBjbGFzcz1cIiIsIHZhckNsYXNzVGhlbWUsICJDb21tb24tU3Ry
+ZWNoIENvbW1vbi1BbGxvd1RyYW5zcGFyZW5jeSBDb21tb24tTm9Cb3JkZXIgUmljaFRleHRFZGl0
+b3ItRnJhbWVcIiBjb250ZW50RWRpdGFibGU9XCJ0cnVlXCIgb25sb2FkPVwibW9iakFwcC5XZWJf
+RW5mb3JjZUlGcmFtZVRoZW1pbmcoJiMzOTsiLCB0aGlzLmF0dHIoIkF0dHIuSWQiKSwgIiYjMzk7
+KTtcIiAiKTsNCg0KCQkvLyB0b2RvOiBhZGQgZ2VuZXJhdGVkIGNvbW1lbnRzDQoJCWlmKG9iakNv
+bnRleHQuZ2xvYmFscy52YXJCcm93c2VyT2Jzb2xldGVJRSA9PSAiMSIpew0KCQkJb2JqV3JpdGVy
+LndyaXRlQXR0cmlidXRlKCJmcmFtZWJvcmRlciIsIjAiKTsNCgkJCW9ialdyaXRlci53cml0ZUF0
+dHJpYnV0ZSgiYWxsb3d0cmFuc3BhcmVuY3kiLCJ0cnVlIik7DQoJCX0NCgkJb2JqV3JpdGVyLndy
+aXRlKCIgICAgICDCoCAgICAiKTsNCglvYmpXcml0ZXIud3JpdGVUYWdFbmQoIklGUkFNRSIpOw0K
+fSk7DQovLy8gPC90ZW1wbGF0ZT4NCg0KDQoNCg==</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.moz.js:AccessName" xml:space="preserve"><value>RichTextEditor.FrameCommon.js</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.js:PresentationRole" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.css" xml:space="preserve"><value>StyleSheetResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.js:PresentationEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.css:Presentation" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.moz.js" xml:space="preserve"><value>ScriptResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.css:PresentationEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.jqt.js:PresentationDrawingEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>2</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.jqt.js:Inheritance" xml:space="preserve"><value>NotInherited</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.js:Presentation" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.htm:FileName" xml:space="preserve"><value>RichTextEditorSkin.RichTextEditor.FrameBrowser.htm</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.xslt:Presentation" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.moz.js" xml:space="preserve"><value>ScriptResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.moz.js:PresentationEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>102</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.jqt.js:PresentationEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.css:PresentationEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.css:FileName" xml:space="preserve"><value>RichTextEditorSkin.RichTextEditor.FrameBrowser.css</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.js:PresentationRole" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>101</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.js:PresentationRole" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.moz.js:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAACpAAAAAAAAAAAAAAAHAAAAAQAAAAUAAAAKAAAADwAAABkAAAAZAAAAKAAAAAEAAAAa
+AAAAKQAAAAEAAAAHAAAAKgAAAAIAAAAXAAAALAAAAAEAAAAHAAAALQAAAAIAAAAYAAAALwAAAAEA
+AAAHAAAAMAAAAAQAAAAKAAAAPQAAABoAAAAZAAAAVwAAAAEAAAALAAAAWAAAAA0AAAAaAAAAZQAA
+AAEAAAAHAAAAZgAAAAIAAAAXAAAAaAAAAAEAAAAHAAAAaQAAAAYAAAAHAAAAhAAAAAEAAAAOAAAA
+hgAAAA0AAAAHAAAAoAAAAAYAAAAYAAAApgAAAAEAAAAHAAAApwAAAAIAAAAAAAAADQoNCg0KZnVu
+Y3Rpb24gUmljaFRleHRFZGl0b3JfU3BlbGxDaGVjaygpDQp7DQp9DQoNCmZ1bmN0aW9uIFJpY2hU
+ZXh0RWRpdG9yX1NldFJlYWRPbmx5KGJsbklzUmVhZE9ubHkpDQp7DQogICAgZG9jdW1lbnQuZGVz
+aWduTW9kZSA9IChibG5Jc1JlYWRPbmx5PyJvZmYiOiJvbiIpOyAgICANCn0NCg==</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.js:PresentationEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.js:PresentationEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.moz.js:PresentationRole" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.xslt:FileName" xml:space="preserve"><value>RichTextEditorSkin.RichTextEditor.xslt</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.xslt" xml:space="preserve"><value>TemplateResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.xslt:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAADcBAAAAAAAAAQAAAAEAAAAQldDPXdnY29udHJvbHMmeHNsPWh0dHAlM2ElMmYlMmZ3
+d3cudzMub3JnJTJmMTk5OSUyZlhTTCUyZlRyYW5zZm9ybQAAAAAMAAAAAAAAAI0AAAAHAAAAjgAA
+AAUAAAAHAAAAwwAAAAUAAAATAAAA2QAAAAwAAAAWAAAA/QAAAAsAAAAVAAAAIwEAABAAAAAWAAAA
+WgEAAA0AAAAVAAAAggEAABIAAAAHAAAAqAEAAAUAAAASAAAA4AEAAA0AAAAHAAAA8gEAAAcAAAAQ
+AAAAAwIAABYAAAAHAAAAJQIAAAcAAAASAAAAOwIAAAwAAAAHAAAATgIAAAkAAAAQAAAAYgIAABYA
+AAAHAAAAjQIAAAcAAAAHAAAAngIAAAUAAAAHAAAAtAIAAAUAAAASAAAA1wIAAAsAAAADAAAA4wIA
+AAsAAAACAAAADQMAAAQAAAASAAAAJQMAAA0AAAAQAAAAMwMAAA0AAAAQAAAAQQMAABgAAAAQAAAA
+WgMAAA8AAAAQAAAAagMAABQAAAAOAAAAnwMAAAcAAAAOAAAApwMAABgAAAAIAAAAwwMAAAcAAAAH
+AAAA0QMAAAcAAAASAAAA5wMAABQAAAAHAAAAAgQAAAkAAAAHAAAAPwQAAAkAAAAHAAAAhQQAAAcA
+AAAHAAAAlgQAAAcAAAAHAAAApAQAAAUAAAAHAAAAswQAAAMAAAAHAAAAxgQAAAUAAAAMAAAAywQA
+ABEAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjx4c2w6c3R5
+bGVzaGVldCB2ZXJzaW9uPSIxLjAiIHhtbG5zOnhzbD0iaHR0cDovL3d3dy53My5vcmcvMTk5OS9Y
+U0wvVHJhbnNmb3JtIiB4bWxuczpXQz0id2djb250cm9scyI+DQoNCiAgPHhzbDp0ZW1wbGF0ZSBt
+YXRjaD0iV0M6UlRFIiBtb2RlPSJtb2RDb250ZW50Ij4NCiAgICA8eHNsOnBhcmFtIG5hbWU9InBy
+bUlzRW5hYmxlZCIgLz48eHNsOnZhcmlhYmxlIG5hbWU9InZhclVybFRoZW1lIj48eHNsOmNhbGwt
+dGVtcGxhdGUgbmFtZT0idHBsV3JpdGVUaGVtZVVybCIgLz48L3hzbDp2YXJpYWJsZT48eHNsOnZh
+cmlhYmxlIG5hbWU9InZhckNsYXNzVGhlbWUiPjx4c2w6Y2FsbC10ZW1wbGF0ZSBuYW1lPSJ0cGxX
+cml0ZVRoZW1lQ2xhc3MiIC8+PC94c2w6dmFyaWFibGU+DQogICAgPHhzbDphdHRyaWJ1dGUgbmFt
+ZT0iY2xhc3MiPjx4c2w6dmFsdWUtb2Ygc2VsZWN0PSIkdmFyQ2xhc3NUaGVtZSIgLz4NCiAgICAg
+IDx4c2w6dGV4dD5SaWNoVGV4dEVkaXRvci1Db250cm9sPC94c2w6dGV4dD4NCiAgICAgIDx4c2w6
+aWYgdGVzdD0iJHBybUlzRW5hYmxlZD0nMCciPg0KICAgICAgICA8eHNsOnRleHQ+IFJpY2hUZXh0
+RWRpdG9yLUNvbnRyb2xfRGlzYWJsZWQ8L3hzbDp0ZXh0Pg0KICAgICAgPC94c2w6aWY+DQogICAg
+PC94c2w6YXR0cmlidXRlPg0KICAgIDxJRlJBTUUgaWQ9IlRSR197QElkfSIgc3JjPSJ7JHZhclVy
+bFRoZW1lfVtTa2luLlBhdGhdUmljaFRleHRFZGl0b3IuRnJhbWVCcm93c2VyLmh0bS53Z3g/aWQ9
+e0BJZH0iIGNsYXNzPSJ7JHZhckNsYXNzVGhlbWV9Q29tbW9uLVN0cmVjaCBDb21tb24tQWxsb3dU
+cmFuc3BhcmVuY3kgQ29tbW9uLU5vQm9yZGVyIFJpY2hUZXh0RWRpdG9yLUZyYW1lIiBjb250ZW50
+RWRpdGFibGU9InRydWUiIG9ubG9hZD0ibW9iakFwcC5XZWJfRW5mb3JjZUlGcmFtZVRoZW1pbmco
+J3tAQXR0ci5JZH0nKTsiPg0KICAgICAgPHhzbDppZiB0ZXN0PSIkdmFyQnJvd3Nlck9ic29sZXRl
+SUU9JzEnIj4NCiAgICAgICAgPHhzbDphdHRyaWJ1dGUgbmFtZT0iZnJhbWVib3JkZXIiPjA8L3hz
+bDphdHRyaWJ1dGU+DQogICAgICAgIDx4c2w6YXR0cmlidXRlIG5hbWU9ImFsbG93dHJhbnNwYXJl
+bmN5Ij50cnVlPC94c2w6YXR0cmlidXRlPg0KICAgICAgPC94c2w6aWY+DQogICAgICAmIzE2MDsN
+CiAgICA8L0lGUkFNRT4NCiAgPC94c2w6dGVtcGxhdGU+DQogIA0KPC94c2w6c3R5bGVzaGVldD4=</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.moz.js:FileName" xml:space="preserve"><value>RichTextEditorSkin.RichTextEditor.FrameCommon.moz.js</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.js:FileName" xml:space="preserve"><value>RichTextEditorSkin.RichTextEditor.FrameCommon.js</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.jqt.js:Visible" xml:space="preserve"><value>False</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.js:Presentation" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.xslt:PresentationDrawingEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.css:PresentationRole" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.css:Presentation" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.jqt.js" xml:space="preserve"><value>JQTResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.js:FileName" xml:space="preserve"><value>RichTextEditorSkin.RichTextEditor.js</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.xslt:PresentationRole" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>103</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.xslt:PresentationEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.htm:PresentationEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.js" xml:space="preserve"><value>ScriptResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.js:FileName" xml:space="preserve"><value>RichTextEditorSkin.RichTextEditor.FrameBrowser.js</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.ie.js" xml:space="preserve"><value>ScriptResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.js:Presentation" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.moz.js:PresentationRole" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.js" xml:space="preserve"><value>ScriptResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.htm:PresentationRole" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.ie.js:Presentation" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.js:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAAACAAAAAAAAAAAAAAAHAAAAAQAAAAEAAAAAAAAADQo=</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.jqt.js:PresentationRole" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>101</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.ie.js:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAAAuAgAAAAAAAAAAAAAHAAAAAQAAAAkAAAAKAAAAEwAAABkAAAAZAAAALAAAAAEAAAAa
+AAAALQAAAAEAAAAHAAAALgAAAAIAAAAXAAAAMAAAAAEAAAAHAAAAMQAAAAYAAAAHAAAAOwAAAAIA
+AAAHAAAAPgAAAAQAAAAHAAAAUAAAAAEAAAAHAAAAYwAAAAEAAAAHAAAAgAAAAAEAAAAHAAAAggAA
+AAQAAAAHAAAAoQAAAAEAAAAHAAAAsQAAAAEAAAAHAAAAswAAAAMAAAAHAAAAtwAAAAMAAAAHAAAA
+wgAAAAMAAAAHAAAAxgAAAAQAAAAHAAAA2AAAAAEAAAAHAAAA5gAAAAQAAAAHAAAA6wAAAAUAAAAH
+AAAA/AAAAAEAAAAHAAAAJAEAAAEAAAAHAAAANwEAAAEAAAAHAAAAOQEAAAQAAAAHAAAAPgEAAAQA
+AAAHAAAARwEAAAMAAAAHAAAASwEAAAUAAAAHAAAAVgEAAAEAAAAHAAAAcgEAAAEAAAAHAAAAfgEA
+AAEAAAAHAAAAhQEAAAEAAAAHAAAAkAEAAAEAAAAHAAAAlgEAAAEAAAAHAAAAmAEAAAcAAAAHAAAA
+oAEAAAMAAAAHAAAApAEAAAIAAAAYAAAApgEAAAEAAAAHAAAApwEAAAQAAAAKAAAAtAEAABoAAAAZ
+AAAAzgEAAAEAAAALAAAAzwEAAA0AAAAaAAAA3AEAAAEAAAAHAAAA3QEAAAIAAAAXAAAA3wEAAAEA
+AAAHAAAA4AEAAAYAAAAHAAAABQIAAAEAAAAOAAAABwIAAA0AAAAHAAAAJQIAAAYAAAAYAAAAKwIA
+AAEAAAAHAAAALAIAAAIAAAAAAAAADQoNCg0KDQoNCmZ1bmN0aW9uIFJpY2hUZXh0RWRpdG9yX1Nw
+ZWxsQ2hlY2soKQ0Kew0KICAgIHRyeQ0KCXsNCgkJdmFyIG9JZVNwZWxsID0gbmV3IEFjdGl2ZVhP
+YmplY3QoICJpZVNwZWxsLmllU3BlbGxFeHRlbnNpb24iICkgOw0KCQlvSWVTcGVsbC5DaGVja0Rv
+Y3VtZW50Tm9kZSggZG9jdW1lbnQuYm9keSApIDsNCgl9DQoJY2F0Y2goZSkNCgl7DQoJCWlmKGUu
+bnVtYmVyID09IC0yMTQ2ODI3ODU5ICkNCgkJew0KCQkJd2luZG93Lm9wZW4oICJodHRwOi8vd3d3
+Lmllc3BlbGwuY29tL2Rvd25sb2FkLnBocCIgLCAiSWVTcGVsbERvd25sb2FkIikgOw0KCQl9DQoJ
+CWVsc2UNCgkJew0KCQkJYWxlcnQoICdFcnJvciBMb2FkaW5nIGllU3BlbGw6ICcgKyBlLm1lc3Nh
+Z2UgKyAnICgnICsgZS5udW1iZXIgKyAnKScgKSA7DQoJICAgIH0NCgl9DQp9DQoNCmZ1bmN0aW9u
+IFJpY2hUZXh0RWRpdG9yX1NldFJlYWRPbmx5KGJsbklzUmVhZE9ubHkpDQp7DQogICAgZG9jdW1l
+bnQuYm9keS5jb250ZW50RWRpdGFibGUgPSAoYmxuSXNSZWFkT25seT8iZmFsc2UiOiJ0cnVlIik7
+ICAgIA0KfQ0K</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.ie.js:PresentationRole" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.jqt.js:Presentation" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.js:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>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
+mwoAAAgAAAAHAAAApAoAAAQAAAAHAAAAqQoAAAUAAAAGAAAArgoAAEIAAAAHAAAA8AoAAA0AAAAO
+AAAA/QoAAAcAAAAOAAAABQsAABEAAAAOAAAAFwsAAA0AAAAIAAAAJgsAAAsAAAAOAAAAMwsAAA4A
+AAAHAAAAQwsAABcAAAAGAAAAWgsAABAAAAAHAAAAagsAAAQAAAAPAAAAcgsAAAgAAAAHAAAAfAsA
+AAEAAAAOAAAAfQsAAAcAAAAOAAAAhQsAABIAAAAOAAAAmAsAAA0AAAAHAAAAvwsAAAoAAAAGAAAA
+yQsAABwAAAAHAAAA5QsAAAQAAAAOAAAA6QsAAAcAAAAOAAAA8QsAABgAAAAOAAAACgwAAAgAAAAH
+AAAAEwwAAAEAAAAIAAAAFQwAAAoAAAAHAAAAIQwAAAEAAAAOAAAAIgwAAA4AAAAHAAAAMgwAAA0A
+AAAGAAAAPwwAABsAAAAHAAAAWgwAAAQAAAAOAAAAYgwAAAgAAAAHAAAAawwAAAEAAAAOAAAAbAwA
+AAcAAAAOAAAAdAwAABIAAAAHAAAAiQwAAAcAAAAOAAAAkAwAAAcAAAAOAAAAmAwAABkAAAAOAAAA
+sgwAAAgAAAAHAAAAvAwAAAoAAAAGAAAAxgwAABoAAAAHAAAA4AwAAAQAAAAOAAAA5AwAAA8AAAAH
+AAAA9QwAAAEAAAAOAAAA9gwAAA4AAAAHAAAABQ0AAAQAAAAHAAAACg0AAAcAAAAHAAAAEg0AAAIA
+AAAYAAAAFA0AAAEAAAAHAAAAFQ0AAAoAAAAAAAAAdmFyIG1zdHJDb250cm9sSWQJCT0gIiI7DQp2
+YXIgbXN0ckNvbnRyb2xIdG1sCQk9ICIiOw0KDQoJDQpmdW5jdGlvbiBSaWNoVGV4dEVkaXRvcl9J
+bml0aWFsaXplKCkNCnsNCg0KCS8vIFNldCByZWZlcmVuY2UgdG8gYXBwbGljYXRpb24NCgl3aW5k
+b3cubW9iakFwcAk9IHdpbmRvdy5wYXJlbnQubW9iakFwcDsNCgkNCgkvLyBHZXQgdGhlIGNvbnRy
+b2wgaWQNCgltc3RyQ29udHJvbElkID0gbW9iakFwcC5XZWJfR2V0UXVlcnlTdHJpbmdQYXJhbShk
+b2N1bWVudC5sb2NhdGlvbi5ocmVmLCAiaWQiKTsNCg0KCS8vIEdldCBjb250cm9sIGRhdGEgbm9k
+ZQ0KCXZhciBvYmpOb2RlID0gbW9iakFwcC5EYXRhX0dldE5vZGUobXN0ckNvbnRyb2xJZCk7DQoJ
+DQoJLy8gR2V0IHRoZSBjb250cm9sIGh0bWwNCgltc3RyQ29udHJvbEh0bWwgPSBtb2JqQXBwLkRh
+dGFfR2V0Tm9kZUF0dHJpYnV0ZShvYmpOb2RlLCAiQXR0ci5WYWx1ZSIsICIiKTsNCg0KCS8vIElm
+IEhUTUwgdmFsdWUgaXMgbm90IGVtcHR5LCBkZWNvZGUgaXQNCiAgICBpZiAoIW1vYmpBcHAuQXV4
+X0lzTnVsbE9yRW1wdHkobXN0ckNvbnRyb2xIdG1sKSkNCiAgICB7DQogICAgICAgIG1zdHJDb250
+cm9sSHRtbCA9IG1vYmpBcHAuQXV4X0RlY29kZVRleHQobXN0ckNvbnRyb2xIdG1sLCB0cnVlKTsN
+Cgl9DQoNCgkvLyBHZXQgdGhlIEVuYWJsZWQgYXR0cmlidXRlLg0KCXZhciBibG5Jc0Rpc2FibGVk
+ID0gKG1vYmpBcHAuRGF0YV9HZXROb2RlQXR0cmlidXRlKG9iak5vZGUsICJBdHRyLkVuYWJsZWQi
+LCAiMSIpID09ICIwIik7DQoJDQoJLy8gR2V0IHRoZSByZWFkIG9ubHkgYXR0cmlidXRlLg0KCXZh
+ciBibG5Jc1JlYWRPbmx5ID0gKG1vYmpBcHAuRGF0YV9HZXROb2RlQXR0cmlidXRlKG9iak5vZGUs
+ICJBdHRyLlJlYWRPbmx5IiwgIjAiKSA9PSAiMSIpOw0KDQoNCglSaWNoVGV4dEVkaXRvcl9TZXRS
+ZWFkT25seShibG5Jc1JlYWRPbmx5IHx8IGJsbklzRGlzYWJsZWQpOw0KDQoJLy9EZWZpbmUgZGVm
+YXVsdCBjbGFzcw0KCWRvY3VtZW50LmJvZHkuY2xhc3NOYW1lID0gIlJpY2hUZXh0RWRpdG9yLUJv
+ZHkiOw0KICAgIA0KICAgIC8vIENoZWNrIGlmIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCBzY3Jv
+bGxiYXJzLg0KICAgIGlmICghbW9iakFwcC5XZWJfU3VwcG9ydHNNSVNDQnJvd3NlckNhcGFiaWxp
+dHkoNTEyKSkNCiAgICB7ICAgICAgICANCiAgICAgICAgLy9BZGQgLXdlYmtpdC1vdmVyZmxvdy1z
+Y3JvbGxpbmcgc3VwcG9ydA0KICAgICAgICBkb2N1bWVudC5ib2R5LmNsYXNzTmFtZSArPSAiIFJp
+Y2hUZXh0RWRpdG9yX05vblNjcm9sbEJhclN1cHBvcnQiOw0KICAgIH0NCiANCiAgICBtb2JqQXBw
+LldlYl9TZXRJbm5lckh0bWwoZG9jdW1lbnQuYm9keSwgbXN0ckNvbnRyb2xIdG1sKTsNCg0KCWlm
+IChibG5Jc0Rpc2FibGVkKQ0KCXsNCgkgICAgZG9jdW1lbnQuYm9keS5jbGFzc05hbWUgKz0gIiBS
+aWNoVGV4dEVkaXRvci1Cb2R5X0Rpc2FibGVkIjsNCgl9DQoNCgltb2JqQXBwLkV2ZW50c19BdHRh
+Y2hPblN1Ym1pdChtc3RyQ29udHJvbElkLFJpY2hUZXh0RWRpdG9yX09uU3VibWl0KTsNCn0NCg0K
+ZnVuY3Rpb24gUmljaFRleHRFZGl0b3JfT25TdWJtaXQoKQ0Kew0KCVJpY2hUZXh0RWRpdG9yX1Nh
+dmUoZmFsc2UpOw0KfQ0KDQoNCmZ1bmN0aW9uIFJpY2hUZXh0RWRpdG9yX1Rlcm1pbmF0ZSgpDQp7
+DQoJbW9iakFwcC5FdmVudHNfRGV0YWNoT25TdWJtaXQobXN0ckNvbnRyb2xJZCk7DQp9DQoNCg0K
+DQpmdW5jdGlvbiBSaWNoVGV4dEVkaXRvcl9HZXRTZWxlY3Rpb24oKSANCnsNCglpZihkb2N1bWVu
+dC5zZWxlY3Rpb24pDQoJew0KCQlyZXR1cm4gZG9jdW1lbnQuc2VsZWN0aW9uLmNyZWF0ZVJhbmdl
+KCk7DQoJfQ0KfQ0KDQpmdW5jdGlvbiBSaWNoVGV4dEVkaXRvcl9FeGVjdXRlKHN0ckNvbW1hbmQs
+IHN0clBhcmFtMSwgc3RyUGFyYW0yKSANCnsNCgl0cnkNCgl7DQoJICAgIC8vIFNldCBmb2N1cyB0
+byB3aW5kb3cgYmVmb3JlIGV4ZWN1dGluZyBhY3Rpb24NCgkgICAgd2luZG93LmZvY3VzKCk7DQoJ
+ICAgIA0KCSAgICBzd2l0Y2goc3RyQ29tbWFuZCkNCgkgICAgewkgICAgICAgIA0KCSAgICAgICAg
+Y2FzZSAiUHJpbnQiOg0KCSAgICAgICAgICAgIHdpbmRvdy5wcmludCgpOw0KCSAgICAgICAgICAg
+IGJyZWFrOw0KICAgICAgICAgICAgY2FzZSAiU2VsZWN0IjoNCiAgICAgICAgICAgIA0KICAgICAg
+ICAgICAgICAgIGJyZWFrOw0KICAgICAgICAgICAgY2FzZSAiU3BlbGxpbmciOg0KICAgICAgICAg
+ICAgICAgIFJpY2hUZXh0RWRpdG9yX1NwZWxsQ2hlY2soKTsNCiAgICAgICAgICAgICAgICBicmVh
+azsNCiAgICAgICAgICAgIGRlZmF1bHQ6DQogICAgICAgICAgICAgICAgZG9jdW1lbnQuZXhlY0Nv
+bW1hbmQoc3RyQ29tbWFuZCwgc3RyUGFyYW0xLCBzdHJQYXJhbTIpOw0KICAgICAgICAgICAgYnJl
+YWs7DQoJICAgIH0NCg0KCX0NCgljYXRjaChlKQ0KCXsNCgkJYWxlcnQoIkludmFsaWQgY29tbWFu
+ZCAnIitzdHJDb21tYW5kKyInOiAiK2UuZGVzY3JpcHRpb24pOw0KCX0NCn0NCg0KZnVuY3Rpb24g
+UmljaFRleHRFZGl0b3JfU2F2ZShibG5Gb3JjZSkNCnsNCg0KCXZhciBvYmpEb2N1bWVudCA9IGRv
+Y3VtZW50Ow0KCWlmKG9iakRvY3VtZW50KQ0KCXsNCgkJdmFyIHN0ckNvbnRyb2xIdG1sID0gb2Jq
+RG9jdW1lbnQuYm9keS5pbm5lckhUTUw7DQoJCWlmKG1zdHJDb250cm9sSHRtbCE9c3RyQ29udHJv
+bEh0bWwgfHwgYmxuRm9yY2UpDQoJCXsNCgkJCS8vIG9uIHRoZSBjbGllbnQgc2lkZS4gVGhpcyBp
+cyBsZWZ0IGZvciB0aGUgZGV2ZWxvcGVyIHRvIGhhbmRsZS4gDQogICAgICAgICAgICBtb2JqQXBw
+LkRhdGFfU2V0QXR0cmlidXRlKG1zdHJDb250cm9sSWQsIkF0dHIuU291cmNlIixzdHJDb250cm9s
+SHRtbCk7DQogICAgICAgICAgICAgICAgDQoJCQkvLyBDcmVhdGUgZXZlbnQNCgkJCXZhciBvYmpF
+dmVudCA9IG1vYmpBcHAuRXZlbnRzX0NyZWF0ZUV2ZW50KG1zdHJDb250cm9sSWQsIlZhbHVlQ2hh
+bmdlIixudWxsLHRydWUpOw0KCQkJDQoJCQkvLyBTZXQgZXZlbnQgdGV4dCBhdHRyaWJ1ZXQNCgkJ
+CW1vYmpBcHAuRXZlbnRzX1NldEV2ZW50QXR0cmlidXRlKG9iakV2ZW50LCAiQXR0ci5WYWx1ZSIs
+IHN0ckNvbnRyb2xIdG1sKTsJCQkNCgkJCQ0KCQkJLy8gUmFpc2UgZXZlbnQgaWYgY3JpdGljYWwN
+CgkJCWlmIChibG5Gb3JjZSkgbW9iakFwcC5FdmVudHNfUmFpc2VFdmVudHMoKTsNCg0KCQkJbW9i
+akFwcC5FdmVudHNfUHJvY2Vzc0NsaWVudEV2ZW50KG9iakV2ZW50KTsNCgkJCQ0KCQkJLy8gU2F2
+ZSBsYXN0IHVwZGF0ZWQgaHRtbA0KCQkJbXN0ckNvbnRyb2xIdG1sID0gc3RyQ29udHJvbEh0bWw7
+DQoJCX0NCgkJDQoJfQ0KfQ0KDQoNCg0KDQo=</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.moz.js:Presentation" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.js" xml:space="preserve"><value>ScriptResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.moz.js:FileName" xml:space="preserve"><value>RichTextEditorSkin.RichTextEditor.FrameBrowser.moz.js</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.ie.js:FileName" xml:space="preserve"><value>RichTextEditorSkin.RichTextEditor.FrameCommon.ie.js</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.moz.js:AccessName" xml:space="preserve"><value>RichTextEditorSkin.RichTextEditor.FrameBrowser.js</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.htm" xml:space="preserve"><value>HtmlResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.css" xml:space="preserve"><value>StyleSheetResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.moz.js:PresentationEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>102</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.jqt.js:FileName" xml:space="preserve"><value>D:\My Work\branches\10.0.5\Net4.5.2\Private\Core\Gizmox.WebGUI.Forms.Office\obj\Commercial Deployment\RichTextEditorSkin.RichTextEditor.jqt.js</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameCommon.ie.js:PresentationEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>101</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.FrameBrowser.htm:Presentation" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RichTextEditorSkin:RichTextEditor.js:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAACUAwAAAAAAAAAAAAAHAAAAAQAAAAUAAAAGAAAABgAAAIYBAAAHAAAAjAEAAAEAAAAK
+AAAAlgEAABYAAAAZAAAArAEAAAEAAAALAAAArQEAAAcAAAALAAAAtQEAAAoAAAALAAAAwAEAAAkA
+AAALAAAAygEAAAkAAAAaAAAA0wEAAAEAAAAHAAAA1AEAAAIAAAAXAAAA1gEAAAEAAAAHAAAA1wEA
+AAYAAAAGAAAA3QEAACgAAAAHAAAABQIAAAUAAAAPAAAADgIAAAkAAAAHAAAAGQIAAAEAAAAOAAAA
+GgIAABwAAAAOAAAANwIAAAcAAAAHAAAAQAIAAAYAAAAOAAAASQIAAAkAAAAHAAAAUwIAAAYAAAAH
+AAAAWgIAAA0AAAAGAAAAZwIAACUAAAAHAAAAjAIAAAkAAAAOAAAAmAIAAAkAAAAOAAAAsAIAABYA
+AAAHAAAAxwIAAAoAAAAHAAAA0gIAAA4AAAAGAAAA4AIAADIAAAAHAAAAEgMAAA0AAAAOAAAAHwMA
+AAkAAAAOAAAANwMAABYAAAAOAAAATgMAAAoAAAAOAAAAWQMAAAkAAAAOAAAAYwMAAAkAAAAHAAAA
+bgMAAAoAAAAHAAAAeQMAAAYAAAAHAAAAgAMAAAIAAAAYAAAAggMAAAEAAAAHAAAAgwMAAAIAAAAG
+AAAAhQMAAA4AAAAHAAAAkwMAAAEAAAAAAAAADQoNCg0KLy8vIDxtZXRob2QgbmFtZT0iUmljaFRl
+eHRFZGl0b3JfRXhlY3V0ZSI+DQovLy8gPHN1bW1hcnk+DQovLy8gRXhlY3V0ZXMgYSByaWNodGV4
+dGJveCBjb21tYW5kKHVzZWQgYnkgdGhlIHNlcnZlciBjb250cm9sKQ0KLy8vIDwvc3VtbWFyeT4N
+Ci8vLyA8cGFyYW0gbmFtZT0ic3RyR3VpZCI+VGhlIGNvbXBvbmVudCBpZC48L3BhcmFtPg0KLy8v
+IDxwYXJhbSBuYW1lPSJzdHJDb21tYW5kIj5UaGUgY29tbWFuZCB0byBiZSBleGVjdXRlZC48L3Bh
+cmFtPg0KLy8vIDxwYXJhbSBuYW1lPSJzdHJQYXJhbUEiPlRoZSBmaXJzdCBjb21tYW5kIHBhcmFt
+ZXRlci48L3BhcmFtPg0KLy8vIDxwYXJhbSBuYW1lPSJzdHJQYXJhbUIiPlRoZSBzZWNvbmQgY29t
+bWFuZCBwYXJhbWV0ZXIuPC9wYXJhbT4NCmZ1bmN0aW9uIFJpY2hUZXh0RWRpdG9yX0V4ZWN1dGUo
+c3RyR3VpZCxzdHJDb21tYW5kLHN0clBhcmFtQSxzdHJQYXJhbUIpDQp7DQogICAgLy8gR2V0IElG
+cmFtZSBjb250YWluZWQgd2l0aCBpbiBlbGVtZW50DQogICAgdmFyIG9iaklGcmFtZSA9IFdlYl9H
+ZXRUYXJnZXRFbGVtZW50QnlEYXRhSWQoc3RyR3VpZCk7DQogICAgaWYob2JqSUZyYW1lKQ0KICAg
+IHsgICANCiAgICAgICAgLy8gQ2hlY2sgdGhhdCBpZnJhbWUgbWV0aG9kIGlzIGZvdW5kDQogICAg
+ICAgIGlmKG9iaklGcmFtZS5jb250ZW50V2luZG93LlJpY2hUZXh0RWRpdG9yX0V4ZWN1dGUpDQog
+ICAgICAgIHsNCiAgICAgICAgICAgIC8vIEFzc2lnbiBjb250cm9sIHRvIHRoZSByaWNodGV4dGJv
+eCBmcmFtZSBzY3JpcHQNCiAgICAgICAgICAgIG9iaklGcmFtZS5jb250ZW50V2luZG93LlJpY2hU
+ZXh0RWRpdG9yX0V4ZWN1dGUoc3RyQ29tbWFuZCxzdHJQYXJhbUEsc3RyUGFyYW1CKTsNCiAgICAg
+ICAgfQ0KICAgIH0NCn0NCi8vLyA8L21ldGhvZD4NCg==</value></data></root>

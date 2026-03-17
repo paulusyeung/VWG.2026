@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.css:ContentType" xml:space="preserve"><value /></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.css:Presentation" xml:space="preserve"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.css:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAACXAAAAAAAAAAAAAAARAAAAAQAAAA8AAAAHAAAAEwAAAAMAAAADAAAAFgAAAA0AAAAH
+AAAAJAAAAAMAAAADAAAAJwAAABEAAAAHAAAAOQAAAAMAAAADAAAAPAAAABMAAAAHAAAAUgAAAAQA
+AAARAAAAVwAAABgAAAAHAAAAcgAAAAYAAAADAAAAeAAAABsAAAAHAAAAlAAAAAIAAAAAAAAALlRh
+YlBhZ2UtQ29udHJvbA0Kew0KCVtTa2luLkJvcmRlcl07DQoJW1NraW4uQmFja2dyb3VuZF07DQoJ
+W1NraW4uVmlzdWFsRWZmZWN0XQ0KfQ0KDQouVGFiUGFnZS1Db250cm9sX0Rpc2FibGVkDQp7DQog
+ICAgW1NraW4uQ29udHJvbERpc2FibGVkU3R5bGVdOw0KfQ==</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.xslt:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAADKAgAAAAAAAAQAAAAEAAAAd0NvbW1vbj1odHRwJTNhJTJmJTJmd3d3Lmdpem1veC5j
+b20lMmZ3ZWJndWklMmZjb21tb24mV0M9d2djb250cm9scyZ4c2w9aHR0cCUzYSUyZiUyZnd3dy53
+My5vcmclMmYxOTk5JTJmWFNMJTJmVHJhbnNmb3JtAAAAAAwAAAAAAAAA9AAAAAcAAAD1AAAABwAA
+AAYAAAD8AAAAKAAAAAcAAAAlAQAAAwAAAAkAAABAAQAADAAAAAgAAABOAQAAEAAAAAcAAAB0AQAA
+AQAAAAcAAACMAQAABQAAABMAAACiAQAADAAAAAcAAACzAQAABQAAABUAAADRAQAAGQAAAAcAAADt
+AQAABwAAABIAAAAKAgAADwAAABAAAAAkAgAADwAAAAcAAAA4AgAABwAAABIAAABVAgAADAAAABIA
+AABsAgAADAAAAAcAAAB9AgAABQAAAAcAAACXAgAAAwAAAAcAAACqAgAABAAAAAwAAACuAgAAEQAA
+AAAAAAA8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJVVEYtOCIgPz4NCjx4c2w6c3R5bGVz
+aGVldCB2ZXJzaW9uPSIxLjAiIA0KICAgICAgICAgICAgICAgIHhtbG5zOnhzbD0iaHR0cDovL3d3
+dy53My5vcmcvMTk5OS9YU0wvVHJhbnNmb3JtIiANCgkgICAgICAgICAgICAgIHhtbG5zOldDPSJ3
+Z2NvbnRyb2xzIg0KCSAgICAgICAgICAgICAgeG1sbnM6Q29tbW9uPSJodHRwOi8vd3d3Lmdpem1v
+eC5jb20vd2ViZ3VpL2NvbW1vbiI+DQogIA0KICA8IS0tIERyYXdzIHRoZSB0YWIgcGFnZSBib2R5
+IGNvbnRlbnQgLS0+DQogIDx4c2w6dGVtcGxhdGUgbWF0Y2g9IldDOlRhZ3MuVGFiUGFnZVtAQXR0
+ci5DdXN0b21TdHlsZT0nUmliYm9uQmFyVGFiUGFnZSddIiAgbW9kZT0ibW9kQm9keUNvbnRlbnQi
+Pg0KICAgIDx4c2w6cGFyYW0gbmFtZT0icHJtSXNFbmFibGVkIiAvPg0KICAgIDx4c2w6Y2FsbC10
+ZW1wbGF0ZSBuYW1lPSJ0cGxEcmF3VGFiUGFnZUJvZHlDb250ZW50Ij4NCiAgICAgIDx4c2w6d2l0
+aC1wYXJhbSBuYW1lPSJwcm1UYWJQYWdlQ2xhc3MiIHNlbGVjdD0iJ1RhYlBhZ2UtQ29udHJvbCci
+Lz4NCiAgICAgIDx4c2w6d2l0aC1wYXJhbSBuYW1lPSJwcm1Jc0VuYWJsZWQiIHNlbGVjdD0iJHBy
+bUlzRW5hYmxlZCIgLz4NCiAgICA8L3hzbDpjYWxsLXRlbXBsYXRlPg0KICA8L3hzbDp0ZW1wbGF0
+ZT4NCiANCjwveHNsOnN0eWxlc2hlZXQ+DQoNCiAgDQogDQo=</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.jqt.js:Visible" xml:space="preserve"><value>False</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.css:PresentationEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.jqt.js:PresentationDrawingEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>2</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.jqt.js:PresentationEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.xslt:PresentationEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.css:CompilerActions" xml:space="preserve"><value>7</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.xslt:Presentation" xml:space="preserve"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.jqt.js:FileName" xml:space="preserve"><value>D:\My Work\branches\10.0.5\Net4.5.2\Private\Core\Gizmox.WebGUI.Forms.Office\obj\Commercial Deployment\RibbonBarTabPageSkin.RibbonBarTabPage.jqt.js</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.jqt.js:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAABSAwAAAAAAAAAAAAAHAAAAAQAAAAEAAAAGAAAAAgAAALkBAAAHAAAAuwEAAAEAAAAJ
+AAAA0QEAAAwAAAAIAAAA3wEAABAAAAAHAAAABQIAAAEAAAAHAAAAFwIAAAEAAAAZAAAAIAIAAAEA
+AAALAAAAIQIAAAkAAAAHAAAAKwIAAAEAAAALAAAALAIAAAoAAAAHAAAANwIAAAEAAAALAAAAOAIA
+AAcAAAAaAAAAPwIAAAEAAAAHAAAAQAIAAAEAAAAXAAAAQQIAAAEAAAAHAAAAQgIAAAUAAAAHAAAA
+WQIAAAEAAAAOAAAAWgIAAAcAAAAHAAAAbwIAAAUAAAAGAAAAdAIAADAAAAAHAAAApAIAAAIAAAAe
+AAAAuQIAABkAAAAHAAAA1AIAAAEAAAAHAAAA2gIAAAEAAAAOAAAA2wIAAAkAAAAHAAAA5QIAAAEA
+AAAHAAAA5wIAAAQAAAAHAAAA/AIAAAEAAAAQAAAA/gIAAA8AAAAHAAAADwMAAAQAAAAHAAAAIQMA
+AAEAAAAHAAAALwMAAAIAAAAHAAAANAMAAAIAAAAYAAAANgMAAAEAAAAHAAAAOQMAAAIAAAAGAAAA
+OwMAABAAAAAHAAAASwMAAAcAAAAAAAAADQovLy8gPHRlbXBsYXRlIGZvcj0iV0M6VGFncy5UYWJQ
+YWdlW0BBdHRyLkN1c3RvbVN0eWxlPSdSaWJib25CYXJUYWJQYWdlJ10iPg0KLy8vIDxzdW1tYXJ5
+Pg0KLy8vIERyYXdzIHRoZSB0YWIgcGFnZSBib2R5IGNvbnRlbnQNCi8vLyA8L3N1bW1hcnk+DQov
+Ly8gPHBhcmFtIG5hbWU9Im9ialdyaXRlciI+VGhlIGJ1ZmZlciBvYmplY3Qgd2hpY2ggd2lsbCBi
+ZSB1c2VkIGFzIHdyaXRlciBmb3IgSlMgY29kZS48L3BhcmFtPg0KLy8vIDxwYXJhbSBuYW1lPSJv
+YmpDb250ZXh0Ij5BIGNvbnRleHQgb2JqZWN0IHdoaWNoIGhvbGRzIGdsb2JhbCBpbmZvcm1hdGlv
+bi48L3BhcmFtPg0KLy8vIDxwYXJhbSBuYW1lPSJvYmpBcmdzIj5Bcmd1bWVudHMgdGhhdCBiZWVu
+IHNlbnQgdG8gdGhpcyB0ZW1wbGF0ZToNCi8vLyAqIG9iakFyZ3MucHJtSXNFbmFibGVkIC0NCi8v
+LyA8L3BhcmFtPg0KJC5qcXRyZWd0ZW1wbGF0ZSgiV0M6VGFncy5UYWJQYWdlW0BBdHRyLkN1c3Rv
+bVN0eWxlPSdSaWJib25CYXJUYWJQYWdlJ10iLCAibW9kQm9keUNvbnRlbnQiLCBmdW5jdGlvbihv
+YmpXcml0ZXIsIG9iakNvbnRleHQsIG9iakFyZ3MpIHsNCg0KCXZhciBwcm1Jc0VuYWJsZWQgPSBv
+YmpBcmdzLnBybUlzRW5hYmxlZDsNCg0KCS8vIENhbGwgdGhlIHRwbERyYXdUYWJQYWdlQm9keUNv
+bnRlbnQgdGVtcGxhdGUuDQoJJC5qcXRjYWxsdGVtcGxhdGUoInRwbERyYXdUYWJQYWdlQm9keUNv
+bnRlbnQiLCB0aGlzLCBvYmpXcml0ZXIsIHsNCgkJcHJtVGFiUGFnZUNsYXNzIDogIlRhYlBhZ2Ut
+Q29udHJvbCIsDQoJCXBybUlzRW5hYmxlZCA6IHBybUlzRW5hYmxlZA0KCX0pOw0KfSk7DQovLy8g
+PC90ZW1wbGF0ZT4NCg0KDQoNCg==</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.jqt.js:Presentation" xml:space="preserve"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.xslt:CompilerActions" xml:space="preserve"><value>7</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.jqt.js:Inheritance" xml:space="preserve"><value>NotInherited</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.jqt.js" xml:space="preserve"><value>JQTResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.xslt" xml:space="preserve"><value>TemplateResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.css" xml:space="preserve"><value>StyleSheetResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.css:FileName" xml:space="preserve"><value>RibbonBarTabPageSkin.RibbonBarTabPage.css</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.css:PresentationRole" xml:space="preserve"><value>102</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.xslt:PresentationRole" xml:space="preserve"><value>103</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.xslt:ContentType" xml:space="preserve"><value /></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.jqt.js:CompilerActions" xml:space="preserve"><value>7</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.xslt:FileName" xml:space="preserve"><value>RibbonBarTabPageSkin.RibbonBarTabPage.xslt</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.jqt.js:ContentType" xml:space="preserve"><value /></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RibbonBarTabPageSkin:RibbonBarTabPage.jqt.js:PresentationRole" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>101</value></data>
+  </root>

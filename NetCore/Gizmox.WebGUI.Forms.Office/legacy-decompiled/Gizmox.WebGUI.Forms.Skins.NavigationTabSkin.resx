@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.xslt:Presentation" xml:space="preserve"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.jqt.js:Visible" xml:space="preserve"><value>False</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.xslt:PresentationRole" xml:space="preserve"><value>103</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.jqt.js:Inheritance" xml:space="preserve"><value>NotInherited</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.css:FileName" xml:space="preserve"><value>NavigationTabSkin.NavigationTab.css</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.css:CompilerActions" xml:space="preserve"><value>7</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.jqt.js:PresentationRole" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>101</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.xslt" xml:space="preserve"><value>TemplateResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.xslt:PresentationDrawingEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.jqt.js:Presentation" xml:space="preserve"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.jqt.js:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAABwAwAAAAAAAAAAAAAHAAAAAQAAAAEAAAAGAAAAAgAAAMUBAAAHAAAAxwEAAAEAAAAJ
+AAAA3QEAAAwAAAAIAAAA6wEAAA8AAAAIAAAACQIAABAAAAAHAAAAHQIAAAEAAAAHAAAALwIAAAEA
+AAAZAAAAOAIAAAEAAAALAAAAOQIAAAkAAAAHAAAAQwIAAAEAAAALAAAARAIAAAoAAAAHAAAATwIA
+AAEAAAALAAAAUAIAAAcAAAAaAAAAVwIAAAEAAAAHAAAAWAIAAAEAAAAXAAAAWQIAAAEAAAAHAAAA
+WgIAAAUAAAAHAAAAcQIAAAEAAAAOAAAAcgIAAAcAAAAHAAAAhwIAAAUAAAAGAAAAjAIAADAAAAAH
+AAAAvAIAAAIAAAAeAAAA0QIAABkAAAAHAAAA7AIAAAEAAAAHAAAA8gIAAAEAAAAOAAAA8wIAAAkA
+AAAHAAAA/QIAAAEAAAAHAAAA/wIAAAQAAAAHAAAAFAMAAAEAAAAQAAAAFgMAABUAAAAHAAAALQMA
+AAQAAAAHAAAAPwMAAAEAAAAHAAAATQMAAAIAAAAHAAAAUgMAAAIAAAAYAAAAVAMAAAEAAAAHAAAA
+VwMAAAIAAAAGAAAAWQMAABAAAAAHAAAAaQMAAAcAAAAAAAAADQovLy8gPHRlbXBsYXRlIGZvcj0i
+V0M6VGFncy5UYWJQYWdlW0BBdHRyLkFwcGVhcmFuY2U9JzE2JyBhbmQgbm90KEBBdHRyLkN1c3Rv
+bVN0eWxlKV0iPg0KLy8vIDxzdW1tYXJ5Pg0KLy8vIERyYXdzIHRoZSB0YWIgcGFnZSBib2R5IGNv
+bnRlbnQNCi8vLyA8L3N1bW1hcnk+DQovLy8gPHBhcmFtIG5hbWU9Im9ialdyaXRlciI+VGhlIGJ1
+ZmZlciBvYmplY3Qgd2hpY2ggd2lsbCBiZSB1c2VkIGFzIHdyaXRlciBmb3IgSlMgY29kZS48L3Bh
+cmFtPg0KLy8vIDxwYXJhbSBuYW1lPSJvYmpDb250ZXh0Ij5BIGNvbnRleHQgb2JqZWN0IHdoaWNo
+IGhvbGRzIGdsb2JhbCBpbmZvcm1hdGlvbi48L3BhcmFtPg0KLy8vIDxwYXJhbSBuYW1lPSJvYmpB
+cmdzIj5Bcmd1bWVudHMgdGhhdCBiZWVuIHNlbnQgdG8gdGhpcyB0ZW1wbGF0ZToNCi8vLyAqIG9i
+akFyZ3MucHJtSXNFbmFibGVkIC0NCi8vLyA8L3BhcmFtPg0KJC5qcXRyZWd0ZW1wbGF0ZSgiV0M6
+VGFncy5UYWJQYWdlW0BBdHRyLkFwcGVhcmFuY2U9JzE2JyBhbmQgbm90KEBBdHRyLkN1c3RvbVN0
+eWxlKV0iLCAibW9kQm9keUNvbnRlbnQiLCBmdW5jdGlvbihvYmpXcml0ZXIsIG9iakNvbnRleHQs
+IG9iakFyZ3MpIHsNCg0KCXZhciBwcm1Jc0VuYWJsZWQgPSBvYmpBcmdzLnBybUlzRW5hYmxlZDsN
+Cg0KCS8vIENhbGwgdGhlIHRwbERyYXdUYWJQYWdlQm9keUNvbnRlbnQgdGVtcGxhdGUuDQoJJC5q
+cXRjYWxsdGVtcGxhdGUoInRwbERyYXdUYWJQYWdlQm9keUNvbnRlbnQiLCB0aGlzLCBvYmpXcml0
+ZXIsIHsNCgkJcHJtVGFiUGFnZUNsYXNzIDogIk5hdmlnYXRpb25UYWItQ29udHJvbCIsDQoJCXBy
+bUlzRW5hYmxlZCA6IHBybUlzRW5hYmxlZA0KCX0pOw0KfSk7DQovLy8gPC90ZW1wbGF0ZT4NCg0K
+DQoNCg==</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.jqt.js:PresentationEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.css:ContentType" xml:space="preserve"><value /></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.jqt.js:CompilerActions" xml:space="preserve"><value>7</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.xslt:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAADcAgAAAAAAAAQAAAAEAAAAd0NvbW1vbj1odHRwJTNhJTJmJTJmd3d3Lmdpem1veC5j
+b20lMmZ3ZWJndWklMmZjb21tb24mV0M9d2djb250cm9scyZ4c2w9aHR0cCUzYSUyZiUyZnd3dy53
+My5vcmclMmYxOTk5JTJmWFNMJTJmVHJhbnNmb3JtAAAAAAwAAAAAAAAA9AAAAAcAAAD1AAAABwAA
+AAYAAAD8AAAAKAAAAAcAAAAlAQAAAwAAAAkAAABAAQAADAAAAAgAAABOAQAADwAAAAgAAABsAQAA
+EAAAAAcAAACAAQAAAQAAAAcAAACYAQAABQAAABMAAACuAQAADAAAAAcAAAC/AQAABQAAABUAAADd
+AQAAGQAAAAcAAAD5AQAABwAAABIAAAAWAgAADwAAABAAAAAwAgAAFQAAAAcAAABKAgAABwAAABIA
+AABnAgAADAAAABIAAAB+AgAADAAAAAcAAACPAgAABQAAAAcAAACpAgAAAwAAAAcAAAC8AgAABAAA
+AAwAAADAAgAAEQAAAAAAAAA8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJVVEYtOCIgPz4N
+Cjx4c2w6c3R5bGVzaGVldCB2ZXJzaW9uPSIxLjAiIA0KICAgICAgICAgICAgICAgIHhtbG5zOnhz
+bD0iaHR0cDovL3d3dy53My5vcmcvMTk5OS9YU0wvVHJhbnNmb3JtIiANCgkgICAgICAgICAgICAg
+IHhtbG5zOldDPSJ3Z2NvbnRyb2xzIg0KCSAgICAgICAgICAgICAgeG1sbnM6Q29tbW9uPSJodHRw
+Oi8vd3d3Lmdpem1veC5jb20vd2ViZ3VpL2NvbW1vbiI+DQogIA0KICA8IS0tIERyYXdzIHRoZSB0
+YWIgcGFnZSBib2R5IGNvbnRlbnQgLS0+DQogIDx4c2w6dGVtcGxhdGUgbWF0Y2g9IldDOlRhZ3Mu
+VGFiUGFnZVtAQXR0ci5BcHBlYXJhbmNlPScxNicgYW5kIG5vdChAQXR0ci5DdXN0b21TdHlsZSld
+IiAgbW9kZT0ibW9kQm9keUNvbnRlbnQiPg0KICAgIDx4c2w6cGFyYW0gbmFtZT0icHJtSXNFbmFi
+bGVkIiAvPg0KICAgIDx4c2w6Y2FsbC10ZW1wbGF0ZSBuYW1lPSJ0cGxEcmF3VGFiUGFnZUJvZHlD
+b250ZW50Ij4NCiAgICAgIDx4c2w6d2l0aC1wYXJhbSBuYW1lPSJwcm1UYWJQYWdlQ2xhc3MiIHNl
+bGVjdD0iJ05hdmlnYXRpb25UYWItQ29udHJvbCciLz4NCiAgICAgIDx4c2w6d2l0aC1wYXJhbSBu
+YW1lPSJwcm1Jc0VuYWJsZWQiIHNlbGVjdD0iJHBybUlzRW5hYmxlZCIgLz4NCiAgICA8L3hzbDpj
+YWxsLXRlbXBsYXRlPg0KICA8L3hzbDp0ZW1wbGF0ZT4NCiANCjwveHNsOnN0eWxlc2hlZXQ+DQoN
+CiAgDQogDQo=</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.jqt.js:ContentType" xml:space="preserve"><value /></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.xslt:CompilerActions" xml:space="preserve"><value>7</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.xslt:ContentType" xml:space="preserve"><value /></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.xslt:PresentationEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.css:Presentation" xml:space="preserve"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.xslt:FileName" xml:space="preserve"><value>NavigationTabSkin.NavigationTab.xslt</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.css:PresentationRole" xml:space="preserve"><value>102</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.css:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAACjAAAAAAAAAAAAAAARAAAAAQAAABUAAAAHAAAAGQAAAAMAAAADAAAAHAAAAA0AAAAH
+AAAAKgAAAAMAAAADAAAALQAAABEAAAAHAAAAPwAAAAMAAAADAAAAQgAAABMAAAAHAAAAWAAAAAQA
+AAARAAAAXQAAAB4AAAAHAAAAfgAAAAYAAAADAAAAhAAAABsAAAAHAAAAoAAAAAIAAAAAAAAALk5h
+dmlnYXRpb25UYWItQ29udHJvbA0Kew0KCVtTa2luLkJvcmRlcl07DQoJW1NraW4uQmFja2dyb3Vu
+ZF07DQoJW1NraW4uVmlzdWFsRWZmZWN0XQ0KfQ0KDQouTmF2aWdhdGlvblRhYi1Db250cm9sX0Rp
+c2FibGVkDQp7DQogICAgW1NraW4uQ29udHJvbERpc2FibGVkU3R5bGVdOw0KfQ==</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.jqt.js:PresentationDrawingEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>2</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.css:PresentationEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.css" xml:space="preserve"><value>StyleSheetResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.jqt.js" xml:space="preserve"><value>JQTResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.NavigationTabSkin:NavigationTab.jqt.js:FileName" xml:space="preserve"><value>D:\My Work\branches\10.0.5\Net4.5.2\Private\Core\Gizmox.WebGUI.Forms.Office\obj\Commercial Deployment\NavigationTabSkin.NavigationTab.jqt.js</value></data>
+  </root>

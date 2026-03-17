@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.xslt:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAACYBwAAAAAAAAQAAAAEAAAAQldDPXdnY29udHJvbHMmeHNsPWh0dHAlM2ElMmYlMmZ3
+d3cudzMub3JnJTJmMTk5OSUyZlhTTCUyZlRyYW5zZm9ybQAAAAAMAAAAAAAAAI4AAAAHAAAAjwAA
+AAUAAAAGAAAAlAAAADIAAAAHAAAAxwAAAAMAAAAJAAAA4gAAAA4AAAAIAAAA8gAAABAAAAAHAAAA
+MQEAAAUAAAATAAAARwEAAAwAAAAHAAAAWAEAAAUAAAAVAAAAdgEAABMAAAAHAAAAjAEAAAcAAAAS
+AAAAqQEAABIAAAAQAAAAxgEAABQAAAAHAAAA3wEAAAcAAAASAAAA/AEAAAwAAAAQAAAAEwIAAA4A
+AAAHAAAAJgIAAAcAAAASAAAAQwIAAA8AAAAQAAAAXQIAABEAAAAHAAAAcwIAAAcAAAASAAAAkAIA
+AAsAAAAQAAAApgIAAA0AAAAHAAAAuAIAAAcAAAASAAAA1QIAABAAAAAQAAAA8AIAABIAAAAHAAAA
+BwMAAAcAAAASAAAAJAMAAA0AAAAQAAAAPAMAAA8AAAAHAAAAUAMAAAcAAAASAAAAbQMAABMAAAAQ
+AAAAiwMAABUAAAAHAAAApQMAAAcAAAASAAAAwgMAAA4AAAAQAAAA2wMAABAAAAAHAAAA8AMAAAcA
+AAASAAAADQQAAA4AAAAQAAAAJgQAABAAAAAHAAAAOwQAAAcAAAASAAAAWAQAABEAAAADAAAAcwQA
+ABUAAAAHAAAAjAQAAAcAAAASAAAAqQQAABIAAAADAAAAxQQAABYAAAAHAAAA4AQAAAcAAAASAAAA
+/QQAABEAAAAHAAAAEAUAAAEAAAADAAAAGQUAABUAAAAHAAAAMgUAAAcAAAASAAAATwUAABQAAAAH
+AAAAZQUAAAEAAAADAAAAbgUAABgAAAAHAAAAigUAAAcAAAASAAAApwUAAAwAAAASAAAAvgUAAAwA
+AAAHAAAAzwUAAAUAAAAHAAAA6QUAAAMAAAAHAAAA/AUAAAUAAAAJAAAAGQYAAA4AAAAIAAAAKQYA
+ABAAAAAHAAAAcwYAAAUAAAAVAAAAkQYAAB4AAAAHAAAAswYAAAMAAAAHAAAAxgYAAAUAAAAJAAAA
+4wYAAA4AAAAIAAAA8wYAABAAAAAHAAAANQcAAAUAAAAVAAAAUwcAABcAAAAHAAAAbwcAAAMAAAAH
+AAAAggcAAAMAAAAMAAAAhQcAABEAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0i
+VVRGLTgiID8+DQo8eHNsOnN0eWxlc2hlZXQgdmVyc2lvbj0iMS4wIgl4bWxuczp4c2w9Imh0dHA6
+Ly93d3cudzMub3JnLzE5OTkvWFNML1RyYW5zZm9ybSIgeG1sbnM6V0M9IndnY29udHJvbHMiPg0K
+DQogIDwhLS0gVGhlIGN1c3RvbSBzdHlsZSBUb29sU3RyaXAgbWF0Y2ggdGVtcGxhdGUgLS0+DQog
+IDx4c2w6dGVtcGxhdGUgbWF0Y2g9IldDOlRhZ3MuVG9vbFN0cmlwW0BBdHRyLkN1c3RvbVN0eWxl
+PSdTdGFydE1lbnVUb29sU3RyaXBTa2luJ10iIG1vZGU9Im1vZENvbnRlbnQiPg0KICAgIDx4c2w6
+cGFyYW0gbmFtZT0icHJtSXNFbmFibGVkIiAvPg0KICAgIDx4c2w6Y2FsbC10ZW1wbGF0ZSBuYW1l
+PSJ0cGxEcmF3VG9vbFN0cmlwQVBJIj4NCiAgICAgIDx4c2w6d2l0aC1wYXJhbSBuYW1lPSJwcm1M
+ZWZ0Qm90dG9tQ2xhc3MiIHNlbGVjdD0iJ1Rvb2xTdHJpcC1Cb3R0b21MZWZ0JyIvPg0KICAgICAg
+PHhzbDp3aXRoLXBhcmFtIG5hbWU9InBybUxlZnRDbGFzcyIgc2VsZWN0PSInVG9vbFN0cmlwLUxl
+ZnQnIi8+DQogICAgICA8eHNsOndpdGgtcGFyYW0gbmFtZT0icHJtTGVmdFRvcENsYXNzIiBzZWxl
+Y3Q9IidUb29sU3RyaXAtVG9wTGVmdCciLz4NCiAgICAgIDx4c2w6d2l0aC1wYXJhbSBuYW1lPSJw
+cm1Ub3BDbGFzcyIgc2VsZWN0PSInVG9vbFN0cmlwLVRvcCciLz4NCiAgICAgIDx4c2w6d2l0aC1w
+YXJhbSBuYW1lPSJwcm1SaWdodFRvcENsYXNzIiBzZWxlY3Q9IidUb29sU3RyaXAtVG9wUmlnaHQn
+Ii8+DQogICAgICA8eHNsOndpdGgtcGFyYW0gbmFtZT0icHJtUmlnaHRDbGFzcyIgc2VsZWN0PSIn
+VG9vbFN0cmlwLVJpZ2h0JyIvPg0KICAgICAgPHhzbDp3aXRoLXBhcmFtIG5hbWU9InBybVJpZ2h0
+Qm90dG9tQ2xhc3MiIHNlbGVjdD0iJ1Rvb2xTdHJpcC1Cb3R0b21SaWdodCciLz4NCiAgICAgIDx4
+c2w6d2l0aC1wYXJhbSBuYW1lPSJwcm1Cb3R0b21DbGFzcyIgc2VsZWN0PSInVG9vbFN0cmlwLUJv
+dHRvbSciLz4NCiAgICAgIDx4c2w6d2l0aC1wYXJhbSBuYW1lPSJwcm1DZW50ZXJDbGFzcyIgc2Vs
+ZWN0PSInVG9vbFN0cmlwLUNlbnRlciciLz4NCiAgICAgIDx4c2w6d2l0aC1wYXJhbSBuYW1lPSJw
+cm1MZWZ0RnJhbWVXaWR0aCIgc2VsZWN0PSJbU2tpbi5MZWZ0RnJhbWVXaWR0aF0iLz4NCiAgICAg
+IDx4c2w6d2l0aC1wYXJhbSBuYW1lPSJwcm1SaWdodEZyYW1lV2lkdGgiIHNlbGVjdD0iW1NraW4u
+UmlnaHRGcmFtZVdpZHRoXSIgLz4NCiAgICAgIDx4c2w6d2l0aC1wYXJhbSBuYW1lPSJwcm1Ub3BG
+cmFtZUhlaWdodCIgIHNlbGVjdD0iW1NraW4uVG9wRnJhbWVIZWlnaHRdIi8+DQogICAgICA8eHNs
+OndpdGgtcGFyYW0gbmFtZT0icHJtQm90dG9tRnJhbWVIZWlnaHQiICBzZWxlY3Q9IltTa2luLkJv
+dHRvbUZyYW1lSGVpZ2h0XSIvPg0KICAgICAgPHhzbDp3aXRoLXBhcmFtIG5hbWU9InBybUlzRW5h
+YmxlZCIgc2VsZWN0PSIkcHJtSXNFbmFibGVkIiAvPg0KICAgIDwveHNsOmNhbGwtdGVtcGxhdGU+
+DQogIDwveHNsOnRlbXBsYXRlPg0KDQogIDx4c2w6dGVtcGxhdGUgbWF0Y2g9IldDOlRhZ3MuVG9v
+bFN0cmlwW0BBdHRyLkN1c3RvbVN0eWxlPSdTdGFydE1lbnVUb29sU3RyaXBTa2luJ10iIG1vZGU9
+Im1vZEZyYW1lQ2VudGVyQ29udGVudCI+DQogICAgPHhzbDpjYWxsLXRlbXBsYXRlIG5hbWU9InRw
+bERyYXdUb29sU3RyaXBDZW50ZXJGcmFtZUFQSSIvPg0KICA8L3hzbDp0ZW1wbGF0ZT4NCg0KICA8
+eHNsOnRlbXBsYXRlIG1hdGNoPSJXQzpUYWdzLlRvb2xTdHJpcFtAQXR0ci5DdXN0b21TdHlsZT0n
+U3RhcnRNZW51VG9vbFN0cmlwU2tpbiddIiBtb2RlPSJtb2RBcHBseVN0eWxlIj4NCiAgICA8eHNs
+OmNhbGwtdGVtcGxhdGUgbmFtZT0idHBsQXBwbHlUb29sU3RyaXBTdHlsZXMiIC8+DQogIDwveHNs
+OnRlbXBsYXRlPg0KDQo8L3hzbDpzdHlsZXNoZWV0Pg0K</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.css:PresentationEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.jqt.js:Inheritance" xml:space="preserve"><value>NotInherited</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.xslt:PresentationRole" xml:space="preserve"><value>103</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.css" xml:space="preserve"><value>StyleSheetResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.xslt:ContentType" xml:space="preserve"><value /></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.css:CompilerActions" xml:space="preserve"><value>7</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.xslt:PresentationDrawingEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.css:PresentationRole" xml:space="preserve"><value>102</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.jqt.js:Presentation" xml:space="preserve"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.jqt.js:PresentationEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.jqt.js:CompilerActions" xml:space="preserve"><value>7</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.jqt.js:PresentationRole" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>101</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.jqt.js" xml:space="preserve"><value>JQTResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.css:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAACvAwAAAAAAAAAAAAARAAAAAQAAABEAAAAHAAAAFQAAAAMAAAADAAAAGAAAABMAAAAH
+AAAALAAAAAIAAAAHAAAALwAAAAQAAAARAAAANAAAAA4AAAAHAAAARQAAAAMAAAADAAAASAAAABAA
+AAAHAAAAWQAAAAIAAAAHAAAAXAAAAAQAAAARAAAAYQAAABQAAAAHAAAAeAAAAAMAAAADAAAAewAA
+ABYAAAAHAAAAkgAAAAMAAAAHAAAAlgAAAAQAAAARAAAAmwAAABAAAAAHAAAArgAAAAMAAAADAAAA
+sQAAABIAAAAHAAAAxAAAAAIAAAAHAAAAxwAAAAQAAAARAAAAzAAAABIAAAAHAAAA4QAAAAMAAAAD
+AAAA5AAAABQAAAAHAAAA+QAAAAMAAAAHAAAA/QAAAAQAAAARAAAAAgEAAA8AAAAHAAAAFAEAAAMA
+AAADAAAAFwEAABEAAAAHAAAAKQEAAAMAAAAHAAAALQEAAAQAAAARAAAAMgEAABUAAAAHAAAASgEA
+AAMAAAADAAAATQEAABcAAAAHAAAAZQEAAAQAAAAHAAAAagEAAAQAAAARAAAAbwEAAA0AAAAHAAAA
+fwEAAAMAAAADAAAAggEAAA8AAAAHAAAAkgEAAAIAAAAHAAAAlQEAAAQAAAARAAAAmgEAABAAAAAH
+AAAArQEAAAMAAAADAAAAsAEAABIAAAAHAAAAwwEAAAIAAAAHAAAAxgEAAAQAAAARAAAAywEAAB8A
+AAAHAAAA7QEAAAMAAAADAAAA8AEAACIAAAAHAAAAEwIAAAMAAAADAAAAHQIAACMAAAAHAAAAQwIA
+AAIAAAAHAAAARgIAAAQAAAARAAAASwIAACEAAAAHAAAAbwIAAAMAAAADAAAAcgIAACQAAAAHAAAA
+lwIAAAMAAAADAAAAoAIAACQAAAAHAAAAxwIAAAIAAAAHAAAAygIAAAQAAAARAAAAzwIAABcAAAAH
+AAAA6QIAAAMAAAADAAAA7AIAABoAAAAHAAAABwMAAAMAAAADAAAAEAMAABoAAAAHAAAALQMAAAMA
+AAAHAAAAPAMAAAIAAAAHAAAAPwMAAAQAAAARAAAARAMAABUAAAAHAAAAXAMAAAMAAAADAAAAXwMA
+ABgAAAAHAAAAeAMAAAMAAAADAAAAggMAABkAAAAHAAAAngMAAAMAAAAHAAAArAMAAAIAAAAAAAAA
+LlRvb2xTdHJpcC1Ub3BMZWZ0DQp7DQoJW1NraW4uTGVmdFRvcFN0eWxlXTsNCn0NCg0KLlRvb2xT
+dHJpcC1MZWZ0DQp7DQoJW1NraW4uTGVmdFN0eWxlXTsNCn0NCg0KLlRvb2xTdHJpcC1Cb3R0b21M
+ZWZ0DQp7DQoJW1NraW4uTGVmdEJvdHRvbVN0eWxlXTsgDQp9DQoNCi5Ub29sU3RyaXAtQ2VudGVy
+DQp7DQoJW1NraW4uQ2VudGVyU3R5bGVdOw0KfQ0KDQouVG9vbFN0cmlwLVRvcFJpZ2h0DQp7DQoJ
+W1NraW4uUmlnaHRUb3BTdHlsZV07IA0KfQ0KDQouVG9vbFN0cmlwLVJpZ2h0DQp7DQoJW1NraW4u
+UmlnaHRTdHlsZV07IA0KfQ0KDQouVG9vbFN0cmlwLUJvdHRvbVJpZ2h0DQp7DQoJW1NraW4uUmln
+aHRCb3R0b21TdHlsZV07ICANCn0NCg0KLlRvb2xTdHJpcC1Ub3ANCnsNCglbU2tpbi5Ub3BTdHls
+ZV07DQp9DQoNCi5Ub29sU3RyaXAtQm90dG9tDQp7DQoJW1NraW4uQm90dG9tU3R5bGVdOw0KfQ0K
+DQouVG9vU3RyaXAtVmVydGljYWxEcm9wRG93bkJ1dHRvbg0Kew0KCVtTa2luLlZlcnRpY2FsRHJv
+cERvd25CdXR0b25TdHlsZV07DQoJaGVpZ2h0OltTa2luLlZlcnRpY2FsRHJvcERvd25CdXR0b25I
+ZWlnaHRdcHg7DQp9DQoNCi5Ub29TdHJpcC1Ib3Jpem9udGFsRHJvcERvd25CdXR0b24NCnsNCglb
+U2tpbi5Ib3Jpem9udGFsRHJvcERvd25CdXR0b25TdHlsZV07DQoJd2lkdGg6W1NraW4uSG9yaXpv
+bnRhbERyb3BEb3duQnV0dG9uV2lkdGhdcHg7DQp9DQoNCi5Ub29TdHJpcC1Ib3Jpem9udGFsR3Jp
+cA0Kew0KCVtTa2luLkhvcml6b250YWxHcmlwU3R5bGVdOw0KCXdpZHRoOltTa2luLkhvcml6b250
+YWxHcmlwV2lkdGhdcHg7DQoJaGVpZ2h0OjEwMCU7DQp9DQoNCi5Ub29TdHJpcC1WZXJ0aWNhbEdy
+aXANCnsNCglbU2tpbi5WZXJ0aWNhbEdyaXBTdHlsZV07DQoJaGVpZ2h0OltTa2luLlZlcnRpY2Fs
+R3JpcEhlaWdodF1weDsNCgl3aWR0aDoxMDAlOw0KfQ==</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.jqt.js:Visible" xml:space="preserve"><value>False</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.jqt.js:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAAC8CgAAAAAAAAAAAAAHAAAAAQAAAAEAAAAGAAAAAgAAAMsBAAAHAAAAzQEAAAEAAAAJ
+AAAA4wEAAA4AAAAIAAAA8wEAABAAAAAHAAAAHwIAAAEAAAAHAAAALQIAAAEAAAAZAAAANgIAAAEA
+AAALAAAANwIAAAkAAAAHAAAAQQIAAAEAAAALAAAAQgIAAAoAAAAHAAAATQIAAAEAAAALAAAATgIA
+AAcAAAAaAAAAVQIAAAEAAAAHAAAAVgIAAAEAAAAXAAAAVwIAAAEAAAAHAAAAWAIAAAUAAAAHAAAA
+bwIAAAEAAAAOAAAAcAIAAAcAAAAHAAAAhQIAAAUAAAAGAAAAigIAACoAAAAHAAAAtAIAAAIAAAAe
+AAAAyQIAABMAAAAHAAAA3gIAAAEAAAAHAAAA5AIAAAEAAAAOAAAA5QIAAAkAAAAHAAAA7wIAAAEA
+AAAHAAAA8QIAAAQAAAAHAAAACQMAAAEAAAAQAAAACwMAABQAAAAHAAAAIQMAAAQAAAAHAAAAMwMA
+AAEAAAAQAAAANQMAAA4AAAAHAAAARQMAAAQAAAAHAAAAWgMAAAEAAAAQAAAAXAMAABEAAAAHAAAA
+bwMAAAQAAAAHAAAAgAMAAAEAAAAQAAAAggMAAA0AAAAHAAAAkQMAAAQAAAAHAAAApwMAAAEAAAAQ
+AAAAqQMAABIAAAAHAAAAvQMAAAQAAAAHAAAA0AMAAAEAAAAQAAAA0gMAAA8AAAAHAAAA4wMAAAQA
+AAAHAAAA/AMAAAEAAAAQAAAA/gMAABUAAAAHAAAAFQQAAAQAAAAHAAAAKQQAAAEAAAAQAAAAKwQA
+ABAAAAAHAAAAPQQAAAQAAAAHAAAAUQQAAAEAAAAQAAAAUwQAABAAAAAHAAAAZQQAAAQAAAAHAAAA
+fAQAAAEAAAADAAAAfQQAABUAAAAHAAAAkwQAAAQAAAAHAAAAqwQAAAEAAAADAAAArAQAABYAAAAH
+AAAAwwQAAAQAAAAHAAAA2gQAAAEAAAADAAAA2wQAABUAAAAHAAAA8QQAAAQAAAAHAAAACwUAAAEA
+AAADAAAADAUAABgAAAAHAAAAJQUAAAQAAAAHAAAANwUAAAEAAAAHAAAARQUAAAIAAAAHAAAASgUA
+AAIAAAAYAAAATAUAAAEAAAAHAAAATwUAAAIAAAAGAAAAUQUAAJUBAAAHAAAA5gYAAAEAAAAJAAAA
+/AYAAA4AAAAIAAAADAcAABAAAAAHAAAAOAcAAAEAAAAHAAAAUQcAAAEAAAAZAAAAWgcAAAEAAAAL
+AAAAWwcAAAkAAAAHAAAAZQcAAAEAAAALAAAAZgcAAAoAAAAHAAAAcQcAAAEAAAALAAAAcgcAAAcA
+AAAaAAAAeQcAAAEAAAAHAAAAegcAAAEAAAAXAAAAewcAAAEAAAAHAAAAfAcAAAcAAAAGAAAAgwcA
+ADUAAAAHAAAAuAcAAAIAAAAeAAAAzQcAAB4AAAAHAAAA7QcAAAEAAAAHAAAA8wcAAAEAAAAOAAAA
+9AcAAAkAAAAHAAAA/wcAAAIAAAAYAAAAAQgAAAEAAAAHAAAABAgAAAIAAAAGAAAABggAAJUBAAAH
+AAAAmwkAAAEAAAAJAAAAsQkAAA4AAAAIAAAAwQkAABAAAAAHAAAA7QkAAAEAAAAHAAAA/gkAAAEA
+AAAZAAAABwoAAAEAAAALAAAACAoAAAkAAAAHAAAAEgoAAAEAAAALAAAAEwoAAAoAAAAHAAAAHgoA
+AAEAAAALAAAAHwoAAAcAAAAaAAAAJgoAAAEAAAAHAAAAJwoAAAEAAAAXAAAAKAoAAAEAAAAHAAAA
+KQoAAAcAAAAGAAAAMAoAAC4AAAAHAAAAXgoAAAIAAAAeAAAAcwoAABcAAAAHAAAAjAoAAAEAAAAH
+AAAAkgoAAAEAAAAOAAAAkwoAAAkAAAAHAAAAngoAAAIAAAAYAAAAoAoAAAEAAAAHAAAAowoAAAIA
+AAAGAAAApQoAABAAAAAHAAAAtQoAAAcAAAAAAAAADQovLy8gPHRlbXBsYXRlIGZvcj0iV0M6VGFn
+cy5Ub29sU3RyaXBbQEF0dHIuQ3VzdG9tU3R5bGU9J1N0YXJ0TWVudVRvb2xTdHJpcFNraW4nXSI+
+DQovLy8gPHN1bW1hcnk+DQovLy8gVGhlIGN1c3RvbSBzdHlsZSBUb29sU3RyaXAgbWF0Y2ggdGVt
+cGxhdGUNCi8vLyA8L3N1bW1hcnk+DQovLy8gPHBhcmFtIG5hbWU9Im9ialdyaXRlciI+VGhlIGJ1
+ZmZlciBvYmplY3Qgd2hpY2ggd2lsbCBiZSB1c2VkIGFzIHdyaXRlciBmb3IgSlMgY29kZS48L3Bh
+cmFtPg0KLy8vIDxwYXJhbSBuYW1lPSJvYmpDb250ZXh0Ij5BIGNvbnRleHQgb2JqZWN0IHdoaWNo
+IGhvbGRzIGdsb2JhbCBpbmZvcm1hdGlvbi48L3BhcmFtPg0KLy8vIDxwYXJhbSBuYW1lPSJvYmpB
+cmdzIj5Bcmd1bWVudHMgdGhhdCBiZWVuIHNlbnQgdG8gdGhpcyB0ZW1wbGF0ZToNCi8vLyAqIG9i
+akFyZ3MucHJtSXNFbmFibGVkIC0NCi8vLyA8L3BhcmFtPg0KJC5qcXRyZWd0ZW1wbGF0ZSgiV0M6
+VGFncy5Ub29sU3RyaXBbQEF0dHIuQ3VzdG9tU3R5bGU9J1N0YXJ0TWVudVRvb2xTdHJpcFNraW4n
+XSIsICJtb2RDb250ZW50IiwgZnVuY3Rpb24ob2JqV3JpdGVyLCBvYmpDb250ZXh0LCBvYmpBcmdz
+KSB7DQoNCgl2YXIgcHJtSXNFbmFibGVkID0gb2JqQXJncy5wcm1Jc0VuYWJsZWQ7DQoNCgkvLyBD
+YWxsIHRoZSB0cGxEcmF3VG9vbFN0cmlwQVBJIHRlbXBsYXRlLg0KCSQuanF0Y2FsbHRlbXBsYXRl
+KCJ0cGxEcmF3VG9vbFN0cmlwQVBJIiwgdGhpcywgb2JqV3JpdGVyLCB7DQoJCXBybUxlZnRCb3R0
+b21DbGFzcyA6ICJUb29sU3RyaXAtQm90dG9tTGVmdCIsDQoJCXBybUxlZnRDbGFzcyA6ICJUb29s
+U3RyaXAtTGVmdCIsDQoJCXBybUxlZnRUb3BDbGFzcyA6ICJUb29sU3RyaXAtVG9wTGVmdCIsDQoJ
+CXBybVRvcENsYXNzIDogIlRvb2xTdHJpcC1Ub3AiLA0KCQlwcm1SaWdodFRvcENsYXNzIDogIlRv
+b2xTdHJpcC1Ub3BSaWdodCIsDQoJCXBybVJpZ2h0Q2xhc3MgOiAiVG9vbFN0cmlwLVJpZ2h0IiwN
+CgkJcHJtUmlnaHRCb3R0b21DbGFzcyA6ICJUb29sU3RyaXAtQm90dG9tUmlnaHQiLA0KCQlwcm1C
+b3R0b21DbGFzcyA6ICJUb29sU3RyaXAtQm90dG9tIiwNCgkJcHJtQ2VudGVyQ2xhc3MgOiAiVG9v
+bFN0cmlwLUNlbnRlciIsDQoJCXBybUxlZnRGcmFtZVdpZHRoIDogW1NraW4uTGVmdEZyYW1lV2lk
+dGhdLA0KCQlwcm1SaWdodEZyYW1lV2lkdGggOiBbU2tpbi5SaWdodEZyYW1lV2lkdGhdLA0KCQlw
+cm1Ub3BGcmFtZUhlaWdodCA6IFtTa2luLlRvcEZyYW1lSGVpZ2h0XSwNCgkJcHJtQm90dG9tRnJh
+bWVIZWlnaHQgOiBbU2tpbi5Cb3R0b21GcmFtZUhlaWdodF0sDQoJCXBybUlzRW5hYmxlZCA6IHBy
+bUlzRW5hYmxlZA0KCX0pOw0KfSk7DQovLy8gPC90ZW1wbGF0ZT4NCg0KDQoNCi8vLyA8dGVtcGxh
+dGUgZm9yPSJXQzpUYWdzLlRvb2xTdHJpcFtAQXR0ci5DdXN0b21TdHlsZT0nU3RhcnRNZW51VG9v
+bFN0cmlwU2tpbiddIj4NCi8vLyA8c3VtbWFyeT4NCi8vLyANCi8vLyA8L3N1bW1hcnk+DQovLy8g
+PHBhcmFtIG5hbWU9Im9ialdyaXRlciI+VGhlIGJ1ZmZlciBvYmplY3Qgd2hpY2ggd2lsbCBiZSB1
+c2VkIGFzIHdyaXRlciBmb3IgSlMgY29kZS48L3BhcmFtPg0KLy8vIDxwYXJhbSBuYW1lPSJvYmpD
+b250ZXh0Ij5BIGNvbnRleHQgb2JqZWN0IHdoaWNoIGhvbGRzIGdsb2JhbCBpbmZvcm1hdGlvbi48
+L3BhcmFtPg0KLy8vIDxwYXJhbSBuYW1lPSJvYmpBcmdzIj5Bcmd1bWVudHMgdGhhdCBiZWVuIHNl
+bnQgdG8gdGhpcyB0ZW1wbGF0ZS48L3BhcmFtPg0KJC5qcXRyZWd0ZW1wbGF0ZSgiV0M6VGFncy5U
+b29sU3RyaXBbQEF0dHIuQ3VzdG9tU3R5bGU9J1N0YXJ0TWVudVRvb2xTdHJpcFNraW4nXSIsICJt
+b2RGcmFtZUNlbnRlckNvbnRlbnQiLCBmdW5jdGlvbihvYmpXcml0ZXIsIG9iakNvbnRleHQsIG9i
+akFyZ3MpIHsNCg0KDQoJLy8gQ2FsbCB0aGUgdHBsRHJhd1Rvb2xTdHJpcENlbnRlckZyYW1lQVBJ
+IHRlbXBsYXRlLg0KCSQuanF0Y2FsbHRlbXBsYXRlKCJ0cGxEcmF3VG9vbFN0cmlwQ2VudGVyRnJh
+bWVBUEkiLCB0aGlzLCBvYmpXcml0ZXIpOw0KfSk7DQovLy8gPC90ZW1wbGF0ZT4NCg0KDQoNCi8v
+LyA8dGVtcGxhdGUgZm9yPSJXQzpUYWdzLlRvb2xTdHJpcFtAQXR0ci5DdXN0b21TdHlsZT0nU3Rh
+cnRNZW51VG9vbFN0cmlwU2tpbiddIj4NCi8vLyA8c3VtbWFyeT4NCi8vLyANCi8vLyA8L3N1bW1h
+cnk+DQovLy8gPHBhcmFtIG5hbWU9Im9ialdyaXRlciI+VGhlIGJ1ZmZlciBvYmplY3Qgd2hpY2gg
+d2lsbCBiZSB1c2VkIGFzIHdyaXRlciBmb3IgSlMgY29kZS48L3BhcmFtPg0KLy8vIDxwYXJhbSBu
+YW1lPSJvYmpDb250ZXh0Ij5BIGNvbnRleHQgb2JqZWN0IHdoaWNoIGhvbGRzIGdsb2JhbCBpbmZv
+cm1hdGlvbi48L3BhcmFtPg0KLy8vIDxwYXJhbSBuYW1lPSJvYmpBcmdzIj5Bcmd1bWVudHMgdGhh
+dCBiZWVuIHNlbnQgdG8gdGhpcyB0ZW1wbGF0ZS48L3BhcmFtPg0KJC5qcXRyZWd0ZW1wbGF0ZSgi
+V0M6VGFncy5Ub29sU3RyaXBbQEF0dHIuQ3VzdG9tU3R5bGU9J1N0YXJ0TWVudVRvb2xTdHJpcFNr
+aW4nXSIsICJtb2RBcHBseVN0eWxlIiwgZnVuY3Rpb24ob2JqV3JpdGVyLCBvYmpDb250ZXh0LCBv
+YmpBcmdzKSB7DQoNCg0KCS8vIENhbGwgdGhlIHRwbEFwcGx5VG9vbFN0cmlwU3R5bGVzIHRlbXBs
+YXRlLg0KCSQuanF0Y2FsbHRlbXBsYXRlKCJ0cGxBcHBseVRvb2xTdHJpcFN0eWxlcyIsIHRoaXMs
+IG9ialdyaXRlcik7DQp9KTsNCi8vLyA8L3RlbXBsYXRlPg0KDQoNCg0K</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.css:FileName" xml:space="preserve"><value>StartMenuToolStripSkin.ToolStrip.css</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.jqt.js:FileName" xml:space="preserve"><value>D:\My Work\branches\10.0.5\Net4.5.2\Private\Core\Gizmox.WebGUI.Forms.Office\obj\Commercial Deployment\StartMenuToolStripSkin.ToolStrip.jqt.js</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.xslt:PresentationEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.xslt:Presentation" xml:space="preserve"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.jqt.js:ContentType" xml:space="preserve"><value /></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.xslt:CompilerActions" xml:space="preserve"><value>7</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.jqt.js:PresentationDrawingEngine" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>2</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.xslt" xml:space="preserve"><value>TemplateResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.css:ContentType" xml:space="preserve"><value /></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.css:Presentation" xml:space="preserve"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.StartMenuToolStripSkin:ToolStrip.xslt:FileName" xml:space="preserve"><value>StartMenuToolStripSkin.ToolStrip.xslt</value></data>
+  </root>
