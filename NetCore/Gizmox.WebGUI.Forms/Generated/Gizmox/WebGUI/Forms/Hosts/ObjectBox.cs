@@ -111,7 +111,7 @@ namespace Gizmox.WebGUI.Forms.Hosts
 	{
 		[Serializable]
 		[Editor("Gizmox.WebGUI.Forms.Design.ObjectBoxParameterCollectionEditor, Gizmox.WebGUI.Forms.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=dd2a1fd4d120c769", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
-		[DesignerSerializer("Gizmox.WebGUI.Common.Design.Serialization.ObjectBoxParameterCollectionSelrializer, Gizmox.WebGUI.Common.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=ea5dfe57c8eb7edd", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+		[DesignerSerializer("Gizmox.WebGUI.Common.Design.Serialization.ObjectBoxParameterCollectionSelrializer, Gizmox.WebGUI.Common.Design", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 		public class ObjectBoxParameterCollection : Collection<ObjectBoxParameter>
 		{
 			private ObjectBox mobjObjectBox = null;

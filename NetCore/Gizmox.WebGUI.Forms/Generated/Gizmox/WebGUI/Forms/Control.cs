@@ -106,8 +106,8 @@ namespace Gizmox.WebGUI.Forms
 	[Serializable]
 	[DefaultEvent("Click")]
 	[ToolboxItem(false)]
-	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Serialization.ControlCodeDomSerializer, Gizmox.WebGUI.Common.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=ea5dfe57c8eb7edd", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=2.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
-	[Designer("Gizmox.WebGUI.Forms.Design.ControlDesigner, Gizmox.WebGUI.Common.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=ea5dfe57c8eb7edd")]
+	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Serialization.ControlCodeDomSerializer, Gizmox.WebGUI.Common.Design", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=2.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+	[Designer("Gizmox.WebGUI.Forms.Design.ControlDesigner, Gizmox.WebGUI.Common.Design")]
 	[ToolboxItemFilter("Gizmox.WebGUI.Forms", ToolboxItemFilterType.Require)]
 	[Skin(typeof(Gizmox.WebGUI.Forms.Skins.ControlSkin))]
 	[ProxyComponent(typeof(ProxyControl))]
@@ -118,7 +118,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Represents a collection of <see cref="T:Gizmox.WebGUI.Forms.Control"></see> objects.
 		/// </summary>
 		[Serializable]
-		[DesignerSerializer("Gizmox.WebGUI.Common.Design.Serialization.ControlCollectionCodeDomSerializer, Gizmox.WebGUI.Common.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=ea5dfe57c8eb7edd", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+		[DesignerSerializer("Gizmox.WebGUI.Common.Design.Serialization.ControlCollectionCodeDomSerializer, Gizmox.WebGUI.Common.Design", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 		[ListBindable(false)]
 		public class ControlCollection : ArrangedElementCollection, IList, ICollection, IEnumerable, ICloneable, IObservableList
 		{

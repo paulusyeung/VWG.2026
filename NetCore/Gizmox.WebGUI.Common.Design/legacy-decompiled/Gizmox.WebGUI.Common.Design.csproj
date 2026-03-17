@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Gizmox.WebGUI.Common.Design</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net452</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Gizmox.WebGUI.Common.Design" />
+    <EmbeddedResource Include="Gizmox.WebGUI.Common.Design" LogicalName="Gizmox.WebGUI.Common.Design" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Gizmox.WebGUI.Common" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Drawing.Design" />
+  </ItemGroup>
+</Project>

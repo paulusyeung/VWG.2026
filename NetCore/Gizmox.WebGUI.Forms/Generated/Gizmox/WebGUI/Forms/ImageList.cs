@@ -109,7 +109,7 @@ namespace Gizmox.WebGUI.Forms
 	[ToolboxItemFilter("Gizmox.WebGUI.Forms", ToolboxItemFilterType.Require)]
 	[ToolboxItemCategory("Components")]
 	[ToolboxBitmap(typeof(ImageList), "ImageList_45.bmp")]
-	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Serialization.ImageListCodeDomSerializer, Gizmox.WebGUI.Common.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=ea5dfe57c8eb7edd", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=2.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Serialization.ImageListCodeDomSerializer, Gizmox.WebGUI.Common.Design", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=2.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 	public class ImageList : ComponentBase
 	{
 		/// Encapsulates the collection of <see cref="T:Gizmox.WebGUI.Common.Resources.ResourceHandle"></see> objects in an <see cref="T:Gizmox.WebGUI.Forms.ImageList"></see>.</summary>

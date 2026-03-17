@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Gizmox.WebGUI.Common.Design</AssemblyName>
+    <RootNamespace>Gizmox.WebGUI.Common.Design</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Description>Scaffold project for migration tracking and optional runtime-safe design helper replacements on .NET 8.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Keep decompiled legacy files in-repo for migration, but do not compile them yet. -->
+    <Compile Remove="legacy-decompiled/**/*.cs" />
+    <EmbeddedResource Remove="legacy-decompiled/**/*" />
+    <None Include="legacy-decompiled/**/*" />
+  </ItemGroup>
+
+</Project>

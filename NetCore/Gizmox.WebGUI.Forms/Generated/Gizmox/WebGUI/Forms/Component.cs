@@ -105,7 +105,7 @@ namespace Gizmox.WebGUI.Forms
 	/// </summary>
 	[Serializable]
 	[ToolboxItem(false)]
-	[Designer("Gizmox.WebGUI.Forms.Design.MappedComponentDesigner, Gizmox.WebGUI.Common.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=ea5dfe57c8eb7edd", typeof(IDesigner))]
+	[Designer("Gizmox.WebGUI.Forms.Design.MappedComponentDesigner, Gizmox.WebGUI.Common.Design", typeof(IDesigner))]
 	[ProxyComponent(typeof(ProxyComponent))]
 	public class Component : RegisteredComponent, IObservableItem, IAttributeExtender
 	{

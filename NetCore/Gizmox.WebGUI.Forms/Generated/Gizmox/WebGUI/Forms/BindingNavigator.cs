@@ -107,7 +107,7 @@ namespace Gizmox.WebGUI.Forms
 	[ToolboxBitmap(typeof(ToolBar), "BindingNavigator_45.bmp")]
 	[DesignTimeController("Gizmox.WebGUI.Forms.Design.BindingNavigatorController, Gizmox.WebGUI.Forms.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=dd2a1fd4d120c769")]
 	[ClientController("Gizmox.WebGUI.Client.Controllers.BindingNavigatorController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]
-	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Serialization.BindingNavigatorCodeDomSerializer, Gizmox.WebGUI.Common.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=ea5dfe57c8eb7edd", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Serialization.BindingNavigatorCodeDomSerializer, Gizmox.WebGUI.Common.Design", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 	[ToolboxItemCategory("Data")]
 	[Skin(typeof(BindingNavigatorSkin))]
 	public class BindingNavigator : ToolBar, ISupportInitialize

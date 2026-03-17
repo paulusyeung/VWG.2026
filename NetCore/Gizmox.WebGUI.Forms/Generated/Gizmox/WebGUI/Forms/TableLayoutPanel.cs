@@ -119,7 +119,7 @@ namespace Gizmox.WebGUI.Forms
 	[ProvideProperty("Row", typeof(Control))]
 	[ProvideProperty("CellPosition", typeof(Control))]
 	[DefaultProperty("ColumnCount")]
-	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Serialization.TableLayoutPanelCodeDomSerializer, Gizmox.WebGUI.Common.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=ea5dfe57c8eb7edd", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Serialization.TableLayoutPanelCodeDomSerializer, Gizmox.WebGUI.Common.Design", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 	[ComVisible(true)]
 	[ClassInterface(ClassInterfaceType.AutoDispatch)]
 	[Designer("Gizmox.WebGUI.Forms.Design.TableLayoutPanelDesigner, Gizmox.WebGUI.Forms.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=dd2a1fd4d120c769")]

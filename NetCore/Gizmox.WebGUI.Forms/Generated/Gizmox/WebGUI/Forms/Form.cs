@@ -108,7 +108,7 @@ namespace Gizmox.WebGUI.Forms
 	[ToolboxBitmap(typeof(Form), "Forms.Form.bmp")]
 	[DesignerCategory("Form")]
 	[InitializationEvent("Load")]
-	[Designer("Gizmox.WebGUI.Forms.Design.FormDocumentDesigner, Gizmox.WebGUI.Common.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=ea5dfe57c8eb7edd", typeof(IRootDesigner))]
+	[Designer("Gizmox.WebGUI.Forms.Design.FormDocumentDesigner, Gizmox.WebGUI.Common.Design", typeof(IRootDesigner))]
 	[DesignTimeVisible(false)]
 	[DefaultEvent("Load")]
 	[MetadataTag("F")]

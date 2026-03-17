@@ -107,7 +107,7 @@ namespace Gizmox.WebGUI.Forms
 	[ToolboxItem(true)]
 	[DesignerCategory("UserControl")]
 	[DefaultEvent("Load")]
-	[Designer("Gizmox.WebGUI.Forms.Design.UserControlDocumentDesigner, Gizmox.WebGUI.Common.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=ea5dfe57c8eb7edd", typeof(IRootDesigner))]
+	[Designer("Gizmox.WebGUI.Forms.Design.UserControlDocumentDesigner, Gizmox.WebGUI.Common.Design", typeof(IRootDesigner))]
 	[DesignTimeController("Gizmox.WebGUI.Forms.Design.UserControlController, Gizmox.WebGUI.Forms.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=dd2a1fd4d120c769")]
 	[MetadataTag("UC")]
 	[Skin(typeof(UserControlSkin))]

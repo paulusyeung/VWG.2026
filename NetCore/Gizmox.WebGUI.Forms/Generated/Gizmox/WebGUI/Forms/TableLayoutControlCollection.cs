@@ -104,7 +104,7 @@ namespace Gizmox.WebGUI.Forms
 	///
 	/// </summary>
 	[Serializable]
-	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Serialization.TableLayoutControlCollectionCodeDomSerializer, Gizmox.WebGUI.Common.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=ea5dfe57c8eb7edd", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Serialization.TableLayoutControlCollectionCodeDomSerializer, Gizmox.WebGUI.Common.Design", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 	[ListBindable(false)]
 	[DesignTimeController("Gizmox.WebGUI.Forms.Design.TableLayoutControlCollectionController, Gizmox.WebGUI.Forms.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=dd2a1fd4d120c769")]
 	[ClientController("Gizmox.WebGUI.Client.Controllers.TableLayoutControlCollectionController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]

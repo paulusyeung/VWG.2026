@@ -11,6 +11,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Gizmox.WebGUI.Common.Design\Gizmox.WebGUI.Common.Design.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Generated/**/*.cs">
       <NoWarn>CS0168;CS0169;CS0219;CS0414;CS0649;CS0659;CS0675;SYSLIB0012;SYSLIB0021;SYSLIB0022;SYSLIB0041;SYSLIB0050;SYSLIB0051</NoWarn>
     </Compile>
