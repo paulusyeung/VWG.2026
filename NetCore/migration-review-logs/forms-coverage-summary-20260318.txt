@@ -1,0 +1,69 @@
+=== SUMMARY ===
+LegacyCompileFiles=487
+NetCoreMappedFiles=1115
+ExactPathMatchedLegacyFiles=222
+ExactPathCoveragePercent=45.59
+NameMatchedLegacyFiles=447
+NameCoveragePercent=91.79
+LegacyOnlyCount=265
+NameMissingCount=40
+NetOnlyCount=893
+
+=== TOP NAME-MISSING DIRECTORIES ===
+(root) : 21
+Hosts : 7
+DeviceIntegration\Abstract : 2
+Proxy : 2
+Virtualization\Management : 2
+.. : 1
+Administration : 1
+Administration\Abstract : 1
+DockingManager : 1
+DockingManager\DockedObjectDescriptors : 1
+Properties : 1
+
+=== NAME-MISSING FILES ===
+..\ProductInfo.cs
+Administration\Abstract\AdministrationFormBase.Designer.cs
+Administration\AdministrationForm.Designer.cs
+Bindings.cs
+DataGridViewCells.cs
+DataGridViewCollections.cs
+DataGridViewColumns.cs
+DataGridViewConvertors.cs
+DataGridViewEnums.cs
+DataGridViewEvents.cs
+DataGridViewGroupingHeader.Designer.cs
+DataGridViewObjects.cs
+DeviceIntegration\Abstract\MultipleCallMethodStore.cs
+DeviceIntegration\Abstract\SingleCallMethodStore.cs
+DockingManager\DockedObjectDescriptors\DockingManagerDescriptor.cs
+DockingManager\DockingManagerHelper.cs
+Enums.cs
+Events.cs
+Hosts\AspControlBoxBase.cs
+Hosts\AspControlBoxBaseSkin.cs
+Hosts\AspEvents.cs
+Hosts\AspPageBase.cs
+Hosts\AspPageBox.cs
+Hosts\AspPageBoxSkin.cs
+Hosts\AspPipeLinePage.cs
+IButton.cs
+Properties\AssemblyInfo.cs
+PropertyGridEnums.cs
+PropertyGridEvents.cs
+PropertyGridInternals.cs
+Proxy\ProxyEventArgs.cs
+Proxy\ProxyNavigationCommands.cs
+SelectedIndicator.cs
+SkinValues.cs
+TableLayoutPanelCell.cs
+ToolStripEnums.cs
+ToolStripEvents.cs
+ToolStripMiscellaneous.cs
+Virtualization\Management\ApplicationNode.cs
+Virtualization\Management\XmlNode.cs
+
+=== BUILD CHECK ===
+dotnet build NetCore/Gizmox.WebGUI.Forms/Gizmox.WebGUI.Forms.csproj -c Debug -clp:Summary;ErrorsOnly
+Result=Build succeeded in 11.6s (Forms/Common/Common.Design succeeded)
