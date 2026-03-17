@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Gizmox.WebGUI.Forms.Themes</AssemblyName>
+    <RootNamespace>Gizmox.WebGUI.Forms.Themes</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <NoWarn>$(NoWarn);CS0618;SYSLIB0003;SYSLIB0011;SYSLIB0023</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gizmox.WebGUI.Common\Gizmox.WebGUI.Common.csproj" />
+    <ProjectReference Include="..\Gizmox.WebGUI.Forms\Gizmox.WebGUI.Forms.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="legacy-source\Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="legacy-source\**\*.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="legacy-resourceblobs\*.resources">
+      <LogicalName>%(Filename)%(Extension)</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

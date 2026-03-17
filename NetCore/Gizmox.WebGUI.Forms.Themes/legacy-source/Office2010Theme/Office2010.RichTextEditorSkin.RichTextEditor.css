@@ -1,0 +1,11 @@
+
+.RichTextEditor-Control
+{
+	border:1px solid #b7bbc3;
+	background:white;
+}
+
+.RichTextEditor-Control_Disabled
+{
+    [Skin.ControlDisabledStyle];
+}

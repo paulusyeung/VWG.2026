@@ -1,0 +1,2191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RadioButtonSkin:Radio0.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RadioButtonSkin:Radio0.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RadioButtonSkin:Radio0.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.RadioButtonSkin.Radio0.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RadioButtonSkin:Radio0.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RadioButtonSkin:Radio0.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.RadioButtonSkin.Radio0.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RadioButtonSkin:Radio1.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RadioButtonSkin:Radio1.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RadioButtonSkin:Radio1.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.RadioButtonSkin.Radio1.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RadioButtonSkin:Radio1.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RadioButtonSkin:Radio1.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.RadioButtonSkin.Radio1.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:Radio0.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:Radio0.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:Radio0.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.ListBoxSkin.Radio0.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:Radio0.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:Radio0.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.ListBoxSkin.Radio0.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:Radio1.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:Radio1.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:Radio1.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.ListBoxSkin.Radio1.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:Radio1.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:Radio1.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.ListBoxSkin.Radio1.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:Font:Value" xml:space="preserve">
+    <value>Arial, 16px</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:BorderImage.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:BorderImage.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:BorderImage.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TextBoxSkin.BorderImage.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:BorderImage.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:BorderImage.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TextBoxSkin.BorderImage.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Common.Forms.VisualEffects.BorderImageVisualEffect|Name=BorderImage.gif%Namespace=Gizmox.WebGUI.Forms.Skins.TextBoxSkin|5|5|5|5|0|0|5|5|5|5;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:BorderColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:BackColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:SingleLineInputStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:SingleLineInputStyle.BackColor:Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MaskedTextBoxSkin:BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MaskedTextBoxSkin:BackColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:ForeColor:Value" xml:space="preserve">
+    <value>243, 243, 243</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:FlatButtonFocusedStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:FlatButtonFocusedStyle.BackColor:Value" xml:space="preserve">
+    <value>49, 163, 205</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:FlatButtonFocusedStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:FlatButtonFocusedStyle.BorderColor:Value" xml:space="preserve">
+    <value>83, 178, 213 83, 178, 213 83, 178, 213 42, 142, 180</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:FlatButtonFocusedStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:FlatButtonFocusedStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.BoxShadowVisualEffect|0|0|4|4|#285C70|0;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:FlatButtonFocusedStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:FlatButtonFocusedStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ControlSkin:ControlDisabledStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ControlSkin:ControlDisabledStyle.BackColor:Value" xml:space="preserve">
+    <value>52, 52, 52</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ControlSkin:ControlDisabledStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ControlSkin:ControlDisabledStyle.ForeColor:Value" xml:space="preserve">
+    <value>76, 76, 76</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ControlSkin:ControlDisabledStyle.BorderStyle" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderStyle, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ControlSkin:ControlDisabledStyle.BorderStyle:Value" xml:space="preserve">
+    <value>FixedSingle</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ControlSkin:ControlDisabledStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ControlSkin:ControlDisabledStyle.BorderColor:Value" xml:space="preserve">
+    <value>73, 73, 73 80, 80, 80 73, 73, 73 66, 66, 67</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterNormalStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterNormalStyle.BackColor:Value" xml:space="preserve">
+    <value>81, 81, 81</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterNormalStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterNormalStyle.BorderColor:Value" xml:space="preserve">
+    <value>78, 78, 78 117, 117, 117 78, 78, 78 61, 61, 61</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterPressedStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterPressedStyle.BackColor:Value" xml:space="preserve">
+    <value>49, 163, 205</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterPressedStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterPressedStyle.BorderColor:Value" xml:space="preserve">
+    <value>83, 178, 213 83, 178, 213 83, 178, 213 42, 142, 180</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterPressedStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterPressedStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.BoxShadowVisualEffect|0|0|4|4|#285C70|0;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterFocusedStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterFocusedStyle.BackColor:Value" xml:space="preserve">
+    <value>49, 163, 205</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterFocusedStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterFocusedStyle.BorderColor:Value" xml:space="preserve">
+    <value>83, 178, 213 83, 178, 213 83, 178, 213 42, 142, 180</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:ControlFocusedStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:ControlFocusedStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.BoxShadowVisualEffect|0|0|4|4|#285C70|0;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:FlatButtonPressedStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:FlatButtonPressedStyle.BorderColor:Value" xml:space="preserve">
+    <value>83, 178, 213 83, 178, 213 83, 178, 213 42, 142, 180</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:FlatButtonPressedStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:FlatButtonPressedStyle.BackColor:Value" xml:space="preserve">
+    <value>49, 163, 205</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:FlatButtonPressedStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:FlatButtonPressedStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.BoxShadowVisualEffect|0|0|4|4|#285C70|0;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.OpenFileDialogSkin:Button75X92BG.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.OpenFileDialogSkin:Button75X92BG.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.OpenFileDialogSkin:Button75X92BG.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.OpenFileDialogSkin.Button75X92BG.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.OpenFileDialogSkin:Button75X92BG.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.OpenFileDialogSkin:Button75X92BG.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.OpenFileDialogSkin.Button75X92BG.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabHeight" xml:space="preserve">
+    <value>ValueResource:System.Int32, mscorlib</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabHeight:Value" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabNormalLTRStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabNormalLTRStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabNormalLTRStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabNormalLTRStyle.Padding:Value" xml:space="preserve">
+    <value>15, 19, 15, 23</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabNormalRTLStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabNormalRTLStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabNormalRTLStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabNormalRTLStyle.Padding:Value" xml:space="preserve">
+    <value>15, 19, 15, 23</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalLTRSpreadStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalLTRSpreadStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent Transparent Transparent 55, 183, 230</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalRTLSpreadStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalRTLSpreadStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent Transparent Transparent 55, 183, 230</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalLTRSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalLTRSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalRTLSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalRTLSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalRTLSpreadStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalRTLSpreadStyle.ForeColor:Value" xml:space="preserve">
+    <value>246, 242, 246</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalLTRSpreadStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalLTRSpreadStyle.ForeColor:Value" xml:space="preserve">
+    <value>246, 242, 246</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabSelectedLTRStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabSelectedLTRStyle.Padding:Value" xml:space="preserve">
+    <value>15, 19, 15, 23</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabSelectedLTRStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabSelectedLTRStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1, 1, 1, 6</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabSelectedRTLStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabSelectedRTLStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1, 1, 1, 6</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabSelectedRTLStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabSelectedRTLStyle.Padding:Value" xml:space="preserve">
+    <value>15, 19, 15, 23</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedLTRSpreadStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedLTRSpreadStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent Transparent Transparent 55, 183, 230</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedRTLSpreadStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedRTLSpreadStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent Transparent Transparent 55, 183, 230</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedLTRSpreadStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedLTRSpreadStyle.Padding:Value" xml:space="preserve">
+    <value>15, 0, 15, 15</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedRTLSpreadStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedRTLSpreadStyle.Padding:Value" xml:space="preserve">
+    <value>15, 0, 15, 15</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedLTRSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedLTRSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedRTLSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedRTLSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedLTRSpreadStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedLTRSpreadStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1, 1, 1, 6</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedRTLSpreadStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedRTLSpreadStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1, 1, 1, 6</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverLTRStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverLTRStyle.BackColor:Value" xml:space="preserve">
+    <value>42, 107, 131</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverLTRStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverLTRStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent Transparent Transparent 55, 183, 230</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverLTRStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverLTRStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverRTLStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverRTLStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverRTLStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverRTLStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent Transparent Transparent 55, 183, 230</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverLTRStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverLTRStyle.Padding:Value" xml:space="preserve">
+    <value>15, 19, 15, 23</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverRTLStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTopTabHoverRTLStyle.BackColor:Value" xml:space="preserve">
+    <value>42, 107, 131</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedLTRSpreadStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedLTRSpreadStyle.BackColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedRTLSpreadStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopSelectedRTLSpreadStyle.BackColor:Value" xml:space="preserve">
+    <value>42, 107, 131</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalLTRStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalLTRStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalRTLStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalRTLStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalLTRStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalLTRStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalRTLStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalRTLStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalLTRStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalLTRStyle.Padding:Value" xml:space="preserve">
+    <value>15, 23, 15, 19</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalRTLStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalRTLStyle.Padding:Value" xml:space="preserve">
+    <value>15, 20, 15, 22</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalLTRStyle.Margin" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.MarginValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabNormalLTRStyle.Margin:Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalLTRSpreadStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalLTRSpreadStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent 55, 183, 230 Transparent Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalLTRSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalLTRSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalRTLSpreadStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalRTLSpreadStyle.ForeColor:Value" xml:space="preserve">
+    <value>246, 242, 246</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalLTRSpreadStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalLTRSpreadStyle.ForeColor:Value" xml:space="preserve">
+    <value>246, 242, 246</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalRTLSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalRTLSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalRTLSpreadStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalRTLSpreadStyle.Padding:Value" xml:space="preserve">
+    <value>15, 20, 15, 22</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalLTRSpreadStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalLTRSpreadStyle.Padding:Value" xml:space="preserve">
+    <value>15, 4, 15, 16</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabHoverLTRStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabHoverLTRStyle.BackColor:Value" xml:space="preserve">
+    <value>42, 107, 131</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabHoverLTRStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabHoverLTRStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent 55, 183, 230 Transparent Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabHoverRTLStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabHoverRTLStyle.BackColor:Value" xml:space="preserve">
+    <value>42, 107, 131</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabHoverRTLStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabHoverRTLStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent 55, 183, 230 Transparent Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverLTRSpreadStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverLTRSpreadStyle.BackColor:Value" xml:space="preserve">
+    <value>42, 107, 131</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverRTLSpreadStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverRTLSpreadStyle.BackColor:Value" xml:space="preserve">
+    <value>42, 107, 131</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverLTRSpreadStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverLTRSpreadStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent 55, 183, 230 Transparent Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverRTLSpreadStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverRTLSpreadStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent 55, 183, 230 Transparent Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverLTRSpreadStyle.BorderStyle" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderStyle, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverLTRSpreadStyle.BorderStyle:Value" xml:space="preserve">
+    <value>FixedSingle</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverRTLSpreadStyle.BorderStyle" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderStyle, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverRTLSpreadStyle.BorderStyle:Value" xml:space="preserve">
+    <value>FixedSingle</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverRTLSpreadStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverRTLSpreadStyle.ForeColor:Value" xml:space="preserve">
+    <value>246, 242, 246</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverLTRSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverLTRSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverRTLSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomHoverRTLSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabSelectedLTRStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabSelectedLTRStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1, 6, 1, 1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabSelectedRTLStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabSelectedRTLStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1, 6, 1, 1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabSelectedLTRStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabSelectedLTRStyle.Padding:Value" xml:space="preserve">
+    <value>15, 18, 15, 24</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabSelectedRTLStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterBottomTabSelectedRTLStyle.Padding:Value" xml:space="preserve">
+    <value>15, 20, 15, 22</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedLTRSpreadStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedLTRSpreadStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent 55, 183, 230 Transparent Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedRTLSpreadStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedRTLSpreadStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent 55, 183, 230 Transparent Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedLTRSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedLTRSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedRTLSpreadStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedRTLSpreadStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedLTRSpreadStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedLTRSpreadStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1, 6, 1, 1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedRTLSpreadStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedRTLSpreadStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1, 6, 1, 1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabSpreadHeight" xml:space="preserve">
+    <value>ValueResource:System.Int32, mscorlib</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabSpreadHeight:Value" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalLTRSpreadStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalLTRSpreadStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalRTLSpreadStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalRTLSpreadStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalRTLSpreadStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalRTLSpreadStyle.Padding:Value" xml:space="preserve">
+    <value>12, 0, 12, 20</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUTickR.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUTickR.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUTickR.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarDUTickR.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUTickR.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUTickR.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarDUTickR.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTTickR.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTTickR.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTTickR.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarVERTTickR.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTTickR.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTTickR.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarVERTTickR.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailTop.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailTop.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailTop.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.VerticalTailTop.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailTop.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailTop.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.VerticalTailTop.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBoth.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBoth.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBoth.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.HorizontalTailBoth.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBoth.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBoth.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.HorizontalTailBoth.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBottom.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBottom.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBottom.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.HorizontalTailBottom.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBottom.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBottom.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.HorizontalTailBottom.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailNone.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailNone.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailNone.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.HorizontalTailNone.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailNone.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailNone.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.HorizontalTailNone.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailTop.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailTop.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailTop.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.HorizontalTailTop.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailTop.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailTop.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.HorizontalTailTop.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBoth.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBoth.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBoth.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.VerticalTailBoth.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBoth.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBoth.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.VerticalTailBoth.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBottom.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBottom.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBottom.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.VerticalTailBottom.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBottom.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBottom.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.VerticalTailBottom.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailNone.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailNone.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailNone.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.VerticalTailNone.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailNone.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailNone.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.VerticalTailNone.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUSpace.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUSpace.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUSpace.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarDUSpace.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUSpace.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUSpace.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarDUSpace.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTTickM.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTTickM.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTTickM.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarVERTTickM.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTTickM.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTTickM.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarVERTTickM.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTTickL.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTTickL.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTTickL.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarVERTTickL.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTTickL.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTTickL.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarVERTTickL.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTSpace.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTSpace.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTSpace.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarVERTSpace.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTSpace.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERTSpace.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarVERTSpace.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDTickR.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDTickR.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDTickR.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarUDTickR.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDTickR.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDTickR.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarUDTickR.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDTickM.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDTickM.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDTickM.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarUDTickM.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDTickM.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDTickM.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarUDTickM.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDTickL.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDTickL.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDTickL.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarUDTickL.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDTickL.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDTickL.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarUDTickL.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDSpace.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDSpace.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDSpace.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarUDSpace.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDSpace.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUDSpace.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarUDSpace.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLTickU.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLTickU.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLTickU.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarRLTickU.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLTickU.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLTickU.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarRLTickU.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLTickM.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLTickM.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLTickM.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarRLTickM.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLTickM.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLTickM.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarRLTickM.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLTickD.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLTickD.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLTickD.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarRLTickD.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLTickD.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLTickD.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarRLTickD.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLSpace.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLSpace.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLSpace.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarRLSpace.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLSpace.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRLSpace.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarRLSpace.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickU.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickU.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickU.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarNOTickU.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickU.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickU.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarNOTickU.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickR.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickR.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickR.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarNOTickR.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickR.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickR.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarNOTickR.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickL.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickL.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickL.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarNOTickL.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickL.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickL.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarNOTickL.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickD.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickD.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickD.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarNOTickD.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickD.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarNOTickD.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarNOTickD.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTickU.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTickU.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTickU.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarLRTickU.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTickU.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTickU.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarLRTickU.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTickM.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTickM.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTickM.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarLRTickM.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTickM.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTickM.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarLRTickM.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTickD.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTickD.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTickD.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarLRTickD.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTickD.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTickD.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarLRTickD.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTick.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTick.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTick.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarLRTick.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTick.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRTick.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarLRTick.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRSpace.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRSpace.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRSpace.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarLRSpace.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRSpace.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLRSpace.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarLRSpace.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZTickU.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZTickU.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZTickU.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarHORZTickU.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZTickU.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZTickU.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarHORZTickU.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZTickM.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZTickM.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZTickM.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarHORZTickM.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZTickM.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZTickM.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarHORZTickM.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZTickD.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZTickD.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZTickD.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarHORZTickD.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZTickD.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZTickD.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarHORZTickD.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZSpace.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZSpace.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZSpace.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarHORZSpace.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZSpace.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZSpace.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarHORZSpace.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUTickM.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUTickM.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUTickM.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarDUTickM.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUTickM.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUTickM.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarDUTickM.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUTickL.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUTickL.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUTickL.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarDUTickL.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUTickL.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDUTickL.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarDUTickL.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRL.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRL.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRL.png:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarRL.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRL.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarRL.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarRL.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUD.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUD.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUD.png:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarUD.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUD.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarUD.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarUD.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERT.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERT.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERT.png:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarVERT.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERT.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarVERT.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarVERT.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDU.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDU.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDU.png:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarDU.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDU.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarDU.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarDU.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZ.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZ.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZ.png:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarHORZ.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZ.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarHORZ.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarHORZ.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLR.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLR.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLR.png:FileName" xml:space="preserve">
+    <value>AndroidMobile.TrackBarSkin.TrackBarLR.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLR.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:TrackBarLR.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TrackBarSkin.TrackBarLR.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBothStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBothStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>Name=VerticalTailBoth.gif;Namespace=Gizmox.WebGUI.Forms.Skins.TrackBarSkin</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBottomStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBottomStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>Name=VerticalTailBottom.gif;Namespace=Gizmox.WebGUI.Forms.Skins.TrackBarSkin</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailNoneStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailNoneStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>Name=VerticalTailNone.gif;Namespace=Gizmox.WebGUI.Forms.Skins.TrackBarSkin</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailTopStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailTopStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>Name=VerticalTailTop.gif;Namespace=Gizmox.WebGUI.Forms.Skins.TrackBarSkin</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBothStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBothStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>Name=HorizontalTailBoth.gif;Namespace=Gizmox.WebGUI.Forms.Skins.TrackBarSkin</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBottomStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBottomStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>Name=HorizontalTailBottom.gif;Namespace=Gizmox.WebGUI.Forms.Skins.TrackBarSkin</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailNoneStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailNoneStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>Name=HorizontalTailNone.gif;Namespace=Gizmox.WebGUI.Forms.Skins.TrackBarSkin</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailTopStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailTopStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>Name=HorizontalTailTop.gif;Namespace=Gizmox.WebGUI.Forms.Skins.TrackBarSkin</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:SliderTopImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:SliderTopImage:Value" xml:space="preserve">
+    <value>Name=TrackBarDU.png;Namespace=Gizmox.WebGUI.Forms.Skins.TrackBarSkin</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:SliderVerticalBothImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:SliderVerticalBothImage:Value" xml:space="preserve">
+    <value>Name=TrackBarHORZ.png;Namespace=Gizmox.WebGUI.Forms.Skins.TrackBarSkin</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:SliderRightImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:SliderRightImage:Value" xml:space="preserve">
+    <value>Name=TrackBarLR.png;Namespace=Gizmox.WebGUI.Forms.Skins.TrackBarSkin</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:SliderLeftImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:SliderLeftImage:Value" xml:space="preserve">
+    <value>Name=TrackBarRL.png;Namespace=Gizmox.WebGUI.Forms.Skins.TrackBarSkin</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:SliderBottomImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:SliderBottomImage:Value" xml:space="preserve">
+    <value>Name=TrackBarUD.png;Namespace=Gizmox.WebGUI.Forms.Skins.TrackBarSkin</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:SliderHorizontalBothImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:SliderHorizontalBothImage:Value" xml:space="preserve">
+    <value>Name=TrackBarVERT.png;Namespace=Gizmox.WebGUI.Forms.Skins.TrackBarSkin</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:BorderWidth:Value" xml:space="preserve">
+    <value>0, 0, 0, 1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:BorderColor:Value" xml:space="preserve">
+    <value>97, 97, 97</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownDown.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownDown.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownDown.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.ComboBoxSkin.DropDownDown.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownDown.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownDown.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.ComboBoxSkin.DropDownDown.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownNormal.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownNormal.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownNormal.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.ComboBoxSkin.DropDownNormal.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownNormal.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownNormal.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.ComboBoxSkin.DropDownNormal.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownOver.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownOver.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownOver.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.ComboBoxSkin.DropDownOver.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownOver.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownOver.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.ComboBoxSkin.DropDownOver.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownDisable.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownDisable.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownDisable.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.ComboBoxSkin.DropDownDisable.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownDisable.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownDisable.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.ComboBoxSkin.DropDownDisable.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:ComboBoxTextBoxContainerStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:ComboBoxTextBoxContainerStyle.BorderWidth:Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownContainerNormalStyleLTR.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownContainerNormalStyleLTR.BorderWidth:Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownContainerHoverStyleLTR.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownContainerHoverStyleLTR.BorderWidth:Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownContainerHoverStyleRTL.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownContainerHoverStyleRTL.BorderWidth:Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownContainerNormalStyleRTL.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownContainerNormalStyleRTL.BorderWidth:Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownContainerPressedStyleRTL.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownContainerPressedStyleRTL.BorderWidth:Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownContainerPressedStyleLTR.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:DropDownContainerPressedStyleLTR.BorderWidth:Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ComboBoxSkin:Padding:Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailTopStyle.BackgroundImageRepeat" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImageRepeat, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailTopStyle.BackgroundImageRepeat:Value" xml:space="preserve">
+    <value>RepeatX</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailTopStyle.BackgroundImagePosition" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImagePosition, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailTopStyle.BackgroundImagePosition:Value" xml:space="preserve">
+    <value>TopCenter</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBottomStyle.BackgroundImagePosition" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImagePosition, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBottomStyle.BackgroundImagePosition:Value" xml:space="preserve">
+    <value>TopCenter</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBottomStyle.BackgroundImageRepeat" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImageRepeat, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBottomStyle.BackgroundImageRepeat:Value" xml:space="preserve">
+    <value>RepeatX</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBothStyle.BackgroundImagePosition" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImagePosition, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBothStyle.BackgroundImagePosition:Value" xml:space="preserve">
+    <value>TopCenter</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailNoneStyle.BackgroundImagePosition" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImagePosition, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailNoneStyle.BackgroundImagePosition:Value" xml:space="preserve">
+    <value>TopCenter</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBothStyle.BackgroundImageRepeat" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImageRepeat, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailBothStyle.BackgroundImageRepeat:Value" xml:space="preserve">
+    <value>RepeatX</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailNoneStyle.BackgroundImageRepeat" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImageRepeat, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:HorizontalTailNoneStyle.BackgroundImageRepeat:Value" xml:space="preserve">
+    <value>RepeatX</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBothStyle.BackgroundImagePosition" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImagePosition, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBothStyle.BackgroundImagePosition:Value" xml:space="preserve">
+    <value>TopLeft</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBothStyle.BackgroundImageRepeat" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImageRepeat, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBothStyle.BackgroundImageRepeat:Value" xml:space="preserve">
+    <value>RepeatY</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBottomStyle.BackgroundImagePosition" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImagePosition, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBottomStyle.BackgroundImagePosition:Value" xml:space="preserve">
+    <value>TopLeft</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBottomStyle.BackgroundImageRepeat" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImageRepeat, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailBottomStyle.BackgroundImageRepeat:Value" xml:space="preserve">
+    <value>RepeatY</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailNoneStyle.BackgroundImagePosition" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImagePosition, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailNoneStyle.BackgroundImagePosition:Value" xml:space="preserve">
+    <value>TopLeft</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailNoneStyle.BackgroundImageRepeat" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImageRepeat, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailNoneStyle.BackgroundImageRepeat:Value" xml:space="preserve">
+    <value>RepeatY</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailTopStyle.BackgroundImagePosition" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImagePosition, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailTopStyle.BackgroundImagePosition:Value" xml:space="preserve">
+    <value>TopLeft</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailTopStyle.BackgroundImageRepeat" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImageRepeat, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TrackBarSkin:VerticalTailTopStyle.BackgroundImageRepeat:Value" xml:space="preserve">
+    <value>RepeatY</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownDisable.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownDisable.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownDisable.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.DateTimePickerSkin.DropDownDisable.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownDisable.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownDisable.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.DateTimePickerSkin.DropDownDisable.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownDown.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownDown.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownDown.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.DateTimePickerSkin.DropDownDown.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownDown.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownDown.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.DateTimePickerSkin.DropDownDown.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownNormal.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownNormal.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownNormal.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.DateTimePickerSkin.DropDownNormal.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownNormal.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownNormal.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.DateTimePickerSkin.DropDownNormal.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownOver.gif" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownOver.gif:ImageFormat" xml:space="preserve">
+    <value>Gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownOver.gif:FileName" xml:space="preserve">
+    <value>AndroidMobile.DateTimePickerSkin.DropDownOver.gif</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownOver.gif:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownOver.gif:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.DateTimePickerSkin.DropDownOver.gif;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:BorderWidth:Value" xml:space="preserve">
+    <value>0, 0, 0, 1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:ButtonsContainerNormalStyleLTR.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:ButtonsContainerNormalStyleLTR.BorderWidth:Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Administration.CustomComponents.AdministrationButtonSkin:ControlFocusedStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Administration.CustomComponents.AdministrationButtonSkin:ControlFocusedStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.EmptyVisualEffect|;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:ControlFocusedStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:ControlFocusedStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.EmptyVisualEffect|;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.ColumnChooserButtonSkin:ControlFocusedStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.ColumnChooserButtonSkin:ControlFocusedStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.EmptyVisualEffect|;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.EmulationFormButtonSelectorSkin:ControlFocusedStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.EmulationFormButtonSelectorSkin:ControlFocusedStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.EmptyVisualEffect|;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DataGridViewButtonCellSkin:ControlFocusedStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DataGridViewButtonCellSkin:ControlFocusedStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.EmptyVisualEffect|;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.EmulatorButtonSkin:ControlFocusedStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.EmulatorButtonSkin:ControlFocusedStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.EmptyVisualEffect|;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolStripButtonSkin:ControlFocusedStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolStripButtonSkin:ControlFocusedStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.EmptyVisualEffect|;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolStripDropDownButtonSkin:ControlFocusedStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolStripDropDownButtonSkin:ControlFocusedStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.EmptyVisualEffect|;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolStripSplitButtonSkin:ControlFocusedStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ToolStripSplitButtonSkin:ControlFocusedStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.EmptyVisualEffect|;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LinkLabelSkin:ContentStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LinkLabelSkin:ContentStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 16px, style=Underline</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabsSkin:CenterTopTabHoverLTRStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabsSkin:CenterTopTabHoverLTRStyle.Padding:Value" xml:space="preserve">
+    <value>4, 2, 5, 4</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalLTRSpreadStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopNormalLTRSpreadStyle.Padding:Value" xml:space="preserve">
+    <value>15, 0, 15, 20</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopHoverLTRSpreadStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopHoverLTRSpreadStyle.Padding:Value" xml:space="preserve">
+    <value>15, 0, 15, 20</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopHoverRTLSpreadStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopHoverRTLSpreadStyle.Padding:Value" xml:space="preserve">
+    <value>15, 0, 15, 20</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopHoverLTRSpreadStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopHoverLTRSpreadStyle.BackColor:Value" xml:space="preserve">
+    <value>42, 107, 131</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopHoverRTLSpreadStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabTopHoverRTLSpreadStyle.ForeColor:Value" xml:space="preserve">
+    <value>42, 107, 131</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalLTRSpreadStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomNormalLTRSpreadStyle.BorderWidth:Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedLTRSpreadStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:CenterTabBottomSelectedLTRSpreadStyle.Padding:Value" xml:space="preserve">
+    <value>15, 1, 15, 16</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabShowContentRTL.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabShowContentRTL.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabShowContentRTL.png:FileName" xml:space="preserve">
+    <value>AndroidMobile.TabControlSkin.TabShowContentRTL.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabShowContentRTL.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabShowContentRTL.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TabControlSkin.TabShowContentRTL.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabShowContentLTR.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabShowContentLTR.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabShowContentLTR.png:FileName" xml:space="preserve">
+    <value>AndroidMobile.TabControlSkin.TabShowContentLTR.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabShowContentLTR.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabShowContentLTR.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.TabControlSkin.TabShowContentLTR.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabPagesStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabPagesStyle.Padding:Value" xml:space="preserve">
+    <value>15, 0, 15, 0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabHoverPagesStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabHoverPagesStyle.Padding:Value" xml:space="preserve">
+    <value>15, 0, 15, 0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabSelectedPagesStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabSelectedPagesStyle.Padding:Value" xml:space="preserve">
+    <value>15, 0, 15, 0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabSelectedPagesStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabSelectedPagesStyle.BorderColor:Value" xml:space="preserve">
+    <value>221, 221, 221</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabSelectedPagesStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabSelectedPagesStyle.BorderWidth:Value" xml:space="preserve">
+    <value>0, 0, 0, 1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:SearchButtonImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:SearchButtonImage:Value" xml:space="preserve">
+    <value>[Empty]</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:WatermarkStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:WatermarkStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>Name=Search.png;Namespace=Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:WatermarkStyle.BackgroundImageRepeat" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImageRepeat, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:WatermarkStyle.BackgroundImageRepeat:Value" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:WatermarkStyle.BackgroundImagePosition" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BackgroundImagePosition, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:WatermarkStyle.BackgroundImagePosition:Value" xml:space="preserve">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:Search.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:Search.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:Search.png:FileName" xml:space="preserve">
+    <value>AndroidMobile.SearchTextBoxSkin.Search.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:Search.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:Search.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AndroidMobile.SearchTextBoxSkin.Search.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderedPanelSkin:HeaderStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderedPanelSkin:HeaderStyle.BackColor:Value" xml:space="preserve">
+    <value>40, 40, 40</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderedPanelSkin:TopFrameHeight" xml:space="preserve">
+    <value>ValueResource:System.Int32, mscorlib</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderedPanelSkin:TopFrameHeight:Value" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderedPanelSkin:HeaderStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderedPanelSkin:HeaderStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 16pt</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderedPanelSkin:HeaderStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderedPanelSkin:HeaderStyle.Padding:Value" xml:space="preserve">
+    <value>11, 25, 11, 0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:Font:Value" xml:space="preserve">
+    <value>Arial, 16pt</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:CellStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:CellStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent Transparent Transparent 72, 72, 72</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:CellStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListBoxSkin:CellStyle.Padding:Value" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewSkin:Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewSkin:Padding:Value" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderedPanelSkin:BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderedPanelSkin:BorderColor:Value" xml:space="preserve">
+    <value>Transparent 64, 64, 64 Transparent Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderedPanelSkin:VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderedPanelSkin:VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.BorderRadiusVisualEffect|4;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewSkin:GroupHeaderStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewSkin:GroupHeaderStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 16px</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellNormalStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellNormalStyle.Padding:Value" xml:space="preserve">
+    <value>5, 12, 5, 12</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellAlternativeStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellAlternativeStyle.Padding:Value" xml:space="preserve">
+    <value>5, 12, 5, 12</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellNormalStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellNormalStyle.BackColor:Value" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellAlternativeStyle.BorderStyle" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderStyle, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellAlternativeStyle.BorderStyle:Value" xml:space="preserve">
+    <value>FixedSingle</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellNormalStyle.BorderStyle" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderStyle, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellNormalStyle.BorderStyle:Value" xml:space="preserve">
+    <value>FixedSingle</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellAlternativeStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellAlternativeStyle.BorderWidth:Value" xml:space="preserve">
+    <value>0, 0, 0, 1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellNormalStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellNormalStyle.BorderWidth:Value" xml:space="preserve">
+    <value>0, 0, 0, 1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellSelectedStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellSelectedStyle.BackColor:Value" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellSelectedStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellSelectedStyle.BorderWidth:Value" xml:space="preserve">
+    <value>0, 0, 0, 1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellSelectedStyle.BorderStyle" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderStyle, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellSelectedStyle.BorderStyle:Value" xml:space="preserve">
+    <value>FixedSingle</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellNormalStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ListViewVisualTemplateSkin:CellNormalStyle.BorderColor:Value" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WatermarkTextBoxSkin:WatermarkStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WatermarkTextBoxSkin:WatermarkStyle.ForeColor:Value" xml:space="preserve">
+    <value>Gray</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterDisabledStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterDisabledStyle.BackColor:Value" xml:space="preserve">
+    <value>52, 52, 52</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterDisabledStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterDisabledStyle.ForeColor:Value" xml:space="preserve">
+    <value>77, 77, 77</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterDisabledStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterDisabledStyle.BorderColor:Value" xml:space="preserve">
+    <value>60, 60, 60 60, 60, 60 60, 60, 60 49, 49, 49</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RadioButtonSkin:CenterDisabledStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.RadioButtonSkin:CenterDisabledStyle.ForeColor:Value" xml:space="preserve">
+    <value>246, 242, 246</value>
+  </data>
+</root>

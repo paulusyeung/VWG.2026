@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownSize" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Size, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.DateTimePickerSkin:DropDownSize:Value" xml:space="preserve">
+    <value>260, 280</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterNormalStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterNormalStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LinkLabelSkin:Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LinkLabelSkin:Font:Value" xml:space="preserve">
+    <value>Arial, 8.25pt, style=Bold, Underline</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LinkLabelSkin:ContentStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LinkLabelSkin:ContentStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 8.25pt, style=Underline</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabPagesStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabPagesStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 14pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabHoverPagesStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabHoverPagesStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 14pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabSelectedPagesStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TabControlSkin:TabPageMoreTabSelectedPagesStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 14pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:SingleLineInputStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:SingleLineInputStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 11pt</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:Margin" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.MarginValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:Margin:Value" xml:space="preserve">
+    <value>12, 12, 3, 3</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:Font:Value" xml:space="preserve">
+    <value>Arial, 17pt</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:CaptionHeight" xml:space="preserve">
+    <value>ValueResource:System.Int32, mscorlib</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:CaptionHeight:Value" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:NormalDayStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:NormalDayStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 18pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:SelectedDayStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:SelectedDayStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 18pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:CaptionStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:CaptionStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 17pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:HeaderStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:HeaderStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 7.25pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:NormalYearRangeCellStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:NormalYearRangeCellStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 18pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:NormalMonthCellStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:NormalMonthCellStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 18pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:SelectedYearCellStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:SelectedYearCellStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 18pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:SelectedYearRangeCellStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:SelectedYearRangeCellStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 18pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:SelectedMonthCellStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:SelectedMonthCellStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 18pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LabelSkin:Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.LabelSkin:Font:Value" xml:space="preserve">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:SingleLineInputStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.SearchTextBoxSkin:SingleLineInputStyle.Padding:Value" xml:space="preserve">
+    <value>8, 12, 8, 2</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterPressedStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValueGroup, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterPressedStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.BorderRadiusVisualEffect|6;Gizmox.WebGUI.Forms.VisualEffects.GradientBackgroundVisualEffect|0|null|0|0|0 3 -7426846,7 3 -8149280,37 3 -8937763,50 3 -10383400,51 3 -12748079,54 3 -12748079,57 3 -12748079,100 3 -12616238|0|0|0|2|null|null;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterDisabledStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValueGroup, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterDisabledStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.BorderRadiusVisualEffect|6;Gizmox.WebGUI.Forms.VisualEffects.GradientBackgroundVisualEffect|0|null|0|0|0 3 -3552823,50 3 -5066062,51 3 -5987164,54 3 -6052957,100 3 -5855578|null|0|0|null|null|null;Gizmox.WebGUI.Forms.VisualEffects.TextShadowVisualEffect|1|1|1|White;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterHoverStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValueGroup, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterHoverStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.BorderRadiusVisualEffect|6;Gizmox.WebGUI.Forms.VisualEffects.GradientBackgroundVisualEffect|0|null|0|0|0 3 -7361316,4 3 -7426852,39 3 -9989167,50 3 -10514994,51 3 -12485688,54 3 -12682808,57 3 -12485688,100 3 -12354103|null|0|0|null|null|null;Gizmox.WebGUI.Forms.VisualEffects.BoxShadowVisualEffect|0|0|2|0|#7B8088|1;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterFocusedStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValueGroup, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterFocusedStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.BorderRadiusVisualEffect|6;Gizmox.WebGUI.Forms.VisualEffects.GradientBackgroundVisualEffect|0|270|0|0|0 3 -8082707,7 3 -8279827,39 3 -10775576,50 3 -11301401,51 3 -13928220,54 3 -14125340,57 3 -13928220,100 3 -13796379|null|0|0|null|null|null;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterFocusedStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterFocusedStyle.BackColor:Value" xml:space="preserve">
+    <value>132, 170, 237</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterHoverStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterHoverStyle.BackColor:Value" xml:space="preserve">
+    <value>143, 172, 220</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterPressedStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.ButtonSkin:CenterPressedStyle.BackColor:Value" xml:space="preserve">
+    <value>142, 172, 226</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.BorderRadiusVisualEffect|12;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:SingleLineInputStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TextBoxSkin:SingleLineInputStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.BoxShadowVisualEffect|0|1|2|2|#707070|1;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:NormalDayStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:NormalDayStyle.ForeColor:Value" xml:space="preserve">
+    <value>73, 90, 109</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:NormalMonthCellStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:NormalMonthCellStyle.ForeColor:Value" xml:space="preserve">
+    <value>73, 90, 109</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:NormalYearRangeCellStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.MonthCalendarSkin:NormalYearRangeCellStyle.ForeColor:Value" xml:space="preserve">
+    <value>73, 90, 109</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.CommonSkin:ForeColor:Value" xml:space="preserve">
+    <value>14, 14, 30</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:Font:Value" xml:space="preserve">
+    <value>Arial, 18pt</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeNodeNormalStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeNodeNormalStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 12.5pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeNodeNormalStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeNodeNormalStyle.ForeColor:Value" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeNodeNormalStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeNodeNormalStyle.BorderColor:Value" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:BackgroundImage:Value" xml:space="preserve">
+    <value>[Empty]</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeNodeNormalStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeNodeNormalStyle.BorderWidth:Value" xml:space="preserve">
+    <value>0, 0, 0, 1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeNodeNormalStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeNodeNormalStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>[Empty]</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRowStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRowStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>[Empty]</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeNodeNormalStyle.BorderStyle" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderStyle, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeNodeNormalStyle.BorderStyle:Value" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRowStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRowStyle.BorderColor:Value" xml:space="preserve">
+    <value>202, 202, 202</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:BorderColor:Value" xml:space="preserve">
+    <value>161, 167, 173</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewNodeHeight" xml:space="preserve">
+    <value>ValueResource:System.Int32, mscorlib</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewNodeHeight:Value" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRightArrowRTL.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRightArrowRTL.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRightArrowRTL.png:FileName" xml:space="preserve">
+    <value>iOS6Mobile.TreeViewVisualTemplateSkin.TreeViewRightArrowRTL.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRightArrowRTL.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRightArrowRTL.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>iOS6Mobile.TreeViewVisualTemplateSkin.TreeViewRightArrowRTL.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRightArrowLTR.png" xml:space="preserve">
+    <value>ImageResource</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRightArrowLTR.png:ImageFormat" xml:space="preserve">
+    <value>Png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRightArrowLTR.png:FileName" xml:space="preserve">
+    <value>iOS6Mobile.TreeViewVisualTemplateSkin.TreeViewRightArrowLTR.png</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRightArrowLTR.png:ContentType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRightArrowLTR.png:Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>iOS6Mobile.TreeViewVisualTemplateSkin.TreeViewRightArrowLTR.png;Gizmox.WebGUI.Forms.Skins.Resources.ImageContent, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRowStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewRowStyle.Padding:Value" xml:space="preserve">
+    <value>4, 0, 11, 0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:BackColor:Value" xml:space="preserve">
+    <value>247, 247, 247</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackContainerStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackContainerStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>[Empty]</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackContainerStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackContainerStyle.BackColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackButtonStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackButtonStyle.ForeColor:Value" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackContainerStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackContainerStyle.BorderColor:Value" xml:space="preserve">
+    <value>202, 202, 202</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackContainerStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackContainerStyle.BorderWidth:Value" xml:space="preserve">
+    <value>0, 0, 0, 1</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackContainerStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackContainerStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 12.5pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackContainerStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackContainerStyle.ForeColor:Value" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackContainerStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackContainerStyle.Padding:Value" xml:space="preserve">
+    <value>8, 9, 11, 0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackButtonStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackButtonStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 12.5pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackButtonSize" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Size, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackButtonSize:Value" xml:space="preserve">
+    <value>90, 32</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackButtonStyle.Padding" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.PaddingValue, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.TreeViewVisualTemplateSkin:TreeViewVisualTemplateBackButtonStyle.Padding:Value" xml:space="preserve">
+    <value>0, 8, 0, 0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderLabelVisualTemplateSkin:ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderLabelVisualTemplateSkin:ForeColor:Value" xml:space="preserve">
+    <value>84, 84, 84</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderLabelVisualTemplateSkin:Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.HeaderLabelVisualTemplateSkin:Font:Value" xml:space="preserve">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.BorderlessTextBoxVisualTemplateSkin:VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.BorderlessTextBoxVisualTemplateSkin:VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.EmptyVisualEffect|;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.BorderlessTextBoxVisualTemplateSkin:ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.BorderlessTextBoxVisualTemplateSkin:ForeColor:Value" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.BorderlessTextBoxVisualTemplateSkin:SingleLineInputStyle.VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.BorderlessTextBoxVisualTemplateSkin:SingleLineInputStyle.VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.EmptyVisualEffect|;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.BorderlessTextBoxVisualTemplateSkin:SingleLineInputStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.BorderlessTextBoxVisualTemplateSkin:SingleLineInputStyle.ForeColor:Value" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterNormalStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterNormalStyle.ForeColor:Value" xml:space="preserve">
+    <value>56, 84, 135</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterNormalStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterNormalStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9.25pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterHoverStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterHoverStyle.ForeColor:Value" xml:space="preserve">
+    <value>65, 108, 178</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterFocusedStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterFocusedStyle.ForeColor:Value" xml:space="preserve">
+    <value>52, 122, 201</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:VisualEffect" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.VisualEffectValue, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:VisualEffect:Value" xml:space="preserve">
+    <value>Gizmox.WebGUI.Forms.VisualEffects.EmptyVisualEffect|;</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterHoverStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterHoverStyle.BorderWidth:Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterHoverStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterHoverStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>[Empty]</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterHoverStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterHoverStyle.BackColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterFocusedStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterFocusedStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterFocusedStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterFocusedStyle.BackColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterFocusedStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterFocusedStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>[Empty]</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterPressedStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterPressedStyle.BackColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterPressedStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterPressedStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterNormalStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterNormalStyle.BackColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterNormalStyle.BorderWidth" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderWidth, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterNormalStyle.BorderWidth:Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonHoverStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonHoverStyle.BackColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonNormalStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonNormalStyle.ForeColor:Value" xml:space="preserve">
+    <value>56, 84, 135</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterNormalStyle.BackgroundImage" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.Skins.ImageResourceReference, Gizmox.WebGUI.Common</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:CenterNormalStyle.BackgroundImage:Value" xml:space="preserve">
+    <value>[Empty]</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonNormalStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonNormalStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9.25pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonHoverStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonHoverStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9.25pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonFocusedStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonFocusedStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9.25pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonPressedStyle.Font" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Font, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonPressedStyle.Font:Value" xml:space="preserve">
+    <value>Arial, 9.25pt, style=Bold</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonPressedStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonPressedStyle.ForeColor:Value" xml:space="preserve">
+    <value>52, 103, 201</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonPressedStyle.BackColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonPressedStyle.BackColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonPressedStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonPressedStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonFocusedStyle.BorderColor" xml:space="preserve">
+    <value>ValueResource:Gizmox.WebGUI.Forms.BorderColor, Gizmox.WebGUI.Forms</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonFocusedStyle.BorderColor:Value" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonFocusedStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonFocusedStyle.ForeColor:Value" xml:space="preserve">
+    <value>52, 122, 201</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonHoverStyle.ForeColor" xml:space="preserve">
+    <value>ValueResource:System.Drawing.Color, System.Drawing</value>
+  </data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.BorderlessButtonVisualTemplateSkin:FlatButtonHoverStyle.ForeColor:Value" xml:space="preserve">
+    <value>65, 108, 178</value>
+  </data>
+</root>
