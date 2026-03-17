@@ -31,7 +31,7 @@ The Gizmox.WebGUI application suite (v10.0.5 e) runs on **.NET Framework 4.5.2**
 **Scope:**
 - Core libraries only: Common, Client, Converters, Server, Forms.
 - Design/extended variants deferred to Phase 2.
-- Reporting library skipped (DLL missing from workspace).
+- Reporting library located and validated, but .NET 8 port intentionally deferred due WebForms/System.Web coupling.
 
 ---
 
@@ -115,8 +115,8 @@ Used `ilspycmd` to extract source from release binaries in `c:\Projects\VWG\Sour
 | **Gizmox.WebGUI.Server** | 17,285 | 0.43 MB | ✅ Decompiled |
 | **Gizmox.WebGUI.Client** | 14,943 | 0.42 MB | ✅ Decompiled |
 | **Gizmox.WebGUI.Converters** | 177 | 0.01 MB | ✅ Decompiled |
-| **Gizmox.WebGUI.Reporting** | — | — | ❌ Missing DLL |
-| **TOTAL** | **358,442** | **~11 MB** | **5/6** |
+| **Gizmox.WebGUI.Reporting** | — | — | ⚠️ Binary Found (legacy net452), migration deferred |
+| **TOTAL** | **358,442** | **~11 MB** | **5/6 extracted (+ Reporting validated)** |
 
 **Output Directory:** `c:\temp\gizmox_decompiled\` and `c:\Projects\VWG\NetCore\` (working copy).
 
@@ -298,10 +298,15 @@ Compile parity does not guarantee runtime parity. Server request processing, ses
 
 Some legacy framework-heavy paths are intentionally simplified/guarded during migration to keep compile momentum. These areas need deliberate follow-up decisions for long-term behavior parity.
 
-#### 4.4 Reporting DLL Gap
-**Status:** ❗ Deferred.
+#### 4.4 Reporting Migration Decision
+**Status:** ⚠️ Deferred by design.
 
-`Gizmox.WebGUI.Reporting.dll` is still unavailable in the current workspace binaries and remains out of the core 5-library migration path.
+`Gizmox.WebGUI.Reporting.dll` was located at `Sources 4.5.2\Gizmox.WebGUI.Forms.CompanionKit\bin\Gizmox.WebGUI.Reporting.dll` and validated as:
+- `Gizmox.WebGUI.Reporting, Version=4.5.25701.0, PublicKeyToken=ff9cb9557af1f587`
+- Target framework: `.NETFramework,Version=v4.5.2`
+- Depends on `System.Web`, `System.Web.Extensions`, and `Microsoft.ReportViewer.WebForms, Version=12.0.0.0`
+
+Migration is intentionally deferred because this wrapper is tightly coupled to ASP.NET WebForms hosting (`AspControlBoxBase`, `System.Web.UI`, ScriptManager) while current net8 forms migration excludes legacy `Asp*` host sources.
 
 ---
 
@@ -311,7 +316,7 @@ Some legacy framework-heavy paths are intentionally simplified/guarded during mi
 
 | Component | Status | Details |
 |-----------|--------|---------|
-| **Decompilation** | ✅ Complete | 5/6 libraries extracted (358K+ lines) |
+| **Decompilation** | ✅ Complete | 5/6 libraries extracted (358K+ lines); Reporting binary validated and deferred |
 | **Project Structure** | ✅ Complete | SDK-style folders + SystemWebShims |
 | **ILSpy Cleanup** | ✅ Complete | Syntax errors resolved; code valid C# |
 | **NuGet References** | ✅ Complete | Newtonsoft.Json, System.Data.SqlClient, etc. |
@@ -348,6 +353,7 @@ Some legacy framework-heavy paths are intentionally simplified/guarded during mi
 - Run full NetCore integrated build/test to establish solution-wide warning posture after Server-focused warning cleanup.
 - Validate runtime behavior parity in Server request pipeline and legacy/guarded paths.
 - Identify standard replacements for remaining legacy WebForms behavior where runtime parity matters.
+- Keep Reporting deferred unless a .NET 8-native report rendering path is approved.
 
 ---
 
@@ -397,10 +403,11 @@ Some legacy framework-heavy paths are intentionally simplified/guarded during mi
 
 ---
 
-#### 9. Investigate Missing Reporting DLL
-- Search workspace and backup locations for `Gizmox.WebGUI.Reporting.dll`.
-- If not found, check if project source exists and rebuild it.
-- If completely absent, document as "deferred to Phase 2" or "not part of core migration".
+#### 9. Reporting Status (Closed for Current Phase)
+- Located and validated `Gizmox.WebGUI.Reporting.dll` in legacy workspace binaries.
+- Confirmed it is a .NET Framework 4.5.2 WebForms wrapper around `Microsoft.ReportViewer.WebForms`.
+- Decision: keep Reporting out of the current .NET 8 core migration scope.
+- Future option (if required): build a .NET 8-compatible reporting adapter instead of porting the WebForms host wrapper as-is.
 
 ---
 
@@ -439,7 +446,7 @@ Some legacy framework-heavy paths are intentionally simplified/guarded during mi
 | Performance regression from .NET Framework | Medium | Medium | Established baseline benchmarks; optimize hot paths post-migration |
 | Legal challenge to decompilation | Low | High | Documented statutory justification; company status (defunct) limits enforcement |
 | Monolithic file complexity | High | Medium | Split into namespace structure early (Step 4) |
-| Missing assemblies (Reporting, utilities) | Medium | Low | Rebuild from source if available; defer to Phase 2 if not |
+| Reporting WebForms dependency (System.Web + ReportViewer.WebForms) | High | Medium | Keep deferred in current phase; design .NET 8-native reporting adapter before re-entry |
 
 ---
 
@@ -520,7 +527,7 @@ Design-time UI is obsolete in .NET Core/8; these attributes cause compilation er
 ```
 Total Lines Decompiled:  358,442
 Total Size:              ~11 MB
-Libraries:               5/6 (Reporting missing)
+Libraries:               5/6 extracted (+ Reporting binary validated, migration deferred)
 
 Common:      64,835 lines  (foundational, most incompatibilities)
 Forms:       261,202 lines (UI, largest)
@@ -534,7 +541,7 @@ Converters:  177 lines     (RTF→HTML utility, simplest)
 ## 10. Contact & Escalation
 
 **Project Owner:** [User Name]  
-**Last Updated:** March 17, 2026  
+**Last Updated:** March 18, 2026  
 **Next Review:** After full integrated build/test and runtime parity checkpoint
 
 **Open Questions for Clarification:**
