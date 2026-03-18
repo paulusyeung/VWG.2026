@@ -1,0 +1,36 @@
+# Decompilation Workflow
+
+Date: 2026-03-18
+
+## Goal
+
+Create a reproducible source baseline from the legacy Extended assembly for staged migration to .NET 8.
+
+## Source Assembly
+
+- `Sources 4.5.2/Gizmox.WebGUI.Forms.Extended/bin/Debug/Gizmox.WebGUI.Forms.Extended.dll`
+
+## Tooling
+
+- `ilspycmd` 9.1.0.7988
+
+## Command
+
+```powershell
+ilspycmd --nested-directories -p -o .\NetCore\Gizmox.WebGUI.Forms.Extended\legacy-decompiled `
+  ".\Sources 4.5.2\Gizmox.WebGUI.Forms.Extended\bin\Debug\Gizmox.WebGUI.Forms.Extended.dll"
+```
+
+## Output
+
+- Folder: `NetCore/Gizmox.WebGUI.Forms.Extended/legacy-decompiled`
+- Includes:
+  - decompilation project file (`legacy-decompiled/Gizmox.WebGUI.Forms.Extended.csproj`)
+  - decompiled C# sources (one file per type)
+  - legacy embedded resources (`*.bmp`, `*.png`, `*.resx`)
+
+## Migration Project Note
+
+The standalone migration project is `NetCore/Gizmox.WebGUI.Forms.Extended/Gizmox.WebGUI.Forms.Extended.csproj`.
+
+This root project compiles decompiled sources directly and references migrated NetCore dependencies (`Common`, `Forms`).

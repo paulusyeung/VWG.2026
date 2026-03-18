@@ -126,6 +126,7 @@ namespace System.Web
         public Encoding ContentEncoding { get; set; } = Encoding.UTF8;
         public Stream InputStream { get; set; } = Stream.Null;
         public string UserAgent { get; set; } = "";
+        public string ApplicationPath { get; set; } = "/";
         public string PhysicalApplicationPath { get; set; } = "";
         public System.Collections.Specialized.NameValueCollection Headers { get; set; } = new System.Collections.Specialized.NameValueCollection();
         public string HttpMethod { get; set; } = "GET";

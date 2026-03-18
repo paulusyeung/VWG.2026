@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.css:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAAChAAAAAAAAAAAAAAARAAAAAQAAABQAAAAHAAAAGAAAAAMAAAADAAAAGwAAAA0AAAAH
+AAAAKQAAAAMAAAADAAAALAAAABEAAAAHAAAAPgAAAAMAAAADAAAAQQAAABMAAAAHAAAAVwAAAAQA
+AAARAAAAXAAAAB0AAAAHAAAAfAAAAAYAAAADAAAAggAAABsAAAAHAAAAngAAAAIAAAAAAAAALldv
+cmtzcGFjZVRhYi1Db250cm9sDQp7DQoJW1NraW4uQm9yZGVyXTsNCglbU2tpbi5CYWNrZ3JvdW5k
+XTsNCglbU2tpbi5WaXN1YWxFZmZlY3RdDQp9DQoNCi5Xb3Jrc3BhY2VUYWItQ29udHJvbF9EaXNh
+YmxlZA0Kew0KICAgIFtTa2luLkNvbnRyb2xEaXNhYmxlZFN0eWxlXTsNCn0=</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.xslt:ContentType" xml:space="preserve"><value /></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.xslt:Presentation" xml:space="preserve"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.xslt:CompilerActions" xml:space="preserve"><value>7</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.css:PresentationRole" xml:space="preserve"><value>102</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.css:ContentType" xml:space="preserve"><value /></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.css:PresentationEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.css:FileName" xml:space="preserve"><value>WorkspaceTabSkin.WorkspaceTab.css</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.xslt:PresentationDrawingEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.css" xml:space="preserve"><value>StyleSheetResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.xslt:PresentationRole" xml:space="preserve"><value>103</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.xslt:PresentationEngine" xml:space="preserve"><value>1</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.css:Presentation" xml:space="preserve"><value>100</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.css:CompilerActions" xml:space="preserve"><value>7</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.xslt:Content" mimetype="application/x-microsoft.net.object.binary.base64"><value>AQAAAAMAAADSAgAAAAAAAAQAAAAEAAAAd0NvbW1vbj1odHRwJTNhJTJmJTJmd3d3Lmdpem1veC5j
+b20lMmZ3ZWJndWklMmZjb21tb24mV0M9d2djb250cm9scyZ4c2w9aHR0cCUzYSUyZiUyZnd3dy53
+My5vcmclMmYxOTk5JTJmWFNMJTJmVHJhbnNmb3JtAAAAAAwAAAAAAAAA8gAAAAcAAADzAAAABwAA
+AAYAAAD6AAAAKAAAAAcAAAAjAQAAAwAAAAkAAAA+AQAADAAAAAgAAABMAQAADwAAAAgAAABpAQAA
+EAAAAAcAAAB9AQAAAQAAAAcAAACVAQAABQAAABMAAACrAQAADAAAAAcAAAC8AQAABQAAABUAAADa
+AQAAGQAAAAcAAAD2AQAABwAAABIAAAATAgAADwAAABAAAAAtAgAAFAAAAAcAAABGAgAABwAAABIA
+AABjAgAADAAAABIAAAB6AgAADAAAAAcAAACLAgAABQAAAAcAAAClAgAAAwAAAAcAAAC4AgAABQAA
+AAwAAAC9AgAAEQAAAAAAAAA8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJ1dGYtOCIgPz4N
+Cjx4c2w6c3R5bGVzaGVldCB2ZXJzaW9uPSIxLjAiDQogICAgICAgICAgICAgICAgeG1sbnM6eHNs
+PSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L1hTTC9UcmFuc2Zvcm0iDQoJICAgICAgICAgICAgICB4
+bWxuczpXQz0id2djb250cm9scyINCgkgICAgICAgICAgICAgIHhtbG5zOkNvbW1vbj0iaHR0cDov
+L3d3dy5naXptb3guY29tL3dlYmd1aS9jb21tb24iPg0KICANCiAgPCEtLSBEcmF3cyB0aGUgdGFi
+IHBhZ2UgYm9keSBjb250ZW50IC0tPg0KICA8eHNsOnRlbXBsYXRlIG1hdGNoPSJXQzpUYWdzLlRh
+YlBhZ2VbQEF0dHIuQXBwZWFyYW5jZT0nNCcgYW5kIG5vdChAQXR0ci5DdXN0b21TdHlsZSldIiAg
+bW9kZT0ibW9kQm9keUNvbnRlbnQiPg0KICAgIDx4c2w6cGFyYW0gbmFtZT0icHJtSXNFbmFibGVk
+IiAvPg0KICAgIDx4c2w6Y2FsbC10ZW1wbGF0ZSBuYW1lPSJ0cGxEcmF3VGFiUGFnZUJvZHlDb250
+ZW50Ij4NCiAgICAgIDx4c2w6d2l0aC1wYXJhbSBuYW1lPSJwcm1UYWJQYWdlQ2xhc3MiIHNlbGVj
+dD0iJ1dvcmtzcGFjZVRhYi1Db250cm9sJyIvPg0KICAgICAgPHhzbDp3aXRoLXBhcmFtIG5hbWU9
+InBybUlzRW5hYmxlZCIgc2VsZWN0PSIkcHJtSXNFbmFibGVkIiAvPg0KICAgIDwveHNsOmNhbGwt
+dGVtcGxhdGU+DQogIDwveHNsOnRlbXBsYXRlPg0KICANCjwveHNsOnN0eWxlc2hlZXQ+DQoNCg==</value></data><data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.xslt" xml:space="preserve"><value>TemplateResource</value></data>
+  <data name="Skin:Gizmox.WebGUI.Forms.Skins.WorkspaceTabSkin:WorkspaceTab.xslt:FileName" xml:space="preserve"><value>WorkspaceTabSkin.WorkspaceTab.xslt</value></data>
+  </root>

@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Gizmox.WebGUI.Forms.Extended</AssemblyName>
+    <RootNamespace>Gizmox.WebGUI.Forms</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <NoWarn>$(NoWarn);CS0618;SYSLIB0003;SYSLIB0011;SYSLIB0023</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gizmox.WebGUI.Common\Gizmox.WebGUI.Common.csproj" />
+    <ProjectReference Include="..\Gizmox.WebGUI.Forms\Gizmox.WebGUI.Forms.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="legacy-decompiled\Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="legacy-decompiled\Gizmox.WebGUI.Forms.Extended.SurfacePanel.bmp" LogicalName="Gizmox.WebGUI.Forms.Extended.SurfacePanel.bmp" />
+    <EmbeddedResource Include="legacy-decompiled\Gizmox.WebGUI.Forms.Extended.WorkspaceTabs_45.png" LogicalName="Gizmox.WebGUI.Forms.Extended.WorkspaceTabs_45.png" />
+    <EmbeddedResource Include="legacy-decompiled\Gizmox.WebGUI.Forms.Extended.Editors.FCKEditor_45.png" LogicalName="Gizmox.WebGUI.Forms.Extended.Editors.FCKEditor_45.png" />
+    <EmbeddedResource Include="legacy-decompiled\Gizmox.WebGUI.Forms.Extended.MaskedComboBox_45.png" LogicalName="Gizmox.WebGUI.Forms.Extended.MaskedComboBox_45.png" />
+  </ItemGroup>
+
+</Project>
