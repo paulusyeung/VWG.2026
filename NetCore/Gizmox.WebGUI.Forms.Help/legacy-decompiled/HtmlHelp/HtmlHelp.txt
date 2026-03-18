@@ -1,0 +1,1 @@
+The HtmlHelp library was created by Klaus Weisser (http://www.codeproject.com/csharp/HtmlHelp.asp).
