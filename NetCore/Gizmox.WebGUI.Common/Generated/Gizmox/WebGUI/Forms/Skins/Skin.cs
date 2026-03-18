@@ -106,8 +106,8 @@ namespace Gizmox.WebGUI.Forms.Skins
 {
 	[ToolboxItem(false)]
 	[Localizable(false)]
-	[Designer("Gizmox.WebGUI.Common.Design.Skins.SkinDocumentDesigner, Gizmox.WebGUI.Common.Design.Skins, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=82814e180535b402", typeof(IRootDesigner))]
-	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Skins.SkinCodeDomSerializer, Gizmox.WebGUI.Common.Design.Skins, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=82814e180535b402", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+	[Designer("Gizmox.WebGUI.Common.Design.Skins.SkinDocumentDesigner, Gizmox.WebGUI.Common.Design.Skins", typeof(IRootDesigner))]
+	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Skins.SkinCodeDomSerializer, Gizmox.WebGUI.Common.Design.Skins", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 	[ToolboxBitmap(typeof(Skin))]
 	public class Skin : SkinComponent, ICustomTypeDescriptor
 	{

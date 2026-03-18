@@ -105,8 +105,8 @@ using Newtonsoft.Json;
 namespace Gizmox.WebGUI.Forms.Skins
 {
 	[Serializable]
-	[Designer("Gizmox.WebGUI.Common.Design.Skins.ThemeDocumentDesigner, Gizmox.WebGUI.Common.Design.Skins, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=82814e180535b402", typeof(IRootDesigner))]
-	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Skins.ThemeCodeDomSerializer, Gizmox.WebGUI.Common.Design.Skins, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=82814e180535b402", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+	[Designer("Gizmox.WebGUI.Common.Design.Skins.ThemeDocumentDesigner, Gizmox.WebGUI.Common.Design.Skins", typeof(IRootDesigner))]
+	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Skins.ThemeCodeDomSerializer, Gizmox.WebGUI.Common.Design.Skins", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 	[ToolboxBitmap(typeof(Theme))]
 	[Localizable(false)]
 	public class Theme : SkinComponent, ISkinable

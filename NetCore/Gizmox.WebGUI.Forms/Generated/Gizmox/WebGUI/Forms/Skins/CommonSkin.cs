@@ -394,7 +394,7 @@ namespace Gizmox.WebGUI.Forms.Skins
 		/// ForeColor is defined as an ambient property which means that in inherits from is container.</remarks>
 		[Category("Colors")]
 		[SRDescription("ControlForeColorDescr")]
-		[Editor("Gizmox.WebGUI.Common.Design.Skins.Editors.ColorEditor, Gizmox.WebGUI.Common.Design.Skins, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=82814e180535b402", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+		[Editor("Gizmox.WebGUI.Common.Design.Skins.Editors.ColorEditor, Gizmox.WebGUI.Common.Design.Skins", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 		public virtual Color ForeColor
 		{
 			get

@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Gizmox.WebGUI.Common.Design\Gizmox.WebGUI.Common.Design.csproj" />
+    <ProjectReference Include="..\Gizmox.WebGUI.Common.Design.Skins\Gizmox.WebGUI.Common.Design.Skins.csproj" />
   </ItemGroup>
 
   <ItemGroup>

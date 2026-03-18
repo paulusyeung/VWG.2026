@@ -111,7 +111,7 @@ namespace Gizmox.WebGUI.Forms.Skins.Resources
 		internal override bool IsCompileEnabled => true;
 
 		[RefreshProperties(RefreshProperties.All)]
-		[Editor("Gizmox.WebGUI.Common.Design.Skins.Editors.CompilerActionsEditor, Gizmox.WebGUI.Common.Design.Skins, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=82814e180535b402", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+		[Editor("Gizmox.WebGUI.Common.Design.Skins.Editors.CompilerActionsEditor, Gizmox.WebGUI.Common.Design.Skins", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 		[Description("Gets or sets the compiler's actions for the handled resource:\n\n* RemoveComments - Will remove all comments out of handled resource.\n* RemoveWhitespaces - Will remove all white spaces from handled resource.\n* ApplyObscuring - Will obscure all entities (as defined in the VWG code standard) that may be found in the handled resource.")]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
 		[Category("Behavior")]

@@ -106,7 +106,7 @@ namespace Gizmox.WebGUI.Forms.Skins.Resources
 {
 	[Serializable]
 	[ToolboxBitmap(typeof(Skin))]
-	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Skins.SkinResourceCodeDomSerializer, Gizmox.WebGUI.Common.Design.Skins, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=82814e180535b402", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+	[DesignerSerializer("Gizmox.WebGUI.Common.Design.Skins.SkinResourceCodeDomSerializer, Gizmox.WebGUI.Common.Design.Skins", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 	[ToolboxItem(false)]
 	[Localizable(false)]
 	public class SkinResource : IComponent, ICustomTypeDescriptor, ICloneable, IDisposable
@@ -247,7 +247,7 @@ namespace Gizmox.WebGUI.Forms.Skins.Resources
 		[Description("Gets or sets the presentation engine that this resource should be used in.")]
 		[RefreshProperties(RefreshProperties.All)]
 		[DefaultValue(PresentationEngine.Agnostic)]
-		[Editor("Gizmox.WebGUI.Common.Design.Skins.Editors.PresentationEngineEditor, Gizmox.WebGUI.Common.Design.Skins, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=82814e180535b402", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+		[Editor("Gizmox.WebGUI.Common.Design.Skins.Editors.PresentationEngineEditor, Gizmox.WebGUI.Common.Design.Skins", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
 		[Category("Presentation")]
 		public virtual PresentationEngine PresentationEngine
@@ -276,7 +276,7 @@ namespace Gizmox.WebGUI.Forms.Skins.Resources
 		}
 
 		[Description("Gets or sets the browser capabilities that are required and forbidden for this resource.")]
-		[Editor("Gizmox.WebGUI.Common.Design.Skins.Editors.BrowserCapabilitiesEditor, Gizmox.WebGUI.Common.Design.Skins, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=82814e180535b402", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+		[Editor("Gizmox.WebGUI.Common.Design.Skins.Editors.BrowserCapabilitiesEditor, Gizmox.WebGUI.Common.Design.Skins", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 		[Category("Presentation")]
 		[RefreshProperties(RefreshProperties.All)]
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
