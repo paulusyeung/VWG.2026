@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>Gizmox.WebGUI.Forms.Extended.Design</AssemblyName>
+    <RootNamespace>Gizmox.WebGUI.Forms.Extended.Design</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyVersion>4.5.25701.0</AssemblyVersion>
+    <FileVersion>4.5.25701.0</FileVersion>
+    <Version>4.5.25701.0</Version>
+    <Description>Standalone .NET 8 migration target for the legacy Gizmox.WebGUI.Forms.Extended.Design assembly.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gizmox.WebGUI.Client\Gizmox.WebGUI.Client.csproj" />
+    <ProjectReference Include="..\Gizmox.WebGUI.Common\Gizmox.WebGUI.Common.csproj" />
+    <ProjectReference Include="..\Gizmox.WebGUI.Forms\Gizmox.WebGUI.Forms.csproj" />
+    <ProjectReference Include="..\Gizmox.WebGUI.Forms.Extended\Gizmox.WebGUI.Forms.Extended.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="legacy-decompiled\Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+</Project>

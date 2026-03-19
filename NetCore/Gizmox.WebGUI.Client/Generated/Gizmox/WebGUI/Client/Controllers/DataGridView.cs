@@ -42,7 +42,7 @@ using Gizmox.WebGUI.Hosting;
 
 namespace Gizmox.WebGUI.Client.Controllers
 {
-	[Designer(typeof(ControlDesigner))]
+	[Designer(typeof(System.Windows.Forms.Design.ControlDesigner))]
 	internal class DataGridView : System.Windows.Forms.DataGridView
 	{
 	}
