@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Gizmox.WebGUI.Forms.Professional.Design</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net452</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Design" />
+    <Reference Include="Gizmox.WebGUI.Forms.Professional">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Gizmox\Visual WebGUI\SDK 4.5.2\Assemblies\Gizmox.WebGUI.Forms.Professional.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Client" />
+    <Reference Include="Gizmox.WebGUI.Common" />
+    <Reference Include="Gizmox.WebGUI.Common.Design" />
+  </ItemGroup>
+</Project>

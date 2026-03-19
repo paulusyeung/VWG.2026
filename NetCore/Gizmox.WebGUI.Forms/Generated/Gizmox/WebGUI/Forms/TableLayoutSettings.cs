@@ -569,7 +569,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Fires the ObservableItemPropertyChanged event of the IObservableItem interface.
 		/// </summary>
 		/// <param name="strProperty">The name of the property that has changed</param>
-		protected void FireObservableItemPropertyChanged(string strProperty)
+		private void FireObservableItemPropertyChanged(string strProperty)
 		{
 			if (this.ObservableItemPropertyChanged != null)
 			{

@@ -321,7 +321,7 @@ namespace Gizmox.WebGUI.Forms
 			{
 				if (!((IApplicationContext)VWGContext.Current).HandleThreadException(ex))
 				{
-					throw ex;
+					throw;
 				}
 			}
 			return ((Gizmox.WebGUI.Common.Interfaces.ITimer)this).GetNextInvokation(mlngLastTicks);

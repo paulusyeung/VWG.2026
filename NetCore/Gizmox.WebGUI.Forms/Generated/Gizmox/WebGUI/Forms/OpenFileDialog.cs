@@ -113,7 +113,7 @@ namespace Gizmox.WebGUI.Forms
 		/// Summary description for OpenFileDialog.
 		/// </summary>
 		[Serializable]
-		protected sealed class OpenFileDialogForm : CommonDialogForm
+		private sealed class OpenFileDialogForm : CommonDialogForm
 		{
 			/// 
 			/// Provides a property reference to HtmlBoxHost property.

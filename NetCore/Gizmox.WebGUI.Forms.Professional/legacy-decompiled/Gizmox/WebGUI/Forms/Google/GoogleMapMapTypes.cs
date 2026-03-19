@@ -194,4 +194,9 @@ public class GoogleMapMapTypes
 		}
 		return false;
 	}
+
+	public override int GetHashCode()
+	{
+		return HashCode.Combine(mblnRoadMap, mblnHybrid, mblnSatellite, mblnTerrain, mblnOpenStreatMap);
+	}
 }

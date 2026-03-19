@@ -162,13 +162,13 @@ public class ZedGraphControl : Control, IRequiresRegistration
 	private static readonly SerializableEvent ZoomEventEvent;
 
 	[CompilerGenerated]
-	private new ZedMouseEventHandler m_MouseDownEvent;
+	private ZedMouseEventHandler m_MouseDownEvent;
 
 	[CompilerGenerated]
 	private ZedMouseEventHandler m_MouseMoveEvent;
 
 	[CompilerGenerated]
-	private new ZedMouseEventHandler m_MouseUpEvent;
+	private ZedMouseEventHandler m_MouseUpEvent;
 
 	[Obsolete("Not implemented. Added for migration compatibility")]
 	[Browsable(false)]
@@ -1554,6 +1554,7 @@ public class ZedGraphControl : Control, IRequiresRegistration
 	/// <summary>
 	/// Refreshes this instance.
 	/// </summary>
+	[Obsolete("Overrides legacy obsolete Refresh for compatibility.")]
 	public override void Refresh()
 	{
 		Update();

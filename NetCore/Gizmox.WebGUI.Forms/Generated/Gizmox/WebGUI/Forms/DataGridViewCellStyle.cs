@@ -684,6 +684,25 @@ namespace Gizmox.WebGUI.Forms
 			return obj is DataGridViewCellStyle objDataGridViewCellStyle && GetDifferencesFrom(objDataGridViewCellStyle) == DataGridViewCellStyleDifferences.None;
 		}
 
+		public override int GetHashCode()
+		{
+			HashCode hashCode = default(HashCode);
+			hashCode.Add(Alignment);
+			hashCode.Add(BackColor);
+			hashCode.Add(ForeColor);
+			hashCode.Add(SelectionBackColor);
+			hashCode.Add(SelectionForeColor);
+			hashCode.Add(Font);
+			hashCode.Add(NullValue);
+			hashCode.Add(DataSourceNullValue);
+			hashCode.Add(Format);
+			hashCode.Add(FormatProvider);
+			hashCode.Add(WrapMode);
+			hashCode.Add(Tag);
+			hashCode.Add(Padding);
+			return hashCode.ToHashCode();
+		}
+
 		/// 
 		/// Gets the differences from.
 		/// </summary>

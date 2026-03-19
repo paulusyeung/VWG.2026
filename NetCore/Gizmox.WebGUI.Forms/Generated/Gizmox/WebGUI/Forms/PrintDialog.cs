@@ -114,7 +114,7 @@ namespace Gizmox.WebGUI.Forms
 		///
 		/// </summary>
 		[Serializable]
-		protected sealed class PrintDialogForm : CommonDialogForm
+		private sealed class PrintDialogForm : CommonDialogForm
 		{
 			/// 
 			/// Initializes a new instance of the <see cref="!:SaveFileDialogForm" /> class.

@@ -266,7 +266,7 @@ namespace Gizmox.WebGUI.Forms
 					mobjListControl = objListControl;
 				}
 
-				int IComparer<ListBoxItem>.Compare(ListBoxItem? objFirstListBoxItem, ListBoxItem? objSecondListBoxItem)
+				int IComparer<ListBoxItem>.Compare(ListBoxItem objFirstListBoxItem, ListBoxItem objSecondListBoxItem)
 				{
 					if (objFirstListBoxItem == null)
 					{

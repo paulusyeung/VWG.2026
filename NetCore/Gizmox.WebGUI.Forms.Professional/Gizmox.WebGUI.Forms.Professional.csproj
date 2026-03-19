@@ -4,12 +4,13 @@
     <TargetFramework>net8.0-windows</TargetFramework>
     <OutputType>Library</OutputType>
     <LangVersion>latest</LangVersion>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <AssemblyName>Gizmox.WebGUI.Forms.Professional</AssemblyName>
     <RootNamespace>Gizmox.WebGUI.Forms</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <NoWarn>$(NoWarn);CS0618;SYSLIB0003;SYSLIB0011;SYSLIB0023</NoWarn>
+    <GenerateResourceWarnOnBinaryFormatterUse>false</GenerateResourceWarnOnBinaryFormatterUse>
+    <NoWarn>$(NoWarn);CS0067;CS0168;CS0169;CS0219;CS0414;CS0618;CS0649;CS0809;NU1701;SYSLIB0003;SYSLIB0011;SYSLIB0023</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>

@@ -173,7 +173,7 @@ namespace Gizmox.WebGUI.Forms
 					Cursor cursor = (Cursor)propertyInfo.GetValue(null, index);
 					if (cursor == (Cursor)objValue)
 					{
-						if (cursor == objValue)
+						if (ReferenceEquals(cursor, objValue))
 						{
 							return propertyInfo.Name;
 						}

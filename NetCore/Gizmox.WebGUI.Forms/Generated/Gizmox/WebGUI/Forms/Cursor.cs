@@ -346,6 +346,19 @@ namespace Gizmox.WebGUI.Forms
 			return !(objCursor1 == objCursor2);
 		}
 
+		public override bool Equals(object obj)
+		{
+			if (ReferenceEquals(this, obj))
+			{
+				return true;
+			}
+			if (obj is not Cursor cursor)
+			{
+				return false;
+			}
+			return string.Equals(Style, cursor.Style, StringComparison.Ordinal);
+		}
+
 		/// 
 		/// Copies the handle  of this Cursor.
 		/// </summary>
@@ -393,7 +406,7 @@ namespace Gizmox.WebGUI.Forms
 		[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 		public override int GetHashCode()
 		{
-			return 0;
+			return Style?.GetHashCode(StringComparison.Ordinal) ?? 0;
 		}
 
 		/// 

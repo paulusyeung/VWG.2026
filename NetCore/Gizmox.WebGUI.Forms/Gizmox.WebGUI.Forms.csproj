@@ -4,11 +4,11 @@
     <TargetFramework>net8.0-windows</TargetFramework>
     <OutputType>Library</OutputType>
     <LangVersion>latest</LangVersion>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <AssemblyName>Gizmox.WebGUI.Forms</AssemblyName>
     <RootNamespace>Gizmox.WebGUI.Forms</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
-    <NoWarn>$(NoWarn);CS0618;SYSLIB0003;SYSLIB0011;SYSLIB0023</NoWarn>
+    <NoWarn>$(NoWarn);CS0067;CS0168;CS0169;CS0219;CS0414;CS0618;CS0649;CS0809;SYSLIB0003;SYSLIB0011;SYSLIB0023;SYSLIB0050;SYSLIB0051</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>

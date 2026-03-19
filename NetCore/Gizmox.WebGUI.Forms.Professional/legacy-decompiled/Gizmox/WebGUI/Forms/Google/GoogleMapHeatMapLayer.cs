@@ -174,7 +174,7 @@ public class GoogleMapHeatMapLayer : GoogleMapLayer
 	/// The data points to display. Required.
 	/// </summary>
 	[DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
-	[Editor("Gizmox.WebGUI.Forms.Google.GoogleLocationCollectionEditor, Gizmox.WebGUI.Forms.Professional.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=fd7bc2dbb230d265", typeof(UITypeEditor))]
+	[Editor("Gizmox.WebGUI.Forms.Google.GoogleLocationCollectionEditor, Gizmox.WebGUI.Forms.Professional.Design", typeof(UITypeEditor))]
 	[SRDescription("The data points to display. Required.")]
 	public GoogleMapLocationCollection DataPoints
 	{

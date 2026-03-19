@@ -550,7 +550,7 @@ public class GoogleMap : Control, IRequiresRegistration
 	/// </summary>
 	/// <value>The overlays.</value>
 	[DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
-	[Editor("Gizmox.WebGUI.Forms.Google.GoogleOverlayCollectionEditor, Gizmox.WebGUI.Forms.Professional.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=fd7bc2dbb230d265", typeof(UITypeEditor))]
+	[Editor("Gizmox.WebGUI.Forms.Google.GoogleOverlayCollectionEditor, Gizmox.WebGUI.Forms.Professional.Design", typeof(UITypeEditor))]
 	[SRCategory("GoogleMap")]
 	[SRDescription("Overlays active on the map.")]
 	[WebEditor(typeof(GoogleMapOverlayCollectionWebEditor), typeof(WebUITypeEditor))]
@@ -572,7 +572,7 @@ public class GoogleMap : Control, IRequiresRegistration
 	/// </summary>
 	/// <value>The layers.</value>
 	[DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
-	[Editor("Gizmox.WebGUI.Forms.Google.GoogleLayerCollectionEditor, Gizmox.WebGUI.Forms.Professional.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=fd7bc2dbb230d265", typeof(UITypeEditor))]
+	[Editor("Gizmox.WebGUI.Forms.Google.GoogleLayerCollectionEditor, Gizmox.WebGUI.Forms.Professional.Design", typeof(UITypeEditor))]
 	[SRCategory("GoogleMap")]
 	[SRDescription("Layers active on the map.")]
 	[WebEditor(typeof(GoogleMapLayerCollectionWebEditor), typeof(WebUITypeEditor))]

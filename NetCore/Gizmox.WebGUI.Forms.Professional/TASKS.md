@@ -9,9 +9,9 @@
 - [x] Resolve decompiler compile blockers (event registration collisions and signature artifacts).
 - [x] Add Forms internal visibility bridge required by Professional extension internals.
 - [x] Validate standalone project build on .NET 8.
+- [x] Normalize Professional design/controller assembly-qualified strings to simple assembly names so the net8 `Gizmox.WebGUI.Forms.Professional.Design` port can resolve without the legacy strong-name token.
 
 ## Next
 
 - [ ] Triage Professional warning backlog and optionally define a NoWarn baseline for generated/decompiled patterns.
 - [ ] Add targeted runtime verification scenarios for GoogleMap and ZedGraph controls.
-- [ ] Decide whether to normalize legacy design/controller assembly-qualified strings for Professional design-time paths.

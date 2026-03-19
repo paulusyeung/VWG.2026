@@ -150,8 +150,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			get
 			{
-				_ = mobjLinkActiveColor;
-				if (true)
+				if (!mobjLinkActiveColor.IsEmpty)
 				{
 					return mobjLinkActiveColor;
 				}
@@ -306,8 +305,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			get
 			{
-				_ = mobjLinkColor;
-				if (true)
+				if (!mobjLinkColor.IsEmpty)
 				{
 					return mobjLinkColor;
 				}
@@ -509,8 +507,7 @@ namespace Gizmox.WebGUI.Forms
 		{
 			get
 			{
-				_ = mobjLinkVisitedLinkColor;
-				if (true)
+				if (!mobjLinkVisitedLinkColor.IsEmpty)
 				{
 					return mobjLinkVisitedLinkColor;
 				}

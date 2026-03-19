@@ -61,4 +61,9 @@ public class GoogleMapWeightedLocation : GoogleMapLocation
 		}
 		return false;
 	}
+
+	public override int GetHashCode()
+	{
+		return HashCode.Combine(base.Latitude, base.Longitude, Weight);
+	}
 }

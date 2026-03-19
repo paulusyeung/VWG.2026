@@ -683,7 +683,6 @@ namespace Gizmox.WebGUI.Forms
 		{
 			get
 			{
-				bool flag = false;
 				TreeNode treeNode = this;
 				do
 				{
@@ -699,8 +698,6 @@ namespace Gizmox.WebGUI.Forms
 					return null;
 				}
 				while (true);
-				TreeNode treeNode2 = null;
-				return treeNode2;
 			}
 		}
 

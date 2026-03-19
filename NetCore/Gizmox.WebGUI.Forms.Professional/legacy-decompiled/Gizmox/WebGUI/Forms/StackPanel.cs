@@ -15,7 +15,7 @@ namespace Gizmox.WebGUI.Forms;
 [Skin(typeof(StackPanelSkin))]
 [ToolboxBitmap(typeof(StackPanel), "Professional.StackPanel_45.png")]
 [ClientController("Gizmox.WebGUI.Client.Controllers.StackPanelController, Gizmox.WebGUI.Client, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23")]
-[DesignTimeController("Gizmox.WebGUI.Forms.Professional.Design.Controllers.StackPanelController, Gizmox.WebGUI.Forms.Professional.Design, Version=4.5.25701.0, Culture=neutral, PublicKeyToken=fd7bc2dbb230d265")]
+[DesignTimeController("Gizmox.WebGUI.Forms.Professional.Design.Controllers.StackPanelController, Gizmox.WebGUI.Forms.Professional.Design")]
 public class StackPanel : Panel, IRequiresRegistration
 {
 	/// <summary>

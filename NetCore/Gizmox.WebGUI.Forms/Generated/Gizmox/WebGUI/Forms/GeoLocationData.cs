@@ -350,6 +350,11 @@ namespace Gizmox.WebGUI.Forms
 			return base.Equals(obj);
 		}
 
+		public override int GetHashCode()
+		{
+			return HashCode.Combine(RepeatCheck, EnableHighAccuracy, MaximumAge, Timeout);
+		}
+
 		/// 
 		/// Resets the enable high accuracy.
 		/// </summary>

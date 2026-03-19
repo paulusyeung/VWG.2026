@@ -1899,7 +1899,7 @@ namespace Gizmox.WebGUI.Forms.PropertyGridInternal
 				{
 					if (ex != CheckoutException.Canceled)
 					{
-						throw ex;
+						throw;
 					}
 					return false;
 				}

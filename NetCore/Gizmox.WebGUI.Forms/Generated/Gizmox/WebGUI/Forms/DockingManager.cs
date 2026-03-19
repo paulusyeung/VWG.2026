@@ -1214,7 +1214,7 @@ namespace Gizmox.WebGUI.Forms
 			}
 			catch (Exception ex)
 			{
-				throw ex;
+				throw;
 			}
 			finally
 			{

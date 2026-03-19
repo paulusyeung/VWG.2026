@@ -109,4 +109,9 @@ public class GoogleMapLocation
 		}
 		return false;
 	}
+
+	public override int GetHashCode()
+	{
+		return HashCode.Combine(Latitude, Longitude);
+	}
 }
