@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Gizmox.WebGUI.Forms.Office.Design</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net452</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Gizmox.WebGUI.Common" />
+    <Reference Include="System.Design" />
+    <Reference Include="Gizmox.WebGUI.Forms.Office">
+      <HintPath>..\..\..\Sources 4.5.2\Gizmox.WebGUI.Assemblies\bin\4.5.2\Gizmox.WebGUI.Forms.Office.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Forms" />
+    <Reference Include="Gizmox.WebGUI.Forms.Design" />
+    <Reference Include="Gizmox.WebGUI.Client" />
+  </ItemGroup>
+</Project>
