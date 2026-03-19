@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Generated\Gizmox\WebGUI\Common\WebSockets\WebSocketService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Client\PreloadResourcesComponent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\RegisteredComponent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\Skin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\SkinComponent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\Theme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

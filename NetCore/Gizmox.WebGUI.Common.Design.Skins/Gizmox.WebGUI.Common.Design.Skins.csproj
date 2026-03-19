@@ -8,9 +8,6 @@
     <AssemblyName>Gizmox.WebGUI.Common.Design.Skins</AssemblyName>
     <RootNamespace>Gizmox.WebGUI.Common.Design.Skins</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
-    <AssemblyVersion>4.5.25701.0</AssemblyVersion>
-    <FileVersion>4.5.25701.0</FileVersion>
-    <Version>4.5.25701.0</Version>
     <Description>Standalone .NET 8 migration target for the legacy Gizmox.WebGUI.Common.Design.Skins assembly.</Description>
     <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
     <GenerateResourceWarnOnBinaryFormatterUse>false</GenerateResourceWarnOnBinaryFormatterUse>

@@ -8,9 +8,6 @@
     <AssemblyName>Gizmox.WebGUI.Forms.Extended.Design</AssemblyName>
     <RootNamespace>Gizmox.WebGUI.Forms.Extended.Design</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
-    <AssemblyVersion>4.5.25701.0</AssemblyVersion>
-    <FileVersion>4.5.25701.0</FileVersion>
-    <Version>4.5.25701.0</Version>
     <Description>Standalone .NET 8 migration target for the legacy Gizmox.WebGUI.Forms.Extended.Design assembly.</Description>
   </PropertyGroup>
 

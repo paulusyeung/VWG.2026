@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="legacy-decompiled\Gizmox.WebGUI.Common.Design.Skins.Editors\BrowserCapabilitiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="legacy-decompiled\Gizmox.WebGUI.Common.Design.Skins.Editors\BrowserCapabilitiesUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="legacy-decompiled\Gizmox.WebGUI.Common.Design.Skins.Forms\ExportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="legacy-decompiled\Gizmox.WebGUI.Common.Design.Skins.Forms\ProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="legacy-decompiled\Gizmox.WebGUI.Common.Design.Skins.Forms\SkinResourcesResetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="legacy-decompiled\Gizmox.WebGUI.Common.Design.Skins\DocumentDesignerFrame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="legacy-decompiled\Gizmox.WebGUI.Common.Design.Skins\DocumentDesignerList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="legacy-decompiled\Gizmox.WebGUI.Common.Design.Skins\DocumentDesignerTree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

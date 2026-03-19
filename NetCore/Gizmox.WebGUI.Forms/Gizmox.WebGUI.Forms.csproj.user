@@ -1,0 +1,1017 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\AdministrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\AdministrationFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\AdministrationLogonControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\AdministrationLogonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Administration\Abstract\ContentChangeNotifierUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Administration\AdministrationContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationFooterPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationHeaderLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationHeaderLabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationTabs.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationTabsSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationWatermarkTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Administration\CustomComponents\AdministrationWatermarkTextBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Authentication\LogonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\BindingNavigator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\BorderlessTextBoxVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ButtonBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\CheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\CheckBoxSwitchVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\CheckedListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ColorComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ColorListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ColumnChooserButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ColumnChooserButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ColumnHeader.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Component.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ContainerControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ContextualToolbar\ContextualToolbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ContextualToolbar\ContextualToolbarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ContextualToolbar\ProxyControlContextualToolbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ContextualToolbar\ProxyControlContextualToolbarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Control.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Controls\ItemChooser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DataGridViewActiveTextBoxCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DataGridViewCellPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DataGridViewComboBoxEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DataGridViewCustomFilterDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DataGridViewFilterButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DataGridViewFilterComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DataGridViewFilterComboBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DataGridViewGroupingHeader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DataGridViewGroupingTreeNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DataGridViewGroupingTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DataGridViewGroupingTreeViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DataGridViewHeaderFilterComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DataGridViewHeaderFilterComboBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DataGridViewTextBoxEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DateTimePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DateTimePickerPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DefaultAdministrationLogonControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Design\AnchorPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Design\AnchorPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Design\ColorEditorDropDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Design\DockButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Design\DockButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\Abstract\DeviceComponent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\Abstract\WatchedDeviceComponent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\Accelerometer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\Camera.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\Capture.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\Compass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\Connection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\Contacts.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\DeviceEvents.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\DeviceInfo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\DeviceIntegrator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\DeviceIntegratorSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\DeviceMedia.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\FileManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\Geolocation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\Globalization.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\Notifications.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\Splashscreen.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DeviceIntegration\Storage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Dialogs\ListViewColumnOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Dialogs\ListViewGroupingOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Dialogs\ListViewSortingOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DockedContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DockedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DockedHiddenZonesPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DockedHiddenZonesPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DockedSplitContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DockedTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DockedTabControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DockedTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DockingManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DockingManagerSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DockingWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\DomainUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ExtendedHeaderUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\FlowLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\FrameControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\GroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\HiddenZonePopupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\HierarchicDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Hosts\ActiveXBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Hosts\AppletBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Hosts\AppletBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Hosts\FlashBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Hosts\FlashBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Hosts\ObjectBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Hosts\Skins\ObjectBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Hosts\Skins\XamlBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Hosts\XamlBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\HtmlBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Label.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\LinkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ListControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ListViewItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ListViewPanelItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\MainContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\MainMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\MaskedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\MasterPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\MasterPageContent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\MdiClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Menu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\MenuCollection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\MenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\MenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\MessageBoxWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\MonthCalendar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\NumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\OpenFileDialogProgressPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\OrientationTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\OrientationTabControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Panel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\PictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\PrintDocument.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\PropertyGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\PropertyGridInternal\PropertyGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\PropertyGridToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyComponent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyFlowLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyForm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyMainMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyMasterPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyOrientationTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyStatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyTableLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyToolStripControlHost.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyTreeNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ProxyTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\RadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\RichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ScrollableControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ShortcutsContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\BindingNavigatorSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\BorderlessButtonVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ButtonBaseSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\CheckBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\CheckedListBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ColorComboBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ColorDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ColorListBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ComboBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\CommonDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\CommonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ContainerControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\DataGridViewButtonCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\DataGridViewCellPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\DataGridViewCheckBoxCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\DataGridViewComboBoxCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\DataGridViewFilterButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\DataGridViewFilterComboBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\DataGridViewImageCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\DataGridViewLinkCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\DataGridViewMobileVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\DataGridViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\DataGridViewTextBoxCellSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\DateTimePickerPopupSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\DateTimePickerSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\DomainUpDownSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\FileDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\FlatToolBarButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\FlatToolBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\FlowLayoutPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\FolderBrowserDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\FontDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\FormSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\FrameControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\GroupBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\HeaderLabelVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\HtmlBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\LabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\LinkLabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ListBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ListViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ListViewVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\LoadingSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\MainMenuSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\MaskedTextBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\MasterPageContentSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\MasterPageSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\MdiClientSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\MenuItemSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\MenuSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\MenuStripSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\MessageBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\MonthCalendarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\NativeComboBoxVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\NativeDateTimePickerVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\NativeTrackBarVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\NumericUpDownSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\OpenFileDialogSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\PanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\PictureBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\PopupsSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ProgressBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\PropertyGridSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\PropertyGridToolStripSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\RadioButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\RichTextBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ScrollableControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\SplitContainerSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\SplitterPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\SplitterSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\StatusBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\StatusStripSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\TabControlLogicalVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\TabControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\TabControlSpreadVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\TableLayoutPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\TabPageSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\TaskBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\TextBoxBaseSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\TextBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\TitleLabelVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ToolBarButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ToolBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ToolStripButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ToolStripControlHostSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ToolStripDropDownButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ToolStripLabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ToolStripSeparatorSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ToolStripSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ToolStripSplitButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ToolStripStatusLabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\ToolTipSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\TrackBarSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\TreeViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\TreeViewVisualTemplateSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\UpDownBaseSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\UserControlSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\VirtualDataGridViewSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Skins\WatermarkTextBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\SplitContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Splitter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\SplitterPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\StatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\StatusBarPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\StatusStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\TabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\TableLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\TabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\TextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\TextBoxBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolBarButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripContainerSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripContentPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripControlHost.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripDropDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripDropDownButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripDropDownContentPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripDropDownItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripDropDownMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripDropDownSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripMenuItemSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripOverflowButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripPanelRow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripSeparator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripSplitButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripStatusLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ToolStripTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\TrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\TreeNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\TreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\UpDownBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\VirtualDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\WatermarkTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\WizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\WizardStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\Zone.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ZoneCloseButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ZoneCloseButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ZoneDropDownButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ZoneDropDownButtonSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ZoneHeaderLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ZoneHeaderLabelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ZoneHeaderPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ZoneHeaderPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ZonePinCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ZonePinCheckBoxSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Forms\ZoneSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Virtualization\Management\ApplicationDOMNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Virtualization\Management\PhysicalStorageNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Virtualization\Management\ServerExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Virtualization\Management\ServerExplorerNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Virtualization\Management\ServerExplorerTree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Virtualization\Management\SessionNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Virtualization\Management\VirtualRegistryNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Virtualization\Management\VirtualStorageNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Virtualization\Management\XmlDocumentNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Generated\Gizmox\WebGUI\Virtualization\Management\XmlNodeNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
