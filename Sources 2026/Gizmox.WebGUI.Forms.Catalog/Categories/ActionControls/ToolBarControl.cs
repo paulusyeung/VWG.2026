@@ -155,8 +155,6 @@ namespace Gizmox.WebGUI.Forms.Catalog.Categories.ActionControls
 
         void IHostedApplication.OnToolBarButtonClick(HostedToolBarButton objButton, EventArgs objEvent)
         {
-            HostedToolBarToggleButton objHostedToolBarToggleButton = null;
-
             string strAction = (string)objButton.Tag;
             switch (strAction)
             {

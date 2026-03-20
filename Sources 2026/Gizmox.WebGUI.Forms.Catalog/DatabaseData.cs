@@ -1,11 +1,9 @@
 using System;
 using System.IO;
 using System.Data;
-using System.Security;
 using System.Data.OleDb;
 using Gizmox.WebGUI.Common;
 using System.Runtime.Serialization;
-using System.Security.Permissions;
 
 namespace Gizmox.WebGUI.Forms.Catalog
 {
@@ -26,6 +24,7 @@ namespace Gizmox.WebGUI.Forms.Catalog
 
 		}
 
+		[Obsolete("Legacy formatter-based serialization constructor.")]
         protected DatabaseData(SerializationInfo info, StreamingContext context) : base(info, context)
         {
 
@@ -57,11 +56,11 @@ namespace Gizmox.WebGUI.Forms.Catalog
             mobjCustomerDataAdapter = new OleDbDataAdapter("select * from " + TableName, Connection);
             OleDbCommandBuilder objBuilder = new OleDbCommandBuilder(mobjCustomerDataAdapter);
 
-            if (SecurityManager.IsGranted(new OleDbPermission(PermissionState.Unrestricted)))
+			try
             {
                 mobjCustomerDataAdapter.Fill(this, TableName);
             }
-            else
+			catch
             {
                 //Populate table with 
                 DataTable Table = new DataTable(TableName);
@@ -69,6 +68,10 @@ namespace Gizmox.WebGUI.Forms.Catalog
                 DataRow aRow = Table.NewRow();
                 aRow["Column1"] = "Partially trusted environment, Access to the database restricted by the trust level.";
                 Table.Rows.Add(aRow);
+				if (this.Tables.Contains(TableName))
+				{
+					this.Tables.Remove(TableName);
+				}
                 this.Tables.Add(Table);
             }
         }

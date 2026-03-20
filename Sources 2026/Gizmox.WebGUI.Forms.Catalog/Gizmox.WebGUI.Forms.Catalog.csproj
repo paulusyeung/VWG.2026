@@ -1,9 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <NoWarn>$(NoWarn);CS0067;CS0252;CS0414;CS0618;CS8767;CS8769</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,6 +18,19 @@
     <None Remove="Controls\WinPanelSkin.ToolTopLeft.gif" />
     <None Remove="Controls\WinPanelSkin.ToolTopRight.gif" />
     <None Remove="Controls\WinPanelSkin.WinPanel.xslt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+    <PackageReference Include="System.Data.OleDb" Version="8.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
+    <PackageReference Include="System.Resources.Extensions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Categories\Gateways\ASPX\AspPageControl.cs" />
+    <Compile Remove="Categories\Gateways\ASPX\AspPageForm.aspx.cs" />
+    <Compile Remove="Categories\DataControls\ReportViewerControl.cs" />
   </ItemGroup>
 
   <ItemGroup>

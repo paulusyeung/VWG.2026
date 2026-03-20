@@ -296,7 +296,7 @@ namespace Gizmox.WebGUI.Forms.Catalog
         /// <returns></returns>
         internal static CatalogSettings GetInstance()
         {
-            return (CatalogSettings)ConfigurationManager.GetSection("WebGUICatalog");
+            return (CatalogSettings)System.Configuration.ConfigurationManager.GetSection("WebGUICatalog");
         }
 
         #endregion

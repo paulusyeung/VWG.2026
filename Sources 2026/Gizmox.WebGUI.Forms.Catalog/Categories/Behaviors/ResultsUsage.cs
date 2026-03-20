@@ -20,7 +20,7 @@ namespace Gizmox.WebGUI.Forms.Catalog.Categories.Behaviors
 		private Gizmox.WebGUI.Forms.Button mobjButtonSubmit;
 		private Gizmox.WebGUI.Forms.TextBox mobjTextResult;
         [NonSerialized()]
-        private System.ComponentModel.IContainer components;
+		private System.ComponentModel.IContainer components = null;
 
 		public ResultsUsage()
 		{

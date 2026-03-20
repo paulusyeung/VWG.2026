@@ -106,7 +106,7 @@ namespace Gizmox.WebGUI.Forms.Catalog.Applications.ClassBrowser
 				{
 					mobjTypes = new ArrayList();
 
-					NameValueCollection objNamespaceSettings = (NameValueCollection)ConfigurationManager.GetSection("ClassBrowser");
+					NameValueCollection objNamespaceSettings = (NameValueCollection)System.Configuration.ConfigurationManager.GetSection("ClassBrowser");
 					for (int i=0;i<objNamespaceSettings.Count;i++) 
 					{
 						Assembly objAssembly = Assembly.Load(objNamespaceSettings[i].ToString());

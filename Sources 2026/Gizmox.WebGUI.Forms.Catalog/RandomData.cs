@@ -5,7 +5,6 @@ using System.Reflection;
 using System.Drawing.Design;
 using System.ComponentModel;
 using Gizmox.WebGUI.Common.Resources;
-using System.Web.UI.MobileControls;
 using System.Collections.Generic;
 
 namespace Gizmox.WebGUI.Forms.Catalog
