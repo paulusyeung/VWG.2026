@@ -1,0 +1,70 @@
+<Form x:Inherits="Gizmox.WebGUI.Forms.Catalog.XamlForm" 
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:o="clr-namespace:Gizmox.WebGUI.Forms;assembly=Gizmox.WebGUI.Forms.Office"
+  Text="XamlForm.wgx - Xaml Test" Padding="2" FormStyle="Application">  
+  <Form.Menu>
+    <MainMenu>
+      <MenuItem Text="File">
+        <MenuItem Text="Save" Click="OnSaveClick"/>
+        <MenuItem Text="-" />
+        <MenuItem Text="Exit" />
+      </MenuItem>
+      <MenuItem Text="Edit" >
+        <MenuItem Text="Cut" Click="OnCutClick"/>
+        <MenuItem Text="Copy"  />
+        <MenuItem Text="Paste" />
+        <MenuItem Text="-" />
+        <MenuItem Text="Select All" />        
+      </MenuItem>
+      <MenuItem Text="Help" >
+        <MenuItem Text="About VWG" />
+      </MenuItem>
+    </MainMenu>
+  </Form.Menu>
+  <ToolBar Dock="Top">
+    <ToolBarButton Text="Test" Image="Icons.Cut.gif">
+      <MenuItem Text="Cut" />
+      <MenuItem Text="Copy" />
+      <MenuItem Text="Paste" />
+      <MenuItem Text="Save" Click="OnSaveClick" />
+    </ToolBarButton>
+  </ToolBar>
+  <o:NavigationTabs Dock="Left" Width="250">
+    <o:NavigationTab Text="Calendar" Image="Icons.24X24.Applications.gif" >
+      <TreeView Dock="Fill" BorderStyle="None">
+        <TreeNode Text="Test1" Image="Icons.Folder.gif" />
+        <TreeNode Text="Test1" Image="Icons.Folder.gif">
+          <TreeNode Text="Test1" Image="Icons.Folder.gif" />
+          <TreeNode Text="Test2" Image="Icons.Folder.gif" />
+          <TreeNode Text="Test3" Image="Icons.Folder.gif" />
+          <TreeNode Text="Test4" Image="Icons.Folder.gif" />
+          <TreeNode Text="Test5" Image="Icons.Folder.gif" />
+        </TreeNode>
+        <TreeNode Text="Test1" Image="Icons.Folder.gif" />
+        <TreeNode Text="Test1" Image="Icons.Folder.gif" />
+        <TreeNode Text="Test1" Image="Icons.Folder.gif" />
+      </TreeView>
+    </o:NavigationTab>
+    <o:NavigationTab Text="Mail" Image="Icons.24X24.Behaviors.gif">
+      <TreeView Dock="Fill" BorderStyle="None">
+        <TreeNode Text="Test1" Image="Icons.Folder.gif" />
+        <TreeNode Text="Test1" Image="Icons.Folder.gif">
+          <TreeNode Text="Test1" Image="Icons.Folder.gif" />
+          <TreeNode Text="Test2" Image="Icons.Folder.gif" />
+          <TreeNode Text="Test3" Image="Icons.Folder.gif" />
+          <TreeNode Text="Test4" Image="Icons.Folder.gif" />
+          <TreeNode Text="Test5" Image="Icons.Folder.gif" />
+        </TreeNode>
+        <TreeNode Text="Test1" Image="Icons.Folder.gif" />
+        <TreeNode Text="Test1" Image="Icons.Folder.gif" />
+        <TreeNode Text="Test1" Image="Icons.Folder.gif" />
+      </TreeView>
+    </o:NavigationTab>
+    <o:NavigationTab Text="Contacts" Image="Icons.24X24.Folders.gif"></o:NavigationTab>
+  </o:NavigationTabs>
+  <Splitter Dock="Left"></Splitter>
+  <o:ScheduleBox Dock="Fill" View="Week" FirstDate="5/19/1976" BorderStyle="None">
+    <o:ScheduleBoxEvent Start="5/19/1976 10:00" End="5/19/1976 12:00" Subject="Guys birthday"/>
+    <o:ScheduleBoxEvent Start="5/20/1976 8:00" End="5/20/1976 10:00" Subject="Meeting with Joe 1"/>
+  </o:ScheduleBox>
+</Form>

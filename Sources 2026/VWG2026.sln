@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gizmoxx.WebGUI.Forms.Help", "Gizmoxx.WebGUI.Forms.Help\Gizmoxx.WebGUI.Forms.Help.csproj", "{04B51502-8104-442C-ABF4-60643F66EC6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gizmox.WebGUI.Forms.Catalog", "Gizmox.WebGUI.Forms.Catalog\Gizmox.WebGUI.Forms.Catalog.csproj", "{0E8DE07F-FD7D-4440-B873-0C95795FC6C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{04B51502-8104-442C-ABF4-60643F66EC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04B51502-8104-442C-ABF4-60643F66EC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04B51502-8104-442C-ABF4-60643F66EC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8DE07F-FD7D-4440-B873-0C95795FC6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8DE07F-FD7D-4440-B873-0C95795FC6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8DE07F-FD7D-4440-B873-0C95795FC6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8DE07F-FD7D-4440-B873-0C95795FC6C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Controls\WinPanelSkin.ToolBottomCenter.gif" />
+    <None Remove="Controls\WinPanelSkin.ToolBottomLeft.gif" />
+    <None Remove="Controls\WinPanelSkin.ToolBottomRight.gif" />
+    <None Remove="Controls\WinPanelSkin.ToolClose.gif" />
+    <None Remove="Controls\WinPanelSkin.ToolLeft.gif" />
+    <None Remove="Controls\WinPanelSkin.ToolRight.gif" />
+    <None Remove="Controls\WinPanelSkin.ToolTopCenter.gif" />
+    <None Remove="Controls\WinPanelSkin.ToolTopLeft.gif" />
+    <None Remove="Controls\WinPanelSkin.ToolTopRight.gif" />
+    <None Remove="Controls\WinPanelSkin.WinPanel.xslt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Gizmox.WebGUI.Common">
+      <HintPath>..\Gizmox.WebGUI.Assemblies\Gizmox.WebGUI.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Common.Design">
+      <HintPath>..\Gizmox.WebGUI.Assemblies\Gizmox.WebGUI.Common.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Common.Design.Skins">
+      <HintPath>..\Gizmox.WebGUI.Assemblies\Gizmox.WebGUI.Common.Design.Skins.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Forms">
+      <HintPath>..\Gizmox.WebGUI.Assemblies\Gizmox.WebGUI.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Forms.Charts">
+      <HintPath>..\Gizmox.WebGUI.Assemblies\Gizmox.WebGUI.Forms.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Forms.Extended">
+      <HintPath>..\Gizmox.WebGUI.Assemblies\Gizmox.WebGUI.Forms.Extended.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Forms.Extended.Design">
+      <HintPath>..\Gizmox.WebGUI.Assemblies\Gizmox.WebGUI.Forms.Extended.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Forms.Help">
+      <HintPath>..\Gizmox.WebGUI.Assemblies\Gizmox.WebGUI.Forms.Help.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Forms.Office">
+      <HintPath>..\Gizmox.WebGUI.Assemblies\Gizmox.WebGUI.Forms.Office.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Forms.Office.Design">
+      <HintPath>..\Gizmox.WebGUI.Assemblies\Gizmox.WebGUI.Forms.Office.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Forms.Themes">
+      <HintPath>..\Gizmox.WebGUI.Assemblies\Gizmox.WebGUI.Forms.Themes.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Server">
+      <HintPath>..\Gizmox.WebGUI.Assemblies\Gizmox.WebGUI.Server.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientBin\" />
+    <Folder Include="Resources\Capture\" />
+    <Folder Include="Resources\Generated\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\Xaml\Sample.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>

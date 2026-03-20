@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Applications\ClassBrowser\ClassBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Applications\ClassBrowser\Dialogs\SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Categories\ActionControls\ButtonsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\ActionControls\ContextMenuControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\ActionControls\ToolBarControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\AnchoringBehavior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\BackgourndImage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\BindingNavigatorBehavior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\ContextUsage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\DockingBehavior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\DragAndDropBehavior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\ErrorProviderBehavior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\FlowLayoutBehavior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\Forms\WindowsBehaviorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\ListDataBindingBehavior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\ResourcesBehavior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\ResultsUsage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\SplitContainerBehavior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\TableLayoutBehavior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\Timers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\UploadBehavior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\WindowsBehavior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Behaviors\XamlBoxBehavior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\CustomControls\CustomWindowPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\DataControls\BindedDataGridViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\DataControls\CustomDataGridViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\DataControls\DatagridviewSelectionChanged.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\DataControls\DataListViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\DataControls\ListViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\DataControls\ListViewControlGroups.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\DataControls\ListViewControlPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\DataControls\ListViewControlViews.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\DataControls\PropertyGridControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\DataControls\ReportViewerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\DataControls\TreeViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\DataControls\TreeViewControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\DataControls\TreeViewControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\DialogForms\Forms\SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Categories\DialogForms\Forms\TestingForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Categories\DialogForms\MessageBoxForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\DialogForms\MiscellaneousForms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Gateways\ASPX\AspPageControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\Gateways\Controls\PieControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Categories\Gateways\GraphGeneratingGateway.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\HostControls\FlashControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\InputControls\Controls\OwnerDrawnComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Categories\InputControls\DateInputControls.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\InputControls\ListInputControls.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\InputControls\RichTextInputControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\InputControls\TextInputControls.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\InputControls\TrackBarControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\InputControls\UpDownControls.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\LogicalCategory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\NavigationControls\TabControlControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Categories\NavigationControls\WorkspaceTabControlControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\WinPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\WinPanelSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DatabaseData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Extensions\Charts\ChartSample1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Extensions\Charts\ChartSample2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Extensions\Editors\FCKEditorSample.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Extensions\Office\Controls\SampleRibbon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Extensions\Office\RibbonSample.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Extensions\Office\RichTextEditorSample.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Extensions\Office\ScheduleBoxSample.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\AboutVWGForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\InspectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LogonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MdiChildForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MdiMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="XamlForm.wgx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Resources\Xaml\Sample.xaml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+</Project>
